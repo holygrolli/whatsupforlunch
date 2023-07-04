@@ -1,0 +1,85 @@
+name: ratskeller
+on:
+  workflow_dispatch:
+jobs:
+  download:
+    container:
+      image: grolland/wufl:latest
+    outputs:
+      matrix: ${{ steps.setmatrix.outputs.matrix }}
+    steps:
+      - name: checkout
+        uses: actions/checkout@v3
+      - name: get new links
+        shell: bash
+        run: |
+          WD=${PWD}
+          scrapy runspider locations/ratskeller/ratskeller_scra.py --nolog | sort > tmp/scraped_links.txt
+          cd tmp
+          while IFS= read -r line; do
+            curl -sOL $line
+          done < <(comm -13 ../locations/ratskeller/scraped_done.txt scraped_links.txt)
+          for file in $(ls *.pdf | grep -v separated);
+          do
+            pdfseparate $file ${file%.*}_separated_%d.pdf
+          done
+          ls *.pdf | grep -v separated | xargs rm
+      - id: setmatrix
+        run: |
+          matrixInput=$(find ./tmp -name '*.pdf') # Creates array of all pdf files in tmp folder
+          # Start Generate Json String
+          echo "$matrixInput" | \
+          jq --slurp --raw-input -c 'split("\n")[:-1]' > tmp/matrix
+          # jq --slurp --raw-input 'split("\n")[:-1]' | \
+          # jq  "{\"filepath\": .[] }" | \
+          # jq -sc "{ \"include\": . }" > tmp/matrix
+          cat ./tmp/matrix
+          # End Generate Json String
+          matrixStringifiedObject=$(cat ./tmp/matrix) # Use this as jq @sh not working right
+          echo "::set-output name=matrix::$matrixStringifiedObject"
+      - name: Archive all pdfs
+        uses: actions/upload-artifact@v3
+        with:
+          name: pdfs
+          path: |
+            tmp
+  process:
+    needs: download
+    container:
+      image: grolland/wufl:latest
+    strategy:
+      max-parallel: 1
+      matrix:
+        #files: ${{fromJson(needs.download.outputs.matrix)}}
+        include:
+          - files: ./tmp/KW-27-und-KW-28_2023_separated_2.pdf
+      #matrix: ${{fromJson(needs.download.outputs.matrix)}}
+    concurrency: singlethread
+    steps:
+    - name: checkout source code
+      uses: actions/checkout@v3
+    - name: Download pdf artifacts
+      uses: actions/download-artifact@v3
+      with:
+        name: pdfs
+    - name: Process pdf ${{ matrix.filepath }}
+      run: ls tmp
+    - name: extract csv
+      run: |
+        cd tmp
+        python ../locations/ratskeller/responsetotable.py output.json
+    - name: process csv with chatgpt
+      run: |
+        cd tmp
+        python ../locations/ratskeller/csvtojson.py ../locations/ratskeller/prompt.txt table.csv
+  process2:
+    container:
+      needs: download
+      image: grolland/wufl
+      steps:
+      - name: textractor analyze
+        run: textractor analyze-document plan1.pdf output.json --features TABLES --overlay TABLES --print TABLES
+      - name: textractor create csv
+        run: python responsetotable.py output.json
+      - name: csv to openai to json
+        run: python csvtojson.py prompt.txt table.csv
