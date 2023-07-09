@@ -65,6 +65,7 @@ jobs:
     - name: fetch latest git
       shell: bash
       run: |
+        git config --system --add safe.directory $PWD
         git pull
     - name: Download pdf artifacts
       uses: actions/download-artifact@v3
