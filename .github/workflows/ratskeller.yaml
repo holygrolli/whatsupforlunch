@@ -62,6 +62,10 @@ jobs:
     steps:
     - name: checkout source code
       uses: actions/checkout@v3
+    - name: fetch latest git
+      shell: bash
+      run: |
+        git pull
     - name: Download pdf artifacts
       uses: actions/download-artifact@v3
       with:
