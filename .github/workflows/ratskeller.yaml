@@ -62,7 +62,6 @@ jobs:
     steps:
     - name: checkout source code
       uses: actions/checkout@v3
-        exit 1
     - name: Download pdf artifacts
       uses: actions/download-artifact@v3
       with:
