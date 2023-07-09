@@ -8,11 +8,13 @@ on:
       - 'main'
     paths:
       - 'docker/**'
+      - '.github/workflows/docker.yaml'
   pull_request:
     branches:
       - 'main'
     paths:
       - 'docker/**'
+      - '.github/workflows/docker.yaml'
 
 # permissions are needed if pushing to ghcr.io
 permissions: 
