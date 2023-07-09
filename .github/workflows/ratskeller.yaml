@@ -99,7 +99,7 @@ jobs:
       run: |
         python ../locations/ratskeller/csvtojson.py ../locations/ratskeller/prompt.txt table.csv
         mkdir -p ../data/ratskeller
-        mv final.json ../data/ratskeller/$(date -d"$(jq -r 'keys[0]' final.json)" +%Y-%V).json
+        cp final.json ../data/ratskeller/$(date -d"$(jq -r 'keys[0]' final.json)" +%Y-%V).json
         CURRENTFILE=${{ matrix.files }}
         cat ../locations/ratskeller/scraped_done.txt <(echo $'\n'$(cat scraped_links.txt | grep ${CURRENTFILE%_separated*})) | sort -u | grep . > ../locations/ratskeller/scraped_done.txt
     - name: Archive all tmp files
