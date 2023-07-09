@@ -32,7 +32,7 @@ jobs:
       - id: setmatrix
         working-directory: tmp
         run: |
-          matrixInput=$(find . -name '*.pdf') # Creates array of all pdf files in tmp folder
+          matrixInput=$(find . -name '*.pdf' -printf '%P\n') # Creates array of all pdf files in tmp folder
           # Start Generate Json String
           echo "$matrixInput" | \
           jq --slurp --raw-input -c 'split("\n")[:-1]' > matrix
