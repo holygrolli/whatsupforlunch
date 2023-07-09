@@ -1,10 +1,13 @@
 name: ratskeller
 on:
   workflow_dispatch:
+permissions: 
+  contents: write
+  packages: write
 jobs:
   download:
     container:
-      image: grolland/wufl:latest
+      image: ghcr.io/holygrolli/whatsupforlunch:main
     outputs:
       matrix: ${{ steps.setmatrix.outputs.matrix }}
     steps:
@@ -46,7 +49,7 @@ jobs:
   process:
     needs: download
     container:
-      image: grolland/wufl:latest
+      image: ghcr.io/holygrolli/whatsupforlunch:main
     strategy:
       max-parallel: 1
       matrix:
