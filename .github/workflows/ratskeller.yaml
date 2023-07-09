@@ -14,6 +14,7 @@ jobs:
         shell: bash
         run: |
           WD=${PWD}
+          mkdir -p tmp
           scrapy runspider locations/ratskeller/ratskeller_scra.py --nolog | sort > tmp/scraped_links.txt
           cd tmp
           while IFS= read -r line; do
@@ -25,22 +26,21 @@ jobs:
           done
           ls *.pdf | grep -v separated | xargs rm
       - id: setmatrix
+        working-directory: tmp
         run: |
-          matrixInput=$(find ./tmp -name '*.pdf') # Creates array of all pdf files in tmp folder
+          matrixInput=$(find . -name '*.pdf') # Creates array of all pdf files in tmp folder
           # Start Generate Json String
           echo "$matrixInput" | \
-          jq --slurp --raw-input -c 'split("\n")[:-1]' > tmp/matrix
-          # jq --slurp --raw-input 'split("\n")[:-1]' | \
-          # jq  "{\"filepath\": .[] }" | \
-          # jq -sc "{ \"include\": . }" > tmp/matrix
-          cat ./tmp/matrix
+          jq --slurp --raw-input -c 'split("\n")[:-1]' > matrix
+          cat ./matrix
           # End Generate Json String
-          matrixStringifiedObject=$(cat ./tmp/matrix) # Use this as jq @sh not working right
+          matrixStringifiedObject=$(cat ./matrix) # Use this as jq @sh not working right
           echo "::set-output name=matrix::$matrixStringifiedObject"
       - name: Archive all pdfs
         uses: actions/upload-artifact@v3
         with:
           name: pdfs
+          retention-days: 30
           path: |
             tmp
   process:
@@ -50,36 +50,65 @@ jobs:
     strategy:
       max-parallel: 1
       matrix:
-        #files: ${{fromJson(needs.download.outputs.matrix)}}
-        include:
-          - files: ./tmp/KW-27-und-KW-28_2023_separated_2.pdf
-      #matrix: ${{fromJson(needs.download.outputs.matrix)}}
+        files: ${{fromJson(needs.download.outputs.matrix)}}
+        # include:
+        #   - files: KW-27-und-KW-28_2023_separated_2.pdf
     concurrency: singlethread
     steps:
     - name: checkout source code
       uses: actions/checkout@v3
+        exit 1
     - name: Download pdf artifacts
       uses: actions/download-artifact@v3
       with:
         name: pdfs
-    - name: Process pdf ${{ matrix.filepath }}
-      run: ls tmp
-    - name: extract csv
+        path: tmp
+    - name: Configure AWS Credentials
+      uses: aws-actions/configure-aws-credentials@v2
+      with:
+        aws-access-key-id: ${{ secrets.AWS_ACCESS_KEY_ID }}
+        aws-secret-access-key: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
+        aws-region: eu-central-1
+    - name: Configure AWS Profile
       run: |
-        cd tmp
+        ls -al
+        mkdir -p ~/.aws
+        cat > ~/.aws/config << EOF
+        [default]
+        region = eu-central-1
+        aws_access_key_id = ${{ secrets.AWS_ACCESS_KEY_ID }}
+        aws_secret_access_key = ${{ secrets.AWS_SECRET_ACCESS_KEY }}
+        EOF
+        cat ~/.aws/config
+    - name: Process pdf ${{ matrix.files }}
+      working-directory: tmp
+      run: textractor analyze-document ${{ matrix.files }} output.json --features TABLES --overlay TABLES --print TABLES
+    - name: extract csv
+      working-directory: tmp
+      run: |
         python ../locations/ratskeller/responsetotable.py output.json
     - name: process csv with chatgpt
+      working-directory: tmp
+      env:
+        OPENAI_API_KEY: ${{secrets.OPENAI_API_KEY}}
+      shell: bash
       run: |
-        cd tmp
         python ../locations/ratskeller/csvtojson.py ../locations/ratskeller/prompt.txt table.csv
-  process2:
-    container:
-      needs: download
-      image: grolland/wufl
-      steps:
-      - name: textractor analyze
-        run: textractor analyze-document plan1.pdf output.json --features TABLES --overlay TABLES --print TABLES
-      - name: textractor create csv
-        run: python responsetotable.py output.json
-      - name: csv to openai to json
-        run: python csvtojson.py prompt.txt table.csv
+        mv final.json ../data/ratskeller/$(date -d"$(jq -r 'keys[0]' final.json)" +%Y-%V).json
+        CURRENTFILE=${{ matrix.files }}
+        cat ../locations/ratskeller/scraped_done.txt <(echo $'\n'$(cat scraped_links.txt | grep ${CURRENTFILE%_separated*})) | sort -u | grep . > ../locations/ratskeller/scraped_done.txt
+    - name: Archive all tmp files
+      uses: actions/upload-artifact@v3
+      with:
+        name: ${{ matrix.files }}-processed
+        retention-days: 5
+        path: |
+          tmp
+    - name: cleanup git
+      run: |
+        git config --global user.name 'action'
+        git config --global user.email 'holygrolli@users.noreply.github.com'
+        git add locations
+        git add data
+        git commit -am "scraped result"
+        git push
