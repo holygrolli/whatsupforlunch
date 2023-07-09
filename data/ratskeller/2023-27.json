@@ -1,0 +1,32 @@
+{
+  "2023-07-03": [
+    { "desc": "Usedomen Fisch- Soljanka mit Paprika und Gurke", "price": 5.0 },
+    { "desc": "Vegan gefüllte Paprikaschote mit Reis und Tomatensoße", "price": 5.5 },
+    { "desc": "Königsberger Klopse, Kapernsoße, Rote Bete Salat und Kartoffeln", "price": 6.0 },
+    { "desc": "Brokkoli-Cheese- Nuggets auf mediterranem Kartoffelsalat", "price": 7.5 }
+  ],
+  "2023-07-04": [
+    { "desc": "Topfenrahm- strudel mit Zwetschgen- kompott und Vanille", "price": 5.0 },
+    { "desc": "Pasta mit Tomatensoße und geriebenem Käse", "price": 5.5 },
+    { "desc": "Spaghetti \"Bolognese\" mit geriebenem Käse", "price": 6.0 },
+    { "desc": "Sommersalat mit Crispy Chicken, Cherrytomaten und Joghurt- dressing", "price": 7.5 }
+  ],
+  "2023-07-05": [
+    { "desc": "Käse-Lauchsuppe mit Hackfleisch- bällchen", "price": 5.0 },
+    { "desc": "Linsenbratling auf bunten Karotten, dazu Kartoffelstampf", "price": 5.5 },
+    { "desc": "Putenrahm- geschnetzeltes mit Paprika und Butterreis", "price": 6.0 },
+    { "desc": "Penne Estate mit frischen Tomaten, Basilikum, Knoblauch und Mozzarella", "price": 7.5 }
+  ],
+  "2023-07-06": [
+    { "desc": "Kokos- Kardamom- Milchreis mit Mango-Ragout", "price": 5.0 },
+    { "desc": "Pasta mit Tomatensoße und geriebenem Käse", "price": 5.5 },
+    { "desc": "Kasslerbraten mit Sauerkraut und Petersilien- kartoffeln", "price": 6.0 },
+    { "desc": "Shakshuka mit Hummus und Fladenbrot", "price": 7.5 }
+  ],
+  "2023-07-07": [
+    { "desc": "Vegane Maultaschen mit Gemüsebrühe", "price": 5.0 },
+    { "desc": "Spinat- Käseknödel mit Kräuter- Waldpilzrahm", "price": 5.5 },
+    { "desc": "Backfisch mit Remouladensoße und Petersilien- kartoffeln", "price": 6.0 },
+    { "desc": "Schweinelachs- steak Sous vide gegart mit Paprika und Rösti", "price": 7.5 }
+  ]
+}
