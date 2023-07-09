@@ -1,0 +1,92 @@
+{
+  "2023-07-24": [
+    {
+      "desc": "Reiseintopf mit Gemüse-Julienne und Geflügelfleisch",
+      "price": 5.0
+    },
+    {
+      "desc": "2 gekochte Eier mit Senfsoße, Rotkrautsalat und Petersilien- kartoffeln",
+      "price": 5.5
+    },
+    {
+      "desc": "Hirtenrolle mit Zaziki, Krautsalat und Tomatenreis",
+      "price": 6.0
+    },
+    {
+      "desc": "Gerösteter Blumenkohl mit Joghurt-Minz-Dip und Rosmarin- kartoffeln",
+      "price": 7.5
+    }
+  ],
+  "2023-07-25": [
+    {
+      "desc": "Kartoffelpuffer mit Apfelmus und Zimtzucker",
+      "price": 5.0
+    },
+    {
+      "desc": "Pasta mit Tomatensoße und geriebenem Käse",
+      "price": 5.5
+    },
+    {
+      "desc": "Spaghetti \"Bolognese\" mit geriebenem Käse",
+      "price": 6.0
+    },
+    {
+      "desc": "Bruschetta- geröstete Brot- scheiben mit Tomate, Basilikum +Knoblauch",
+      "price": 7.5
+    }
+  ],
+  "2023-07-26": [
+    {
+      "desc": "Sächsische Kartoffelsuppe mit Majoran und Bockwurst",
+      "price": 5.0
+    },
+    {
+      "desc": "Steckrüben- Kürbis-Frikadelle mit Salat und Risi-Bisi",
+      "price": 5.5
+    },
+    {
+      "desc": "Paella Reispfanne mit Hähnchen, Fisch und Muscheln",
+      "price": 6.0
+    },
+    {
+      "desc": "Gebackene Mozzarella-Sticks auf mediter- ranem Nudelsalat",
+      "price": 7.5
+    }
+  ],
+  "2023-07-27": [
+    {
+      "desc": "Erdbeer - Topfenknödel mit Vanillesoße",
+      "price": 5.0
+    },
+    {
+      "desc": "Pasta mit Tomatensoße und geriebenem Käse",
+      "price": 5.5
+    },
+    {
+      "desc": "Hackbällchen in Tomatensoße, dazu Pasta",
+      "price": 6.0
+    },
+    {
+      "desc": "Süßkartoffel- strudel auf buntem Linsen- salat und Avocado",
+      "price": 7.5
+    }
+  ],
+  "2023-07-28": [
+    {
+      "desc": "Brokkoli-Creme- suppe mit Pumpernickel- Crumble",
+      "price": 5.0
+    },
+    {
+      "desc": "Bunte Gnocchi- Pfanne mit Schafskäse, Tomaten und Oliven",
+      "price": 5.5
+    },
+    {
+      "desc": "Grillwurst mit Letscho und Kartoffelstampf",
+      "price": 6.0
+    },
+    {
+      "desc": "Kibbeling mit Limonen-Mayon- naise, Salat und Kartoffelecken",
+      "price": 7.5
+    }
+  ]
+}
