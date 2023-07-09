@@ -1,0 +1,92 @@
+{
+  "2023-07-17": [
+    {
+      "desc": "Chili con Carne",
+      "price": 5.00
+    },
+    {
+      "desc": "Gemüse_Nuggets mit Spinatsoße und Kartoffelstampp",
+      "price": 5.50
+    },
+    {
+      "desc": "Hühnerfrikassee mit Erbsen, Karotten und Butterreis",
+      "price": 6.00
+    },
+    {
+      "desc": "Linguine mit Linsenbolognese, Tomaten und Rucola",
+      "price": 7.50
+    }
+  ],
+  "2023-07-18": [
+    {
+      "desc": "Riesen Germ-Knödel, mit Kirschfüllung, dazu VanillesoBe",
+      "price": 5.00
+    },
+    {
+      "desc": "Pasta mit Tomatensoße und geriebenem Käse",
+      "price": 5.50
+    },
+    {
+      "desc": "Pasta mit Wurstgulasch und geriebenem Käse",
+      "price": 6.00
+    },
+    {
+      "desc": "Frühlingsröllchen auf Glasnudel-salat, Ingwer, Koriander und Cashew",
+      "price": 7.50
+    }
+  ],
+  "2023-07-19": [
+    {
+      "desc": "Weißkrauteintopf mit Hackfleisch",
+      "price": 5.00
+    },
+    {
+      "desc": "Kräuterquark mit Butter, Zwiebeln und Petersilienkartoffeln",
+      "price": 5.50
+    },
+    {
+      "desc": "Knusper Seelachsfilet mit Sommer-Gemüse und Reis",
+      "price": 6.00
+    },
+    {
+      "desc": "Spaghetti alla puttanesca mit Sardellen, Oliven, Kapern und Tomaten",
+      "price": 7.50
+    }
+  ],
+  "2023-07-20": [
+    {
+      "desc": "Sächsische Quarkkäulchen mit Apfelmus und Zimtzucker",
+      "price": 5.00
+    },
+    {
+      "desc": "Pasta mit Tomatensoße und geriebenem Käse",
+      "price": 5.50
+    },
+    {
+      "desc": "Putenbruststeak Hawaii mit Ananas, Currysoße und Reis",
+      "price": 6.00
+    },
+    {
+      "desc": "Grünkernrisotto mit Spinat, Zucchini und Karotten",
+      "price": 7.50
+    }
+  ],
+  "2023-07-21": [
+    {
+      "desc": "Gazpacho-kalte andalusische Gemüsesuppe",
+      "price": 5.00
+    },
+    {
+      "desc": "Zucchini-Möhrenpuffer mit Radieschen Quark und Salat",
+      "price": 5.50
+    },
+    {
+      "desc": "Jumbo Fischstäbchen mit Tomatensoße und Kartoffelstampp",
+      "price": 6.00
+    },
+    {
+      "desc": "Lammhacksteak mit Ratatouille und Kartoffelrösti",
+      "price": 7.50
+    }
+  ]
+}
