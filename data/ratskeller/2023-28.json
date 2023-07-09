@@ -1,32 +1,92 @@
 {
   "2023-07-10": [
-    { "desc": "Ungarische Gulaschsuppe mit Paprika und Kartoffelwürfeln", "price": 5.00 },
-    { "desc": "Sellerieschnitzel mit bunten Karotten und Kartoffelstampf", "price": 5.50 },
-    { "desc": "Hähnchencurry mit asiatischem Gemüse und Korianderreis", "price": 6.00 },
-    { "desc": "Miesmuscheln in Tomaten- Knoblauchsoße und Linguine", "price": 7.50 }
+    {
+      "desc": "Ungarische Gulaschsuppe mit Paprika und Kartoffelwürfeln",
+      "price": 5.0
+    },
+    {
+      "desc": "Sellerieschnitzel mit bunten Karotten und Kartoffelstampf",
+      "price": 5.5
+    },
+    {
+      "desc": "Hähnchencurry mit asiatischem Gemüse und Korianderreis",
+      "price": 6.0
+    },
+    {
+      "desc": "Miesmuscheln in Tomaten- Knoblauchsoße und Linguine",
+      "price": 7.5
+    }
   ],
   "2023-07-11": [
-    { "desc": "Eierkuchen mit Rhabarber- kompott und Vanillesoße", "price": 5.00 },
-    { "desc": "Pasta mit Tomatensoße und geriebenem Käse", "price": 5.50 },
-    { "desc": "Jägerschnitzel mit TomatensoBe und Pasta", "price": 6.00 },
-    { "desc": "Mediterranes Gemüse mit Kräuterdip und Rosmarin- kartoffeln", "price": 7.50 }
+    {
+      "desc": "Eierkuchen mit Rhabarber- kompott und Vanillesoße",
+      "price": 5.0
+    },
+    {
+      "desc": "Pasta mit Tomatensoße und geriebenem Käse",
+      "price": 5.5
+    },
+    {
+      "desc": "Jägerschnitzel mit TomatensoBe und Pasta",
+      "price": 6.0
+    },
+    {
+      "desc": "Mediterranes Gemüse mit Kräuterdip und Rosmarin- kartoffeln",
+      "price": 7.5
+    }
   ],
   "2023-07-12": [
-    { "desc": "Hausgemachter Linseneintopf mit Blutwurstwürfeln", "price": 5.00 },
-    { "desc": "Blumenkohl- Käse-Medaillon mit Salat und Vollkornreis", "price": 5.50 },
-    { "desc": "Köttbullan mit Rahm- champignons und Kartoffel- stampf", "price": 6.00 },
-    { "desc": "Tofu-Bowl mit Sushi-Reis, Edamame, Koriander und Sesam", "price": 7.50 }
+    {
+      "desc": "Hausgemachter Linseneintopf mit Blutwurstwürfeln",
+      "price": 5.0
+    },
+    {
+      "desc": "Blumenkohl- Käse-Medaillon mit Salat und Vollkornreis",
+      "price": 5.5
+    },
+    {
+      "desc": "Köttbullan mit Rahm- champignons und Kartoffel- stampf",
+      "price": 6.0
+    },
+    {
+      "desc": "Tofu-Bowl mit Sushi-Reis, Edamame, Koriander und Sesam",
+      "price": 7.5
+    }
   ],
   "2023-07-13": [
-    { "desc": "Drei Hefeklöße mit wamen Heidelbeeren", "price": 5.00 },
-    { "desc": "Pasta mit Tomatensoße und geriebenem Käse", "price": 5.50 },
-    { "desc": "Leberkäse mit Spiegelei und Kartoffel- Gurkensalat", "price": 6.00 },
-    { "desc": "Greek-Bowl mit Halloumi, Oliven Tomate und Joghurtdressing", "price": 7.50 }
+    {
+      "desc": "Drei Hefeklöße mit wamen Heidelbeeren",
+      "price": 5.0
+    },
+    {
+      "desc": "Pasta mit Tomatensoße und geriebenem Käse",
+      "price": 5.5
+    },
+    {
+      "desc": "Leberkäse mit Spiegelei und Kartoffel- Gurkensalat",
+      "price": 6.0
+    },
+    {
+      "desc": "Greek-Bowl mit Halloumi, Oliven Tomate und Joghurtdressing",
+      "price": 7.5
+    }
   ],
   "2023-07-14": [
-    { "desc": "Spinatcreme- suppe mit gerösteten Mandeln", "price": 5.00 },
-    { "desc": "Gemüse-Paella mit Zucchini, Erbsen und Paprika", "price": 5.50 },
-    { "desc": "Marinierter Hering mit Apfel- Zwiebelsoße und Petersilien- kartoffeln", "price": 6.00 },
-    { "desc": "Chicken-Burger mit Tomate, Gurke, Eisberg- salat und Kartof- felecken", "price": 7.50 }
+    {
+      "desc": "Spinatcremesuppe mit gerösteten Mandeln",
+      "price": 5.0
+    },
+    {
+      "desc": "Gemüse-Paella mit Zucchini, Erbsen und Paprika",
+      "price": 5.5
+    },
+    {
+      "desc": "Marinierter Hering mit Apfel- Zwiebelsoße und Petersilien- kartoffeln",
+      "price": 6.0
+    },
+    {
+      "desc": "Chicken-Burger mit Tomate, Gurke, Eisbergsalat und Kartoffelecken",
+      "price": 7.5
+    }
   ]
 }
