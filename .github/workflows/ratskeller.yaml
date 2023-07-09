@@ -6,6 +6,7 @@ permissions:
   packages: write
 jobs:
   download:
+    runs-on: ubuntu-latest
     container:
       image: ghcr.io/holygrolli/whatsupforlunch:main
     outputs:
@@ -48,6 +49,7 @@ jobs:
             tmp
   process:
     needs: download
+    runs-on: ubuntu-latest
     container:
       image: ghcr.io/holygrolli/whatsupforlunch:main
     strategy:
