@@ -1,0 +1,92 @@
+{
+  "2023-08-07": [
+    {
+      "desc": "Spinat- cremesuppe mit Eierstich",
+      "price": 5.00
+    },
+    {
+      "desc": "Brokkoli-Nuss-Ecke mit Erbsen und Selleriepüree",
+      "price": 5.50
+    },
+    {
+      "desc": "Szegediner Gulasch mit Sauerkraut und Böhmischen Knödeln",
+      "price": 6.00
+    },
+    {
+      "desc": "Sommersalat mit Pfirsich, Mozzarella und Schinkenchips",
+      "price": 7.50
+    }
+  ],
+  "2023-08-08": [
+    {
+      "desc": "Eierkuchen mit Heidelbeer- Füllung, dazu VanillesoBe",
+      "price": 5.00
+    },
+    {
+      "desc": "Pasta mit Tomatensoße und geriebenem Käse",
+      "price": 5.50
+    },
+    {
+      "desc": "Pasta mit Wurstgulasch und geriebenem Käse",
+      "price": 6.00
+    },
+    {
+      "desc": "Halloumi-Wrap mit Tomate, Gurke, Joghurt und Couscous",
+      "price": 7.50
+    }
+  ],
+  "2023-08-09": [
+    {
+      "desc": "Gräupchen- Eintopf mit Kasslerwürfeln",
+      "price": 5.00
+    },
+    {
+      "desc": "Chili sin Carne mit Kicher- erbsen und Kurkuma-Reis",
+      "price": 5.50
+    },
+    {
+      "desc": "Schnitzel vom Schwein, dazu Blumenkohl und Petersilien- kartoffeln",
+      "price": 6.00
+    },
+    {
+      "desc": "Gurken-Melonen- Salat mit gebackenem Fetakäse",
+      "price": 7.50
+    }
+  ],
+  "2023-08-10": [
+    {
+      "desc": "Grießbrei mit Sauerkirsch- kompott",
+      "price": 5.00
+    },
+    {
+      "desc": "Pasta mit Tomatensoße und geriebenem Käse",
+      "price": 5.50
+    },
+    {
+      "desc": "Hähnchenbrust \"Piccata\" mit TomatensoBe und Pasta",
+      "price": 6.00
+    },
+    {
+      "desc": "Zwiebelkuchen mit Schinken, Kräuterdip und buntem Karotten- salat",
+      "price": 7.50
+    }
+  ],
+  "2023-08-11": [
+    {
+      "desc": "Pfifferlingcreme- suppe mit Thymian und Croûtons",
+      "price": 5.00
+    },
+    {
+      "desc": "Spinatlasagne mit Ricotta, Karotte und Lauch",
+      "price": 5.50
+    },
+    {
+      "desc": "Currywurst mit fruchtig pikanter Soße und Kartoffel- ecken",
+      "price": 6.00
+    },
+    {
+      "desc": "Kap-Seehecht- Filet mit Grilltomaten und Kartoffelgratin",
+      "price": 7.50
+    }
+  ]
+}
