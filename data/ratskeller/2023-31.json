@@ -1,0 +1,32 @@
+{
+  "2023-07-31": [
+    { "desc": "Blumenkohlsuppe mit Kresse und Croûtons", "price": 5.00 },
+    { "desc": "Gemüseschnitzel mit bunten Karotten und Petersilienkartoffeln", "price": 5.50 },
+    { "desc": "Schweine-Geschnetzeltes Züricher Art mit Pilzen und Spätzle", "price": 6.00 },
+    { "desc": "Caesar Salad mit Hähnchenbrust, Cherrytomaten und Parmesan", "price": 7.50 }
+  ],
+  "2023-08-01": [
+    { "desc": "Pflaumen-Quarkknödel mit Vanillesoße", "price": 5.00 },
+    { "desc": "Pasta mit Tomatensoße und geriebenem Käse", "price": 5.50 },
+    { "desc": "Jägerschnitzel mit Tomatensoße und Pasta", "price": 6.00 },
+    { "desc": "Rote-Bete-Ingwer-Falafel dazu Möhren-Hummus + Bulgur Salat", "price": 7.50 }
+  ],
+  "2023-08-02": [
+    { "desc": "Erbseneintopf mit Kartoffelwürfeln und Bockwurst", "price": 5.00 },
+    { "desc": "Farfalle-Brokkoli-Gratin mit Erbsen und Lauch", "price": 5.50 },
+    { "desc": "Mutzbraten mit Majoran, Sauerkraut und Klößen", "price": 6.00 },
+    { "desc": "Sommerrolle, gefüllt mit Tofu, Glasnudeln, Gurke und Koriander", "price": 7.50 }
+  ],
+  "2023-08-03": [
+    { "desc": "Milchreis mit Apfelmus und Zimtzucker", "price": 5.00 },
+    { "desc": "Pasta mit Tomatensoße und geriebenem Käse", "price": 5.50 },
+    { "desc": "Pasta mit Schinken-Käse-Sahnesoße", "price": 6.00 },
+    { "desc": "Toskanischer Brotsalat mit getrockneten Tomaten, Oliven, und Rucola", "price": 7.50 }
+  ],
+  "2023-08-04": [
+    { "desc": "Rote-Bete-Cremesuppe mit Fetawürfeln und Kerbelpesto", "price": 5.00 },
+    { "desc": "Ofenkartoffel mit Kräuterdip, gebratenen Pilzen und Salat", "price": 5.50 },
+    { "desc": "Hähnchenkeule mit Kohlrabi Gemüse und Kartoffelstampf", "price": 6.00 },
+    { "desc": "Wildlachsfilet auf Fenchelrahm und Süßkartoffel-Gnocchi", "price": 7.50 }
+  ]
+}
