@@ -24,11 +24,11 @@ jobs:
           while IFS= read -r line; do
             curl -sOL $line
           done < <(comm -13 ../locations/ratskeller/scraped_done.txt scraped_links.txt)
-          for file in $(ls *.pdf | grep -v separated);
+          for file in $(find . -type f -name "*.pdf" | grep -v separated);
           do
             pdfseparate $file ${file%.*}_separated_%d.pdf
           done
-          ls *.pdf | grep -v separated | xargs rm
+          find . -type f -name "*.pdf" | grep -v separated | xargs -r rm
       - id: setmatrix
         working-directory: tmp
         run: |
