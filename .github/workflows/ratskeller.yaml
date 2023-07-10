@@ -28,7 +28,7 @@ jobs:
           do
             pdfseparate $file ${file%.*}_separated_%d.pdf
           done
-          find . -type f -name "*.pdf" | grep -v separated | xargs -r rm
+          find . -type f -name "*.pdf" -and -not -name "*separated*" -exec rm {} \;
       - id: setmatrix
         working-directory: tmp
         run: |
