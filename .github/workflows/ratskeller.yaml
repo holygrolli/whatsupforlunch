@@ -34,7 +34,7 @@ jobs:
         run: |
           matrixInput=$(find . -name '*.pdf' -printf '%P\n') # Creates array of all pdf files in tmp folder
           # Start Generate Json String
-          echo "$matrixInput" | \
+          echo -n "$matrixInput" | \
           jq --slurp --raw-input -c 'split("\n")[:-1]' > matrix
           cat ./matrix
           # End Generate Json String
@@ -49,6 +49,7 @@ jobs:
             tmp
   process:
     needs: download
+    if: ${{ needs.download.outputs.matrix != '' && toJson(fromJson(needs.download.outputs.matrix)) != '[]' }}
     runs-on: ubuntu-latest
     container:
       image: ghcr.io/holygrolli/whatsupforlunch:main
