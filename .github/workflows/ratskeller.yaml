@@ -34,8 +34,8 @@ jobs:
         run: |
           matrixInput=$(find . -name '*.pdf' -printf '%P\n') # Creates array of all pdf files in tmp folder
           # Start Generate Json String
-          echo -n "$matrixInput" | \
-          jq --slurp --raw-input -c 'split("\n")[:-1]' > matrix
+          echo "$matrixInput" | \
+          jq --slurp --raw-input -c 'split("\n")[:-1] | map(select(length>0))' > matrix
           cat ./matrix
           # End Generate Json String
           matrixStringifiedObject=$(cat ./matrix) # Use this as jq @sh not working right
