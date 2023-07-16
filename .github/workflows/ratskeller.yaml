@@ -19,7 +19,7 @@ jobs:
         run: |
           WD=${PWD}
           mkdir -p tmp
-          scrapy runspider locations/ratskeller/ratskeller_scra.py --nolog | sort > tmp/scraped_links.txt
+          scrapy runspider locations/ratskeller/scra.py --nolog | sort > tmp/scraped_links.txt
           cd tmp
           while IFS= read -r line; do
             curl -sOL $line
@@ -96,14 +96,14 @@ jobs:
     - name: extract csv
       working-directory: tmp
       run: |
-        python ../locations/ratskeller/responsetotable.py output.json
+        python ../locations/ratskeller/process_textractor_result.py output.json
     - name: process csv with chatgpt
       working-directory: tmp
       env:
         OPENAI_API_KEY: ${{secrets.OPENAI_API_KEY}}
       shell: bash
       run: |
-        python ../locations/ratskeller/csvtojson.py ../locations/ratskeller/prompt.txt table.csv
+        python ../locations/ratskeller/process_chatgpt.py ../locations/ratskeller/prompt.txt table.csv
         mkdir -p ../data/ratskeller
         cp final.json ../data/ratskeller/$(date -d"$(jq -r 'keys[0]' final.json)" +%Y-%V).json
         CURRENTFILE=${{ matrix.files }}
