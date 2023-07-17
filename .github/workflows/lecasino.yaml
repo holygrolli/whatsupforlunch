@@ -1,0 +1,124 @@
+name: lecasino
+on:
+  workflow_dispatch:
+permissions: 
+  contents: write
+  packages: write
+jobs:
+  download:
+    runs-on: ubuntu-latest
+    container:
+      image: ghcr.io/holygrolli/whatsupforlunch:main
+    outputs:
+      matrix: ${{ steps.setmatrix.outputs.matrix }}
+    steps:
+      - name: checkout
+        uses: actions/checkout@v3
+      - name: get new links
+        shell: bash
+        run: |
+          WD=${PWD}
+          mkdir -p tmp
+          scrapy runspider locations/lecasino/scra.py --nolog | sort > tmp/scraped_links.txt
+          cd tmp
+          while IFS= read -r line; do
+            curl -sOL $line
+          done < <(comm -13 ../data/lecasino/scraped_done.txt scraped_links.txt)
+      - id: setmatrix
+        working-directory: tmp
+        run: |
+          matrixInput=$(find . -name '*.pdf' -printf '%P\n') # Creates array of all pdf files in tmp folder
+          # Start Generate Json String
+          echo "$matrixInput" | \
+          jq --slurp --raw-input -c 'split("\n")[:-1] | map(select(length>0))' > matrix
+          cat ./matrix
+          # End Generate Json String
+          matrixStringifiedObject=$(cat ./matrix) # Use this as jq @sh not working right
+          echo "::set-output name=matrix::$matrixStringifiedObject"
+      - name: Archive all pdfs
+        uses: actions/upload-artifact@v3
+        with:
+          name: pdfs
+          retention-days: 30
+          path: |
+            tmp
+  process:
+    needs: download
+    if: ${{ needs.download.outputs.matrix != '' && toJson(fromJson(needs.download.outputs.matrix)) != '[]' }}
+    runs-on: ubuntu-latest
+    container:
+      image: ghcr.io/holygrolli/whatsupforlunch:main
+    strategy:
+      max-parallel: 1
+      matrix:
+        files: ${{fromJson(needs.download.outputs.matrix)}}
+        # include:
+        #   - files: Le-Casino-Speiseplan-KW26.pdf
+    concurrency: singlethread
+    steps:
+    - name: checkout source code
+      uses: actions/checkout@v3
+    - name: fetch latest git
+      if: ${{ !github.event.act }} # skip during local actions testing
+      shell: bash
+      run: |
+        git config --system --add safe.directory $PWD
+        git pull
+    - name: Download pdf artifacts
+      uses: actions/download-artifact@v3
+      with:
+        name: pdfs
+        path: tmp
+    - name: Configure AWS Credentials
+      uses: aws-actions/configure-aws-credentials@v2
+      with:
+        aws-access-key-id: ${{ secrets.AWS_ACCESS_KEY_ID }}
+        aws-secret-access-key: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
+        aws-region: eu-central-1
+    - name: Configure AWS Profile
+      run: |
+        ls -al
+        mkdir -p ~/.aws
+        cat > ~/.aws/config << EOF
+        [default]
+        region = eu-central-1
+        aws_access_key_id = ${{ secrets.AWS_ACCESS_KEY_ID }}
+        aws_secret_access_key = ${{ secrets.AWS_SECRET_ACCESS_KEY }}
+        EOF
+        cat ~/.aws/config
+    - name: Process pdf ${{ matrix.files }}
+      working-directory: tmp
+      run: textractor analyze-document ${{ matrix.files }} output.json --features TABLES --overlay TABLES --print TABLES
+    - name: extract csv
+      working-directory: tmp
+      run: |
+        python ../locations/lecasino/process_textractor_result.py output.json
+    - name: process csv with chatgpt
+      working-directory: tmp
+      env:
+        OPENAI_API_KEY: ${{secrets.OPENAI_API_KEY}}
+      shell: bash
+      run: |
+        python ../locations/lecasino/process_chatgpt.py ../locations/lecasino/prompt.txt table.csv
+        mkdir -p ../data/lecasino
+        cp final.json ../data/lecasino/$(date -d"$(jq -r 'keys[0]' final.json)" +%Y-%V).json
+        CURRENTFILE=${{ matrix.files }}
+        cat ../data/lecasino/scraped_done.txt <(echo $'\n'$(cat scraped_links.txt | grep ${CURRENTFILE%_separated*})) | sort -u | grep . > scraped_done.txt
+        cp scraped_done.txt ../data/lecasino/scraped_done.txt
+    - name: Archive all tmp files
+      uses: actions/upload-artifact@v3
+      with:
+        name: ${{ matrix.files }}-processed
+        retention-days: 5
+        path: |
+          tmp
+    - name: cleanup git
+      if: ${{ !github.event.act }} # skip during local actions testing
+      shell: bash
+      run: |
+        git config --global user.name 'action'
+        git config --global user.email 'holygrolli@users.noreply.github.com'
+        git config --system --add safe.directory $PWD
+        git add data
+        git commit -am "scraped result"
+        git push
