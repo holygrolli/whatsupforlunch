@@ -1,0 +1,112 @@
+{
+  "2022-07-03": [
+    {
+      "desc": "Vegetarisches Gericht: Frische Champignons in Kräutersoße",
+      "price": 3.50
+    },
+    {
+      "desc": "Menü 1: Weißkrauteintopf mit Schweinefleisch",
+      "price": 2.50
+    },
+    {
+      "desc": "Hauptspeise: Marinierter Hering in Sahnesoße mit Salzkartoffeln",
+      "price": 4.95
+    },
+    {
+      "desc": "Sättigungsbeilage: Reis",
+      "price": 1.00
+    },
+    {
+      "desc": "Gemüsebeilage: Rohkostsalat nach Angebot",
+      "price": 1.30
+    }
+  ],
+  "2022-07-04": [
+    {
+      "desc": "Vegetarisches Gericht: Gebackene Kartoffeltaschen mit Frischkäse gefüllt & gem.",
+      "price": 4.20
+    },
+    {
+      "desc": "Menü 1: Tomatencremesüppchen mit Croutons",
+      "price": 2.50
+    },
+    {
+      "desc": "Hauptspeise: Nudelsalat mit Käsekraukauer",
+      "price": 4.50
+    },
+    {
+      "desc": "Sättigungsbeilage: Kartoffeln",
+      "price": 1.00
+    },
+    {
+      "desc": "Gemüsebeilage: Rohkostsalat nach Angebot",
+      "price": 1.30
+    }
+  ],
+  "2022-07-05": [
+    {
+      "desc": "Vegetarisches Gericht: Ofenkartoffel mit Quarkdip und ein kl. gemischter Salat",
+      "price": 3.70
+    },
+    {
+      "desc": "Menü 1: Zwei Eier in Senfsoße mit Kartoffeln",
+      "price": 2.50
+    },
+    {
+      "desc": "Hauptspeise: Lasagne al forno",
+      "price": 3.75
+    },
+    {
+      "desc": "Sättigungsbeilage: Pommes",
+      "price": 1.20
+    },
+    {
+      "desc": "Gemüsebeilage: Rohkostsalat nach Angebot",
+      "price": 1.30
+    }
+  ],
+  "2022-07-06": [
+    {
+      "desc": "Vegetarisches Gericht: Kartoffelgulasch mit Paprika und Kräuterhaube",
+      "price": 3.50
+    },
+    {
+      "desc": "Menü 1: Kaiserschmarrn mit Rosinen und Apfelmus",
+      "price": 2.50
+    },
+    {
+      "desc": "Hauptspeise: Currywurst mit fruchtiger Currysoße",
+      "price": 3.50
+    },
+    {
+      "desc": "Sättigungsbeilage: Kartoffelpüree",
+      "price": 1.00
+    },
+    {
+      "desc": "Gemüsebeilage: Rohkostsalat nach Angebot",
+      "price": 1.30
+    }
+  ],
+  "2022-07-07": [
+    {
+      "desc": "Vegetarisches Gericht: Pasta mit Tomatensoße und geriebenen Käse",
+      "price": 2.50
+    },
+    {
+      "desc": "Menü 1: Kartoffel-Gemüseauflauf mit Gouda überbacken",
+      "price": 2.50
+    },
+    {
+      "desc": "Hauptspeise: Tagesangebot",
+      "price": null
+    },
+    {
+      "desc": "Sättigungsbeilage: 1,20",
+      "price": null
+    },
+    {
+      "desc": "Gemüsebeilage: Rohkostsalat nach Angebot Erbsen",
+      "price": 1.00
+    }
+  ]
+}
