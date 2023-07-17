@@ -1,0 +1,112 @@
+{
+  "2023-07-10": [
+    {
+      "desc": "Gemüsebolognese mit Pasta",
+      "price": 3.50
+    },
+    {
+      "desc": "Linseneintopf mit Kartoffeln und Rotwurst",
+      "price": 2.50
+    },
+    {
+      "desc": "Kohlroulade mit Bratensoße",
+      "price": 3.55
+    },
+    {
+      "desc": "Kartoffeln",
+      "price": 1.00
+    },
+    {
+      "desc": "Rohkostsalat nach Angebot",
+      "price": 1.30
+    }
+  ],
+  "2023-07-11": [
+    {
+      "desc": "Salzkartoffeln mit Rahmspinat & Rührei",
+      "price": 3.90
+    },
+    {
+      "desc": "Kartoffeln mit Kräuterquark und Butter",
+      "price": 2.50
+    },
+    {
+      "desc": "Schweinegeschnetzeltes \"Jäger Art\"",
+      "price": 3.65
+    },
+    {
+      "desc": "Spätzle",
+      "price": 1.20
+    },
+    {
+      "desc": "Rohkostsalat nach Angebot",
+      "price": 1.30
+    }
+  ],
+  "2023-07-12": [
+    {
+      "desc": "Gemüsebrühe mit zwei Maultaschen und verschiedenem Gemüse",
+      "price": 3.20
+    },
+    {
+      "desc": "Gräupcheneintopf mit Kasselerwürfel",
+      "price": 2.50
+    },
+    {
+      "desc": "Spinat-Hackfleischpfanne mit Joghurt und Kartoffeln",
+      "price": 3.90
+    },
+    {
+      "desc": "Gouda gerieben",
+      "price": 0.40
+    },
+    {
+      "desc": "Rohkostsalat nach Angebot",
+      "price": 1.30
+    }
+  ],
+  "2023-07-13": [
+    {
+      "desc": "Brokkoli-Kartoffel-Auflauf",
+      "price": 3.50
+    },
+    {
+      "desc": "Hefeklöße mit Pflaumen",
+      "price": 2.50
+    },
+    {
+      "desc": "Currywurst-Pfanne",
+      "price": 4.20
+    },
+    {
+      "desc": "Gouda gerieben",
+      "price": 0.40
+    },
+    {
+      "desc": "Rohkostsalat nach Angebot",
+      "price": 1.30
+    }
+  ],
+  "2023-07-14": [
+    {
+      "desc": "Gebackener Camembert mit gemischtem Salat und Preiselbeeren",
+      "price": 4.80
+    },
+    {
+      "desc": "Zwei Eier in Senfsoße mit Kartoffeln",
+      "price": 2.50
+    },
+    {
+      "desc": "Tagesangebot",
+      "price": null
+    },
+    {
+      "desc": null,
+      "price": null
+    },
+    {
+      "desc": "Rohkostsalat nach Angebot Mischgemüse",
+      "price": 1.00
+    }
+  ]
+}
