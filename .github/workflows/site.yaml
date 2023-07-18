@@ -1,0 +1,52 @@
+name: Build docker image
+
+# Controls when the workflow will run
+on:
+  workflow_dispatch:
+  push:
+    branches:
+      - 'main'
+    paths:
+      - 'data/**'
+      - 'site/**'
+  pull_request:
+    branches:
+      - 'main'
+    paths:
+      - 'data/**'
+      - 'site/**'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    container:
+      image: ghcr.io/holygrolli/whatsupforlunch:main
+    steps:
+      # Get the repository's code
+      - name: Checkout
+        uses: actions/checkout@v3
+      - name: build data.json
+        shell: bash
+        run: |
+          mkdir -p tmp-data
+          for loc in $(ls -1 data | grep -v galeria);
+          do
+            jq '.offers = inputs' data/${loc}/details.json <(jq -s 'reduce .[] as $item ({}; . * $item)' data/${loc}/2*.json) > tmp-data/merged_${loc}.json
+            jq -c --slurpfile locations <(cat tmp-data/merged_*.json | jq -s) '.locations = $locations[0]' <(echo '{"locations": ""}') > tmp-data/data.json
+          done
+      - name: build site 🔨
+        working-directory: site
+        shell: bash
+        run: |
+          npm install
+          npm run build
+      - name: deploy 🚛
+        shell: bash
+        run: |
+          echo -e "${{ secrets.DEPLOY_KEY }}" >__TEMP_INPUT_KEY_FILE
+          chmod 600 __TEMP_INPUT_KEY_FILE
+          ssh -o StrictHostKeyChecking=no -i __TEMP_INPUT_KEY_FILE "${{ secrets.DEPLOY_USER }}"@"${{ secrets.DEPLOY_HOST }}" "rm -rf /tmp/upload_tmp; mkdir /tmp/upload_tmp"
+          scp -o StrictHostKeyChecking=no -i __TEMP_INPUT_KEY_FILE -r site/build/* "${{ secrets.DEPLOY_USER }}"@"${{ secrets.DEPLOY_HOST }}":/tmp/upload_tmp
+          ssh -o StrictHostKeyChecking=no -i __TEMP_INPUT_KEY_FILE "${{ secrets.DEPLOY_USER }}"@"${{ secrets.DEPLOY_HOST }}" "rm -rf ${{ secrets.DEPLOY_PATH }}/*; cp -R /tmp/upload_tmp/* ${{ secrets.DEPLOY_PATH }}"
+          #"${{ secrets.DEPLOY_PATH }}"
+          
