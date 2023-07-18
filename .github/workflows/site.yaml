@@ -1,4 +1,4 @@
-name: Build docker image
+name: Build website
 
 # Controls when the workflow will run
 on:
@@ -9,12 +9,14 @@ on:
     paths:
       - 'data/**'
       - 'site/**'
+      - '.github/workflows/site.yaml'
   pull_request:
     branches:
       - 'main'
     paths:
       - 'data/**'
       - 'site/**'
+      - '.github/workflows/site.yaml'
 
 jobs:
   build:
