@@ -19,7 +19,7 @@ jobs:
         run: |
           WD=${PWD}
           mkdir -p tmp
-          scrapy runspider locations/moritzbastei/scra.py --nolog | sort > tmp/mittagsangebot.txt
+          scrapy runspider locations/moritzbastei/scra.py --nolog > tmp/mittagsangebot.txt
       - name: process txt with chatgpt
         working-directory: tmp
         env:
