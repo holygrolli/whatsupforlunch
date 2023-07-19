@@ -1,44 +1,50 @@
 {
   "2023-07-17": [
     {
-      "desc": "Brokkoli in Kichererbsenbackteig auf rotem Linsencurry mit Paprika und Lauchzwiebeln (vegan)",
-      "price": 7.70
-    },
-    {
-      "desc": "Cannelloni gefüllt mit Hirtenkäse in pikanter Tomatensauce, überbacken mit Gouda (veget.)",
-      "price": 7.70
-    },
-    {
-      "desc": "Gebackener Hirtenkäse auf Thai-Curry, mit buntem Gemüse und Kokosmilch (veget.)",
-      "price": 7.70
-    },
-    {
-      "desc": "Kräuterrührei mit Salzkartoffeln und Gurkensalat (veget.)",
-      "price": 7.50
+      "desc": "Wurstgulasch mit Paprika auf Pasta, dazu Gouda",
+      "price": 7.7
     }
   ],
   "2023-07-18": [
     {
-      "desc": "Schweineschnitzel gefüllt mit Schinken und Käse, dazu Rahmerbsen, Salzkartoffeln und braune Sauce",
-      "price": 7.90
+      "desc": "Brokkoli in Kichererbsenbackteig auf rotem Linsencurry mit Paprika und Lauchzwiebeln (vegan)",
+      "price": 7.7
+    },
+    {
+      "desc": "Cannelloni gefüllt mit Hirtenkäse in pikanter Tomatensauce, überbacken mit Gouda (veget.)",
+      "price": 7.7
+    },
+    {
+      "desc": "Gebackener Hirtenkäse auf Thai-Curry, mit buntem Gemüse und Kokosmilch (veget.)",
+      "price": 7.7
+    },
+    {
+      "desc": "Kräuterrührei mit Salzkartoffeln und Gurkensalat (veget.)",
+      "price": 7.5
     }
   ],
   "2023-07-19": [
     {
       "desc": "Königsberger Klopse in Kapernsauce, mit Kartoffelstampf und Gurkensalat",
-      "price": 7.70
+      "price": 7.7
     }
   ],
   "2023-07-20": [
     {
-      "desc": "Hähnchengeschnetzeltes mit gebratener Zucchini, getrockneten Tomaten und Kartoffelecken",
-      "price": 7.90
+      "desc": "Schweineschnitzel gefüllt mit Schinken und Käse, dazu Rahmerbsen, Salzkartoffeln und braune Sauce",
+      "price": 7.9
     }
   ],
   "2023-07-21": [
     {
+      "desc": "Hähnchengeschnetzeltes mit gebratener Zucchini, getrockneten Tomaten und Kartoffelecken",
+      "price": 7.9
+    }
+  ],
+  "2023-07-22": [
+    {
       "desc": "Matjesfilet in Apfel-Zwiebelremoulade, dazu Salzkartoffeln",
-      "price": 7.90
+      "price": 7.9
     }
   ]
 }
