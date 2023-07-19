@@ -38,7 +38,7 @@ function App() {
         const offers = location.offers;
         for (const date in offers) {
             if (date === selectedDate) {
-                const locationCopy = { name: location.name, meals: offers[date], date };
+                const locationCopy = { name: location.name, meals: offers[date], date, details: location.details };
                 transformedArray.push(locationCopy);
             }
         }
@@ -53,17 +53,18 @@ function App() {
     <div>
       <h1>What's up for lunch?</h1>
       <label>
-        Select Date:
+        Datum auswählen:&nbsp;
         <input type="date" value={selectedDate} onChange={handleDateChange} />
       </label>
       {filteredData.map((location, index) => (
       <p key="{location.name}">
-        <label><b>{location.name}</b></label>
+        <label><b>{location.name}</b></label><br/>
+        {location.details.join(", ")}
         <table>
           <thead>
             <tr>
               <th>Name</th>
-              <th>Price</th>
+              <th>Preis</th>
             </tr>
           </thead>
           <tbody>
