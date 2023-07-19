@@ -3,11 +3,19 @@
     {
       "desc": "Wurstgulasch mit Paprika auf Pasta, dazu Gouda",
       "price": 7.70
+    },
+    {
+      "desc": "Kräuterrührei mit Salzkartoffeln und Gurkensalat (veget.)",
+      "price": 7.50
     }
   ],
   "2023-07-18": [
     {
-      "desc": "Brokkoli in Kichererbsenbackteig auf rotem Linsencurry mit Paprika und Lauchzwiebeln (vegan)",
+      "desc": "Schweineschnitzel gefüllt mit Schinken und Käse, dazu Rahmerbsen, Salzkartoffeln und braune Sauce",
+      "price": 7.90
+    },
+    {
+      "desc": "Cannelloni gefüllt mit Hirtenkäse in pikanter Tomatensauce, überbacken mit Gouda (veget.)",
       "price": 7.70
     }
   ],
@@ -15,11 +23,19 @@
     {
       "desc": "Königsberger Klopse in Kapernsauce, mit Kartoffelstampf und Gurkensalat",
       "price": 7.70
+    },
+    {
+      "desc": "Gebackener Hirtenkäse auf Thai-Curry, mit buntem Gemüse und Kokosmilch (veget.)",
+      "price": 7.70
     }
   ],
   "2023-07-20": [
     {
-      "desc": "Cannelloni gefüllt mit Hirtenkäse in pikanter Tomatensauce, überbacken mit Gouda (veget.)",
+      "desc": "Hähnchengeschnetzeltes mit gebratener Zucchini, getrockneten Tomaten und Kartoffelecken",
+      "price": 7.90
+    },
+    {
+      "desc": "Brokkoli in Kichererbsenbackteig auf rotem Linsencurry mit Paprika und Lauchzwiebeln (vegan)",
       "price": 7.70
     }
   ],
