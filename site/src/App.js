@@ -50,17 +50,17 @@ function App() {
   }, [selectedDate, data]);
 
   return (
-    <div>
+    <div class="container">
       <h1>What's up for lunch?</h1>
       <label>
         Datum auswählen:&nbsp;
         <input type="date" value={selectedDate} onChange={handleDateChange} />
       </label>
       {filteredData.map((location, index) => (
-      <p key="{location.name}">
-        <label><b>{location.name}</b></label><br/>
+      <p key="{location.name}" class="mt-3">
+        <h2>{location.name}</h2>
         {location.details.join(", ")}
-        <table>
+        <table class="table">
           <thead>
             <tr>
               <th>Name</th>
