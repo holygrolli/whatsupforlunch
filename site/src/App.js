@@ -64,7 +64,7 @@ function App() {
           <thead>
             <tr>
               <th>Name</th>
-              <th>Preis</th>
+              <th style={{width: 100 + 'px'}}>Preis</th>
             </tr>
           </thead>
           <tbody>
