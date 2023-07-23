@@ -36,7 +36,7 @@ function App() {
       const transformedArray = [];
       for (const location of data) {
         const offers = location.offers;
-        const locationCopy = { name: location.name, meals: [], details: location.details };
+        const locationCopy = { name: location.name, meals: [], details: location.details, link: location.link };
         for (const date in offers) {
           if (date === selectedDate) {
               locationCopy.meals = offers[date];
@@ -60,7 +60,8 @@ function App() {
       {filteredData.map((location, index) => (
       <div key={location.name} className="mt-3">
         <h2>{location.name}</h2>
-        {location.details.join(", ")}
+        <div><a href="{location.link}">Link</a></div>
+        <div>{location.details.join(", ")}</div>
         {location.meals.length > 0 &&
         <table className="table">
           <thead>
