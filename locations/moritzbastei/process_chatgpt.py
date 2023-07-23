@@ -17,6 +17,9 @@ fInput.close()
 
 today = datetime.today()
 weekStart = today - timedelta(days=today.weekday())
+# if on weekend assume we are running for next week
+if today.weekday()>4:
+    weekStart = weekStart + timedelta(days=7)
 print(weekStart.strftime('%Y-%m-%d'))
 # create a chat completion
 chat_completion = openai.ChatCompletion.create(model="gpt-3.5-turbo", messages=[
