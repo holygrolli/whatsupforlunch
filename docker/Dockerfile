@@ -2,7 +2,7 @@ FROM python:3.10-slim
 
 RUN apt-get update && \
     apt-get install -y poppler-utils curl jq git
-RUN pip install amazon-textract-textractor[pdf,pandas] openai scrapy
+RUN pip install amazon-textract-textractor[pdf,pandas] openai scrapy htmlmin
 ENV NVM_DIR /usr/local/nvm
 ENV NODE_VERSION v16.17.0
 RUN mkdir -p /usr/local/nvm && apt-get update && echo "y" | apt-get install curl
