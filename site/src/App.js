@@ -1,5 +1,18 @@
 import React, { useState, useEffect } from 'react';
 import axios from 'axios';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { solid } from '@fortawesome/fontawesome-svg-core/import.macro'
+
+function LocationDetails({details}) {
+  if (details.length === 0) {
+    return null;
+  }
+  return (
+    <label>
+      | <FontAwesomeIcon icon={solid("circle-info")} style={{color: "#000000",}} /> {details.join(", ")}
+    </label>
+  )
+}
 
 function App() {
   const [data, setData] = useState([]);
@@ -60,8 +73,8 @@ function App() {
       {filteredData.map((location, index) => (
       <div key={location.name} className="mt-3 p-2 border border-dark rounded">
         <h2>{location.name}</h2>
-        <div><a href="{location.link}">Link</a></div>
-        <div>{location.details.join(", ")}</div>
+        <div><a href={location.link}><FontAwesomeIcon icon={solid("link")} style={{color: "#000000",}} /></a> <LocationDetails details={location.details} />
+        </div>
         {location.meals.length > 0 &&
         <table className="table">
           <thead>
