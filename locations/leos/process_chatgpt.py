@@ -15,6 +15,7 @@ fInput = open(sys.argv[2], "r")
 inputString = fInput.read()
 fInput.close()
 
+print("Using the prompt: " + prompt)
 today = datetime.today()
 weekStart = today - timedelta(days=today.weekday())
 print(weekStart.strftime('%Y-%m-%d'))
