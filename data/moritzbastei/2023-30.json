@@ -1,0 +1,48 @@
+{
+  "2023-07-24": [
+    {
+      "desc": "Currywurst \"Nach Art des Hauses\", dazu Kartoffelecken und Salatbeilage",
+      "price": 7.70
+    },
+    {
+      "desc": "Tortellini in Paprikarahm mit Lauchzwiebeln, überbacken mit Mozzarella (veget.)",
+      "price": 7.50
+    }
+  ],
+  "2023-07-25": [
+    {
+      "desc": "Schweineschnitzel \"Western\" mit BBQ-Zwiebeln, Bacon und gebackenen Kartoffelecken, dazu Sour Cream",
+      "price": 7.90
+    },
+    {
+      "desc": "Waldpilzgulasch mit Kräuterspätzle und Röstzwiebeln (veget.)",
+      "price": 7.70
+    }
+  ],
+  "2023-07-26": [
+    {
+      "desc": "Hähnchenschnitzel mit Rahmerbsen, Salzkartoffeln und brauner Sauce",
+      "price": 7.70
+    },
+    {
+      "desc": "Gnocchi in Basilikumsauce mit Kirschtomaten, dazu Parmesan und geröstete Mandeln (veget.)",
+      "price": 7.70
+    }
+  ],
+  "2023-07-27": [
+    {
+      "desc": "Gyros mit Kartoffelecken, Tzaziki und Krautsalat",
+      "price": 7.90
+    },
+    {
+      "desc": "Süßkartoffel-Mangoldcurry mit gerösteten Haselnüssen (veg.)",
+      "price": 7.70
+    }
+  ],
+  "2023-07-28": [
+    {
+      "desc": "Gebratenes Seelachsfilet mit pikantem Rahmfenchel, dazu Orangencouscous",
+      "price": 7.90
+    }
+  ]
+}

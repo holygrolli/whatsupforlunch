@@ -1,51 +1,101 @@
 {
   "2023-07-17": [
     {
-      "desc": "Senfeier gekochte Eier in Senfsoße dazu Salzkartoffeln",
+      "desc": "Senfeier\ngekochte Eier in Senfsoße\ndazu Salzkartoffeln",
       "price": 6.9
     },
     {
-      "desc": "Hühnerfrikassee mit Erbsen und Möhren dazu Reis",
+      "desc": "Hühnerfrikassee\nmit Erbsen und Möhren\ndazu Reis",
       "price": 6.9
     }
   ],
   "2023-07-18": [
     {
-      "desc": "Senfeier gekochte Eier in Senfsoße dazu Salzkartoffeln",
+      "desc": "Senfeier\ngekochte Eier in Senfsoße\ndazu Salzkartoffeln",
       "price": 6.9
     },
     {
-      "desc": "Hühnerfrikassee mit Erbsen und Möhren dazu Reis",
+      "desc": "Hühnerfrikassee\nmit Erbsen und Möhren\ndazu Reis",
       "price": 6.9
     }
   ],
   "2023-07-19": [
     {
-      "desc": "Senfeier gekochte Eier in Senfsoße dazu Salzkartoffeln",
+      "desc": "Senfeier\ngekochte Eier in Senfsoße\ndazu Salzkartoffeln",
       "price": 6.9
     },
     {
-      "desc": "Hühnerfrikassee mit Erbsen und Möhren dazu Reis",
+      "desc": "Hühnerfrikassee\nmit Erbsen und Möhren\ndazu Reis",
       "price": 6.9
     }
   ],
   "2023-07-20": [
     {
-      "desc": "Senfeier gekochte Eier in Senfsoße dazu Salzkartoffeln",
+      "desc": "Senfeier\ngekochte Eier in Senfsoße\ndazu Salzkartoffeln",
       "price": 6.9
     },
     {
-      "desc": "Hühnerfrikassee mit Erbsen und Möhren dazu Reis",
+      "desc": "Hühnerfrikassee\nmit Erbsen und Möhren\ndazu Reis",
       "price": 6.9
     }
   ],
   "2023-07-21": [
     {
-      "desc": "Senfeier gekochte Eier in Senfsoße dazu Salzkartoffeln",
+      "desc": "Senfeier\ngekochte Eier in Senfsoße\ndazu Salzkartoffeln",
       "price": 6.9
     },
     {
-      "desc": "Hühnerfrikassee mit Erbsen und Möhren dazu Reis",
+      "desc": "Hühnerfrikassee\nmit Erbsen und Möhren\ndazu Reis",
+      "price": 6.9
+    }
+  ],
+  "2023-07-24": [
+    {
+      "desc": "Senfeier\ngekochte Eier in Senfsoße\ndazu Salzkartoffeln",
+      "price": 6.9
+    },
+    {
+      "desc": "Hühnerfrikassee\nmit Erbsen und Möhren\ndazu Reis",
+      "price": 6.9
+    }
+  ],
+  "2023-07-25": [
+    {
+      "desc": "Senfeier\ngekochte Eier in Senfsoße\ndazu Salzkartoffeln",
+      "price": 6.9
+    },
+    {
+      "desc": "Hühnerfrikassee\nmit Erbsen und Möhren\ndazu Reis",
+      "price": 6.9
+    }
+  ],
+  "2023-07-26": [
+    {
+      "desc": "Senfeier\ngekochte Eier in Senfsoße\ndazu Salzkartoffeln",
+      "price": 6.9
+    },
+    {
+      "desc": "Hühnerfrikassee\nmit Erbsen und Möhren\ndazu Reis",
+      "price": 6.9
+    }
+  ],
+  "2023-07-27": [
+    {
+      "desc": "Senfeier\ngekochte Eier in Senfsoße\ndazu Salzkartoffeln",
+      "price": 6.9
+    },
+    {
+      "desc": "Hühnerfrikassee\nmit Erbsen und Möhren\ndazu Reis",
+      "price": 6.9
+    }
+  ],
+  "2023-07-28": [
+    {
+      "desc": "Senfeier\ngekochte Eier in Senfsoße\ndazu Salzkartoffeln",
+      "price": 6.9
+    },
+    {
+      "desc": "Hühnerfrikassee\nmit Erbsen und Möhren\ndazu Reis",
       "price": 6.9
     }
   ]
