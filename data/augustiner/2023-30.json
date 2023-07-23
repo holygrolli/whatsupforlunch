@@ -1,0 +1,52 @@
+{
+  "2023-07-24": [
+    {
+      "desc": "Schnitzel \"Wiener Art\" mit Kartoffel-Gurken-Salat",
+      "price": 7.5
+    },
+    {
+      "desc": "Allgäuer Käsespätzle mit Röstzwiebeln",
+      "price": 7.5
+    }
+  ],
+  "2023-07-25": [
+    {
+      "desc": "Hausgemachte Fleischpflanzerl auf Pfefferrahmsauce mit Buttermöhren und Kroketten",
+      "price": 7.5
+    },
+    {
+      "desc": "Ofenkartoffel mit Kräuterschmand und kleinem Salat",
+      "price": 7.5
+    }
+  ],
+  "2023-07-26": [
+    {
+      "desc": "Kassler mit Sauerkraut und Kartoffelpüree",
+      "price": 7.5
+    },
+    {
+      "desc": "Gebackener Blumenkohl mit Käse-Béchamel und Kartoffelpüree",
+      "price": 7.5
+    }
+  ],
+  "2023-07-27": [
+    {
+      "desc": "Hähnchen-Geschnetzeltes mit mediterranem Gemüse und Reis",
+      "price": 7.5
+    },
+    {
+      "desc": "Gnocchi mit mediterranem Gemüse und Rucola",
+      "price": 7.5
+    }
+  ],
+  "2023-07-28": [
+    {
+      "desc": "Backfisch mit Kartoffel-Gurken-Salat",
+      "price": 7.5
+    },
+    {
+      "desc": "Kaiserschmarrn mit Apfelmus",
+      "price": 7.5
+    }
+  ]
+}
