@@ -41,17 +41,17 @@ jobs:
         shell: bash
         run: |
           npm install
-          if [[ "${{ github.ref_name }}" != "main" ]]; then
+          if [[ "${{ github.head_ref || github.ref_name }}" != "main" ]]; then
             export PUBLIC_URL="/${{ github.ref_name }}"
           fi
           npm run build
       - name: deploy 🚛
         shell: bash
         run: |
-          if [[ "${{ github.ref_name }}" == "main" ]]; then
+          if [[ "${{ github.head_ref || github.ref_name }}" == "main" ]]; then
             export TARGET_PATH="${{ secrets.DEPLOY_PATH }}"
           else
-            export TARGET_PATH="/dev.lunchdeal.li/httpdocs/${{ github.ref_name }}"
+            export TARGET_PATH="/dev.lunchdeal.li/httpdocs/${{ github.head_ref || github.ref_name }}"
           fi
           echo -e "${{ secrets.DEPLOY_KEY }}" >__TEMP_INPUT_KEY_FILE
           chmod 600 __TEMP_INPUT_KEY_FILE
