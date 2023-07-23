@@ -1,0 +1,52 @@
+{
+  "2023-07-17": [
+    {
+      "desc": "Gyros mit Reis und Tzaziki",
+      "price": 6.6
+    },
+    {
+      "desc": "vegetarische Hackbällchen in Champignonrahm und Reis",
+      "price": 6.6
+    }
+  ],
+  "2023-07-18": [
+    {
+      "desc": "Schweinerückensteak \"Strindberg\" mit Bratkartoffeln",
+      "price": 6.6
+    },
+    {
+      "desc": "Tomate- Mozzarellasalat und Basilikumpesto",
+      "price": 6.6
+    }
+  ],
+  "2023-07-19": [
+    {
+      "desc": "Lachs- Wildreispfanne mit Paprika, Brokkoli in einem Dill- Weißweinrahm",
+      "price": 6.6
+    },
+    {
+      "desc": "mediterraner Couscoussalat dazu Kräuterbaguette",
+      "price": 6.6
+    }
+  ],
+  "2023-07-20": [
+    {
+      "desc": "Chefsalat mit Kräuterbaguette",
+      "price": 6.6
+    },
+    {
+      "desc": "Caesarsalat mit Kräuterbaguette",
+      "price": 6.6
+    }
+  ],
+  "2023-07-21": [
+    {
+      "desc": "Schweineschnitzel mit Rahmmöhren und Petersilienkartoffeln",
+      "price": 6.6
+    },
+    {
+      "desc": "Geschnetzeltes aus Soja dazu Rosmarinkartoffeln",
+      "price": 6.6
+    }
+  ]
+}
