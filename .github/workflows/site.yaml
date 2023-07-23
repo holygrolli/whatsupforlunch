@@ -42,7 +42,7 @@ jobs:
         run: |
           npm install
           if [[ "${{ github.head_ref || github.ref_name }}" != "main" ]]; then
-            export PUBLIC_URL="/${{ github.ref_name }}"
+            export PUBLIC_URL="/${{ github.head_ref || github.ref_name }}"
           fi
           npm run build
       - name: deploy 🚛
