@@ -36,12 +36,13 @@ function App() {
       const transformedArray = [];
       for (const location of data) {
         const offers = location.offers;
+        const locationCopy = { name: location.name, meals: [], details: location.details };
         for (const date in offers) {
-            if (date === selectedDate) {
-                const locationCopy = { name: location.name, meals: offers[date], date, details: location.details };
-                transformedArray.push(locationCopy);
-            }
+          if (date === selectedDate) {
+              locationCopy.meals = offers[date];
+          }
         }
+        transformedArray.push(locationCopy);
       }
       setFilteredData(transformedArray);
     } else {
@@ -50,17 +51,18 @@ function App() {
   }, [selectedDate, data]);
 
   return (
-    <div class="container">
+    <div className="container">
       <h1>What's up for lunch?</h1>
       <label>
         Datum auswählen:&nbsp;
         <input type="date" value={selectedDate} onChange={handleDateChange} />
       </label>
       {filteredData.map((location, index) => (
-      <p key="{location.name}" class="mt-3">
+      <div key={location.name} className="mt-3">
         <h2>{location.name}</h2>
         {location.details.join(", ")}
-        <table class="table">
+        {location.meals.length > 0 &&
+        <table className="table">
           <thead>
             <tr>
               <th>Name</th>
@@ -70,7 +72,7 @@ function App() {
           <tbody>
           {location.meals.map((meal,index) => {
             return (
-            <tr key="{meal}">
+            <tr key={meal.desc}>
               <td>{meal.desc}</td>
               <td>{meal.price}</td>
             </tr>
@@ -78,7 +80,8 @@ function App() {
           })}
           </tbody>
         </table>
-      </p>
+        }
+      </div>
       ))}
     </div>
   );
