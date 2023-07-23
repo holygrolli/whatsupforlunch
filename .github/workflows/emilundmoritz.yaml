@@ -1,0 +1,49 @@
+name: emilundmoritz
+on:
+  workflow_dispatch:
+permissions: 
+  contents: write
+  packages: write
+jobs:
+  download:
+    runs-on: ubuntu-latest
+    container:
+      image: ghcr.io/holygrolli/whatsupforlunch:main
+    outputs:
+      matrix: ${{ steps.setmatrix.outputs.matrix }}
+    steps:
+      - name: checkout
+        uses: actions/checkout@v3
+      - name: get new links
+        shell: bash
+        run: |
+          WD=${PWD}
+          mkdir -p tmp
+          scrapy runspider locations/emilundmoritz/scra.py --nolog > tmp/mittagsangebot.txt
+      - name: process txt with chatgpt
+        working-directory: tmp
+        env:
+          OPENAI_API_KEY: ${{secrets.OPENAI_API_KEY}}
+        shell: bash
+        run: |
+          python ../locations/emilundmoritz/process_chatgpt.py ../locations/emilundmoritz/prompt.txt mittagsangebot.txt
+          mkdir -p ../data/emilundmoritz
+          cp final.json ../data/emilundmoritz/$(date -d"$(jq -r 'keys[0]' final.json)" +%Y-%V).json
+      - name: Archive all tmp files
+        uses: actions/upload-artifact@v3
+        with:
+          name: emilundmoritz-processed
+          retention-days: 5
+          path: |
+            tmp
+      - name: cleanup git
+        if: ${{ !github.event.act }} # skip during local actions testing
+        shell: bash
+        run: |
+          git config --global user.name 'action'
+          git config --global user.email 'holygrolli@users.noreply.github.com'
+          git config --system --add safe.directory $PWD
+          git add locations
+          git add data
+          git commit -am "scraped result"
+          git push
