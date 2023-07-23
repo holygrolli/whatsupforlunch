@@ -34,15 +34,15 @@ jobs:
           for loc in $(ls -1 data | grep -v galeria);
           do
             jq '.offers = inputs' data/${loc}/details.json <(jq -s 'reduce .[] as $item ({}; . * $item)' data/${loc}/2*.json) > tmp-data/merged_${loc}.json
-            jq -c --slurpfile locations <(cat tmp-data/merged_*.json | jq -s) '.locations = $locations[0]' <(echo '{"locations": ""}') > site/public/data.json
           done
+          jq -c --slurpfile locations <(cat tmp-data/merged_*.json | jq -s) '.locations = $locations[0]' <(echo '{"locations": ""}') > site/public/data.json
       - name: build site 🔨
         working-directory: site
         shell: bash
         run: |
           npm install
           if [[ "${{ github.head_ref || github.ref_name }}" != "main" ]]; then
-            export PUBLIC_URL="/${{ github.ref_name }}"
+            export PUBLIC_URL="/${{ github.head_ref || github.ref_name }}"
           fi
           npm run build
       - name: deploy 🚛
