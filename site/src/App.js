@@ -58,7 +58,7 @@ function App() {
         <input type="date" value={selectedDate} onChange={handleDateChange} />
       </label>
       {filteredData.map((location, index) => (
-      <div key={location.name} className="mt-3">
+      <div key={location.name} className="mt-3 p-2 border border-dark rounded">
         <h2>{location.name}</h2>
         <div><a href="{location.link}">Link</a></div>
         <div>{location.details.join(", ")}</div>
