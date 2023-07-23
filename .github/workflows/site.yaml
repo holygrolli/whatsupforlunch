@@ -11,7 +11,7 @@ on:
       - 'site/**'
       - '.github/workflows/site.yaml'
   pull_request:
-    branches:
+    branches-ignore:
       - 'main'
     paths:
       - 'data/**'
