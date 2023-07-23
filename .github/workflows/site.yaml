@@ -41,14 +41,22 @@ jobs:
         shell: bash
         run: |
           npm install
+          if [[ "${{ github.ref_name }}" != "main" ]]; then
+            export PUBLIC_URL="/${{ github.ref_name }}"
+          fi
           npm run build
       - name: deploy 🚛
         shell: bash
         run: |
+          if [[ "${{ github.ref_name }}" == "main" ]]; then
+            export TARGET_PATH="${{ secrets.DEPLOY_PATH }}"
+          else
+            export TARGET_PATH="/dev.lunchdeal.li/httpdocs/${{ github.ref_name }}"
+          fi
           echo -e "${{ secrets.DEPLOY_KEY }}" >__TEMP_INPUT_KEY_FILE
           chmod 600 __TEMP_INPUT_KEY_FILE
           ssh -o StrictHostKeyChecking=no -i __TEMP_INPUT_KEY_FILE "${{ secrets.DEPLOY_USER }}"@"${{ secrets.DEPLOY_HOST }}" "rm -rf /tmp/upload_tmp; mkdir /tmp/upload_tmp"
           scp -o StrictHostKeyChecking=no -i __TEMP_INPUT_KEY_FILE -r site/build/* "${{ secrets.DEPLOY_USER }}"@"${{ secrets.DEPLOY_HOST }}":/tmp/upload_tmp
-          ssh -o StrictHostKeyChecking=no -i __TEMP_INPUT_KEY_FILE "${{ secrets.DEPLOY_USER }}"@"${{ secrets.DEPLOY_HOST }}" "rm -rf ${{ secrets.DEPLOY_PATH }}/*; cp -R /tmp/upload_tmp/* ${{ secrets.DEPLOY_PATH }}"
+          ssh -o StrictHostKeyChecking=no -i __TEMP_INPUT_KEY_FILE "${{ secrets.DEPLOY_USER }}"@"${{ secrets.DEPLOY_HOST }}" "rm -rf ${TARGET_PATH}/*; mkdir -p ${TARGET_PATH}; cp -R /tmp/upload_tmp/* ${TARGET_PATH}"
           #"${{ secrets.DEPLOY_PATH }}"
           

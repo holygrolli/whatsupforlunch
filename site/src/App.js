@@ -8,7 +8,7 @@ function App() {
 
   useEffect(() => {
     // Fetch data from the JSON file
-    axios.get('/data.json').then((response) => {
+    axios.get('./data.json').then((response) => {
       setData(response.data.locations);
     });
   }, []);
