@@ -1,4 +1,4 @@
-name: Build website
+name: Create release and build website
 
 # Controls when the workflow will run
 on:
@@ -7,15 +7,9 @@ on:
     branches:
       - 'main'
     paths:
-      - 'data/**'
-      - '.github/workflows/site.yaml'
-  pull_request:
-    branches-ignore:
-      - 'main'
-    paths:
-      - 'data/**'
       - 'site/**'
-      - '.github/workflows/site.yaml'
+permissions:
+  contents: write
 
 jobs:
   build:
@@ -26,6 +20,8 @@ jobs:
       # Get the repository's code
       - name: Checkout
         uses: actions/checkout@v3
+        with:
+          fetch-depth: 0
       - name: build data.json
         shell: bash
         run: |
@@ -35,6 +31,22 @@ jobs:
             jq '.offers = inputs' data/${loc}/details.json <(jq -s 'reduce .[] as $item ({}; . * $item)' data/${loc}/2*.json) > tmp-data/merged_${loc}.json
           done
           jq -c --slurpfile locations <(cat tmp-data/merged_*.json | jq -s) '.locations = $locations[0]' <(echo '{"locations": ""}') > site/public/data.json
+      - name: Conventional Changelog Action
+        id: changelog
+        uses: TriPSs/conventional-changelog-action@v3
+        with:
+          skip-commit: "true"
+          skip-git-pull: "true"
+          git-path: "site"
+      - name: Create Release
+        uses: actions/create-release@v1
+        if: ${{ steps.changelog.outputs.skipped == 'false' }}
+        env:
+          GITHUB_TOKEN: ${{ secrets.github_token }}
+        with:
+          tag_name: ${{ steps.changelog.outputs.tag }}
+          release_name: ${{ steps.changelog.outputs.tag }}
+          body: ${{ steps.changelog.outputs.clean_changelog }}
       - name: build site 🔨
         working-directory: site
         shell: bash
