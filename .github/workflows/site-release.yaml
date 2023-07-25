@@ -37,10 +37,11 @@ jobs:
         id: changelog
         uses: TriPSs/conventional-changelog-action@v3
         with:
+          github-token: ${{ secrets.github_token }}
           skip-commit: "true"
           skip-git-pull: "true"
           skip-tag: "true"
-          git-path: "site"
+          git-path: "site locations"
       - name: build site 🔨
         working-directory: site
         shell: bash
@@ -70,10 +71,11 @@ jobs:
         id: tag
         uses: TriPSs/conventional-changelog-action@v3
         with:
+          github-token: ${{ secrets.github_token }}
           skip-commit: "true"
           skip-git-pull: "true"
           skip-tag: "false"
-          git-path: "site"
+          git-path: "site locations"
       - name: Create Release
         uses: actions/create-release@v1
         if: ${{ steps.changelog.outputs.skipped == 'false' }}
