@@ -7,6 +7,7 @@ on:
     branches:
       - 'main'
     paths:
+      - 'locations/**'
       - 'site/**'
 permissions:
   contents: write
@@ -37,19 +38,13 @@ jobs:
         with:
           skip-commit: "true"
           skip-git-pull: "true"
+          skip-tag: "true"
           git-path: "site"
-      - name: Create Release
-        uses: actions/create-release@v1
-        if: ${{ steps.changelog.outputs.skipped == 'false' }}
-        env:
-          GITHUB_TOKEN: ${{ secrets.github_token }}
-        with:
-          tag_name: ${{ steps.changelog.outputs.tag }}
-          release_name: ${{ steps.changelog.outputs.tag }}
-          body: ${{ steps.changelog.outputs.clean_changelog }}
       - name: build site 🔨
         working-directory: site
         shell: bash
+        env:
+          REACT_APP_VERSION: ${{ steps.changelog.outputs.tag }}
         run: |
           npm install
           if [[ "${{ github.head_ref || github.ref_name }}" != "main" ]]; then
@@ -70,4 +65,21 @@ jobs:
           scp -o StrictHostKeyChecking=no -i __TEMP_INPUT_KEY_FILE -r site/build/* "${{ secrets.DEPLOY_USER }}"@"${{ secrets.DEPLOY_HOST }}":/tmp/upload_tmp
           ssh -o StrictHostKeyChecking=no -i __TEMP_INPUT_KEY_FILE "${{ secrets.DEPLOY_USER }}"@"${{ secrets.DEPLOY_HOST }}" "rm -rf ${TARGET_PATH}/*; mkdir -p ${TARGET_PATH}; cp -R /tmp/upload_tmp/* ${TARGET_PATH}"
           #"${{ secrets.DEPLOY_PATH }}"
+      - name: Conventional Changelog Action
+        id: tag
+        uses: TriPSs/conventional-changelog-action@v3
+        with:
+          skip-commit: "true"
+          skip-git-pull: "true"
+          skip-tag: "false"
+          git-path: "site"
+      - name: Create Release
+        uses: actions/create-release@v1
+        if: ${{ steps.changelog.outputs.skipped == 'false' }}
+        env:
+          GITHUB_TOKEN: ${{ secrets.github_token }}
+        with:
+          tag_name: ${{ steps.changelog.outputs.tag }}
+          release_name: ${{ steps.changelog.outputs.tag }}
+          body: ${{ steps.changelog.outputs.clean_changelog }}
           
