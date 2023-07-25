@@ -13,6 +13,11 @@ function LocationDetails({details}) {
     </label>
   )
 }
+function VersionInfo() {
+  return (
+    <div>Version {process.env.REACT_APP_VERSION ? process.env.REACT_APP_VERSION : "SNAPSHOT"}</div>
+  )
+}
 
 function App() {
   const [data, setData] = useState([]);
@@ -97,6 +102,7 @@ function App() {
         }
       </div>
       ))}
+      <VersionInfo />
     </div>
   );
 }
