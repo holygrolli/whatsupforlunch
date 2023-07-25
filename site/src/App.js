@@ -14,8 +14,10 @@ function LocationDetails({details}) {
   )
 }
 function VersionInfo() {
+  const ver = process.env.REACT_APP_VERSION ? process.env.REACT_APP_VERSION : "SNAPSHOT";
+  const hash = process.env.REACT_APP_HASH ? process.env.REACT_APP_HASH : "main";
   return (
-    <div>Version {process.env.REACT_APP_VERSION ? process.env.REACT_APP_VERSION : "SNAPSHOT"}</div>
+    <div className='text-center small'>Release <a href={"https://github.com/holygrolli/whatsupforlunch/releases/tag/"+ ver}>{ver}</a> | Source: <a href={"https://github.com/holygrolli/whatsupforlunch/commit/"+hash}>{hash}</a> </div>
   )
 }
 
@@ -102,7 +104,9 @@ function App() {
         }
       </div>
       ))}
-      <VersionInfo />
+      <div className='pt-1'>
+        <VersionInfo />
+      </div>
     </div>
   );
 }
