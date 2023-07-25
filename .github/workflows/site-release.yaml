@@ -11,6 +11,7 @@ on:
       - 'site/**'
 permissions:
   contents: write
+  packages: read
 
 jobs:
   build:
@@ -39,7 +40,7 @@ jobs:
           skip-commit: "true"
           skip-git-pull: "true"
           skip-tag: "true"
-          git-path: "site"
+          git-path: "site locations"
       - name: build site 🔨
         working-directory: site
         shell: bash
@@ -72,7 +73,7 @@ jobs:
           skip-commit: "true"
           skip-git-pull: "true"
           skip-tag: "false"
-          git-path: "site"
+          git-path: "site locations"
       - name: Create Release
         uses: actions/create-release@v1
         if: ${{ steps.changelog.outputs.skipped == 'false' }}
