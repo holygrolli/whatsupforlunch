@@ -40,7 +40,7 @@ jobs:
           skip-commit: "true"
           skip-git-pull: "true"
           skip-tag: "true"
-          git-path: "site locations"
+          git-path: "site"
       - name: build site 🔨
         working-directory: site
         shell: bash
@@ -73,7 +73,7 @@ jobs:
           skip-commit: "true"
           skip-git-pull: "true"
           skip-tag: "false"
-          git-path: "site locations"
+          git-path: "site"
       - name: Create Release
         uses: actions/create-release@v1
         if: ${{ steps.changelog.outputs.skipped == 'false' }}
