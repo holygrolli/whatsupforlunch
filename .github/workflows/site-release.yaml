@@ -14,25 +14,16 @@ permissions:
   packages: read
 
 jobs:
-  build:
+  get-version:
     runs-on: ubuntu-latest
-    container:
-      image: ghcr.io/holygrolli/whatsupforlunch:main
+    outputs:
+      version: ${{ steps.changelog.outputs.tag }}
     steps:
       # Get the repository's code
       - name: Checkout
         uses: actions/checkout@v3
         with:
           fetch-depth: 0
-      - name: build data.json
-        shell: bash
-        run: |
-          mkdir -p tmp-data
-          for loc in $(ls -1 data | grep -v galeria);
-          do
-            jq '.offers = inputs' data/${loc}/details.json <(jq -s 'reduce .[] as $item ({}; . * $item)' data/${loc}/2*.json) > tmp-data/merged_${loc}.json
-          done
-          jq -c --slurpfile locations <(cat tmp-data/merged_*.json | jq -s) '.locations = $locations[0]' <(echo '{"locations": ""}') > site/public/data.json
       - name: Conventional Changelog Action
         id: changelog
         uses: TriPSs/conventional-changelog-action@v3
@@ -42,11 +33,29 @@ jobs:
           skip-git-pull: "true"
           skip-tag: "true"
           git-path: "site locations"
+  build:
+    needs: get-version
+    runs-on: ubuntu-latest
+    container:
+      image: ghcr.io/holygrolli/whatsupforlunch:main
+    steps:
+      # Get the repository's code
+      - name: Checkout
+        uses: actions/checkout@v3
+      - name: build data.json
+        shell: bash
+        run: |
+          mkdir -p tmp-data
+          for loc in $(ls -1 data | grep -v galeria);
+          do
+            jq '.offers = inputs' data/${loc}/details.json <(jq -s 'reduce .[] as $item ({}; . * $item)' data/${loc}/2*.json) > tmp-data/merged_${loc}.json
+          done
+          jq -c --slurpfile locations <(cat tmp-data/merged_*.json | jq -s) '.locations = $locations[0]' <(echo '{"locations": ""}') > site/public/data.json
       - name: build site 🔨
         working-directory: site
         shell: bash
         env:
-          REACT_APP_VERSION: ${{ steps.changelog.outputs.tag }}
+          REACT_APP_VERSION: ${{ needs.get-version.outputs.version }}
         run: |
           npm install
           if [[ "${{ github.head_ref || github.ref_name }}" != "main" ]]; then
@@ -67,8 +76,17 @@ jobs:
           scp -o StrictHostKeyChecking=no -i __TEMP_INPUT_KEY_FILE -r site/build/* "${{ secrets.DEPLOY_USER }}"@"${{ secrets.DEPLOY_HOST }}":/tmp/upload_tmp
           ssh -o StrictHostKeyChecking=no -i __TEMP_INPUT_KEY_FILE "${{ secrets.DEPLOY_USER }}"@"${{ secrets.DEPLOY_HOST }}" "rm -rf ${TARGET_PATH}/*; mkdir -p ${TARGET_PATH}; cp -R /tmp/upload_tmp/* ${TARGET_PATH}"
           #"${{ secrets.DEPLOY_PATH }}"
+  create-version:
+    needs: build
+    runs-on: ubuntu-latest
+    steps:
+      # Get the repository's code
+      - name: Checkout
+        uses: actions/checkout@v3
+        with:
+          fetch-depth: 0
       - name: Conventional Changelog Action
-        id: tag
+        id: changelog
         uses: TriPSs/conventional-changelog-action@v3
         with:
           github-token: ${{ secrets.github_token }}
@@ -85,4 +103,3 @@ jobs:
           tag_name: ${{ steps.changelog.outputs.tag }}
           release_name: ${{ steps.changelog.outputs.tag }}
           body: ${{ steps.changelog.outputs.clean_changelog }}
-          
