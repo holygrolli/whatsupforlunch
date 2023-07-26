@@ -41,6 +41,9 @@ jobs:
       # Get the repository's code
       - name: Checkout
         uses: actions/checkout@v3
+      - name: Add SHORT_SHA env property with commit short sha
+        id: gitvars
+        run: echo "SHORT_SHA=`echo ${GITHUB_SHA} | cut -c1-8`" >> $GITHUB_ENV
       - name: build data.json
         shell: bash
         run: |
@@ -55,6 +58,7 @@ jobs:
         shell: bash
         env:
           REACT_APP_VERSION: ${{ needs.get-version.outputs.version }}
+          REACT_APP_HASH: ${{ steps.gitvars.outputs.SHORT_SHA }}
         run: |
           npm install
           if [[ "${{ github.head_ref || github.ref_name }}" != "main" ]]; then
