@@ -3,10 +3,23 @@ name: Build website
 # Controls when the workflow will run
 on:
   workflow_dispatch:
+    inputs:
+      version:
+        required: false
+        type: string
+        default: 'snapshot'
+  workflow_call:
+    inputs:
+      version:
+        required: false
+        type: string
+        default: 'snapshot'
+  push:
+    branches:
+      - 'develop'
   push:
     branches:
       - 'main'
-      - 'develop'
     paths:
       - 'data/**'
       - '.github/workflows/site.yaml'
@@ -23,6 +36,9 @@ jobs:
       # Get the repository's code
       - name: Checkout
         uses: actions/checkout@v3
+      - name: Add SHORT_SHA env property with commit short sha
+        id: gitvars
+        run: echo "SHORT_SHA=`echo ${GITHUB_SHA} | cut -c1-8`" >> "$GITHUB_OUTPUT"
       - name: build data.json
         shell: bash
         run: |
@@ -32,9 +48,21 @@ jobs:
             jq '.offers = inputs' data/${loc}/details.json <(jq -s 'reduce .[] as $item ({}; . * $item)' data/${loc}/2*.json) > tmp-data/merged_${loc}.json
           done
           jq -c --slurpfile locations <(cat tmp-data/merged_*.json | jq -s) '.locations = $locations[0]' <(echo '{"locations": ""}') > site/public/data.json
+      - name: Set build version
+        id: set-version
+        shell: bash
+        run: |
+          if [[ "${{ inputs.version }}" != "snapshot" ]]; then
+            echo "BUILD_VERSION=${{ inputs.version }}" >> "$GITHUB_OUTPUT"
+          else
+            git describe --tags --abbrev=0 && echo "BUILD_VERSION=$(git describe --tags --abbrev=0)" >> "$GITHUB_OUTPUT" || echo "BUILD_VERSION=snapshot >> "$GITHUB_OUTPUT"
+          fi
       - name: build site 🔨
         working-directory: site
         shell: bash
+        env:
+          REACT_APP_VERSION: ${{ steps.set-version.outputs.BUILD_VERSION }}
+          REACT_APP_HASH: ${{ steps.gitvars.outputs.SHORT_SHA }}
         run: |
           npm install
           if [[ "${{ github.head_ref || github.ref_name }}" != "main" ]]; then
@@ -55,4 +83,3 @@ jobs:
           scp -o StrictHostKeyChecking=no -i __TEMP_INPUT_KEY_FILE -r site/build/* "${{ secrets.DEPLOY_USER }}"@"${{ secrets.DEPLOY_HOST }}":/tmp/upload_tmp
           ssh -o StrictHostKeyChecking=no -i __TEMP_INPUT_KEY_FILE "${{ secrets.DEPLOY_USER }}"@"${{ secrets.DEPLOY_HOST }}" "rm -rf ${TARGET_PATH}/*; mkdir -p ${TARGET_PATH}; cp -R /tmp/upload_tmp/* ${TARGET_PATH}"
           #"${{ secrets.DEPLOY_PATH }}"
-          
