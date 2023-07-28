@@ -1,47 +1,47 @@
 {
   "2023-07-24": [
     {
-      "desc": "Currywurst \"Nach Art des Hauses\", dazu Kartoffelecken und Salatbeilage",
+      "desc": "Bauernfrühstück mit Gewürzgurke und Salatbeilage",
       "price": 7.70
     },
     {
-      "desc": "Tortellini in Paprikarahm mit Lauchzwiebeln, überbacken mit Mozzarella (veget.)",
-      "price": 7.50
+      "desc": "Auberginenschnitzel in Parmesanpanade mit pikanter Tomatensauce und Pasta (veget.)",
+      "price": 7.70
     }
   ],
   "2023-07-25": [
     {
-      "desc": "Schweineschnitzel \"Western\" mit BBQ-Zwiebeln, Bacon und gebackenen Kartoffelecken, dazu Sour Cream",
+      "desc": "Schweineschnitzel überbacken mit Tomate und Mozzarella, dazu Rosmarinkartoffeln und Basilikumcreme",
       "price": 7.90
     },
     {
-      "desc": "Waldpilzgulasch mit Kräuterspätzle und Röstzwiebeln (veget.)",
+      "desc": "Mediterrane Gemüsebolognese mit Pasta und veganem Käse (vegan)",
       "price": 7.70
     }
   ],
   "2023-07-26": [
     {
-      "desc": "Hähnchenschnitzel mit Rahmerbsen, Salzkartoffeln und brauner Sauce",
+      "desc": "Frikadelle mit Rahmenblumenkohl, Salzkartoffeln und brauner Sauce",
       "price": 7.70
     },
     {
-      "desc": "Gnocchi in Basilikumsauce mit Kirschtomaten, dazu Parmesan und geröstete Mandeln (veget.)",
+      "desc": "Gebratene Minikartoffeln mit Kirschtomaten und Rucola, dazu Paprika-Gurken-Quark sowie geröstete Sonnenblumenkerne (veget.)",
       "price": 7.70
     }
   ],
   "2023-07-27": [
     {
-      "desc": "Gyros mit Kartoffelecken, Tzaziki und Krautsalat",
+      "desc": "Gebackene Hähnchenbrust in Sesampanade, dazu gebratene Mie Nudeln, buntes Gemüse, Sweet Chilisauce und Röstzwiebeln",
       "price": 7.90
     },
     {
-      "desc": "Süßkartoffel-Mangoldcurry mit gerösteten Haselnüssen (veg.)",
+      "desc": "Süßkartoffel-Rösti überbacken mit Hirtenkäse, dazu Minz-Chili-Dip und Tomatensalat (veget.)",
       "price": 7.70
     }
   ],
   "2023-07-28": [
     {
-      "desc": "Gebratenes Seelachsfilet mit pikantem Rahmfenchel, dazu Orangencouscous",
+      "desc": "Fischcurry mit buntem Gemüse und Zitronenreis",
       "price": 7.90
     }
   ]
