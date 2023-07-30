@@ -3,19 +3,59 @@ name: Build website
 # Controls when the workflow will run
 on:
   workflow_dispatch:
+    inputs:
+      version:
+        required: false
+        type: string
+        default: 'snapshot'
+  workflow_call:
+    inputs:
+      version:
+        required: false
+        type: string
+        default: 'snapshot'
   push:
     branches:
-      - 'main'
       - 'develop'
-    paths:
-      - 'data/**'
-      - '.github/workflows/site.yaml'
+      - 'main'
   pull_request:
     branches-ignore:
       - 'main'
 
 jobs:
+  changes:
+    runs-on: ubuntu-latest
+    # Required permissions
+    permissions:
+      contents: read
+      pull-requests: read
+    # Set job outputs to values from filter step
+    outputs:
+      data: ${{ steps.filter.outputs.data }}
+      frontend: ${{ steps.filter.outputs.frontend }}
+      locations: ${{ steps.filter.outputs.locations }}
+      workflow: ${{ steps.filter.outputs.workflow }}
+    steps:
+    - uses: actions/checkout@v3
+      with:
+        # This may save additional git fetch roundtrip if
+        # merge-base is found within latest 20 commits
+        fetch-depth: 20
+    - uses: dorny/paths-filter@v2
+      id: filter
+      with:
+        filters: |
+          data:
+            - 'data/**'
+          frontend:
+            - 'site/**'
+          locations:
+            - 'locations/**'
+          workflow:
+            - '.github/workflows/site.yaml'
   build:
+    needs: changes
+    if: ${{ needs.changes.outputs.data == 'true' || needs.changes.outputs.workflow == 'true' || github.event_name == 'workflow_call' || github.event_name == 'workflow_dispatch' }}
     runs-on: ubuntu-latest
     container:
       image: ghcr.io/holygrolli/whatsupforlunch:main
@@ -23,6 +63,9 @@ jobs:
       # Get the repository's code
       - name: Checkout
         uses: actions/checkout@v3
+      - name: Add SHORT_SHA env property with commit short sha
+        id: gitvars
+        run: echo "SHORT_SHA=`echo ${GITHUB_SHA} | cut -c1-8`" >> "$GITHUB_OUTPUT"
       - name: build data.json
         shell: bash
         run: |
@@ -32,9 +75,22 @@ jobs:
             jq '.offers = inputs' data/${loc}/details.json <(jq -s 'reduce .[] as $item ({}; . * $item)' data/${loc}/2*.json) > tmp-data/merged_${loc}.json
           done
           jq -c --slurpfile locations <(cat tmp-data/merged_*.json | jq -s) '.locations = $locations[0]' <(echo '{"locations": ""}') > site/public/data.json
+      - name: Set build version
+        id: set-version
+        shell: bash
+        run: |
+          git config --global --add safe.directory $PWD
+          if [[ -n "${{ github.event.inputs.version }}" && "${{ github.event.inputs.version }}" != "snapshot" ]]; then
+            echo "BUILD_VERSION=${{ github.event.inputs.version }}" >> "$GITHUB_OUTPUT"
+          else
+            git describe --tags --abbrev=0 && echo "BUILD_VERSION=$(git describe --tags --abbrev=0)" >> "$GITHUB_OUTPUT" || echo "BUILD_VERSION=snapshot" >> "$GITHUB_OUTPUT"
+          fi
       - name: build site 🔨
         working-directory: site
         shell: bash
+        env:
+          REACT_APP_VERSION: ${{ steps.set-version.outputs.BUILD_VERSION }}
+          REACT_APP_HASH: ${{ steps.gitvars.outputs.SHORT_SHA }}
         run: |
           npm install
           if [[ "${{ github.head_ref || github.ref_name }}" != "main" ]]; then
@@ -55,4 +111,3 @@ jobs:
           scp -o StrictHostKeyChecking=no -i __TEMP_INPUT_KEY_FILE -r site/build/* "${{ secrets.DEPLOY_USER }}"@"${{ secrets.DEPLOY_HOST }}":/tmp/upload_tmp
           ssh -o StrictHostKeyChecking=no -i __TEMP_INPUT_KEY_FILE "${{ secrets.DEPLOY_USER }}"@"${{ secrets.DEPLOY_HOST }}" "rm -rf ${TARGET_PATH}/*; mkdir -p ${TARGET_PATH}; cp -R /tmp/upload_tmp/* ${TARGET_PATH}"
           #"${{ secrets.DEPLOY_PATH }}"
-          
