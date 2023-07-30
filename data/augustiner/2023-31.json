@@ -1,0 +1,52 @@
+{
+  "2023-07-31": [
+    {
+      "desc": "Schnitzel \"Wiener Art\" mit Kartoffel-Gurken-Salat",
+      "price": 7.5
+    },
+    {
+      "desc": "Allgäuer Käsespätzle mit Röstzwiebeln",
+      "price": 7.5
+    }
+  ],
+  "2023-08-01": [
+    {
+      "desc": "Gulasch vom Schwein mit Pilzen und Butterspätzle",
+      "price": 7.5
+    },
+    {
+      "desc": "Spätzlepfanne mit buntem Gemüse und Röstzwiebeln",
+      "price": 7.5
+    }
+  ],
+  "2023-08-02": [
+    {
+      "desc": "Königsberger Klopse in Kapernsauce mit Salzkartoffeln",
+      "price": 7.5
+    },
+    {
+      "desc": "Rahmspinat mit Rührei und Salzkartoffeln",
+      "price": 7.5
+    }
+  ],
+  "2023-08-03": [
+    {
+      "desc": "Mutzbraten mit Speckbohnen und Kroketten",
+      "price": 7.5
+    },
+    {
+      "desc": "Falaffelbällchen mit Cous Cous Salat und Minz-Dip",
+      "price": 7.5
+    }
+  ],
+  "2023-08-04": [
+    {
+      "desc": "Backfisch mit Kartoffel-Gurken-Salat",
+      "price": 7.5
+    },
+    {
+      "desc": "Kaiserschmarrn mit Apfelmus",
+      "price": 7.5
+    }
+  ]
+}
