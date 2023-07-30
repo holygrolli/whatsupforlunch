@@ -57,5 +57,6 @@ jobs:
             data
           branch: ${{ github.workflow }}-cron
           commit-message: "chore(data): automated scraping"
-          labels: auto-approve-cron
+          labels: "auto-approve-cron"
+          title: "${{ github.workflow }} data updates"
           token: ${{ steps.generate-token.outputs.token }}
