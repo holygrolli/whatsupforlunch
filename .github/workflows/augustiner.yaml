@@ -19,7 +19,7 @@ jobs:
         run: |
           WD=${PWD}
           mkdir -p tmp
-          scrapy runspider locations/augustiner/scra.py --nolog | sort > tmp/scraped_links.txt
+          scrapy runspider locations/augustiner/scra.py --nolog | sort -u > tmp/scraped_links.txt
           cd tmp
           while IFS= read -r line; do
             curl -sOL $line
