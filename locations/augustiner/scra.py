@@ -10,9 +10,9 @@ class LunchSpider(scrapy.Spider):
     def parse(self, response):
         links = response.xpath('//a[contains(@href,"pdf") and contains(@href,"Mittag")]/@href')
         if (len(links) > 0):
-            sel = links[0]
-            link = sel.get()
-            print(link)
-            yield {"pdf":link}
+            for sel in links:
+                link = sel.get()
+                print(link)
+                yield {"pdf":link}
         else:
             sys.exit(1)
