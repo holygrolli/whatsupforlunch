@@ -1,0 +1,34 @@
+{
+  "2023-07-31": [{
+    "desc": "Bauernfrühstück mit Gewürzgurke und Salatbeilage",
+    "price": 7.70
+  }, {
+    "desc": "Auberginenschnitzel in Parmesanpanade mit pikanter Tomatensauce und Pasta (veget.)",
+    "price": 7.70
+  }],
+  "2023-08-01": [{
+    "desc": "Schweineschnitzel überbacken mit Tomate und Mozzarella, dazu Rosmarinkartoffeln und Basilikumcreme",
+    "price": 7.90
+  }, {
+    "desc": "Mediterrane Gemüsebolognese mit Pasta und veganem Käse (vegan)",
+    "price": 7.70
+  }],
+  "2023-08-02": [{
+    "desc": "Frikadelle mit Rahmenblumenkohl, Salzkartoffeln und brauner Sauce",
+    "price": 7.70
+  }, {
+    "desc": "Gebratene Minikartoffeln mit Kirschtomaten und Rucola, dazu Paprika-Gurken-Quark sowie geröstete Sonnenblumenkerne (veget.)",
+    "price": 7.70
+  }],
+  "2023-08-03": [{
+    "desc": "Gebackene Hähnchenbrust in Sesampanade, dazu gebratene Mie Nudeln, buntes Gemüse, Sweet Chilisauce und Röstzwiebeln",
+    "price": 7.90
+  }, {
+    "desc": "Süßkartoffel-Rösti überbacken mit Hirtenkäse, dazu Minz-Chili-Dip und Tomatensalat (veget.)",
+    "price": 7.70
+  }],
+  "2023-08-04": [{
+    "desc": "Fischcurry mit buntem Gemüse und Zitronenreis",
+    "price": 7.90
+  }]
+}
