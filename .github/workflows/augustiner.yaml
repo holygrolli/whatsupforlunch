@@ -105,6 +105,11 @@ jobs:
         retention-days: 5
         path: |
           tmp
+    - uses: tibdex/github-app-token@v1
+      id: generate-token
+      with:
+        app_id: ${{ secrets.TOKEN_APP_ID }}
+        private_key: ${{ secrets.TOKEN_APP_PRIVATE_KEY }}
     - name: Create Pull Request
       if: ${{ !github.event.act }}
       uses: peter-evans/create-pull-request@v5
@@ -113,4 +118,6 @@ jobs:
           data
         branch: ${{ github.workflow }}-cron
         commit-message: "chore(data): automated scraping"
-        labels: auto-approve-cron
+        labels: "auto-approve-cron"
+        title: "${{ github.workflow }} data updates"
+        token: ${{ steps.generate-token.outputs.token }}
