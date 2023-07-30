@@ -41,6 +41,11 @@ jobs:
         # This may save additional git fetch roundtrip if
         # merge-base is found within latest 20 commits
         fetch-depth: 20
+    - name: Debug event data
+      run: |
+        echo head_ref=${{ github.head_ref }}
+        echo ref_name=${{ github.ref_name }}
+        echo event_name=${{ github.event_name }}
     - uses: dorny/paths-filter@v2
       id: filter
       with:
