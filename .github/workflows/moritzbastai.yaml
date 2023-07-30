@@ -6,7 +6,7 @@ on:
 permissions: 
   contents: write
   packages: write
-  pull-request: write
+  pull-requests: write
 jobs:
   download:
     runs-on: ubuntu-latest
