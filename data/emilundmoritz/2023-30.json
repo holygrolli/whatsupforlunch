@@ -1,51 +1,51 @@
 {
   "2023-07-24": [
     {
-      "desc": "Putencurry",
+      "desc": "Käse Schinken Spätzle",
       "price": 6.6
     },
     {
-      "desc": "Senfeier mit Kartoffeln",
+      "desc": "Spätzle Gemüse",
       "price": 6.6
     }
   ],
   "2023-07-25": [
     {
-      "desc": "Rostbrät'l mit Schmorzwiebeln und Bratkartoffeln",
+      "desc": "Grützwurst, Sauerkraut, Kartoffeln",
       "price": 6.6
     },
     {
-      "desc": "Matjes mit Hausfrauensoße und Bratkartoffeln",
+      "desc": "Couscous Feta- Gemüse Pfanne",
       "price": 6.6
     }
   ],
   "2023-07-26": [
     {
-      "desc": "Schweineschnitzel dazu Buttererbsen und Kartoffeln",
+      "desc": "Schnitzel Hähnchen, Mischgemüse, Kartoffeln",
       "price": 6.6
     },
     {
-      "desc": "Milchreis mit Kirschen und Zucker und Zimt",
+      "desc": "Hefeklöße, heiße Pflaumen",
       "price": 6.6
     }
   ],
   "2023-07-27": [
     {
-      "desc": "Hühnerfrikassee mit Reis",
+      "desc": "Currywurst, Pommes",
       "price": 6.6
     },
     {
-      "desc": "Mit Parmesan gratinierter Zucchini dazu Tomatenreis",
+      "desc": "Zucchini- Kartoffelrösti, Tzatziki",
       "price": 6.6
     }
   ],
   "2023-07-28": [
     {
-      "desc": "2 Bouletten mit Kartoffel- Gurkensalat",
+      "desc": "Backfisch, Dill Kartoffelstampf, Gurkensalat",
       "price": 6.6
     },
     {
-      "desc": "Kräuterquark mit Rosmarinkartoffeln und einen kleinem Salat",
+      "desc": "Krautpfanne, Kartoffeln",
       "price": 6.6
     }
   ]
