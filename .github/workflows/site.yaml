@@ -82,7 +82,7 @@ jobs:
           if [[ -n "${{ github.event.inputs.version }}" && "${{ github.event.inputs.version }}" != "snapshot" ]]; then
             echo "BUILD_VERSION=${{ github.event.inputs.version }}" >> "$GITHUB_OUTPUT"
           else
-            git describe --tags --abbrev=0 && echo "BUILD_VERSION=$(git describe --tags --abbrev=0)" >> "$GITHUB_OUTPUT" || echo "BUILD_VERSION=snapshot >> "$GITHUB_OUTPUT"
+            git describe --tags --abbrev=0 && echo "BUILD_VERSION=$(git describe --tags --abbrev=0)" >> "$GITHUB_OUTPUT" || echo "BUILD_VERSION=snapshot" >> "$GITHUB_OUTPUT"
           fi
       - name: build site 🔨
         working-directory: site
