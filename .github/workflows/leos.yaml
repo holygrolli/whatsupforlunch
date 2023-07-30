@@ -8,7 +8,22 @@ permissions:
   packages: write
   pull-request: write
 jobs:
+  detectweek:
+    runs-on: ubuntu-latest
+    outputs:
+      run: ${{ steps.week.outputs.success }}
+    steps:
+    - name: week
+      shell: bash
+      run: |
+        echo "success=$([ $(expr $(date +%W) % 2) -eq 1 ] && echo yes || echo no)" >> "$GITHUB_OUTPUT"
   download:
+    needs: detectweek
+    if: >-
+      ${{ 
+        github.event_name == 'workflow_dispatch' 
+        || github.event_name == 'schedule' && needs.detectweek.outputs.run == 'yes'
+      }}
     runs-on: ubuntu-latest
     container:
       image: ghcr.io/holygrolli/whatsupforlunch:main
@@ -68,11 +83,11 @@ jobs:
     steps:
     - name: checkout source code
       uses: actions/checkout@v3
-        with:
-          ref: >-
-            ${{
-              github.event_name == 'schedule' && 'main' || ''
-            }}
+      with:
+        ref: >-
+          ${{
+            github.event_name == 'schedule' && 'main' || ''
+          }}
     - name: fetch latest git
       if: ${{ !github.event.act }} # skip during local actions testing
       shell: bash
@@ -128,6 +143,7 @@ jobs:
         path: |
           tmp
     - name: Create Pull Request
+      if: ${{ !github.event.act }}
       uses: peter-evans/create-pull-request@v5
       with:
         add-paths: |
