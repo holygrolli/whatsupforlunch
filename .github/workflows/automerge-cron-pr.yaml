@@ -21,3 +21,4 @@ jobs:
         env:
           GITHUB_TOKEN: "${{ steps.generate-token.outputs.token }}"
           MERGE_LABELS: "auto-approve-cron"
+          UPDATE_LABELS: "auto-approve-cron"
