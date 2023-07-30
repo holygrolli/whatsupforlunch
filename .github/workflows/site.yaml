@@ -64,6 +64,8 @@ jobs:
       # Get the repository's code
       - name: Checkout
         uses: actions/checkout@v3
+        with:
+          fetch-depth: 0
       - name: Add SHORT_SHA env property with commit short sha
         id: gitvars
         run: echo "SHORT_SHA=`echo ${GITHUB_SHA} | cut -c1-8`" >> "$GITHUB_OUTPUT"
