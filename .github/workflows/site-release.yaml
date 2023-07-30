@@ -9,6 +9,7 @@ on:
     paths:
       - 'locations/**'
       - 'site/**'
+      - '.github/workflows/site-release.yaml'
 permissions:
   contents: write
   packages: read
@@ -35,7 +36,7 @@ jobs:
           skip-tag: "true"
   build:
     needs: get-version
-    if: ${{ steps.get-version.outputs.skipped == 'false' }}
+    if: ${{ needs.get-version.outputs.skipped == 'false' }}
     uses: ./.github/workflows/site.yaml
     with:
       version: ${{ needs.get-version.outputs.version }}
