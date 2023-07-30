@@ -79,7 +79,7 @@ jobs:
         id: set-version
         shell: bash
         run: |
-          if [[ ! -z "${{ github.event.inputs.version }}" && "${{ github.event.inputs.version }}" != "snapshot" ]]; then
+          if [[ -n "${{ github.event.inputs.version }}" && "${{ github.event.inputs.version }}" != "snapshot" ]]; then
             echo "BUILD_VERSION=${{ github.event.inputs.version }}" >> "$GITHUB_OUTPUT"
           else
             git describe --tags --abbrev=0 && echo "BUILD_VERSION=$(git describe --tags --abbrev=0)" >> "$GITHUB_OUTPUT" || echo "BUILD_VERSION=snapshot >> "$GITHUB_OUTPUT"
