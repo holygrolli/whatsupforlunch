@@ -79,6 +79,7 @@ jobs:
         id: set-version
         shell: bash
         run: |
+          git config --global --add safe.directory /github/workspace
           if [[ -n "${{ github.event.inputs.version }}" && "${{ github.event.inputs.version }}" != "snapshot" ]]; then
             echo "BUILD_VERSION=${{ github.event.inputs.version }}" >> "$GITHUB_OUTPUT"
           else
