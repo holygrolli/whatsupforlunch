@@ -1,9 +1,12 @@
 name: augustiner
 on:
   workflow_dispatch:
+  schedule:
+    - cron: '10 10 * * 0'
 permissions: 
   contents: write
   packages: write
+  pull-request: write
 jobs:
   download:
     runs-on: ubuntu-latest
@@ -14,6 +17,11 @@ jobs:
     steps:
       - name: checkout
         uses: actions/checkout@v3
+        with:
+          ref: >-
+            ${{
+              github.event_name == 'schedule' && 'main' || ''
+            }}
       - name: get new links
         shell: bash
         run: |
@@ -58,6 +66,11 @@ jobs:
     steps:
     - name: checkout source code
       uses: actions/checkout@v3
+      with:
+        ref: >-
+          ${{
+            github.event_name == 'schedule' && 'main' || ''
+          }}
     - name: fetch latest git
       if: ${{ !github.event.act }} # skip during local actions testing
       shell: bash
@@ -92,13 +105,12 @@ jobs:
         retention-days: 5
         path: |
           tmp
-    - name: cleanup git
-      if: ${{ !github.event.act }} # skip during local actions testing
-      shell: bash
-      run: |
-        git config --global user.name 'action'
-        git config --global user.email 'holygrolli@users.noreply.github.com'
-        git config --system --add safe.directory $PWD
-        git add data
-        git commit -am "scraped result"
-        git push
+    - name: Create Pull Request
+      if: ${{ !github.event.act }}
+      uses: peter-evans/create-pull-request@v5
+      with:
+        add-paths: |
+          data
+        branch: ${{ github.workflow }}-cron
+        commit-message: "chore(data): automated scraping"
+        labels: auto-approve-cron
