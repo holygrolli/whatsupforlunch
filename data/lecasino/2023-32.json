@@ -1,0 +1,112 @@
+{
+  "2023-08-07": [
+    {
+      "desc": "Kartoffelrösti mit Kräuter- Joghurt-Dip und med. Gemüse",
+      "price": 3.80
+    },
+    {
+      "desc": "Reiseintopf mit Hähnchen- fleisch und einer Scheibe Brot",
+      "price": 2.50
+    },
+    {
+      "desc": "Schweinebraten mit Kräuterkruste",
+      "price": 3.50
+    },
+    {
+      "desc": "Kartoffeln",
+      "price": 1.00
+    },
+    {
+      "desc": "Rohkostsalat nach Angebot",
+      "price": 1.30
+    }
+  ],
+  "2023-08-08": [
+    {
+      "desc": "Käsespätzle mit Röstzwiebeln",
+      "price": 3.50
+    },
+    {
+      "desc": "Zwei Eier in Senfsoße mit Kartoffeln",
+      "price": 2.50
+    },
+    {
+      "desc": "Fleischkäse mit Bratensoße",
+      "price": 2.60
+    },
+    {
+      "desc": "Kartoffeln",
+      "price": 1.00
+    },
+    {
+      "desc": "Rohkostsalat nach Angebot",
+      "price": 1.30
+    }
+  ],
+  "2023-08-09": [
+    {
+      "desc": "Gemüse-Couscous- Pfanne mit Joghurtdip",
+      "price": 3.50
+    },
+    {
+      "desc": "Schinkennudeln mit Sahnesoße",
+      "price": 2.50
+    },
+    {
+      "desc": "Schweineschnitzel Wiener-Art",
+      "price": 3.60
+    },
+    {
+      "desc": "Kartoffeln",
+      "price": 1.00
+    },
+    {
+      "desc": "Rohkostsalat nach Angebot Karotten",
+      "price": 1.00
+    }
+  ],
+  "2023-08-10": [
+    {
+      "desc": "Gebackener Camembert mit gemischtem Salat und Preiselbeeren",
+      "price": 4.80
+    },
+    {
+      "desc": "Grießbrei mit heißen Kirschen",
+      "price": 2.50
+    },
+    {
+      "desc": "Jägerschnitzel mit fruchtiger Tomatensoße",
+      "price": 3.50
+    },
+    {
+      "desc": "Püree",
+      "price": 1.00
+    },
+    {
+      "desc": "Rohkostsalat nach Angebot Erbsen",
+      "price": 1.00
+    }
+  ],
+  "2023-08-11": [
+    {
+      "desc": "Brokkoli-Blumenkohl- Kartoffel- Auflauf",
+      "price": 3.50
+    },
+    {
+      "desc": "Pasta mit Tomatensoße und geriebenen Käse",
+      "price": 2.50
+    },
+    {
+      "desc": "Tagesangebot",
+      "price": null
+    },
+    {
+      "desc": "Bratkartoffeln",
+      "price": 1.20
+    },
+    {
+      "desc": "Rohkostsalat nach Angebot",
+      "price": 1.30
+    }
+  ]
+}
