@@ -1,0 +1,52 @@
+{
+    "2023-07-31": [
+        {
+            "desc": "Käse Schinken Spätzle",
+            "price": 6.6
+        },
+        {
+            "desc": "Spätzle Gemüse Pfanne",
+            "price": 6.6
+        }
+    ],
+    "2023-08-01": [
+        {
+            "desc": "Grützwurst, Sauerkraut, Kartoffeln",
+            "price": 6.6
+        },
+        {
+            "desc": "Couscous Gemüse Pfanne mit Feta",
+            "price": 6.6
+        }
+    ],
+    "2023-08-02": [
+        {
+            "desc": "Schnitzel Hähnchen, MIschgemüse, Kartoffeln",
+            "price": 6.6
+        },
+        {
+            "desc": "Hefeklöße mit heißen Pflaumen",
+            "price": 6.6
+        }
+    ],
+    "2023-08-03": [
+        {
+            "desc": "Currywurst, Pommes",
+            "price": 6.6
+        },
+        {
+            "desc": "Zucchini Kartoffelrösti, Tzatziki",
+            "price": 6.6
+        }
+    ],
+    "2023-08-04": [
+        {
+            "desc": "Backfisch, Dill Kartoffelstampf, Gurkensalat",
+            "price": 6.6
+        },
+        {
+            "desc": "Kraut Pfanne, Kartoffeln",
+            "price": 6.6
+        }
+    ]
+}
