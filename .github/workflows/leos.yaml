@@ -50,7 +50,7 @@ jobs:
       - id: setmatrix
         working-directory: tmp
         run: |
-          find . -name '*.png' -or -name '*.jpg' -printf '%P\n'
+          find . \( -name '*.png' -o -name '*.jpg' \) -printf '%P\n'
           matrixInput=$(find . -name '*.png' -or -name '*.jpg' -printf '%P\n') # Creates array of all png files in tmp folder
           echo -n "$matrixInput"
           # Start Generate Json String
