@@ -13,6 +13,7 @@ jobs:
       - name: checkout
         uses: actions/checkout@v3
         with:
+          fetch-depth: 0
           ref: main
           token: ${{ steps.generate-token.outputs.token }}
       - name: merge main to develop
