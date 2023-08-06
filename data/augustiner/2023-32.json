@@ -1,0 +1,52 @@
+{
+  "2023-08-07": [
+    {
+      "desc": "Schnitzel \"Wiener Art\" mit Kartoffelsalat",
+      "price": 7.5
+    },
+    {
+      "desc": "Allgäuer Käsespätzle mit Röstzwiebeln",
+      "price": 7.5
+    }
+  ],
+  "2023-08-08": [
+    {
+      "desc": "Hühnerfrikassee mit Butterreis",
+      "price": 7.5
+    },
+    {
+      "desc": "Eier in Senfsauce mit Salzkartoffeln",
+      "price": 7.5
+    }
+  ],
+  "2023-08-09": [
+    {
+      "desc": "Cordon Bleu vom Schwein mit Kartoffelpüree und Leipziger Allerlei",
+      "price": 7.5
+    },
+    {
+      "desc": "Vegetarisches Bauernfrühstück mit Fassgurke",
+      "price": 7.5
+    }
+  ],
+  "2023-08-10": [
+    {
+      "desc": "Gefüllte Paprika mit Hackfleisch, Tomatensauce und Butterreis",
+      "price": 7.5
+    },
+    {
+      "desc": "Weißwein-Risotto mit Champignons und Parmesan",
+      "price": 7.5
+    }
+  ],
+  "2023-08-11": [
+    {
+      "desc": "Backfisch auf Kartoffel-Gurken-Salat mit Remoulade",
+      "price": 7.5
+    },
+    {
+      "desc": "Kaiserschmarrn mit Apfelmus",
+      "price": 7.5
+    }
+  ]
+}
