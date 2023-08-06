@@ -17,6 +17,8 @@ jobs:
           token: ${{ steps.generate-token.outputs.token }}
       - name: merge main to develop
         run: |
+          git remote update
+          git fetch
           git checkout develop
           git merge main
           git push
