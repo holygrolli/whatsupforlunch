@@ -1,0 +1,92 @@
+{
+  "2023-08-14": [
+    {
+      "desc": "Kartoffel- Selleriecreme- suppe mit Speck",
+      "price": 5.0
+    },
+    {
+      "desc": "Süßkartoffel- Kichererbsen- Curry mit Kurkumareis",
+      "price": 5.5
+    },
+    {
+      "desc": "Wirsingroulade mit Krautsoße und Petersilien- kartoffeln",
+      "price": 6.0
+    },
+    {
+      "desc": "Miesmuscheln in Tomaten- Knoblauchsoße, dazu Linguine",
+      "price": 7.5
+    }
+  ],
+  "2023-08-15": [
+    {
+      "desc": "Nougat- Topfenknödel mit Vanillerahm",
+      "price": 5.0
+    },
+    {
+      "desc": "Pasta mit Tomatensoße und geriebenem Käse",
+      "price": 5.5
+    },
+    {
+      "desc": "Spaghetti \"Bolognese\" mit geriebenem Käse",
+      "price": 6.0
+    },
+    {
+      "desc": "Vegane Currywurst mit pikanter Soße und Kartoffel- ecken",
+      "price": 7.5
+    }
+  ],
+  "2023-08-16": [
+    {
+      "desc": "Grüner Bohneneintopf mit Rindfleisch und Kartoffel- würfeln",
+      "price": 5.0
+    },
+    {
+      "desc": "Kürbis-Kartoffel- Rösti mit Schnittlauch- quark und Salat",
+      "price": 5.5
+    },
+    {
+      "desc": "Brathering mit Zwiebeldressing, Salat und Petersilien- kartoffeln",
+      "price": 6.0
+    },
+    {
+      "desc": "Falafel-Wrap mit Bulgur, Hummus, Tomate, Gurke und roten Zwiebeln",
+      "price": 7.5
+    }
+  ],
+  "2023-08-17": [
+    {
+      "desc": "American Pancakes mit Kirschragout",
+      "price": 5.0
+    },
+    {
+      "desc": "Pasta mit Tomatensoße und geriebenem Käse",
+      "price": 5.5
+    },
+    {
+      "desc": "Paprikaschote mit Hackfleisch- füllung, dazu TomatensoBe und Spätzle",
+      "price": 6.0
+    },
+    {
+      "desc": "Quinoa-Erbsen- Frikadelle mit Spinat und Rote- Bete-Gnocchi",
+      "price": 7.5
+    }
+  ],
+  "2023-08-18": [
+    {
+      "desc": "Tom kha kai - Suppe mit Hähnchenfleisch und Zitronengras",
+      "price": 5.0
+    },
+    {
+      "desc": "Spätzle-Pilz- pfanne mit Wald- pilzen, Karotten und Lauch",
+      "price": 5.5
+    },
+    {
+      "desc": "Panierte Schweineleber mit Schmor- zwiebeln und Kartoffeln",
+      "price": 6.0
+    },
+    {
+      "desc": "Hoki-Filet auf Pak Choi, Chinakohl und Limettenreis",
+      "price": 7.5
+    }
+  ]
+}

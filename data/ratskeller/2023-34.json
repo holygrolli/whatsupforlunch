@@ -1,0 +1,92 @@
+{
+  "2023-08-21": [
+    {
+      "desc": "Kürbissuppe mit Kokosmilch und Curry",
+      "price": 5.00
+    },
+    {
+      "desc": "Back-Käse mit Zaziki, Krautsalat und Tomatenreis",
+      "price": 5.50
+    },
+    {
+      "desc": "Hackbraten mit Speckbohnen und Kroketten",
+      "price": 6.00
+    },
+    {
+      "desc": "Tagliatelle mit LachssoBe, Zucchini und Tomaten",
+      "price": 7.50
+    }
+  ],
+  "2023-08-22": [
+    {
+      "desc": "Riesen-Germ- knödel mit Heidelbeer- Füllung, dazu VanillesoBe",
+      "price": 5.00
+    },
+    {
+      "desc": "Pasta mit Tomatensoße und geriebenem Käse",
+      "price": 5.50
+    },
+    {
+      "desc": "Jägerschnitzel mit Tomatensoße und Pasta",
+      "price": 6.00
+    },
+    {
+      "desc": "Ofengemüse mit Kräuterdip und Rosmarin- kartoffeln",
+      "price": 7.50
+    }
+  ],
+  "2023-08-23": [
+    {
+      "desc": "Hausgemachter Linseneintopf mit Blutwurstwürfeln",
+      "price": 5.00
+    },
+    {
+      "desc": "Karotten- Vollkorn-Rösti mit Kräuter- quark und Salat",
+      "price": 5.50
+    },
+    {
+      "desc": "Hähnchen \"Cordon bleu\" mit Honigmöhren und Petersilien- kartoffeln",
+      "price": 6.00
+    },
+    {
+      "desc": "Bunte Farfalle mit Sonnenblumen- kern-,,Bolognese\"",
+      "price": 7.50
+    }
+  ],
+  "2023-08-24": [
+    {
+      "desc": "Kartoffelpuffer mit Apfelmus und Zimtzucker",
+      "price": 5.00
+    },
+    {
+      "desc": "Pasta mit TomatensoBe und geriebenem Käse",
+      "price": 5.50
+    },
+    {
+      "desc": "Chicken Nuggets im Backteig mit Tomatensoße und Pasta",
+      "price": 6.00
+    },
+    {
+      "desc": "Shakshuka mit Hummus und Fladenbrot",
+      "price": 7.50
+    }
+  ],
+  "2023-08-25": [
+    {
+      "desc": "Waldpilzcreme- suppe mit Erbsensprossen und Brotchips",
+      "price": 5.00
+    },
+    {
+      "desc": "Gemüse-Lasagne mit Zucchini, Aubergine, Tomate und Bechamel",
+      "price": 5.50
+    },
+    {
+      "desc": "Moussaka mit Hackfleisch, Feta, Aubergine und Kartoffeln",
+      "price": 6.00
+    },
+    {
+      "desc": "Victoriasee- Barschfilet in Zitronenpanade, mit Ratatouille + Gnocchi",
+      "price": 7.50
+    }
+  ]
+}

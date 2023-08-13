@@ -1,0 +1,92 @@
+{
+  "2023-08-28": [
+    {
+      "desc": "Nudeleintopf mit Geflügelfleisch und Gemüse- Julienne",
+      "price": 5.00
+    },
+    {
+      "desc": "Kartoffeltaschen mit Brokkoli- füllung, dazu Kräuterdip und Salat",
+      "price": 5.50
+    },
+    {
+      "desc": "Grützwurst mit Sauerkraut und Petersilien- kartoffeln",
+      "price": 6.00
+    },
+    {
+      "desc": "Kohlrabi- Frikassee mit Kokos, Erbsen, Möhren und Reis",
+      "price": 7.50
+    }
+  ],
+  "2023-08-29": [
+    {
+      "desc": "Weiße Schokoladen- Lasagne mit Beerensoße",
+      "price": 5.00
+    },
+    {
+      "desc": "Pasta mit Tomatensoße und geriebenem Käse",
+      "price": 5.50
+    },
+    {
+      "desc": "Pasta mit Wurstgulasch und geriebenem Käse",
+      "price": 6.00
+    },
+    {
+      "desc": "Karotten-Sesam- Sticks mit Paprika- Chutney und Taboulé",
+      "price": 7.50
+    }
+  ],
+  "2023-08-30": [
+    {
+      "desc": "Ukrainische Soljanka mit Zitrone und Sauerrahm",
+      "price": 5.00
+    },
+    {
+      "desc": "Pastinaken- Steckrübenrösti mit Butter- erbsen und Kräuterreis",
+      "price": 5.50
+    },
+    {
+      "desc": "Leberkäse mit Bayrisch-Kraut und Petersilien- kartoffeln",
+      "price": 6.00
+    },
+    {
+      "desc": "Gebackener Camembert mit Preiselbeeren, Salat und Baguette",
+      "price": 7.50
+    }
+  ],
+  "2023-08-31": [
+    {
+      "desc": "Kaiserschmarrn mit Rosinen und Apfelmus",
+      "price": 5.00
+    },
+    {
+      "desc": "Pasta mit Tomatensoße und geriebenem Käse",
+      "price": 5.50
+    },
+    {
+      "desc": "Rindergulasch mit Pilzen und Paprika, dazu Pasta",
+      "price": 6.00
+    },
+    {
+      "desc": "Veganer Burger mit Aioli, Eisberg, Gurke, Tomate und Kartoffel- ecken",
+      "price": 7.50
+    }
+  ],
+  "2023-09-01": [
+    {
+      "desc": "Paprikacreme- suppe mit Thymian und Knoblauch- Croûtons",
+      "price": 5.00
+    },
+    {
+      "desc": "Gemüse- Köttbullar mit Champignon- rahm und Kartoffelstampf",
+      "price": 5.50
+    },
+    {
+      "desc": "Schweinebraten mit Speckbohnen und Petersilien- kartoffeln",
+      "price": 6.00
+    },
+    {
+      "desc": "Knusper . Seelachsfilet mit Senfsoße, Salat und Risi-Bisi",
+      "price": 7.50
+    }
+  ]
+}
