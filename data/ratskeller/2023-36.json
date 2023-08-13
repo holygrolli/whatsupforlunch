@@ -1,0 +1,92 @@
+{
+  "2023-09-04": [
+    {
+      "desc": "Käse-Lauch-suppe mit Hackfleisch- bällchen",
+      "price": 5.00
+    },
+    {
+      "desc": "Pilzragout 'Stroganoff' mit Bete, Gurke und Spätzle",
+      "price": 5.50
+    },
+    {
+      "desc": "Grünes Thai Curry mit Hähnchen- brust und Duftreis",
+      "price": 6.00
+    },
+    {
+      "desc": "Rigatoni mit Auberginen- Caponata, Schafskäse und Rucola",
+      "price": 7.50
+    }
+  ],
+  "2023-09-05": [
+    {
+      "desc": "Eierpfannkuchen mit Apfel- Rosinenfüllung, dazu VanillesoBe",
+      "price": 5.00
+    },
+    {
+      "desc": "Pasta mit Tomatensoße und geriebenem Käse",
+      "price": 5.50
+    },
+    {
+      "desc": "Spaghetti 'Bolognese' mit geriebenem Käse",
+      "price": 6.00
+    },
+    {
+      "desc": "Rote-Bete-Puffer mit Gurken Couscous und Karottenpüree",
+      "price": 7.50
+    }
+  ],
+  "2023-09-06": [
+    {
+      "desc": "Ungarische Gulaschsuppe mit Paprika und Kartoffelwürfeln",
+      "price": 5.00
+    },
+    {
+      "desc": "Kräuterrührei mit Rahmspinat und Petersilien- kartoffeln",
+      "price": 5.50
+    },
+    {
+      "desc": "Frikadelle mit grünen Bohnen und Petersilien- kartoffeln",
+      "price": 6.00
+    },
+    {
+      "desc": "Orecchiette mit Walnüssen, Birnen und Gorgonzola- soße",
+      "price": 7.50
+    }
+  ],
+  "2023-09-07": [
+    {
+      "desc": "Sächsische Quarkkäulchen mit Apfelmus und Zimtzucker",
+      "price": 5.00
+    },
+    {
+      "desc": "Pasta mit Tomatensoße und geriebenem Käse",
+      "price": 5.50
+    },
+    {
+      "desc": "Königsberger Klopse mit Kapernsoße, Bete Salat und Kartoffeln",
+      "price": 6.00
+    },
+    {
+      "desc": "Quinoa- Grünkohlstrudel auf Erbsenpüree und Linsensalat",
+      "price": 7.50
+    }
+  ],
+  "2023-09-08": [
+    {
+      "desc": "Karotten- Orangensuppe mit Ingwer und Koriander",
+      "price": 5.00
+    },
+    {
+      "desc": "Tortellini mit Ricottafüllung und Spinatsoße",
+      "price": 5.50
+    },
+    {
+      "desc": "Paniertes Schollenfilet mit Kartoffel- Gurkensalat",
+      "price": 6.00
+    },
+    {
+      "desc": "Geschmorte Schweine- bäckchen mit Waldpilzrahm und Rösti",
+      "price": 7.50
+    }
+  ]
+}
