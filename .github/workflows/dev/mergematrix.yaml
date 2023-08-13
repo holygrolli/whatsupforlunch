@@ -1,8 +1,6 @@
 name: ratskeller
 on:
   workflow_dispatch:
-  schedule:
-    - cron: '0 14 * * 0'
 permissions: 
   contents: write
   packages: write
@@ -16,25 +14,24 @@ jobs:
     steps:
       - name: checkout
         uses: actions/checkout@v3
-        with:
-          ref: >-
-            ${{
-              github.event_name == 'schedule' && 'main' || ''
-            }}
       - name: get new links
         shell: bash
         run: |
           WD=${PWD}
           mkdir -p tmp
-          scrapy runspider locations/ratskeller/scra.py --nolog | sort > tmp/scraped_links.txt
+          cat <<EOF > tmp/scraped_links.txt
+          file1
+          file2
+          file3
+          EOF
+
           cd tmp
-          while IFS= read -r line; do
-            curl -sOL $line
-          done < <(comm -13 ../data/ratskeller/scraped_done.txt scraped_links.txt)
-          for file in $(find . -type f -name "*.pdf" | grep -v separated);
-          do
-            pdfseparate $file ${file%.*}_separated_%d.pdf
-          done
+          touch file1_separated_1.pdf
+          touch file1_separated_2.pdf
+          touch file2_separated_1.pdf
+          touch file2_separated_2.pdf
+          touch file3_separated_1.pdf
+          touch file3_separated_2.pdf
           find . -type f -name "*.pdf" -and -not -name "*separated*" -exec rm {} \;
       - id: setmatrix
         working-directory: tmp
@@ -70,11 +67,6 @@ jobs:
     steps:
     - name: checkout source code
       uses: actions/checkout@v3
-      with:
-        ref: >-
-          ${{
-            github.event_name == 'schedule' && 'main' || ''
-          }}
     - name: Download pdf artifacts
       uses: actions/download-artifact@v3
       with:
@@ -85,44 +77,12 @@ jobs:
         mkdir tmp
         cd tmp
         cp ../downloadtmp/${{ matrix.files }} .
-    - name: Configure AWS Credentials
-      uses: aws-actions/configure-aws-credentials@v2
-      with:
-        aws-access-key-id: ${{ secrets.AWS_ACCESS_KEY_ID }}
-        aws-secret-access-key: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
-        aws-region: eu-central-1
-    - name: Configure AWS Profile
-      run: |
-        ls -al
-        mkdir -p ~/.aws
-        cat > ~/.aws/config << EOF
-        [default]
-        region = eu-central-1
-        aws_access_key_id = ${{ secrets.AWS_ACCESS_KEY_ID }}
-        aws_secret_access_key = ${{ secrets.AWS_SECRET_ACCESS_KEY }}
-        EOF
-        cat ~/.aws/config
-    - name: Process pdf ${{ matrix.files }}
+    - name: processing steps
       working-directory: tmp
-      run: textractor analyze-document ${{ matrix.files }} output.json --features TABLES --overlay TABLES --print TABLES
-    - name: extract csv
-      working-directory: tmp
-      run: |
-        python ../locations/ratskeller/process_textractor_result.py output.json
-    - name: process csv with chatgpt
-      working-directory: tmp
-      env:
-        OPENAI_API_KEY: ${{secrets.OPENAI_API_KEY}}
-      shell: bash
-      run: |
-        python ../locations/ratskeller/process_chatgpt.py ../locations/ratskeller/prompt.txt table.csv
-    - name: collect final files
-      working-directory: tmp
-      shell: bash
       run: |
         mkdir -p ../success-pdfs
+        [ "${{ matrix.files }}" = "file3_separated_2.pdf" ] && exit 1
         cp ${{ matrix.files }} ../success-pdfs
-        cp final.json ../success-pdfs/$(date -d"$(jq -r 'keys[0]' final.json)" +%Y-%V).json
     - name: Archive final files
       uses: actions/upload-artifact@v3
       with:
@@ -144,11 +104,6 @@ jobs:
     steps:
       - name: checkout
         uses: actions/checkout@v3
-        with:
-          ref: >-
-            ${{
-              github.event_name == 'schedule' && 'main' || ''
-            }}
       - name: Download originally downloaded pdf artifacts
         uses: actions/download-artifact@v3
         with:
@@ -163,25 +118,12 @@ jobs:
         working-directory: success-pdfs
         shell: bash
         run: |
+          cat ../data/ratskeller/scraped_done.txt
+          cat ../downloadtmp/scraped_links.txt
           for file in $(find . -type f -name "*.pdf" -printf '%P\n');
           do
+            echo "found file $file : ${file%_separated*}"
             cat ../data/ratskeller/scraped_done.txt <(echo $'\n'$(cat ../downloadtmp/scraped_links.txt | grep ${file%_separated*})) | sort -u | grep . > scraped_done.txt
             mv scraped_done.txt ../data/ratskeller/scraped_done.txt
           done
-          cp *.json ../data/ratskeller/
-      - uses: tibdex/github-app-token@v1
-        id: generate-token
-        with:
-          app_id: ${{ secrets.TOKEN_APP_ID }}
-          private_key: ${{ secrets.TOKEN_APP_PRIVATE_KEY }}
-      - name: Create Pull Request
-        if: ${{ !github.event.act }}
-        uses: peter-evans/create-pull-request@v5
-        with:
-          add-paths: |
-            data
-          branch: ${{ github.workflow }}-cron
-          commit-message: "chore(data): automated scraping"
-          labels: "auto-approve-cron"
-          title: "${{ github.workflow }} data updates"
-          token: ${{ steps.generate-token.outputs.token }}
+          cat ../data/ratskeller/scraped_done.txt
