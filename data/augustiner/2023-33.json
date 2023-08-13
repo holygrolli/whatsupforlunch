@@ -1,0 +1,52 @@
+{
+  "2023-08-14": [
+    {
+      "desc": "Schnitzel „Wiener Art“ mit Kartoffelsalat",
+      "price": 7.50
+    },
+    {
+      "desc": "Allgäuer Käsespätzle mit Röstzwiebeln",
+      "price": 7.50
+    }
+  ],
+  "2023-08-15": [
+    {
+      "desc": "Augustiner Bratwurst mit Kartoffelpüree und Sauerkraut",
+      "price": 7.50
+    },
+    {
+      "desc": "Gnocchi mit Gorgonzola-Sauce und frischem Rucola",
+      "price": 7.50
+    }
+  ],
+  "2023-08-16": [
+    {
+      "desc": "Kohlroulade mit Specksauce und Salzkartoffeln",
+      "price": 7.50
+    },
+    {
+      "desc": "Rahmschwammerl mit Kartoffelrösti und Kräuterschmand",
+      "price": 7.50
+    }
+  ],
+  "2023-08-17": [
+    {
+      "desc": "Putenrollbraten mit Kartoffelpüree und Buttererbsen",
+      "price": 7.50
+    },
+    {
+      "desc": "Kartoffeltasche mit Frischkäse gefüllt und kleinem Beilagen-Salat",
+      "price": 7.50
+    }
+  ],
+  "2023-08-18": [
+    {
+      "desc": "Backfisch auf Kartoffel-Gurken-Salat mit Remoulade",
+      "price": 7.50
+    },
+    {
+      "desc": "Kaiserschmarrn mit Apfelmus",
+      "price": 7.50
+    }
+  ]
+}
