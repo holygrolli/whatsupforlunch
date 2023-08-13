@@ -1,0 +1,48 @@
+{
+  "2023-08-14": [
+    {
+      "desc": "Jägerschnitzel mit Pasta, Tomatensauce und Gouda",
+      "price": 7.7
+    },
+    {
+      "desc": "Eier in Senfsauce mit Salzkartoffeln und Gurkensalat (veget.)",
+      "price": 7.7
+    }
+  ],
+  "2023-08-15": [
+    {
+      "desc": "Schweineschnitzel mit Rahmerbsen, Salzkartoffeln und brauner Sauce",
+      "price": 7.9
+    },
+    {
+      "desc": "Tortellini mit Spinat-Gorgonzolasauce, überbacken mit Mozzarella und gerösteten Mandeln (veget.)",
+      "price": 7.7
+    }
+  ],
+  "2023-08-16": [
+    {
+      "desc": "Königsberger Klopse in Kapernsauce mit Kartoffelstampf und Gurkensalat",
+      "price": 7.9
+    },
+    {
+      "desc": "Pasta \"Genovese\" mit grünen Bohnen, Kartoffeln und Basilikumpesto, dazu Parmesan",
+      "price": 7.7
+    }
+  ],
+  "2023-08-17": [
+    {
+      "desc": "Gebackene Hähnchenbrust in Nacho-Panade auf buntem Grillgemüse, dazu Tomatensalsa",
+      "price": 7.9
+    },
+    {
+      "desc": "Kartoffel-Rösti überbacken mit Tomate-Mozzarella, dazu Basilikumcreme und Salatbeilage (veget.)",
+      "price": 7.7
+    }
+  ],
+  "2023-08-18": [
+    {
+      "desc": "Gebratenes Seelachsfilet, dazu Erbsen-Minzpüree, Zitronensauce und Süßkartoffelecken",
+      "price": 7.9
+    }
+  ]
+}
