@@ -1,0 +1,53 @@
+The output should be:
+{
+  "2023-08-14": [
+    {
+      "desc": "Sülze, Bratkartoffeln, Hausfrauensauce",
+      "price": 6.6
+    },
+    {
+      "desc": "Kartoffeln, Quark,kl. Salat",
+      "price": 6.6
+    }
+  ],
+  "2023-08-15": [
+    {
+      "desc": "Schnitzel Pute, Rahmchampignons, Kartoffeln",
+      "price": 6.6
+    },
+    {
+      "desc": "Chilli sin carne ( Linsen ), Reis",
+      "price": 6.6
+    }
+  ],
+  "2023-08-16": [
+    {
+      "desc": "Hühnerfrikasse, Reis",
+      "price": 6.6
+    },
+    {
+      "desc": "Gnocchi Pfanne mit Spinat, Gorgonzola",
+      "price": 6.6
+    }
+  ],
+  "2023-08-17": [
+    {
+      "desc": "Backfisch, Kartoffelstampf,",
+      "price": 6.6
+    },
+    {
+      "desc": "Kartoffel Gemüse Gratin",
+      "price": 6.6
+    }
+  ],
+  "2023-08-18": [
+    {
+      "desc": "Lasagne mit Bolognese",
+      "price": 6.6
+    },
+    {
+      "desc": "Lasagne mit Gemüse",
+      "price": 6.6
+    }
+  ]
+}
