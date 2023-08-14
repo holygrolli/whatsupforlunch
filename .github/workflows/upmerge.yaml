@@ -18,6 +18,12 @@ jobs:
           token: ${{ steps.generate-token.outputs.token }}
       - name: merge develop to main
         run: |
+          if ! git config user.name > /dev/null; then
+            git config user.name "holygrolli"
+          fi
+          if ! git config user.email > /dev/null; then
+            git config user.email "holygrolli@users.noreply.github.com"
+          fi
           git remote update
           git fetch
           git checkout main
