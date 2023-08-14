@@ -1,0 +1,110 @@
+{
+  "2023-08-21": [
+    {
+      "desc": "Schupfnudel-Pfanne mit Kaisergemüse",
+      "price": 3.50
+    },
+    {
+      "desc": "Graupeneintopf mit Kasselerwürfel",
+      "price": 2.50
+    },
+    {
+      "desc": "Wurstgulasch mit Tomatensoße",
+      "price": 2.60
+    },
+    {
+      "desc": "Pasta",
+      "price": 1.00
+    },
+    {
+      "desc": "Rohkostsalat nach Angebot",
+      "price": 1.30
+    }
+  ],
+  "2023-08-22": [
+    {
+      "desc": "Mit Gemüse-Bulgur gefüllte Paprikaschote an einer Tomatensoße",
+      "price": 3.50
+    },
+    {
+      "desc": "Kartoffeln mit Kräuterquark und Butter",
+      "price": 2.50
+    },
+    {
+      "desc": "Hähnchenschenkel mit Bratensoße",
+      "price": 3.60
+    },
+    {
+      "desc": "Pasta in Schinken-Sahnesoße",
+      "price": 2.50
+    },
+    {
+      "desc": "Rohkostsalat nach Angebot",
+      "price": 1.30
+    }
+  ],
+  "2023-08-23": [
+    {
+      "desc": "Gnocchi \"Formaggio\" mit Käsesoße",
+      "price": 3.70
+    },
+    {
+      "desc": "Möhren-Kartoffeleintopf mit Schweinefleisch",
+      "price": 2.50
+    },
+    {
+      "desc": "Geschwenkte Pasta mit Porree und Hackfleisch",
+      "price": 3.70
+    },
+    {
+      "desc": "Schnitzel \"Münchner Art\" mit Meerrettich-Senf-Panade",
+      "price": 3.75
+    },
+    {
+      "desc": "Rohkostsalat nach Angebot",
+      "price": 1.30
+    }
+  ],
+  "2023-08-24": [
+    {
+      "desc": "Gemischter Salat Hirtenkäse und Baguette",
+      "price": 4.80
+    },
+    {
+      "desc": "Kartoffelpuffer mit Apfelmus und Zucker",
+      "price": 2.50
+    },
+    {
+      "desc": "Tagesangebot"
+    },
+    {
+      "desc": "Bratkartoffeln",
+      "price": 1.20
+    },
+    {
+      "desc": "Rohkostsalat nach Angebot",
+      "price": 1.30
+    }
+  ],
+  "2023-08-25": [
+    {
+      "desc": "Vegetarische Kartoffelsuppe",
+      "price": 2.50
+    },
+    {
+      "desc": "Pasta in Schinken-Sahnesoße",
+      "price": 2.50
+    },
+    {
+      "desc": "Tagesangebot"
+    },
+    {
+      "desc": "Kartoffeln",
+      "price": 1.00
+    },
+    {
+      "desc": "Rohkostsalat nach Angebot",
+      "price": 1.30
+    }
+  ]
+}
