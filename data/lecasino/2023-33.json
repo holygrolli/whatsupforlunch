@@ -1,0 +1,106 @@
+{
+  "2023-08-14": [
+    {
+      "desc": "Pasta mit Cherrytomaten und Basilikum-Pesto",
+      "price": 3.70
+    },
+    {
+      "desc": "Linsensuppe mit Rotwurst",
+      "price": 2.50
+    },
+    {
+      "desc": "Geflügel Cevapcici mit Tomatensoße",
+      "price": 3.20
+    },
+    {
+      "desc": "Tomatenreis",
+      "price": 1.00
+    },
+    {
+      "desc": "Rohkostsalat nach Angebot e"
+    }
+  ],
+  "2023-08-15": [
+    {
+      "desc": "Gemischtem Salat mit einer Frühlingsrolle",
+      "price": 3.90
+    },
+    {
+      "desc": "Frikadellenbällchen mit Zwiebelsoße und Kartoffelpüree",
+      "price": 2.50
+    },
+    {
+      "desc": "Schweinegulasch mit Champignons",
+      "price": 3.45
+    },
+    {
+      "desc": "Püree",
+      "price": 1.00
+    },
+    {
+      "desc": "Rohkostsalat nach Angebot e"
+    }
+  ],
+  "2023-08-16": [
+    {
+      "desc": "Kartoffeln mit Gurkensalat und Rührei",
+      "price": 3.75
+    },
+    {
+      "desc": "Weiße Bohneneintopf mit Kasseler Fleisch",
+      "price": 2.50
+    },
+    {
+      "desc": "Hühnerfrikassee mit buntem Gemüse",
+      "price": 3.30
+    },
+    {
+      "desc": "Reis",
+      "price": 1.00
+    },
+    {
+      "desc": "Rohkostsalat nach Angebot e"
+    }
+  ],
+  "2023-08-17": [
+    {
+      "desc": "Ofenkartoffel mit Quarkdip und kleiner gemischter Salat",
+      "price": 3.70
+    },
+    {
+      "desc": "Eierkuchen mit Apfelmus und Zucker",
+      "price": 2.50
+    },
+    {
+      "desc": "Bratwurst mit Soße",
+      "price": 2.60
+    },
+    {
+      "desc": "Kartoffeln",
+      "price": 1.00
+    },
+    {
+      "desc": "Rohkostsalat nach Angebot e"
+    }
+  ],
+  "2023-08-18": [
+    {
+      "desc": "Gefüllte Zucchini mit Tomate Mozzarella & Basilikum Pesto",
+      "price": 3.70
+    },
+    {
+      "desc": "Pasta Gemüse-Auflauf",
+      "price": 2.50
+    },
+    {
+      "desc": "Tagesangebot"
+    },
+    {
+      "desc": "Reis",
+      "price": 1.00
+    },
+    {
+      "desc": "Rohkostsalat nach Angebot e"
+    }
+  ]
+}
