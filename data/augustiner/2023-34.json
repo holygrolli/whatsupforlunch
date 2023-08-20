@@ -1,0 +1,52 @@
+{
+  "2023-08-21": [
+    {
+      "desc": "Schnitzel \"Wiener Art\" mit Kartoffelsalat",
+      "price": 7.5
+    },
+    {
+      "desc": "Allgäuer Käsespätzle mit Röstzwiebeln",
+      "price": 7.5
+    }
+  ],
+  "2023-08-22": [
+    {
+      "desc": "Kassler im Kartoffelpuffer-Mantel mit Pfefferrahmsauce und Weißkrautsalat",
+      "price": 7.5
+    },
+    {
+      "desc": "Gebackener Blumenkohl mit Sauce Hollandaise und Salzkartoffeln",
+      "price": 7.5
+    }
+  ],
+  "2023-08-23": [
+    {
+      "desc": "Chilli con Carne mit Butterreis",
+      "price": 7.5
+    },
+    {
+      "desc": "Mediterrane Gemüse-Reispfanne mit Mozzarella",
+      "price": 7.5
+    }
+  ],
+  "2023-08-24": [
+    {
+      "desc": "Hähnchenbrust mit Tomate-Mozzarella überbacken dazu Tagliatelle mit Basilikum Pesto",
+      "price": 7.5
+    },
+    {
+      "desc": "Spinat-Lasagne mit Feta Käse überbacken",
+      "price": 7.5
+    }
+  ],
+  "2023-08-25": [
+    {
+      "desc": "Backfisch auf Kartoffel-Gurken-Salat mit Remoulade",
+      "price": 7.5
+    },
+    {
+      "desc": "Kaiserschmarrn mit Apfelmus",
+      "price": 7.5
+    }
+  ]
+}
