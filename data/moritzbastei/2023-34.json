@@ -1,0 +1,48 @@
+{
+  "2023-08-21": [
+    {
+      "desc": "Hühnerfrikassee mit Spargel & Erbsen, dazu Basmatireis",
+      "price": 7.70
+    },
+    {
+      "desc": "Mediterrane Gemüsebolognese u.a. mit Zucchini, Paprika und Aubergine, dazu Pasta und Parmesan (veget.)",
+      "price": 7.70
+    }
+  ],
+  "2023-08-22": [
+    {
+      "desc": "Schweineschnitzel mit Spiegelei und Bratkartoffeln, dazu Tomatensalat",
+      "price": 7.90
+    },
+    {
+      "desc": "Waldpilzgulasch mit Kräuterspätzle und Röstzwiebeln (veget.)",
+      "price": 7.70
+    }
+  ],
+  "2023-08-23": [
+    {
+      "desc": "Hähnchengeschnetzeltes mit gebratener Zucchini und getrockneten Tomaten, dazu Rosmarinkartoffeln",
+      "price": 7.90
+    },
+    {
+      "desc": "Veganer Sojagulasch mit geschmortem Weißkohl, dazu Petersilienkartoffeln (vegan)",
+      "price": 7.70
+    }
+  ],
+  "2023-08-24": [
+    {
+      "desc": "Gyros mit gebackenen Kartoffelecken, Zaziki und Krautsalat",
+      "price": 7.90
+    },
+    {
+      "desc": "Brokkoli im Kichererbsenbackteig, auf rotem Linsencurry mit Paprika und Lauchzwiebeln (vegan)",
+      "price": 7.70
+    }
+  ],
+  "2023-08-25": [
+    {
+      "desc": "Gedünstetes Seelachsfilet auf Kartoffel-Spinatgratin, überbacken mit Tomate und Mozzarella",
+      "price": 7.90
+    }
+  ]
+}
