@@ -36,6 +36,7 @@ jobs:
         run: |
           python ../locations/moritzbastei/process_chatgpt.py ../locations/moritzbastei/prompt.txt mittagsangebot.txt
           mkdir -p ../data/moritzbastei
+          sed -n '/^\s*{$/,$p' chatgpt.json > final.json
           cp final.json ../data/moritzbastei/$(date -d"$(jq -r 'keys[0]' final.json)" +%Y-%V).json
       - name: Archive all tmp files
         uses: actions/upload-artifact@v3

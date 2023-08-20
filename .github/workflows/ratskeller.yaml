@@ -116,6 +116,7 @@ jobs:
       shell: bash
       run: |
         python ../locations/ratskeller/process_chatgpt.py ../locations/ratskeller/prompt.txt table.csv
+        sed -n '/^\s*{$/,$p' chatgpt.json > final.json
     - name: collect final files
       working-directory: tmp
       shell: bash

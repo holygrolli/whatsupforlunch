@@ -101,6 +101,7 @@ jobs:
       shell: bash
       run: |
         python ../locations/lecasino/process_chatgpt.py ../locations/lecasino/prompt.txt table.csv
+        sed -n '/^\s*{$/,$p' chatgpt.json > final.json
         mkdir -p ../data/lecasino
     - name: collect final files
       working-directory: tmp
