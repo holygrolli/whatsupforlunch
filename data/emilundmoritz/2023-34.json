@@ -1,0 +1,52 @@
+{
+  "2023-08-21": [
+    {
+      "desc": "Rostbrätl mit Schmorrzwiebeln, Bratkartoffeln",
+      "price": 6.60
+    },
+    {
+      "desc": "Kartoffeln, Gurkensalat, Rührei",
+      "price": 6.60
+    }
+  ],
+  "2023-08-22": [
+    {
+      "desc": "Jägerschnitzel, Pasta, Tomatensauce",
+      "price": 6.60
+    },
+    {
+      "desc": "Zucchinischnitzel, Kartoffelstampf, Tomatensauce",
+      "price": 6.60
+    }
+  ],
+  "2023-08-23": [
+    {
+      "desc": "Matjesfilet, Hausfrauensauce, Bratkartoffeln",
+      "price": 6.60
+    },
+    {
+      "desc": "Milchreis mit heißen Kirschen",
+      "price": 6.60
+    }
+  ],
+  "2023-08-24": [
+    {
+      "desc": "Schweinebraten, Mischgemüse, Kartoffeln",
+      "price": 6.60
+    },
+    {
+      "desc": "Kartoffel Gemüse Pfanne",
+      "price": 6.60
+    }
+  ],
+  "2023-08-25": [
+    {
+      "desc": "Geflügelleber, Kartoffelstampf, Zwiebelgemüse",
+      "price": 6.60
+    },
+    {
+      "desc": "Gemüsecurry mit Couscous",
+      "price": 6.60
+    }
+  ]
+}
