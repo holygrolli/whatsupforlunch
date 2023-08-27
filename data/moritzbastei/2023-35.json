@@ -1,0 +1,48 @@
+{
+  "2023-08-28": [
+    {
+      "desc": "Wurstgulasch mit Paprika auf Past, dazu Gouda",
+      "price": 7.7
+    },
+    {
+      "desc": "Gnocchi in Basilikumsoße mit getrockneten Tomaten, dazu Parmesan (veget.)",
+      "price": 7.7
+    }
+  ],
+  "2023-08-29": [
+    {
+      "desc": "Schweineschnitzel gefüllt mit Schinken und Käse, dazu Rahmerbsen, Salzkartoffeln und braune Soße",
+      "price": 7.9
+    },
+    {
+      "desc": "Cannelloni gefüllt mit Spinat in Gorgonzola, überbacken mit Gouda und Mandeln (veget.)",
+      "price": 7.7
+    }
+  ],
+  "2023-08-30": [
+    {
+      "desc": "Jägerklopse mit Champignons, dazu Kartoffelstampf und Gurkensalat",
+      "price": 7.9
+    },
+    {
+      "desc": "Gebackener Hirtenkäse auf Thai Curry mit buntem Gemüse und Kokosmilch (veget.)",
+      "price": 7.7
+    }
+  ],
+  "2023-08-31": [
+    {
+      "desc": "Hähnchenschnitzel mit Rahmblumenkohl, Salzkartoffeln und brauner Soße",
+      "price": 7.9
+    },
+    {
+      "desc": "Geschmorter Fenchel in Kokosmilch, dazu Orangencouscous mit gegrillten Kirschtomaten (vegan)",
+      "price": 7.7
+    }
+  ],
+  "2023-09-01": [
+    {
+      "desc": "Gebratenes Seelachsfilet mit gebratenen Zucchiniwürfeln, rote Bete Püree und Zitronensoße",
+      "price": 7.9
+    }
+  ]
+}
