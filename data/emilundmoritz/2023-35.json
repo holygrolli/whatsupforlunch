@@ -1,0 +1,52 @@
+{
+  "2023-08-28": [
+    {
+      "desc": "Schnitzel Schwein, Blumenkohl, Kartoffeln",
+      "price": 6.60
+    },
+    {
+      "desc": "Blumenkohl- Kartoffelauflauf",
+      "price": 6.60
+    }
+  ],
+  "2023-08-29": [
+    {
+      "desc": "Gulasch, Spätzle",
+      "price": 6.60
+    },
+    {
+      "desc": "Spätzle Gemüse Pfanne",
+      "price": 6.60
+    }
+  ],
+  "2023-08-30": [
+    {
+      "desc": "Hähnchencurry, Reis",
+      "price": 6.60
+    },
+    {
+      "desc": "Quarkkeulchen, Apfelmus, Z+Z",
+      "price": 6.60
+    }
+  ],
+  "2023-08-31": [
+    {
+      "desc": "Königsberger Klöpse, Kartoffeln",
+      "price": 6.60
+    },
+    {
+      "desc": "Rührei, Rahmspinat, Kartoffeln",
+      "price": 6.60
+    }
+  ],
+  "2023-09-01": [
+    {
+      "desc": "Bratwurst, Sauerkraut, Kartoffelstampf",
+      "price": 6.60
+    },
+    {
+      "desc": "Fischfilet, Kräutersauce, Kartoffelstampf",
+      "price": 6.60
+    }
+  ]
+}
