@@ -1,0 +1,112 @@
+{
+  "2023-09-04": [
+    {
+      "desc": "Gemüsebolognese mit Pasta",
+      "price": 3.5
+    },
+    {
+      "desc": "Linseneintopf mit Kartoffeln",
+      "price": 2.5
+    },
+    {
+      "desc": "Kohlroulade mit Bratensoße",
+      "price": 3.55
+    },
+    {
+      "desc": "Kartoffeln",
+      "price": 1.0
+    },
+    {
+      "desc": "Rohkostsalat nach Angebot",
+      "price": 1.3
+    }
+  ],
+  "2023-09-05": [
+    {
+      "desc": "Salzkartoffeln mit Rahmspinat & Rührei",
+      "price": 3.9
+    },
+    {
+      "desc": "Kartoffeln mit Kräuterquark und Butter",
+      "price": 2.5
+    },
+    {
+      "desc": "Schweinegeschnetzeltes \"Jäger Art\"",
+      "price": 3.65
+    },
+    {
+      "desc": "Spätzle",
+      "price": 1.2
+    },
+    {
+      "desc": "Rohkostsalat nach Angebot",
+      "price": 1.3
+    }
+  ],
+  "2023-09-06": [
+    {
+      "desc": "Gemüsebrühe mit zwei Maultaschen und verschiedenem Gemüse",
+      "price": 3.2
+    },
+    {
+      "desc": "Gräupcheneintopf mit Kasslerwürfel",
+      "price": 2.5
+    },
+    {
+      "desc": "Spinat-Hackfleischpfanne mit Joghurt und Kartoffeln",
+      "price": 3.9
+    },
+    {
+      "desc": "Gouda gerieben",
+      "price": 0.4
+    },
+    {
+      "desc": "Rohkostsalat nach Angebot",
+      "price": 1.3
+    }
+  ],
+  "2023-09-07": [
+    {
+      "desc": "Brokkoli-Kartoffel-Auflauf",
+      "price": 3.5
+    },
+    {
+      "desc": "Hefeklöße mit Pflaumen",
+      "price": 2.5
+    },
+    {
+      "desc": "Currywurst-Pfanne",
+      "price": 4.2
+    },
+    {
+      "desc": "Gouda gerieben",
+      "price": 0.4
+    },
+    {
+      "desc": "Rohkostsalat nach Angebot",
+      "price": 1.3
+    }
+  ],
+  "2023-09-08": [
+    {
+      "desc": "Gebackener Camembert mit gemischtem Salat und Preiselbeeren",
+      "price": 4.8
+    },
+    {
+      "desc": "Zwei Eier in Senfsoße mit Kartoffeln",
+      "price": 2.5
+    },
+    {
+      "desc": "Tagesangebot",
+      "price": null
+    },
+    {
+      "desc": "Gouda gerieben",
+      "price": 0.4
+    },
+    {
+      "desc": "Rohkostsalat nach Angebot",
+      "price": 1.3
+    }
+  ]
+}
