@@ -1,0 +1,112 @@
+{
+  "2023-08-28": [
+    {
+      "desc": "Champignontopf mit Kräutersoße",
+      "price": 3.50
+    },
+    {
+      "desc": "Weißkrauteintopf mit Schweinefleisch",
+      "price": 2.50
+    },
+    {
+      "desc": "Marinierter Hering in Sahnesoße mit Salzkartoffeln",
+      "price": 4.95
+    },
+    {
+      "desc": "Reis",
+      "price": 1.00
+    },
+    {
+      "desc": "Rohkostsalat nach Angebot",
+      "price": 1.30
+    }
+  ],
+  "2023-08-29": [
+    {
+      "desc": "Gebackene Kartoffeltaschen mit Frischkäse gefüllt & gem. Salat",
+      "price": 4.20
+    },
+    {
+      "desc": "Tomatencremesüppchen mit Croutons",
+      "price": 2.50
+    },
+    {
+      "desc": "Nudelsalat mit Käsekraukauer",
+      "price": 4.50
+    },
+    {
+      "desc": "",
+      "price": null
+    },
+    {
+      "desc": "Rohkostsalat nach Angebot",
+      "price": 1.30
+    }
+  ],
+  "2023-08-30": [
+    {
+      "desc": "Ofenkartoffel mit Quarkdip und ein kl. gemischter Salat",
+      "price": 4.80
+    },
+    {
+      "desc": "Zwei Eier in Senfsoße mit Kartoffeln",
+      "price": 2.50
+    },
+    {
+      "desc": "Lasagne al forno",
+      "price": 3.75
+    },
+    {
+      "desc": "Currywurst mit fruchtiger Currysoße",
+      "price": 3.50
+    },
+    {
+      "desc": "Rohkostsalat nach Angebot",
+      "price": 1.30
+    }
+  ],
+  "2023-08-31": [
+    {
+      "desc": "Kartoffelgulasch mit Paprika und Kräuterhaube",
+      "price": 3.50
+    },
+    {
+      "desc": "Kaiserschmarrn mit Rosinen und Apfelmus",
+      "price": 2.50
+    },
+    {
+      "desc": "Currywurst mit fruchtiger Currysoße",
+      "price": 3.50
+    },
+    {
+      "desc": "",
+      "price": null
+    },
+    {
+      "desc": "Rohkostsalat nach Angebot",
+      "price": 1.30
+    }
+  ],
+  "2023-09-01": [
+    {
+      "desc": "Gebackener Hirtenkäse mit gemischtem Salat",
+      "price": 4.80
+    },
+    {
+      "desc": "Kartoffel-Gemüseauflauf mit Gouda überbacken",
+      "price": 2.50
+    },
+    {
+      "desc": "Tagesangebot",
+      "price": null
+    },
+    {
+      "desc": "Pommes",
+      "price": 1.20
+    },
+    {
+      "desc": "Rohkostsalat mit Erbsen",
+      "price": 1.00
+    }
+  ]
+}
