@@ -55,14 +55,6 @@
     {
       "desc": "Lasagne al forno",
       "price": 3.75
-    },
-    {
-      "desc": "Currywurst mit fruchtiger Currysoße",
-      "price": 3.50
-    },
-    {
-      "desc": "Rohkostsalat nach Angebot",
-      "price": 1.30
     }
   ],
   "2023-08-31": [
@@ -77,10 +69,6 @@
     {
       "desc": "Currywurst mit fruchtiger Currysoße",
       "price": 3.50
-    },
-    {
-      "desc": "",
-      "price": null
     },
     {
       "desc": "Rohkostsalat nach Angebot",
