@@ -1,0 +1,48 @@
+{
+  "2023-09-04": [
+    {
+      "desc": "Currywurst \"Nach Art des Hauses\", dazu Kartoffelecken und Salatbeilage",
+      "price": 7.7
+    },
+    {
+      "desc": "Maultaschen gefüllt mit Spinat, dazu Tomatensoße und Parmesan (veget.)",
+      "price": 7.7
+    }
+  ],
+  "2023-09-05": [
+    {
+      "desc": "Schweineschnitzel \"Western\" mit BBQ-Zwiebeln, Bacon und gebackenen Kartoffelecken, dazu Sour Creme",
+      "price": 7.9
+    },
+    {
+      "desc": "Zucchini Kartoffelrösti mit Kresseschmand und Tomatensalat (veget.)",
+      "price": 7.7
+    }
+  ],
+  "2023-09-06": [
+    {
+      "desc": "Gebackene Hähnchenbrust in Erdnusspanade, auf gebratenen Mie Nudeln, mit buntem Gemüse, Sweet Chilisoße nd Röstzwiebeln",
+      "price": 7.9
+    },
+    {
+      "desc": "Gebratene Minikartoffeln mit Kirschtomaten und Rucola, dazu Paprika-Gurken-Quark und geröstete Sonnenblumenkerne",
+      "price": 7.7
+    }
+  ],
+  "2023-09-07": [
+    {
+      "desc": "Schweinesteak \"Au Four\" mit Rahmerbsen und Bratkartoffeln",
+      "price": 7.9
+    },
+    {
+      "desc": "Auberginenschnitzel in Parmesanpanade, dazu pikante Tomatensoße und Pasta (veget.)",
+      "price": 7.7
+    }
+  ],
+  "2023-09-08": [
+    {
+      "desc": "Fischcurry mit buntem Gemüse und Sesamreis",
+      "price": 7.9
+    }
+  ]
+}
