@@ -1,0 +1,52 @@
+{
+  "2023-09-04": [
+    {
+      "desc": "Schnitzel \"Wiener Art\" mit Kartoffel-Gurken-Salat",
+      "price": 7.5
+    },
+    {
+      "desc": "Allgäuer Käsespätzle mit Röstzwiebeln",
+      "price": 7.5
+    }
+  ],
+  "2023-09-05": [
+    {
+      "desc": "Augustiner Bratwurst mit Sauerkraut und Kartoffelpüree",
+      "price": 7.5
+    },
+    {
+      "desc": "Vegetarisches Bauernfrühstück mit Fassgurke",
+      "price": 7.5
+    }
+  ],
+  "2023-09-06": [
+    {
+      "desc": "Spaghetti Bolognese mit Parmesan",
+      "price": 7.5
+    },
+    {
+      "desc": "Käse-Tortellini in Kräuterrahmsauce",
+      "price": 7.5
+    }
+  ],
+  "2023-09-07": [
+    {
+      "desc": "Hähnchen-Curry mit Reis",
+      "price": 7.5
+    },
+    {
+      "desc": "Gemüse-Curry mit Reis",
+      "price": 7.5
+    }
+  ],
+  "2023-09-08": [
+    {
+      "desc": "Backfisch auf Kartoffel-Gurken-Salat mit Remoulade",
+      "price": 7.5
+    },
+    {
+      "desc": "Kaiserschmarrn mit Apfelmus",
+      "price": 7.5
+    }
+  ]
+}
