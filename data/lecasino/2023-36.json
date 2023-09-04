@@ -1,112 +1,112 @@
 {
   "2023-09-04": [
     {
-      "desc": "Gemüsebolognese mit Pasta",
-      "price": 3.5
+      "desc": "Gemüsebolognese mit Pasta aW,c",
+      "price": 3.50
     },
     {
-      "desc": "Linseneintopf mit Kartoffeln",
-      "price": 2.5
+      "desc": "Linseneintopf mit Kartoffeln aW,aR,i,2,3,8,11",
+      "price": 2.50
     },
     {
-      "desc": "Kohlroulade mit Bratensoße",
+      "desc": "Kohlroulade mit Bratensoße g,c,j,aW",
       "price": 3.55
     },
     {
-      "desc": "Kartoffeln",
-      "price": 1.0
+      "desc": "Kartoffeln 1,00 €",
+      "price": 1.00
     },
     {
-      "desc": "Rohkostsalat nach Angebot",
-      "price": 1.3
+      "desc": "Rohkostsalat nach 1,30 € Angebot e,2,9",
+      "price": 1.30
     }
   ],
   "2023-09-05": [
     {
-      "desc": "Salzkartoffeln mit Rahmspinat & Rührei",
-      "price": 3.9
+      "desc": "Salzkartoffeln mit Rahmspinat & Rührei 372 kcal/1.556 kJ",
+      "price": 3.90
     },
     {
-      "desc": "Kartoffeln mit Kräuterquark und Butter",
-      "price": 2.5
+      "desc": "Kartoffeln mit Kräuterquark und Butter g,2,3",
+      "price": 2.50
     },
     {
-      "desc": "Schweinegeschnetzeltes \"Jäger Art\"",
+      "desc": "Schweinegeschnetzeltes \"Jäger Art\" a,g",
       "price": 3.65
     },
     {
-      "desc": "Spätzle",
-      "price": 1.2
+      "desc": "Spätzle aW.c.2.3",
+      "price": 1.20
     },
     {
-      "desc": "Rohkostsalat nach Angebot",
-      "price": 1.3
+      "desc": "Rohkostsalat nach 1,30 € Angebot e,2,9 Gemüse n. Angebot 1,00 €",
+      "price": 1.30
     }
   ],
   "2023-09-06": [
     {
-      "desc": "Gemüsebrühe mit zwei Maultaschen und verschiedenem Gemüse",
-      "price": 3.2
+      "desc": "Gemüsebrühe mit zwei Maultaschen und verschiedenem Gemüse a,g",
+      "price": 3.20
     },
     {
-      "desc": "Gräupcheneintopf mit Kasslerwürfel",
-      "price": 2.5
+      "desc": "Gräupcheneintopf mit Kasslerwürfel aGe,i,aW,2,3",
+      "price": 2.50
     },
     {
-      "desc": "Spinat-Hackfleischpfanne mit Joghurt und Kartoffeln",
-      "price": 3.9
+      "desc": "Spinat-Hackfleischpfanne mit Joghurt und Kartoffelnä,aw,aG,2,3",
+      "price": 3.90
     },
     {
-      "desc": "Gouda gerieben",
-      "price": 0.4
+      "desc": "Gouda gerieben g,2,3",
+      "price": 0.40
     },
     {
-      "desc": "Rohkostsalat nach Angebot",
-      "price": 1.3
+      "desc": "Rohkostsalat nach 1,30 € Angebot e,2,9",
+      "price": 1.30
     }
   ],
   "2023-09-07": [
     {
-      "desc": "Brokkoli-Kartoffel-Auflauf",
-      "price": 3.5
+      "desc": "Brokkoli-Kartoffel-Auflauf a,c,g,i",
+      "price": 3.50
     },
     {
-      "desc": "Hefeklöße mit Pflaumen",
-      "price": 2.5
+      "desc": "Hefeklöße mit Pflaumen aW,g,2,3,4",
+      "price": 2.50
     },
     {
-      "desc": "Currywurst-Pfanne",
-      "price": 4.2
+      "desc": "Currywurst-Pfanne aG.2.3.4",
+      "price": 4.20
     },
     {
-      "desc": "Gouda gerieben",
-      "price": 0.4
+      "desc": "Gouda gerieben g,2,3",
+      "price": 0.40
     },
     {
-      "desc": "Rohkostsalat nach Angebot",
-      "price": 1.3
+      "desc": "Rohkostsalat nach 1,30 € Angebot e,2,9 Mischgemüse 1,00 €",
+      "price": 1.30
     }
   ],
   "2023-09-08": [
     {
-      "desc": "Gebackener Camembert mit gemischtem Salat und Preiselbeeren",
-      "price": 4.8
+      "desc": "Gebackener Camembert mit gemischtem Salat und Preiselbeeren a,c,g",
+      "price": 4.80
     },
     {
-      "desc": "Zwei Eier in Senfsoße mit Kartoffeln",
-      "price": 2.5
+      "desc": "Zwei Eier in Senfsoße mit Kartoffeln a,aW,c,j,g",
+      "price": 2.50
     },
     {
       "desc": "Tagesangebot",
       "price": null
     },
     {
-      "desc": "Gouda gerieben",
-      "price": 0.4
+      "desc": "Gouda gerieben g,2,3",
+      "price": 0.40
     },
     {
-      "desc": "Rohkostsalat nach Angebot",
-      "price": 1.3
+      "desc": "Rohkostsalat nach 1,30 € Angebot e,2,9",
+      "price": 1.30
     }
   ]
 }
