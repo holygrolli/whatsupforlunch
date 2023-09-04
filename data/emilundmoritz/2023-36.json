@@ -1,0 +1,52 @@
+{
+  "2023-09-04": [
+    {
+      "desc": "Schnitzel Schwein, Tagliatelle+Tomatensauce",
+      "price": 6.6
+    },
+    {
+      "desc": "Pasta mit Grillgemüse, Parmesan",
+      "price": 6.6
+    }
+  ],
+  "2023-09-05": [
+    {
+      "desc": "Wirsingroulade mit Kümmelsauce, Kartoffel",
+      "price": 6.6
+    },
+    {
+      "desc": "Kartoffel Pfanne Toskana",
+      "price": 6.6
+    }
+  ],
+  "2023-09-06": [
+    {
+      "desc": "Boulette, Rahmwirsing, Kartoffelstampf",
+      "price": 6.6
+    },
+    {
+      "desc": "Fischstäbchen, Kartoffelstampf, Sause",
+      "price": 6.6
+    }
+  ],
+  "2023-09-07": [
+    {
+      "desc": "Schnitzel Pute, Mischgemüse, Kartoffeln",
+      "price": 6.6
+    },
+    {
+      "desc": "2 Eierkuchen, Apfelmus Z+Z",
+      "price": 6.6
+    }
+  ],
+  "2023-09-08": [
+    {
+      "desc": "Rinderbraten, Rotkohl, Klöße",
+      "price": 6.6
+    },
+    {
+      "desc": "Kartoffel- Brokkoli- Auflauf",
+      "price": 6.6
+    }
+  ]
+}
