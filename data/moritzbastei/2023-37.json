@@ -1,0 +1,48 @@
+{
+  "2023-09-11": [
+    {
+      "desc": "Gebratener Leberkäse mit Spiegelei und Bratkartoffeln, dazu Tomatensalat",
+      "price": 7.70
+    },
+    {
+      "desc": "Gebratener Blumenkohl mit Sc. Hollandaise, dazu Salzkartoffeln und Salatbeilage (veget.)",
+      "price": 7.70
+    }
+  ],
+  "2023-09-12": [
+    {
+      "desc": "Schweineschnitzel mit Honigkarotten, Salzkartoffeln und brauner Sauce",
+      "price": 7.90
+    },
+    {
+      "desc": "Zucchini-Limettentagliatelle mit gerösteten Sonnenblumenkernen und Parmesan (veget.)",
+      "price": 7.70
+    }
+  ],
+  "2023-09-13": [
+    {
+      "desc": "Frikadelle mit Speckrosenkohl, Salzkartoffeln und brauner Sauce",
+      "price": 7.90
+    },
+    {
+      "desc": "Sojagyros mit Ingwer, dazu gebackene Kartofefelecken, Zaziki und Krautsalat (veget.)",
+      "price": 7.70
+    }
+  ],
+  "2023-09-14": [
+    {
+      "desc": "Hähnchengeschnetzeltes mit gebratener Zucchini, getrockneten Tomaten und Rosmarinkartoffeln",
+      "price": 7.90
+    },
+    {
+      "desc": "Tortellini in Spinatgorgonzolasauce, überbacken mit Mozzarella und gerösteten Mandeln (veget.)",
+      "price": 7.70
+    }
+  ],
+  "2023-09-15": [
+    {
+      "desc": "Gebackenes Seelachsfilet unter Kartoffelkruste, dazu Senfsauce und Gurkensalat",
+      "price": 7.90
+    }
+  ]
+}
