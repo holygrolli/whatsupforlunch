@@ -1,0 +1,92 @@
+{
+  "2023-09-18": [
+    {
+      "desc": "Kürbiscreme- Suppe mit Petersilien-Öl und bunten Sprossen",
+      "price": 5.00
+    },
+    {
+      "desc": "Kräuterquark mit Zwiebeln, Butter und Petersilien- kartoffeln",
+      "price": 5.50
+    },
+    {
+      "desc": "Hühnerfrikassee mit Erbsen, Karotten und Butterreis",
+      "price": 6.00
+    },
+    {
+      "desc": "Süßkartoffel- Schupfnudeln mit Schinken- Käsesoße und Lauch",
+      "price": 7.50
+    }
+  ],
+  "2023-09-19": [
+    {
+      "desc": "Apfelstrudel mit Vanillesoße und Mandeln",
+      "price": 5.00
+    },
+    {
+      "desc": "Pasta mit Tomatensoße und geriebenem Käse",
+      "price": 5.50
+    },
+    {
+      "desc": "Pasta mit Wurstgulasch und geriebenem Käse",
+      "price": 6.00
+    },
+    {
+      "desc": "Lammhacksteak mit buntem Bohnengemüse und Kroketten",
+      "price": 7.50
+    }
+  ],
+  "2023-09-20": [
+    {
+      "desc": "Chili con Carne",
+      "price": 5.00
+    },
+    {
+      "desc": "Sellerieschnitzel mit bunten Karotten und Kräuterreis",
+      "price": 5.50
+    },
+    {
+      "desc": "Paniertes Schweine- kotelett mit Blumenkohl und Kartoffeln",
+      "price": 6.00
+    },
+    {
+      "desc": "Salat \"Nizza\" mit Thunfisch, Oliven, Zwiebeln, Tomaten und Kartoffeln",
+      "price": 7.50
+    }
+  ],
+  "2023-09-21": [
+    {
+      "desc": "Drei Hefeklöße mit warmen Heidelbeeren",
+      "price": 5.00
+    },
+    {
+      "desc": "Pasta mit Tomatensoße und geriebenem Käse",
+      "price": 5.50
+    },
+    {
+      "desc": "Kohlroulade mit Krautsoße und Petersilien- Kartoffeln",
+      "price": 6.00
+    },
+    {
+      "desc": "Bete-Ingwer- Falafel mit Hummus und Bulgur-Salat",
+      "price": 7.50
+    }
+  ],
+  "2023-09-22": [
+    {
+      "desc": "Blumenkohl- Cremesuppe mit Rettich-Kresse und Croûtons",
+      "price": 5.00
+    },
+    {
+      "desc": "Käsespatz'n \"Allgäuer Art\" mit Röstzwiebeln",
+      "price": 5.50
+    },
+    {
+      "desc": "Fischstäbchen mit TomatensoBe und Kartoffel- stampf",
+      "price": 6.00
+    },
+    {
+      "desc": "Schnitzelröllchen, gefüllt mit Tomate, dazu Pilze + Kartoffel- Gratin",
+      "price": 7.50
+    }
+  ]
+}

@@ -1,0 +1,79 @@
+{
+  "2023-10-02": [
+    {
+      "desc": "Gräupchen- Eintopf mit Kasslerwürfeln",
+      "price": 5.00
+    },
+    {
+      "desc": "Zwei gekochte Eier mit Senfsoße, Rotkrautsalat und Petersilien- kartoffeln",
+      "price": 5.50
+    },
+    {
+      "desc": "Bifteki mit Krautsalat, Zaziki und Tomatenreis",
+      "price": 6.00
+    },
+    {
+      "desc": "Orientalische Kichererbsen- Tajine mit Couscous",
+      "price": 7.50
+    }
+  ],
+  "2023-10-03": [
+    {
+      "desc": "Wir wünschen Ihnen einen schönen Feiertag!"
+    }
+  ],
+  "2023-10-04": [
+    {
+      "desc": "Vegetarische Maultaschen mit Gemüsebrühe",
+      "price": 5.00
+    },
+    {
+      "desc": "Brokkoli-Nuss- Ecke mit Salat + Möhren- Kartoffelstampf",
+      "price": 5.50
+    },
+    {
+      "desc": "Fischcurry mit Muscheln, Kürbis und Limettenreis",
+      "price": 6.00
+    },
+    {
+      "desc": "Rinderroulade mit Apfelrotkohl und Kartoffelklößen",
+      "price": 7.50
+    }
+  ],
+  "2023-10-05": [
+    {
+      "desc": "Germknödel mit Schokocreme- füllung, und VanillesoBe",
+      "price": 5.00
+    },
+    {
+      "desc": "Pasta mit Tomatensoße und geriebenem Käse",
+      "price": 5.50
+    },
+    {
+      "desc": "Hackbällchen in Tomatensoße mit Pasta",
+      "price": 6.00
+    },
+    {
+      "desc": "Wildgulasch mit Preiselbeeren und Böhmischen Knödeln",
+      "price": 7.50
+    }
+  ],
+  "2023-10-06": [
+    {
+      "desc": "Tomatencreme- suppe mit Basilikumpesto und Croûtons",
+      "price": 5.00
+    },
+    {
+      "desc": "Semmelknödel mit Kürbis, Waldpilzen und Lauch",
+      "price": 5.50
+    },
+    {
+      "desc": "Grillwurst mit Letschogemüse und Kartoffelpüree",
+      "price": 6.00
+    },
+    {
+      "desc": "Marinierter Hering mit Apfel- Zwiebelsoße und Petersilien- kartoffeln",
+      "price": 7.50
+    }
+  ]
+}
