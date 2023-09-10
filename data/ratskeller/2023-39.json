@@ -1,0 +1,92 @@
+{
+  "2023-09-25": [
+    {
+      "desc": "Wirsingeintopf mit Kohlrabi und Mini-Wiener- Würstchen",
+      "price": 5.00
+    },
+    {
+      "desc": "Blumenkohl- Käsemedaillon mit Spinatsoße und Kartoffel- stampf",
+      "price": 5.50
+    },
+    {
+      "desc": "Paella Reispfanne mit Hähnchen, Fisch und Muscheln",
+      "price": 6.00
+    },
+    {
+      "desc": "Tafelspitz vom Rind mit Meer- rettichsoße, Rote Bete und Klößen",
+      "price": 7.50
+    }
+  ],
+  "2023-09-26": [
+    {
+      "desc": "American Pancakes mit Apfel-Aprikosen- Kompott",
+      "price": 5.00
+    },
+    {
+      "desc": "Pasta mit Tomatensoße und geriebenem Käse",
+      "price": 5.50
+    },
+    {
+      "desc": "Spaghetti \"Bolognese\" mit geriebenem Käse",
+      "price": 6.00
+    },
+    {
+      "desc": "Gemüsestrudel mit Spitzkohl und buntem Linsensalat",
+      "price": 7.50
+    }
+  ],
+  "2023-09-27": [
+    {
+      "desc": "Sächsische Kartoffelsuppe mit Majoran und Bockwurst",
+      "price": 5.00
+    },
+    {
+      "desc": "Kürbis- Steckrüben- Frikadelle mit Kräutersoße und Risi-Bisi",
+      "price": 5.50
+    },
+    {
+      "desc": "Krakauer mit Grünkohl und Kartoffelstampf",
+      "price": 6.00
+    },
+    {
+      "desc": "Champignon- Blätterteigtasche mit Oliven und Reisnudelsalat",
+      "price": 7.50
+    }
+  ],
+  "2023-09-28": [
+    {
+      "desc": "Grießbrei mit Sauerkirsch- Ragout und Zimtzucker",
+      "price": 5.00
+    },
+    {
+      "desc": "Pasta mit Tomatensoße und geriebenem Käse",
+      "price": 5.50
+    },
+    {
+      "desc": "Putenrahm- Geschnetzeltes mit Paprika und Butterreis",
+      "price": 6.00
+    },
+    {
+      "desc": "Omelett, gefüllt mit Cheddar, dazu Gurkensalat und Bratkartoffeln",
+      "price": 7.50
+    }
+  ],
+  "2023-09-29": [
+    {
+      "desc": "Indische Linsensuppe mit Ingwer und Koriander",
+      "price": 5.00
+    },
+    {
+      "desc": "Waldpilzrisotto mit Lauch und Cherrytomaten",
+      "price": 5.50
+    },
+    {
+      "desc": "Köttbullar mit Champignon- rahm und Kartoffelstampf",
+      "price": 6.00
+    },
+    {
+      "desc": "Seelachsfilet \"Bordelaise\" mit bunten Karotten und Reis",
+      "price": 7.50
+    }
+  ]
+}

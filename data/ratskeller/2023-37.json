@@ -1,0 +1,92 @@
+{
+  "2023-09-11": [
+    {
+      "desc": "Süßkartoffel- Ingwer-Suppe mit Sesam und Koriander",
+      "price": 5.0
+    },
+    {
+      "desc": "Gemüsefrikadelle mit Buttererbsen und Kräuterreis",
+      "price": 5.5
+    },
+    {
+      "desc": "Bratwurst mit Sauerkraut und Petersilien-kartoffeln",
+      "price": 6.0
+    },
+    {
+      "desc": "Chicken-Wrap mit Guacamole, Ananas und Tomaten",
+      "price": 7.5
+    }
+  ],
+  "2023-09-12": [
+    {
+      "desc": "Marillenknödel mit Vanillerahm",
+      "price": 5.0
+    },
+    {
+      "desc": "Pasta mit Tomatensoße und geriebenem Käse",
+      "price": 5.5
+    },
+    {
+      "desc": "Jägerschnitzel mit TomatensoBe und Pasta",
+      "price": 6.0
+    },
+    {
+      "desc": "Bunter Salat mit veganen Filetstreifen, Bete, Karotten und Sprossen",
+      "price": 7.5
+    }
+  ],
+  "2023-09-13": [
+    {
+      "desc": "Erbseneintopf mit Kartoffelwürfeln und Bockwurst",
+      "price": 5.0
+    },
+    {
+      "desc": "Chili sin Carne mit Soja-Hack und Kurkumareis",
+      "price": 5.5
+    },
+    {
+      "desc": "Hähnchenkeule mit Honigmöhren und Petersilien-kartoffeln",
+      "price": 6.0
+    },
+    {
+      "desc": "Penne mit Trüffelrahm, Champignons, Lauch und Hartkäse",
+      "price": 7.5
+    }
+  ],
+  "2023-09-14": [
+    {
+      "desc": "Milchreis mit Apfelmus und Zimtzucker",
+      "price": 5.0
+    },
+    {
+      "desc": "Pasta mit Tomatensoße und geriebenem Käse",
+      "price": 5.5
+    },
+    {
+      "desc": "Gulasch vom Schwein mit Paprika, Pilzen und Pasta",
+      "price": 6.0
+    },
+    {
+      "desc": "Kartoffelrösti mit Räucherlachs, Honig-Senf Dip und Salat",
+      "price": 7.5
+    }
+  ],
+  "2023-09-15": [
+    {
+      "desc": "Rote-Bete-Suppe mit Fetawürfeln und Kerbel-Pesto",
+      "price": 5.0
+    },
+    {
+      "desc": "Spinat- Käseknödel auf Kräuter- Waldpilzrahm",
+      "price": 5.5
+    },
+    {
+      "desc": "Sülze mit Remouladen-soße, Salat und Bratkartoffeln",
+      "price": 6.0
+    },
+    {
+      "desc": "Fischroulade mit Gemüsefüllung, dazu Zitronensoße und Reis",
+      "price": 7.5
+    }
+  ]
+}
