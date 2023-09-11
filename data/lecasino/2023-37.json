@@ -1,0 +1,114 @@
+{
+  "2023-09-11": [
+    {
+      "desc": "Pasta aglio olio",
+      "price": 2.80
+    },
+    {
+      "desc": "Nudeleintopf mit Huhn und Gemüse",
+      "price": 2.50
+    },
+    {
+      "desc": "Chili Con Carne",
+      "price": 2.95
+    },
+    {
+      "desc": "Reis",
+      "price": 1.00
+    },
+    {
+      "desc": "Rohkostsalat nach Angebot",
+      "price": 1.30
+    }
+  ],
+  "2023-09-12": [
+    {
+      "desc": "Pasta mit Spinat-Frischkäsesoße",
+      "price": 3.80
+    },
+    {
+      "desc": "Gemüsepfanne mit Kräuterkartoffeln",
+      "price": 2.50
+    },
+    {
+      "desc": "Bratwurst mit Soße",
+      "price": 2.60
+    },
+    {
+      "desc": "Kartoffeln",
+      "price": 1.00
+    },
+    {
+      "desc": "Rohkostsalat nach Angebot",
+      "price": 1.30
+    }
+  ],
+  "2023-09-13": [
+    {
+      "desc": "Gemüseschnitzel mit kl. gem. Salat",
+      "price": 3.80
+    },
+    {
+      "desc": "Frikadellenbällchen mit Zwiebelsoße und Kartoffelpüree",
+      "price": 2.50
+    },
+    {
+      "desc": "Muligatawny- indische Currysuppe mit Hähnchenfleisch und Ingwer",
+      "price": 3.80
+    },
+    {
+      "desc": "Reis",
+      "price": 1.00
+    },
+    {
+      "desc": "Rohkostsalat nach Angebot",
+      "price": 1.30
+    }
+  ],
+  "2023-09-14": [
+    {
+      "desc": "Käse-Spätzle mit Röstzwiebeln",
+      "price": 3.50
+    },
+    {
+      "desc": "Milchreis mit Zimt Zucker und Apfelmus",
+      "price": 2.50
+    },
+    {
+      "desc": "Sülze mit Remoulade",
+      "price": 3.20
+    },
+    {
+      "desc": "Kartoffeln",
+      "price": 1.00
+    },
+    {
+      "desc": "Rohkostsalat nach Angebot",
+      "price": 1.30
+    }
+  ],
+  "2023-09-15": [
+    {
+      "desc": "Ofenkartoffel mit Quarkdip und ein kl. gemischter Salat",
+      "price": 3.70
+    },
+    {
+      "desc": "Schinkennudeln mit Sahnesoße",
+      "price": 2.50
+    },
+    {
+      "desc": "Tagesangebot",
+      "price": null
+    },
+    {
+      "desc": "Bratkartoffeln",
+      "price": 1.20
+    },
+    {
+      "desc": "Rohkostsalat nach Angebot",
+      "price": 1.30
+    }
+  ],
+  "2023-09-16": [],
+  "2023-09-17": []
+}
