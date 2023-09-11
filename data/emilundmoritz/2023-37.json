@@ -1,0 +1,52 @@
+{
+  "2023-09-11": [
+    {
+      "desc": "Schweinesteak mit Bratkartoffeln, Letscho",
+      "price": 6.6
+    },
+    {
+      "desc": "Tortellini mit Basilikum-Tomatensoße, Käse",
+      "price": 6.6
+    }
+  ],
+  "2023-09-12": [
+    {
+      "desc": "Kohlroulade mit Kartoffeln",
+      "price": 6.6
+    },
+    {
+      "desc": "Kartoffelpfanne mit Zucchini und Lachs nach Toskanischer Art",
+      "price": 6.6
+    }
+  ],
+  "2023-09-13": [
+    {
+      "desc": "Hühnerfrikassee dazu Reis",
+      "price": 6.6
+    },
+    {
+      "desc": "Couscous Pfanne mit Grillgemüse und Rucola",
+      "price": 6.6
+    }
+  ],
+  "2023-09-14": [
+    {
+      "desc": "Putenschnitzel mit Kartoffeln, Möhrengemüse, Kräutersoße",
+      "price": 6.6
+    },
+    {
+      "desc": "Kartoffeln und Quark, kleiner Salat",
+      "price": 6.6
+    }
+  ],
+  "2023-09-15": [
+    {
+      "desc": "Currywurst mit Bratkartoffeln",
+      "price": 6.6
+    },
+    {
+      "desc": "Reispfanne mit Meeresfrüchte",
+      "price": 6.6
+    }
+  ]
+}
