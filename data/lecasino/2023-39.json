@@ -1,0 +1,114 @@
+{
+  "2023-09-25": [
+    {
+      "desc": "Champignontopf mit Kräutersoße",
+      "price": 3.50
+    },
+    {
+      "desc": "Hausgemachte Kartoffelsuppe",
+      "price": 2.50
+    },
+    {
+      "desc": "Currywurst mit fruchtig-scharfer Currysoße",
+      "price": 3.50
+    },
+    {
+      "desc": "Pommes",
+      "price": 1.20
+    },
+    {
+      "desc": "Rohkostsalat nach Angebot",
+      "price": 1.30
+    }
+  ],
+  "2023-09-26": [
+    {
+      "desc": "Broccoli mit Hollandaise und Kartoffeln",
+      "price": 3.50
+    },
+    {
+      "desc": "Frikadellenbällchen mit Rahmsoße und Kartoffelpüree",
+      "price": 2.50
+    },
+    {
+      "desc": "Kartoffeltopf mit Kokosmilch und gebratenen Chiliwurstscheibchen",
+      "price": 3.80
+    },
+    {
+      "desc": "Reis",
+      "price": 1.00
+    },
+    {
+      "desc": "Rohkostsalat nach Angebot with Sauerkraut",
+      "price": 1.30
+    }
+  ],
+  "2023-09-27": [
+    {
+      "desc": "Gemischter Salat mit Kräutercroutons",
+      "price": 4.60
+    },
+    {
+      "desc": "Erbseneintopf mit Kasseler Fleisch",
+      "price": 2.50
+    },
+    {
+      "desc": "Hausgemachte Königsberger Klopse mit Kapernsoße",
+      "price": 3.50
+    },
+    {
+      "desc": "Kartoffeln",
+      "price": 1.00
+    },
+    {
+      "desc": "Rohkostsalat nach Angebot with Mischgemüse",
+      "price": 1.30
+    }
+  ],
+  "2023-09-28": [
+    {
+      "desc": "Tortellini mit Spinat Ricotta Füllung und einer Kräutersoße",
+      "price": 3.60
+    },
+    {
+      "desc": "Quarkkeulchen mit Apfelmus und Zimt Zucker",
+      "price": 2.50
+    },
+    {
+      "desc": "Hähnchenschnitzel mit Bratensoße",
+      "price": 3.50
+    },
+    {
+      "desc": "Kroketten",
+      "price": 1.20
+    },
+    {
+      "desc": "Rohkostsalat nach Angebot with Champignons",
+      "price": 1.30
+    }
+  ],
+  "2023-09-29": [
+    {
+      "desc": "Farfalle mit Spinatsoße",
+      "price": 3.20
+    },
+    {
+      "desc": "Seefischfilet mit Kartoffelpüree und Kräutersoße",
+      "price": 2.50
+    },
+    {
+      "desc": "Tagesangebot",
+      "price": null
+    },
+    {
+      "desc": "Kartoffeln",
+      "price": 1.00
+    },
+    {
+      "desc": "Rohkostsalat nach Angebot with Broccoli",
+      "price": 1.30
+    }
+  ],
+  "2023-09-30": [],
+  "2023-10-01": []
+}
