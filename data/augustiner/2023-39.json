@@ -1,0 +1,52 @@
+{
+  "2023-09-25": [
+    {
+      "desc": "Schnitzel \"Wiener Art\" mit Kartoffel- Gurken-Salat",
+      "price": 7.5
+    },
+    {
+      "desc": "Allgäuer Käsespätzle mit Röstzwiebeln",
+      "price": 7.5
+    }
+  ],
+  "2023-09-26": [
+    {
+      "desc": "Kohlroulade in Specksauce mit Salzkartoffeln",
+      "price": 7.5
+    },
+    {
+      "desc": "Rührei mit Gurkensalat und Salzkartoffeln",
+      "price": 7.5
+    }
+  ],
+  "2023-09-27": [
+    {
+      "desc": "Hähnchen-Geschnetzeltes in Champignonrahm mit Rösti",
+      "price": 7.5
+    },
+    {
+      "desc": "Penne Rigate in pikanter Tomatensauce mit Reibekäse",
+      "price": 7.5
+    }
+  ],
+  "2023-09-28": [
+    {
+      "desc": "Geschmorte Schweinebäckchen mit Bayrisch Kraut und Kartoffelknödel",
+      "price": 7.5
+    },
+    {
+      "desc": "Rote Bete Puffer mit Kräuterschmand und Salatgarnitur",
+      "price": 7.5
+    }
+  ],
+  "2023-09-29": [
+    {
+      "desc": "Backfisch auf Kartoffel-Gurken-Salat mit Remoulade",
+      "price": 7.5
+    },
+    {
+      "desc": "Kaiserschmarrn mit Apfelmus",
+      "price": 7.5
+    }
+  ]
+}
