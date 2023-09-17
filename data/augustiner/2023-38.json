@@ -1,0 +1,52 @@
+{
+  "2023-09-18": [
+    {
+      "desc": "Schnitzel \"Wiener Art\" mit Kartoffel-Gurken-Salat",
+      "price": 7.50
+    },
+    {
+      "desc": "Allgäuer Käsespätzle mit Röstzwiebeln",
+      "price": 7.50
+    }
+  ],
+  "2023-09-19": [
+    {
+      "desc": "Hähnchen-Keule mit Pfannengemüse und Kroketten",
+      "price": 7.50
+    },
+    {
+      "desc": "Ofenkartoffel mit Kräuterschmand und kleinem Blattsalat",
+      "price": 7.50
+    }
+  ],
+  "2023-09-20": [
+    {
+      "desc": "Hackbällchen in Jägersauce mit Spätzle",
+      "price": 7.50
+    },
+    {
+      "desc": "Gnocchi in mediterraner Gemüsesauce mit Parmesan",
+      "price": 7.50
+    }
+  ],
+  "2023-09-21": [
+    {
+      "desc": "Blut & Leberwurst mit Sauerkraut und Kartoffelpüree",
+      "price": 7.50
+    },
+    {
+      "desc": "Kartoffeltaschen gefüllt mit Frischkäse an Blattsalat",
+      "price": 7.50
+    }
+  ],
+  "2023-09-22": [
+    {
+      "desc": "Backfisch auf Kartoffel-Gurken-Salat mit Remoulade",
+      "price": 7.50
+    },
+    {
+      "desc": "Kaiserschmarrn mit Apfelmus",
+      "price": 7.50
+    }
+  ]
+}
