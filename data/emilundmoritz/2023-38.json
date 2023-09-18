@@ -1,0 +1,52 @@
+{
+  "2023-09-18": [
+    {
+      "desc": "Schnitzel Schwein, Rosenkohl mit Semmelbrösel, KArtoffeln",
+      "price": 6.6
+    },
+    {
+      "desc": "Kartoffel Pfanne mit Kirschtomaten+Feta",
+      "price": 6.6
+    }
+  ],
+  "2023-09-19": [
+    {
+      "desc": "Jägerschnitzel,Spirelli+Tomatensauce",
+      "price": 6.6
+    },
+    {
+      "desc": "Tortelliniauflauf mit frischem Gemüse+Tomatensauce",
+      "price": 6.6
+    }
+  ],
+  "2023-09-20": [
+    {
+      "desc": "Schnweinebraten, Rotkohl, Kartoffeln",
+      "price": 6.6
+    },
+    {
+      "desc": "Gnocchi mit Paprika und cremigen Frischkäse",
+      "price": 6.6
+    }
+  ],
+  "2023-09-21": [
+    {
+      "desc": "Königsberger Klöpse in Kapernsauce, Kartoffeln",
+      "price": 6.6
+    },
+    {
+      "desc": "Bauernfrühstück mit frischen Lauch",
+      "price": 6.6
+    }
+  ],
+  "2023-09-22": [
+    {
+      "desc": "Bratwurst, Sauerkraut, Kartoffeln, Sauce",
+      "price": 6.6
+    },
+    {
+      "desc": "Schnitzel Zucchini, Bratkartoffeln, Kräutersauce",
+      "price": 6.6
+    }
+  ]
+}
