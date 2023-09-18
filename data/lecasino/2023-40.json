@@ -1,10 +1,6 @@
 {
   "2023-10-02": [
     {
-      "desc": "Kartoffelrösti mit Kräuter- Joghurt-Dip und med. Gemüse",
-      "price": 3.80
-    },
-    {
       "desc": "Reiseintopf mit Hähnchen- fleisch und einer Scheibe Brot",
       "price": 2.50
     },
@@ -23,10 +19,6 @@
   ],
   "2023-10-03": [
     {
-      "desc": "Gemüse-Couscous- Pfanne mit Joghurtdip",
-      "price": 3.50
-    },
-    {
       "desc": "Schinkennudeln mit Sahnesoße",
       "price": 2.50
     },
@@ -40,14 +32,10 @@
     },
     {
       "desc": "Rohkostsalat nach 1,30 € Angebot e,2,9 Erbsen",
-      "price": 1.30
+      "price": 1.00
     }
   ],
   "2023-10-04": [
-    {
-      "desc": "Gebackener Camembert mit gemischtem Salat und Preiselbeeren",
-      "price": 4.80
-    },
     {
       "desc": "Grießbrei mit heißen Kirschen",
       "price": 2.50
@@ -67,34 +55,8 @@
   ],
   "2023-10-05": [
     {
-      "desc": "Brokkoli-Blumenkohl- Kartoffel- Auflauf",
-      "price": 3.50
-    },
-    {
       "desc": "Pasta mit Tomatensoße und geriebenen Käse",
       "price": 2.50
-    },
-    {
-      "desc": "Tagesangebot",
-      "price": null
-    },
-    {
-      "desc": "Kartoffeln Bratkartoffeln",
-      "price": 1.20
-    },
-    {
-      "desc": "Rohkostsalat nach 1,30 € Angebot e,2,9",
-      "price": 1.30
-    }
-  ],
-  "2023-10-06": [
-    {
-      "desc": "Tagesangebot",
-      "price": null
-    },
-    {
-      "desc": "Tagesangebot",
-      "price": null
     },
     {
       "desc": "Tagesangebot",
@@ -109,14 +71,28 @@
       "price": 1.30
     }
   ],
-  "2023-10-07": [
+  "2023-10-06": [
     {
-      "desc": "Tagesangebot",
-      "price": null
+      "desc": "Gemüse-Couscous- Pfanne mit Joghurtdip",
+      "price": 3.50
     },
     {
-      "desc": "Tagesangebot",
-      "price": null
+      "desc": "Gebackener Camembert mit gemischtem Salat und Preiselbeeren",
+      "price": 4.80
+    },
+    {
+      "desc": "Kartoffeln",
+      "price": 1.00
+    },
+    {
+      "desc": "Rohkostsalat nach 1,30 € Angebot e,2,9",
+      "price": 1.30
+    }
+  ],
+  "2023-10-07": [
+    {
+      "desc": "Brokkoli-Blumenkohl- Kartoffel- Auflauf",
+      "price": 3.50
     },
     {
       "desc": "Tagesangebot",
