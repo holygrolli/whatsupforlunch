@@ -166,7 +166,7 @@ jobs:
             mv scraped_done.txt ../data/lecasino/scraped_done.txt
           done
           cp *.json ../data/lecasino/
-      - uses: tibdex/github-app-token@v1
+      - uses: tibdex/github-app-token@v2
         id: generate-token
         with:
           app_id: ${{ secrets.TOKEN_APP_ID }}
