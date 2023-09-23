@@ -1,6 +1,15 @@
 name: lecasino
 on:
   workflow_dispatch:
+    inputs:
+      force_process:
+        description: execute process job
+        type: boolean
+        default: true
+      force_publish:
+        description: execute publish job
+        type: boolean
+        default: true
   schedule:
     - cron: '45 7 * * 1'
 permissions: 
@@ -47,7 +56,7 @@ jobs:
             tmp
   process:
     needs: download
-    if: ${{ needs.download.outputs.matrix != '' && toJson(fromJson(needs.download.outputs.matrix)) != '[]' }}
+    if: ${{ needs.download.outputs.matrix != '' && toJson(fromJson(needs.download.outputs.matrix)) != '[]' && (github.event_name != 'workflow_dispatch' || inputs.force_process ) }}
     runs-on: ubuntu-latest
     container:
       image: ghcr.io/holygrolli/whatsupforlunch:main
@@ -127,7 +136,7 @@ jobs:
           tmp
   publish:
     needs: process
-    if: success() || failure ()
+    if: (success() || failure ()) && (github.event_name != 'workflow_dispatch' || inputs.force_publish )
     runs-on: ubuntu-latest
     steps:
       - name: checkout
