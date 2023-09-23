@@ -51,7 +51,7 @@ jobs:
         uses: actions/upload-artifact@v3
         with:
           name: pdfs
-          retention-days: 30
+          retention-days: ${{ github.event_name != 'workflow_dispatch' && '30' || '2' }}
           path: |
             tmp
   process:
