@@ -1,0 +1,48 @@
+{
+  "2023-09-25": [
+    {
+      "desc": "Jägerschnitzel, dazu Tomatensauce, Pasta und Gouda",
+      "price": 7.70
+    },
+    {
+      "desc": "Eier in Senfsauce mit Salzkartoffeln und Gurkensalat (veget.)",
+      "price": 7.70
+    }
+  ],
+  "2023-09-26": [
+    {
+      "desc": "Schweineschnitzel mit Rahmerbsen, Salzkartoffeln und brauner Sauce",
+      "price": 7.90
+    },
+    {
+      "desc": "Cannelloni gefüllt mit Hirtenkäse, in pikanter Tomatensauce, überbacken mit Gouda (veget.)",
+      "price": 7.70
+    }
+  ],
+  "2023-09-27": [
+    {
+      "desc": "Königsberger Klopse in Kapernsauce, mit Kartoffelstampf und Krautsalat",
+      "price": 7.90
+    },
+    {
+      "desc": "Waldpilzgulasch mit Kräuterspätzle (veget.)",
+      "price": 7.70
+    }
+  ],
+  "2023-09-28": [
+    {
+      "desc": "Hähnchencurry mit buntem Gemüse in Erdnuss-Kokossauce, dazu Basmatireis",
+      "price": 7.90
+    },
+    {
+      "desc": "Gebackener Hirtenkäse, dazu Grillgemüse und Paprika-Aioli (veget.)",
+      "price": 7.70
+    }
+  ],
+  "2023-09-29": [
+    {
+      "desc": "Gedünstetes Seelachsfilet unter Kartoffel-Lauchgratin, überbacken mit Gouda",
+      "price": 7.90
+    }
+  ]
+}
