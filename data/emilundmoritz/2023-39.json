@@ -1,0 +1,52 @@
+{
+  "2023-09-25": [
+    {
+      "desc": "Grützwurst mit Kesselkraut und Kartoffeln",
+      "price": 6.6
+    },
+    {
+      "desc": "Gefüllte Tortellini dazu Kräutersoße",
+      "price": 6.6
+    }
+  ],
+  "2023-09-26": [
+    {
+      "desc": "Schnitzel vom Schwein, Blumenkohl und Kartoffeln mit Sauce Hollandaise",
+      "price": 6.6
+    },
+    {
+      "desc": "Kartoffel- Spinatauflauf mit Cocktailtomaten",
+      "price": 6.6
+    }
+  ],
+  "2023-09-27": [
+    {
+      "desc": "Grillwurst an Letscho dazu Bratkartoffeln",
+      "price": 6.6
+    },
+    {
+      "desc": "veganer Wrap gefüllt mit Spinat und Gemüsestreifen",
+      "price": 6.6
+    }
+  ],
+  "2023-09-28": [
+    {
+      "desc": "Putengeschnetzeltes mit Champignons und Reis",
+      "price": 6.6
+    },
+    {
+      "desc": "Kartoffelpfanne nach \"Toskanischer Art\"",
+      "price": 6.6
+    }
+  ],
+  "2023-09-29": [
+    {
+      "desc": "Steak \"Ungarisch\" mit Pommes",
+      "price": 6.6
+    },
+    {
+      "desc": "Pfannkuchen mit cremigem Birnenkompott",
+      "price": 6.6
+    }
+  ]
+}
