@@ -1,48 +1,48 @@
 {
   "2023-09-25": [
     {
-      "desc": "Jägerschnitzel, dazu Tomatensauce, Pasta und Gouda",
-      "price": 7.70
+      "desc": "Bauernfrühstück mit Gewürzgurke und Salatbeilage",
+      "price": 7.7
     },
     {
-      "desc": "Eier in Senfsauce mit Salzkartoffeln und Gurkensalat (veget.)",
-      "price": 7.70
+      "desc": "Mediterrane Gemüsebolognese u.a. mit Zucchini, Paprika, Aubergine, dazu Pasta und Parmesan (veget.)",
+      "price": 7.7
     }
   ],
   "2023-09-26": [
     {
-      "desc": "Schweineschnitzel mit Rahmerbsen, Salzkartoffeln und brauner Sauce",
-      "price": 7.90
+      "desc": "Schweineschnitzel \"Gärtnerin\" überbacken mit Gemüse und Sc. Hollandaise, dazu Bratkartoffeln",
+      "price": 7.9
     },
     {
-      "desc": "Cannelloni gefüllt mit Hirtenkäse, in pikanter Tomatensauce, überbacken mit Gouda (veget.)",
-      "price": 7.70
+      "desc": "Gebackene Risottobällchen auf pikantem Kürbisragout mit frittiertem Rucola (veget.)",
+      "price": 7.7
     }
   ],
   "2023-09-27": [
     {
-      "desc": "Königsberger Klopse in Kapernsauce, mit Kartoffelstampf und Krautsalat",
-      "price": 7.90
+      "desc": "Mediterrane Frikadelle gefüllt mit Hirtenkäse, dazu Tomaten-Paprikagemüse und Rosmarinkartoffeln",
+      "price": 7.9
     },
     {
-      "desc": "Waldpilzgulasch mit Kräuterspätzle (veget.)",
-      "price": 7.70
+      "desc": "Brokkoli im Kichererbsenbackteig auf rotem Linsencurry mit Paprika und Lauchzwiebeln (vegan)",
+      "price": 7.7
     }
   ],
   "2023-09-28": [
     {
-      "desc": "Hähnchencurry mit buntem Gemüse in Erdnuss-Kokossauce, dazu Basmatireis",
-      "price": 7.90
+      "desc": "Gebackene Hähnchenbrust in Nacho-Panade auf buntem Grillgemüse mit Tomatensalsa",
+      "price": 7.9
     },
     {
-      "desc": "Gebackener Hirtenkäse, dazu Grillgemüse und Paprika-Aioli (veget.)",
-      "price": 7.70
+      "desc": "Pikanter Fenchel mit Kokosmilch, dazu Orangencouscous und gegrillte Tomaten (vegan)",
+      "price": 7.7
     }
   ],
   "2023-09-29": [
     {
-      "desc": "Gedünstetes Seelachsfilet unter Kartoffel-Lauchgratin, überbacken mit Gouda",
-      "price": 7.90
+      "desc": "Gebackenes Seelachsfilet mit Remoulade, Salzkartoffeln und Gurkensalat",
+      "price": 7.9
     }
   ]
 }
