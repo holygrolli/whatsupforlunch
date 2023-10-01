@@ -1,0 +1,47 @@
+{
+  "2023-10-02": [
+    {
+      "desc": "Schnitzel „Wiener Art“ mit Kartoffel- Gurkensalat",
+      "price": 7.5
+    },
+    {
+      "desc": "Allgäuer Käsespätzle mit Röstzwiebeln",
+      "price": 7.5
+    }
+  ],
+  "2023-10-03": [
+    {
+      "desc": "Das Augustiner Team wünscht einen schönen Feiertag! - Heute kein separates Mittagsgericht Bitte wählen Sie aus unserer regulären großen Speisekarte"
+    }
+  ],
+  "2023-10-04": [
+    {
+      "desc": "Hähnchencurry mit Butterreis",
+      "price": 7.5
+    },
+    {
+      "desc": "Buntes Gemüsecurry mit Butterreis",
+      "price": 7.5
+    }
+  ],
+  "2023-10-05": [
+    {
+      "desc": "Kassler-Nackensteak mit Sauerkraut und Kartoffelpüree",
+      "price": 7.5
+    },
+    {
+      "desc": "Gekochte Eier in Senfsauce mit Kartoffelpüree",
+      "price": 7.5
+    }
+  ],
+  "2023-10-06": [
+    {
+      "desc": "Backfisch auf Kartoffel-Gurken-Salat mit Remoulade",
+      "price": 7.5
+    },
+    {
+      "desc": "Kaiserschmarrn mit Apfelmus",
+      "price": 7.5
+    }
+  ]
+}
