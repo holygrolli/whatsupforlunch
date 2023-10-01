@@ -1,0 +1,32 @@
+{
+  "2023-10-09": [
+    { "desc": "Reiseintopf mit Geflügelfleisch und Gemüse- julienne", "price": 5.00 },
+    { "desc": "Gefüllte Zucchini mit Buttererbsen und Kartoffelstampf", "price": 5.50 },
+    { "desc": "Szegediner Gulasch mit Sauerkraut und Böhmischen Knödeln", "price": 6.00 },
+    { "desc": "Linguine mit Shrimps in Knoblauch- Weißweinsoße und Tomate", "price": 7.50 }
+  ],
+  "2023-10-10": [
+    { "desc": "Topfenknödel mit Zwetschgen und VanillesoBe", "price": 5.00 },
+    { "desc": "Pasta mit Tomatensoße und geriebenem Käse", "price": 5.50 },
+    { "desc": "Jägerschnitzel mit TomatensoBe und Pasta", "price": 6.00 },
+    { "desc": "Burrito mit veganem Hack, Mais, Bohnen, Tomaten und Koriander", "price": 7.50 }
+  ],
+  "2023-10-11": [
+    { "desc": "Hausgemachter Linseneintopf mit Blutwurstwürfeln", "price": 5.00 },
+    { "desc": "Kartoffeltaschen mit Frischkäse, dazu Kräuterdip und Salat", "price": 5.50 },
+    { "desc": "Lasagne mit Hackfleisch, Tomaten und Bechamelsoße", "price": 6.00 },
+    { "desc": "Knusper-Gemüse- Bagel auf Tomatenrisotto und Rucola", "price": 7.50 }
+  ],
+  "2023-10-12": [
+    { "desc": "Kartoffelpuffer mit Apfelmus und Zimtzucker", "price": 5.00 },
+    { "desc": "Pasta mit Tomatensoße und geriebenem Käse", "price": 5.50 },
+    { "desc": "Paprikaschote mit Hackfleisch- füllung, dazu Tomatensoße und Spätzle", "price": 6.00 },
+    { "desc": "Spaghetti-Kürbis mit veganer Linsenbolognese", "price": 7.50 }
+  ],
+  "2023-10-13": [
+    { "desc": "Waldpilzcreme- suppe mit Croûtons und Radieschen- Sprossen", "price": 5.00 },
+    { "desc": "Back-Käse mit Zaziki, Krautsalat und Tomatenreis", "price": 5.50 },
+    { "desc": "Currywurst mit fruchtig-pikanter Soße und Kartoffelecken", "price": 6.00 },
+    { "desc": "Paniertes Schollenfilet mit Kartoffel- Gurkensalat", "price": 7.50 }
+  ]
+}

@@ -1,0 +1,92 @@
+{
+  "2023-10-23": [
+    {
+      "desc": "Grünen Bohneneintopf mit Rindfleisch und Kartoffel- würfeln",
+      "price": 5.00
+    },
+    {
+      "desc": "Gemüse-Nuggets mit Buttererbsen und Petersilienkartoffeln",
+      "price": 5.50
+    },
+    {
+      "desc": "Feuriger Hackfleisch-Eintopf mit Paprika, Tomate und Reis",
+      "price": 6.00
+    },
+    {
+      "desc": "Bauernfrühstück mit Kartoffeln, Ei, Speck, Gurke und Salat",
+      "price": 7.50
+    }
+  ],
+  "2023-10-24": [
+    {
+      "desc": "Germknödel mit Heidelbeer-Füllung, dazu VanillesoBe",
+      "price": 5.00
+    },
+    {
+      "desc": "Pasta mit TomatensoBe und geriebenem Käse",
+      "price": 5.50
+    },
+    {
+      "desc": "Spaghetti Bolognese mit geriebenem Käse",
+      "price": 6.00
+    },
+    {
+      "desc": "Grünkohl-Hanfbällchen auf Karottenpüree und buntem Linsensalat",
+      "price": 7.50
+    }
+  ],
+  "2023-10-25": [
+    {
+      "desc": "Käse-Lauchsuppe mit Hackfleisch-Bällchen",
+      "price": 5.00
+    },
+    {
+      "desc": "Spinatlasagne mit Ricotta, Karotte und Tomate",
+      "price": 5.50
+    },
+    {
+      "desc": "Backfisch mit Remoulade, Salat und Petersilienkartoffeln",
+      "price": 6.00
+    },
+    {
+      "desc": "Semmelknödel mit Steinchampignons, Mangold und Lauch BIO + Regional Aktionsgericht",
+      "price": 8.00
+    }
+  ],
+  "2023-10-26": [
+    {
+      "desc": "Kaiserschmarren mit Rosinen, Mandeln und Apfelmus",
+      "price": 5.00
+    },
+    {
+      "desc": "Pasta mit Tomatensoße und geriebenem Käse",
+      "price": 5.50
+    },
+    {
+      "desc": "Putenrollbraten mit Kaisergemüse und Petersilienkartoffeln",
+      "price": 6.00
+    },
+    {
+      "desc": "Quinoa-Erbsen-Frikadelle auf Orangenspitzkohl und Kartoffel-Bete-Püree",
+      "price": 7.50
+    }
+  ],
+  "2023-10-27": [
+    {
+      "desc": "Spinatcreme-Suppe mit Eierstich",
+      "price": 5.00
+    },
+    {
+      "desc": "Kürbis-Paprika Gulasch mit Kartoffelstampf",
+      "price": 5.50
+    },
+    {
+      "desc": "Brathering mit Zwiebeldressing, Salat und Petersilienkartoffeln",
+      "price": 6.00
+    },
+    {
+      "desc": "Rindersauerbraten mit Apfelrotkohl und Kartoffelklößen",
+      "price": 7.50
+    }
+  ]
+}

@@ -1,0 +1,75 @@
+{
+  "2023-10-30": [
+    {
+      "desc": "Rinderkraftbrühe mit Gemüse- julienne und Flädle",
+      "price": 5.00
+    },
+    {
+      "desc": "Gemüseschnitzel mit Erbsen und Kräuterreis",
+      "price": 5.50
+    },
+    {
+      "desc": "Bauernroulade mit Speckbohnen und Petersilien- kartoffeln",
+      "price": 6.00
+    },
+    {
+      "desc": "Mediterranen Nudelsalat mit Mozzarella und Chicken Nuggets",
+      "price": 7.50
+    }
+  ],
+  "2023-10-31": [],
+  "2023-11-01": [
+    {
+      "desc": "Ungarische Gulaschsuppe mit Paprika und Kartoffelwürfeln",
+      "price": 5.00
+    },
+    {
+      "desc": "Chili sin Carne mit Kichererbsen und Reis",
+      "price": 5.50
+    },
+    {
+      "desc": "Schnitzel vom Schwein, Rahm- champignons und Kartoffeln",
+      "price": 6.00
+    },
+    {
+      "desc": "Ofengemüse mit Kräuterdip und Rosmarin- kartoffeln",
+      "price": 7.50
+    }
+  ],
+  "2023-11-02": [
+    {
+      "desc": "Sächsische Quarkkäulchen, Apfelmus und Zimtzucker",
+      "price": 5.00
+    },
+    {
+      "desc": "Pasta mit Tomatensoße und geriebenem Käse",
+      "price": 5.50
+    },
+    {
+      "desc": "Hähnchencurry mit Kokosmilch und Reis",
+      "price": 6.00
+    },
+    {
+      "desc": "Shakshuka mit Hummus und Fladenbrot",
+      "price": 7.50
+    }
+  ],
+  "2023-11-03": [
+    {
+      "desc": "Rotkohlcreme- Suppe mit Apfelchutney",
+      "price": 5.00
+    },
+    {
+      "desc": "Zucchini- Möhrenpuffer mit Radieschen- Quark und Salat",
+      "price": 5.50
+    },
+    {
+      "desc": "Kassler- Nackenbraten mit Squerkraut und Petersilien- kartoffeln",
+      "price": 6.00
+    },
+    {
+      "desc": "Schlemmerfilet, überbacken mit Tomate und Mozzarella, dazu Risi-Bisi",
+      "price": 7.50
+    }
+  ]
+}

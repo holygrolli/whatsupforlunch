@@ -1,0 +1,92 @@
+{
+  "2023-10-16": [
+    {
+      "desc": "Bouillabaisse provenzalisches Fischgericht",
+      "price": 5.00
+    },
+    {
+      "desc": "Gemüse- Köttbullan mit Waldpilzrahm & Kartoffelstampf",
+      "price": 5.50
+    },
+    {
+      "desc": "Cordon bleu vom Schwein mit Karotten und Petersilien- kartoffeln",
+      "price": 6.00
+    },
+    {
+      "desc": "Glasnudelsalat mit Frühlings- röllchen und Mango-Chutney",
+      "price": 7.50
+    }
+  ],
+  "2023-10-17": [
+    {
+      "desc": "Drei Eierkuchen mit Apfelragout",
+      "price": 5.00
+    },
+    {
+      "desc": "Pasta mit Tomatensoße und geriebenem Käse",
+      "price": 5.50
+    },
+    {
+      "desc": "Pasta mit Wurstgulasch und geriebenem Käse",
+      "price": 6.00
+    },
+    {
+      "desc": "Kürbis-Falafel auf Quinoa Salat und Baba Ganoush",
+      "price": 7.50
+    }
+  ],
+  "2023-10-18": [
+    {
+      "desc": "Ukrainische Soljanka mit Zitrone und Sauerrahm",
+      "price": 5.00
+    },
+    {
+      "desc": "Eier-Omelett mit Rahmspinat und Petersilien- kartoffeln",
+      "price": 5.50
+    },
+    {
+      "desc": "Rindfleischeurry mit buntem Gemüse und Reis",
+      "price": 6.00
+    },
+    {
+      "desc": "Veganer Backfisch mit Remoulade, Salat und Kartoffel- Ecken",
+      "price": 7.50
+    }
+  ],
+  "2023-10-19": [
+    {
+      "desc": "Kokos-Milchreis mit Mango- Ragout",
+      "price": 5.00
+    },
+    {
+      "desc": "Pasta mit TomatensoBe und geriebenem Käse",
+      "price": 5.50
+    },
+    {
+      "desc": "Hähnchenbrust Piccata mit Tomatensoße und Pasta",
+      "price": 6.00
+    },
+    {
+      "desc": "Geschmorte Schweine- Bäckchen mit Waldpilzrahm und Rösti",
+      "price": 7.50
+    }
+  ],
+  "2023-10-20": [
+    {
+      "desc": "Kartoffel- Selleriesuppe mit Knoblauchkresse",
+      "price": 5.00
+    },
+    {
+      "desc": "Waldpilzlasagne mit Feta, Lauch und Thymian",
+      "price": 5.50
+    },
+    {
+      "desc": "Hähnchen- Leberragout mit Äpfeln, Zwiebeln und Kartoffel- stampf",
+      "price": 6.00
+    },
+    {
+      "desc": "Knuspriges Seelachsfilet auf Paprikagemüse und Zitronenreis",
+      "price": 7.50
+    }
+  ]
+}
