@@ -1,0 +1,32 @@
+{
+  "2023-10-02": [
+    {
+      "desc": "Schnitzel Schwein, Rahmchampignon, Kartoffeln",
+      "price": 6.6
+    },
+    {
+      "desc": "Kartoffel Pilz Pfanne",
+      "price": 6.6
+    }
+  ],
+  "2023-10-04": [
+    {
+      "desc": "Hackbraten, Rahmwirsing, Kartoffeln",
+      "price": 6.6
+    },
+    {
+      "desc": "Reis Tomaten Pfanne mit Meeresfrüchten und Tomatensauce",
+      "price": 6.6
+    }
+  ],
+  "2023-10-06": [
+    {
+      "desc": "Steak ungarisch, Letscho, Bratkartoffeln",
+      "price": 6.6
+    },
+    {
+      "desc": "Kartoffeln, Gurken Salat Rührei",
+      "price": 6.6
+    }
+  ]
+}
