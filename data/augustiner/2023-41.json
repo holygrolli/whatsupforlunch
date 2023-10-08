@@ -1,0 +1,52 @@
+{
+  "2023-10-09": [
+    {
+      "desc": "Schnitzel „Wiener Art“ mit Kartoffel-Gurkensalat",
+      "price": 7.5
+    },
+    {
+      "desc": "Allgäuer Käsespätzle mit Röstzwiebeln",
+      "price": 7.5
+    }
+  ],
+  "2023-10-10": [
+    {
+      "desc": "Sülze mit Fassgurke und Salzkartoffeln",
+      "price": 7.5
+    },
+    {
+      "desc": "Gebackener Blumenkohl mit Salzkartoffeln und Sc. Hollandaise",
+      "price": 7.5
+    }
+  ],
+  "2023-10-11": [
+    {
+      "desc": "Szegediner Goulasch mit Spätzle",
+      "price": 7.5
+    },
+    {
+      "desc": "Spätzlepfanne mit buntem Gemüse",
+      "price": 7.5
+    }
+  ],
+  "2023-10-12": [
+    {
+      "desc": "Putenrollbraten mit Mischgemüse und Kartoffelpüree",
+      "price": 7.5
+    },
+    {
+      "desc": "Kichererbsen-Ragout mit Spinat und Tomaten an Reis",
+      "price": 7.5
+    }
+  ],
+  "2023-10-13": [
+    {
+      "desc": "Backfisch auf Kartoffel-Gurken-Salat mit Remoulade",
+      "price": 7.5
+    },
+    {
+      "desc": "Kaiserschmarrn mit Apfelmus",
+      "price": 7.5
+    }
+  ]
+}
