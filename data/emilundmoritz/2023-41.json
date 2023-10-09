@@ -1,0 +1,52 @@
+{
+  "2023-10-09": [
+    {
+      "desc": "Sauerbraten, Rotkohl & Klöße",
+      "price": 6.60
+    },
+    {
+      "desc": "Kürbis - Kartoffelpfanne mit Pesto und Rucola",
+      "price": 6.60
+    }
+  ],
+  "2023-10-10": [
+    {
+      "desc": "Schweineschnitzel, Buttererbsen & Kartoffeln",
+      "price": 6.60
+    },
+    {
+      "desc": "Gebratenes Rotbarschfilet, Blattspinat in Rahm, Dillkartoffeln",
+      "price": 6.60
+    }
+  ],
+  "2023-10-11": [
+    {
+      "desc": "Milchreis mit Kirschen, Zucker+Zimt",
+      "price": 6.60
+    },
+    {
+      "desc": "Geflügelleber, Kartoffelstampf, Zwiebeln",
+      "price": 6.60
+    }
+  ],
+  "2023-10-12": [
+    {
+      "desc": "Gefüllte Paprikaschote mit Hack, Kartoffeln",
+      "price": 6.60
+    },
+    {
+      "desc": "Gefüllte Paprikaschote mit Couscous, Kartoffeln",
+      "price": 6.60
+    }
+  ],
+  "2023-10-13": [
+    {
+      "desc": "Strindberg, Bratkartoffeln, Krautsalat",
+      "price": 6.60
+    },
+    {
+      "desc": "Schupfnudeln, Brokkoli, Kirschtomaten",
+      "price": 6.60
+    }
+  ]
+}
