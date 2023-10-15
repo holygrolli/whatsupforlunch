@@ -1,0 +1,52 @@
+{
+  "2023-10-16": [
+    {
+      "desc": "Schnitzel \"Wiener Art\" mit Kartoffel- Gurken-Salat",
+      "price": 7.5
+    },
+    {
+      "desc": "Allgäuer Käsespätzle mit Röstzwiebeln",
+      "price": 7.5
+    }
+  ],
+  "2023-10-17": [
+    {
+      "desc": "Hähnchen-Geschnetzeltes in Champignonrahm mit Spätzle",
+      "price": 7.5
+    },
+    {
+      "desc": "Gefüllte Ofenkartoffel mit Kräuterschmand und Blattsalat",
+      "price": 7.5
+    }
+  ],
+  "2023-10-18": [
+    {
+      "desc": "Königsberger Klopse in Kapernsauce mit Salzkartoffeln",
+      "price": 7.5
+    },
+    {
+      "desc": "Rahmspinat mit Rührei und Salzkartoffeln",
+      "price": 7.5
+    }
+  ],
+  "2023-10-19": [
+    {
+      "desc": "Geschmorte Kaninchenkeule in Dijon Senf Sauce mit Buttermöhren und Kartoffelpüree",
+      "price": 7.5
+    },
+    {
+      "desc": "Gemüsepuffer an Waldpilzragout",
+      "price": 7.5
+    }
+  ],
+  "2023-10-20": [
+    {
+      "desc": "Backfisch auf Kartoffel-Gurken-Salat mit Remoulade",
+      "price": 7.5
+    },
+    {
+      "desc": "Kaiserschmarrn mit Apfelmus",
+      "price": 7.5
+    }
+  ]
+}
