@@ -1,0 +1,48 @@
+{
+  "2023-10-16": [
+    {
+      "desc": "Wurstgulasch mit Paprika, dazu Pasta und Gouda",
+      "price": 7.7
+    },
+    {
+      "desc": "Gnocchi in Basilikumsauce mit getrockneten Tomaten, dazu Parmesan (veget.)",
+      "price": 7.7
+    }
+  ],
+  "2023-10-17": [
+    {
+      "desc": "Schweineschnitzel mit Spiegelei und Bratkartoffeln, dazu Tomatensauce",
+      "price": 7.9
+    },
+    {
+      "desc": "Auberginenschnitzel in Parmesanpanade, dazu pikante Tomatensauce und Pasta (veget.)",
+      "price": 7.7
+    }
+  ],
+  "2023-10-18": [
+    {
+      "desc": "Gebackene Hähnchenbrust in Erdnusspanade, dazu gebratene Mie-Nudeln mit buntem Gemüse, Sweet-Chilisauce und Röstzwiebeln",
+      "price": 7.9
+    },
+    {
+      "desc": "Zucchinirösti mit Kresseschmand und Salatbeilage (veget.)",
+      "price": 7.7
+    }
+  ],
+  "2023-10-19": [
+    {
+      "desc": "Jägerklopse mit Champignons, dazu Kartoffelstampf und Krautsalat",
+      "price": 7.9
+    },
+    {
+      "desc": "Gebratene Minikartoffeln mit Kirschtomaten und Rucola, dazu Paprika-Gurken-Quark und geröstete Sonnenblumenkerne (veget.)",
+      "price": 7.7
+    }
+  ],
+  "2023-10-20": [
+    {
+      "desc": "Gebratenes Seelachsfilet mit Erbsen-Minzpürree, Zitronensauce und Süßkartoffelecken",
+      "price": 7.9
+    }
+  ]
+}
