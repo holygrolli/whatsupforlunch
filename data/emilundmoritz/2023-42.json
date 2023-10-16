@@ -1,0 +1,52 @@
+{
+  "2023-10-16": [
+    {
+      "desc": "Jägerschnitzel, Spirelli und Tomatensoße",
+      "price": 6.6
+    },
+    {
+      "desc": "Gefüllte Zucchini mit Tomatensoße und Reis",
+      "price": 6.6
+    }
+  ],
+  "2023-10-17": [
+    {
+      "desc": "Kohlroulade, Kartoffeln, Bratensoße",
+      "price": 6.6
+    },
+    {
+      "desc": "Couscouspfanne mit Gemüse und Feta",
+      "price": 6.6
+    }
+  ],
+  "2023-10-18": [
+    {
+      "desc": "Gulasch mit Spätzle",
+      "price": 6.6
+    },
+    {
+      "desc": "Blumenkohl-Kartoffel-Auflauf",
+      "price": 6.6
+    }
+  ],
+  "2023-10-19": [
+    {
+      "desc": "Bratwurst mit Kartoffelstampf, Sauerkraut",
+      "price": 6.6
+    },
+    {
+      "desc": "Spinat-Kichererbsenpfanne mit Kartoffeln",
+      "price": 6.6
+    }
+  ],
+  "2023-10-20": [
+    {
+      "desc": "Cordon Bleu mit Bratkartoffeln",
+      "price": 6.6
+    },
+    {
+      "desc": "vegane Spaghetti mit Spinat-Kokossoße und Cocktailtomaten",
+      "price": 6.6
+    }
+  ]
+}
