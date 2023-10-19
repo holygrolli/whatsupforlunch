@@ -17,7 +17,7 @@
       "price": 4.80
     },
     {
-      "desc": "Maultaschen-Spinat- Gratin mit Tomatensoße und Käse überbacken",
+      "desc": "Maultaschen-Spinat-Gratin mit Tomatensoße und Käse überbacken",
       "price": 4.20
     }
   ],
@@ -27,7 +27,7 @@
       "price": 2.50
     },
     {
-      "desc": "Kartoffeln mit Kräuter- quark und Butter",
+      "desc": "Kartoffeln mit Kräuterquark und Butter",
       "price": 2.50
     },
     {
@@ -35,11 +35,11 @@
       "price": 2.50
     },
     {
-      "desc": "Kartoffelpuffer mit Ap- felmus und Zucker",
+      "desc": "Kartoffelpuffer mit Apfelmus und Zucker",
       "price": 2.50
     },
     {
-      "desc": "Pasta in Schinken- Sahnesoße",
+      "desc": "Pasta in Schinken-Sahnesoße",
       "price": 2.50
     }
   ],
@@ -57,15 +57,16 @@
       "price": 3.70
     },
     {
-      "desc": "Schnitzel \"Münchner Art\" mit Meerrettich- Senf-Panade",
+      "desc": "Schnitzel \"Münchner Art\" mit Meerrettich-Senf-Panade",
       "price": 3.75
-    },
-    {
-      "desc": "Tagesangebot",
-      "price": 0.0
     }
   ],
-  "2023-10-19": [],
+  "2023-10-19": [
+    {
+      "desc": "Tagesangebot",
+      "price": 0
+    }
+  ],
   "2023-10-20": [],
   "2023-10-21": [],
   "2023-10-22": []
