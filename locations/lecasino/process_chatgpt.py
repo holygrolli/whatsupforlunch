@@ -21,7 +21,7 @@ ftxt.close()
 # create a chat completion
 chat_completion = openai.ChatCompletion.create(model="gpt-3.5-turbo", messages=[
     {"role": "system", "content": prompt},
-    {"role": "user", "content": "The current week of year " + datetime.today().strftime('%Y') + " is defined as follows:\n" + txt + "The CSV data is:\n" + csv}])
+    {"role": "user", "content": "The current week of year " + datetime.today().strftime('%Y') + " is defined as by this German text: " + txt + "\nThe CSV data is:\n" + csv}])
 
 print(chat_completion.usage)
 # print the chat completion

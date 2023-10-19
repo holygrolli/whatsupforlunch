@@ -7,8 +7,10 @@ document = Document.open(sys.argv[1])
 print(document)
 table = EntityList(document.tables[0])
 print(table[0].to_csv())
+csv = table[0].to_csv().split("\n")
 f = open("table.csv", "w")
-f.write(table[0].to_csv().split("\n",1)[1])
+for i in range(1,5):
+  f.write(csv[i] + "\n")
 f.close()
 f = open("output.txt", "w")
 # first line with "Mittagsangebot"
