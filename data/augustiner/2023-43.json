@@ -1,0 +1,52 @@
+{
+  "2023-10-23": [
+    {
+      "desc": "Schnitzel \"Wiener Art\" mit Kartoffel-Gurken-Salat",
+      "price": 7.5
+    },
+    {
+      "desc": "Allgäuer Käsespätzle mit Röstzwiebeln",
+      "price": 7.5
+    }
+  ],
+  "2023-10-24": [
+    {
+      "desc": "Fleischpflanzerl mit Letscho und Kartoffelpüree",
+      "price": 7.5
+    },
+    {
+      "desc": "Spinatknödel auf Rahm-Champignons",
+      "price": 7.5
+    }
+  ],
+  "2023-10-25": [
+    {
+      "desc": "Chili con Carne mit Brot",
+      "price": 7.5
+    },
+    {
+      "desc": "Tagliatelle mit Kirschtomaten in Käse-Sahnesauce",
+      "price": 7.5
+    }
+  ],
+  "2023-10-26": [
+    {
+      "desc": "Hühnerfrikassee mit Erbsen und Champignons an Reis",
+      "price": 7.5
+    },
+    {
+      "desc": "Wok-Gemüsepfanne mit Reis",
+      "price": 7.5
+    }
+  ],
+  "2023-10-27": [
+    {
+      "desc": "Backfisch auf Kartoffel-Gurken-Salat mit Remoulade",
+      "price": 7.5
+    },
+    {
+      "desc": "Kaiserschmarrn mit Apfelmus",
+      "price": 7.5
+    }
+  ]
+}
