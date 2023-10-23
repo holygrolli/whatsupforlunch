@@ -1,0 +1,52 @@
+{
+  "2023-10-23": [
+    {
+      "desc": "Mutzbraten mit Kesselkraut dazu Kartoffeln",
+      "price": 6.60
+    },
+    {
+      "desc": "Kartoffel-Spinatcurry",
+      "price": 6.60
+    }
+  ],
+  "2023-10-24": [
+    {
+      "desc": "Jägerpfanne mit Spätzle",
+      "price": 6.60
+    },
+    {
+      "desc": "Spätzle-Pilzpfanne",
+      "price": 6.60
+    }
+  ],
+  "2023-10-25": [
+    {
+      "desc": "Schweineschnitzel mit Rahmwirsing und Kartoffeln",
+      "price": 6.60
+    },
+    {
+      "desc": "Wirsing-Süßkartoffelpfanne",
+      "price": 6.60
+    }
+  ],
+  "2023-10-26": [
+    {
+      "desc": "Rostbrät'l an Schmorzwiebeln dazu Bratkartoffeln",
+      "price": 6.60
+    },
+    {
+      "desc": "Backfisch mit Kartoffelstampf und Kräutersoße",
+      "price": 6.60
+    }
+  ],
+  "2023-10-27": [
+    {
+      "desc": "Bauerntopf ( Hackfleisch, Kartoffeln, Gemüse )",
+      "price": 6.60
+    },
+    {
+      "desc": "Eier in Senfsoße mit Kartoffeln",
+      "price": 6.60
+    }
+  ]
+}
