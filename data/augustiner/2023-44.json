@@ -1,0 +1,48 @@
+{
+  "2023-10-30": [
+    {
+      "desc": "Schnitzel \"Wiener Art\" mit Kartoffel-Gurken-Salat",
+      "price": 7.5
+    },
+    {
+      "desc": "Allgäuer Käsespätzle mit Röstzwiebeln",
+      "price": 7.5
+    }
+  ],
+  "2023-10-31": [
+    {
+      "desc": "Bitte wählen Sie aus unserer regulären großen Speisekarte",
+      "price": null
+    }
+  ],
+  "2023-11-01": [
+    {
+      "desc": "Hühnersuppe mit Nudeln",
+      "price": 7.5
+    },
+    {
+      "desc": "Gemüse-Eintopf mit Nudeln",
+      "price": 7.5
+    }
+  ],
+  "2023-11-02": [
+    {
+      "desc": "Blut- und Leberwurst mit Kartoffelpüree und Sauerkraut",
+      "price": 7.5
+    },
+    {
+      "desc": "Käse-Tortellini in Kräuterrahmsauce",
+      "price": 7.5
+    }
+  ],
+  "2023-11-03": [
+    {
+      "desc": "Backfisch auf Kartoffel-Gurken-Salat mit Remoulade",
+      "price": 7.5
+    },
+    {
+      "desc": "Kaiserschmarrn mit Apfelmus",
+      "price": 7.5
+    }
+  ]
+}
