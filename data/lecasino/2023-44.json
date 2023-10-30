@@ -2,43 +2,53 @@
   "2023-10-30": [
     {
       "desc": "Gemüsebolognese mit Pasta",
-      "price": 3.50
-    }
-  ],
-  "2023-10-31": [
+      "price": 3.5
+    },
     {
-      "desc": "Gemüsebrühe mit zwei Maultaschen und verschiedenem Gemüse",
-      "price": 3.20
+      "desc": "Linseneintopf mit Kartoffeln",
+      "price": 2.5
+    },
+    {
+      "desc": "Kohlroulade mit Bratensoße",
+      "price": 3.55
     }
   ],
   "2023-11-01": [
     {
-      "desc": "Brokkoli-Kartoffel-Auflauf",
-      "price": 3.50
+      "desc": "Gemüsebrühe mit zwei Maultaschen und verschiedenen Gemüse",
+      "price": 3.2
+    },
+    {
+      "desc": "Gräupcheneintopf mit Kasslerwürfel",
+      "price": 2.5
+    },
+    {
+      "desc": "Spinat-Hackfleischpfanne mit Joghurt und Kartoffeln",
+      "price": 3.9
     }
   ],
   "2023-11-02": [
     {
-      "desc": "Gebackener Camembert mit gemischtem Salat und Preiselbeeren",
-      "price": 4.80
+      "desc": "Brokkoli-Kartoffel-Auflauf",
+      "price": 3.5
+    },
+    {
+      "desc": "Hefeklöße mit Pflaumen",
+      "price": 2.5
+    },
+    {
+      "desc": "Currywurst-Pfanne",
+      "price": 4.2
     }
   ],
   "2023-11-03": [
     {
-      "desc": "Linseneintopf mit Kartoffeln",
-      "price": 2.50
-    }
-  ],
-  "2023-11-04": [
+      "desc": "Gebackener Camembert mit gemischtem Salat und Preiselbeeren",
+      "price": 4.8
+    },
     {
-      "desc": "Gräupcheneintopf mit Kasslerwürfel",
-      "price": 2.50
-    }
-  ],
-  "2023-11-05": [
-    {
-      "desc": "Hefeklöße mit Pflaumen",
-      "price": 2.50
+      "desc": "Zwei Eier in Senfsoße mit Kartoffeln",
+      "price": 2.5
     }
   ]
 }
