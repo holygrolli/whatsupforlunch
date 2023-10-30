@@ -1,0 +1,48 @@
+{
+   "2023-10-30":[
+      {
+         "desc":"Schweineroulade, Rotkohl & Klöße",
+         "price":6.6
+      },
+      {
+         "desc":"Seelachsfilet mit Tomatensoße und Kartoffelstampf",
+         "price":6.6
+      }
+   ],
+   "2023-10-31":[
+      {
+         "desc":"Feiertag",
+         "price":null
+      }
+   ],
+   "2023-11-01":[
+      {
+         "desc":"Gefüllte Paprika mit Hackfleisch, Kartoffeln",
+         "price":6.6
+      },
+      {
+         "desc":"gefüllter Wrap mit Frischkäse, Salat und Gemüse",
+         "price":6.6
+      }
+   ],
+   "2023-11-02":[
+      {
+         "desc":"Schweineschnitzel mit Kürbis-Zucchinigemüse und Rosmarin Kartoffeln",
+         "price":6.6
+      },
+      {
+         "desc":"Kräuterquark mit Rosmarin Kartoffeln",
+         "price":6.6
+      }
+   ],
+   "2023-11-03":[
+      {
+         "desc":"Wirsingroulade mit Kartoffeln",
+         "price":6.6
+      },
+      {
+         "desc":"Kartoffel-Kürbisauflauf",
+         "price":6.6
+      }
+   ]
+}
