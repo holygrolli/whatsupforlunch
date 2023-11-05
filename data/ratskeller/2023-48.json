@@ -1,0 +1,92 @@
+{
+  "2023-11-27": [
+    {
+      "desc": "Chili con Carne",
+      "price": 5.00
+    },
+    {
+      "desc": "Kräuterquark mit Zwiebeln, Butter und Petersilien- kartoffeln",
+      "price": 5.50
+    },
+    {
+      "desc": "Paniertes Rotbarschfilet mit Spinatsoße und Zitronenreis",
+      "price": 6.00
+    },
+    {
+      "desc": "Blumenkohl- Falafel mit Rote- Bete-Hummus und Bulgursalat",
+      "price": 7.50
+    }
+  ],
+  "2023-11-28": [
+    {
+      "desc": "Marillenknödel mit VanillesoBe",
+      "price": 5.00
+    },
+    {
+      "desc": "Pasta mit TomatensoBe und geriebenem Käse",
+      "price": 5.50
+    },
+    {
+      "desc": "Jägerschnitzel mit TomatensoBe und Pasta",
+      "price": 6.00
+    },
+    {
+      "desc": "Glasnudelsalat mit Tofu, Karotte, Chinakohl und Sesam",
+      "price": 7.50
+    }
+  ],
+  "2023-11-29": [
+    {
+      "desc": "Erbseneintopf mit Kartoffelwürfeln und Bockwurst",
+      "price": 5.00
+    },
+    {
+      "desc": "Pastinaken- Steckrübenrösti mit WaldpilzsoBe und Risi Bisi",
+      "price": 5.50
+    },
+    {
+      "desc": "Szegediner Gulasch mit Sauerkraut und Böhmischen Knödeln",
+      "price": 6.00
+    },
+    {
+      "desc": "Vollkornfusilli mit Linsenbolognese und Rucola",
+      "price": 7.50
+    }
+  ],
+  "2023-11-30": [
+    {
+      "desc": "Drei Hefeklöße mit warmen Heidelbeeren",
+      "price": 5.00
+    },
+    {
+      "desc": "Pasta mit Tomatensoße und geriebenem Käse",
+      "price": 5.50
+    },
+    {
+      "desc": "Hühnerfrikassee mit Karotten, Erbsen und Butterreis",
+      "price": 6.00
+    },
+    {
+      "desc": "Gerösteter Blumenkohl mit Joghurt-Minzdip und Kartoffel- spalten",
+      "price": 7.50
+    }
+  ],
+  "2023-12-01": [
+    {
+      "desc": "Sellerie-Birnen- Suppe mit Walnüssen",
+      "price": 5.00
+    },
+    {
+      "desc": "Käsespatz`n \"Allgäuer Art\" mit Röstzwiebeln",
+      "price": 5.50
+    },
+    {
+      "desc": "Fischstäbchen mit Tomatensoße und Kartoffelstampf",
+      "price": 6.00
+    },
+    {
+      "desc": "Tafelspitz vom Rind mit Meerrettichsoße, Bete Salat und Klößen",
+      "price": 7.50
+    }
+  ]
+}

@@ -1,0 +1,92 @@
+{
+  "2023-11-06": [
+    {
+      "desc": "Wirsingeintopf mit Krakauer- würfeln",
+      "price": 5.00
+    },
+    {
+      "desc": "Kichererbsen- Curry mit Kokosmilch und Reis",
+      "price": 5.50
+    },
+    {
+      "desc": "Grützwurst mit Sauerkraut und Petersilien- kartoffeln",
+      "price": 6.00
+    },
+    {
+      "desc": "Rigatoni mit Gorgonzola- Spinatsoße, Birnen und Mandeln",
+      "price": 7.50
+    }
+  ],
+  "2023-11-07": [
+    {
+      "desc": "Nougat- Topfenknödel mit Vanillesoße",
+      "price": 5.00
+    },
+    {
+      "desc": "Pasta mit TomatensoBe und geriebenem Käse",
+      "price": 5.50
+    },
+    {
+      "desc": "Jägerschnitzel mit Tomatensoße und Pasta",
+      "price": 6.00
+    },
+    {
+      "desc": "Halloumi-Wrap mit Tomate, Gurke, Joghurt und Couscous",
+      "price": 7.50
+    }
+  ],
+  "2023-11-08": [
+    {
+      "desc": "Sächsische Kartoffelsuppe mit Majoran und Bockwurst",
+      "price": 5.00
+    },
+    {
+      "desc": "Spinat- Käseknödel mit Kräuter- Waldpilzrahm",
+      "price": 5.50
+    },
+    {
+      "desc": "Gyrospfanne mit Zaziki, Krautsalat und Tomatenreis",
+      "price": 6.00
+    },
+    {
+      "desc": "Linguine mit veganem \"Thunfisch\", Tomatensoße und Rucola",
+      "price": 7.50
+    }
+  ],
+  "2023-11-09": [
+    {
+      "desc": "Birnen-Zimt- Lasagne mit Schokoladen- soße",
+      "price": 5.00
+    },
+    {
+      "desc": "Pasta mit TomatensoBe und geriebenem Käse",
+      "price": 5.50
+    },
+    {
+      "desc": "Frikadelle mit Speckbohnen und Petersilien- kartoffeln",
+      "price": 6.00
+    },
+    {
+      "desc": "Champignon- tasche auf Feldsalat mit Kürbis, Trauben, Nüssen",
+      "price": 7.50
+    }
+  ],
+  "2023-11-10": [
+    {
+      "desc": "Kürbis-Süß- kartoffelsuppe mit Ingwer und Sesam",
+      "price": 5.00
+    },
+    {
+      "desc": "Tortellin-Gratin mit Ricotta und Blattspinat",
+      "price": 5.50
+    },
+    {
+      "desc": "Leberkäse mit Bayrischkraut und Petersilien- kartoffeln",
+      "price": 6.00
+    },
+    {
+      "desc": "Seelachsfilet mit Zitronenpfeffer, Ratatouille und Kräuterreis",
+      "price": 7.50
+    }
+  ]
+}

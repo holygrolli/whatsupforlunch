@@ -1,0 +1,75 @@
+{
+  "2023-11-20": [
+    {
+      "desc": "Gräupchen- Eintopf mit Kassler- würfeln",
+      "price": 5.0
+    },
+    {
+      "desc": "Gemüsefrikadelle mit Ratatouille und Kürbis- Kartoffelpüree",
+      "price": 5.5
+    },
+    {
+      "desc": "Schweine- Geschnetzeltes \"Züricher Art\" mit Champignons und Spätzle",
+      "price": 6.0
+    },
+    {
+      "desc": "Vegane \"Currywurst\" mit pikanter Soße und Kartoffel- lecken",
+      "price": 7.5
+    }
+  ],
+  "2023-11-21": [
+    {
+      "desc": "Pancakes mit Sauerkirsch- kompott und Ahornsirup",
+      "price": 5.0
+    },
+    {
+      "desc": "Pasta mit Tomatensoße und geriebenem Käse",
+      "price": 5.5
+    },
+    {
+      "desc": "Spaghetti \"Bolognese\" mit geriebenem Käse",
+      "price": 6.0
+    },
+    {
+      "desc": "Gebackener Fetakäse mit Oliven, Tomaten und Reisnudel- Salat",
+      "price": 7.5
+    }
+  ],
+  "2023-11-22": [],
+  "2023-11-23": [
+    {
+      "desc": "Milchreis mit Apfelmus und Zimtzucker",
+      "price": 5.0
+    },
+    {
+      "desc": "Pasta mit Tomatensoße und geriebenem Käse",
+      "price": 5.5
+    },
+    {
+      "desc": "Schweinebraten mit Sauerkraut und Petersilien- kartoffeln",
+      "price": 6.0
+    },
+    {
+      "desc": "Grünkernrisotto mit Rosenkohl, Kürbis und Lauch",
+      "price": 7.5
+    }
+  ],
+  "2023-11-24": [
+    {
+      "desc": "Steckrübensuppe mit Kokosmilch, Sprossen und Koriander",
+      "price": 5.0
+    },
+    {
+      "desc": "Kartoffeltaschen mit Frischkäse- füllung, dazu Salat und Kräuterdip",
+      "price": 5.5
+    },
+    {
+      "desc": "Krakauer mit Grünkohl und Petersilien- kartoffeln",
+      "price": 6.0
+    },
+    {
+      "desc": "Gebackenes Kabeljaufilet auf Rahm-Mangold und Rote-Bete- Gnocchi",
+      "price": 7.5
+    }
+  ]
+}
