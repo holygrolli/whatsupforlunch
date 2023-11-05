@@ -1,0 +1,31 @@
+{
+  "2023-11-06": [],
+  "2023-11-07": [],
+  "2023-11-08": [
+    {
+      "desc": "Hähnchencurry mit buntem Gemüse in Kokossauce, dazu Basmatireis",
+      "price": 7.9
+    },
+    {
+      "desc": "Gnocchi in Arrabiata-Sauce, dazu Parmesan (veget.)",
+      "price": 7.7
+    }
+  ],
+  "2023-11-09": [
+    {
+      "desc": "Frikadelle mit Rahmwirsing, Salzkartoffeln und brauner Sauce",
+      "price": 7.9
+    },
+    {
+      "desc": "Gebratener Blumenkohl mit Sc. Hollandaise und Salzkartoffeln, dazu Tomatensalat (veget.)",
+      "price": 7.7
+    }
+  ],
+  "2023-11-10": [
+    {
+      "desc": "Gebratenes Seelachsfilet mit gebratenen Zucchiniwürfeln, rote Bete Pürree und Zitronensauce",
+      "price": 7.9
+    }
+  ],
+  "2023-11-11": []
+}
