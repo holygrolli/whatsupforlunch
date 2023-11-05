@@ -1,0 +1,52 @@
+{
+  "2023-11-06": [
+    {
+      "desc": "Schnitzel „Wiener Art“ mit Kartoffel-Gurkensalat",
+      "price": 7.5
+    },
+    {
+      "desc": "Allgäuer Käsespätzle mit Röstzwiebeln",
+      "price": 7.5
+    }
+  ],
+  "2023-11-07": [
+    {
+      "desc": "Fleischpflanzerl mit Kartoffelpüree und Rahmchampignons",
+      "price": 7.5
+    },
+    {
+      "desc": "Gebackener Blumenkohl mit Käse-Bèchamelsauce an Kartoffelpüree",
+      "price": 7.5
+    }
+  ],
+  "2023-11-08": [
+    {
+      "desc": "Schweinebraten mit Erbsenpüree und Sauerkraut",
+      "price": 7.5
+    },
+    {
+      "desc": "Schupfnudelpfanne mit Sauerkraut, Röstzwiebeln und Sauerrahm",
+      "price": 7.5
+    }
+  ],
+  "2023-11-09": [
+    {
+      "desc": "Hähnchenbrust mit Tomate und Mozzarella überbacken, dazu Spaghetti mit Basilikum-Pesto",
+      "price": 7.5
+    },
+    {
+      "desc": "Gekochte Eier mit Grüner Sauce und Salzkartoffeln",
+      "price": 7.5
+    }
+  ],
+  "2023-11-10": [
+    {
+      "desc": "Backfisch auf Kartoffel-Gurken-Salat mit Remoulade",
+      "price": 7.5
+    },
+    {
+      "desc": "Kaiserschmarrn mit Apfelmus",
+      "price": 7.5
+    }
+  ]
+}
