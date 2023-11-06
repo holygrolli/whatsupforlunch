@@ -1,0 +1,68 @@
+{
+  "2023-11-13": [
+    {
+      "desc": "Gnocchi \" Formaggio\" mit Käsesoße",
+      "price": 3.70
+    },
+    {
+      "desc": "Tomatencremesuppe mit Basilikum Pesto",
+      "price": 2.50
+    },
+    {
+      "desc": "Wurstgulasch mit fruchtiger Tomatensoße",
+      "price": 2.95
+    }
+  ],
+  "2023-11-14": [
+    {
+      "desc": "Kartoffelrösti mit Mediterranem Gemüse",
+      "price": 3.80
+    },
+    {
+      "desc": "Kartoffeln mit Kräuterquark und Butter",
+      "price": 2.50
+    },
+    {
+      "desc": "Ungarischer Kesselgulasch",
+      "price": 3.85
+    }
+  ],
+  "2023-11-15": [
+    {
+      "desc": "Schupfnudel-Pfanne mit Kaisergemüse",
+      "price": 3.80
+    },
+    {
+      "desc": "Nudeln mit Tomatensoße und Käse",
+      "price": 2.50
+    },
+    {
+      "desc": "Schweineleber \"Berliner Art\" mit Apfel und Zwiebel",
+      "price": 3.50
+    }
+  ],
+  "2023-11-16": [
+    {
+      "desc": "Bauernsalat mit Hirtenkäse",
+      "price": 3.65
+    },
+    {
+      "desc": "Kartoffelpuffer mit Zucker und Apfelmus",
+      "price": 2.50
+    },
+    {
+      "desc": "Schweineschnitzel \"Wiener-Art\"",
+      "price": 3.75
+    }
+  ],
+  "2023-11-17": [
+    {
+      "desc": "Gemüsebolognese mit Pasta",
+      "price": 3.50
+    },
+    {
+      "desc": "Eierragout mit Gemüse der Saison und Kartoffeln",
+      "price": 2.50
+    }
+  ]
+}
