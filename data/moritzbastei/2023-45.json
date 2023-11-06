@@ -1,31 +1,43 @@
 {
-  "2023-11-06": [],
-  "2023-11-07": [],
-  "2023-11-08": [
+  "2023-11-06": [
     {
-      "desc": "Hähnchencurry mit buntem Gemüse in Kokossauce, dazu Basmatireis",
+      "desc": "geschlossen"
+    }
+  ],
+  "2023-11-07": [
+    {
+      "desc": "Schweineschnitzel \"Gärtnerin Art\" überbacken mit Gemüse und Sc. Hollandaise, dazu Bratkartoffeln",
       "price": 7.9
     },
     {
-      "desc": "Gnocchi in Arrabiata-Sauce, dazu Parmesan (veget.)",
+      "desc": "Cannelloni gefüllt mit Hirtenkäse in pikanter Tomatensauce, überbacken mit Gouda (veget.)",
+      "price": 7.7
+    }
+  ],
+  "2023-11-08": [
+    {
+      "desc": "Jägerklopse mit Champignons, dazu Kartoffelstampf und Krautsalat",
+      "price": 7.9
+    },
+    {
+      "desc": "Mediterrane Gemüsebolognese u.a. mit Zucchini, Paprika und Aubergine, dazu Pasta und Parmesan (veget.)",
       "price": 7.7
     }
   ],
   "2023-11-09": [
     {
-      "desc": "Frikadelle mit Rahmwirsing, Salzkartoffeln und brauner Sauce",
+      "desc": "Hähnchenschnitzel mit Rahmerbsen, Salzkartoffeln und braune Sauce",
       "price": 7.9
     },
     {
-      "desc": "Gebratener Blumenkohl mit Sc. Hollandaise und Salzkartoffeln, dazu Tomatensalat (veget.)",
+      "desc": "Gebackener Hirtenkäse auf buntem Grillgemüse, dazu Paprika Aioli (veget.)",
       "price": 7.7
     }
   ],
   "2023-11-10": [
     {
-      "desc": "Gebratenes Seelachsfilet mit gebratenen Zucchiniwürfeln, rote Bete Pürree und Zitronensauce",
+      "desc": "Fischcurry mit buntem Gemüse und Sesamreis",
       "price": 7.9
     }
-  ],
-  "2023-11-11": []
+  ]
 }
