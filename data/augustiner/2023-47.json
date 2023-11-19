@@ -1,0 +1,52 @@
+{
+  "2023-11-20": [
+    {
+      "desc": "Schnitzel \"Wiener Art\" mit Kartoffel- Gurken-Salat",
+      "price": 7.50
+    },
+    {
+      "desc": "Allgäuer Käsespätzle mit Röstzwiebeln",
+      "price": 7.50
+    }
+  ],
+  "2023-11-21": [
+    {
+      "desc": "Hähnchenkeule mit Rotkohl und Kartoffelknödel",
+      "price": 7.50
+    },
+    {
+      "desc": "Gebackener Blumenkohl mit Salzkartoffeln und Sc. Hollandaise",
+      "price": 7.50
+    }
+  ],
+  "2023-11-22": [
+    {
+      "desc": "Heute kein separates Mittagsgericht Bitte wählen Sie aus unserer regulären großen Speisekarte",
+      "price": 7.50
+    }
+  ],
+  "2023-11-23": [
+    {
+      "desc": "Jägerschnitzel",
+      "price": 7.50
+    },
+    {
+      "desc": "Panierte Jagdwurst mit Spirelli und Tomatensauce",
+      "price": 7.50
+    },
+    {
+      "desc": "Gemüsepuffer mit Kräuterschmand und Salatbouquet",
+      "price": 7.50
+    }
+  ],
+  "2023-11-24": [
+    {
+      "desc": "Backfisch auf Kartoffel-Gurken-Salat mit Remoulade",
+      "price": 7.50
+    },
+    {
+      "desc": "Kaiserschmarrn mit Apfelmus",
+      "price": 7.50
+    }
+  ]
+}
