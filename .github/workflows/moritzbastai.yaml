@@ -2,7 +2,7 @@ name: moritzbastei
 on:
   workflow_dispatch:
   schedule:
-    - cron: '0 10 * * 0'
+    - cron: '0 10 * * 1'
 permissions: 
   contents: write
   packages: write
