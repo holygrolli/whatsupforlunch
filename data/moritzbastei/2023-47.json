@@ -1,0 +1,40 @@
+{
+  "2023-11-20": [],
+  "2023-11-21": [
+    {
+      "desc": "Schweineschnitzel mit Spiegelei und Bratkartoffeln, dazu Tomatensalat",
+      "price": 7.9
+    },
+    {
+      "desc": "Eier in Senfsauce, dazu Salzkartoffeln und Gurkensalat (veget.)",
+      "price": 7.7
+    }
+  ],
+  "2023-11-22": [
+    {
+      "desc": "Frikadelle mit Rosenkohl, Salzkartoffeln und brauner Sauce",
+      "price": 7.9
+    },
+    {
+      "desc": "Auberginenschnitzel in Parmesan-Panade, dazu pikante Tomatensauce und Pasta (veget.)",
+      "price": 7.7
+    }
+  ],
+  "2023-11-23": [
+    {
+      "desc": "Gebackene Hähnchenbrust in Nacho-Panande, dazu Tomaten-Paprikagemüse und Rosmarinkartoffeln",
+      "price": 7.9
+    },
+    {
+      "desc": "Gebackene Rote Bete mit Spinat, Haselnüssen und Hirtenkäse, dazu Baguette (veget.)",
+      "price": 7.7
+    }
+  ],
+  "2023-11-24": [
+    {
+      "desc": "Gebackenes Seelachsfilet mit Remoulade, Salzkartoffeln und Gurkensalat",
+      "price": 7.9
+    }
+  ],
+  "2023-11-25": []
+}
