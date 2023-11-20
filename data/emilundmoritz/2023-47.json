@@ -1,0 +1,43 @@
+{
+  "2023-11-20": [
+    {
+      "desc": "Schweinebraten mit Rotkohl und Klößen",
+      "price": 6.6
+    },
+    {
+      "desc": "Nudelauflauf mit Gemüse",
+      "price": 6.6
+    }
+  ],
+  "2023-11-21": [
+    {
+      "desc": "Gefüllte Zucchini mit Hack, Reis und Tomatensoße",
+      "price": 6.6
+    },
+    {
+      "desc": "Gefüllte Zucchini mit Reis und Tomatensoße",
+      "price": 6.6
+    }
+  ],
+  "2023-11-22": [],
+  "2023-11-23": [
+    {
+      "desc": "Schnitzel ,,Ungarisch´´ mit Bratkartoffeln",
+      "price": 6.6
+    },
+    {
+      "desc": "Eierkuchen mit Weinbrandkirschen dazu Zucker und Zimt",
+      "price": 6.6
+    }
+  ],
+  "2023-11-24": [
+    {
+      "desc": "Königsberger Klopse mit Kartoffeln und Kapernsoße",
+      "price": 6.6
+    },
+    {
+      "desc": "Backfisch mit Kartoffelstampf und Remoulade",
+      "price": 6.6
+    }
+  ]
+}
