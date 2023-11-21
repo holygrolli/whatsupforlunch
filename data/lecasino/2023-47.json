@@ -1,0 +1,54 @@
+{
+  "2023-11-20": [
+    {
+      "desc": "Champignontopf mit Kräutersoße",
+      "price": 3.70
+    },
+    {
+      "desc": "Hausgemachte Kartoffelsuppe",
+      "price": 2.50
+    },
+    {
+      "desc": "Currywurst mit fruchtig-scharfer Currysoße",
+      "price": 3.85
+    }
+  ],
+  "2023-11-21": [
+    {
+      "desc": "Broccoli mit Hollandaise und Kartoffeln",
+      "price": 3.85
+    },
+    {
+      "desc": "Frikadellenbällchen mit Rahmsoße und Kartoffelpüree",
+      "price": 2.50
+    },
+    {
+      "desc": "Kartoffeltopf mit Kokosmilch und gebratenen Chiliwurstscheibchen",
+      "price": 3.80
+    }
+  ],
+  "2023-11-23": [
+    {
+      "desc": "Tortellini mit Spinat Ricotta Füllung und einer Kräutersoße",
+      "price": 3.60
+    },
+    {
+      "desc": "Quarkkeulchen mit Apfelmus und Zimt Zucker",
+      "price": 2.50
+    },
+    {
+      "desc": "Hähnchenschnitzel mit Bratensoße",
+      "price": 3.85
+    }
+  ],
+  "2023-11-24": [
+    {
+      "desc": "Farfalle mit Spinatsoße",
+      "price": 3.20
+    },
+    {
+      "desc": "Seefischfilet mit Kartoffelpüree und Kräutersoße",
+      "price": 2.50
+    }
+  ]
+}

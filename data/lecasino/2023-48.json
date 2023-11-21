@@ -1,0 +1,68 @@
+{
+  "2023-11-27": [
+    {
+      "desc": "Kartoffelrösti mit Kräuter- Joghurt-Dip und med. Gemüse",
+      "price": 3.80
+    },
+    {
+      "desc": "Reiseintopf mit Hähnchen- fleisch und einer Scheibe Brot",
+      "price": 2.50
+    },
+    {
+      "desc": "Schweinebraten mit Kräuterkruste",
+      "price": 3.75
+    }
+  ],
+  "2023-11-28": [
+    {
+      "desc": "Käsespätzle mit Röstzwiebeln",
+      "price": 3.50
+    },
+    {
+      "desc": "Zwei Eier in Senfsoße mit Kartoffeln",
+      "price": 2.50
+    },
+    {
+      "desc": "Fleischkäse mit Bratensoße",
+      "price": 2.60
+    }
+  ],
+  "2023-11-29": [
+    {
+      "desc": "Gemüse-Couscous- Pfanne mit Joghurtdip",
+      "price": 3.50
+    },
+    {
+      "desc": "Schinkennudeln mit Sahnesoße",
+      "price": 2.50
+    },
+    {
+      "desc": "Schweineschnitzel \"Wiener-Art\"",
+      "price": 3.75
+    }
+  ],
+  "2023-11-30": [
+    {
+      "desc": "Gebackener Camembert mit gemischtem Salat und Preiselbeeren",
+      "price": 4.80
+    },
+    {
+      "desc": "Grießbrei mit heißen Kirschen",
+      "price": 2.50
+    },
+    {
+      "desc": "Jägerschnitzel mit fruchtiger Tomatensoße",
+      "price": 3.50
+    }
+  ],
+  "2023-12-01": [
+    {
+      "desc": "Brokkoli-Blumenkohl- Kartoffel- Auflauf",
+      "price": 3.50
+    },
+    {
+      "desc": "Pasta mit Tomatensoße und geriebenen Käse",
+      "price": 2.50
+    }
+  ]
+}
