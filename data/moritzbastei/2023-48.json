@@ -1,0 +1,30 @@
+{
+  "2023-11-27": [],
+  "2023-11-28": [
+    {
+      "desc": "Schweineschnitzel mit Rahmblumenkohl, Salzkartoffeln und brauner Soße",
+      "price": 7.9
+    },
+    {
+      "desc": "Gnocchi in Basilikumsoße mit getrockneten Tomaten, dazu Parmesan (veget.)",
+      "price": 7.7
+    }
+  ],
+  "2023-11-29": [],
+  "2023-11-30": [
+    {
+      "desc": "Hähnchengeschnetzeltes mit Lauch und Champignons, dazu Kartoffelrösti",
+      "price": 7.9
+    },
+    {
+      "desc": "Tortellini in Spinat-Gorgonzola, überbacken mit Mozzarella und Mandeln (veget.)",
+      "price": 7.7
+    }
+  ],
+  "2023-12-01": [
+    {
+      "desc": "Gebratenes Seelachsfilet mit Rahmfenchel und Orangen-Couscous",
+      "price": 7.9
+    }
+  ]
+}
