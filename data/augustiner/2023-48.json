@@ -1,0 +1,52 @@
+{
+  "2023-11-27": [
+    {
+      "desc": "Schnitzel \\u201eWiener Art\\u201c mit Kartoffel-Gurken-Salat",
+      "price": 7.50
+    },
+    {
+      "desc": "Allg\\u00e4uer K\\u00e4sesp\\u00e4tzle mit R\\u00f6stzwiebeln",
+      "price": 7.50
+    }
+  ],
+  "2023-11-28": [
+    {
+      "desc": "Kohlroulade mit Specksauce und Salzkartoffeln",
+      "price": 7.50
+    },
+    {
+      "desc": "R\\u00fchrei mit Gurkensalat und Salzkartoffeln",
+      "price": 7.50
+    }
+  ],
+  "2023-11-29": [
+    {
+      "desc": "Blut- und Leberwurst mit Sauerkraut und Kartoffelp\\u00fcree",
+      "price": 7.50
+    },
+    {
+      "desc": "Krautschupfnudeln mit R\\u00f6stzwiebeln",
+      "price": 7.50
+    }
+  ],
+  "2023-11-30": [
+    {
+      "desc": "M\\u00f6hren-Eintopf mit Schweinefleisch",
+      "price": 7.50
+    },
+    {
+      "desc": "Vegetarischer M\\u00f6hren-Eintopf",
+      "price": 7.50
+    }
+  ],
+  "2023-12-01": [
+    {
+      "desc": "Backfisch auf Kartoffel-Gurken-Salat mit Remoulade",
+      "price": 7.50
+    },
+    {
+      "desc": "Kaiserschmarrn mit Apfelmus",
+      "price": 7.50
+    }
+  ]
+}
