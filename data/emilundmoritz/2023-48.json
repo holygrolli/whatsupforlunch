@@ -1,0 +1,52 @@
+{
+  "2023-11-27": [
+    {
+      "desc": "Tortellini Pfanne mit Hack",
+      "price": 6.90
+    },
+    {
+      "desc": "Tortellini Pfanne mit Gemüse",
+      "price": 6.90
+    }
+  ],
+  "2023-11-28": [
+    {
+      "desc": "Schnitzel Pute, Blumenkohl, Kartoffelecken",
+      "price": 6.90
+    },
+    {
+      "desc": "Eier in Senfsauce, Kartoffeln",
+      "price": 6.90
+    }
+  ],
+  "2023-11-29": [
+    {
+      "desc": "Paprika gefüllt mit Hack, Reis, Tomatensauce",
+      "price": 6.90
+    },
+    {
+      "desc": "Paprika gefüllt mit Couscous, Tomatensauce",
+      "price": 6.90
+    }
+  ],
+  "2023-11-30": [
+    {
+      "desc": "Boulette, Speckbohnen, Kartoffeln, Sauce",
+      "price": 6.90
+    },
+    {
+      "desc": "Kartoffel Lachs Pfanne",
+      "price": 6.90
+    }
+  ],
+  "2023-12-01": [
+    {
+      "desc": "Jägerschnitzel, Penne, Tomatensauce",
+      "price": 6.90
+    },
+    {
+      "desc": "Kaiserschmarrn, Apfelmus, Z+Z",
+      "price": 6.90
+    }
+  ]
+}
