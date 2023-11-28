@@ -2,29 +2,39 @@
   "2023-11-27": [],
   "2023-11-28": [
     {
-      "desc": "Schweineschnitzel mit Rahmblumenkohl, Salzkartoffeln und brauner Soße",
+      "desc": "Schweineschnitzel \"Western\" mit BBQ-Zwiebeln, Bacon und gebackenen Kartoffelecken, dazu Sour Cream",
       "price": 7.9
     },
     {
-      "desc": "Gnocchi in Basilikumsoße mit getrockneten Tomaten, dazu Parmesan (veget.)",
+      "desc": "Waldpilzgulasch mit Kräuterspätzle (veget.)",
       "price": 7.7
     }
   ],
-  "2023-11-29": [],
-  "2023-11-30": [
+  "2023-11-29": [
     {
-      "desc": "Hähnchengeschnetzeltes mit Lauch und Champignons, dazu Kartoffelrösti",
+      "desc": "Königsberger Klopse in Kapernsauce, dazu Kartoffelstampf und Krautsalat",
       "price": 7.9
     },
     {
-      "desc": "Tortellini in Spinat-Gorgonzola, überbacken mit Mozzarella und Mandeln (veget.)",
+      "desc": "Pikanter Fenchel mit Kokosmilch, dazu Orangencouscous und gegrillte Tomaten (vegan)",
+      "price": 7.7
+    }
+  ],
+  "2023-11-30": [
+    {
+      "desc": "Jägerschnitzel mit Tomatensauce, dazu Pasta und Gouda",
+      "price": 7.9
+    },
+    {
+      "desc": "Brokkoli in Kichererbsenbackteig auf rotem Linsencurry mit Paprika und Lauchzwiebeln (vegan)",
       "price": 7.7
     }
   ],
   "2023-12-01": [
     {
-      "desc": "Gebratenes Seelachsfilet mit Rahmfenchel und Orangen-Couscous",
+      "desc": "Gebratenes Seelachsfilet auf Kartoffel-Lauch-Gratin, überbacken mit Gouda",
       "price": 7.9
     }
-  ]
+  ],
+  "2023-12-02": []
 }
