@@ -1,0 +1,52 @@
+{
+  "2023-12-04": [
+    {
+      "desc": "Schnitzel „Wiener Art“ mit Kartoffel-Gurken-Salat",
+      "price": 7.5
+    },
+    {
+      "desc": "Allgäuer Käsespätzle mit Röstzwiebeln",
+      "price": 7.5
+    }
+  ],
+  "2023-12-05": [
+    {
+      "desc": "Hackbraten mit Buttererbsen und Salzkartoffeln",
+      "price": 7.5
+    },
+    {
+      "desc": "Weißwein-Risotto mit Champignons",
+      "price": 7.5
+    }
+  ],
+  "2023-12-06": [
+    {
+      "desc": "Wurstgulasch mit Spätzle und Sauerrahm",
+      "price": 7.5
+    },
+    {
+      "desc": "Vegetarisches Bauernfrühstück mit Fassgurke",
+      "price": 7.5
+    }
+  ],
+  "2023-12-07": [
+    {
+      "desc": "Gebratene Hähnchenbrust mit Tzatziki und Pommes frites",
+      "price": 7.5
+    },
+    {
+      "desc": "Ofenkartoffel mit Tzatziki und Blattsalaten",
+      "price": 7.5
+    }
+  ],
+  "2023-12-08": [
+    {
+      "desc": "Backfisch auf Kartoffel-Gurken-Salat mit Remoulade",
+      "price": 7.5
+    },
+    {
+      "desc": "Kaiserschmarrn mit Apfelmus",
+      "price": 7.5
+    }
+  ]
+}
