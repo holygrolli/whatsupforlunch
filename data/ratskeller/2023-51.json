@@ -1,0 +1,72 @@
+{
+  "2023-12-18": [
+    {
+      "desc": "Käse-Lauchsuppe mit Hackfleisch- bällchen",
+      "price": 5.00
+    },
+    {
+      "desc": "Zwei gekochte Eier mit Senfsoße, Rotkrautsglat und Petersilien- kartoffeln",
+      "price": 5.50
+    },
+    {
+      "desc": "Wildgulasch mit Apfelrotkohl und Böhmischen Knödeln",
+      "price": 6.00
+    }
+  ],
+  "2023-12-19": [
+    {
+      "desc": "Kaiserschmarrn mit Rosinen und Apfelmus",
+      "price": 5.00
+    },
+    {
+      "desc": "Pasta mit Tomatensoße und geriebenem Käse",
+      "price": 5.50
+    },
+    {
+      "desc": "Jägerschnitzel mit Tomatensoße und Pasta",
+      "price": 6.00
+    }
+  ],
+  "2023-12-20": [
+    {
+      "desc": "Gräupchen- eintopf mit Kasslerwürfeln",
+      "price": 5.00
+    },
+    {
+      "desc": "Chili sin Carne mit Kurkuma- Reis",
+      "price": 5.50
+    },
+    {
+      "desc": "Frikadelle mit Speckbohnen und Petersilien- kartoffeln",
+      "price": 6.00
+    }
+  ],
+  "2023-12-21": [
+    {
+      "desc": "Apfelstrudel mit VanillesoBe",
+      "price": 5.00
+    },
+    {
+      "desc": "Pasta mit Tomatensoße und geriebenem Käse",
+      "price": 5.50
+    },
+    {
+      "desc": "Bratwurst mit Squerkraut und Petersilien- kartoffeln",
+      "price": 6.00
+    }
+  ],
+  "2023-12-22": [
+    {
+      "desc": "Ungarische Gulaschsuppe mit Paprika und Kartoffelwürfeln",
+      "price": 5.00
+    },
+    {
+      "desc": "Gemüsecurry mit Kichererbsen und Limettenreis",
+      "price": 5.50
+    },
+    {
+      "desc": "Backfisch mit Remouladen- soße, Salat und Petersilien- kartoffeln",
+      "price": 6.00
+    }
+  ]
+}
