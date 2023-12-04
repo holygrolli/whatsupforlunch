@@ -7,38 +7,38 @@
   ],
   "2023-12-05": [
     {
-      "desc": "Schweineschnitzel \"Western\" mit BBQ-Zwiebeln, Bacon und gebackenen Kartoffelecken, dazu Sour Cream",
-      "price": 7.9
+      "desc": "Schweineschnitzel gefüllt mit Schinken und Käse, dazu Rahmerbsen, Salzkartoffeln und braune Sauce",
+      "price": 7.90
     },
     {
-      "desc": "Waldpilzgulasch mit Kräuterspätzle (veget.)",
-      "price": 7.7
+      "desc": "Blumenkohl-Kartoffel-Gratin mit Lauchzwiebeln, überbacken mit Mozzarella und Mandeln (veget.)",
+      "price": 7.70
     }
   ],
   "2023-12-06": [
     {
-      "desc": "Königsberger Klopse in Kapernsauce, dazu Kartoffelstampf und Krautsalat",
-      "price": 7.9
+      "desc": "Frikadelle mit Rahmwirsing, Salzkartoffeln und brauner Sauce",
+      "price": 7.90
     },
     {
-      "desc": "Pikanter Fenchel mit Kokosmilch, dazu Orangencouscous und gegrillte Tomaten (vegan)",
-      "price": 7.7
+      "desc": "Salbei-Gnocchi mit Kürbisragout und Cranberrys (veget.)",
+      "price": 7.70
     }
   ],
   "2023-12-07": [
     {
-      "desc": "Jägerschnitzel mit Tomatensauce, dazu Pasta und Gouda",
-      "price": 7.9
+      "desc": "Gebackene Hähnchenbrust in Parmesan-Panade, dazu Paprika-Tomatengemüse und Rosmarinkartoffeln",
+      "price": 7.90
     },
     {
-      "desc": "Brokkoli in Kichererbsenbackteig auf rotem Linsencurry mit Paprika und Lauchzwiebeln (vegan)",
-      "price": 7.7
+      "desc": "Mediterrane Gemüsebolognese u.a. mit Zucchini, Paprika, Aubergine, dazu Pasta und Parmesan (veget.)",
+      "price": 7.70
     }
   ],
   "2023-12-08": [
     {
-      "desc": "Gebratenes Seelachsfilet auf Kartoffel-Lauch-Gratin, überbacken mit Gouda",
-      "price": 7.9
+      "desc": "Gebratenes Seelachsfilet mit pikantem Karotten-Pastinakengemüse, dazu Kartoffelstampf und Zitronenbuttersauce",
+      "price": 7.90
     }
   ]
 }
