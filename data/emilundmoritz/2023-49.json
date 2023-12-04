@@ -1,0 +1,52 @@
+{
+  "2023-12-04": [
+    {
+      "desc": "Tafelspitz mit Karotten und Kartoffeln",
+      "price": 6.90
+    },
+    {
+      "desc": "Rührei an Rahmspinat mit Kartoffeln",
+      "price": 6.90
+    }
+  ],
+  "2023-12-05": [
+    {
+      "desc": "Schweineschnitzel mit Kürbis-Zucchinigemüse und Kartoffeln",
+      "price": 6.90
+    },
+    {
+      "desc": "Kartoffelpfanne mit Kirschtomaten, Kürbis und Zucchini",
+      "price": 6.90
+    }
+  ],
+  "2023-12-06": [
+    {
+      "desc": "Hähnchenkeule dazu Tomaten-Paprikasoße und Kartoffelecken",
+      "price": 6.90
+    },
+    {
+      "desc": "Nudelauflauf mit Tomate-Mozzarella und Basilikum",
+      "price": 6.90
+    }
+  ],
+  "2023-12-07": [
+    {
+      "desc": "Hähnchengeschnetzeltes mit Champignons und Blattspinat dazu Reis",
+      "price": 6.90
+    },
+    {
+      "desc": "Reis-Gemüsepfanne mit Rucola",
+      "price": 6.90
+    }
+  ],
+  "2023-12-08": [
+    {
+      "desc": "Rostbrät'l, Schmorzwiebeln und Bratkartoffeln",
+      "price": 6.90
+    },
+    {
+      "desc": "Panierter Seelachs mit Dillsoße und Bratkartoffeln",
+      "price": 6.90
+    }
+  ]
+}
