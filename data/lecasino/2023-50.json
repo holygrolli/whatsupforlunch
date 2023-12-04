@@ -1,0 +1,68 @@
+{
+  "2023-12-11": [
+    {
+      "desc": "Schupfnudel-Pfanne mit Kaisergemüse",
+      "price": 3.5
+    },
+    {
+      "desc": "Graupeneintopf mit Kasselerwürfel",
+      "price": 2.5
+    },
+    {
+      "desc": "Wurstgulasch mit Tomatensoße",
+      "price": 2.95
+    }
+  ],
+  "2023-12-12": [
+    {
+      "desc": "Mit Gemüse-Bulgur gefüllte Paprikaschote an einer Tomatensoße",
+      "price": 3.75
+    },
+    {
+      "desc": "Kräuterquark mit Kartof- feln und Butter",
+      "price": 2.5
+    },
+    {
+      "desc": "Hähnchenschenkel mit Bratensoße",
+      "price": 3.6
+    }
+  ],
+  "2023-12-13": [
+    {
+      "desc": "Gnocchi \" Formaggio\" mit Käsesoße",
+      "price": 3.7
+    },
+    {
+      "desc": "Möhren-Kartoffeleintopt mit Schweinefleisch",
+      "price": 2.5
+    },
+    {
+      "desc": "Geschwenkte Pasta mit Porree und Hackfleisch",
+      "price": 3.7
+    }
+  ],
+  "2023-12-14": [
+    {
+      "desc": "Gemischter Salat Hirtenkäse und Baguette",
+      "price": 4.8
+    },
+    {
+      "desc": "Kartoffelpuffer mit Ap- felmus und Zucker",
+      "price": 2.5
+    },
+    {
+      "desc": "Schnitzel \"Münchner Art\" mit Meerrettich- Senf-Panade",
+      "price": 3.75
+    }
+  ],
+  "2023-12-15": [
+    {
+      "desc": "Maultaschen-Spinat- Gratin mit Tomatensoße und Käse überbackenigaw",
+      "price": 4.2
+    },
+    {
+      "desc": "Pasta in Schinken- Sahnesoße",
+      "price": 2.5
+    }
+  ]
+}
