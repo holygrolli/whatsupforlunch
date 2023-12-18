@@ -1,0 +1,44 @@
+{
+  "2023-12-18": [
+    {
+      "desc": "geschlossen",
+      "price": null
+    }
+  ],
+  "2023-12-19": [
+    {
+      "desc": "Schweineschnitzel \"Gärtnerin\", überbacken mit Gemüse und Sc. Hollandaise, dazu Bratkartoffeln",
+      "price": 7.9
+    },
+    {
+      "desc": "Zucchini-Limetten-Tagliatelle mit gerösteten Sonnenblumenkernen und Parmesan (veget.)",
+      "price": 7.7
+    }
+  ],
+  "2023-12-20": [
+    {
+      "desc": "Jägerklopse mit Champignons, dazu Kartoffelstampf und Krautsalat",
+      "price": 7.9
+    },
+    {
+      "desc": "Gebratene Minikartoffeln mit Kirschtomaten und Rucola, dazu Paprika-Gurken-Quark sowie geröstete Sonnenblumenkerne (veget.)",
+      "price": 7.7
+    }
+  ],
+  "2023-12-21": [
+    {
+      "desc": "Hähnchencurry mit buntem Gemüse in Kokossauce, dazu Basmatireis",
+      "price": 7.9
+    },
+    {
+      "desc": "Sojagyros mit Ingwer, dazu gebackene Kartoffelecken, Zaziki und Krautsalat (veget.)",
+      "price": 7.7
+    }
+  ],
+  "2023-12-22": [
+    {
+      "desc": "Gebratenes Seelachsfilet mit gebratenen Zucchiniwürfeln, rote Bete Pürree und Zitronensauce",
+      "price": 7.9
+    }
+  ]
+}
