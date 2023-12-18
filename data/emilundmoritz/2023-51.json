@@ -1,0 +1,52 @@
+{
+  "2023-12-18": [
+    {
+      "desc": "Brauhausgulasch mit Knödel",
+      "price": 6.9
+    },
+    {
+      "desc": "Kartoffel-Gemüse-Auflauf",
+      "price": 6.9
+    }
+  ],
+  "2023-12-19": [
+    {
+      "desc": "Kasslerbraten, Sauerkraut, Kartoffeln",
+      "price": 6.9
+    },
+    {
+      "desc": "Kichererbsenfrikadelle, Kartoffelstampf, Möhren",
+      "price": 6.9
+    }
+  ],
+  "2023-12-20": [
+    {
+      "desc": "Bratwurst, Sauerkraut, Kartoffelstampf",
+      "price": 6.9
+    },
+    {
+      "desc": "Kartoffelpfanne, Kirschtomaten, Rucola, Mozzarella",
+      "price": 6.9
+    }
+  ],
+  "2023-12-21": [
+    {
+      "desc": "Krustenbraten mit Rotkohl, Kartoffeln",
+      "price": 6.9
+    },
+    {
+      "desc": "Lachs mit Bandnudeln, Blattspinat",
+      "price": 6.9
+    }
+  ],
+  "2023-12-22": [
+    {
+      "desc": "Schnitzel ,,Calabrese\", Pestonudeln",
+      "price": 6.9
+    },
+    {
+      "desc": "Milchreis, Weinbrandpflaumen, Zucker und Zimt",
+      "price": 6.9
+    }
+  ]
+}
