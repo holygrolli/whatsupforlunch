@@ -28,7 +28,9 @@ class DefaultMealChat:
             {"role": "system", "content": self.systemPrompt},
             {"role": "user", "content": self.userMessagePrefix + self.userMessage}]
         print("gpt_messages: " + str(gpt_messages))
-        chat_completion = openai.ChatCompletion.create(model="gpt-3.5-turbo", messages=gpt_messages)
+        chat_completion = openai.ChatCompletion.create(model="gpt-3.5-turbo-1106",
+                                                        messages=gpt_messages,
+                                                        response_format={ "type":"json_object" })
         print(chat_completion.usage)
         # print the chat completion for debugging
         print(chat_completion.choices[0].message.content)
