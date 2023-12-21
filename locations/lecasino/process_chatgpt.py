@@ -1,31 +1,14 @@
-import openai, sys
 from datetime import datetime
+import os, sys, inspect
+sys.path.append(os.path.dirname(os.path.abspath(inspect.getfile(inspect.currentframe()))) + '/../.shared')
+from DefaultMealChat import DefaultMealChat
 
-# list models
-models = openai.Model.list()
-
-# print the first model's id
-print(models.data[0].id)
-
-fp = open(sys.argv[1], "r")
-prompt = fp.read()
-fp.close()
-
-fcsv = open(sys.argv[2], "r")
-csv = fcsv.read()
-fcsv.close()
 ftxt = open("output.txt", "r")
-txt = ftxt.read()
+dateInput = ftxt.read()
 ftxt.close()
+# Create an instance of DefaultMealChat
+meal_chat = DefaultMealChat(systemPromptFile=sys.argv[1], 
+                userMessageFile=sys.argv[2], 
+                userMessagePrefix="You will infer the meal offers from the following German headline text, expecting the first date being of year " + datetime.today().strftime('%Y') + ": " + dateInput + "Parse the meals of following CSV data:\n")
 
-# create a chat completion
-chat_completion = openai.ChatCompletion.create(model="gpt-3.5-turbo", messages=[
-    {"role": "system", "content": prompt},
-    {"role": "user", "content": "The current week of year " + datetime.today().strftime('%Y') + " is defined as by this German text: " + txt + "\nThe CSV data is:\n" + csv}])
-
-print(chat_completion.usage)
-# print the chat completion
-print(chat_completion.choices[0].message.content)
-out = open ("chatgpt.json", "w")
-out.write(chat_completion.choices[0].message.content)
-out.close()
+meal_chat.processAndWriteToFile()
