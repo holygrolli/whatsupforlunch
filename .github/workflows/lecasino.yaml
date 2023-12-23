@@ -97,21 +97,17 @@ jobs:
         aws_secret_access_key = ${{ secrets.AWS_SECRET_ACCESS_KEY }}
         EOF
         cat ~/.aws/config
-    - name: Process pdf ${{ matrix.files }}
+    - name: Extract image from pdf ${{ matrix.files }}
       working-directory: tmp
-      run: textractor analyze-document ${{ matrix.files }} output.json --features TABLES --overlay TABLES --print TABLES
-    - name: extract csv
-      working-directory: tmp
-      run: |
-        python ../locations/lecasino/process_textractor_result.py output.json
-    - name: process csv with chatgpt
+      run: pdftoppm -singlefile -r 150 -png ${{ matrix.files }} image
+    - name: process image with chatgpt
       working-directory: tmp
       env:
         OPENAI_API_KEY: ${{secrets.OPENAI_API_KEY}}
       shell: bash
       run: |
-        python ../locations/lecasino/process_chatgpt.py ../locations/lecasino/prompt.txt table.csv
-        sed -n '/^\s*{$/,$p' chatgpt.json > final.json
+        python ../locations/lecasino/process_chatgpt.py ../locations/lecasino/prompt.txt
+        awk '/^\s*{$/,/^\s*}$/ {print}' chatgpt.json > final.json
         mkdir -p ../data/lecasino
     - name: collect final files
       working-directory: tmp
