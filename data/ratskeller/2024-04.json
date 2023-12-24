@@ -1,0 +1,32 @@
+{
+  "2024-01-22": [
+    { "desc": "Pichelsteiner Eintopf mit Schweinefleisch", "price": 5.60 },
+    { "desc": "Blumenkohl-Käse- Medaillon mit Buttererbsen und Kräuterreis", "price": 6.10 },
+    { "desc": "Frikadelle mit WaldpilzsoBe und Kartoffelstampf", "price": 6.70 },
+    { "desc": "Rote-Bete-Puffer mit Avocado- Tomaten-Salsa und Couscous- Salat", "price": 7.50 }
+  ],
+  "2024-01-23": [
+    { "desc": "Süße Schupfnudeln mit Beerensoße", "price": 5.60 },
+    { "desc": "Pasta mit Tomatensoße und geriebenem Käse", "price": 6.10 },
+    { "desc": "Pasta mit Wurstgulasch und geriebenem Käse", "price": 6.70 },
+    { "desc": "Lammhacksteak mit Ratatouille und Rosmarin- kartoffeln", "price": 8.00 }
+  ],
+  "2024-01-24": [
+    { "desc": "Erbseneintopf mit Bockwurst und Kartoffel- würfeln", "price": 5.60 },
+    { "desc": "Kartoffeltaschen mit Frischkäse, Kräuterdip und Salat", "price": 6.10 },
+    { "desc": "Putenrollbraten mit gemisch- tem Gemüse und Kroketten", "price": 6.70 },
+    { "desc": "Tagliatelle mit Spinatsoße und überbackenem Tofu", "price": 8.00 }
+  ],
+  "2024-01-25": [
+    { "desc": "Sächsische Quarkkäulchen mit Apfelmus und Zimtzucker", "price": 5.60 },
+    { "desc": "Pasta mit Tomatensoße und geriebenem Käse", "price": 6.10 },
+    { "desc": "Schweine- Schnitzel mit Blumenkohl und Petersilien- kartoffeln", "price": 6.70 },
+    { "desc": "Penne mit Trüffelrahm, Champignons und Lauch", "price": 7.50 }
+  ],
+  "2024-01-26": [
+    { "desc": "Brokkoli-Suppe mit Kürbiskernen und Pumpernickel- Crumble", "price": 5.60 },
+    { "desc": "Pilzragout \"Stroganoff\" mit Bete, Gurke und Spätzle", "price": 6.10 },
+    { "desc": "Seelachsfilet in Buttermilch-Dill Soße, dazu Risi Bisi", "price": 6.70 },
+    { "desc": "Halbes Hähnchen mit Krautsalat und Kartoffelecken", "price": 8.00 }
+  ]
+}

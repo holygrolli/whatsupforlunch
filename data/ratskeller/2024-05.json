@@ -1,0 +1,92 @@
+{
+  "2024-01-29": [
+    {
+      "desc": "Usedomen Fisch- Soljanka mit Paprika und Gewürzgurken",
+      "price": 5.6
+    },
+    {
+      "desc": "Süßkartoffel- Kichererbsen- Curry mit Kurkumareis",
+      "price": 6.1
+    },
+    {
+      "desc": "Schweine- Rippchen mit Sauerkraut und Petersilien- kartoffeln",
+      "price": 6.7
+    },
+    {
+      "desc": "Rigatoni mit Auberginen- Ragout, Schafskäse und Kapern",
+      "price": 7.5
+    }
+  ],
+  "2024-01-30": [
+    {
+      "desc": "Drei Eierkuchen mit Apfelmus und Zimtzucker",
+      "price": 5.6
+    },
+    {
+      "desc": "Pasta mit Tomatensoße und geriebenem Käse",
+      "price": 6.1
+    },
+    {
+      "desc": "Spaghetti \"Bolognese\" mit geriebenem Käse",
+      "price": 6.7
+    },
+    {
+      "desc": "Blumenkohl- Kichererbsen- Stäbchen auf Orangenspitzkohl + Bete",
+      "price": 8.0
+    }
+  ],
+  "2024-01-31": [
+    {
+      "desc": "Hausgemachter Linseneintopf mit Blutwurstwürfeln",
+      "price": 5.6
+    },
+    {
+      "desc": "Brokkoli-Nuss- Ecke mit bunten Karotten und Kartoffelstampf",
+      "price": 6.1
+    },
+    {
+      "desc": "Gyrospfanne mit Krautsalat, Zaziki und Tomatenreis",
+      "price": 6.7
+    },
+    {
+      "desc": "Mediterraner Nudelsalat mit Mozzarella- Stäbchen und Rucola",
+      "price": 7.5
+    }
+  ],
+  "2024-02-01": [
+    {
+      "desc": "Riesen Germknödel mit Kirsch-Füllung, dazu Vanillesoße",
+      "price": 5.6
+    },
+    {
+      "desc": "Pasta mit Tomatensoße und geriebenem Käse",
+      "price": 6.1
+    },
+    {
+      "desc": "Putenrahm- Geschnetzeltes mit Paprika und Reis",
+      "price": 6.7
+    },
+    {
+      "desc": "Überraschungs- Gericht mit BIO- Gemüse von KOLA Leipzig",
+      "price": 8.0
+    }
+  ],
+  "2024-02-02": [
+    {
+      "desc": "Wirsingeintopf mit Krakauer und Kartoffelwürfeln",
+      "price": 5.6
+    },
+    {
+      "desc": "Spinat-Käseknödel auf Kräuter- Waldpilzrahm",
+      "price": 6.1
+    },
+    {
+      "desc": "Hähnchen \"Cordon bleu\" mit Buttererbsen und Petersilien- kartoffeln",
+      "price": 6.7
+    },
+    {
+      "desc": "Matjesfilet mit Apfel- Zwiebelsoße, Salat und Kartoffeln",
+      "price": 7.5
+    }
+  ]
+}
