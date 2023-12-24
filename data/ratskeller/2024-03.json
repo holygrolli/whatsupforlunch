@@ -1,0 +1,32 @@
+{
+  "2024-01-15": [
+    {"desc": "Ungarische Gulaschsuppe mit Paprika und Kartoffelwürfeln", "price": 5.60},
+    {"desc": "Zwei gekochte Eier mit Senfsoße, Rotkrautsalat und Petersilien- kartoffeln", "price": 6.10},
+    {"desc": "Hähnchencurry mit asiatischem Gemüse, Koriander und Reis", "price": 6.70},
+    {"desc": "Miesmuscheln in Tomaten- Knoblauch-SoBe, dazu Farfalle", "price": 8.00}
+  ],
+  "2024-01-16": [
+    {"desc": "Kokosmilchreis mit Mango-Ragout", "price": 5.60},
+    {"desc": "Pasta mit Tomatensoße und geriebenem Käse", "price": 6.10},
+    {"desc": "Jägerschnitzel mit Tomatensoße und Pasta", "price": 6.70},
+    {"desc": "Hähnchen- Teriyaki-Bowl mit Gurke, Sesam und Glasnudeln", "price": 8.00}
+  ],
+  "2024-01-17": [
+    {"desc": "Nudeleintopf mit Geflügelfleisch und Gemüse- Julienne", "price": 5.60},
+    {"desc": "Vegan gefüllte Paprikaschote mit Tomatensoße und Reis", "price": 6.10},
+    {"desc": "Kasslerbraten mit Sauerkraut und Petersilien- kartoffeln", "price": 6.70},
+    {"desc": "Halloumi-Wrap mit Couscous, Joghurt und Tomate", "price": 7.50}
+  ],
+  "2024-01-18": [
+    {"desc": "Kaiserschmarr'n mit Rosinen, Mandeln und Apfelmus", "price": 5.60},
+    {"desc": "Pasta mit Tomatensoße und geriebenem Käse", "price": 6.10},
+    {"desc": "Hähnchenbrust 'Piccata' mit TomatensoBe und Pasta", "price": 6.70},
+    {"desc": "Gartenbowl mit Spinat, Graupe, bunter Bete und Feta", "price": 7.50}
+  ],
+  "2024-01-19": [
+    {"desc": "Waldpilz-Creme- suppe mit Thymian und Croûtons", "price": 5.60},
+    {"desc": "Spinatlasagne mit Ricotta und Frühlingslauch", "price": 6.10},
+    {"desc": "Hackbraten mit Speckbohnen und Petersilien- kartoffeln", "price": 6.70},
+    {"desc": "Seelachsfilet 'Bordelaise' mit buntem Gemüse und Zitronenreis", "price": 7.50}
+  ]
+}

@@ -1,0 +1,92 @@
+{
+  "2024-02-05": [
+    {
+      "desc": "Chili con Carne",
+      "price": 5.60
+    },
+    {
+      "desc": "Eier Omelett mit Rahmspinat und Petersilien- kartoffeln",
+      "price": 6.10
+    },
+    {
+      "desc": "Paella- Reispfanne mit Hähnchen, Fisch und Muscheln",
+      "price": 6.70
+    },
+    {
+      "desc": "Vollkornfusilli mit Linsenbolognese und Rucola",
+      "price": 7.50
+    }
+  ],
+  "2024-02-06": [
+    {
+      "desc": "Topfenknödel mit Nougat- füllung, dazu VanillesoBe",
+      "price": 6.10
+    },
+    {
+      "desc": "Pasta mit Tomatensoße und geriebenem Käse",
+      "price": 6.10
+    },
+    {
+      "desc": "Jägerschnitzel mit Tomatensoße und Pasta",
+      "price": 6.70
+    },
+    {
+      "desc": "Mediterranes Ofengemüse mit Kräuterdip und Rosmarin- kartoffeln",
+      "price": 8.00
+    }
+  ],
+  "2024-02-07": [
+    {
+      "desc": "Gräupchen- Eintopf mit Kasslerwürfeln",
+      "price": 5.60
+    },
+    {
+      "desc": "Kräuterquark mit Zwiebeln, Butter und Petersilien- kartoffeln",
+      "price": 6.10
+    },
+    {
+      "desc": "Makkaroni-Chips mit Schinken- Käsesahnesoße",
+      "price": 6.70
+    },
+    {
+      "desc": "Veganer 'Backfisch' mit Remoulade und Kartoffelecken",
+      "price": 8.00
+    }
+  ],
+  "2024-02-08": [
+    {
+      "desc": "Milchreis mit Apfelmus und Zimtzucker",
+      "price": 5.60
+    },
+    {
+      "desc": "Pasta mit Tomatensoße und geriebenem Käse",
+      "price": 6.10
+    },
+    {
+      "desc": "Rindergulasch mit Pilzen, Paprika und Pasta",
+      "price": 6.70
+    },
+    {
+      "desc": "Shakshuka mit Hummus und Fladenbrot",
+      "price": 8.00
+    }
+  ],
+  "2024-02-09": [
+    {
+      "desc": "Kürbiscreme- Suppe mit Kokosmilch und Sprossen",
+      "price": 5.60
+    },
+    {
+      "desc": "Vegetarische Moussaka mit Aubergine, Kartoffeln und Schafskäse",
+      "price": 6.10
+    },
+    {
+      "desc": "Sülze mit Remouladen- soße, Salat und Bratkartoffeln",
+      "price": 6.70
+    },
+    {
+      "desc": "Paniertes Schollenfilet mit Buttererbsen und Herzogin- kartoffeln",
+      "price": 7.50
+    }
+  ]
+}

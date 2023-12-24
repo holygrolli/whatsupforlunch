@@ -1,0 +1,92 @@
+{
+  "2024-01-08": [
+    {
+      "desc": "Käse-Lauch- Suppe mit Hackfleisch- bällchen",
+      "price": 5.6
+    },
+    {
+      "desc": "Chili sin Carne mit Kichererbsen und Reis",
+      "price": 6.1
+    },
+    {
+      "desc": "Wirsingroulade mit Krautsoße und Petersilien- kartoffeln",
+      "price": 6.7
+    },
+    {
+      "desc": "Ofenkartoffel mit Räucherlachs, Honig-Senf Dip und Rucola",
+      "price": 8.0
+    }
+  ],
+  "2024-01-09": [
+    {
+      "desc": "Kartoffelpuffer mit Apfelmus und Zimtzucker",
+      "price": 5.6
+    },
+    {
+      "desc": "Pasta mit Tomatensoße und geriebenem Käse",
+      "price": 6.1
+    },
+    {
+      "desc": "Spaghetti \"Bolognese\" mit geriebenem Käse",
+      "price": 6.7
+    },
+    {
+      "desc": "Omelett gefüllt mit Puten- schinken, dazu Gurkensalat und Kartoffeln",
+      "price": 8.0
+    }
+  ],
+  "2024-01-10": [
+    {
+      "desc": "Soljanka mit Zitrone und Sauerrahm",
+      "price": 5.6
+    },
+    {
+      "desc": "Kräuterrührei mit Rahmspinat und Petersilien- kartoffeln",
+      "price": 6.1
+    },
+    {
+      "desc": "Hühnerfrikassee mit Karotten, Erbsen und Butterreis",
+      "price": 6.7
+    },
+    {
+      "desc": "Feldsalat mit Kürbis, Trauben, Nüssen und Kartoffeldressing",
+      "price": 7.5
+    }
+  ],
+  "2024-01-11": [
+    {
+      "desc": "Drei Hefeklöße mit warmen Heidelbeeren",
+      "price": 5.6
+    },
+    {
+      "desc": "Pasta mit Tomatensoße und geriebenem Käse",
+      "price": 6.1
+    },
+    {
+      "desc": "Ungarisches Schweinegulasch mit Paprika und Pilzen, dazu Pasta",
+      "price": 6.7
+    },
+    {
+      "desc": "Caesar Salad mit Crispy Chicken, Cherrytomaten und Croûtons",
+      "price": 8.0
+    }
+  ],
+  "2024-01-12": [
+    {
+      "desc": "Süßkartoffel- Ingwer-Suppe mit Sesam und Koriander",
+      "price": 5.6
+    },
+    {
+      "desc": "Gemüse-Kött- bullar mit Wald- pilzrahm und Kartoffelstampf",
+      "price": 6.1
+    },
+    {
+      "desc": "Leberkäse mit Bayrisch Kraut und Semmelknödeln",
+      "price": 6.7
+    },
+    {
+      "desc": "Gebackenes Kabeljaufilet, Rahmspinat, bunte Gnocchi",
+      "price": 8.0
+    }
+  ]
+}
