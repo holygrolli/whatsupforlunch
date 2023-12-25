@@ -1,0 +1,94 @@
+{
+  "2024-01-02": [
+    {
+      "desc": "Pasta mit Spinat-Frischk\u00e4seso\u00dfe",
+      "price": 3.8
+    },
+    {
+      "desc": "Gem\u00fcsesuppe mit Kr\u00e4uterkartoffeln",
+      "price": 2.5
+    },
+    {
+      "desc": "Bratwurst mit So\u00dfe",
+      "price": 2.85
+    },
+    {
+      "desc": "Kartoffeln",
+      "price": 1.0
+    },
+    {
+      "desc": "Rohkostsalat nach Angebot",
+      "price": 1.3
+    },
+    {
+      "desc": "Sauerkraut",
+      "price": 1.0
+    }
+  ],
+  "2024-01-03": [
+    {
+      "desc": "Gem\u00fcseschnitzel mit kl. gem. Salat",
+      "price": 3.8
+    },
+    {
+      "desc": "Frikadellenb\u00e4llchen mit Zwiebelso\u00dfe und Kartoffelp\u00fcree",
+      "price": 2.5
+    },
+    {
+      "desc": "Mulligatawny- indische Currysuppe mit H\u00e4hnchenfleisch und Ingwer",
+      "price": 3.8
+    },
+    {
+      "desc": "Bratkartoffeln",
+      "price": 1.2
+    },
+    {
+      "desc": "Rohkostsalat nach Angebot",
+      "price": 1.3
+    },
+    {
+      "desc": "Erbsen",
+      "price": 1.0
+    }
+  ],
+  "2024-01-04": [
+    {
+      "desc": "K\u00e4se-Sp\u00e4tzle mit R\u00f6stzwiebeln",
+      "price": 3.5
+    },
+    {
+      "desc": "Milchreis mit Zimt Zucker und Apfelmus",
+      "price": 2.5
+    },
+    {
+      "desc": "S\u00fclze mit Remoulade",
+      "price": 3.2
+    },
+    {
+      "desc": "Bratkartoffeln",
+      "price": 1.2
+    },
+    {
+      "desc": "Rohkostsalat nach Angebot",
+      "price": 1.3
+    },
+    {
+      "desc": "Bohnen",
+      "price": 1.0
+    }
+  ],
+  "2024-01-05": [
+    {
+      "desc": "Ofenkartoffel mit Quarkdip und ein kl. gemischter Salat",
+      "price": 3.95
+    },
+    {
+      "desc": "Schinkennudeln mit Sahneso\u00dfe",
+      "price": 2.5
+    },
+    {
+      "desc": "Rohkostsalat nach Angebot",
+      "price": 1.3
+    }
+  ]
+}
