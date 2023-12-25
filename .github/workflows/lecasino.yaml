@@ -30,7 +30,7 @@ jobs:
         run: |
           WD=${PWD}
           mkdir -p tmp
-          scrapy runspider locations/lecasino/scra.py --nolog | sort > tmp/scraped_links.txt
+          scrapy runspider locations/lecasino/scra.py --nolog | grep -iv anger | grep -iv heiter | grep -iv lindenau | sort > tmp/scraped_links.txt
           cd tmp
           echo "found these changed links: $(comm -13 ../data/lecasino/scraped_done.txt scraped_links.txt)"
           while IFS= read -r line; do
