@@ -1,0 +1,39 @@
+{
+  "2023-12-25": [],
+  "2023-12-26": [
+    {
+      "desc": "Schweineschnitzel mit Spiegelei und Bratkartoffeln, dazu Tomatensalat",
+      "price": 7.90
+    },
+    {
+      "desc": "Eier in Senfsauce, dazu Salzkartoffeln und Gurkensalat (veget.)",
+      "price": 7.70
+    }
+  ],
+  "2023-12-27": [
+    {
+      "desc": "Gebackenes Teriyaky-Hähnchen in Sesampanade, dazu gebratene Mie Nudeln mit buntem Gemüse, Sweet Chilisauce und Röstzwiebeln",
+      "price": 7.90
+    },
+    {
+      "desc": "Cannelloni gefüllt mit Spinat in Gorgonzolsauce, überbacken mit Gouda und Mandeln (veget.)",
+      "price": 7.70
+    }
+  ],
+  "2023-12-28": [
+    {
+      "desc": "Hirschgulasch mit Rosenkohl und Petersilienkartoffeln",
+      "price": 7.90
+    },
+    {
+      "desc": "Pikanter Rahmwirsing mit Champignons, dazu Kräuterspätzle (veget.)",
+      "price": 7.70
+    }
+  ],
+  "2023-12-29": [
+    {
+      "desc": "Gebackenes Seelachsfilet mit Remoulade, Salzkartoffeln und Gurkensalat",
+      "price": 7.90
+    }
+  ]
+}
