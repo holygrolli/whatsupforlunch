@@ -107,7 +107,7 @@ function App() {
         <h2>{location.name}</h2>
         <div><a href={location.link}><FontAwesomeIcon icon={solid("link")} style={{color: "#000000",}} /></a> <LocationDetails details={location.details} />
         </div>
-        {location.meals.day.length > 0 &&
+        {(location.meals.day.length > 0 || location.meals.week.length > 0) &&
         <table className="table">
           <thead>
             <tr>
@@ -116,7 +116,25 @@ function App() {
             </tr>
           </thead>
           <tbody>
+          {location.meals.day.length > 0 && location.meals.week.length > 0 &&
+          <tr>
+            <td colSpan="2" className="text-left fw-bold">Tagesangebot</td>
+          </tr>
+          }
           {location.meals.day.map((meal,index) => {
+            return (
+            <tr key={meal.desc}>
+              <td>{meal.desc}</td>
+              <td>{meal.price}</td>
+            </tr>
+            )
+          })}
+          {location.meals.day.length > 0 && location.meals.week.length > 0 &&
+          <tr>
+            <td colSpan="2" className="text-left fw-bold">Wochenangebot</td>
+          </tr>
+          }
+          {location.meals.week.map((meal,index) => {
             return (
             <tr key={meal.desc}>
               <td>{meal.desc}</td>
