@@ -63,7 +63,7 @@ jobs:
     needs: changes
     if: >-
       ${{ !(github.ref_name == 'main' && github.event_name != 'workflow_call' && (needs.changes.outputs.frontend == 'true' || needs.changes.outputs.locations == 'true')) 
-        && (needs.changes.outputs.data == 'true' || needs.changes.outputs.workflow == 'true' || github.event_name == 'workflow_call' || github.event_name == 'workflow_dispatch') }}
+        && (needs.changes.outputs.data == 'true' || needs.changes.outputs.workflow == 'true' || github.event_name == 'pull_request' || github.event_name == 'workflow_call' || github.event_name == 'workflow_dispatch') }}
     runs-on: ubuntu-latest
     container:
       image: ghcr.io/holygrolli/whatsupforlunch:main
