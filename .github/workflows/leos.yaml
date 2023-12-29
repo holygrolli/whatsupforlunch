@@ -132,7 +132,7 @@ jobs:
         python ../locations/leos/process_chatgpt.py ../locations/leos/prompt.txt output.txt
         mkdir -p ../data/leos
         sed -n '/^\s*{$/,$p' chatgpt.json > final.json
-        cp final.json ../data/leos/$(date -d"$(jq -r 'keys[0]' final.json)" +%Y-%V).json
+        cp final.json ../data/leos/$(date -d"$(jq -r 'keys[] | select(test("\\d{4}-\\d{2}-\\d{2}"))' final.json | sort | head -n 1)" +%Y-%V).json
         CURRENTFILE=${{ matrix.files }}
         cat ../data/leos/scraped_done.txt <(echo $'\n'$(cat scraped_links.txt | grep ${CURRENTFILE%_separated*})) | sort -u | grep . > scraped_done.txt
         cp scraped_done.txt ../data/leos/scraped_done.txt

@@ -115,7 +115,7 @@ jobs:
       run: |
         mkdir -p ../success-pdfs
         cp ${{ matrix.files }} ../success-pdfs
-        cp final.json ../success-pdfs/$(date -d"$(jq -r 'keys[0]' final.json)" +%Y-%V).json
+        cp final.json ../success-pdfs/$(date -d"$(jq -r 'keys[] | select(test("\\d{4}-\\d{2}-\\d{2}"))' final.json | sort | head -n 1)" +%Y-%V).json
     - name: Archive final files
       uses: actions/upload-artifact@v3
       with:
