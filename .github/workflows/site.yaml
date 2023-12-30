@@ -14,6 +14,10 @@ on:
         required: false
         type: string
         default: 'snapshot'
+      workflowcall:
+        required: false
+        type: boolean
+        default: true
   push:
     branches:
       - 'develop'
@@ -62,8 +66,9 @@ jobs:
   build:
     needs: changes
     if: >-
-      ${{ !(github.ref_name == 'main' && github.event_name != 'workflow_call' && (needs.changes.outputs.frontend == 'true' || needs.changes.outputs.locations == 'true')) 
-        && (needs.changes.outputs.data == 'true' || needs.changes.outputs.workflow == 'true' || github.event_name == 'pull_request' || github.event_name == 'workflow_call' || github.event_name == 'workflow_dispatch') }}
+      ${{ (github.ref_name == 'main' && inputs.workflowcall) && (inputs.comment != 'run on main only if workflowcall otherwise always')
+      && (needs.changes.outputs.frontend == 'true' || needs.changes.outputs.locations == 'true') && (inputs.comment != 'run only if frontend or locations change, i.e. this is a release')
+      || (needs.changes.outputs.data == 'true' || needs.changes.outputs.workflow == 'true' || github.event_name == 'pull_request' || github.event_name == 'workflow_dispatch' && (inputs.comment != 'run when data or workflow changes or when manually triggered')) }}
     runs-on: ubuntu-latest
     container:
       image: ghcr.io/holygrolli/whatsupforlunch:main
