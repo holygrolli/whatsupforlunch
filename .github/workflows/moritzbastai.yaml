@@ -7,7 +7,7 @@ on:
         type: boolean
         default: true
   schedule:
-    - cron: '0 10 * * 1'
+    - cron: '0 9 * * 2'
 permissions: 
   contents: write
   packages: write
