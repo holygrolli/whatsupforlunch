@@ -1,0 +1,61 @@
+{
+  "2024-01-01": [],
+  "2024-01-02": [
+    {
+      "desc": "Schweineschnitzel mit Spiegelei und Bratkartoffeln, dazu Tomatensalat",
+      "price": 7.90
+    },
+    {
+      "desc": "Eier in Senfsauce, dazu Salzkartoffeln und Gurkensalat (veget.)",
+      "price": 7.70
+    }
+  ],
+  "2024-01-03": [
+    {
+      "desc": "Gebackenes Teriyaky-Hähnchen in Sesampanade, dazu gebratene Mie Nudeln mit buntem Gemüse, Sweet Chilisauce und Röstzwiebeln",
+      "price": 7.90
+    },
+    {
+      "desc": "Cannelloni gefüllt mit Spinat in Gorgonzolsauce, überbacken mit Gouda und Mandeln (veget.)",
+      "price": 7.70
+    }
+  ],
+  "2024-01-04": [
+    {
+      "desc": "Hirschgulasch mit Rosenkohl und Petersilienkartoffeln",
+      "price": 7.90
+    },
+    {
+      "desc": "Pikanter Rahmwirsing mit Champignons, dazu Kräuterspätzle (veget.)",
+      "price": 7.70
+    }
+  ],
+  "2024-01-05": [
+    {
+      "desc": "Gebackenes Seelachsfilet mit Remoulade, Salzkartoffeln und Gurkensalat",
+      "price": 7.90
+    }
+  ],
+  "2024-W51": [
+    {
+      "desc": "Pasta mit Rote-Bete-Pesto, dazu geröstete Haselnüsse und Parmesan (veget.)",
+      "price": 8.70
+    },
+    {
+      "desc": "Lasagne Kürbislasagne, überbacken mit Mozzarella und Mandeln (veget.)",
+      "price": 8.90
+    },
+    {
+      "desc": "Lasagne 'Bolognese' überbacken mit Gouda",
+      "price": 9.10
+    },
+    {
+      "desc": "Marinierte Hähnchenbrust auf Kartoffelgratin 'Indisch' mit Blumenkohl und Karotten",
+      "price": 8.90
+    },
+    {
+      "desc": "Grüner Bohneneintopf mit Kasseler und Baguette",
+      "price": 6.20
+    }
+  ]
+}
