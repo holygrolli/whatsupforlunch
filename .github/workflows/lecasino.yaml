@@ -25,6 +25,11 @@ jobs:
     steps:
       - name: checkout
         uses: actions/checkout@v3
+        with:
+          ref: >-
+            ${{
+              github.event_name == 'schedule' && 'main' || ''
+            }}
       - name: get new links
         shell: bash
         run: |
@@ -70,6 +75,11 @@ jobs:
     steps:
     - name: checkout source code
       uses: actions/checkout@v3
+      with:
+        ref: >-
+          ${{
+            github.event_name == 'schedule' && 'main' || ''
+          }}
     - name: Download pdf artifacts
       uses: actions/download-artifact@v3
       with:
