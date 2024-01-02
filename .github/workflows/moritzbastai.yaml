@@ -13,12 +13,12 @@ permissions:
   packages: write
   pull-requests: write
 jobs:
-  download:
+  check:
     runs-on: ubuntu-latest
     container:
       image: ghcr.io/holygrolli/whatsupforlunch:main
     outputs:
-      matrix: ${{ steps.setmatrix.outputs.matrix }}
+      ts: ${{ steps.detectchange.outputs.ts }}
     steps:
       - name: checkout
         uses: actions/checkout@v3
@@ -27,6 +27,33 @@ jobs:
             ${{
               github.event_name == 'schedule' && 'main' || ''
             }}
+      - name: check if site is updated
+        id: detectchange
+        shell: bash
+        run: |
+          curl -s https://www.moritzbastei.de/gastronomie-kneipe-bistro-drinks/ | \
+            python locations/moritzbastei/check_site_update.py > data/moritzbastei/scraped_done.txt
+          git config --system --add safe.directory $PWD
+          git status -s | grep "moritzbastei/scraped_done.txt" && echo "::set-output name=ts::$(cat data/moritzbastei/scraped_done.txt)"
+  download:
+    needs: check
+    if: ${{ needs.check.outputs.ts != '' || inputs.force_publish }}
+    runs-on: ubuntu-latest
+    container:
+      image: ghcr.io/holygrolli/whatsupforlunch:main
+    steps:
+      - name: checkout
+        uses: actions/checkout@v3
+        with:
+          ref: >-
+            ${{
+              github.event_name == 'schedule' && 'main' || ''
+            }}
+      - name: update change date
+        if: ${{ needs.check.outputs.ts != '' }}
+        shell: bash
+        run: |
+          echo "${{ needs.check.outputs.ts }}" > data/moritzbastei/scraped_done.txt
       - name: get new links
         shell: bash
         run: |
@@ -51,6 +78,7 @@ jobs:
           path: |
             tmp
       - uses: tibdex/github-app-token@v2
+        if: ${{ !github.event.act && (github.event_name != 'workflow_dispatch' || inputs.force_publish) }}
         id: generate-token
         with:
           app_id: ${{ secrets.TOKEN_APP_ID }}
