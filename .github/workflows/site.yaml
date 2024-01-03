@@ -18,6 +18,15 @@ on:
         required: false
         type: boolean
         default: true
+    secrets:
+      DEPLOY_KEY:
+        required: true
+      DEPLOY_USER:
+        required: true
+      DEPLOY_HOST:
+        required: true
+      DEPLOY_PATH:
+        required: true
   push:
     branches:
       - 'develop'

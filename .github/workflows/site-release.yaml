@@ -41,6 +41,11 @@ jobs:
     uses: ./.github/workflows/site.yaml
     with:
       version: ${{ needs.get-version.outputs.version }}
+    secrets:
+      DEPLOY_KEY: ${{ secrets.DEPLOY_KEY }}
+      DEPLOY_USER: ${{ secrets.DEPLOY_USER }}
+      DEPLOY_HOST: ${{ secrets.DEPLOY_HOST }}
+      DEPLOY_PATH: ${{ secrets.DEPLOY_PATH }}
   create-version:
     needs: build
     runs-on: ubuntu-latest
