@@ -29,7 +29,7 @@ jobs:
           mkdir -p tmp
           cd tmp
           # run only if there is no file for this week
-          (find ../data/leos -name "$(python ../locations/.shared/getFormattedDate.py).json" || touch scraped_links.txt) || \
+          (find ../data/leos -name "$(python ../locations/.shared/getFormattedDate.py).json" | grep . && touch scraped_links.txt) || \
             scrapy runspider ../locations/leos/scra.py --nolog | sort > scraped_links.txt
           while IFS= read -r line; do
             curl -sOL $line
