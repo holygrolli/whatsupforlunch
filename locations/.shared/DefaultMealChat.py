@@ -46,7 +46,7 @@ class DefaultMealChat:
             }
         ]})
         
-        print("gpt_messages: " + str(gpt_messages))
+        #print("gpt_messages: " + str(gpt_messages))
         chat_completion = openai.ChatCompletion.create(model="gpt-4-vision-preview",
                                                         messages=gpt_messages,
                                                         max_tokens=self.max_tokens)#,
