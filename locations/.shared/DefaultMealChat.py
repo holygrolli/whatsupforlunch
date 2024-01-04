@@ -25,6 +25,9 @@ class DefaultMealChat:
 
     def writeToFile(self, chat_completion):
         print(chat_completion.usage)
+        out = open ("usage.json", "w")
+        out.write(str(chat_completion.usage))
+        out.close()
         # print the chat completion for debugging
         print(chat_completion.choices[0].message.content)
         out = open ("chatgpt.json", "w")
