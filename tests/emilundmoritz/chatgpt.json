@@ -1,62 +1,56 @@
 {
-  "2024-01-01": [
-    {
-      "desc": "Feiertag",
-      "price": null
-    }
-  ],
   "2024-01-02": [
     {
       "desc": "Schweineschnitzel, Blumenkohl & Kroketten",
-      "price": 6.9
+      "price": 6.90
     },
     {
       "desc": "Hefeklöße, warme Vanillesoße, Himbeeren",
-      "price": 6.9
+      "price": 6.90
     }
   ],
   "2024-01-03": [
     {
       "desc": "Wirsingroulade mit Hack, Kartoffeln",
-      "price": 6.9
+      "price": 6.90
     },
     {
       "desc": "veg. Wirsingroulade, Tomatensoße & Kartoffeln",
-      "price": 6.9
+      "price": 6.90
     }
   ],
   "2024-01-04": [
     {
       "desc": "Sauerbraten, Rotkohl, Klöße",
-      "price": 6.9
+      "price": 6.90
     },
     {
       "desc": "Gemüsecurry, Reis",
-      "price": 6.9
+      "price": 6.90
     }
   ],
   "2024-01-05": [
     {
       "desc": "Königsberger Klöpse, Karpernsoße, Kartoffeln",
-      "price": 6.9
+      "price": 6.90
     },
     {
       "desc": "Schupfnudelpfanne mit Kokossoße und Brokkoli",
-      "price": 6.9
+      "price": 6.90
     }
   ],
   "2024-W01": [
     {
       "desc": "Spaghetti mit getrockneten Tomaten, Hirtenkäse & Rucola",
-      "price": 4.9
+      "price": 4.90
     },
     {
       "desc": "Pasta in Shrimps-Sahnesoße",
-      "price": 4.9
+      "price": 4.90
     },
     {
       "desc": "Farfalle in Tomaten-Mozzarella-Soße",
-      "price": 4.9
+      "price": 4.90
     }
   ]
 }
