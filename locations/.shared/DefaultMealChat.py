@@ -1,4 +1,5 @@
 import openai, sys
+from datetime import datetime, timedelta
 
 class DefaultMealChat:
     def __init__(self, 
@@ -7,8 +8,21 @@ class DefaultMealChat:
                     userMessage=None, 
                     userMessageFile="chatgpt_user.txt",
                     userMessagePrefix="",
+                    dateOverride=None,
+                    jsonSchema=None,
                     max_tokens=1000):
-        self.userMessagePrefix = userMessagePrefix
+        # if dateOverride is set, use it
+        if dateOverride is not None:
+            today = datetime.strptime(dateOverride, '%Y-%m-%d')
+        else:
+            today = datetime.today()
+        weekStart = today - timedelta(days=today.weekday())
+        # if on weekend assume we are running for next week
+        if today.weekday()>4:
+            weekStart = weekStart + timedelta(days=7)
+        self.weekStart = weekStart
+
+        self.userMessagePrefix = userMessagePrefix.format(MC_TODAY=self.weekStart.strftime("%Y-%m-%d"), MC_WEEKSTART=self.weekStart.strftime("%G-W%V"))
         self.max_tokens = max_tokens
         if systemPrompt is None:
             file = open(systemPromptFile, "r")
@@ -16,12 +30,14 @@ class DefaultMealChat:
             file.close()
         else:
             self.systemPrompt = systemPrompt
+        self.systemPrompt = self.systemPrompt.format(MC_JSON_SCHEMA=jsonSchema, MC_TODAY=self.weekStart.strftime("%Y-%m-%d"), MC_WEEKSTART=self.weekStart.strftime("%G-W%V"))
         if userMessage is None:
             file = open(userMessageFile, "r")
             self.userMessage = file.read()
             file.close()
         else:
             self.userMessage = userMessage
+
 
     def writeToFile(self, chat_completion):
         print(chat_completion.usage)
