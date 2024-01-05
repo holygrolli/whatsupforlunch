@@ -91,7 +91,7 @@ jobs:
       shell: bash
       run: |
         set -E
-        python ../locations/leos/process_chatgpt.py ../locations/leos/prompt.txt ${{ matrix.files }}
+        python ../locations/leos/process_chatgpt.py ${{ matrix.files }}
         mkdir -p ../data/leos
         awk '/^\s*{$/,/^\s*}$/ {print}' chatgpt.json > final.json
         jq -r 'keys[] | select(test("\\d{4}-W\\d{2}"))' final.json | sort | head -n 1 | grep "$(python ../locations/.shared/getFormattedDate.py)" || (echo "JSON does not contain expected key" && exit 1)

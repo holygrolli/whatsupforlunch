@@ -1,5 +1,8 @@
 import openai, sys
 from datetime import datetime, timedelta
+import base64
+import json
+import mimetypes
 
 class DefaultMealChat:
     def __init__(self, 
@@ -8,6 +11,7 @@ class DefaultMealChat:
                     userMessage=None, 
                     userMessageFile="chatgpt_user.txt",
                     userMessagePrefix="",
+                    userImageFile="image_input",
                     dateOverride=None,
                     jsonSchema=None,
                     max_tokens=1000):
@@ -22,6 +26,7 @@ class DefaultMealChat:
             weekStart = weekStart + timedelta(days=7)
         self.weekStart = weekStart
 
+        self.userImageFile = userImageFile
         self.userMessagePrefix = userMessagePrefix.format(MC_TODAY=self.weekStart.strftime("%Y-%m-%d"), MC_WEEKSTART=self.weekStart.strftime("%G-W%V"))
         self.max_tokens = max_tokens
         if systemPrompt is None:
@@ -38,19 +43,35 @@ class DefaultMealChat:
         else:
             self.userMessage = userMessage
 
+    def encode_image_and_return_string(self, image_path):
+        with open(image_path, "rb") as image_file:
+            # Determine the mime type based on the file extension
+            base64_image = base64.b64encode(image_file.read()).decode('utf-8')
+            return f"data:{self.detect_mime_type(image_path)};base64,{base64_image}"
+
+    def detect_mime_type(self, image_path):
+        mime_type, _ = mimetypes.guess_type(image_path)
+        print(f"mime_type of input: {mime_type}")
+        return mime_type
+
+    def extract_json_content(self, text):
+        start_index = text.find("{")
+        end_index = text.rfind("}")
+        json_content = text[start_index:end_index+1]
+        return json_content
 
     def writeToFile(self, chat_completion):
         print(chat_completion.usage)
-        out = open ("usage.json", "w")
+        out = open("usage.json", "w")
         out.write(str(chat_completion.usage))
         out.close()
         # print the chat completion for debugging
         print(chat_completion.choices[0].message.content)
-        out = open ("chatgpt.json", "w")
-        out.write(chat_completion.choices[0].message.content)
+        out = open("chatgpt.json", "w")
+        out.write(self.extract_json_content(chat_completion.choices[0].message.content))
         out.close()
 
-    def processImageAndWriteToFile(self, userImage=""):
+    def processImageAndWriteToFile(self):
         print("Using the prompt: " + self.systemPrompt)
         gpt_messages=[
             {"role": "system", "content": self.systemPrompt}]
@@ -61,7 +82,7 @@ class DefaultMealChat:
             },
             {
                 "type": "image_url",
-                "image_url": userImage
+                "image_url": self.encode_image_and_return_string(self.userImageFile)
             }
         ]})
         
