@@ -116,7 +116,7 @@ jobs:
         OPENAI_API_KEY: ${{secrets.OPENAI_API_KEY}}
       shell: bash
       run: |
-        python ../locations/lecasino/process_chatgpt.py ../locations/lecasino/prompt.txt
+        python ../locations/lecasino/process_chatgpt.py
         awk '/^\s*{$/,/^\s*}$/ {print}' chatgpt.json > final.json
         mkdir -p ../data/lecasino
     - name: collect final files
