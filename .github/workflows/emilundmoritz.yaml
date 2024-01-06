@@ -32,14 +32,14 @@ jobs:
         run: |
           WD=${PWD}
           mkdir -p tmp
-          scrapy runspider locations/emilundmoritz/scra.py --nolog > tmp/mittagsangebot.txt
+          scrapy runspider locations/emilundmoritz/scra.py --nolog > tmp/chatgpt_user.txt
       - name: process txt with chatgpt
         working-directory: tmp
         env:
           OPENAI_API_KEY: ${{secrets.OPENAI_API_KEY}}
         shell: bash
         run: |
-          python ../locations/emilundmoritz/process_chatgpt.py ../locations/emilundmoritz/prompt.txt mittagsangebot.txt
+          python ../locations/emilundmoritz/process_chatgpt.py
           mkdir -p ../data/emilundmoritz
           sed -n '/^\s*{$/,$p' chatgpt.json > final.json
           cp final.json ../data/emilundmoritz/$(date -d"$(jq -r 'keys[] | select(test("\\d{4}-\\d{2}-\\d{2}"))' final.json | sort | head -n 1)" +%Y-%V).json
