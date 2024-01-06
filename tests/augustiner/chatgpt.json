@@ -1,0 +1,43 @@
+{
+  "2024-01-01": [],
+  "2024-01-02": [
+    {
+      "desc": "Schnitzel \"Wiener Art\" mit Kartoffel-Gurken-Salat",
+      "price": 7.90
+    },
+    {
+      "desc": "Allgäuer Käsespätzle mit Röstzwiebeln",
+      "price": 7.90
+    }
+  ],
+  "2024-01-03": [
+    {
+      "desc": "Hühnerfrikassée mit Butterreis",
+      "price": 7.90
+    },
+    {
+      "desc": "Möhren-Ingwersuppe mit frischem Augustiner Brot",
+      "price": 7.90
+    }
+  ],
+  "2024-01-04": [
+    {
+      "desc": "Gezupftes Haxenfleisch mit Meerrettichsauce und Kartoffelpüree",
+      "price": 7.90
+    },
+    {
+      "desc": "Gebackener Blumenkohl mit Sc. Hollandaise und Kartoffelpüree",
+      "price": 7.90
+    }
+  ],
+  "2024-01-05": [
+    {
+      "desc": "Backfisch auf Kartoffel-Gurken-Salat mit Remoulade",
+      "price": 7.90
+    },
+    {
+      "desc": "Kaiserschmarrn mit Apfelmus",
+      "price": 7.90
+    }
+  ]
+}
