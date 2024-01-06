@@ -1,0 +1,22 @@
+<div>
+            <div>
+<h3>MITTAGSANGEBOT (18.-24.12.)</h3>
+<ul>
+<li>Montag</li><li>geschlossen<span></span></li>
+<li>Dienstag</li><li>Schweineschnitzel mit Spiegelei und Bratkartoffeln, dazu Tomatensalat<span>7,90 €</span></li>
+<li><li>Eier in Senfsauce, dazu Salzkartoffeln und Gurkensalat (veget.)<span>7,70 €</span></li>
+<li>Mittwoch</li><li>Gebackenes Teriyaky-Hähnchen in Sesampanade, dazu gebratene Mie Nudeln mit buntem Gemüse, Sweet Chilisauce und Röstzwiebeln<span>7,90 €</span></li>
+<li><li>Cannelloni gefüllt mit Spinat in Gorgonzolsauce, überbacken mit Gouda und Mandeln (veget.)<span>7,70 €</span></li>
+<li>Donnerstag</li><li>Hirschgulasch mit Rosenkohl und Petersilienkartoffeln<span>7,90 €</span></li>
+<li><li>Pikanter Rahmwirsing mit Champignons, dazu Kräuterspätzle (veget.)<span>7,70 €</span></li>
+<li>Freitag</li><li>Gebackenes Seelachsfilet mit Remoulade, Salzkartoffeln und Gurkensalat<span>7,90 €</span></li>
+</ul>
+</div>
+<h3><span><svg width="1em" height="1em"></svg></span>WOCHENANGEBOT (18.-24.12.) - alle Gerichte zwischen 11 und 15 Uhr günstiger</h3>
+<ul>
+<li>Pasta</li><li>mit Rote-Bete-Pesto, dazu geröstete Haselnüsse und Parmesan (veget.)<span>8,70 €</span></li>
+<li>Lasagne</li><li>Kürbislasagne, überbacken mit Mozzarella und Mandeln (veget.)<span>8,90 €</span></li>
+<li><li>Lasagne "Bolognese" überbacken mit Gouda<span>9,10 €</span></li>
+<li>Gratin</li><li>Marinierte Hähnchenbrust auf Kartoffelgratin "Indisch" mit Blumenkohl und Karotten<span>8,90 €</span></li>
+<li>Suppe</li><li>Grüner Bohneneintopf mit Kasseler und Baguette<span>6,20 €</span></li>
+</ul>        </div>
