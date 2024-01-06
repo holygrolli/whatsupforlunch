@@ -3,8 +3,7 @@ import os, sys, inspect
 sys.path.append(os.path.dirname(os.path.abspath(inspect.getfile(inspect.currentframe()))) + '/../../locations/.shared')
 sys.path.append(os.path.dirname(os.path.abspath(inspect.getfile(inspect.currentframe()))) + '/../../locations/' + os.path.basename(os.path.dirname(inspect.getfile(inspect.currentframe()))))
 from DefaultMealChat import DefaultMealChat
-from prompt_config import prompt_config
-from config import config
+from config import config, prompt_overrides
 from testconfig import testconfig
 
 class TestLecasino(unittest.TestCase):
@@ -13,6 +12,6 @@ class TestLecasino(unittest.TestCase):
         meal_chat = DefaultMealChat(
                         **config,
                         **testconfig,
-                        **prompt_config)
+                        promptOverrides=prompt_overrides)
 
         meal_chat.processImageAndWriteToFile()

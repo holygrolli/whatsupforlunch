@@ -3,18 +3,21 @@ from datetime import datetime, timedelta
 import base64
 import json
 import mimetypes
+from prompt_config import prompt_config
 
 class DefaultMealChat:
     def __init__(self, 
-                    systemPrompt=None, 
-                    systemPromptFile="chatgpt_systemprompt.txt", 
                     userMessage=None, 
                     userMessageFile="chatgpt_user.txt",
                     userMessagePrefix="",
                     userImageFile="image_input",
                     dateOverride=None,
-                    jsonSchema=None,
-                    max_tokens=1000):
+                    max_tokens=1000,
+                    promptOverrides=None):
+        self.prompt_config = prompt_config
+        print("prompt_config: " + str(self.prompt_config))
+        if promptOverrides is not None:
+            self.prompt_config.update(promptOverrides)
         # if dateOverride is set, use it
         if dateOverride is not None:
             today = datetime.strptime(dateOverride, '%Y-%m-%d')
@@ -29,13 +32,6 @@ class DefaultMealChat:
         self.userImageFile = userImageFile
         self.userMessagePrefix = userMessagePrefix.format(MC_TODAY=self.weekStart.strftime("%Y-%m-%d"), MC_WEEKSTART=self.weekStart.strftime("%G-W%V"))
         self.max_tokens = max_tokens
-        if systemPrompt is None:
-            file = open(systemPromptFile, "r")
-            self.systemPrompt = file.read()
-            file.close()
-        else:
-            self.systemPrompt = systemPrompt
-        self.systemPrompt = self.systemPrompt.format(MC_JSON_SCHEMA=jsonSchema, MC_TODAY=self.weekStart.strftime("%Y-%m-%d"), MC_WEEKSTART=self.weekStart.strftime("%G-W%V"))
         if userMessage is None:
             file = open(userMessageFile, "r")
             self.userMessage = file.read()
@@ -43,6 +39,12 @@ class DefaultMealChat:
         else:
             self.userMessage = userMessage
 
+    def return_default_substitutions(self):
+        return {
+            "MC_JSON_SCHEMA": self.prompt_config["jsonSchema"],
+            "MC_TODAY": self.weekStart.strftime("%Y-%m-%d"),
+            "MC_WEEKSTART": self.weekStart.strftime("%G-W%V")
+        }
     def encode_image_and_return_string(self, image_path):
         with open(image_path, "rb") as image_file:
             # Determine the mime type based on the file extension
@@ -71,10 +73,21 @@ class DefaultMealChat:
         out.write(self.extract_json_content(chat_completion.choices[0].message.content))
         out.close()
 
+    def returnPromptAddonMessages(self):
+        gpt_messages = []
+        if self.prompt_config["addCurrentDate"]:
+            gpt_messages.append({"role": "user", "content": """Today is "Montag" {MC_TODAY} and calendar week {MC_WEEKSTART}.""".format(**self.return_default_substitutions())})
+        return gpt_messages
+
     def processImageAndWriteToFile(self):
-        print("Using the prompt: " + self.systemPrompt)
+        systemPromptSubstituted = self.prompt_config["systemPrompt"].format(**self.return_default_substitutions())
+        print("Using the prompt: " + systemPromptSubstituted)
         gpt_messages=[
-            {"role": "system", "content": self.systemPrompt}]
+            {"role": "system", "content": systemPromptSubstituted}]
+        prompt_addon_messages = self.returnPromptAddonMessages()
+        if prompt_addon_messages:
+            gpt_messages.extend(prompt_addon_messages)
+        print("gpt_messages: " + str(gpt_messages))
         gpt_messages.append({"role": "user", "content": [
             {
                 "type": "text",
@@ -86,7 +99,6 @@ class DefaultMealChat:
             }
         ]})
         
-        #print("gpt_messages: " + str(gpt_messages))
         print(f"sending additional user msg: {self.userMessagePrefix + self.userMessage}")
         chat_completion = openai.ChatCompletion.create(model="gpt-4-vision-preview",
                                                         messages=gpt_messages,
@@ -95,14 +107,20 @@ class DefaultMealChat:
         self.writeToFile(chat_completion)
 
     def processAndWriteToFile(self):
+        systemPromptSubstituted = self.prompt_config["systemPrompt"].format(**self.return_default_substitutions())
         # print the system prompt for debugging
-        print("Using the prompt: " + self.systemPrompt)
         gpt_messages=[
-            {"role": "system", "content": self.systemPrompt},
-            {"role": "user", "content": self.userMessagePrefix + self.userMessage}]
+            {"role": "system", "content": systemPromptSubstituted}]
+        prompt_addon_messages = self.returnPromptAddonMessages()
+        if prompt_addon_messages:
+            gpt_messages.extend(prompt_addon_messages)
+        gpt_messages.append(
+            {"role": "user", "content": self.userMessagePrefix + self.userMessage})
         print("gpt_messages: " + str(gpt_messages))
         chat_completion = openai.ChatCompletion.create(model="gpt-3.5-turbo-1106",
                                                         messages=gpt_messages,
-                                                        response_format={ "type":"json_object" },
+                                                        response_format={ "type":"text" },
+                                                        temperature=0.1,
+                                                        seed=1,
                                                         max_tokens=self.max_tokens)
         self.writeToFile(chat_completion)
