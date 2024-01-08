@@ -1,0 +1,71 @@
+{
+  "2024-01-08": [
+    {
+      "desc": "Gnocchi „Formaggio“ mit Käsesoße",
+      "price": 3.70
+    },
+    {
+      "desc": "Tomatencremesuppe mit Basilikum Pesto",
+      "price": 2.50
+    },
+    {
+      "desc": "Wurstgulasch mit fruchtiger Tomatensoße",
+      "price": 2.95
+    }
+  ],
+  "2024-01-09": [
+    {
+      "desc": "Kartoffelrösti mit Mediterranem Gemüse",
+      "price": 3.80
+    },
+    {
+      "desc": "Kräuterquark mit Kartoffeln und Butter",
+      "price": 2.50
+    },
+    {
+      "desc": "Ungarischer Kesselgulasch",
+      "price": 3.85
+    }
+  ],
+  "2024-01-10": [
+    {
+      "desc": "Schupfnudel-Pfanne mit Käsergemüse",
+      "price": 3.80
+    },
+    {
+      "desc": "Nudeln mit Tomatensoße und Käse",
+      "price": 2.50
+    },
+    {
+      "desc": "Schweineleber „Berliner Art“ mit Apfel und Zwiebel",
+      "price": 3.50
+    }
+  ],
+  "2024-01-11": [
+    {
+      "desc": "Ofengemüse mit Backkartoffeln und Kräutercreme",
+      "price": 4.50
+    },
+    {
+      "desc": "Kartoffelpuffer mit Zucker und Apfelmus",
+      "price": 2.50
+    },
+    {
+      "desc": "Schweineschnitzel „Wiener-Art“",
+      "price": 3.75
+    }
+  ],
+  "2024-01-12": [
+    {
+      "desc": "Gemüsebolognese mit Pasta",
+      "price": 3.50
+    },
+    {
+      "desc": "Eiergrog mit Gemüse der Saison und Kartoffeln",
+      "price": 2.50
+    },
+    {
+      "desc": "Tagesangebot"
+    }
+  ]
+}
