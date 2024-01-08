@@ -1,0 +1,66 @@
+{
+  "2024-01-08": [
+    {
+      "desc": "Putensteak \"Toskana\" mit Reis",
+      "price": 6.90
+    },
+    {
+      "desc": "Rührei, Kartoffeln, Rahmspinat",
+      "price": 6.90
+    }
+  ],
+  "2024-01-09": [
+    {
+      "desc": "Jägerschnitzel, Pasta, Tomatensauce",
+      "price": 6.90
+    },
+    {
+      "desc": "Blumenkohlschnitzel, Kartoffelstampf, Kräutersauce",
+      "price": 6.90
+    }
+  ],
+  "2024-01-10": [
+    {
+      "desc": "Rostbrät'l, Bratkartoffeln, Schmorzwiebeln",
+      "price": 6.90
+    },
+    {
+      "desc": "Nudelgratin mit Lachs und Brokkoli",
+      "price": 6.90
+    }
+  ],
+  "2024-01-11": [
+    {
+      "desc": "Rinderzunge, Mischgemüse und Kartoffeln dazu Meerrettichsoße",
+      "price": 6.90
+    },
+    {
+      "desc": "Quarkkeulchen mit Apfelmus, Z+Z",
+      "price": 6.90
+    }
+  ],
+  "2024-01-12": [
+    {
+      "desc": "Currywurst, Pommes",
+      "price": 6.90
+    },
+    {
+      "desc": "Kartoffelgratin mit Schafskäse",
+      "price": 6.90
+    }
+  ],
+  "2024-W02": [
+    {
+      "desc": "Spaghetti mit getrockneten Tomaten, Hirtenkäse & Rucola",
+      "price": 4.90
+    },
+    {
+      "desc": "Pasta in Shrimps- Sahnesoße",
+      "price": 4.90
+    },
+    {
+      "desc": "Farfalle mit Tomaten- Mozzarellasoße",
+      "price": 4.90
+    }
+  ]
+}
