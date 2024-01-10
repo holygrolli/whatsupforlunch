@@ -1,5 +1,1 @@
-{
-  "prompt_tokens": 1239,
-  "completion_tokens": 798,
-  "total_tokens": 2037
-}
+CompletionUsage(completion_tokens=646, prompt_tokens=1282, total_tokens=1928)

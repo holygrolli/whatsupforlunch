@@ -1,4 +1,5 @@
-import openai, sys
+from openai import OpenAI
+import sys
 from datetime import datetime, timedelta
 import base64
 import json
@@ -39,6 +40,17 @@ class DefaultMealChat:
         else:
             self.userMessage = userMessage
 
+    # return a string with a list of all the days of the current week based on the provided date string
+    def return_weekdays_from_date(self, date_string):
+        week_days = []
+        date = datetime.strptime(date_string, '%Y-%m-%d')
+        weekStart = date - timedelta(days=date.weekday())
+        for i in range(7):
+            weekday = (weekStart + timedelta(days=i)).strftime("%A")
+            day = (weekStart + timedelta(days=i)).strftime("%Y-%m-%d")
+            week_days.append(f"{weekday}({day})")
+        return f"{', '.join(week_days)}"
+        
     def return_default_substitutions(self):
         return {
             "MC_JSON_SCHEMA": self.prompt_config["jsonSchema"],
@@ -75,11 +87,15 @@ class DefaultMealChat:
 
     def returnPromptAddonMessages(self):
         gpt_messages = []
+        weekdaysExplicit = ""
+        if self.prompt_config["addCurrentWeekdays"]:
+            weekdaysExplicit = " containing the days " + self.return_weekdays_from_date(self.weekStart.strftime("%Y-%m-%d"))
         if self.prompt_config["addCurrentDate"]:
-            gpt_messages.append({"role": "user", "content": """Today is "Montag" {MC_TODAY} and calendar week {MC_WEEKSTART}.""".format(**self.return_default_substitutions())})
+            gpt_messages.append({"role": "user", "content": """Today is "Monday" {MC_TODAY} and calendar week {MC_WEEKSTART}{weekdaysExplicit}.""".format(**self.return_default_substitutions(),weekdaysExplicit=weekdaysExplicit)})
         return gpt_messages
 
     def processImageAndWriteToFile(self):
+        client = OpenAI()
         systemPromptSubstituted = self.prompt_config["systemPrompt"].format(**self.return_default_substitutions())
         print("Using the prompt: " + systemPromptSubstituted)
         gpt_messages=[
@@ -100,13 +116,14 @@ class DefaultMealChat:
         ]})
         
         print(f"sending additional user msg: {self.userMessagePrefix + self.userMessage}")
-        chat_completion = openai.ChatCompletion.create(model="gpt-4-vision-preview",
+        chat_completion = client.chat.completions.create(model="gpt-4-vision-preview",
                                                         messages=gpt_messages,
                                                         max_tokens=self.max_tokens)#,
                                                         #response_format={ "type":"json_object" })
         self.writeToFile(chat_completion)
 
     def processAndWriteToFile(self):
+        client = OpenAI()
         systemPromptSubstituted = self.prompt_config["systemPrompt"].format(**self.return_default_substitutions())
         # print the system prompt for debugging
         gpt_messages=[
@@ -117,7 +134,7 @@ class DefaultMealChat:
         gpt_messages.append(
             {"role": "user", "content": self.userMessagePrefix + self.userMessage})
         print("gpt_messages: " + str(gpt_messages))
-        chat_completion = openai.ChatCompletion.create(model="gpt-3.5-turbo-1106",
+        chat_completion = client.chat.completions.create(model="gpt-3.5-turbo-1106",
                                                         messages=gpt_messages,
                                                         response_format={ "type":"text" },
                                                         temperature=0.1,
