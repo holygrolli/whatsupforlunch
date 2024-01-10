@@ -40,6 +40,17 @@ class DefaultMealChat:
         else:
             self.userMessage = userMessage
 
+    # return a string with a list of all the days of the current week based on the provided date string
+    def return_weekdays_from_date(self, date_string):
+        week_days = []
+        date = datetime.strptime(date_string, '%Y-%m-%d')
+        weekStart = date - timedelta(days=date.weekday())
+        for i in range(7):
+            weekday = (weekStart + timedelta(days=i)).strftime("%A")
+            day = (weekStart + timedelta(days=i)).strftime("%Y-%m-%d")
+            week_days.append(f"{weekday}({day})")
+        return f"{', '.join(week_days)}"
+        
     def return_default_substitutions(self):
         return {
             "MC_JSON_SCHEMA": self.prompt_config["jsonSchema"],
@@ -76,8 +87,11 @@ class DefaultMealChat:
 
     def returnPromptAddonMessages(self):
         gpt_messages = []
+        weekdaysExplicit = ""
+        if self.prompt_config["addCurrentWeekdays"]:
+            weekdaysExplicit = " containing the days " + self.return_weekdays_from_date(self.weekStart.strftime("%Y-%m-%d"))
         if self.prompt_config["addCurrentDate"]:
-            gpt_messages.append({"role": "user", "content": """Today is "Montag" {MC_TODAY} and calendar week {MC_WEEKSTART}.""".format(**self.return_default_substitutions())})
+            gpt_messages.append({"role": "user", "content": """Today is "Monday" {MC_TODAY} and calendar week {MC_WEEKSTART}{weekdaysExplicit}.""".format(**self.return_default_substitutions(),weekdaysExplicit=weekdaysExplicit)})
         return gpt_messages
 
     def processImageAndWriteToFile(self):
