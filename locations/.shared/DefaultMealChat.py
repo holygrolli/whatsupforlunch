@@ -1,4 +1,5 @@
-import openai, sys
+from openai import OpenAI
+import sys
 from datetime import datetime, timedelta
 import base64
 import json
@@ -80,6 +81,7 @@ class DefaultMealChat:
         return gpt_messages
 
     def processImageAndWriteToFile(self):
+        client = OpenAI()
         systemPromptSubstituted = self.prompt_config["systemPrompt"].format(**self.return_default_substitutions())
         print("Using the prompt: " + systemPromptSubstituted)
         gpt_messages=[
@@ -100,13 +102,14 @@ class DefaultMealChat:
         ]})
         
         print(f"sending additional user msg: {self.userMessagePrefix + self.userMessage}")
-        chat_completion = openai.ChatCompletion.create(model="gpt-4-vision-preview",
+        chat_completion = client.chat.completions.create(model="gpt-4-vision-preview",
                                                         messages=gpt_messages,
                                                         max_tokens=self.max_tokens)#,
                                                         #response_format={ "type":"json_object" })
         self.writeToFile(chat_completion)
 
     def processAndWriteToFile(self):
+        client = OpenAI()
         systemPromptSubstituted = self.prompt_config["systemPrompt"].format(**self.return_default_substitutions())
         # print the system prompt for debugging
         gpt_messages=[
@@ -117,7 +120,7 @@ class DefaultMealChat:
         gpt_messages.append(
             {"role": "user", "content": self.userMessagePrefix + self.userMessage})
         print("gpt_messages: " + str(gpt_messages))
-        chat_completion = openai.ChatCompletion.create(model="gpt-3.5-turbo-1106",
+        chat_completion = client.chat.completions.create(model="gpt-3.5-turbo-1106",
                                                         messages=gpt_messages,
                                                         response_format={ "type":"text" },
                                                         temperature=0.1,
