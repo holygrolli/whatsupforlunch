@@ -32,5 +32,5 @@ prompt_config = {
     ]
   }""",
   "addCurrentDate": True,
-  "addCurrentWeekdays": False
+  "addCurrentWeekdays": True
 }
