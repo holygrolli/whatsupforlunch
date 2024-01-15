@@ -31,5 +31,6 @@ prompt_config = {
       }
     ]
   }""",
-  "addCurrentDate": True
+  "addCurrentDate": True,
+  "addCurrentWeekdays": False
 }
