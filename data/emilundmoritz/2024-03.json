@@ -1,5 +1,5 @@
 {
-  "2024-01-16": [
+  "2024-01-15": [
     {
       "desc": "Hühnerfrikassee dazu Reis",
       "price": 6.90
@@ -9,7 +9,7 @@
       "price": 6.90
     }
   ],
-  "2024-01-17": [
+  "2024-01-16": [
     {
       "desc": "Schweineschnitzel \"Ungarisch\" mit Bratkartoffeln",
       "price": 6.90
@@ -19,7 +19,7 @@
       "price": 6.90
     }
   ],
-  "2024-01-18": [
+  "2024-01-17": [
     {
       "desc": "Kohlroulade mit Kümmelsoße und Kartoffeln",
       "price": 6.90
@@ -29,13 +29,23 @@
       "price": 6.90
     }
   ],
-  "2024-01-19": [
+  "2024-01-18": [
     {
       "desc": "Schweinebraten, Rosenkohl mit Semmelbrösel dazu Salzkartoffeln",
       "price": 6.90
     },
     {
       "desc": "gebratenes Seelachsfilet mit Gurkengemüse und Kartoffelstampf",
+      "price": 6.90
+    }
+  ],
+  "2024-01-19": [
+    {
+      "desc": "Geschnetzeltes vom Schwein mit Champignons, Spätzle",
+      "price": 6.90
+    },
+    {
+      "desc": "Gemüsestrudel mit Spinat und Frischkäse",
       "price": 6.90
     }
   ],
