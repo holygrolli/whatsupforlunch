@@ -1,0 +1,52 @@
+{
+  "2024-01-08": [
+    {
+      "desc": "Schnitzel \"Wiener Art\" mit Kartoffel-Gurken-Salat",
+      "price": 7.90
+    },
+    {
+      "desc": "Allgäuer Käsespätzle mit Röstzwiebeln",
+      "price": 7.90
+    }
+  ],
+  "2024-01-09": [
+    {
+      "desc": "Hühner-Eintopf mit Gemüse und Nudeln",
+      "price": 7.90
+    },
+    {
+      "desc": "Bunter Gemüse-Eintopf mit Nudeln",
+      "price": 7.90
+    }
+  ],
+  "2024-01-10": [
+    {
+      "desc": "Fleischpflanzerl mit Letscho und Kartoffelpüree",
+      "price": 7.90
+    },
+    {
+      "desc": "Rahmspinat mit Rührei und Kartoffelpüree",
+      "price": 7.90
+    }
+  ],
+  "2024-01-11": [
+    {
+      "desc": "Putencurry mit Gemüse und Reis",
+      "price": 7.90
+    },
+    {
+      "desc": "Buntes Gemüsecurry mit Reis",
+      "price": 7.90
+    }
+  ],
+  "2024-01-12": [
+    {
+      "desc": "Backfisch auf Kartoffel-Gurken-Salat mit Remoulade",
+      "price": 7.90
+    },
+    {
+      "desc": "Kaiserschmarrn mit Apfelmus",
+      "price": 7.90
+    }
+  ]
+}
