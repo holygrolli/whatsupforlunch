@@ -1,0 +1,60 @@
+{
+  "2024-01-16": [
+    {
+      "desc": "Schweineschnitzel gefüllt mit Schinken und Käse, dazu Rahmerbsen, Salzkartoffeln und braune Sauce",
+      "price": 8.90
+    },
+    {
+      "desc": "Eier in Senfsauce, dazu Salzkartoffeln und Gurkensalat (veget.)",
+      "price": 8.70
+    }
+  ],
+  "2024-01-17": [
+    {
+      "desc": "Königsberger Klopse in Kapernsauce, dazu Kartoffelstampf und Krautsalat",
+      "price": 8.90
+    },
+    {
+      "desc": "Gebratener Blumenkohl mit Sc. Hollandaise und Salzkartoffeln, dazu Tomatensalat (veget.)",
+      "price": 8.70
+    }
+  ],
+  "2024-01-18": [
+    {
+      "desc": "Jägerschnitzel mit Tomatensauce, dazu Pasta und Gouda",
+      "price": 8.90
+    },
+    {
+      "desc": "Gebackener Hirtenkäse auf Thaicurry mit buntem Gemüse und Kokosmilch (veget.)",
+      "price": 8.70
+    }
+  ],
+  "2024-01-19": [
+    {
+      "desc": "Gebratenes Seelachsfiletmit pikantem Karotten-Pastinakengemüse, dazu Kartoffelstampf und Zitronenbuttersauce",
+      "price": 8.90
+    }
+  ],
+  "2024-W03": [
+    {
+      "desc": "Pasta mit Paprika-Chili-Pesto, dazu geröstete Sonnenblumenkerne und Parmesan (veget.)",
+      "price": 9.80
+    },
+    {
+      "desc": "Lasagne Waldpilzlasagne mit Röstzwiebeln, überbacken mit Mozzarella (veget.)",
+      "price": 10.50
+    },
+    {
+      "desc": "Lasagne \"Bolognese\" überbacken mit Gouda",
+      "price": 10.90
+    },
+    {
+      "desc": "Gratin Gebratene Hähnchenbrust auf Kürbis-Kartoffelgratin mit Zucchini, überbacken mit Mozzarella & Mandeln",
+      "price": 10.50
+    },
+    {
+      "desc": "Suppe Hühnernudelsuppe mit Wurzelgemüse und Baguette",
+      "price": 6.90
+    }
+  ]
+}
