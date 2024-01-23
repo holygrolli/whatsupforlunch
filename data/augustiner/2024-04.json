@@ -1,0 +1,52 @@
+{
+  "2024-01-22": [
+    {
+      "desc": "Schnitzel \"Wiener Art\" mit Kartoffel-Gurken-Salat",
+      "price": 7.90
+    },
+    {
+      "desc": "Allgäuer Käsespätzle mit Röstzwiebeln",
+      "price": 7.90
+    }
+  ],
+  "2024-01-23": [
+    {
+      "desc": "Hähnchengeschnetzeltes \"Zürcher Art\" mit Kartoffelrösti",
+      "price": 7.90
+    },
+    {
+      "desc": "Gnocchi mit Kirschtomaten und Rucola in Parmesan-Rahmsauce",
+      "price": 7.90
+    }
+  ],
+  "2024-01-24": [
+    {
+      "desc": "Kasslerbraten mit Sauerkraut und Salzkartoffeln",
+      "price": 7.90
+    },
+    {
+      "desc": "Kraut-Schupfnudelpfanne mit Röstzwiebeln",
+      "price": 7.90
+    }
+  ],
+  "2024-01-25": [
+    {
+      "desc": "Linsen-Eintopf mit Wiener Würstchen",
+      "price": 7.90
+    },
+    {
+      "desc": "Vegetarischer Linsen-Eintopf mit Gemüse",
+      "price": 7.90
+    }
+  ],
+  "2024-01-26": [
+    {
+      "desc": "Backfisch auf Kartoffel-Gurken-Salat mit Remoulade",
+      "price": 7.90
+    },
+    {
+      "desc": "Kaiserschmarrn mit Apfelmus",
+      "price": 7.90
+    }
+  ]
+}
