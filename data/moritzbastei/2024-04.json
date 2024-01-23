@@ -1,0 +1,61 @@
+{
+  "2024-01-22": [],
+  "2024-01-23": [
+    {
+      "desc": "Schweineschnitzel mit Spiegelei und Bratkartoffeln, dazu Tomatensalat",
+      "price": 8.90
+    },
+    {
+      "desc": "Waldpilzgulasch mit Kräuterspätzle (veget.)",
+      "price": 8.70
+    }
+  ],
+  "2024-01-24": [
+    {
+      "desc": "Jägerklopse mit Champignons, dazu Kartoffelstampf und Krautsalat",
+      "price": 8.90
+    },
+    {
+      "desc": "Auberginenschnitzel in Parmesan-Panade, dazu pikante Tomatensoße und Pasta",
+      "price": 8.70
+    }
+  ],
+  "2024-01-25": [
+    {
+      "desc": "Gebackene Hähnchenbrust in Sesam-Panade, dazu gebratene Mie-Nudeln mit buntem Gemüse, Sweet-Chilisoße und Röstzwiebeln",
+      "price": 8.90
+    },
+    {
+      "desc": "Mediterrane Gemüsebolognese, u.a. mit Zucchini, Paprika, Aubergine, dazu Pasta und Parmesan",
+      "price": 8.70
+    }
+  ],
+  "2024-01-26": [
+    {
+      "desc": "Gebackenes Seelachsfilet mit Remoulade, Salzkartoffeln und Gurkensalat",
+      "price": 8.90
+    }
+  ],
+  "2024-W04": [
+    {
+      "desc": "Pasta mit Karotten-Ingwer-Pesto, dazu geröstete Haselnüsse und Parmesan",
+      "price": 9.80
+    },
+    {
+      "desc": "Lasagne Kürbislasagne überbacken mit Mozzarella und Mandeln",
+      "price": 10.50
+    },
+    {
+      "desc": "Lasagne Bolognese überbacken mit Gouda",
+      "price": 10.90
+    },
+    {
+      "desc": "Gratin Süßkartoffel-Hackfleischgratin mit Bohnen, überbacken mit Hirtenkäse",
+      "price": 10.50
+    },
+    {
+      "desc": "Suppe Linseneintopf mit Kasseler und Baguette",
+      "price": 6.90
+    }
+  ]
+}
