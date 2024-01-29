@@ -1,0 +1,66 @@
+{
+  "2024-01-29": [
+    {
+      "desc": "Kasslersteak mit Spiegelei und Bratkartoffeln",
+      "price": 6.90
+    },
+    {
+      "desc": "Spiegelei, Gurkensalat und Bratkartoffeln",
+      "price": 6.90
+    }
+  ],
+  "2024-01-30": [
+    {
+      "desc": "Schweineschnitzel, Tomaten-Paprikasoße, Reis",
+      "price": 6.90
+    },
+    {
+      "desc": "Farfalle mit Zucchini-Paprika und Tomatenpesto",
+      "price": 6.90
+    }
+  ],
+  "2024-01-31": [
+    {
+      "desc": "Hackbraten, Mischgemüse und Kartoffeln",
+      "price": 6.90
+    },
+    {
+      "desc": "Kaiserschmarrn, mit Zimtpflaumen",
+      "price": 6.90
+    }
+  ],
+  "2024-02-01": [
+    {
+      "desc": "Jägerschnitzel, Tomatensoße und Spirelli",
+      "price": 6.90
+    },
+    {
+      "desc": "Nudelauflauf mit Brokkoli und Kirschtomaten",
+      "price": 6.90
+    }
+  ],
+  "2024-02-02": [
+    {
+      "desc": "Hähnchengeschnetzeltes mit Erbsen und Spätzle",
+      "price": 6.90
+    },
+    {
+      "desc": "Schupfnudelpfanne mit Champignons, Zucchini und Rahmsoße",
+      "price": 6.90
+    }
+  ],
+  "2024-W05": [
+    {
+      "desc": "Spaghetti Cabonara",
+      "price": 4.90
+    },
+    {
+      "desc": "Penne mit Spinat-Gorgonzola",
+      "price": 4.90
+    },
+    {
+      "desc": "Spaghetti mit Lachs-Dillsoße und Erbsen",
+      "price": 4.90
+    }
+  ]
+}
