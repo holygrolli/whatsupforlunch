@@ -1,0 +1,66 @@
+{
+  "2024-02-05": [
+    {
+      "desc": "gebr. Leberkäse mit Bayrischkraut und Kartoffeln",
+      "price": 6.90
+    },
+    {
+      "desc": "Kartoffeln und Kräuterquark, kleiner Salat",
+      "price": 6.90
+    }
+  ],
+  "2024-02-06": [
+    {
+      "desc": "Putenschnitzel, Mischgemüse dazu Reis und Rahmsoße",
+      "price": 6.90
+    },
+    {
+      "desc": "Gnocchipfanne mit Gemüse und Rahmsoße",
+      "price": 6.90
+    }
+  ],
+  "2024-02-07": [
+    {
+      "desc": "Schweinebraten an Rosenkohl und Semmelknödel",
+      "price": 6.90
+    },
+    {
+      "desc": "gebr. Semmelknödel mit Rahmpilzen",
+      "price": 6.90
+    }
+  ],
+  "2024-02-08": [
+    {
+      "desc": "Sülze an Hausfrauensoße und Bratkartoffeln",
+      "price": 6.90
+    },
+    {
+      "desc": "Milchreis mit Kirschen und Z+Z",
+      "price": 6.90
+    }
+  ],
+  "2024-02-09": [
+    {
+      "desc": "Königsberger Klöpse an Kapernsoße mit Kartoffeln",
+      "price": 6.90
+    },
+    {
+      "desc": "Rührei, Rahmspinat und Kartoffeln",
+      "price": 6.90
+    }
+  ],
+  "2024-W06": [
+    {
+      "desc": "Spaghetti Bolognese",
+      "price": 4.90
+    },
+    {
+      "desc": "Pasta mit Gulasch",
+      "price": 4.90
+    },
+    {
+      "desc": "Spaghetti mit gebr. Garnelen und Zitronensoße",
+      "price": 4.90
+    }
+  ]
+}
