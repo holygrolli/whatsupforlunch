@@ -1,0 +1,65 @@
+{
+  "2024-02-05": [],
+  "2024-02-06": [
+    {
+      "desc": "Schweineschnitzel \"Gärtnerin\", überbacken mit Gemüse und Sc. Hollandaise, dazu Bratkartoffeln",
+      "price": 9.80
+    },
+    {
+      "desc": "Cannelloni gefüllt mit Hirtenkäse in pikanter Tomatensoße, überbacken mit Gouda (veget.)",
+      "price": 9.20
+    }
+  ],
+  "2024-02-07": [
+    {
+      "desc": "Gebackene Hähnchenbrust in Nachopanade, auf buntem Grillgemüse mit Tomatensalsa",
+      "price": 9.80
+    },
+    {
+      "desc": "Risotto-Bällchen auf pikantem Kürbisragout (veget.)",
+      "price": 9.20
+    }
+  ],
+  "2024-02-08": [
+    {
+      "desc": "Currywurst \"Nach Art des Hauses\", dazu Kartoffelecken und Salatbeilage",
+      "price": 9.50
+    },
+    {
+      "desc": "Zucchini-Limetten-Tagliatelle mit gerösteten Sonnenblumenkernen und Parmesan (veget.)",
+      "price": 9.20
+    }
+  ],
+  "2024-02-09": [
+    {
+      "desc": "Gebratenes Seelachsfilet, dazu Erbsen-Minzpürree, Zitronensoße und Süßkartoffelecken",
+      "price": 9.90
+    }
+  ],
+  "2024-W06": [
+    {
+      "desc": "Pasta mit Petersilien-Macadamia-Pesto, dazu Kirschtomaten und Parmesan (veget.)",
+      "price": 10.90
+    },
+    {
+      "desc": "Lasagne Fenchel-Tomaten-Lasagne überbacken mit Mozzarella un Sesam (veget.)",
+      "price": 12.40
+    },
+    {
+      "desc": "Lasagne \"Bolognese\" überbacken mit Gouda",
+      "price": 12.90
+    },
+    {
+      "desc": "Gratin Hähnchen-Nudelgratin mit Champignons, Lauch und Tomaten, überbacken mit Gouda",
+      "price": 12.90
+    },
+    {
+      "desc": "Kartoffelsuppe mit Baguette (vegan)",
+      "price": 6.90
+    },
+    {
+      "desc": "mit gebratenen Würstchen und Baguette",
+      "price": 7.90
+    }
+  ]
+}
