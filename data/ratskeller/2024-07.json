@@ -1,0 +1,92 @@
+{
+  "2024-02-12": [
+    {
+      "desc": "Sächsische Kartoffelsuppe mit Majoran und Bockwurst",
+      "price": 5.60
+    },
+    {
+      "desc": "Kürbis-Kartoffel-Rösti mit Kräuterquark und Salat",
+      "price": 6.10
+    },
+    {
+      "desc": "Hähnchencurry mit Süßkartoffel, Kichererbsen und Reis",
+      "price": 6.70
+    },
+    {
+      "desc": "Farfalle, veganer 'Thunfisch', Rucola und Tomatensoße",
+      "price": 8.00
+    }
+  ],
+  "2024-02-13": [
+    {
+      "desc": "Drei Hefeklöße mit warmen Heidelbeeren",
+      "price": 5.60
+    },
+    {
+      "desc": "Pasta mit Tomatensoße und geriebenem Käse",
+      "price": 6.10
+    },
+    {
+      "desc": "Pasta mit Wurstgulasch und geriebenem Käse",
+      "price": 6.70
+    },
+    {
+      "desc": "Ofenbrot mit Räucherlachs, Honig-Senf-Dip und Salat",
+      "price": 8.00
+    }
+  ],
+  "2024-02-14": [
+    {
+      "desc": "Tomatencremesuppe mit Basilikum-Pesto und Croûtons",
+      "price": 5.60
+    },
+    {
+      "desc": "Süßkartoffel-Spinat-Frikadelle mit Salat und Kräuterquark-Kroketten",
+      "price": 6.10
+    },
+    {
+      "desc": "Thüringer Bratwurst mit Sauerkraut und Petersilienkartoffeln",
+      "price": 6.70
+    },
+    {
+      "desc": "Halloumi-Wrap mit Tomate, Gurke, Couscous und Joghurt",
+      "price": 8.00
+    }
+  ],
+  "2024-02-15": [
+    {
+      "desc": "Marillenknödel mit Vanillesoße",
+      "price": 5.60
+    },
+    {
+      "desc": "Pasta mit Tomatensoße und geriebenem Käse",
+      "price": 6.10
+    },
+    {
+      "desc": "Kohlroulade mit Krautsoße und Petersilienkartoffeln",
+      "price": 6.70
+    },
+    {
+      "desc": "Überraschungs-Gericht mit BIO-Gemüse von KOLA Leipzig",
+      "price": 8.00
+    }
+  ],
+  "2024-02-16": [
+    {
+      "desc": "Tom kha kai - Suppe mit Ingwer, Zitronengras und Kokosmilch",
+      "price": 5.60
+    },
+    {
+      "desc": "Walnusslasagne mit Feta, Zucchini und Thymian",
+      "price": 6.10
+    },
+    {
+      "desc": "Currywurst mit Fruchtpikante Soße, dazu Kartoffelecken",
+      "price": 6.70
+    },
+    {
+      "desc": "Gebackenes Rotbarschfilet auf Ratatouille und bunten Gnocchi",
+      "price": 8.00
+    }
+  ]
+}
