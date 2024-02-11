@@ -1,0 +1,92 @@
+{
+  "2024-03-18": [
+    {
+      "desc": "Hausgemachter Linseneintopf mit Blutwurstwürfeln",
+      "price": 5.60
+    },
+    {
+      "desc": "Kürbis-Steckrüben-Frikadelle mit buntem Gemüse und Kräuterreis",
+      "price": 6.10
+    },
+    {
+      "desc": "Schweinesteak mit geschmorten Zwiebeln und Kartoffelstampf",
+      "price": 6.70
+    },
+    {
+      "desc": "Greek-Bowl mit Halloumi, Oliven, Tomaten, Zwiebeln und Couscous",
+      "price": 7.50
+    }
+  ],
+  "2024-03-19": [
+    {
+      "desc": "Eierkuchen mit Rhabarber-Kompott und Vanillesoße",
+      "price": 5.60
+    },
+    {
+      "desc": "Pasta mit Tomatensoße und geriebenem Käse",
+      "price": 6.10
+    },
+    {
+      "desc": "Jägerschnitzel mit Tomatensoße und Pasta",
+      "price": 6.70
+    },
+    {
+      "desc": "Graupenrisotto mit Möhren, Wirsing und Lauch",
+      "price": 7.50
+    }
+  ],
+  "2024-03-20": [
+    {
+      "desc": "Gräupchen-Eintopf mit Kasslerwürfeln",
+      "price": 5.60
+    },
+    {
+      "desc": "Schweizer Kartoffelrösti mit Kräutercreme und buntem Salat",
+      "price": 6.10
+    },
+    {
+      "desc": "Hühnerfrikassee mit Erbsen, Karotten und Butterreis",
+      "price": 6.70
+    },
+    {
+      "desc": "Orecchiette mit Gorgonzola-Spinat-Soße und Mandeln",
+      "price": 8.00
+    }
+  ],
+  "2024-03-21": [
+    {
+      "desc": "Milchreis mit Apfelmus und Zimtzucker",
+      "price": 5.60
+    },
+    {
+      "desc": "Pasta mit Tomatensoße und geriebenem Käse",
+      "price": 6.10
+    },
+    {
+      "desc": "Schweine-Geschnetzeltes \"Stroganoff\" mit Pilzen, Bete und Reis",
+      "price": 6.70
+    },
+    {
+      "desc": "Gemüse-Stäbchen auf Orangenspitzkohl und Selleriepüree",
+      "price": 8.00
+    }
+  ],
+  "2024-03-22": [
+    {
+      "desc": "Karotten-Ingwer-Suppe mit Orange und Croûtons",
+      "price": 5.60
+    },
+    {
+      "desc": "Tortellini-Gratin mit Ricotta, Spinat und Lauch",
+      "price": 6.10
+    },
+    {
+      "desc": "Rackfisch mit Beurre-Blanc-Soße und Petersilienkartoffeln",
+      "price": 6.70
+    },
+    {
+      "desc": "Sauerbraten vom Schwein mit Apfelrotkohl und Kartoffelklößen",
+      "price": 8.50
+    }
+  ]
+}

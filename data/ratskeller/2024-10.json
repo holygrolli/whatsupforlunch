@@ -1,0 +1,72 @@
+{
+  "2024-03-04": [
+    {
+      "desc": "Soljanka mit Zitrone und Sauerrahm",
+      "price": 5.60
+    },
+    {
+      "desc": "Gemüseschnitzel mit Buttererbsen und Kräuterreis",
+      "price": 6.10
+    },
+    {
+      "desc": "Züricher Schweinegeschnetzeltes mit Pilzen, dazu Spätzle",
+      "price": 6.70
+    }
+  ],
+  "2024-03-05": [
+    {
+      "desc": "Kaiserschmarrn mit Rosinen, Mandeln und Apfelmus",
+      "price": 5.60
+    },
+    {
+      "desc": "Pasta mit Tomatensoße und geriebenem Käse",
+      "price": 6.10
+    },
+    {
+      "desc": "Pasta mit Wurstgulasch und geriebenem Käse",
+      "price": 6.70
+    }
+  ],
+  "2024-03-06": [
+    {
+      "desc": "Erbseneintopf mit Bockwurst und Kartoffelwürfeln",
+      "price": 5.60
+    },
+    {
+      "desc": "Quinoa-Rote-Bete-Rindkotelett auf Rahmpolenta und Kräuterreis",
+      "price": 6.10
+    },
+    {
+      "desc": "Grützwurst mit Sauerkraut und Petersilienkartoffeln",
+      "price": 6.70
+    }
+  ],
+  "2024-03-07": [
+    {
+      "desc": "Germknödel mit Schokoladenfüllung und Vanillesoße",
+      "price": 5.60
+    },
+    {
+      "desc": "Pasta mit Tomatensoße und geriebenem Käse",
+      "price": 6.10
+    },
+    {
+      "desc": "Paprikaschote mit Hackfleischfüllung, dazu Tomatensoße und Spätzle",
+      "price": 6.70
+    }
+  ],
+  "2024-03-08": [
+    {
+      "desc": "Weiße Bohnensuppe mit Steckrübe und Liebstöckel",
+      "price": 5.60
+    },
+    {
+      "desc": "Fusilli mit Brokkoli-Käse-Sahnesoße",
+      "price": 6.10
+    },
+    {
+      "desc": "Moussaka mit Hackfleisch, Feta, Aubergine und Kartoffeln",
+      "price": 6.70
+    }
+  ]
+}
