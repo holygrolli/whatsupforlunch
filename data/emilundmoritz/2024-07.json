@@ -1,0 +1,62 @@
+{
+  "2024-02-12": [
+    {
+      "desc": "Hühnerfrikassee mit Reis",
+      "price": 6.90
+    },
+    {
+      "desc": "Tortellini in Avocadorahm und gebr. Cherrytomaten",
+      "price": 6.90
+    }
+  ],
+  "2024-02-13": [
+    {
+      "desc": "Putenschnitzel mit Rahmkarotten und Kartoffelwedges",
+      "price": 6.90
+    },
+    {
+      "desc": "Hefeklöße mit Pflaumen",
+      "price": 6.90
+    }
+  ],
+  "2024-02-14": [
+    {
+      "desc": "Paprikaschoten mit Hackfleisch, Tomatensoße und Kartoffeln",
+      "price": 6.90
+    },
+    {
+      "desc": "Paprikaschoten mit Couscous und Tomatensoße",
+      "price": 6.90
+    }
+  ],
+  "2024-02-15": [
+    {
+      "desc": "Mutzbraten an Sauerkraut und Klöße",
+      "price": 6.90
+    },
+    {
+      "desc": "Kartoffel- Lachsgratin",
+      "price": 6.90
+    }
+  ],
+  "2024-02-16": [
+    {
+      "desc": "Schweinegeschnetzeltes \"Züricher Art\" mit Spätzle",
+      "price": 6.90
+    },
+    {
+      "desc": "Lasagne Ratatouille",
+      "price": 6.90
+    }
+  ],
+  "2024-W07": [
+    {
+      "desc": "Hühnerfrikassee mit Reis",
+      "price": 6.90
+    },
+    {
+      "desc": "Tortellini in Avocadorahm und gebr. Cherrytomaten",
+      "price": 6.90
+    }
+  ]
+}
