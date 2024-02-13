@@ -1,0 +1,61 @@
+{
+  "2024-02-12": [],
+  "2024-02-13": [
+    {
+      "desc": "Schweineschnitzel mit Rahmblumenkohl, Salzkartoffeln und brauner Soße",
+      "price": 9.80
+    },
+    {
+      "desc": "Gnocchi in Basilikumsoße mit getrockneten Tomaten, dazu Parmesan und Sonnenblumenkerne (veget.)",
+      "price": 9.20
+    }
+  ],
+  "2024-02-14": [
+    {
+      "desc": "Hähnchencurry mit buntem Gemüse in Kokossoße, dazu Basmatireis",
+      "price": 9.80
+    },
+    {
+      "desc": "Zucchinitöpfchen gefüllt mit Gemüse-Ricotta, dazu Tomatensoße und Kräuterreis (veget.)",
+      "price": 9.20
+    }
+  ],
+  "2024-02-15": [
+    {
+      "desc": "Gyros mit Kartoffelecken, Tzatziki und Krautsalat",
+      "price": 9.50
+    },
+    {
+      "desc": "Brokkoli in Kichererbsenbackteig auf rotem Linsencurry mit Paprika und Lauchzwiebeln (vegan)",
+      "price": 9.20
+    }
+  ],
+  "2024-02-16": [
+    {
+      "desc": "Gedünstetes Seelachsfilet auf Kartoffel-Lauchgratin, überbacken mit Gouda",
+      "price": 9.90
+    }
+  ],
+  "2024-W07": [
+    {
+      "desc": "Pasta mit Erdnuss-Chili-Pesto und Parmesan (veget.)",
+      "price": 10.90
+    },
+    {
+      "desc": "Lasagne \"Al Pesto\" mit Brokkoli, Waldpilzen und Kräuterpesto, überbacken mit Mozzarella (veget.)",
+      "price": 12.40
+    },
+    {
+      "desc": "Lasagne \"Bolognese\" überbacken mit Gouda",
+      "price": 12.90
+    },
+    {
+      "desc": "Gebratene Hähnchenbrust auf Süßkartofel-Spinatgratin überbacken mit Mozzarella",
+      "price": 12.90
+    },
+    {
+      "desc": "Sojakesselgulasch mit Baguette (vegan)",
+      "price": 6.90
+    }
+  ]
+}
