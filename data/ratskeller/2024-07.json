@@ -13,7 +13,7 @@
       "price": 6.70
     },
     {
-      "desc": "Farfalle, veganer 'Thunfisch', Rucola und Tomatensoße",
+      "desc": "Farfalle, veganer Thunfisch, Rucola und Tomatensoße",
       "price": 8.00
     }
   ],
@@ -41,7 +41,7 @@
       "price": 5.60
     },
     {
-      "desc": "Süßkartoffel-Spinat-Frikadelle mit Salat und Kräuterquark-Kroketten",
+      "desc": "Süßkartoffel-Spinat-Frikadelle mit Salat und Kartoffelkroketten",
       "price": 6.10
     },
     {
@@ -77,15 +77,15 @@
       "price": 5.60
     },
     {
-      "desc": "Walnusslasagne mit Feta, Zucchini und Thymian",
+      "desc": "Wildpilzlasagne mit Feta, Lauch und Thymian",
       "price": 6.10
     },
     {
-      "desc": "Currywurst mit Fruchtpikante Soße, dazu Kartoffelecken",
+      "desc": "Currywurst mit fruchtig-pikanter Soße, dazu Kartoffelecken",
       "price": 6.70
     },
     {
-      "desc": "Gebackenes Rotbarschfilet auf Ratatouille und bunten Gnocchi",
+      "desc": "Gebäckenes Rotbarschfilet auf Ratatouille und bunten Gnocchi",
       "price": 8.00
     }
   ]
