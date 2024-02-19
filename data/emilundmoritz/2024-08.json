@@ -1,0 +1,66 @@
+{
+  "2024-02-19": [
+    {
+      "desc": "Schnitzel Schwein, Mischgemüse, Kartoffeln, Sauce",
+      "price": 6.90
+    },
+    {
+      "desc": "Schitzel Zucchini, Blumenkohl, Kartoffeln, Kräutersauce",
+      "price": 6.90
+    }
+  ],
+  "2024-02-20": [
+    {
+      "desc": "Schweinegulasch, Rotkohl, Kartoffeln",
+      "price": 6.90
+    },
+    {
+      "desc": "Gulasch vegan, Rotkohl, Knödel",
+      "price": 6.90
+    }
+  ],
+  "2024-02-21": [
+    {
+      "desc": "Putensteak, Rahmchampignons, Kartoffel",
+      "price": 6.90
+    },
+    {
+      "desc": "Kartoffel Gemüse Pfanne Paprika, Zucchini, Rucola",
+      "price": 6.90
+    }
+  ],
+  "2024-02-22": [
+    {
+      "desc": "Hackbraten, Erbsen, Kartoffeln, Sauce",
+      "price": 6.90
+    },
+    {
+      "desc": "Spinat, Rührei, Kartoffeln",
+      "price": 6.90
+    }
+  ],
+  "2024-02-23": [
+    {
+      "desc": "Fischstäbchen, Kartoffelbrei, Mais, Sauce",
+      "price": 6.90
+    },
+    {
+      "desc": "Kartoffel Brokkoli Auflauf",
+      "price": 6.90
+    }
+  ],
+  "2024-W08": [
+    {
+      "desc": "Pasta mit Fleischbällchen und Ricotta",
+      "price": 4.90
+    },
+    {
+      "desc": "Pasta mit Lachsstücken+Erbsenmus",
+      "price": 4.90
+    },
+    {
+      "desc": "Pasta Arabiatta",
+      "price": 4.90
+    }
+  ]
+}
