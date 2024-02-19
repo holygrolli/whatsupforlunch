@@ -1,0 +1,68 @@
+{
+  "2023-02-20": [
+    {
+      "desc": "Gemüsebolognese mit Pasta",
+      "price": 3.50
+    },
+    {
+      "desc": "Linseneintopf mit Kartoffeln",
+      "price": 2.50
+    },
+    {
+      "desc": "Kohlroulade mit Bratensoße",
+      "price": 3.75
+    }
+  ],
+  "2023-02-21": [
+    {
+      "desc": "Salzkartoffeln mit Rahmspinat & Rührei",
+      "price": 3.90
+    },
+    {
+      "desc": "Kräuterquark mit Kartoffeln und Butter",
+      "price": 2.50
+    },
+    {
+      "desc": "Tiegelwurst mit Majoran und Zwiebeln",
+      "price": 3.90
+    }
+  ],
+  "2023-02-22": [
+    {
+      "desc": "Gemüsebrühe mit zweierlei Maultaschen und verschiedenem Gemüse",
+      "price": 3.20
+    },
+    {
+      "desc": "Gräupcheneintopf mit Kasslerwürfel",
+      "price": 2.50
+    },
+    {
+      "desc": "Spinat-Hackfleischpfanne mit Joghurt und Kartoffeln",
+      "price": 3.90
+    }
+  ],
+  "2023-02-23": [
+    {
+      "desc": "Brokkoli-Kartoffel-Auflauf",
+      "price": 3.50
+    },
+    {
+      "desc": "Hefeklöße mit Pflaumen",
+      "price": 2.50
+    },
+    {
+      "desc": "Schweinegeschnetzeltes „Jäger Art“",
+      "price": 3.85
+    }
+  ],
+  "2023-02-24": [
+    {
+      "desc": "Rote-Linsen-Lasagne",
+      "price": 4.25
+    },
+    {
+      "desc": "Zwei Eier in Senfsoße mit Kartoffeln",
+      "price": 2.50
+    }
+  ]
+}
