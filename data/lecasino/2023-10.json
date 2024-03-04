@@ -37,7 +37,7 @@
       "price": 2.50
     },
     {
-      "desc": "Schweineleber „Berliner Art” mit Apfel und Zwiebeln",
+      "desc": "Schweineleber „Berliner Art“ mit Apfel und Zwiebel",
       "price": 3.50
     }
   ],
@@ -47,11 +47,11 @@
       "price": 4.50
     },
     {
-      "desc": "Kartoffelpuffer mit Zuckerrüben und Apfelmus",
+      "desc": "Kartoffelpuffer mit Zucker und Apfelmus",
       "price": 2.50
     },
     {
-      "desc": "Schweineschnitzel „Wiener-Art”",
+      "desc": "Schweineschnitzel „Wiener-Art“",
       "price": 3.75
     }
   ],
@@ -61,12 +61,12 @@
       "price": 3.50
     },
     {
-      "desc": "Eiergraupfsuppe mit Gemüse der Saison und Kartoffeln",
+      "desc": "Eierargout mit Gemüse der Saison und Kartoffeln",
       "price": 2.50
     },
     {
       "desc": "Tagesangebot",
-      "price": 0.00
+      "price": null
     }
   ]
 }
