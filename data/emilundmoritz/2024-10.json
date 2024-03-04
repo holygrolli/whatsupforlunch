@@ -1,0 +1,70 @@
+{
+  "2024-03-04": [
+    {
+      "desc": "Spirelli, Wurstgulasch",
+      "price": 6.90
+    },
+    {
+      "desc": "Nudelaufauf mit Kirschtomaten, Feta",
+      "price": 6.90
+    }
+  ],
+  "2024-03-05": [
+    {
+      "desc": "Schnitzel - Schwein-, Zwiebelsauce, Bratkartoffeln",
+      "price": 6.90
+    },
+    {
+      "desc": "marinierter Hering, Bratkartoffeln",
+      "price": 6.90
+    }
+  ],
+  "2024-03-06": [
+    {
+      "desc": "Putenrollbraten,Mischgemüse, Kartoffeln",
+      "price": 6.90
+    },
+    {
+      "desc": "Gnocchi mit Grillgemüse in Rahm",
+      "price": 6.90
+    }
+  ],
+  "2024-03-07": [
+    {
+      "desc": "Kohlroulade in Kümmelsauce, Kartoffeln",
+      "price": 6.90
+    },
+    {
+      "desc": "Kartoffel, Lachs Gemüse Pfanne",
+      "price": 6.90
+    }
+  ],
+  "2024-03-08": [
+    {
+      "desc": "Steak - Hähnchen- Parika, Zucchini, Reis, Tomatensauce",
+      "price": 6.90
+    },
+    {
+      "desc": "Reis Gemüse Pfanne mit Tomatensauce",
+      "price": 6.90
+    }
+  ],
+  "2024-W10": [
+    {
+      "desc": "Penne mit Fleischbällchen + Ricotta",
+      "price": 4.90
+    },
+    {
+      "desc": "Penne mit Lachsstückchen und Erbsenmus",
+      "price": 4.90
+    },
+    {
+      "desc": "Pasta Arriabatta",
+      "price": 4.90
+    },
+    {
+      "desc": "Sülze, Bratkartoffeln, Hausfrauensauce",
+      "price": 10.90
+    }
+  ]
+}
