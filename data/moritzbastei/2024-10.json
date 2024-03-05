@@ -1,0 +1,61 @@
+{
+  "2024-03-04": [],
+  "2024-03-05": [
+    {
+      "desc": "Schweineschnitzel mit Rahmerbsen, Salzkartoffeln und brauner Soße",
+      "price": 9.80
+    },
+    {
+      "desc": "Blumenkohl-Kartoffelgratin mit Lauchzwiebeln, überbacken mit Mozzarella und Mandeln (veget.)",
+      "price": 9.20
+    }
+  ],
+  "2024-03-06": [
+    {
+      "desc": "Mediterrane Frikadelle gefüllt mit Hirtenkäse, dazu Tomaten-Paprikagemüse und Rosmarinkartoffeln",
+      "price": 9.80
+    },
+    {
+      "desc": "Veganer Sojagulasch mit Paprika, dazu Pasta und veganer Streukäse (vegan)",
+      "price": 9.20
+    }
+  ],
+  "2024-03-07": [
+    {
+      "desc": "Hähnchengeschnetzeltes mit gebratener Zucchini, getrockneten Tomaten und Kartoffelecken",
+      "price": 9.50
+    },
+    {
+      "desc": "Gebackener Hirtenkäse auf Ratatouille-Gemüse, dazu Rosmarinkartoffeln (veget.)",
+      "price": 9.20
+    }
+  ],
+  "2024-03-08": [
+    {
+      "desc": "Räucherlachs-Spinatlasagne, überbacken mit Mozzarella",
+      "price": 9.90
+    }
+  ],
+  "2024-W10": [
+    {
+      "desc": "Pasta mit Parika-Chili-Pesto, dazu geröstete Sonnenblumenkerne und Parmesan (veget.)",
+      "price": 10.90
+    },
+    {
+      "desc": "Lasagne Spitzkohl-Karottenlasagne überbacken mit Mozzarella und Sesam (veget.)",
+      "price": 12.40
+    },
+    {
+      "desc": "Lasagne \"Bolognese\" überbacken mit Gouda",
+      "price": 12.90
+    },
+    {
+      "desc": "Gratin Gebratene Hähnchenbrust auf Brokkoli-Kartoffelgratin, überbacken mit Mozzarella und Mandeln",
+      "price": 12.90
+    },
+    {
+      "desc": "Suppe Soljanka mit Schmand und Baguette",
+      "price": 6.90
+    }
+  ]
+}
