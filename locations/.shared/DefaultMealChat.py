@@ -91,7 +91,7 @@ class DefaultMealChat:
         if self.prompt_config["addCurrentWeekdays"]:
             weekdaysExplicit = " containing the days " + self.return_weekdays_from_date(self.weekStart.strftime("%Y-%m-%d"))
         if self.prompt_config["addCurrentDate"]:
-            gpt_messages.append({"role": "user", "content": """Today is "Monday" {MC_TODAY} and calendar week {MC_WEEKSTART}{weekdaysExplicit}.""".format(**self.return_default_substitutions(),weekdaysExplicit=weekdaysExplicit)})
+            gpt_messages.append({"role": "user", "content": """When you will determine the calendar period think about if the period is reasonable as today is "Monday" {MC_TODAY} and calendar week {MC_WEEKSTART}{weekdaysExplicit}. You most likely will determine a menu for the current week or some point in the future from today.""".format(**self.return_default_substitutions(),weekdaysExplicit=weekdaysExplicit)})
         return gpt_messages
 
     def processImageAndWriteToFile(self):
