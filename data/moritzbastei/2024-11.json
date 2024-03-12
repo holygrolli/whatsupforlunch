@@ -1,0 +1,65 @@
+{
+  "2024-03-11": [],
+  "2024-03-12": [
+    {
+      "desc": "Schweineschnitzel gefüllt mit Schinken und Käse, dazu Rahmerbsen, Salzkartoffeln und braune Soße",
+      "price": 9.80
+    },
+    {
+      "desc": "Kartoffelrösti überbacken mit Tomate und Mozzarella, dazu Basilikum-Schmand und Salatbeilage (veget.)",
+      "price": 9.20
+    }
+  ],
+  "2024-03-13": [
+    {
+      "desc": "Gyros mit Kartoffelecken, Tzatziki und Krautsalat",
+      "price": 9.80
+    },
+    {
+      "desc": "Auberginenschnitzel in Parmesanpanade, dazu pikante Tomatensoße und Pasta (veget.)",
+      "price": 9.20
+    }
+  ],
+  "2024-03-14": [
+    {
+      "desc": "Hähnchencurry mit buntem Gemüse in Kokossoße, dazu Basmatireis",
+      "price": 9.50
+    },
+    {
+      "desc": "Pasta \"Genovese\" mit grünen Bohnen, Kartoffeln, Basilikumpesto und Parmesan",
+      "price": 9.20
+    }
+  ],
+  "2024-03-15": [
+    {
+      "desc": "Seelachsfilet unter Kartoffelkruste, dazu Senfsoße und Gurkensalat",
+      "price": 9.90
+    }
+  ],
+  "2024-W11": [
+    {
+      "desc": "Pasta mit Petersilien-Erdnuss-Pesto, dazu Parmesan (veget.)",
+      "price": 10.90
+    },
+    {
+      "desc": "Lasagne Waldpilzlasagne überbacken mit Mozzarella und Röstzwiebeln (veget.)",
+      "price": 12.40
+    },
+    {
+      "desc": "Lasagne \"Bolognese\" überbacken mit Gouda",
+      "price": 12.90
+    },
+    {
+      "desc": "Gratin Nudel-Hackfleisch-Gratin mit Tomaten, Zucchini und Paprika, überbacken mit Hirtenkäse",
+      "price": 12.90
+    },
+    {
+      "desc": "Kartoffelsuppe mit Baguette (vegan)",
+      "price": null
+    },
+    {
+      "desc": "mit gebratenen Würtchen und Baguette",
+      "price": null
+    }
+  ]
+}
