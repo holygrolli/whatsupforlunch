@@ -1,0 +1,92 @@
+{
+  "2024-04-08": [
+    {
+      "desc": "Käse-Lauchsuppe mit Hackfleisch und Champignons",
+      "price": 5.60
+    },
+    {
+      "desc": "Sellerieschnitzel mit bunten Karotten und Kräuterreis",
+      "price": 6.10
+    },
+    {
+      "desc": "Szegediner Gulasch mit Sauerkraut und Serviettenknödeln",
+      "price": 6.70
+    },
+    {
+      "desc": "Mediterranes Gemüse mit Kräuterdip und Kartoffelspalten",
+      "price": 8.00
+    }
+  ],
+  "2024-04-09": [
+    {
+      "desc": "Sächsische Quarkkäulchen mit Apfelmus und Zimtzucker",
+      "price": 5.60
+    },
+    {
+      "desc": "Pasta mit Tomatensoße und geriebenem Käse",
+      "price": 6.10
+    },
+    {
+      "desc": "Jägerschnitzel mit Tomatensoße und Pasta",
+      "price": 6.70
+    },
+    {
+      "desc": "Focaccia mit Hähnchenbrust, Tomate, Rucola und Mozzarella",
+      "price": 8.50
+    }
+  ],
+  "2024-04-10": [
+    {
+      "desc": "Grüner Bohneneintopf mit Rindfleisch und Kartoffelwürfeln",
+      "price": 5.60
+    },
+    {
+      "desc": "Spinat-Käsenödel auf Kräuter-Waldpilzrahm",
+      "price": 6.10
+    },
+    {
+      "desc": "Paella-Reispfanne mit Hähnchen, Fisch und Muscheln",
+      "price": 6.70
+    },
+    {
+      "desc": "Überraschungs-Gemücht mit BIO-Gemüse von KOLA Leipzig",
+      "price": 6.70
+    }
+  ],
+  "2024-04-11": [
+    {
+      "desc": "Kokosmilchreis mit Zimt und Mango-Kompott",
+      "price": 5.60
+    },
+    {
+      "desc": "Pasta mit Tomatensoße und geriebenem Käse",
+      "price": 6.10
+    },
+    {
+      "desc": "Rindergulasch mit Pilzen und Paprika, dazu Pasta",
+      "price": 6.70
+    },
+    {
+      "desc": "Gebackener Blumenkohl mit Sour Cream und Rosmarin-kartoffeln",
+      "price": 8.50
+    }
+  ],
+  "2024-04-12": [
+    {
+      "desc": "Süßkartoffel-Ingwersuppe mit Sesam und Koriander",
+      "price": 5.60
+    },
+    {
+      "desc": "Käsespatz'n 'Allgäuer Art' mit Röstzwiebeln",
+      "price": 6.10
+    },
+    {
+      "desc": "Bratherling mit Zwiebeldressing, Salat und Petersilienkartoffeln",
+      "price": 6.70
+    },
+    {
+      "desc": "Hähnchen 'Cordon Bleu' mit Buttersenf und Kroketten",
+      "price": 8.00
+    }
+  ]
+}

@@ -1,0 +1,67 @@
+{
+  "2024-04-01": [],
+  "2024-04-02": [
+    {
+      "desc": "Kartoffelpuffer mit Apfelmus und Zimtzucker",
+      "price": 5.60
+    },
+    {
+      "desc": "Pasta mit Tomatensoße und geriebenem Käse",
+      "price": 6.10
+    }
+  ],
+  "2024-04-03": [
+    {
+      "desc": "Minestrone-italienische Gemüsesuppe",
+      "price": 5.60
+    },
+    {
+      "desc": "Kartoffeltaschen mit Frischkäse, Kräuterdip und Salat",
+      "price": 6.10
+    },
+    {
+      "desc": "Thüringer Bratwurst mit Sauerkraut und Petersilienkartoffeln",
+      "price": 6.70
+    },
+    {
+      "desc": "Tagliatelle mit Lachswürfeln, Zucchini und Tomatenrahm",
+      "price": 8.50
+    }
+  ],
+  "2024-04-04": [
+    {
+      "desc": "Riesen-Germknödel mit Kirschfüllung, dazu Vanillesoße",
+      "price": 5.60
+    },
+    {
+      "desc": "Pasta mit Tomatensoße und geriebenem Käse",
+      "price": 6.10
+    },
+    {
+      "desc": "Kohlroulade mit Krautsoße und Petersilienkartoffeln",
+      "price": 6.70
+    },
+    {
+      "desc": "Linguine mit veganem 'Thunfisch', Tomate und Rucola",
+      "price": 8.00
+    }
+  ],
+  "2024-04-05": [
+    {
+      "desc": "Wirsing-Kartoffel-Eintopf mit Krakauer-Würfeln",
+      "price": 5.60
+    },
+    {
+      "desc": "Gemüse-Lasagne mit Aubergine, Zucchini, Karotten und Lauch",
+      "price": 6.10
+    },
+    {
+      "desc": "Seelachsfilet 'Bordelaise' mit RätaTÖUille und Risi Bisi",
+      "price": 6.70
+    },
+    {
+      "desc": "BBQ-Hacksteak mit Kräuterkäse und Kartoffel-Ecken",
+      "price": 8.00
+    }
+  ]
+}
