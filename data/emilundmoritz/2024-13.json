@@ -1,0 +1,56 @@
+{
+  "2024-03-25": [
+    {
+      "desc": "Putencurry, Reis",
+      "price": 6.90
+    },
+    {
+      "desc": "Rote Linsencurry mit Kirschtomaten, Reis",
+      "price": 6.90
+    }
+  ],
+  "2024-03-26": [
+    {
+      "desc": "Steak Schwein, Letscho, Pommes",
+      "price": 6.90
+    },
+    {
+      "desc": "Toskanische Kartoffel Pfanne",
+      "price": 6.90
+    }
+  ],
+  "2024-03-27": [
+    {
+      "desc": "Schnitzel Hähnchen, Rahmchampignon, Bratkartoffeln",
+      "price": 6.90
+    },
+    {
+      "desc": "Couscous Pfanne mit frischem Gemüse",
+      "price": 6.90
+    }
+  ],
+  "2024-03-28": [
+    {
+      "desc": "Omas Frikadelle, Mischgemüse, Kartoffelstampf, Sauce",
+      "price": 6.90
+    },
+    {
+      "desc": "Gnocchi in Rahmspinat Auflauf",
+      "price": 6.90
+    }
+  ],
+  "2024-W13": [
+    {
+      "desc": "Spaghetti mit Avocado Limetten Sauce, Kirschtomaten",
+      "price": 4.90
+    },
+    {
+      "desc": "Pasta mit Rindergeschnetzelten",
+      "price": 4.90
+    },
+    {
+      "desc": "Schinken Käse Spätzle",
+      "price": 4.90
+    }
+  ]
+}
