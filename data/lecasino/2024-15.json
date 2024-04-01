@@ -1,0 +1,72 @@
+{
+  "2024-04-08": [
+    {
+      "desc": "Champignontopf mit Kräutersoße",
+      "price": 3.70
+    },
+    {
+      "desc": "Weiße-Rübentopf mit Schweinefleisch",
+      "price": 2.50
+    },
+    {
+      "desc": "Marinierter Hering in Sahnesoße mit Salzkartoffeln",
+      "price": 4.95
+    }
+  ],
+  "2024-04-09": [
+    {
+      "desc": "Gebackene Kartoffeltaschen mit Frischkäse gefüllt & gem. Salat",
+      "price": 4.20
+    },
+    {
+      "desc": "Tomatencrèmesuppe mit Croutons",
+      "price": 2.50
+    },
+    {
+      "desc": "Bierkutscherschnappe mit schweinehack und Kartoffeln",
+      "price": 4.20
+    }
+  ],
+  "2024-04-10": [
+    {
+      "desc": "Ofenkartoffel mit Quarkdip und ein kl. gemischter Salat",
+      "price": 3.95
+    },
+    {
+      "desc": "Zwei Eier in Senfsoße mit Kartoffeln",
+      "price": 2.50
+    },
+    {
+      "desc": "Lasagne al forno",
+      "price": 4.25
+    }
+  ],
+  "2024-04-11": [
+    {
+      "desc": "Kartoffelgulasch mit Paprika und Kräuterhaube",
+      "price": 3.50
+    },
+    {
+      "desc": "Kaiserschmarrn mit Rosinen und Apfelmus",
+      "price": 2.50
+    },
+    {
+      "desc": "Currywurst mit fruchtiger Curryssoße",
+      "price": 3.85
+    }
+  ],
+  "2024-04-12": [
+    {
+      "desc": "Farfalle mit Spinatsoße",
+      "price": 3.20
+    },
+    {
+      "desc": "Gemüse-Kartoffelauflauf mit Gouda überbacken",
+      "price": 2.50
+    },
+    {
+      "desc": "Tagesangebot",
+      "price": 0.00
+    }
+  ]
+}
