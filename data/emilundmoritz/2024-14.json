@@ -1,0 +1,57 @@
+{
+  "2024-04-01": [],
+  "2024-04-02": [
+    {
+      "desc": "Schweineschnitzel, 1 Spiegelei dazu Bratkartoffeln",
+      "price": 6.90
+    },
+    {
+      "desc": "Gemüsecurry mit Couscous",
+      "price": 6.90
+    }
+  ],
+  "2024-04-03": [
+    {
+      "desc": "Gefüllte Paprikaschote mit Hack, Kartoffeln",
+      "price": 6.90
+    },
+    {
+      "desc": "Gefüllte Paprikaschote mit Couscous, Kartoffeln",
+      "price": 6.90
+    }
+  ],
+  "2024-04-04": [
+    {
+      "desc": "Putengyros mit Reis, Tzaziki",
+      "price": 6.90
+    },
+    {
+      "desc": "Kartoffelpfanne mit Kirschtomaten, Feta und Berlauchpesto",
+      "price": 6.90
+    }
+  ],
+  "2024-04-05": [
+    {
+      "desc": "Matjes, Hausfrauensauce dazu Bratkartoffeln",
+      "price": 6.90
+    },
+    {
+      "desc": "Quarkkeulchen mit Apfelmus, Z+Z",
+      "price": 6.90
+    }
+  ],
+  "2024-W14": [
+    {
+      "desc": "Spaghetti mit Avocado-Limetten Sauce, Kirschtomaten",
+      "price": 4.90
+    },
+    {
+      "desc": "Pasta mit Rindergeschnetzelten",
+      "price": 4.90
+    },
+    {
+      "desc": "Schinken Käse Spätzle",
+      "price": 4.90
+    }
+  ]
+}
