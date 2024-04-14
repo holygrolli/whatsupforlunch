@@ -1,0 +1,52 @@
+{
+  "2024-04-15": [
+    {
+      "desc": "Schnitzel \"Wiener Art\" mit Kartoffel-Gurken-Salat",
+      "price": 7.90
+    },
+    {
+      "desc": "Allgäuer Käsespätzle mit Röstzwiebeln",
+      "price": 7.90
+    }
+  ],
+  "2024-04-16": [
+    {
+      "desc": "Fleischpflanzerl auf Ratatouille-Gemüse und Spätzle",
+      "price": 7.90
+    },
+    {
+      "desc": "Kartoffelpfanne mit buntem Gemüse",
+      "price": 7.90
+    }
+  ],
+  "2024-04-17": [
+    {
+      "desc": "Augustiner Bratwurst mit Sauerkraut und Kartoffelpüree",
+      "price": 7.90
+    },
+    {
+      "desc": "Penne Rigate in Käse-Sahnesauce",
+      "price": 7.90
+    }
+  ],
+  "2024-04-18": [
+    {
+      "desc": "Lammragout mit Kartoffelkloß",
+      "price": 7.90
+    },
+    {
+      "desc": "Rührei mit Salzkartoffeln und Gurkensalat",
+      "price": 7.90
+    }
+  ],
+  "2024-04-19": [
+    {
+      "desc": "Backfisch auf Kartoffel-Gurken-Salat mit Remoulade",
+      "price": 7.90
+    },
+    {
+      "desc": "Ofenkartoffel mit Kräuterschmand an buntem Blattsalat",
+      "price": 7.90
+    }
+  ]
+}
