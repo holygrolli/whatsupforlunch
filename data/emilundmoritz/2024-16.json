@@ -1,0 +1,66 @@
+{
+  "2024-04-15": [
+    {
+      "desc": "Schweineleber, Apfel-Zwiebelgemüse dazu Bratkartoffeln",
+      "price": 6.90
+    },
+    {
+      "desc": "Spätzlepfanne mit Grillgemüse",
+      "price": 6.90
+    }
+  ],
+  "2024-04-16": [
+    {
+      "desc": "Schweineschnitzel, Rosenkohl mit Semmelbrösel, Kartoffeln",
+      "price": 6.90
+    },
+    {
+      "desc": "veg. Bauernfrühstück",
+      "price": 6.90
+    }
+  ],
+  "2024-04-17": [
+    {
+      "desc": "Kohlroulade mit Kümmelsoße dazu Kartoffeln",
+      "price": 6.90
+    },
+    {
+      "desc": "Kartoffelpfanne mit Fenchel, Kirschtomaten und gr. Spargel",
+      "price": 6.90
+    }
+  ],
+  "2024-04-18": [
+    {
+      "desc": "Schweinegeschnetzeltes nach Züricher Art, Reis",
+      "price": 6.90
+    },
+    {
+      "desc": "2 Spiegeleier mit Gurkensalat und Bratkartoffeln",
+      "price": 6.90
+    }
+  ],
+  "2024-04-19": [
+    {
+      "desc": "Boulette mit Kartoffelsalat und Gurkensalat",
+      "price": 6.90
+    },
+    {
+      "desc": "Blattsalat-Variation mit Avocado, gerösteten Cashewkernen und Ei",
+      "price": 6.90
+    }
+  ],
+  "2024-W16": [
+    {
+      "desc": "Spaghetti Bolognese",
+      "price": 4.90
+    },
+    {
+      "desc": "Pasta mit Basilikum Pesto & gr. Spargel",
+      "price": 4.90
+    },
+    {
+      "desc": "Pasta Arabiatta",
+      "price": 4.90
+    }
+  ]
+}
