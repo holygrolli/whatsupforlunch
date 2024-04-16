@@ -1,0 +1,61 @@
+{
+  "2024-04-15": [],
+  "2024-04-16": [
+    {
+      "desc": "Schweineschnitzel mit Rahmblumenkohl, Salzkartoffeln und brauner Soße",
+      "price": 9.80
+    },
+    {
+      "desc": "Pasta \"Genovese\" mit grünen Bohnen, Kartoffeln und Basilikumpesto, dazu Parmesan (veget.)",
+      "price": 9.20
+    }
+  ],
+  "2024-04-17": [
+    {
+      "desc": "Hähnchengeschnetzeltes mit Lauch und Champignons, dazu Kartoffelrösti",
+      "price": 9.80
+    },
+    {
+      "desc": "Gebackener Hirtenkäse auf buntem Grillgemüse, dazu Paprika Aioli (veget.)",
+      "price": 9.20
+    }
+  ],
+  "2024-04-18": [
+    {
+      "desc": "Currywurst \"Nach Art des Hauses\" mit Kartoffelecken und Salatbeilage",
+      "price": 9.50
+    },
+    {
+      "desc": "Waldpilzgulasch mit Kräuterspätzle (veget.)",
+      "price": 9.20
+    }
+  ],
+  "2024-04-19": [
+    {
+      "desc": "Gebackenes Seelachsfilet, mit Remoulade, Salzkartoffeln und Gurkensalat",
+      "price": 9.90
+    }
+  ],
+  "2024-W16": [
+    {
+      "desc": "Pasta mit Bärlauch-Pesto, dazu geröstete Sonnenblumenkerne und Parmesan (veget.)",
+      "price": 10.90
+    },
+    {
+      "desc": "Lasagne Spinatlasagne mit getrockneten Tomaten, überbacken mit Mozzarella (veget.)",
+      "price": 12.40
+    },
+    {
+      "desc": "Lasagne \"Bolognese\" überbacken mit Gouda",
+      "price": 12.90
+    },
+    {
+      "desc": "Gratin Gebratene Hähnchenbrust auf Brokkoli-Kartoffelgratin, überbacken mit Mozzarella und Mandeln",
+      "price": 12.90
+    },
+    {
+      "desc": "Suppe Linseneintopf mit Kasseler und Baguette",
+      "price": 6.90
+    }
+  ]
+}
