@@ -1,0 +1,52 @@
+{
+  "2024-04-22": [
+    {
+      "desc": "Schnitzel \"Wiener Art\" mit Kartoffel-Gurken-Salat",
+      "price": 7.90
+    },
+    {
+      "desc": "Allgäuer Käsespätzle mit Röstzwiebeln",
+      "price": 7.90
+    }
+  ],
+  "2024-04-23": [
+    {
+      "desc": "Hähnchenbrust mit Spaghetti und Basilikum-Pesto",
+      "price": 7.90
+    },
+    {
+      "desc": "Spätzle-Pilz-Pfanne mit kleinen Salat",
+      "price": 7.90
+    }
+  ],
+  "2024-04-24": [
+    {
+      "desc": "Kassler-Braten mit Sauerkraut und Salzkartoffeln",
+      "price": 7.90
+    },
+    {
+      "desc": "Senf-Eier mit Salzkartoffeln",
+      "price": 7.90
+    }
+  ],
+  "2024-04-25": [
+    {
+      "desc": "Königsberger Klopse mit Kapernsauce und Kartoffelpüree",
+      "price": 7.90
+    },
+    {
+      "desc": "Kraut-Schupfnudeln mit Röstzwiebeln und Sauerrahm",
+      "price": 7.90
+    }
+  ],
+  "2024-04-26": [
+    {
+      "desc": "Backfisch auf Kartoffel-Gurken-Salat mit Remoulade",
+      "price": 7.90
+    },
+    {
+      "desc": "Blumenkohl-Auflauf mit Kartoffeln",
+      "price": 7.90
+    }
+  ]
+}
