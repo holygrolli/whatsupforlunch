@@ -1,0 +1,92 @@
+{
+  "2024-05-13": [
+    {
+      "desc": "Hausgemachter Linseneintopf mit Blutwurstwürfeln",
+      "price": 5.60
+    },
+    {
+      "desc": "Süßkartoffel-Spinat-Frikadelle mit buntem Salat und Risi-Bisi",
+      "price": 6.10
+    },
+    {
+      "desc": "Bauernroulade mit Speckbohnen und Petersilienkartoffeln",
+      "price": 6.70
+    },
+    {
+      "desc": "Grünkernrisotto mit Spargel, Cherytomaten und Erbsen",
+      "price": 8.00
+    }
+  ],
+  "2024-05-14": [
+    {
+      "desc": "Germknödel mit Kirschfüllung, dazu Vanillesoße",
+      "price": 5.60
+    },
+    {
+      "desc": "Pasta mit Tomatensoße und geriebenem Käse",
+      "price": 6.10
+    },
+    {
+      "desc": "Spaghetti \"Bolognese\" mit geriebenem Käse",
+      "price": 6.70
+    },
+    {
+      "desc": "Sülze mit Remoulade, Salat und Bratkartoffeln",
+      "price": 8.50
+    }
+  ],
+  "2024-05-15": [
+    {
+      "desc": "Chili con Carne",
+      "price": 5.60
+    },
+    {
+      "desc": "Eier-Omelett mit Rahmspinat und Petersilienkartoffeln",
+      "price": 6.10
+    },
+    {
+      "desc": "Hühnerfrikassee mit Erbsen, Karotten und Butterreis",
+      "price": 6.70
+    },
+    {
+      "desc": "Vollkorn-Fusilli mit Linsenbolognese und Rucola",
+      "price": 8.00
+    }
+  ],
+  "2024-05-16": [
+    {
+      "desc": "Milchreis mit Apfelmus und Zimtzucker",
+      "price": 5.60
+    },
+    {
+      "desc": "Pasta mit Tomatensoße und geriebenem Käse",
+      "price": 6.10
+    },
+    {
+      "desc": "Ungarisches Schweinegulasch mit Paprika, dazu Spätzle",
+      "price": 6.70
+    },
+    {
+      "desc": "Gebackener Fetakäse mit Oliven, Tomaten und Reisnudel-Salat",
+      "price": 8.00
+    }
+  ],
+  "2024-05-17": [
+    {
+      "desc": "Paprikacreme-Suppe mit Knoblauch-Croûtons",
+      "price": 5.60
+    },
+    {
+      "desc": "Knusper-Gemüse-Nuggets mit Buttererbsen und Kartoffelstampf",
+      "price": 6.10
+    },
+    {
+      "desc": "Seelachsfilet \"Bordelaise\" mit Rätailloule und Reis",
+      "price": 6.70
+    },
+    {
+      "desc": "Hähnchenschnitzel mit Paprikarahmgout und Petersilienkartoffeln",
+      "price": 8.50
+    }
+  ]
+}
