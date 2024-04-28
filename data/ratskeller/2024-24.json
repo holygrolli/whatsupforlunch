@@ -1,0 +1,92 @@
+{
+  "2024-06-10": [
+    {
+      "desc": "Erbseneintopf mit Bockwurst und Kartoffelwürfeln",
+      "price": 5.60
+    },
+    {
+      "desc": "Kürbis-Steckrüben-Frikadelle mit buntem Salat und Gnocchi",
+      "price": 6.10
+    },
+    {
+      "desc": "Szegediner Gulasch mit Sauerkraut und Serviettenknödeln",
+      "price": 6.70
+    },
+    {
+      "desc": "Halloumi-Bowl mit Joghurt-Minze-Dip, Oliven, Tomaten und Bulgur",
+      "price": 8.50
+    }
+  ],
+  "2024-06-11": [
+    {
+      "desc": "American Pancakes mit Apfel-Aprikosenkompott",
+      "price": 5.60
+    },
+    {
+      "desc": "Pasta mit Tomatensoße und geriebenem Käse",
+      "price": 6.10
+    },
+    {
+      "desc": "Jägerschnitzel mit Tomatensoße und Pasta",
+      "price": 6.70
+    },
+    {
+      "desc": "Salat Nizza mit Thunfisch, Oliven, Zwiebeln, Tomate und Kartoffel",
+      "price": 8.50
+    }
+  ],
+  "2024-06-12": [
+    {
+      "desc": "Gräupchen-Eintopf mit Kasslerwürfeln",
+      "price": 5.60
+    },
+    {
+      "desc": "Vegane \"Hackbällchen\" mit Pilz-Rahm und Kartoffelstampf",
+      "price": 6.10
+    },
+    {
+      "desc": "GyrosPfanne mit Zaziki, Krautsalat und Tomatenreis",
+      "price": 6.70
+    },
+    {
+      "desc": "Tortellini mit Ricotta-Spinatfüllung auf buntem Mangold",
+      "price": 8.00
+    }
+  ],
+  "2024-06-13": [
+    {
+      "desc": "Grießbrei mit Kirschragout und Zimtzucker",
+      "price": 5.60
+    },
+    {
+      "desc": "Pasta mit Tomatensoße und geriebenem Käse",
+      "price": 6.10
+    },
+    {
+      "desc": "\"Cordon bleu\" vom Schwein mit bunten Karotten und Petersilienkartoffeln",
+      "price": 6.70
+    },
+    {
+      "desc": "Hähnchen Teriyaki mit Avocado, Edamame und Glasnudeln",
+      "price": 8.50
+    }
+  ],
+  "2024-06-14": [
+    {
+      "desc": "Indische rote Linsensuppe mit Kokosmilch, Ingwer und Koriander",
+      "price": 5.60
+    },
+    {
+      "desc": "Gnocchi-Auflauf mit Spargel, Brokkoli und Karotten",
+      "price": 6.10
+    },
+    {
+      "desc": "Grillwurst mit Letscho und Kartoffelstampf",
+      "price": 6.70
+    },
+    {
+      "desc": "Marinierter Hering mit Apfel-Zwiebel-Joghurt-Soße und Kartoffeln",
+      "price": 8.50
+    }
+  ]
+}

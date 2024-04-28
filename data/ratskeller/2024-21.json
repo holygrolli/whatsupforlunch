@@ -1,0 +1,75 @@
+{
+  "2024-05-20": [],
+  "2024-05-21": [
+    {
+      "desc": "Drei Hefeklöße mit warmen Heidelbeeren",
+      "price": 5.60
+    },
+    {
+      "desc": "Pasta mit Tomatensoße und geriebenem Käse",
+      "price": 6.10
+    },
+    {
+      "desc": "Jägerschnitzel mit Tomatensoße und Pasta",
+      "price": 6.70
+    },
+    {
+      "desc": "Quinoa-Grünkohlsalat und Süßkartoffelpüree",
+      "price": 8.50
+    }
+  ],
+  "2024-05-22": [
+    {
+      "desc": "Sächsische Kartoffelsuppe mit Majoran und Bockwurst",
+      "price": 5.60
+    },
+    {
+      "desc": "Gemüseschnitzel auf bunten Karotten und Kräuterreis",
+      "price": 6.10
+    },
+    {
+      "desc": "Schweinegeschnetzeltes 'Stroganoff' mit Pilzen, Bete und Spätzle",
+      "price": 6.70
+    },
+    {
+      "desc": "Überraschungsgericht mit BIO-Gemüse",
+      "price": 8.50
+    }
+  ],
+  "2024-05-23": [
+    {
+      "desc": "Kartoffelpuffer mit Apfelmus und Zimtzucker",
+      "price": 5.60
+    },
+    {
+      "desc": "Pasta mit Tomatensoße und geriebenem Käse",
+      "price": 6.10
+    },
+    {
+      "desc": "Currywurst mit fruchtig pikante Soße, dazu Kartoffelecken",
+      "price": 6.70
+    },
+    {
+      "desc": "Lammsteak mit Bohnen-Cassoulet und Rosmarinkartoffeln",
+      "price": 8.50
+    }
+  ],
+  "2024-05-24": [
+    {
+      "desc": "Spargelcremesuppe mit Erbsenkresse",
+      "price": 5.60
+    },
+    {
+      "desc": "Zucchini-Möhrenpuffer mit Radieschen-Quark und Salat",
+      "price": 6.10
+    },
+    {
+      "desc": "Köttbullar mit Champignon-Rahm und Kartoffelstampf",
+      "price": 6.70
+    },
+    {
+      "desc": "Gebackenefels Kartoffelauflauf mit Blattspinat und Rote-Bete-Gnocchi",
+      "price": 8.50
+    }
+  ]
+}

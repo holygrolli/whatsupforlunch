@@ -1,0 +1,92 @@
+{
+  "2024-06-03":[
+    {
+      "desc":"Grüner Bohneneintopf mit Rindfleisch und Kartoffelwürfeln",
+      "price": 5.60
+    },
+    {
+      "desc":"Brokkoli-Nuss-Ecke mit bunten Karotten und Kartoffelstampf",
+      "price": 6.10
+    },
+    {
+      "desc":"Schweinegeschnetzeltes „Züricher Art“ mit Champignons und Spätzle",
+      "price": 6.70
+    },
+    {
+      "desc":"Linguine mit Gorgonzola-Spinatsoße und Mandeln",
+      "price": 8.00
+    }
+  ],
+  "2024-06-04":[
+    {
+      "desc":"Germknödel mit Schokoladenfüllung und Vanillesoße",
+      "price": 5.60
+    },
+    {
+      "desc":"Pasta mit Tomatensoße und geriebenem Käse",
+      "price": 6.10
+    },
+    {
+      "desc":"Spaghetti „Bolognese“ mit geriebenem Käse",
+      "price": 6.70
+    },
+    {
+      "desc":"Veganer „Backfisch“ mit Remoulade, Salat und Kartoffelecken",
+      "price": 8.50
+    }
+  ],
+  "2024-06-05":[
+    {
+      "desc":"Nudeleintopf mit Geflügelfleisch und Gemüse-Julienne",
+      "price": 5.60
+    },
+    {
+      "desc":"2 gekochte Eier mit Senfsoße, Rotkrautsalat und Petersilienkartoffeln",
+      "price": 6.10
+    },
+    {
+      "desc":"Hackbraten mit Speckbohnen und Kroketten",
+      "price": 6.70
+    },
+    {
+      "desc":"Überraschungsgericht mit BIO-Gemüse von KOLA Leipzig",
+      "price": 8.50
+    }
+  ],
+  "2024-06-06":[
+    {
+      "desc":"Drei Eierkuchen mit Apfelmus und Zimtzucker",
+      "price": 5.60
+    },
+    {
+      "desc":"Pasta mit Tomatensoße und geriebenem Käse",
+      "price": 6.10
+    },
+    {
+      "desc":"Königsberger Klopse mit Kapernsoße, Rote Bete Salat und Kartoffeln",
+      "price": 6.70
+    },
+    {
+      "desc":"Focaccia mit Hähnchen, Tomate, Pesto, Mozzarella und Rucola",
+      "price": 8.50
+    }
+  ],
+  "2024-06-07":[
+    {
+      "desc":"Gazpacho kalte andalusische Gemüsesuppe",
+      "price": 5.60
+    },
+    {
+      "desc":"Pizzarogout „Stroganoff“ mit Rote Bete und Gurke, dazu Spätzle",
+      "price": 6.10
+    },
+    {
+      "desc":"Moussaka mit Hackfleisch, Feta, Aubergine und Kartoffeln",
+      "price": 6.70
+    },
+    {
+      "desc":"Pangasius-Filet mit Tomatenkruste auf Fenchelrahm und Kroketten",
+      "price": 8.50
+    }
+  ]
+}

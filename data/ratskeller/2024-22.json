@@ -1,0 +1,92 @@
+{
+  "2024-05-27": [
+    {
+      "desc": "Käse-Lauchsuppe mit Hackfleisch und Champignons",
+      "price": 5.60
+    },
+    {
+      "desc": "Kräuterhührei mit Gurkensalat und Petersilienkartoffeln",
+      "price": 6.10
+    },
+    {
+      "desc": "Hähnchencurry mit Kokosmilch, Kichererbsen und Limettenreis",
+      "price": 6.70
+    },
+    {
+      "desc": "Falafel Wrap mit Taboulé-Salat und Hummus",
+      "price": 8.00
+    }
+  ],
+  "2024-05-28": [
+    {
+      "desc": "Erdbeer-Topfenknödel mit Vanillesoße",
+      "price": 5.60
+    },
+    {
+      "desc": "Pasta mit Tomatensoße und geriebenem Käse",
+      "price": 6.10
+    },
+    {
+      "desc": "Pasta mit Wurstgulasch und geriebenem Käse",
+      "price": 6.70
+    },
+    {
+      "desc": "Avocado-Quinoa-Bratling auf Fenchelsalat und Karotten-püree",
+      "price": 8.50
+    }
+  ],
+  "2024-05-29": [
+    {
+      "desc": "Ungarische Gulaschsuppe mit Paprika und Kartoffelwürfeln",
+      "price": 5.60
+    },
+    {
+      "desc": "Sellerieschnitzel auf Blattspinat und Kräuterreis",
+      "price": 6.10
+    },
+    {
+      "desc": "Schweinekotelett mit Blumenkohl und Petersilienkartoffeln",
+      "price": 6.70
+    },
+    {
+      "desc": "Miesmuscheln in Tomaten-Knoblauchsoße, dazu Farfalle",
+      "price": 8.50
+    }
+  ],
+  "2024-05-30": [
+    {
+      "desc": "Sächsische Quarkkäulchen mit Apfelmus und Zimtzucker",
+      "price": 5.60
+    },
+    {
+      "desc": "Pasta mit Tomatensoße und geriebenem Käse",
+      "price": 6.10
+    },
+    {
+      "desc": "Paprikaschote mit Hackfleisch, dazu Tomatensoße und Spätzle",
+      "price": 6.70
+    },
+    {
+      "desc": "BBQ-Pork-Burger mit Krautsalat und Kartoffelecken",
+      "price": 8.50
+    }
+  ],
+  "2024-05-31": [
+    {
+      "desc": "Pastinaken-Cremesuppe mit Kerbel-Pesto",
+      "price": 5.60
+    },
+    {
+      "desc": "Schnupfnudel-Pfanne mit Spargelragout, Cherrytomaten, Erbsen",
+      "price": 6.10
+    },
+    {
+      "desc": "Seeteufelcfilet in Buttermilch-Dill-Soße, dazu Salat und Risi Bisi",
+      "price": 6.70
+    },
+    {
+      "desc": "Eisbein mit Sauerkraut und Kartoffelklößen",
+      "price": 8.50
+    }
+  ]
+}
