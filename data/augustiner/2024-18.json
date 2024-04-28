@@ -1,0 +1,43 @@
+{
+  "2024-04-29": [
+    {
+      "desc": "Schnitzel \"Wiener Art\" mit Kartoffel-Gurken-Salat",
+      "price": 7.90
+    },
+    {
+      "desc": "Allgäuer Käsespätzle mit Röstzwiebeln",
+      "price": 7.90
+    }
+  ],
+  "2024-04-30": [
+    {
+      "desc": "Haxenfleisch mit Erbsenpüree und Sauerkraut",
+      "price": 7.90
+    },
+    {
+      "desc": "Falafel mit Oliven – Cous Cous und Kräuterdip",
+      "price": 7.90
+    }
+  ],
+  "2024-05-01": [],
+  "2024-05-02": [
+    {
+      "desc": "Lasagne Bolognese",
+      "price": 7.90
+    },
+    {
+      "desc": "Spinat-Lasagne mit Feta Käse",
+      "price": 7.90
+    }
+  ],
+  "2024-05-03": [
+    {
+      "desc": "Backfisch auf Kartoffel-Gurken-Salat mit Remoulade",
+      "price": 7.90
+    },
+    {
+      "desc": "Ofenkartoffel mit Kräuterquark und kleinem Salat",
+      "price": 7.90
+    }
+  ]
+}
