@@ -1,0 +1,62 @@
+{
+  "2024-05-06": [
+    {
+      "desc": "Champignontopf mit KräuterSoße",
+      "price": 3.70
+    },
+    {
+      "desc": "Hausgemachte Kartoffelsuppe",
+      "price": 2.50
+    },
+    {
+      "desc": "Currywurst mit fruchtig-scharfer Currysoße",
+      "price": 3.85
+    }
+  ],
+  "2024-05-07": [
+    {
+      "desc": "Broccoli mit Hollandaise und Kartoffeln",
+      "price": 3.85
+    },
+    {
+      "desc": "Kaiserschmarrn mit Rosinen und Apfelmus",
+      "price": 2.50
+    },
+    {
+      "desc": "Kartoffeltopf mit Kokosmilch und gebratenen Chiliwurstscheiben",
+      "price": 3.80
+    }
+  ],
+  "2024-05-08": [
+    {
+      "desc": "Gemischter Salat mit Kräutercroutons",
+      "price": 3.85
+    },
+    {
+      "desc": "Erbseneintopf mit Kasseler Fleisch",
+      "price": 2.50
+    },
+    {
+      "desc": "Hackfleisch-Bolognese",
+      "price": 2.95
+    }
+  ],
+  "2024-05-09": [
+    {
+      "desc": "Wir wünschen Ihnen einen angenehmen Feiertag"
+    }
+  ],
+  "2024-05-10": [
+    {
+      "desc": "Paprika-Tomaten-Reispfanne",
+      "price": 3.60
+    },
+    {
+      "desc": "Frikadellenbällchen mit Rahmsoße und Kartoffelpüree",
+      "price": 2.50
+    },
+    {
+      "desc": "Tagesangebot"
+    }
+  ]
+}
