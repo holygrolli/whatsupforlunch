@@ -1,92 +1,67 @@
 {
-  "2024-04-22": [
-    {
-      "desc": "Möhren-Kartoffel-Eintopf mit Fleischklößchen",
-      "price": 5.60
-    },
-    {
-      "desc": "Chili sin Carne mit Kichererbsen und Korianderreis",
-      "price": 6.10
-    },
-    {
-      "desc": "Kassler-Braten mit Sauerkraut und Petersilienkartoffeln",
-      "price": 6.70
-    },
-    {
-      "desc": "Rigatoni mit Auberginen-Ragout, Kapern und Schafskäse",
-      "price": 8.00
-    }
-  ],
-  "2024-04-23": [
-    {
-      "desc": "Marillenknödel mit Vanillerahm",
-      "price": 5.60
-    },
-    {
-      "desc": "Pasta mit Tomatensoße und geriebenem Käse",
-      "price": 6.10
-    },
-    {
-      "desc": "Spaghetti 'Bolognese' mit geriebenem Käse",
-      "price": 6.70
-    },
-    {
-      "desc": "Shakshuka mit Hummus und Fladenbrot",
-      "price": 8.50
-    }
-  ],
-  "2024-04-24": [
-    {
-      "desc": "Nudeleintopf mit Geflügelfleisch und Gemüse-Julienne",
-      "price": 5.60
-    },
-    {
-      "desc": "Kräuterquark mit Zwiebeln, Butter und Petersilienkartoffeln",
-      "price": 6.10
-    },
-    {
-      "desc": "Wildgulasch mit Pilzen, dazu Rotkohl und Böhmische Knödel",
-      "price": 6.70
-    },
-    {
-      "desc": "Überraschungs-Gericht mit BIO-Gemüse von KOLA Leipzig",
-      "price": null
-    }
-  ],
-  "2024-04-25": [
-    {
-      "desc": "Grießbrei mit Pflaumenragout und Zimtzucker",
-      "price": 5.60
-    },
-    {
-      "desc": "Pasta mit Tomatensoße und geriebenem Käse",
-      "price": 6.10
-    },
-    {
-      "desc": "Hähnchenkeule mit Honigmöhren und Petersilienkartoffeln",
-      "price": 6.70
-    },
-    {
-      "desc": "Farfalle mit Linsenbolognese, Cherrytomaten und Rucola",
-      "price": 8.00
-    }
-  ],
-  "2024-04-26": [
-    {
-      "desc": "Bärlauch-Creme-Suppe mit Sprossen und Croutons",
-      "price": 5.60
-    },
-    {
-      "desc": "Gemüse-Köttbullar mit Kräuter-Waldpilzrahm und Kartoffelstampf",
-      "price": 6.10
-    },
-    {
-      "desc": "Currywurst mit fruchtig-pikanter Soße und Kartoffelecken",
-      "price": 6.70
-    },
-    {
-      "desc": "Knuspriges Seelachsfilet mit Rahmspinat und Rote-Bete-Gnocchi",
-      "price": 8.50
-    }
-  ]
+  "2024-04-22": [{
+    "desc": "Möhren-Kartoffel-Eintopf mit Fleischklößchen",
+    "price": 5.60
+  }, {
+    "desc": "Chili sin Carne mit Kichererbsen und Korianderreis",
+    "price": 6.10
+  }, {
+    "desc": "Kassler-Braten mit Sauerkraut und Petersilienkartoffeln",
+    "price": 6.70
+  }, {
+    "desc": "Rigatoni mit Auberginen-Ragout, Kapern und Schafskäse",
+    "price": 8.00
+  }],
+  "2024-04-23": [{
+    "desc": "Marillenknödel mit Vanillerahm",
+    "price": 5.60
+  }, {
+    "desc": "Pasta mit Tomatensoße und geriebenem Käse",
+    "price": 6.10
+  }, {
+    "desc": "Spaghetti 'Bolognese' mit geriebenem Käse",
+    "price": 6.70
+  }, {
+    "desc": "Shakshuka mit Hummus und Fladenbrot",
+    "price": 8.50
+  }],
+  "2024-04-24": [{
+    "desc": "Nudeleintopf mit Geflügelfleisch und Gemüse-Julienne",
+    "price": 5.60
+  }, {
+    "desc": "Kräuterquark mit Zwiebeln, Butter und Petersilienkartoffeln",
+    "price": 6.10
+  }, {
+    "desc": "Wildgulasch mit Pilzen, dazu Rotkohl und Böhmische Knödel",
+    "price": 6.70
+  }, {
+    "desc": "Überraschungs-Gericht mit BIO-Gemüse von KOLA Leipzig",
+    "price": 8.50
+  }],
+  "2024-04-25": [{
+    "desc": "Grießbrei mit Pflaumenragout und Zimtzucker",
+    "price": 5.60
+  }, {
+    "desc": "Pasta mit Tomatensoße und geriebenem Käse",
+    "price": 6.10
+  }, {
+    "desc": "Hähnchenkeule mit Honigmöhren und Petersilienkartoffeln",
+    "price": 6.70
+  }, {
+    "desc": "Farfalle mit Linsenbolognese, Cherrymolaten und Rucola",
+    "price": 8.00
+  }],
+  "2024-04-26": [{
+    "desc": "Bärlauch-Creme-Suppe mit Sprossen und Croutons",
+    "price": 5.60
+  }, {
+    "desc": "Gemüseklößchen mit Kräuter-Waldpilzrahm und Kartoffelstampf",
+    "price": 6.10
+  }, {
+    "desc": "Currywurst mit fruchtig-pikanter Soße und Kartoffelecken",
+    "price": 6.70
+  }, {
+    "desc": "Knuspriges Seelachsfilet an Rahmspinat und Rote-Bete-Gnocchi",
+    "price": 8.50
+  }]
 }
