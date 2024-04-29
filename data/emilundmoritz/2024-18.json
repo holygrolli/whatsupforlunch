@@ -1,0 +1,57 @@
+{
+  "2024-04-29": [
+    {
+      "desc": "Bratwurst mit Möhrengemüse und Kartoffeln",
+      "price": 6.90
+    },
+    {
+      "desc": "Kichererbsen- Möhren-Curry mit Reis",
+      "price": 6.90
+    }
+  ],
+  "2024-04-30": [
+    {
+      "desc": "Überbackenes Sahne-Käse-Steak mit Pasta",
+      "price": 6.90
+    },
+    {
+      "desc": "Pasta mit Zucchini- Champignonsoße",
+      "price": 6.90
+    }
+  ],
+  "2024-05-01": [],
+  "2024-05-02": [
+    {
+      "desc": "Gefüllter Zucchini mit Hackfleisch dazu Reis",
+      "price": 6.90
+    },
+    {
+      "desc": "Gefüllter Zucchini mit Tomaten und Feta dazu Reis",
+      "price": 6.90
+    }
+  ],
+  "2024-05-03": [
+    {
+      "desc": "Kartoffelpuffer dazu Lachs und Kräuterschmand",
+      "price": 6.90
+    },
+    {
+      "desc": "Kartoffelpuffer mit Grillgemüse und Käse überbacken",
+      "price": 6.90
+    }
+  ],
+  "2024-W18": [
+    {
+      "desc": "Spaghetti Cabonara",
+      "price": 4.90
+    },
+    {
+      "desc": "Pasta mit Shrimps-Sahnesoße",
+      "price": 4.90
+    },
+    {
+      "desc": "Pasta mit getrockneten Tomaten und Oliven",
+      "price": 4.90
+    }
+  ]
+}
