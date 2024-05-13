@@ -1,0 +1,66 @@
+{
+  "2024-05-13": [
+    {
+      "desc": "fruchtiges Putencurry, Basmatireis",
+      "price": 6.90
+    },
+    {
+      "desc": "Kürbiscurry, Basmatireis",
+      "price": 6.90
+    }
+  ],
+  "2024-05-14": [
+    {
+      "desc": "Schweinebraten, Erbsen, Kartoffeln",
+      "price": 6.90
+    },
+    {
+      "desc": "Couscous Gemüse Pfanne mit Feta",
+      "price": 6.90
+    }
+  ],
+  "2024-05-15": [
+    {
+      "desc": "Lasagne Bolognese",
+      "price": 6.90
+    },
+    {
+      "desc": "Lasagne Spinat Käse Sauce",
+      "price": 6.90
+    }
+  ],
+  "2024-05-16": [
+    {
+      "desc": "hausgemachter Gulasch, Spätzle",
+      "price": 6.90
+    },
+    {
+      "desc": "veg. Geschnetzeltes mit Champignons, Spätzle",
+      "price": 6.90
+    }
+  ],
+  "2024-05-17": [
+    {
+      "desc": "Steak ungarisch, Bratkartoffeln",
+      "price": 6.90
+    },
+    {
+      "desc": "warme Spargel Quiche mit weißem+grünem Spargel",
+      "price": 6.90
+    }
+  ],
+  "2024-W20": [
+    {
+      "desc": "Penne mit Hack Feta Creme",
+      "price": 4.90
+    },
+    {
+      "desc": "Spaghetti mit Erbsenmus + Lachs",
+      "price": 4.90
+    },
+    {
+      "desc": "Pasta mit Tomaten Mozzarella Sauce",
+      "price": 4.90
+    }
+  ]
+}
