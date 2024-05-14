@@ -1,0 +1,60 @@
+{
+  "2024-05-13": [],
+  "2024-05-14": [
+    {
+      "desc": "Schweineschnitzel mit Rahmerbsen, Salzkartoffeln und brauner Soße",
+      "price": 9.80
+    },
+    {
+      "desc": "Eier in Senfsoße, dazu Salzkartoffeln und Gurkensalat (veget.)",
+      "price": 8.70
+    }
+  ],
+  "2024-05-15": [
+    {
+      "desc": "Jägerklopse mit Champignons, dazu Kartoffelstampf und Krautsalat",
+      "price": 9.80
+    },
+    {
+      "desc": "Auberginenschnitzel in Parmesan-Panade, dazu pikante Tomatensoße und Pasta (veget.)",
+      "price": 9.20
+    }
+  ],
+  "2024-05-16": [
+    {
+      "desc": "Hähnchengeschnetzeltes mit gebratener Zucchini, getrockneten Tomate und Rosmarinkartoffeln",
+      "price": 9.80
+    },
+    {
+      "desc": "Waldpilzgulasch mit Kräuterspätzle und Röstzwiebeln (veget.)",
+      "price": 9.20
+    }
+  ],
+  "2024-05-17": [],
+  "2024-W20": [
+    {
+      "desc": "Pasta mit Erdnuss-Petersilien-Pesto, dazu Parmesan (veget.)",
+      "price": 10.90
+    },
+    {
+      "desc": "Spitzkohl-Karottenlasagne, überbacken mit Mozzarella und Sesam",
+      "price": 12.40
+    },
+    {
+      "desc": "Lasagne \"Bolognese\" überbacken mit Gouda",
+      "price": 12.90
+    },
+    {
+      "desc": "Gebratene Hähnchenbrust auf Brokkoli-Kartoffelgratin, überbacken mit Mozzarella und Mandeln",
+      "price": 12.90
+    },
+    {
+      "desc": "Kartoffelsuppe mit Baguette (vegan)",
+      "price": 6.50
+    },
+    {
+      "desc": "Kartoffelsuppe mit Baguette und gebratenen Würstchen",
+      "price": 6.90
+    }
+  ]
+}
