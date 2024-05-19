@@ -1,0 +1,43 @@
+{
+  "2024-05-20": [
+    {
+      "desc": "Schnitzel \"Wiener Art\" mit Kartoffel-Gurken-Salat",
+      "price": 7.90
+    },
+    {
+      "desc": "Allgäuer Käsespätzle mit Röstzwiebeln",
+      "price": 7.90
+    }
+  ],
+  "2024-05-23": [
+    {
+      "desc": "Wurstgulasch mit Spirelli und geriebenem Käse",
+      "price": 7.90
+    },
+    {
+      "desc": "Ofenkartoffel mit Kräuterquark und einem kleinen Blattsalat",
+      "price": 7.90
+    }
+  ],
+  "2024-05-24": [
+    {
+      "desc": "Kalbsleber-Geschnetzeltes in Balsamico-Sauce mit Champignons und Spätzle",
+      "price": 7.90
+    },
+    {
+      "desc": "Gebackene Gemüsesticks auf Cous Cous Salat",
+      "price": 7.90
+    }
+  ],
+  "2024-05-25": [],
+  "2024-05-26": [
+    {
+      "desc": "Backfisch auf Kartoffel-Gurken-Salat mit Remoulade",
+      "price": 7.90
+    },
+    {
+      "desc": "Kartoffel-Auflauf mit Spinat und Käse",
+      "price": 7.90
+    }
+  ]
+}
