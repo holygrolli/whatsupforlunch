@@ -1,0 +1,61 @@
+{
+  "2024-05-20": [],
+  "2024-05-21": [
+    {
+      "desc": "Schweineschnitzel mit Spiegelei und Bratkartoffeln, dazu Tomatensalat",
+      "price": 9.80
+    },
+    {
+      "desc": "Pasta \"Genovese\" mit grünen Bohnen, Kartoffeln und Basilikum-Pesto (veget.)",
+      "price": 9.20
+    }
+  ],
+  "2024-05-22": [
+    {
+      "desc": "Gebackene Hähnchenbrust in Sesampanade, dazu gebratene Mie-Nudeln mit buntem Gemüse, Sweet-Chilisoße und Röstzwiebeln",
+      "price": 9.80
+    },
+    {
+      "desc": "Zucchini-Kartoffelrösti mit Kresseschmand und Tomatensalat (veget.)",
+      "price": 9.20
+    }
+  ],
+  "2024-05-23": [
+    {
+      "desc": "Jägerschnitzel mit Tomatensoße, dazu Pasta und Gouda",
+      "price": 9.80
+    },
+    {
+      "desc": "Gebackene Risottobällchen auf pikantem Kürbisragout (veget.)",
+      "price": 9.20
+    }
+  ],
+  "2024-05-24": [
+    {
+      "desc": "Gebackenes Seelachsfilet mit Rempulade, Salzkartoffeln und Gurkensalat",
+      "price": 9.90
+    }
+  ],
+  "2024-W21": [
+    {
+      "desc": "Pasta mit Paprika-Chili-Pesto, dazu geröstete Sonnenblumenkerne und Parmesan (veget.)",
+      "price": 10.90
+    },
+    {
+      "desc": "Lasagne",
+      "price": 12.40
+    },
+    {
+      "desc": "Lasagne \"Bolognese\" überbacken mit Gouda",
+      "price": 12.90
+    },
+    {
+      "desc": "Gratin",
+      "price": 12.90
+    },
+    {
+      "desc": "Suppe",
+      "price": 6.50
+    }
+  ]
+}
