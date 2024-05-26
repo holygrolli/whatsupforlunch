@@ -1,0 +1,52 @@
+{
+  "2024-05-27": [
+    {
+      "desc": "Schnitzel \"Wiener Art\" mit Kartoffel-Gurken-Salat",
+      "price": 7.90
+    },
+    {
+      "desc": "Allgäuer Käsespätzle mit Röstzwiebeln",
+      "price": 7.90
+    }
+  ],
+  "2024-05-28": [
+    {
+      "desc": "Kohlroulade in Specksauce mit Salzkartoffeln",
+      "price": 7.90
+    },
+    {
+      "desc": "Kraut-Schupfnudeln mit Röstzwiebeln",
+      "price": 7.90
+    }
+  ],
+  "2024-05-29": [
+    {
+      "desc": "Blutwurst mit Sauerkraut und Kartoffelpüree",
+      "price": 7.90
+    },
+    {
+      "desc": "Rahmspinat mit Rührei und Kartoffelpüree",
+      "price": 7.90
+    }
+  ],
+  "2024-05-30": [
+    {
+      "desc": "Hähnchen-Curry mit Butterreis",
+      "price": 7.90
+    },
+    {
+      "desc": "Gemüse-Curry mit Butterreis",
+      "price": 7.90
+    }
+  ],
+  "2024-05-31": [
+    {
+      "desc": "Backfisch auf Kartoffel-Gurken-Salat mit Remoulade",
+      "price": 7.90
+    },
+    {
+      "desc": "Mediterrane Gemüse-Lasagne",
+      "price": 7.90
+    }
+  ]
+}
