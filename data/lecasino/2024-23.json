@@ -1,0 +1,72 @@
+{
+  "2024-06-03": [
+    {
+      "desc": "Champignontopf mit Kräutersoße",
+      "price": 3.70
+    },
+    {
+      "desc": "Marinierter Hering in Sahnesoße mit Salzkartoffeln",
+      "price": 4.95
+    },
+    {
+      "desc": "Tagesangebot",
+      "price": 0.00
+    }
+  ],
+  "2024-06-04": [
+    {
+      "desc": "Deutscher Spargel mit Sauce Hollandaise mit Petersilienkartoffeln",
+      "price": 6.00
+    },
+    {
+      "desc": "Schweineschnitzel 'Wiener-Art'",
+      "price": 3.75
+    },
+    {
+      "desc": "Tagesangebot",
+      "price": 0.00
+    }
+  ],
+  "2024-06-05": [
+    {
+      "desc": "Frischer Spargelsalat mit weißem und grünen Spargel dazu Kräuterbutterbaguette",
+      "price": 6.00
+    },
+    {
+      "desc": "Lasagne al forno",
+      "price": 4.25
+    },
+    {
+      "desc": "Tagesangebot",
+      "price": 0.00
+    }
+  ],
+  "2024-06-06": [
+    {
+      "desc": "Pasta mit Spargelstücken und Frühlingsgemüse in Buttersoße",
+      "price": 6.00
+    },
+    {
+      "desc": "Kaiserschmarrn mit Rosinen und Apfelmus",
+      "price": 3.00
+    },
+    {
+      "desc": "Currywurst mit fruchtiger Currysosse",
+      "price": 3.85
+    }
+  ],
+  "2024-06-07": [
+    {
+      "desc": "Farfalle mit Spinatsoße",
+      "price": 3.20
+    },
+    {
+      "desc": "Gemüse-Kartoffelauflauf mit Gouda überbacken",
+      "price": 3.00
+    },
+    {
+      "desc": "Tagesangebot",
+      "price": 0.00
+    }
+  ]
+}
