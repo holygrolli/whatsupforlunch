@@ -1,0 +1,66 @@
+{
+  "2024-05-27": [
+    {
+      "desc": "Hackbällchen Toscana mit Basilikum uns Mozzarella, Reis",
+      "price": 6.90
+    },
+    {
+      "desc": "Maultaschen Toscana mit Basilikum und Mozzarella",
+      "price": 6.90
+    }
+  ],
+  "2024-05-28": [
+    {
+      "desc": "Schnitzel Pute, Erbsen, Kartoffeln, Sauce",
+      "price": 6.90
+    },
+    {
+      "desc": "Milchreis Z+Z, Apfelmus",
+      "price": 6.90
+    }
+  ],
+  "2024-05-29": [
+    {
+      "desc": "Hähnchen Gnocchi Pfanne mit Möhren, Sauerrahm",
+      "price": 6.90
+    },
+    {
+      "desc": "Tomaten Reis mit gebr. Zucchini, Fetabrösel",
+      "price": 6.90
+    }
+  ],
+  "2024-05-30": [
+    {
+      "desc": "Gulasch gemischt, Spätzle",
+      "price": 6.90
+    },
+    {
+      "desc": "2 Spiegeleier, Bratkartoffeln, Gurkensalat",
+      "price": 6.90
+    }
+  ],
+  "2024-05-31": [
+    {
+      "desc": "Bauernfrühstück mit Speckwürfel",
+      "price": 6.90
+    },
+    {
+      "desc": "Bauernfrühstück mit grünem Paprika, saurer Gurke",
+      "price": 6.90
+    }
+  ],
+  "2024-W22": [
+    {
+      "desc": "Penne mit Feta und Hack",
+      "price": 4.90
+    },
+    {
+      "desc": "Spaghetti mit Erbsenmus + Lachs",
+      "price": 4.90
+    },
+    {
+      "desc": "Pasta mit Tomaten Mozarella Sauce",
+      "price": 4.90
+    }
+  ]
+}
