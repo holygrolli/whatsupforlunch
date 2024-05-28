@@ -1,0 +1,61 @@
+{
+  "2024-05-27": [],
+  "2024-05-28": [
+    {
+      "desc": "Schweineschnitzel mit Gemüse und Sc. Hollandaise überbacken, dazu Bratkartoffeln",
+      "price": 9.80
+    },
+    {
+      "desc": "Gebratene Minikartoffeln mit Kirschtomaten und Rucola, dazu Paprika-Gurken-Quark sowie geröstete Sonnenblumenkerne (veget.)",
+      "price": 9.20
+    }
+  ],
+  "2024-05-29": [
+    {
+      "desc": "Wurstgulasch mit Paprika auf Pasta, dazu Gouda",
+      "price": 9.80
+    },
+    {
+      "desc": "Brokkoli in Kichererbsenbackteig, auf rotem Linsencurry mit Paprika und Lauchzwiebeln (vegan)",
+      "price": 9.20
+    }
+  ],
+  "2024-05-30": [
+    {
+      "desc": "Hähnchenschnitzel mit Rahmerbsen, Salzkartoffeln und brauner Soße",
+      "price": 9.80
+    },
+    {
+      "desc": "Cannelloni gefüllt mt Hirtenkäse in pikanter Tomatensoße, überbacken mit Gouda (veget.)",
+      "price": 9.20
+    }
+  ],
+  "2024-05-31": [
+    {
+      "desc": "Fischcurry mit buntem Gemüse und Sesamreis",
+      "price": 9.90
+    }
+  ],
+  "2024-W22": [
+    {
+      "desc": "Pasta mit pikantem Mais-Pesto, dazu geröstete Sonnenblumenkerne und Parmesan (veget.)",
+      "price": 10.90
+    },
+    {
+      "desc": "Waldpilzlasagne überbacken mit Mozzarella und Röstzwiebeln (veget.)",
+      "price": 12.40
+    },
+    {
+      "desc": "Lasagne \"Bolognese\" überbacken mit Gouda",
+      "price": 12.90
+    },
+    {
+      "desc": "Gebratene Hähnchenbrust auf Spinat-Kartoffelgratin, überbacken mit Mozzarella und Mandeln",
+      "price": 12.90
+    },
+    {
+      "desc": "Grüner Bohneneintopf mit Kasseler und Baguette",
+      "price": 6.90
+    }
+  ]
+}
