@@ -1,0 +1,52 @@
+{
+  "2024-06-03": [
+    {
+      "desc": "Schnitzel \"Wiener Art\" mit Kartoffel-Gurken-Salat",
+      "price": 7.90
+    },
+    {
+      "desc": "Allgäuer Käsespätzle mit Röstzwiebeln",
+      "price": 7.90
+    }
+  ],
+  "2024-06-04": [
+    {
+      "desc": "Königsberger Klopse in Kapernsauce mit Salzkartoffeln",
+      "price": 7.90
+    },
+    {
+      "desc": "Gekochte Eier in Senfsauce mit Salzkartoffeln",
+      "price": 7.90
+    }
+  ],
+  "2024-06-05": [
+    {
+      "desc": "Hähnchen-Geschnetzeltes in Champignonrahm mit Spätzle",
+      "price": 7.90
+    },
+    {
+      "desc": "Kartoffel-Gemüse-Pfanne mit Röstzwiebeln",
+      "price": 7.90
+    }
+  ],
+  "2024-06-06": [
+    {
+      "desc": "Gezupftes Haxenfleisch in Meerrettichsauce mit Kartoffelpüree",
+      "price": 7.90
+    },
+    {
+      "desc": "Gnocchi mit Blattspinat in Käsesauce",
+      "price": 7.90
+    }
+  ],
+  "2024-06-07": [
+    {
+      "desc": "Backfisch auf Kartoffel-Gurken-Salat mit Remoulade",
+      "price": 7.90
+    },
+    {
+      "desc": "Kartoffeltaschen mit Frischkäse an buntem Blattsalat",
+      "price": 7.90
+    }
+  ]
+}
