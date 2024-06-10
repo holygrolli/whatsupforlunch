@@ -7,12 +7,12 @@ ENV NVM_DIR /usr/local/nvm
 ENV NODE_VERSION lts/iron
 RUN mkdir -p /usr/local/nvm && apt-get update && echo "y" | apt-get install curl
 RUN curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.7/install.sh | bash && \
-    chmod +x $HOME/.nvm/nvm.sh && \
+    chmod +x $NVM_DIR/nvm.sh && \
     . $NVM_DIR/nvm.sh && \
     nvm install --latest-npm "$NODE_VERSION" && \
     nvm alias default "$NODE_VERSION" && \
     nvm use default && \
     DEFAULT_NODE_VERSION=$(nvm version default) && \
-    ln -sf /root/.nvm/versions/node/$DEFAULT_NODE_VERSION/bin/node /usr/bin/nodejs && \
-    ln -sf /root/.nvm/versions/node/$DEFAULT_NODE_VERSION/bin/node /usr/bin/node && \
-    ln -sf /root/.nvm/versions/node/$DEFAULT_NODE_VERSION/bin/npm /usr/bin/npm
+    ln -sf $NVM_DIR/versions/node/$DEFAULT_NODE_VERSION/bin/node /usr/bin/nodejs && \
+    ln -sf $NVM_DIR/versions/node/$DEFAULT_NODE_VERSION/bin/node /usr/bin/node && \
+    ln -sf $NVM_DIR/versions/node/$DEFAULT_NODE_VERSION/bin/npm /usr/bin/npm
