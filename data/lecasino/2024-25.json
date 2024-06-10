@@ -1,0 +1,76 @@
+{
+  "2024-06-17": [
+    {
+      "desc": "Pasta aglio olio",
+      "price": 3.20
+    },
+    {
+      "desc": "Nudeleintopf mit Huhn und Gemüse",
+      "price": 3.00
+    },
+    {
+      "desc": "Panierte-Seelachs an einer Dill-Senfsoße",
+      "price": 3.85
+    },
+    {
+      "desc": "Tagesangebot",
+      "price": 0.00
+    }
+  ],
+  "2024-06-18": [
+    {
+      "desc": "Pasta mit Spinat-Frischkäsesoße",
+      "price": 3.80
+    },
+    {
+      "desc": "Chili Con Carne",
+      "price": 3.00
+    },
+    {
+      "desc": "Tagesangebot",
+      "price": 0.00
+    }
+  ],
+  "2024-06-19": [
+    {
+      "desc": "Gemüseschnitzel mit kl. gem. Salat",
+      "price": 3.80
+    },
+    {
+      "desc": "Frikadellenbällchen mit zweierlei Soße und Kartoffelpüree",
+      "price": 3.00
+    },
+    {
+      "desc": "Steak mit Letscho und sautierter Art",
+      "price": 4.45
+    }
+  ],
+  "2024-06-20": [
+    {
+      "desc": "Käse-Spätzle mit Röstzwiebeln",
+      "price": 3.50
+    },
+    {
+      "desc": "Milchreis mit Zimt Zucker und Apfelmus",
+      "price": 3.00
+    },
+    {
+      "desc": "Sülze mit Remoulade",
+      "price": 3.20
+    }
+  ],
+  "2024-06-21": [
+    {
+      "desc": "Ofenkartoffel mit Quarkdip und ein kl. gemischter Salat",
+      "price": 3.95
+    },
+    {
+      "desc": "Schinkennudeln mit Sahnesoße",
+      "price": 3.00
+    },
+    {
+      "desc": "Hörnlisalat Schweizer-Art",
+      "price": 4.50
+    }
+  ]
+}

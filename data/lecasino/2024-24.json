@@ -1,0 +1,59 @@
+{
+  "2024-06-10": [
+    {
+      "desc": "Gemüsebolognese mit Pasta",
+      "price": 3.50
+    },
+    {
+      "desc": "Linseneintopf mit Kartoffeln",
+      "price": 3.00
+    },
+    {
+      "desc": "Kohlroulade mit Bratensoße",
+      "price": 3.75
+    }
+  ],
+  "2024-06-11": [
+    {
+      "desc": "Salzkartoffeln mit Rahmspinat & Rührei",
+      "price": 3.90
+    },
+    {
+      "desc": "Kräuterquark mit Kartoffeln und Butter",
+      "price": 3.00
+    },
+    {
+      "desc": "Tiegelwurst mit Majoran und Zwiebeln",
+      "price": 3.90
+    }
+  ],
+  "2024-06-12": [],
+  "2024-06-13": [
+    {
+      "desc": "Brokkoli-Kartoffel-Auflauf",
+      "price": 3.50
+    },
+    {
+      "desc": "Hefeklöße mit Pflaumen",
+      "price": 3.00
+    },
+    {
+      "desc": "Schweinegeschnetzeltes „Jäger Art“",
+      "price": 3.85
+    }
+  ],
+  "2024-06-14": [
+    {
+      "desc": "Rote-Linsen-Lasagne",
+      "price": 4.25
+    },
+    {
+      "desc": "Tagesangebot",
+      "price": null
+    },
+    {
+      "desc": "Schottischer Eintopf",
+      "price": 4.50
+    }
+  ]
+}
