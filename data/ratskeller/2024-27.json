@@ -1,0 +1,92 @@
+{
+  "2024-07-01": [
+    {
+      "desc": "Hausgemachter Linseneintopf mit Blutwurstwürfeln",
+      "price": 5.60
+    },
+    {
+      "desc": "Eieromelette mit Rahmspinat und Petersilienkartoffeln",
+      "price": 6.10
+    },
+    {
+      "desc": "Paella Reispfanne mit Hähnchen, Fisch und Muscheln",
+      "price": 6.70
+    },
+    {
+      "desc": "Halloumi-Bowl mit Bulgur-Salat, Oliven, Zwiebeln und Joghurt",
+      "price": 8.00
+    }
+  ],
+  "2024-07-02": [
+    {
+      "desc": "Marillenknödel mit Vanillerahm",
+      "price": 5.60
+    },
+    {
+      "desc": "Pasta- mit Tomatensoße und geriebenem Käse",
+      "price": 6.10
+    },
+    {
+      "desc": "Jägerschnitzel mit Tomatensoße und Pasta",
+      "price": 6.70
+    },
+    {
+      "desc": "Melonen-Feta-Salat mit Basilikum und gegrillter Hähnchenbrust",
+      "price": 8.50
+    }
+  ],
+  "2024-07-03": [
+    {
+      "desc": "Kartoffel-Möhren-Eintopf mit Fleischklößchen",
+      "price": 5.60
+    },
+    {
+      "desc": "Sellerie-Schnitzel mit bunten Karotten und Reis",
+      "price": 6.10
+    },
+    {
+      "desc": "Wildgulasch mit Preiselbeeren, Rotkraut und Serviettenknödeln",
+      "price": 6.70
+    },
+    {
+      "desc": "Überraschungs-Gericht mit BIO-Gemüse von KOLA Leipzig",
+      "price": 8.50
+    }
+  ],
+  "2024-07-04": [
+    {
+      "desc": "Eierkuchen mit Kirschfüllung, dazu Vanillesoße",
+      "price": 5.60
+    },
+    {
+      "desc": "Pasta mit Tomatensoße und geriebenem Käse",
+      "price": 6.10
+    },
+    {
+      "desc": "Rindergulasch mit Pilzen, Paprika und Pasta",
+      "price": 6.70
+    },
+    {
+      "desc": "\"Bratwurst\" mit Sauerkraut und Petersilienkartoffeln",
+      "price": 8.50
+    }
+  ],
+  "2024-07-05": [
+    {
+      "desc": "Paprikacreme-Suppe mit Zwiebel-Chutney und Croûtons",
+      "price": 5.60
+    },
+    {
+      "desc": "Spinat-Käse-Knödel auf Kräuter-Waldpilzrahm",
+      "price": 6.10
+    },
+    {
+      "desc": "Backfisch mit Remoulade, Salat und Petersilienkartoffeln",
+      "price": 6.70
+    },
+    {
+      "desc": "Lammhüftsteak mit Ratatouille, Rosmarin-Kartoffeln",
+      "price": 8.50
+    }
+  ]
+}

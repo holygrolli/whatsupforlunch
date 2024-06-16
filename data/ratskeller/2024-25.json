@@ -1,0 +1,92 @@
+{
+  "2024-06-17": [
+    {
+      "desc": "Brokkoli-Creme-suppe mit Kürbiskernen und Croûtons",
+      "price": 5.60
+    },
+    {
+      "desc": "Kräuterquark mit Zwiebeln, Butterkarotten und Petersilienkartoffeln",
+      "price": 6.10
+    },
+    {
+      "desc": "Hühnerfrikassee mit Erbsen, Karotten und Butterreis",
+      "price": 6.70
+    },
+    {
+      "desc": "Shakshuka mit Hummus und Fladenbrot",
+      "price": 8.50
+    }
+  ],
+  "2024-06-18": [
+    {
+      "desc": "Kaiserschmarr'n mit Apfelmus und Mandeln",
+      "price": 5.60
+    },
+    {
+      "desc": "Pasta mit Tomatensoße und geriebenem Käse",
+      "price": 6.10
+    },
+    {
+      "desc": "Pasta mit Wurstgulasch und geriebenem Käse",
+      "price": 6.70
+    },
+    {
+      "desc": "Bauernfrühstück mit Speck, Remoulade, Gurke und Salat",
+      "price": 8.50
+    }
+  ],
+  "2024-06-19": [
+    {
+      "desc": "Soljanka mit Sauerrahm und Zitrone",
+      "price": 5.60
+    },
+    {
+      "desc": "Kartoffeltaschen mit Frischkäse, dazu Kräuterquark und Salat",
+      "price": 6.10
+    },
+    {
+      "desc": "Leberkäse mit Bayrisch Kraut und Petersilienkartoffeln",
+      "price": 6.70
+    },
+    {
+      "desc": "Überraschungs-Gericht mit BIO-Gemüse von KOLA Leipzig",
+      "price": NaN
+    }
+  ],
+  "2024-06-20": [
+    {
+      "desc": "Drei Hefeklöße mit warmen Heidelbeeren",
+      "price": 5.60
+    },
+    {
+      "desc": "Pasta mit Tomatensoße und geriebenem Käse",
+      "price": 6.10
+    },
+    {
+      "desc": "Kohlroulade mit Krautsoße und Petersilienkartoffeln",
+      "price": 6.70
+    },
+    {
+      "desc": "Linguine mit Linsenbolognese, Rucola und Cherrytomaten",
+      "price": 8.00
+    }
+  ],
+  "2024-06-21": [
+    {
+      "desc": "Spinatsuppe mit Eierstich",
+      "price": 5.60
+    },
+    {
+      "desc": "Gemüse-Paella mit Zucchini, Paprika, Erbsen und Karotten",
+      "price": 6.10
+    },
+    {
+      "desc": "Currywurst mit fruchtig pikanter Soße, dazu Kartoffelecken",
+      "price": 6.70
+    },
+    {
+      "desc": "Schollenfilet 'Eßlinger Art' mit Speck, dazu Kartoffelsalat",
+      "price": 8.50
+    }
+  ]
+}

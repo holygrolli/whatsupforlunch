@@ -1,0 +1,32 @@
+{
+    "2024-07-22": [
+        {"desc": "Usedomer-Fisch-Soljanka mit Paprika und Gewürzgurken", "price": 5.60},
+        {"desc": "Vegan gefüllte Paprikaschote mit Reis und Tomatensoße", "price": 6.10},
+        {"desc": "Kassler Nackenbraten mit Sauerkraut und Semmelknödeln", "price": 6.70},
+        {"desc": "Penne Estate mit Tomate, Basilikum, Mozzarella und Knoblauch", "price": 8.50}
+    ],
+    "2024-07-23": [
+        {"desc": "Grießbrei mit Pflaumenragout und Zimtzucker", "price": 5.60},
+        {"desc": "Pasta mit Tomatensoße und geriebenem Käse", "price": 6.10},
+        {"desc": "Jägerschnitzel mit Tomatensoße und Pasta", "price": 6.70},
+        {"desc": "Bunter Sommersalat mit Pfirsich, Mozzarella und Schinkenchips", "price": 8.50}
+    ],
+    "2024-07-24": [
+        {"desc": "Erbseneintopf mit Bockwurst und Kartoffelwürfeln", "price": 5.60},
+        {"desc": "Gemüseschnitzel mit Erbsen und und Kartoffelstampf", "price": 6.10},
+        {"desc": "Schweinegeschnetzeltes 'Stroganoff' mit Bete, Pilzen und Reis", "price": 6.70},
+        {"desc": "Überraschungsgericht mit BIO-Gemüse und KOLA Leipzig", "price": 6.70}
+    ],
+    "2024-07-25": [
+        {"desc": "American Pancakes mit Apfel-Aprikosen-Kompott", "price": 5.60},
+        {"desc": "Pasta mit Tomatensoße und geriebenem Käse", "price": 6.10},
+        {"desc": "Pasta mit Schinken-Käse-Sahnesoße", "price": 6.70},
+        {"desc": "Rinderroulade mit Apfelrotkohl und Kartoffelklößen", "price": 8.50}
+    ],
+    "2024-07-26": [
+        {"desc": "Pastinaken-Cremesuppe mit Kerbel-Pesto", "price": 5.60},
+        {"desc": "Schweizer Kartoffelrösti mit Kräuterquark und Salat", "price": 6.10},
+        {"desc": "Seelachsfilet 'Bordelaise' mit bunten Karotten und Reis", "price": 6.70},
+        {"desc": "Hähnchenbrust mit Tomate, Mozzarella, Spinatsoße und Gratin", "price": 8.50}
+    ]
+}
