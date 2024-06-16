@@ -1,0 +1,92 @@
+{
+  "2024-06-24": [
+    {
+      "desc": "Sächsische Kartoffelsuppe mit Majoran und Bockwurst",
+      "price": 5.60
+    },
+    {
+      "desc": "Süßkartoffel-Kichererbsen-Curry mit Kurkumareis",
+      "price": 6.10
+    },
+    {
+      "desc": "Paniertes Seelachsfilet mit Zitronensoße, Salat und Butterreis",
+      "price": 6.70
+    },
+    {
+      "desc": "Mediterraner Nudelsalat mit Oliven, Rucola und Mozzarella-Sticks",
+      "price": 8.00
+    }
+  ],
+  "2024-06-25": [
+    {
+      "desc": "Germknödel mit Pflaumenfüllung, dazu Mohn und Vanillesoße",
+      "price": 5.60
+    },
+    {
+      "desc": "Pasta mit Tomatensoße und geriebenem Käse",
+      "price": 6.10
+    },
+    {
+      "desc": "Spaghetti 'Bolognese' mit geriebenem Käse",
+      "price": 6.70
+    },
+    {
+      "desc": "Kalbsrahmgulasch mit gebratenen Pilzen und Kartoffelrösti",
+      "price": 8.50
+    }
+  ],
+  "2024-06-26": [
+    {
+      "desc": "Chili con Carne",
+      "price": 5.60
+    },
+    {
+      "desc": "Zucchini-Möhrenpuffer mit Radieschenquark und Salat",
+      "price": 6.10
+    },
+    {
+      "desc": "Krakauer mit Grünkohl und Petersilienkartoffeln",
+      "price": 6.70
+    },
+    {
+      "desc": "Überraschungsgericht mit BIO-Gemüse von KOLA Leipzig",
+      "price": 8.50
+    }
+  ],
+  "2024-06-27": [
+    {
+      "desc": "Eierkuchen mit Apfel-Rosinenfüllung, dazu Vanillesoße",
+      "price": 5.60
+    },
+    {
+      "desc": "Pasta mit Tomatensoße und geriebenem Käse",
+      "price": 6.10
+    },
+    {
+      "desc": "Schweineschnitzel mit Blumenkohl und Petersilienkartoffeln",
+      "price": 6.70
+    },
+    {
+      "desc": "Weißwürste mit Brezel, Rettichsalat und süßem Senf",
+      "price": 8.50
+    }
+  ],
+  "2024-06-28": [
+    {
+      "desc": "Karotten-Ingwer-Suppe mit Orange und Sprossen",
+      "price": 5.60
+    },
+    {
+      "desc": "Käsespätzle mit 'Allgäuer Art' mit Röstzwiebeln",
+      "price": 6.10
+    },
+    {
+      "desc": "Fischcurry mit asiatischem Gemüse und Limettenreis",
+      "price": 6.70
+    },
+    {
+      "desc": "Schweineleber mit Zwiebeln und Kartoffelsalat",
+      "price": 8.50
+    }
+  ]
+}
