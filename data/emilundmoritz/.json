@@ -11,7 +11,7 @@
   ],
   "Tuesday": [
     {
-      "desc": "Grilled Chicken with Rice",
+      "desc": "Grilled Chicken with Mashed Potatoes",
       "price": 9.20
     },
     {
@@ -31,78 +31,22 @@
   ],
   "Thursday": [
     {
-      "desc": "Fish and Chips",
+      "desc": "Pulled Pork Sandwich",
       "price": 9.50
     },
     {
-      "desc": "Mushroom Risotto",
-      "price": 8.20
+      "desc": "Quinoa Salad",
+      "price": 7.90
     }
   ],
   "Friday": [
     {
-      "desc": "Steak with Mashed Potatoes",
-      "price": 12.50
-    },
-    {
-      "desc": "Penne Arrabbiata",
-      "price": 8.90
-    }
-  ]
-}
-```
-
-Output:
-```json
-{
-  "2024-06-10": [
-    {
-      "desc": "Spaghetti Bolognese",
-      "price": 8.50
-    },
-    {
-      "desc": "Caesar Salad",
-      "price": 6.90
-    }
-  ],
-  "2024-06-11": [
-    {
-      "desc": "Grilled Chicken with Rice",
-      "price": 9.20
-    },
-    {
-      "desc": "Vegetable Stir-Fry",
-      "price": 7.50
-    }
-  ],
-  "2024-06-12": [
-    {
-      "desc": "Beef Burger with Fries",
-      "price": 10.00
-    },
-    {
-      "desc": "Margherita Pizza",
-      "price": 8.50
-    }
-  ],
-  "2024-06-13": [
-    {
       "desc": "Fish and Chips",
-      "price": 9.50
+      "price": 10.50
     },
     {
-      "desc": "Mushroom Risotto",
-      "price": 8.20
-    }
-  ],
-  "2024-06-14": [
-    {
-      "desc": "Steak with Mashed Potatoes",
-      "price": 12.50
-    },
-    {
-      "desc": "Penne Arrabbiata",
-      "price": 8.90
+      "desc": "Greek Salad",
+      "price": 8.00
     }
   ]
 }
