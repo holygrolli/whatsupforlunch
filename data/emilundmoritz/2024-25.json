@@ -1,0 +1,66 @@
+{
+  "2024-06-17": [
+    {
+      "desc": "Leberkäse mit Kartoffelsalat",
+      "price": 6.90
+    },
+    {
+      "desc": "Kaiserschmarrn mit Kirschen und Apfelmus",
+      "price": 6.90
+    }
+  ],
+  "2024-06-18": [
+    {
+      "desc": "Paprikaschote mit Hackfleisch, Kartoffelstampf und Tomatensoße",
+      "price": 6.90
+    },
+    {
+      "desc": "Paprikaschote mit Couscous, Kartoffelstampf und Tomatensoße",
+      "price": 6.90
+    }
+  ],
+  "2024-06-19": [
+    {
+      "desc": "Szegediner Gulasch mit Kartoffeln",
+      "price": 6.90
+    },
+    {
+      "desc": "Blumenkohl- Kichererbsen-Curry mit Joghurtdip",
+      "price": 6.90
+    }
+  ],
+  "2024-06-20": [
+    {
+      "desc": "Putenschnitzel an Pasta mit Tomaten- Basilikumsoße",
+      "price": 6.90
+    },
+    {
+      "desc": "Toskanische Kartoffel- Gemüsepfanne",
+      "price": 6.90
+    }
+  ],
+  "2024-06-21": [
+    {
+      "desc": "Rostbrät'l mit Schmorzwiebeln und Bratkartoffeln",
+      "price": 6.90
+    },
+    {
+      "desc": "Fischstäbchen dazu Kartoffelstampf und Kräuter- Dillsoße",
+      "price": 6.90
+    }
+  ],
+  "2024-W25": [
+    {
+      "desc": "Pasta mit Brokkoli, Mais und Hähnchen",
+      "price": 4.90
+    },
+    {
+      "desc": "Spaghetti Cabonara",
+      "price": 4.90
+    },
+    {
+      "desc": "Penne mit Kirschtomaten, Pesto und Parmesan",
+      "price": 4.90
+    }
+  ]
+}
