@@ -1,0 +1,92 @@
+{
+  "2024-07-15": [
+    {
+      "desc": "Tomatencremesuppe mit Basilikum-Pesto und Croutons",
+      "price": 5.60
+    },
+    {
+      "desc": "Blumenkohl-Käsemedaillon mit Salat und Kräuterreis",
+      "price": 6.10
+    },
+    {
+      "desc": "Frikadelle mit Champignons Rahm und Kartoffelstampf",
+      "price": 6.70
+    },
+    {
+      "desc": "Rigatoni mit veganer \"Thunfischsoße\" und Rucola",
+      "price": 8.50
+    }
+  ],
+  "2024-07-16": [
+    {
+      "desc": "Nougat- Topfenknödel mit Vanillesoße",
+      "price": 5.60
+    },
+    {
+      "desc": "Pasta mit Tomatensoße und geriebenem Käse",
+      "price": 6.10
+    },
+    {
+      "desc": "Spaghetti \"Bolognese\" mit geriebenem Käse",
+      "price": 6.70
+    },
+    {
+      "desc": "Falafel Bowl mit Bete, Taboulé-Salat und Karotten-Hummus",
+      "price": 8.50
+    }
+  ],
+  "2024-07-17": [
+    {
+      "desc": "Grüner Bohneneintopf mit Rindfleisch und Kartoffel-Würfeln",
+      "price": 5.60
+    },
+    {
+      "desc": "Gemüse Köttbullar mit Waldpilzrahm und Kartoffelstampf",
+      "price": 6.10
+    },
+    {
+      "desc": "Hirtenrolle mit Zaziki, Krautsalat und Tomatenreis",
+      "price": 6.70
+    },
+    {
+      "desc": "Überraschungsgericht mit BIO-Gemüse von KOLA Leipzig",
+      "price": 8.50
+    }
+  ],
+  "2024-07-18": [
+    {
+      "desc": "Sächsische Quarkkäulchen mit Apfelmus und Zimtzucker",
+      "price": 5.60
+    },
+    {
+      "desc": "Pasta mit Tomatensoße und geriebenem Käse",
+      "price": 6.10
+    },
+    {
+      "desc": "Hackbällchen mit Tomatensoße und Pasta",
+      "price": 6.70
+    },
+    {
+      "desc": "Blumenkohl mit Joghurt-Minze-Dip und Ofenkartoffeln",
+      "price": 8.50
+    }
+  ],
+  "2024-07-19": [
+    {
+      "desc": "Blumenkohl-Suppe mit Haselnuss-Sprossen und Pumpernickel",
+      "price": 5.60
+    },
+    {
+      "desc": "Spinat-Lasagne mit Ricotta und Frühlings-Zwiebeln",
+      "price": 6.10
+    },
+    {
+      "desc": "Fischtäbchen mit Tomatensoße und Kartoffelstampf",
+      "price": 6.70
+    },
+    {
+      "desc": "Rinderzunge mit Meerrettichsoße, Krautsalat und Klößen",
+      "price": 8.50
+    }
+  ]
+}

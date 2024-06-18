@@ -1,0 +1,52 @@
+{
+  "2024-06-10": [
+    {
+      "desc": "Schnitzel \"Wiener Art\" mit Kartoffel-Gurken-Salat",
+      "price": 7.90
+    },
+    {
+      "desc": "Allgäuer Käsespätzle mit Röstzwiebeln",
+      "price": 7.90
+    }
+  ],
+  "2024-06-11": [
+    {
+      "desc": "Gebratene Hähnchenbrust auf Ratatouille-Gemüse mit Reis",
+      "price": 7.90
+    },
+    {
+      "desc": "Kartoffel-Gnocchi in mediterraner Gemüsesauce",
+      "price": 7.90
+    }
+  ],
+  "2024-06-12": [
+    {
+      "desc": "Kasslerbraten mit Sauerkraut und Salzkartoffeln",
+      "price": 7.90
+    },
+    {
+      "desc": "Gebackener Blumenkohl mit Sc. Hollandaise und Salzkartoffeln",
+      "price": 7.90
+    }
+  ],
+  "2024-06-13": [
+    {
+      "desc": "Hackbraten mit Senfmöhren und Spätzle",
+      "price": 7.90
+    },
+    {
+      "desc": "Spätzlepfanne mit buntem Gemüse und Röstzwiebeln",
+      "price": 7.90
+    }
+  ],
+  "2024-06-14": [
+    {
+      "desc": "Backfisch auf Kartoffel-Gurken-Salat mit Remoulade",
+      "price": 7.90
+    },
+    {
+      "desc": "Bunter Blattsalat mit Oliven, Tomaten und gekochtem Ei",
+      "price": 7.90
+    }
+  ]
+}
