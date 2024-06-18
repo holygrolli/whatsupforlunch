@@ -1,5 +1,5 @@
 {
-  "prompt_tokens": 1837,
-  "completion_tokens": 765,
-  "total_tokens": 2602
+    "completion_tokens": 721,
+    "prompt_tokens": 1835,
+    "total_tokens": 2556
 }

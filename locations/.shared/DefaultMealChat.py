@@ -77,7 +77,7 @@ class DefaultMealChat:
     def writeToFile(self, chat_completion):
         print(chat_completion.usage)
         out = open("usage.json", "w")
-        out.write(str(chat_completion.usage))
+        out.write(json.dumps(chat_completion.usage.to_dict(), indent=4, sort_keys=True))
         out.close()
         # print the chat completion for debugging
         print(chat_completion.choices[0].message.content)
@@ -111,12 +111,14 @@ class DefaultMealChat:
             },
             {
                 "type": "image_url",
-                "image_url": self.encode_image_and_return_string(self.userImageFile)
+                "image_url": {
+                    "url": self.encode_image_and_return_string(self.userImageFile)
+                }
             }
         ]})
         
         print(f"sending additional user msg: {self.userMessagePrefix + self.userMessage}")
-        chat_completion = client.chat.completions.create(model="gpt-4-vision-preview",
+        chat_completion = client.chat.completions.create(model="gpt-4o",
                                                         messages=gpt_messages,
                                                         max_tokens=self.max_tokens)#,
                                                         #response_format={ "type":"json_object" })

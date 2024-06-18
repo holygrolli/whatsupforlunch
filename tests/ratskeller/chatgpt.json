@@ -21,7 +21,7 @@
   "2024-01-03": [
     {
       "desc": "Sächsische Kartoffelsuppe mit Majoran und Bockwurst",
-      "price": 5.60
+      "price": 5.00
     },
     {
       "desc": "Gemüse-Schnitzel mit Salat und Kräuterreis",
@@ -39,7 +39,7 @@
   "2024-01-04": [
     {
       "desc": "Grießbrei mit Pflaumenkompott und Zimtzucker",
-      "price": 5.60
+      "price": 5.00
     },
     {
       "desc": "Pasta mit Tomatensoße und geriebenem Käse",
@@ -50,25 +50,25 @@
       "price": 6.70
     },
     {
-      "desc": "Quinoa-Grünkohl-Strudel mit bunten Karotten und Kürbiscreme",
+      "desc": "Quinoa-Grünkohl-Strudel mit bunten Karotten und Kürbispüree",
       "price": 8.00
     }
   ],
   "2024-01-05": [
     {
       "desc": "Kohlrabi-Möhren-Eintopf mit Grießklößchen",
-      "price": 5.60
+      "price": 5.00
     },
     {
-      "desc": "Käsespätz'n „Allgäuer Art“ mit Röstzwiebeln",
-      "price": 6.10
+      "desc": "Käsespätz’ in „Allgäuer Art“ mit Röstzwiebeln",
+      "price": 6.00
     },
     {
-      "desc": "Brathering mit Zwiebelredressing, Salat und Petersilienkartoffeln",
+      "desc": "Brathering mit Zwiebeldressing, Salat und Petersilienkartoffeln",
       "price": 6.70
     },
     {
-      "desc": "Schweinebacken mit Waldpilzrahm und Kartoffel-Rösti",
+      "desc": "Schweinebäckchen mit Waldpilzrahm und Kartoffel-Rösti",
       "price": 8.00
     }
   ]
