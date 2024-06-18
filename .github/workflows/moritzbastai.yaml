@@ -5,7 +5,7 @@ on:
       force_publish:
         description: execute publish job
         type: boolean
-        default: true
+        default: false
   schedule:
     - cron: '0 9 * * 2'
 permissions: 
@@ -34,7 +34,7 @@ jobs:
           curl -s https://www.moritzbastei.de/gastronomie-kneipe-bistro-drinks/ | \
             python locations/moritzbastei/check_site_update.py > data/moritzbastei/scraped_done.txt
           git config --system --add safe.directory $PWD
-          git status -s | grep "moritzbastei/scraped_done.txt" && echo "::set-output name=ts::$(cat data/moritzbastei/scraped_done.txt)"
+          git status -s | grep "moritzbastei/scraped_done.txt" && echo "::set-output name=ts::$(cat data/moritzbastei/scraped_done.txt)" || echo "no updates"
   download:
     needs: check
     if: ${{ needs.check.outputs.ts != '' || inputs.force_publish }}
@@ -84,7 +84,7 @@ jobs:
           app_id: ${{ secrets.TOKEN_APP_ID }}
           private_key: ${{ secrets.TOKEN_APP_PRIVATE_KEY }}
       - name: Create Pull Request
-        if: ${{ !github.event.act && (github.event_name != 'workflow_dispatch' || inputs.force_publish) }}
+        if: ${{ !github.event.act && (github.event_name != 'workflow_dispatch' || (github.ref == 'refs/heads/main' && inputs.force_publish)) }}
         uses: peter-evans/create-pull-request@v5
         with:
           add-paths: |
