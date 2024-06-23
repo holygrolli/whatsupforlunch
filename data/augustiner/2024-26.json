@@ -1,0 +1,43 @@
+{
+  "2024-06-24": [],
+  "2024-06-25": [
+    {
+      "desc": "Schnitzel \"Wiener Art\" mit Kartoffel-Gurken-Salat",
+      "price": 7.90
+    },
+    {
+      "desc": "Allgäuer Käsespätzle mit Röstzwiebeln",
+      "price": 7.90
+    }
+  ],
+  "2024-06-26": [
+    {
+      "desc": "Wurstgulasch mit Spirelli und geriebenem Käse",
+      "price": 7.90
+    },
+    {
+      "desc": "Spirelli in Käse-Sahnesauce",
+      "price": 7.90
+    }
+  ],
+  "2024-06-27": [
+    {
+      "desc": "Augustiner Bratwurst auf Sauerkraut und Kartoffelpüree",
+      "price": 7.90
+    },
+    {
+      "desc": "Vegetarisches Bauernfrühstück mit Fassgurke",
+      "price": 7.90
+    }
+  ],
+  "2024-06-28": [
+    {
+      "desc": "Backfisch auf Kartoffel-Gurken-Salat mit Remoulade",
+      "price": 7.90
+    },
+    {
+      "desc": "Weißwein-Risotto mit Champignons",
+      "price": 7.90
+    }
+  ]
+}
