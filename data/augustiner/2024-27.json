@@ -1,0 +1,43 @@
+{
+  "2024-07-01": [
+    {
+      "desc": "Schnitzel \"Wiener Art\" mit Kartoffel-Gurken-Salat",
+      "price": 7.90
+    },
+    {
+      "desc": "Allgäuer Käsespätzle mit Röstzwiebeln",
+      "price": 7.90
+    }
+  ],
+  "2024-07-02": [],
+  "2024-07-03": [
+    {
+      "desc": "Hausgemachte Sülze mit Bratkartoffeln und Remouladensauce",
+      "price": 7.90
+    },
+    {
+      "desc": "Rührei mit Gurkensalat und Salzkartoffeln",
+      "price": 7.90
+    }
+  ],
+  "2024-07-04": [
+    {
+      "desc": "Königsberger Klopse in Kapernsauce mit Salzkartoffeln",
+      "price": 7.90
+    },
+    {
+      "desc": "Spirelli mit Blattspinat und Kirschtomaten in Rahmsauce",
+      "price": 7.90
+    }
+  ],
+  "2024-07-05": [
+    {
+      "desc": "Backfisch auf Kartoffel-Gurken-Salat mit Remoulade",
+      "price": 7.90
+    },
+    {
+      "desc": "Gemischter Salat mit Gurken, Tomaten, Oliven und Feta Käse",
+      "price": 7.90
+    }
+  ]
+}
