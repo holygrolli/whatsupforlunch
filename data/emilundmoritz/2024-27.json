@@ -1,0 +1,66 @@
+{
+  "2024-07-01": [
+    {
+      "desc": "Geflügelleber an Kartoffel- Zwiebelstampf",
+      "price": 6.90
+    },
+    {
+      "desc": "Quarkkeulchen mit Apfelmus und Kirschen",
+      "price": 6.90
+    }
+  ],
+  "2024-07-02": [
+    {
+      "desc": "Schaschlik mit Reis dazu Tomatensoße",
+      "price": 6.90
+    },
+    {
+      "desc": "Gemüse Schaschlik mit Reis und Tomatensoße",
+      "price": 6.90
+    }
+  ],
+  "2024-07-03": [
+    {
+      "desc": "knusprige Hähnchenbrust an Rahmkarotten und Rosamrinkartoffeln",
+      "price": 6.90
+    },
+    {
+      "desc": "Kräuterquark mit Rosamarinkartoffeln und kleinem Salat",
+      "price": 6.90
+    }
+  ],
+  "2024-07-04": [
+    {
+      "desc": "Österreicher Gulasch mit Böhmischen Knödeln",
+      "price": 6.90
+    },
+    {
+      "desc": "Matjes an Hausfrauensoße und Bratkartoffeln",
+      "price": 6.90
+    }
+  ],
+  "2024-07-05": [
+    {
+      "desc": "Schweineschnitzel mit Letscho und Pommes",
+      "price": 6.90
+    },
+    {
+      "desc": "Rührei mit Schmand- Gurkensalat und Kartoffeln",
+      "price": 6.90
+    }
+  ],
+  "2024-W27": [
+    {
+      "desc": "Penne mit Kirschtomaten und Basilikumpesto",
+      "price": 4.90
+    },
+    {
+      "desc": "Spaghetti in Spinat- Rahmsoße",
+      "price": 4.90
+    },
+    {
+      "desc": "Pasta mit Bolognese",
+      "price": 4.90
+    }
+  ]
+}
