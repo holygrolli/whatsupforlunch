@@ -1,0 +1,57 @@
+{
+  "2024-07-01": [],
+  "2024-07-02": [
+    {
+      "desc": "Schweineschnitzel überbacken mit Tomate und Mozzarella, dazu Rosmarinkartoffeln und Basilikum-Schmand",
+      "price": 9.80
+    },
+    {
+      "desc": "Gebratene Minikartoffeln mit Kirschtomaten und Rucola, dazu Paprika-Gurken-Quark sowie geröstete Sonnenblumenkerne (veget.)",
+      "price": 9.20
+    }
+  ],
+  "2024-07-03": [
+    {
+      "desc": "Gebackene Hähnchenbrust in Cornflakes-Panade, dazu gebratene Mie-Nudeln mit buntem Gemüse, Sweet Chilisoße und Röstzwiebeln",
+      "price": 9.80
+    },
+    {
+      "desc": "Auberginenschnitzel in Parmesan-Panade, dazu pikante Tomatensoße und Pasta (veget.)",
+      "price": 9.20
+    }
+  ],
+  "2024-07-04": [
+    {
+      "desc": "Wurstgulasch mit Paprika auf Pasta, dazu Gouda",
+      "price": 9.80
+    },
+    {
+      "desc": "Eier in Senfsoße, dazu Salzkartoffeln und Gurkensalat (veget.)",
+      "price": 9.20
+    }
+  ],
+  "2024-07-05": [
+    {
+      "desc": "Gebackenes Seelachsfilet mit Remoulade, Salzkartoffeln und Gurkensalat",
+      "price": 9.90
+    }
+  ],
+  "2024-W27": [
+    {
+      "desc": "Pasta mit Tomaten-Basilikum-Pesto, dazu geröstete Sonnenblumenkerne und Parmesan (veget.)",
+      "price": 10.90
+    },
+    {
+      "desc": "Lasagne überbacken mit Mozzarella und Röstzwiebeln (veget.)",
+      "price": 12.40
+    },
+    {
+      "desc": "Lasagne \"Bolognese\" überbacken mit Gouda",
+      "price": 12.90
+    },
+    {
+      "desc": "Gebratene Hähnchenbrust auf Spinat-Kartoffelgratin, überbacken mit Mozzarella und Mandeln",
+      "price": 12.90
+    }
+  ]
+}
