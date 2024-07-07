@@ -1,0 +1,52 @@
+{
+  "2024-07-08": [
+    {
+      "desc": "Schnitzel \"Wiener Art\" mit Kartoffel-Gurken-Salat",
+      "price": 7.90
+    },
+    {
+      "desc": "Allgäuer Käsespätzle mit Röstzwiebeln",
+      "price": 7.90
+    }
+  ],
+  "2024-07-09": [
+    {
+      "desc": "Fleischklopse in Jägersauce mit Kartoffelpüree",
+      "price": 7.90
+    },
+    {
+      "desc": "Rahmspinat mit Rührei und Salzkartoffeln",
+      "price": 7.90
+    }
+  ],
+  "2024-07-10": [
+    {
+      "desc": "Szegediner Gulasch mit Spätzle und Sauerrahm",
+      "price": 7.90
+    },
+    {
+      "desc": "Gebackener Blumenkohl mit Petersilienkartoffeln und Sc. Hollandaise",
+      "price": 7.90
+    }
+  ],
+  "2024-07-11": [
+    {
+      "desc": "Pulled Pork in BBQ-Sauce mit Krautsalat und Kartoffel-Ecken",
+      "price": 7.90
+    },
+    {
+      "desc": "Kraut-Schupfnudelpfanne mit Röstzwiebeln",
+      "price": 7.90
+    }
+  ],
+  "2024-07-12": [
+    {
+      "desc": "Backfisch auf Kartoffel-Gurken-Salat mit Remoulade",
+      "price": 7.90
+    },
+    {
+      "desc": "Pilzragout mit Brezelknödeln",
+      "price": 7.90
+    }
+  ]
+}
