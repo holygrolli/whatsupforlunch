@@ -1,0 +1,66 @@
+{
+  "2024-07-08": [
+    {
+      "desc": "Putenschnitzel mit Kartoffel- Gurkensalat",
+      "price": 6.90
+    },
+    {
+      "desc": "Gefüllte Tomate mit Feta und Couscoussalat",
+      "price": 6.90
+    }
+  ],
+  "2024-07-09": [
+    {
+      "desc": "Holzfällergulasch mit Spätzle",
+      "price": 6.90
+    },
+    {
+      "desc": "Gemüsestrudel",
+      "price": 6.90
+    }
+  ],
+  "2024-07-10": [
+    {
+      "desc": "Hähnchensteak mit Zucchinisalat ( Tomaten, Feta, Kräuter )",
+      "price": 6.90
+    },
+    {
+      "desc": "Zucchinipuffer mit Quark und kleinem Salat",
+      "price": 6.90
+    }
+  ],
+  "2024-07-11": [
+    {
+      "desc": "Bouletten mit cremigem Nudelsalat",
+      "price": 6.90
+    },
+    {
+      "desc": "Couscous- Lachspfanne mit Blattspinat und Kirschtomaten",
+      "price": 6.90
+    }
+  ],
+  "2024-07-12": [
+    {
+      "desc": "Jägerschnitzel dazu Tomaten- Basilikumsoße und Pasta",
+      "price": 6.90
+    },
+    {
+      "desc": "Milchreis mit Waldfrüchten und Z+Z",
+      "price": 6.90
+    }
+  ],
+  "2024-W28": [
+    {
+      "desc": "Penne mit Erbsenmuss und Räucherlachs",
+      "price": 6.90
+    },
+    {
+      "desc": "Pasta mit Fetawürfel, Tomaten und Basilikum",
+      "price": 6.90
+    },
+    {
+      "desc": "Spaghetti Aglio e Olio",
+      "price": 4.90
+    }
+  ]
+}
