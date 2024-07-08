@@ -1,0 +1,72 @@
+{
+    "2024-07-15": [
+        {
+            "desc": "Pasta mit Cherrytomaten und Basilikum-Pesto",
+            "price": 3.70
+        },
+        {
+            "desc": "Linsensuppe",
+            "price": 3.00
+        },
+        {
+            "desc": "Hähnchen Cordon Bleu",
+            "price": 3.95
+        }
+    ],
+    "2024-07-16": [
+        {
+            "desc": "Wassermelonen-Feta-Salat mit frischer Minze",
+            "price": 4.25
+        },
+        {
+            "desc": "Frikadellenbällchen mit Zwiebelsoße und Kartoffelpüree",
+            "price": 3.00
+        },
+        {
+            "desc": "Schweinegulasch mit Champignons",
+            "price": 3.85
+        }
+    ],
+    "2024-07-17": [
+        {
+            "desc": "Kartoffeln mit Gurkensalat und Rührei",
+            "price": 3.75
+        },
+        {
+            "desc": "Weiße Bohneneintopf mit Kasseler Fleisch",
+            "price": 3.00
+        },
+        {
+            "desc": "Hühnerfrikassee mit buntem Gemüse",
+            "price": 3.60
+        }
+    ],
+    "2024-07-18": [
+        {
+            "desc": "Ofenkartoffel mit Quarkdip und kleinem gemischtem Salat",
+            "price": 3.95
+        },
+        {
+            "desc": "Eierkuchen mit Apfelmus und Zucker",
+            "price": 3.00
+        },
+        {
+            "desc": "Bratwurst mit Soße",
+            "price": 2.85
+        }
+    ],
+    "2024-07-19": [
+        {
+            "desc": "Gefüllte Zucchini mit Tomate Mozzarella & Basilikum Pesto",
+            "price": 3.90
+        },
+        {
+            "desc": "Pasta Gemüse-Auflauf",
+            "price": 3.00
+        },
+        {
+            "desc": "Tagesangebot",
+            "price": null
+        }
+    ]
+}
