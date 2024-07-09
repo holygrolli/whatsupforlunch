@@ -1,0 +1,51 @@
+{
+  "2024-07-08": [],
+  "2024-07-09": [
+    {
+      "desc": "Schweineschnitzel \"Gärtnerin\" überbacken mit Gemüse und Sc. Hollandaise, dazu Bratkartoffeln",
+      "price": 9.80
+    },
+    {
+      "desc": "Tortellini in Paprikarahm mit Lauchzwiebeln, überbacken mit Mozzarella und Sonnenblumenkernen (veget.)",
+      "price": 9.20
+    }
+  ],
+  "2024-07-10": [
+    {
+      "desc": "Bauernfrühstück, dazu Gewürzgurke und Salatbeilage",
+      "price": 9.80
+    },
+    {
+      "desc": "Gebackener Hirtenkäse auf Thai-Curry mit buntem Gemüse und Kokosmilch (veget.)",
+      "price": 9.20
+    }
+  ],
+  "2024-07-11": [
+    {
+      "desc": "Hähnchenschnitzel mit Rahmblumenkohl, Salzkartoffeln und brauner Soße",
+      "price": 9.80
+    },
+    {
+      "desc": "Zucchini-Kartoffelrösti mit Kresseschmand und Tomatensalat (veget.)",
+      "price": 9.20
+    }
+  ],
+  "2024-07-12": [
+    {
+      "desc": "Gebackenes Seelachsfilet unter Kartoffelkruste, dazu Senfsoße und Gurkensalat",
+      "price": 9.90
+    }
+  ],
+  "2024-W28": [
+    {
+      "desc": "Pasta with Rucola-Pesto, dazu geröstete Mandeln und Parmesan (veget.)",
+      "price": 10.90
+    },
+    {
+      "desc": "Fenchel-Tomatenlasagne überbacken mit Mozzarella und Sesam (veget.)",
+      "price": 12.40
+    },
+    {
+      "desc": "Lasagne \"Bolognese\" überbacken mit Gouda",
+      "price": 12.90
+    }
