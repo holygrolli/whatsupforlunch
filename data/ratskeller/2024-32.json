@@ -1,0 +1,92 @@
+{
+  "2024-08-05": [
+    {
+      "desc": "Chili con Carne",
+      "price": 5.60
+    },
+    {
+      "desc": "Kräuterquark mit Zwiebeln, Butter und Petersilienkartoffeln",
+      "price": 6.10
+    },
+    {
+      "desc": "Frikadelle mit Champignon-Rahm und Kartoffelstampf",
+      "price": 6.70
+    },
+    {
+      "desc": "Rote-Bete-Falafel auf bunten Tomaten, Hummus und Bulgur",
+      "price": 8.50
+    }
+  ],
+  "2024-08-06": [
+    {
+      "desc": "Eierkuchen mit Quark-Rosinen-Füllung, dazu Vanillesoße",
+      "price": 5.60
+    },
+    {
+      "desc": "Pasta mit Tomatensoße und geriebenem Käse",
+      "price": 6.10
+    },
+    {
+      "desc": "Spaghetti „Bolognese” mit geriebenem Käse",
+      "price": 6.70
+    },
+    {
+      "desc": "Vegane „Currywurst” mit fruchtig-pikanter Soße und Wedges",
+      "price": 8.50
+    }
+  ],
+  "2024-08-07": [
+    {
+      "desc": "Ungarische Gulaschsuppe mit Paprika und Kartoffelwürfeln",
+      "price": 5.60
+    },
+    {
+      "desc": "Gemüse-Köttbullar mit Waldpilzrahm und Kartoffelstampf",
+      "price": 6.10
+    },
+    {
+      "desc": "Hühnerfrikassee mit Karotten, Erbsen und Butterreis",
+      "price": 6.70
+    },
+    {
+      "desc": "Überraschungsgericht mit BIO-Gemüse von KOLA Leipzig",
+      "price": ""
+    }
+  ],
+  "2024-08-08": [
+    {
+      "desc": "Milchreis mit Apfelmus und Zimtzucker",
+      "price": 5.60
+    },
+    {
+      "desc": "Pasta mit Tomatensoße und geriebenem Käse",
+      "price": 6.10
+    },
+    {
+      "desc": "Szegediner Gulasch mit Sauerkraut und Böhmischen Knödeln",
+      "price": 6.70
+    },
+    {
+      "desc": "Gebackener Camembert mit Preiselbeeren, Salat und Baguette",
+      "price": 8.50
+    }
+  ],
+  "2024-08-09": [
+    {
+      "desc": "Rote-Bete-Cremesuppe mit Feta-Würfeln und Kerbel-Pesto",
+      "price": 5.60
+    },
+    {
+      "desc": "Brokkoli-Nuss-Ecke auf bunten Karotten und Kräuterreis",
+      "price": 6.10
+    },
+    {
+      "desc": "Grillwurst mit Letschogemüse und Kartoffelstampf",
+      "price": 6.70
+    },
+    {
+      "desc": "Schollenfilet mit Dijon-Senf, Blattsalat und Kartoffelrösti",
+      "price": 8.50
+    }
+  ]
+}
