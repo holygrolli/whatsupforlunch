@@ -1,0 +1,52 @@
+{
+  "2024-07-22": [
+    {
+      "desc": "Schnitzel \"Wiener Art\" mit Kartoffel-Gurken-Salat",
+      "price": 7.90
+    },
+    {
+      "desc": "Allgäuer Käsespätzle mit Röstzwiebeln",
+      "price": 7.90
+    }
+  ],
+  "2024-07-23": [
+    {
+      "desc": "Fleischpflanzerl mit Buttererbsen und Kartoffelpüree",
+      "price": 7.90
+    },
+    {
+      "desc": "Gemüseschnitzel mit Buttererbsen und Kartoffelpüree",
+      "price": 7.90
+    }
+  ],
+  "2024-07-24": [
+    {
+      "desc": "Hähnchencurry mit Reis",
+      "price": 7.90
+    },
+    {
+      "desc": "Gemüsecurry mit Reis",
+      "price": 7.90
+    }
+  ],
+  "2024-07-25": [
+    {
+      "desc": "Gezupftes Haxenfleisch in Meerrettichsauce mit Salzkartoffeln",
+      "price": 7.90
+    },
+    {
+      "desc": "Gnocchi in Tomatenrahm mit frischem Basilikum",
+      "price": 7.90
+    }
+  ],
+  "2024-07-26": [
+    {
+      "desc": "Backfisch auf Kartoffel-Gurken-Salat mit Remoulade",
+      "price": 7.90
+    },
+    {
+      "desc": "Falafel mit Cous Cous Salat und Minz-Dip",
+      "price": 7.90
+    }
+  ]
+}
