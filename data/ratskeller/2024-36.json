@@ -1,0 +1,92 @@
+{
+  "2024-09-02": [
+    {
+      "desc": "Erbseneintopf mit Bockwurst und Kartoffelwürfeln",
+      "price": 5.60
+    },
+    {
+      "desc": "Kürbis-Steckrüben-Frikadelle mit buntem Gemüse und Reis",
+      "price": 6.10
+    },
+    {
+      "desc": "„Züricher Geschnetzeltes“ mit Champignons und Spätzle",
+      "price": 6.70
+    },
+    {
+      "desc": "Vegane „Backfisch“ mit Remoulade, Salat und Kartoffelecken",
+      "price": 8.50
+    }
+  ],
+  "2024-09-03": [
+    {
+      "desc": "Erdbeer-Topfen-Knödel mit Vanillesoße",
+      "price": 5.00
+    },
+    {
+      "desc": "Pasta mit Tomatensoße und geriebenem Käse",
+      "price": 6.10
+    },
+    {
+      "desc": "Jägerschnitzel mit Tomatensoße und Pasta",
+      "price": 6.70
+    },
+    {
+      "desc": "Aktionsgericht: „Un-Pellkartoffeln mit Quark“",
+      "price": 8.50
+    }
+  ],
+  "2024-09-04": [
+    {
+      "desc": "Käse-Lauchsuppe mit Champignons und Hackfleisch",
+      "price": 5.00
+    },
+    {
+      "desc": "Gemüse-Frikassee mit Erbsen, Karotten und Reis",
+      "price": 6.10
+    },
+    {
+      "desc": "Putenrollbraten mit Mischgemüse und Petersilienkartoffeln",
+      "price": 6.70
+    },
+    {
+      "desc": "Überraschungsgericht mit BIO-Gemüse von KOLA Leipzig",
+      "price": 8.50
+    }
+  ],
+  "2024-09-05": [
+    {
+      "desc": "Grießbrei mit Pflaumenragout und Zimt",
+      "price": 5.00
+    },
+    {
+      "desc": "Pasta mit Tomatensoße und geriebenem Käse",
+      "price": 6.10
+    },
+    {
+      "desc": "Ungarisches Schweinegulasch mit Paprika und Pasta",
+      "price": 6.70
+    },
+    {
+      "desc": "Vegane „Hackbällchen“, Champignons und Kartoffelstampf",
+      "price": 8.50
+    }
+  ],
+  "2024-09-06": [
+    {
+      "desc": "Waldpilz-Cremesuppe mit Thymian und Croutons",
+      "price": 5.60
+    },
+    {
+      "desc": "Käsespätzle „Allgäuer Art“ mit Röstzwiebeln",
+      "price": 6.10
+    },
+    {
+      "desc": "Zwei Jumbo-Fischstäbchen mit Tomatensoße und Kartoffelpüree",
+      "price": 6.70
+    },
+    {
+      "desc": "Hähnchenbrust, gefüllt mit Spinat, dazu Möhren und Herzoginkartoffeln",
+      "price": 8.50
+    }
+  ]
+}
