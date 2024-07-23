@@ -1,0 +1,49 @@
+{
+  "2024-07-23": [
+    {
+      "desc": "Schweineschnitzel mit Spiegelei und Bratkartoffeln, dazu Tomatensalat",
+      "price": 9.80
+    },
+    {
+      "desc": "Gnocchi in Basilikumsoße mit getrockneten Tomaten, dazu Parmesan und Sonnenblumenkerne (veget.)",
+      "price": 9.20
+    }
+  ],
+  "2024-07-24": [
+    {
+      "desc": "Jägerklopse mit Champignons, dazu Kartoffelstampf und Krautsalat",
+      "price": 9.80
+    },
+    {
+      "desc": "Cannelloni gefüllt mit Hirtenkäse in pikanter Tomatensoße, überbacken mit Gouda (veget.)",
+      "price": 9.20
+    }
+  ],
+  "2024-07-25": [
+    {
+      "desc": "Hähnchengeschnetzeltes mit Fenchel, getrockneten Tomaten und Rosmarinkartoffeln",
+      "price": 9.80
+    },
+    {
+      "desc": "Waldpilzgulasch mit Kräuterspätzle und Röstzwiebeln (veget.)",
+      "price": 9.20
+    }
+  ],
+  "2024-07-26": [
+    {
+      "desc": "Räucherlachs-Spinatlasagne überbacken mit Mozzarella",
+      "price": 9.90
+    ],
+  "2024-W30": [
+    {
+      "desc": "Chilinudeln mit Zucchinipesto, dazu geröstete Sonnenblumenkerne und Parmesan (veget.)",
+      "price": 10.90
+    },
+    {
+      "desc": "Lasagne \" Al Pesto\" mit Waldpilzen, Brokkoli und Kräuterpesto, überbacken mit Mozzarella (veget.)",
+      "price": 12.40
+    },
+    {
+      "desc": "Lasagne \"Bolognese\" überbacken mit Gouda",
+      "price": 12.90
+    }
