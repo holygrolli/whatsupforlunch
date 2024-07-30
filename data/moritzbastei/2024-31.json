@@ -1,0 +1,57 @@
+{
+  "2024-07-29": [],
+  "2024-07-30": [
+    {
+      "desc": "Schweineschnitzel mit Rahmerbsen, Salzkartoffeln und brauner Soße",
+      "price": 9.80
+    },
+    {
+      "desc": "Mediterrane Gemüsebolognese u.a. mit Zucchini, Paprika, Aubergine, dazu Pasta und Parmesan (veget.)",
+      "price": 9.20
+    }
+  ],
+  "2024-07-31": [
+    {
+      "desc": "Jägerschnitzel mit Tomatensoße, dazu Pasta und Gouda",
+      "price": 9.80
+    },
+    {
+      "desc": "Kartoffelrösti überbacken mit Tomate und Mozzarella, dazu Basilikum-Schmand und Salatbeilage (veget.)",
+      "price": 9.20
+    }
+  ],
+  "2024-08-01": [
+    {
+      "desc": "Gebackene Hähnchenbrust in Parmesan-Panade, dazu Paprika-Tomatengemüse und Rosmarinkartoffeln",
+      "price": 9.80
+    },
+    {
+      "desc": "Pasta \"Genovese\" mit grünen Bohnen, Kartoffeln und Basilikumpesto und Parmesan (veget.)",
+      "price": 9.20
+    }
+  ],
+  "2024-08-02": [
+    {
+      "desc": "Gebackenes Seelachsfilet in Cornflakes-Panade mit hausgemachtem Kartoffelsalat",
+      "price": 9.90
+    }
+  ],
+  "2024-W31": [
+    {
+      "desc": "Pasta mit Karotten-Ingwer-Pesto, dazu geröstete Haselnüsse und Parmesan (veget.)",
+      "price": 10.90
+    },
+    {
+      "desc": "Tomatenlasagne mit gebratener Zucchini, überbacken mit Mozzarella und Sesam (veget.)",
+      "price": 12.40
+    },
+    {
+      "desc": "Lasagne \"Bolognese\" überbacken mit Gouda",
+      "price": 12.90
+    },
+    {
+      "desc": "Gebackener Hirtenkäse auf mediterranem Gemüse mit Oliven, dazu Baguette (veget.)",
+      "price": 12.90
+    }
+  ]
+}
