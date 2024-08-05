@@ -1,0 +1,72 @@
+{
+  "2024-08-05": [
+    {
+      "desc": "Gemüsebolognese mit Pasta",
+      "price": 3.50
+    },
+    {
+      "desc": "Linseneintopf mit Kartoffeln",
+      "price": 3.00
+    },
+    {
+      "desc": "Couscoussalat mit Hähnchenbrust und knackigem Gemüse",
+      "price": 4.60
+    }
+  ],
+  "2024-08-06": [
+    {
+      "desc": "Bauernsalat mit Baguette",
+      "price": 4.70
+    },
+    {
+      "desc": "Kräuterquark mit Kartoffeln und Butter",
+      "price": 3.00
+    },
+    {
+      "desc": "Tiegelwurst mit Majoran und Zwiebeln",
+      "price": 3.90
+    }
+  ],
+  "2024-08-07": [
+    {
+      "desc": "Paprika-Tomaten-Reispfanne",
+      "price": 3.60
+    },
+    {
+      "desc": "Kaltes Gemüsesüppchen mit Baguette",
+      "price": 3.00
+    },
+    {
+      "desc": "Spinat-Hackfleischpfanne mit Joghurt und Kartoffeln",
+      "price": 3.90
+    }
+  ],
+  "2024-08-08": [
+    {
+      "desc": "Salzkartoffeln mit Rahmspinat & Rührei",
+      "price": 3.90
+    },
+    {
+      "desc": "Hefeklöß mit Pflaumen",
+      "price": 3.00
+    },
+    {
+      "desc": "Schweinegeschnetzeltes \"Jäger Art\"",
+      "price": 3.85
+    }
+  ],
+  "2024-08-09": [
+    {
+      "desc": "Rote-Linsen-Lasagne",
+      "price": 4.25
+    },
+    {
+      "desc": "Zwei Eier in Senfsoße mit Kartoffeln",
+      "price": 3.00
+    },
+    {
+      "desc": "Tagesangebot",
+      "price": null
+    }
+  ]
+}
