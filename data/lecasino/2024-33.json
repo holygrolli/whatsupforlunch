@@ -1,0 +1,72 @@
+{
+  "2024-08-12": [
+    {
+      "desc": "Pasta aglio olio",
+      "price": 3.20
+    },
+    {
+      "desc": "Nudeleintopf mit Huhn und Gemüse",
+      "price": 3.00
+    },
+    {
+      "desc": "Panierter Seelachs an einer Dill-Senfsoße",
+      "price": 3.85
+    }
+  ],
+  "2024-08-13": [
+    {
+      "desc": "Nudeln mit Spinat-Frischkäsesoße",
+      "price": 3.80
+    },
+    {
+      "desc": "Gemüsepfanne mit Kräuterkartoffeln",
+      "price": 3.00
+    },
+    {
+      "desc": "Muligatawny - indische Currysuppe mit Hähnchenfleisch und Ingwer",
+      "price": 3.80
+    }
+  ],
+  "2024-08-14": [
+    {
+      "desc": "Gemüseschnitzel mit kl. gem. Salat",
+      "price": 3.80
+    },
+    {
+      "desc": "Frikadellenbällchen mit Zwiebelsouße und Kartoffelpüree",
+      "price": 3.00
+    },
+    {
+      "desc": "Nudelsalat mit Bratwurst",
+      "price": 4.35
+    }
+  ],
+  "2024-08-15": [
+    {
+      "desc": "Käse-Spätzle mit Röstzwiebeln",
+      "price": 3.50
+    },
+    {
+      "desc": "Milchreis mit Zimt Zucker und Apfelmus",
+      "price": 3.00
+    },
+    {
+      "desc": "Sülze mit Remoulade",
+      "price": 3.20
+    }
+  ],
+  "2024-08-16": [
+    {
+      "desc": "Ofenkartoffel mit Quarkdip und ein kl. gemischter Salat",
+      "price": 3.95
+    },
+    {
+      "desc": "Schinkennudeln mit Sahnesoße",
+      "price": 3.00
+    },
+    {
+      "desc": "Tagesangebot",
+      "price": null
+    }
+  ]
+}
