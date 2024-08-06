@@ -1,0 +1,57 @@
+{
+  "2024-08-05": [],
+  "2024-08-06": [
+    {
+      "desc": "Schweineschnitzel überbacken mit Tomate und Mozzarella, dazu Rosmarinkartoffeln und Basilikumschmand",
+      "price": 9.80
+    },
+    {
+      "desc": "Gebratene Minkartoffeln mit Kirschtomaten und Rucola, dazu Paprika-Gurken-Quark sowie geröstete Sonnenblumenkerne (veget.)",
+      "price": 9.20
+    }
+  ],
+  "2024-08-07": [
+    {
+      "desc": "Wurstgulasch mit Paprika auf Pasta, dazu Gouda",
+      "price": 9.80
+    },
+    {
+      "desc": "Auberginenschnitzel in Parmesan-Panade, dazu pikante Tomatensoße und Pasta (veget.)",
+      "price": 9.20
+    }
+  ],
+  "2024-08-08": [
+    {
+      "desc": "Hähnchenschnitzel mit Rahmerbsenkohl, Salzkartoffeln und brauner Soße",
+      "price": 9.80
+    },
+    {
+      "desc": "Kartoffel-Blumenkohlgratin mit Frühlingszwiebeln, überbacken mit Sonnenblumenkernen und Gouda (veget.)",
+      "price": 9.20
+    }
+  ],
+  "2024-08-09": [
+    {
+      "desc": "Gebratenes Seelachsfilet mit gebratenen Zucchiniwürfeln, Rote-Bete-Püree und Zitronensoße",
+      "price": 9.90
+    }
+  ],
+  "2024-W32": [
+    {
+      "desc": "Pasta mit Erdnuss-Petersilien-Pesto, dazu Parmesan (veget.)",
+      "price": 10.90
+    },
+    {
+      "desc": "Waldpilzlasagne überbacken mit Mozzarella und Röstzwiebeln (veget.)",
+      "price": 12.40
+    },
+    {
+      "desc": "Lasagne \"Bolognese\" überbacken mit Gouda",
+      "price": 12.90
+    },
+    {
+      "desc": "Gebratene Hähnchenbrust auf Kürbis-Kartoffelgratin mit Zucchini, überbacken mit Mozzarella und Mandeln",
+      "price": 12.90
+    }
+  ]
+}
