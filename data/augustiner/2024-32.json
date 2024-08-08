@@ -1,0 +1,52 @@
+{
+  "2024-08-05": [
+    {
+      "desc": "Schnitzel „Wiener Art“ mit Kartoffel-Gurken-Salat",
+      "price": 7.90
+    },
+    {
+      "desc": "Allgäuer Käsespätzle mit Röstzwiebeln",
+      "price": 7.90
+    }
+  ],
+  "2024-08-06": [
+    {
+      "desc": "Hackbraten mit Senfmöhren und Kartoffelpüree",
+      "price": 7.90
+    },
+    {
+      "desc": "Rahmblattspinat mit Rührei und Kartoffelpüree",
+      "price": 7.90
+    }
+  ],
+  "2024-08-07": [
+    {
+      "desc": "Schweine-Nackensteak mit Jägersauce und Spätzle",
+      "price": 7.90
+    },
+    {
+      "desc": "Spätzle-Gemüsepfanne mit Röstzwiebeln",
+      "price": 7.90
+    }
+  ],
+  "2024-08-08": [
+    {
+      "desc": "Putenrollbraten mit Mischgemüse und Kroketten",
+      "price": 7.90
+    },
+    {
+      "desc": "Kartoffel-Blumenkohl-Auflauf mit Käse überbacken",
+      "price": 7.90
+    }
+  ],
+  "2024-08-09": [
+    {
+      "desc": "Backfisch auf Kartoffel-Gurken-Salat mit Remoulade",
+      "price": 7.90
+    },
+    {
+      "desc": "Ofenkartoffel mit Kräuterschmand und kleinem Blattsalat",
+      "price": 7.90
+    }
+  ]
+}
