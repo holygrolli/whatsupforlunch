@@ -1,1 +1,5 @@
-CompletionUsage(completion_tokens=646, prompt_tokens=1282, total_tokens=1928)
+{
+    "completion_tokens": 616,
+    "prompt_tokens": 1318,
+    "total_tokens": 1934
+}
