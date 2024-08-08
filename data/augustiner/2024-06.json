@@ -1,0 +1,52 @@
+{
+  "2024-02-05": [
+    {
+      "desc": "Schnitzel \"Wiener Art\" mit Kartoffel-Gurken-Salat",
+      "price": 7.90
+    },
+    {
+      "desc": "Allgäuer Käsespätzle mit Röstzwiebeln",
+      "price": 7.90
+    }
+  ],
+  "2024-02-06": [
+    {
+      "desc": "Wurstgulasch mit Spirelli und geriebenem Käse",
+      "price": 7.90
+    },
+    {
+      "desc": "Spirelli in Käse-Sahnesauce",
+      "price": 7.90
+    }
+  ],
+  "2024-02-07": [
+    {
+      "desc": "Hackbraten mit Senfmöhren und Salzkartoffeln",
+      "price": 7.90
+    },
+    {
+      "desc": "Möhren-Ingwer-Suppe mit Brot",
+      "price": 7.90
+    }
+  ],
+  "2024-02-08": [
+    {
+      "desc": "Leberkäs-Burger mit Krautsalat, süßem Senfschmand und Kartoffelecken",
+      "price": 7.90
+    },
+    {
+      "desc": "Schupfnudel-Gemüsepfanne mit Röstzwiebeln",
+      "price": 7.90
+    }
+  ],
+  "2024-02-09": [
+    {
+      "desc": "Backfisch auf Kartoffel-Gurken-Salat mit Remoulade",
+      "price": 7.90
+    },
+    {
+      "desc": "Gefüllte Ofenkartoffel mit Kräuterschmand und kleinem Blattsalat",
+      "price": 7.90
+    }
+  ]
+}

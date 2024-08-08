@@ -1,0 +1,57 @@
+{
+  "2024-05-20": [],
+  "2024-05-21": [
+    {
+      "desc": "Jägerschnitzel an Tomaten-Basilikumsoße mit Pasta",
+      "price": 6.90
+    },
+    {
+      "desc": "Matjesfilet mit Bratkartoffeln und Hausfrauensoße",
+      "price": 6.90
+    }
+  ],
+  "2024-05-22": [
+    {
+      "desc": "Putenchilli mit Kidneybohnen und Mais dazu Reis",
+      "price": 6.90
+    },
+    {
+      "desc": "Parika- Bratreis mit Dill-Gurkensalat",
+      "price": 6.90
+    }
+  ],
+  "2024-05-23": [
+    {
+      "desc": "Gulasch mit Sauerkraut und Kartoffeln",
+      "price": 6.90
+    },
+    {
+      "desc": "Kartoffelpuffer mit Apfelmus und Z+Z",
+      "price": 6.90
+    }
+  ],
+  "2024-05-24": [
+    {
+      "desc": "Putensteak dazu Rahmchampignons und Kartoffeln",
+      "price": 6.90
+    },
+    {
+      "desc": "Blumenkohlbolognese dazu Pasta",
+      "price": 6.90
+    }
+  ],
+  "2024-W21": [
+    {
+      "desc": "Pennen mit Hack und Feta Creme",
+      "price": 4.90
+    },
+    {
+      "desc": "Spaghetti mit Erbsenmus dazu Lachs",
+      "price": 4.90
+    },
+    {
+      "desc": "Pasta an Tomaten-Mozzarellasoße",
+      "price": 4.90
+    }
+  ]
+}

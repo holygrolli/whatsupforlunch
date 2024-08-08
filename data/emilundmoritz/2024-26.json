@@ -1,0 +1,66 @@
+{
+  "2024-06-24": [
+    {
+      "desc": "Grillwurst, Letscho, Reis",
+      "price": 6.90
+    },
+    {
+      "desc": "Soja Gyros, Ztatziki, Reis",
+      "price": 6.90
+    }
+  ],
+  "2024-06-25": [
+    {
+      "desc": "Schnitzel Schwein, Spiegelei,Kartoffelsalat",
+      "price": 6.90
+    },
+    {
+      "desc": "Tortellini mit Tomaten Mozzarella Gratin",
+      "price": 6.90
+    }
+  ],
+  "2024-06-26": [
+    {
+      "desc": "Königsberger Klöpe in Kapernsauce, Kartoffeln",
+      "price": 6.90
+    },
+    {
+      "desc": "Couscousboulette, Tomatensauce, Möhren Lauch Gemüse",
+      "price": 6.90
+    }
+  ],
+  "2024-06-27": [
+    {
+      "desc": "Mutsbraten, Sauerkraut, Klöße",
+      "price": 6.90
+    },
+    {
+      "desc": "Hefeklöße, Vanillesauce, Pflaumenkompott",
+      "price": 6.90
+    }
+  ],
+  "2024-06-28": [
+    {
+      "desc": "Brauhausgulasch, Spätzle",
+      "price": 6.90
+    },
+    {
+      "desc": "Sellachs , Tomatensauce, Kartoffelstampf",
+      "price": 6.90
+    }
+  ],
+  "2024-W26": [
+    {
+      "desc": "Penne mit Kirschtomaten, Basilikumpesto",
+      "price": 4.90
+    },
+    {
+      "desc": "Spaghetti mit Spinat Rahm Sauce",
+      "price": 4.90
+    },
+    {
+      "desc": "Penne mit Bolognese",
+      "price": 4.90
+    }
+  ]
+}

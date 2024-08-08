@@ -1,0 +1,52 @@
+{
+  "2024-02-19": [
+    {
+      "desc": "Schnitzel \"Wiener Art\" mit Kartoffel-Gurken-Salat",
+      "price": 7.90
+    },
+    {
+      "desc": "Allgäuer Käsespätzle mit Röstzwiebeln",
+      "price": 7.90
+    }
+  ],
+  "2024-02-20": [
+    {
+      "desc": "Kohlroulade in Specksauce mit Salzkartoffeln",
+      "price": 7.90
+    },
+    {
+      "desc": "Rahmspinat mit Rührei und Salzkartoffeln",
+      "price": 7.90
+    }
+  ],
+  "2024-02-21": [
+    {
+      "desc": "Backhendl mit Kartoffel- Endivien-Salat und Kernöl",
+      "price": 7.90
+    },
+    {
+      "desc": "Kartoffel-Frischkäsetaschen an buntem Blattsalat",
+      "price": 7.90
+    }
+  ],
+  "2024-02-22": [
+    {
+      "desc": "Szegediner Gulasch mit Butterspätzle und Schmand",
+      "price": 7.90
+    },
+    {
+      "desc": "Bunte Spätzle-Gemüsepfanne",
+      "price": 7.90
+    }
+  ],
+  "2024-02-23": [
+    {
+      "desc": "Backfisch auf Kartoffel-Gurken-Salat mit Remoulade",
+      "price": 7.90
+    },
+    {
+      "desc": "Weißwein-Risotto mit Champignons",
+      "price": 7.90
+    }
+  ]
+}

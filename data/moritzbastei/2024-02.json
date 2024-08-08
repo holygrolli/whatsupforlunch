@@ -1,0 +1,61 @@
+{
+  "2024-01-08": [],
+  "2024-01-09": [
+    {
+      "desc": "Schweineschnitzel \"Western\" mit BBQ-Zwiebeln, Bacon und gebackenen Kartoffelecken",
+      "price": 8.90
+    },
+    {
+      "desc": "Tortellini in Paprikarahm mit Lauchzwiebeln, überbacken mit Mozzarella (veget.)",
+      "price": 8.70
+    }
+  ],
+  "2024-01-10": [
+    {
+      "desc": "Frikadelle mit Rosenkohl, Salzkartoffeln und brauner Sauce",
+      "price": 8.90
+    },
+    {
+      "desc": "Salbei-Gnocchi mit Kürbisragout und Cranberrys (veget.)",
+      "price": 8.70
+    }
+  ],
+  "2024-01-11": [
+    {
+      "desc": "Hähnchenschnitzel mit Rahmerbsen, Salzkartoffeln und brauner Sauce",
+      "price": 8.90
+    },
+    {
+      "desc": "Pasta Genovese mit grünen Bohnen, Kartoffeln und Basilikum-Pesto (veget.)",
+      "price": 8.70
+    }
+  ],
+  "2024-01-12": [
+    {
+      "desc": "Gedünstetes Seelachsfilet auf Kartoffel-Lauchgratin, überbacken mit Gouda",
+      "price": 8.90
+    }
+  ],
+  "2024-W02": [
+    {
+      "desc": "Pasta mit Petersilien-Koriander-Pesto, dazu geröstete Haselnüsse und Parmesan (veget.)",
+      "price": 9.80
+    },
+    {
+      "desc": "Lasagne Wirsinglasagne mit Tomaten, überbacken mit Hirtenkäse (veget.)",
+      "price": 10.50
+    },
+    {
+      "desc": "Lasagne \"Bolognese\" überbacken mit Gouda",
+      "price": 10.90
+    },
+    {
+      "desc": "Gratin Gebratene Hähnchenbrust auf Kartoffel-Spinatgratin, überbacken mit Mozzarella & Mandeln",
+      "price": 10.50
+    },
+    {
+      "desc": "Suppe Soljanka mit Schmand und Baguette",
+      "price": 6.90
+    }
+  ]
+}

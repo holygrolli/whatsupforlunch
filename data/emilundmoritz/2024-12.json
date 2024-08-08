@@ -1,0 +1,66 @@
+{
+  "2024-03-18": [
+    {
+      "desc": "Grützwurst, Sauerkraut, Kartoffeln",
+      "price": 6.90
+    },
+    {
+      "desc": "Gurkensalat, Rührei, Kartoffeln",
+      "price": 6.90
+    }
+  ],
+  "2024-03-19": [
+    {
+      "desc": "Hähnchnekeule, Letscho, Reis",
+      "price": 6.90
+    },
+    {
+      "desc": "Gemüsestrudel gefüllt mit Spinat Frischkäse gefüllt",
+      "price": 6.90
+    }
+  ],
+  "2024-03-20": [
+    {
+      "desc": "Schnitzel Schwein gefüllt mit Tomate Mozzarella, Bratkartoffeln",
+      "price": 6.90
+    },
+    {
+      "desc": "Tortellini in Tomaten Sauce, mar. Rucola",
+      "price": 6.90
+    }
+  ],
+  "2024-03-21": [
+    {
+      "desc": "Gulasch, Spätzle",
+      "price": 6.90
+    },
+    {
+      "desc": "Kartoffel Pfanne mit Rucola, Kirschtomaten",
+      "price": 6.90
+    }
+  ],
+  "2024-03-22": [
+    {
+      "desc": "Königsberger Klöpse in Kapernsauce, Kartoffeln",
+      "price": 6.90
+    },
+    {
+      "desc": "3 Kartoffel Rösti mit Champignon in Rahm, kl. Salat",
+      "price": 6.90
+    }
+  ],
+  "2024-W12": [
+    {
+      "desc": "Spaghetti mit Avocado Limetten Sauce, Kirschtomaten",
+      "price": 4.90
+    },
+    {
+      "desc": "Pasta Rindergeschnetzelten",
+      "price": 4.90
+    },
+    {
+      "desc": "Schinken Käse Spätzle",
+      "price": 4.90
+    }
+  ]
+}

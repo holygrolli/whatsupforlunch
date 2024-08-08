@@ -1,0 +1,43 @@
+{
+  "2024-03-25": [
+    {
+      "desc": "Schnitzel \"Wiener Art\" mit Kartoffel-Gurken-Salat",
+      "price": 7.90
+    },
+    {
+      "desc": "Allgäuer Käsespätzle mit Röstzwiebeln",
+      "price": 7.90
+    }
+  ],
+  "2024-03-26": [
+    {
+      "desc": "Augustiner Bratwurst mit Zwiebelsauce und Kartoffelpüree",
+      "price": 7.90
+    },
+    {
+      "desc": "Ratatouille Gemüse mit Reis",
+      "price": 7.90
+    }
+  ],
+  "2024-03-27": [
+    {
+      "desc": "Hackbraten mit Mischgemüse und Salzkartoffeln",
+      "price": 7.90
+    },
+    {
+      "desc": "Gebackener Blumenkohl mit Kartoffeln und Sc. Hollandaise",
+      "price": 7.90
+    }
+  ],
+  "2024-03-28": [
+    {
+      "desc": "Hähnchenragout in Paprikarahm mit Spätzle",
+      "price": 7.90
+    },
+    {
+      "desc": "Spätzlepfanne mit buntem Gemüse",
+      "price": 7.90
+    }
+  ],
+  "2024-03-29": []
+}

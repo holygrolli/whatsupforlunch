@@ -1,0 +1,57 @@
+{
+  "2024-05-27": [],
+  "2024-05-28": [
+    {
+      "desc": "Schweineschnitzel mit Rahmblumenkohl, Salzkartoffeln und brauner Soße",
+      "price": 9.80
+    },
+    {
+      "desc": "Sojagulasch mit geschmortem Weißkohl, dazu Böhmische Knödel (veget.)",
+      "price": 9.20
+    }
+  ],
+  "2024-05-29": [
+    {
+      "desc": "Hähnchengeschnetzeltes mit Lauch und Champignons, dazu Kartoffelrösti",
+      "price": 9.80
+    },
+    {
+      "desc": "Gebackener Hirtenkäse auf Ratatouillegemüse, dazu Rosmarinkartoffeln (veget.)",
+      "price": 9.20
+    }
+  ],
+  "2024-05-30": [
+    {
+      "desc": "Gyros mit Tomatenreis, Tzatziki und Krautsalat",
+      "price": 9.80
+    },
+    {
+      "desc": "Gebackene Polentatasche gefüllt mit Spinat, dazu Honig-Thymianmöhrchen und Gorgonzolasoße (veget.)",
+      "price": 9.20
+    }
+  ],
+  "2024-05-31": [
+    {
+      "desc": "Gebackenes Seelachsfilet in Cornflakes-Panade, mit hausgemachtem Kartoffelsalat",
+      "price": 9.90
+    }
+  ],
+  "2024-W22": [
+    {
+      "desc": "Pasta mit Rucola-Pesto, dazu geröstete Mandeln und Parmesan (veget.)",
+      "price": 10.90
+    },
+    {
+      "desc": "Lasagne \"Mexiko\" mit Mais, roten Bohnen und Paprika, überbacken mit Schmand und Cheddar (veget.)",
+      "price": 12.40
+    },
+    {
+      "desc": "Lasagne \"Bolognese\" überbacken mit Gouda",
+      "price": 12.90
+    },
+    {
+      "desc": "Süßkartoffelgratin mit Hackfleisch, Tomaten und grünen Bohnen, überbacken mit Hirtenkäse",
+      "price": 12.90
+    }
+  ]
+}

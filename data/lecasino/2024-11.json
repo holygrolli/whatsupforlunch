@@ -1,0 +1,72 @@
+{
+  "2024-03-11": [
+    {
+      "desc": "Champignonpfiff mit Kräutersoße",
+      "price": 3.70
+    },
+    {
+      "desc": "Hausgemachte Kartoffelsuppe",
+      "price": 2.50
+    },
+    {
+      "desc": "Currywurst mit fruchtig-scharfer Currysauce",
+      "price": 3.85
+    }
+  ],
+  "2024-03-12": [
+    {
+      "desc": "Broccoli mit Hollandaise und Kartoffeln",
+      "price": 3.85
+    },
+    {
+      "desc": "Kaiserschmarrn mit Rosinen und Apfelmus",
+      "price": 2.50
+    },
+    {
+      "desc": "Kartoffeltopf mit Kokosmilch und gebratenen Chiliwurstscheiben",
+      "price": 3.80
+    }
+  ],
+  "2024-03-13": [
+    {
+      "desc": "Gemischter Salat mit Kräutercroutons",
+      "price": 3.85
+    },
+    {
+      "desc": "Erbseneintopf mit Kasseler Fleisch",
+      "price": 2.50
+    },
+    {
+      "desc": "Hackfleisch-Bolognese",
+      "price": 2.95
+    }
+  ],
+  "2024-03-14": [
+    {
+      "desc": "Tortellini mit Spinat Ricotta Füllung und einer Kräutersoße",
+      "price": 3.60
+    },
+    {
+      "desc": "Quarkkeulchen mit Apfelmus und Zimt Zucker",
+      "price": 2.50
+    },
+    {
+      "desc": "Hähnchenschnitzel mit Bratensoße",
+      "price": 3.85
+    }
+  ],
+  "2024-03-15": [
+    {
+      "desc": "Tagesangebot",
+      "price": 0
+    },
+    {
+      "desc": "Farfalle mit Spinatsoße",
+      "price": 3.20
+    },
+    {
+      "desc": "Frikadellenbällchen mit Rahmsoße und Kartoffelpüree",
+      "price": 2.50
+    }
+  ]
+}

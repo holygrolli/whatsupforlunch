@@ -1,0 +1,56 @@
+{
+  "2024-05-06": [
+    {
+      "desc": "Sülze, Hausfrauensoße dazu Bratkartoffeln",
+      "price": 6.90
+    },
+    {
+      "desc": "Rosmarinkartoffeln mit Kräuterquark, Salat",
+      "price": 6.90
+    }
+  ],
+  "2024-05-07": [
+    {
+      "desc": "Knusprige Hähnchenbrust in Cornflakes-Panade, Rahmchampignons und Pasta",
+      "price": 6.90
+    },
+    {
+      "desc": "Mediterrane Gemüsepfanne mit Feta und Brotchips",
+      "price": 6.90
+    }
+  ],
+  "2024-05-08": [
+    {
+      "desc": "Geflügelleber mit Kartoffelstampf und Zwiebelgemüse",
+      "price": 6.90
+    },
+    {
+      "desc": "Rührei, Kartoffeln, Gurkensalat",
+      "price": 6.90
+    }
+  ],
+  "2024-05-10": [
+    {
+      "desc": "Schnitzel, Blumenkohl mit Semmelbrösel, dazu Kartoffeln",
+      "price": 6.90
+    },
+    {
+      "desc": "Kartoffel-Blumenkohl-Auflauf",
+      "price": 6.90
+    }
+  ],
+  "2024-W19": [
+    {
+      "desc": "Spaghetti Carbonara",
+      "price": 4.90
+    },
+    {
+      "desc": "Pasta mit Schrimps-Sahnesauce",
+      "price": 4.90
+    },
+    {
+      "desc": "Pasta mit getrockneten Tomaten und Oliven",
+      "price": 4.90
+    }
+  ]
+}

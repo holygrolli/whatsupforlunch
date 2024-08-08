@@ -1,6 +1,11 @@
 name: emilundmoritz
 on:
   workflow_dispatch:
+    inputs:
+      force_publish:
+        description: execute publish job
+        type: boolean
+        default: true
   schedule:
     - cron: '10 5 * * 1'
 permissions: 
@@ -27,17 +32,17 @@ jobs:
         run: |
           WD=${PWD}
           mkdir -p tmp
-          scrapy runspider locations/emilundmoritz/scra.py --nolog > tmp/mittagsangebot.txt
+          scrapy runspider locations/emilundmoritz/scra.py --nolog > tmp/chatgpt_user.txt
       - name: process txt with chatgpt
         working-directory: tmp
         env:
           OPENAI_API_KEY: ${{secrets.OPENAI_API_KEY}}
         shell: bash
         run: |
-          python ../locations/emilundmoritz/process_chatgpt.py ../locations/emilundmoritz/prompt.txt mittagsangebot.txt
+          python ../locations/emilundmoritz/process_chatgpt.py
           mkdir -p ../data/emilundmoritz
           sed -n '/^\s*{$/,$p' chatgpt.json > final.json
-          cp final.json ../data/emilundmoritz/$(date -d"$(jq -r 'keys[0]' final.json)" +%Y-%V).json
+          cp final.json ../data/emilundmoritz/$(date -d"$(jq -r 'keys[] | select(test("\\d{4}-\\d{2}-\\d{2}"))' final.json | sort | head -n 1)" +%Y-%V).json
       - name: Archive all tmp files
         uses: actions/upload-artifact@v3
         with:
@@ -51,7 +56,7 @@ jobs:
           app_id: ${{ secrets.TOKEN_APP_ID }}
           private_key: ${{ secrets.TOKEN_APP_PRIVATE_KEY }}
       - name: Create Pull Request
-        if: ${{ !github.event.act }}
+        if: ${{ !github.event.act && (github.event_name != 'workflow_dispatch' || inputs.force_publish) }}
         uses: peter-evans/create-pull-request@v5
         with:
           add-paths: |

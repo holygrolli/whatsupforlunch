@@ -1,0 +1,66 @@
+{
+  "2024-06-03": [
+    {
+      "desc": "Bratwurst an Sauerkraut und Kartoffeln",
+      "price": 6.90
+    },
+    {
+      "desc": "Kartoffel- Brokkoli Gratin mit Lachs",
+      "price": 6.90
+    }
+  ],
+  "2024-06-04": [
+    {
+      "desc": "Steak \"Strindberg\" mit Bratkartoffeln und Krautsalat",
+      "price": 6.90
+    },
+    {
+      "desc": "panierter Fetakäse mit Ries dazu Tomatensoße",
+      "price": 6.90
+    }
+  ],
+  "2024-06-05": [
+    {
+      "desc": "Schweineschnitzel mit gegrilltem Paprika dazu Rosmarinkartoffeln",
+      "price": 6.90
+    },
+    {
+      "desc": "Tortellini mit Champignongeschnetzeltem",
+      "price": 6.90
+    }
+  ],
+  "2024-06-06": [
+    {
+      "desc": "Spitzkohlpfanne mit Hackfleisch und Kartoffeln",
+      "price": 6.90
+    },
+    {
+      "desc": "Kräuterrührei mit Spinat und Kartoffeln",
+      "price": 6.90
+    }
+  ],
+  "2024-06-07": [
+    {
+      "desc": "Hähnchen- Senfgeschnetzeltes mit Basmatireis",
+      "price": 6.90
+    },
+    {
+      "desc": "Eier in Senfsoße mit Kartoffeln",
+      "price": 6.90
+    }
+  ],
+  "2024-W23": [
+    {
+      "desc": "Spaghetti mit Bolognese",
+      "price": 4.90
+    },
+    {
+      "desc": "Penne \"Jäger Art\"",
+      "price": 4.90
+    },
+    {
+      "desc": "Pasta Arabiata",
+      "price": 4.90
+    }
+  ]
+}

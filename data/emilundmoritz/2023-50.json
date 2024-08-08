@@ -1,0 +1,52 @@
+{
+  "2023-12-11": [
+    {
+      "desc": "Putenrollbraten, Rosenkohl, Kartoffeln",
+      "price": 6.9
+    },
+    {
+      "desc": "Matjes, Remoulade, Kartoffeln",
+      "price": 6.9
+    }
+  ],
+  "2023-12-12": [
+    {
+      "desc": "Putencurry, Basmati Reis",
+      "price": 6.9
+    },
+    {
+      "desc": "Basmati Reis Pfanne mit frischem Gemüse, Feta",
+      "price": 6.9
+    }
+  ],
+  "2023-12-13": [
+    {
+      "desc": "Chilli con Carne, Reis",
+      "price": 6.9
+    },
+    {
+      "desc": "Hefeklöße, warme Vanillesauce, Glühwein Früchte",
+      "price": 6.9
+    }
+  ],
+  "2023-12-14": [
+    {
+      "desc": "Geflügelleber, Kartoffelstampf, Apfel Zwiebel Gemüse",
+      "price": 6.9
+    },
+    {
+      "desc": "Rührei, Spinat, Kartoffeln",
+      "price": 6.9
+    }
+  ],
+  "2023-12-15": [
+    {
+      "desc": "Schnitzel Pute, Brokkoli, Sc. Hollandaise, Bratkartoffeln",
+      "price": 6.9
+    },
+    {
+      "desc": "Brokkoli Kartoffel Auflauf",
+      "price": 6.9
+    }
+  ]
+}

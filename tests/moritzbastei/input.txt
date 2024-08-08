@@ -1,0 +1,22 @@
+<div>
+            <div>
+<h3>MITTAGSANGEBOT (09.-13.01.)</h3>
+<ul>
+<li>Montag</li><li>geschlossen<span></span></li>
+<li>Dienstag</li><li>Schweineschnitzel "Western" mit BBQ-Zwiebeln, Bacon und gebackenen Kartoffelecken<span>8,90 €</span></li>
+<li><li>Tortellini in Paprikarahm mit Lauchzwiebeln, überbacken mit Mozzarella (veget.)<span>8,70 €</span></li>
+<li>Mittwoch</li><li>Frikadelle mit Rosenkohl, Salzkartoffeln und brauner Sauce<span>8,90 €</span></li>
+<li><li>Salbei-Gnocchi mit Kürbisragout und Cranberrys (veget.)<span>8,70 €</span></li>
+<li>Donnerstag</li><li>Hähnchenschnitzel mit Rahmerbsen, Salzkartoffeln und brauner Sauce<span>8,90 €</span></li>
+<li><li>Pasta Genovese mit grünen Bohnen, Kartoffeln und Basilikum-Pesto (veget.)<span>8,70 €</span></li>
+<li>Freitag</li><li>Gedünstetes Seelachsfilet auf Kartoffel-Lauchgratin, überbacken mit Gouda<span>8,90 €</span></li>
+</ul>
+</div>
+<h3><span><svg width="1em" height="1em"></svg></span>WOCHENANGEBOT (09.-13.01.) - alle Gerichte zwischen 11 und 15 Uhr günstiger</h3>
+<ul>
+<li>Pasta</li><li>mit Petersilien-Koriander-Pesto, dazu geröstete Haselnüsse und Parmesan (veget.)<span>9,80 €</span></li>
+<li>Lasagne</li><li>Wirsinglasagne mit Tomaten, überbacken mit Hirtenkäse (veget.)<span>10,50 €</span></li>
+<li><li>Lasagne "Bolognese" überbacken mit Gouda<span>10,90 €</span></li>
+<li>Gratin</li><li>Gebratene Hähnchenbrust auf Kartoffel-Spinatgratin, überbacken mit Mozzarella &amp; Mandeln<span>10,50 €</span></li>
+<li>Suppe</li><li>Soljanka mit Schmand und Baguette<span>6,90 €</span></li>
+</ul>        </div>

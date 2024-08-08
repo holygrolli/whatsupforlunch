@@ -1,0 +1,70 @@
+{
+  "2024-02-26": [
+    {
+      "desc": "Gyros, Zatziki, Reis",
+      "price": 6.90
+    },
+    {
+      "desc": "Backkartoffeln, Quark, kl. Salat",
+      "price": 6.90
+    }
+  ],
+  "2024-02-27": [
+    {
+      "desc": "Currywurst,Currysauce Pommes, Krautsalat",
+      "price": 6.90
+    },
+    {
+      "desc": "Kartoffel Gemüse Pfanne mit Rucola, Feta",
+      "price": 6.90
+    }
+  ],
+  "2024-02-28": [
+    {
+      "desc": "Schnitzel Hamburg, Bratkartoffeln",
+      "price": 6.90
+    },
+    {
+      "desc": "2 Eier in Senfsauce, Kartoffeln",
+      "price": 6.90
+    }
+  ],
+  "2024-02-29": [
+    {
+      "desc": "Bratwurst, Sauerkraut, Kartoffeln, Sauce",
+      "price": 6.90
+    },
+    {
+      "desc": "Seelachs, Dillsauce, Kartoffelstampf",
+      "price": 6.90
+    }
+  ],
+  "2024-03-01": [
+    {
+      "desc": "Königsberger Klöpse in Kapernsauce, Kartoffeln",
+      "price": 6.90
+    },
+    {
+      "desc": "Boulette aus Couscous, Tomatensauce, Kartoffeln",
+      "price": 6.90
+    }
+  ],
+  "2024-W09": [
+    {
+      "desc": "Pasta mit Fleischbällchen und Ricotta",
+      "price": 4.90
+    },
+    {
+      "desc": "Pasta mit Lachsstücken + Erbsenmus",
+      "price": 4.90
+    },
+    {
+      "desc": "Pasta Arriabatta",
+      "price": 4.90
+    },
+    {
+      "desc": "Sülze, Bratkartoffeln, Hausfrauensauce",
+      "price": 10.90
+    }
+  ]
+}

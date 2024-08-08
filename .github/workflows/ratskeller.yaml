@@ -102,20 +102,16 @@ jobs:
         aws_secret_access_key = ${{ secrets.AWS_SECRET_ACCESS_KEY }}
         EOF
         cat ~/.aws/config
-    - name: Process pdf ${{ matrix.files }}
+    - name: Extract image from pdf ${{ matrix.files }}
       working-directory: tmp
-      run: textractor analyze-document ${{ matrix.files }} output.json --features TABLES --overlay TABLES --print TABLES
-    - name: extract csv
-      working-directory: tmp
-      run: |
-        python ../locations/ratskeller/process_textractor_result.py output.json
-    - name: process csv with chatgpt
+      run: pdftoppm -singlefile -r 150 -png ${{ matrix.files }} image
+    - name: process image with chatgpt
       working-directory: tmp
       env:
         OPENAI_API_KEY: ${{secrets.OPENAI_API_KEY}}
       shell: bash
       run: |
-        python ../locations/ratskeller/process_chatgpt.py ../locations/ratskeller/prompt.txt table.csv
+        python ../locations/ratskeller/process_chatgpt.py
         sed -n '/^\s*{$/,$p' chatgpt.json > final.json
     - name: collect final files
       working-directory: tmp
@@ -123,7 +119,7 @@ jobs:
       run: |
         mkdir -p ../success-pdfs
         cp ${{ matrix.files }} ../success-pdfs
-        cp final.json ../success-pdfs/$(date -d"$(jq -r 'keys[0]' final.json)" +%Y-%V).json
+        cp final.json ../success-pdfs/$(date -d"$(jq -r 'keys[] | select(test("\\d{4}-\\d{2}-\\d{2}"))' final.json | sort | head -n 1)" +%Y-%V).json
     - name: Archive final files
       uses: actions/upload-artifact@v3
       with:

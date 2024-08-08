@@ -1,0 +1,72 @@
+{
+  "2024-02-26": [
+    {
+      "desc": "Nudelentopf mit Huhn und Gemüse",
+      "price": 2.50
+    },
+    {
+      "desc": "Chili Con Carne",
+      "price": 3.75
+    },
+    {
+      "desc": "Rohkostsalat nach Angebot",
+      "price": 1.30
+    }
+  ],
+  "2024-02-27": [
+    {
+      "desc": "Gemüsepfanne mit Kräuterkartoffeln",
+      "price": 2.50
+    },
+    {
+      "desc": "Panierte-Seelachs an einer Dill-Senfsoße",
+      "price": 3.85
+    },
+    {
+      "desc": "Kaisergemüse",
+      "price": 1.00
+    }
+  ],
+  "2024-02-28": [
+    {
+      "desc": "Gemüseschnitzel mit kl. gem. Salat",
+      "price": 3.80
+    },
+    {
+      "desc": "Muligatawny- indische Currysuppe mit Hähnchenfleisch und Ingwer",
+      "price": 3.80
+    },
+    {
+      "desc": "Erbsen",
+      "price": 1.00
+    }
+  ],
+  "2024-02-29": [
+    {
+      "desc": "Käse-Spätzle mit Röstzwiebeln",
+      "price": 3.50
+    },
+    {
+      "desc": "Sülze mit Remoulade",
+      "price": 2.50
+    },
+    {
+      "desc": "Bratkartoffeln",
+      "price": 1.20
+    }
+  ],
+  "2024-03-01": [
+    {
+      "desc": "Schinkennudeln mit Sahnesoße",
+      "price": 2.50
+    },
+    {
+      "desc": "Tagesangebot",
+      "price": 3.20
+    },
+    {
+      "desc": "Rohkostsalat nach Angebot",
+      "price": 1.30
+    }
+  ]
+}

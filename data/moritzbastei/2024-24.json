@@ -1,0 +1,57 @@
+{
+  "2024-06-10": [],
+  "2024-06-11": [
+    {
+      "desc": "Schweineschnitzel \"Western\" mit BBQ-Zwiebeln, Bacon und gebackenen Kartoffelecken, dazu Sour Cream",
+      "price": 9.8
+    },
+    {
+      "desc": "Zucchini-Limettentagliatelle mit gerösteten Sonnenblumenkernen und Parmesan (veget.)",
+      "price": 9.2
+    }
+  ],
+  "2024-06-12": [
+    {
+      "desc": "Frikadelle mit Rahmblumenkohl, Salkartoffeln und brauner Soße",
+      "price": 9.8
+    },
+    {
+      "desc": "Kartoffelrösti überbacken mit Tomate und Mozzarella, dazu Basilikumschmand und Salatbeilage (veget.)",
+      "price": 9.2
+    }
+  ],
+  "2024-06-13": [
+    {
+      "desc": "Gebratene Hähnchenbrust \"Jerk Style\" auf buntem Grillgemüse, dazu Tomatenreis",
+      "price": 9.8
+    },
+    {
+      "desc": "Gnocchi in Basilikumsoße mit getrockneten Tomaten, dazu Parmesan und Sonnenblumenkerne (veget.)",
+      "price": 9.2
+    }
+  ],
+  "2024-06-14": [
+    {
+      "desc": "Gedünstetes Seelachsfilet auf Spinat-Kartoffelgratin, überbacken mit Tomate und Mozzaella",
+      "price": 9.9
+    }
+  ],
+  "2024-W24": [
+    {
+      "desc": "Pasta mit Koriander-Petersilien-Pesto, dazu geröstete Haselnüsse und Parmesan (veget.)",
+      "price": 10.9
+    },
+    {
+      "desc": "Lasagne \"Al Pesto\" mit Brokkoli, Waldpilzen und Kräuterpesto, überbacken mit Mozzarella (veget.)",
+      "price": 12.4
+    },
+    {
+      "desc": "Lasagne \"Bolognese\" überbacken mit Gouda",
+      "price": 12.9
+    },
+    {
+      "desc": "Marinierte Hähnchebrust auf Kartoffelgratin \"Indisch\" mit Blumenkohl und Karotten",
+      "price": 12.9
+    }
+  ]
+}

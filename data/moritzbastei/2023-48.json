@@ -1,0 +1,40 @@
+{
+  "2023-11-27": [],
+  "2023-11-28": [
+    {
+      "desc": "Schweineschnitzel \"Western\" mit BBQ-Zwiebeln, Bacon und gebackenen Kartoffelecken, dazu Sour Cream",
+      "price": 7.9
+    },
+    {
+      "desc": "Waldpilzgulasch mit Kräuterspätzle (veget.)",
+      "price": 7.7
+    }
+  ],
+  "2023-11-29": [
+    {
+      "desc": "Königsberger Klopse in Kapernsauce, dazu Kartoffelstampf und Krautsalat",
+      "price": 7.9
+    },
+    {
+      "desc": "Pikanter Fenchel mit Kokosmilch, dazu Orangencouscous und gegrillte Tomaten (vegan)",
+      "price": 7.7
+    }
+  ],
+  "2023-11-30": [
+    {
+      "desc": "Jägerschnitzel mit Tomatensauce, dazu Pasta und Gouda",
+      "price": 7.9
+    },
+    {
+      "desc": "Brokkoli in Kichererbsenbackteig auf rotem Linsencurry mit Paprika und Lauchzwiebeln (vegan)",
+      "price": 7.7
+    }
+  ],
+  "2023-12-01": [
+    {
+      "desc": "Gebratenes Seelachsfilet auf Kartoffel-Lauch-Gratin, überbacken mit Gouda",
+      "price": 7.9
+    }
+  ],
+  "2023-12-02": []
+}

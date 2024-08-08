@@ -47,3 +47,7 @@ AWS_SECRET_ACCESS_KEY=
 AWS_DEFAULT_REGION=eu-central-1
 OPENAI_API_KEY=
 ```
+
+## Testing
+
+For testing the prompt compared to a previous state just use the same Docker image and change to `tests/LOCATION` and execute `python -m unittest`

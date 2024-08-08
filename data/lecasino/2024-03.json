@@ -1,0 +1,72 @@
+{
+  "2024-01-15": [
+    {
+      "desc": "Champignonpüntopf mit Kräutersoße",
+      "price": 3.70
+    },
+    {
+      "desc": "Hausgemachte Kartoffelsuppe",
+      "price": 2.50
+    },
+    {
+      "desc": "Currywurst mit fruchtig-scharfer Currysosse",
+      "price": 3.85
+    }
+  ],
+  "2024-01-16": [
+    {
+      "desc": "Broccoli mit Hollandaise und Kartoffeln",
+      "price": 3.85
+    },
+    {
+      "desc": "Kaiserschmarrn mit Rosinen und Apfelmus",
+      "price": 2.50
+    },
+    {
+      "desc": "Kartoffeltopf mit Kokosmilch und gebratenen Chiliswürstchen",
+      "price": 3.80
+    }
+  ],
+  "2024-01-17": [
+    {
+      "desc": "Gemischter Salat mit einer Frühlingsrolle",
+      "price": 3.90
+    },
+    {
+      "desc": "Erbsenpüntopf mit Kasseler Fleisch",
+      "price": 2.50
+    },
+    {
+      "desc": "Königsberger Klopse mit Kapernsoße",
+      "price": 3.75
+    }
+  ],
+  "2024-01-18": [
+    {
+      "desc": "Tortellini mit Spinat Ricotta Füllung und einer Kräutersoße",
+      "price": 3.60
+    },
+    {
+      "desc": "Quarkkeulchen mit Apfelmus und Zimt Zucker",
+      "price": 2.50
+    },
+    {
+      "desc": "Hähnchenschnitzel mit Bratensoße",
+      "price": 3.85
+    }
+  ],
+  "2024-01-19": [
+    {
+      "desc": "Farfalle mit Spinatsoße",
+      "price": 3.20
+    },
+    {
+      "desc": "Frikadellenbällchen mit Rahmsoße und Kartoffelpüree",
+      "price": 2.50
+    },
+    {
+      "desc": "Tagesangebot",
+      "price": null
+    }
+  ]
+}

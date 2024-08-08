@@ -25,12 +25,17 @@ jobs:
     steps:
       - name: checkout
         uses: actions/checkout@v3
+        with:
+          ref: >-
+            ${{
+              github.event_name == 'schedule' && 'main' || ''
+            }}
       - name: get new links
         shell: bash
         run: |
           WD=${PWD}
           mkdir -p tmp
-          scrapy runspider locations/lecasino/scra.py --nolog | sort > tmp/scraped_links.txt
+          scrapy runspider locations/lecasino/scra.py --nolog | grep -iv anger | grep -iv heiter | grep -iv lindenau | sort > tmp/scraped_links.txt
           cd tmp
           echo "found these changed links: $(comm -13 ../data/lecasino/scraped_done.txt scraped_links.txt)"
           while IFS= read -r line; do
@@ -70,6 +75,11 @@ jobs:
     steps:
     - name: checkout source code
       uses: actions/checkout@v3
+      with:
+        ref: >-
+          ${{
+            github.event_name == 'schedule' && 'main' || ''
+          }}
     - name: Download pdf artifacts
       uses: actions/download-artifact@v3
       with:
@@ -97,21 +107,17 @@ jobs:
         aws_secret_access_key = ${{ secrets.AWS_SECRET_ACCESS_KEY }}
         EOF
         cat ~/.aws/config
-    - name: Process pdf ${{ matrix.files }}
+    - name: Extract image from pdf ${{ matrix.files }}
       working-directory: tmp
-      run: textractor analyze-document ${{ matrix.files }} output.json --features TABLES --overlay TABLES --print TABLES
-    - name: extract csv
-      working-directory: tmp
-      run: |
-        python ../locations/lecasino/process_textractor_result.py output.json
-    - name: process csv with chatgpt
+      run: pdftoppm -singlefile -r 150 -png ${{ matrix.files }} image
+    - name: process image with chatgpt
       working-directory: tmp
       env:
         OPENAI_API_KEY: ${{secrets.OPENAI_API_KEY}}
       shell: bash
       run: |
-        python ../locations/lecasino/process_chatgpt.py ../locations/lecasino/prompt.txt table.csv
-        sed -n '/^\s*{$/,$p' chatgpt.json > final.json
+        python ../locations/lecasino/process_chatgpt.py
+        awk '/^\s*{$/,/^\s*}$/ {print}' chatgpt.json > final.json
         mkdir -p ../data/lecasino
     - name: collect final files
       working-directory: tmp
@@ -119,7 +125,7 @@ jobs:
       run: |
         mkdir -p ../success-pdfs
         cp ${{ matrix.files }} ../success-pdfs
-        cp final.json ../success-pdfs/$(date -d"$(jq -r 'keys[0]' final.json)" +%Y-%V).json
+        cp final.json ../success-pdfs/$(date -d"$(jq -r 'keys[] | select(test("\\d{4}-\\d{2}-\\d{2}"))' final.json | sort | head -n 1)" +%Y-%V).json
     - name: Archive final files
       uses: actions/upload-artifact@v3
       with:

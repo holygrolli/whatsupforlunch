@@ -1,0 +1,75 @@
+{
+  "2024-03-25": [
+    {
+      "desc": "Sächsische Kartoffelsuppe mit Bockwurst und Majoran",
+      "price": 5.60
+    },
+    {
+      "desc": "Paprika-Kürbis-„Gulasch“ mit Kartoffelstampf",
+      "price": 6.10
+    },
+    {
+      "desc": "Hähnchencurry mit asiatischem Gemüse und Limettenreis",
+      "price": 6.70
+    },
+    {
+      "desc": "Hering mit Apfel-Zwiebel-Joghurtsoße und Petersilienkartoffeln",
+      "price": 8.00
+    }
+  ],
+  "2024-03-26": [
+    {
+      "desc": "Erdbeer-Topfenknödel mit Vanillesoße",
+      "price": 5.60
+    },
+    {
+      "desc": "Pasta mit Tomatensoße und geriebenem Käse",
+      "price": 6.10
+    },
+    {
+      "desc": "Pasta mit Wurstgulasch und geriebenem Käse",
+      "price": 6.70
+    },
+    {
+      "desc": "Bauernfrühstück mit Kartoffeln, Ei, buntem Gemüse, Salat und Gurke",
+      "price": 8.00
+    }
+  ],
+  "2024-03-27": [
+    {
+      "desc": "Chili con Carne",
+      "price": 5.60
+    },
+    {
+      "desc": "2 gekochte Eier mit Senfsoße, Rote-Bete-Salat und Petersilienkartoffeln",
+      "price": 6.10
+    },
+    {
+      "desc": "Makkaroni-Chips mit Schinken-Käse-Sahnesoße",
+      "price": 6.70
+    },
+    {
+      "desc": "Überraschungs-Gericht mit BIO-Gemüse von KOLA Leipzig",
+      "price": 8.00
+    }
+  ],
+  "2024-03-28": [],
+  "2024-03-29": [
+    {
+      "desc": "Drei Hefeklöße mit warmen Heidelbeeren",
+      "price": 5.60
+    },
+    {
+      "desc": "Pasta mit Tomatensoße und geriebenem Käse",
+      "price": 6.10
+    },
+    {
+      "desc": "Hackbraten mit Rahm-Kohlrabi und Petersilienkartoffeln",
+      "price": 6.70
+    },
+    {
+      "desc": "Rote-Bete-Ingwer-Falafel mit Hummus und Bulgur-Salat",
+      "price": 8.00
+    }
+  ]
+}

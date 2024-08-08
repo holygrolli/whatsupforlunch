@@ -1,0 +1,66 @@
+{
+  "2024-04-22": [
+    {
+      "desc": "Steak, Letscho dazu Bratkartoffeln",
+      "price": 6.90
+    },
+    {
+      "desc": "CousCous Frikadelle, Letscho, kleiner Salat",
+      "price": 6.90
+    }
+  ],
+  "2024-04-23": [
+    {
+      "desc": "Schnitzel Pute mit Blumenkohl, Kartoffeln und Sauce Hollondaise",
+      "price": 6.90
+    },
+    {
+      "desc": "Tortellini Gorgonzola",
+      "price": 6.90
+    }
+  ],
+  "2024-04-24": [
+    {
+      "desc": "Königsberger Klopse, Kapernsauce und Kartoffeln",
+      "price": 6.90
+    },
+    {
+      "desc": "Kürbiscurry mit Kokosmilch und Basmatireis",
+      "price": 6.90
+    }
+  ],
+  "2024-04-25": [
+    {
+      "desc": "Hähnchenkeule, Mischgemüse dazu Kartoffeln",
+      "price": 6.90
+    },
+    {
+      "desc": "Gnocchi mit Tomatensauce und Käse",
+      "price": 6.90
+    }
+  ],
+  "2024-04-26": [
+    {
+      "desc": "Leberkäse, Spiegelei und Bratkartoffeln",
+      "price": 6.90
+    },
+    {
+      "desc": "Rührei, Spinat dazu Kartoffeln",
+      "price": 6.90
+    }
+  ],
+  "2024-W17": [
+    {
+      "desc": "Spaghetti Carbonara",
+      "price": 4.90
+    },
+    {
+      "desc": "Pasta mit Schrimps-Sahnesauce",
+      "price": 4.90
+    },
+    {
+      "desc": "Pasta mit getrockneten Tomaten und Oliven",
+      "price": 4.90
+    }
+  ]
+}

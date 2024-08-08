@@ -1,0 +1,92 @@
+{
+  "2023-12-11": [
+    {
+      "desc": "Vegetarische Maultaschen mit Brühe und Gemüsejulienne",
+      "price": 5.0
+    },
+    {
+      "desc": "Sellerieschnitzel mit Erbsen und Kartoffelstampf",
+      "price": 5.5
+    },
+    {
+      "desc": "Schweine- geschnetzeltes \"Stroganoff\" mit Pilzen, Bete und Spätzle",
+      "price": 6.0
+    },
+    {
+      "desc": "Spaghetti \"Puttanesca\" mit Sardellen, Oliven, Kapern und Tomaten",
+      "price": 7.5
+    }
+  ],
+  "2023-12-12": [
+    {
+      "desc": "Topfen- Rahmstrudel mit Rosinen und VanillesoBe",
+      "price": 5.0
+    },
+    {
+      "desc": "Pasta mit TomatensoBe und geriebenem Käse",
+      "price": 5.5
+    },
+    {
+      "desc": "Spaghetti \"Bolognese\" mit geriebenem Käse",
+      "price": 6.0
+    },
+    {
+      "desc": "Falafel-Bowl mit Möhren-Hummus und Couscous- Salat",
+      "price": 7.5
+    }
+  ],
+  "2023-12-13": [
+    {
+      "desc": "Grünen Bohneneintopf mit Rindfleisch und Kartoffel- würfeln",
+      "price": 5.0
+    },
+    {
+      "desc": "Schweizer Kartoffelrösti mit Salat und Kräuterdip",
+      "price": 5.5
+    },
+    {
+      "desc": "Mutzbraten \"Thüringer Art\" mit Squerkraut und Semmel- knödel",
+      "price": 6.0
+    },
+    {
+      "desc": "Frikassee mit veganen \"Filet\"- Streifen, Erbsen, Karotten und Reis",
+      "price": 7.5
+    }
+  ],
+  "2023-12-14": [
+    {
+      "desc": "Drei Eierkuchen mit warmem Himbeerragout",
+      "price": 5.0
+    },
+    {
+      "desc": "Pasta mit Tomatensoße und geriebenem Käse",
+      "price": 5.5
+    },
+    {
+      "desc": "Schweinegulasch mit Paprika und Pilzen, dazu Pasta",
+      "price": 6.0
+    },
+    {
+      "desc": "\"No Meat\" Burger mit Tomate, Gurke, Eisberg, Aioli +Kartoffel- ecken",
+      "price": 7.5
+    }
+  ],
+  "2023-12-15": [
+    {
+      "desc": "Kartoffel-Möhren- Eintopf mit Fleischklößchen",
+      "price": 5.0
+    },
+    {
+      "desc": "Kürbis-Lasagne mit Lauch und Ricotta",
+      "price": 5.5
+    },
+    {
+      "desc": "Jägerpfanne mit Hackbällchen und Pilzen, dazu Kroketten",
+      "price": 6.0
+    },
+    {
+      "desc": "Paniertes Schollenfilet mit buntem Gemüse und Kartoffel- gratin",
+      "price": 7.5
+    }
+  ]
+}

@@ -1,0 +1,52 @@
+{
+  "2023-12-11": [
+    {
+      "desc": "Schnitzel \"Wiener Art\" mit Kartoffel-Gurken-Salat",
+      "price": 7.5
+    },
+    {
+      "desc": "Allgäuer Käsespätzle mit Röstzwiebeln",
+      "price": 7.5
+    }
+  ],
+  "2023-12-12": [
+    {
+      "desc": "Frikassee vom Huhn mit Reis",
+      "price": 7.5
+    },
+    {
+      "desc": "Ratatouille Gemüse mit Reis",
+      "price": 7.5
+    }
+  ],
+  "2023-12-13": [
+    {
+      "desc": "Geschmorter Schweinenacken mit Senfmöhren und Kroketten",
+      "price": 7.5
+    },
+    {
+      "desc": "Gnocchi in Käsesauce mit Rucola und Kirschtomaten",
+      "price": 7.5
+    }
+  ],
+  "2023-12-14": [
+    {
+      "desc": "Knacker mit Grünkohl und Salzkartoffeln",
+      "price": 7.5
+    },
+    {
+      "desc": "Gemüse-Maultaschen mit Kartoffelsalat und Schmelzzwiebeln",
+      "price": 7.5
+    }
+  ],
+  "2023-12-15": [
+    {
+      "desc": "Backfisch auf Kartoffel-Gurken-Salat mit Remoulade",
+      "price": 7.5
+    },
+    {
+      "desc": "Kaiserschmarrn mit Apfelmus",
+      "price": 7.5
+    }
+  ]
+}

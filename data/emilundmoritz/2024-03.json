@@ -1,0 +1,66 @@
+{
+  "2024-01-15": [
+    {
+      "desc": "Hühnerfrikassee dazu Reis",
+      "price": 6.90
+    },
+    {
+      "desc": "Semmelknödel mit gebratenen Champignons und Rahmsoße",
+      "price": 6.90
+    }
+  ],
+  "2024-01-16": [
+    {
+      "desc": "Schweineschnitzel \"Ungarisch\" mit Bratkartoffeln",
+      "price": 6.90
+    },
+    {
+      "desc": "Kartoffel-Zucchini-Pfanne mit Kräuterrahmsoße",
+      "price": 6.90
+    }
+  ],
+  "2024-01-17": [
+    {
+      "desc": "Kohlroulade mit Kümmelsoße und Kartoffeln",
+      "price": 6.90
+    },
+    {
+      "desc": "Spaghetti all’arrabbiata",
+      "price": 6.90
+    }
+  ],
+  "2024-01-18": [
+    {
+      "desc": "Schweinebraten, Rosenkohl mit Semmelbrösel dazu Salzkartoffeln",
+      "price": 6.90
+    },
+    {
+      "desc": "gebratenes Seelachsfilet mit Gurkengemüse und Kartoffelstampf",
+      "price": 6.90
+    }
+  ],
+  "2024-01-19": [
+    {
+      "desc": "Geschnetzeltes vom Schwein mit Champignons, Spätzle",
+      "price": 6.90
+    },
+    {
+      "desc": "Gemüsestrudel mit Spinat und Frischkäse",
+      "price": 6.90
+    }
+  ],
+  "2024-W03": [
+    {
+      "desc": "Spaghetti mit getrockneten Tomaten, Hirtenkäse & Rucola",
+      "price": 4.90
+    },
+    {
+      "desc": "Pasta in Shrimps-Sahnesoße",
+      "price": 4.90
+    },
+    {
+      "desc": "Farfalle mit Tomaten-Mozzarellasoße",
+      "price": 4.90
+    }
+  ]
+}

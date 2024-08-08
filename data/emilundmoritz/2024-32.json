@@ -1,0 +1,66 @@
+{
+  "2024-08-05": [
+    {
+      "desc": "Geschnetzeltes vom SChwein, Reis",
+      "price": 6.90
+    },
+    {
+      "desc": "Gemüsecurry, Reis",
+      "price": 6.90
+    }
+  ],
+  "2024-08-06": [
+    {
+      "desc": "Sülze, Bratkartoffeln, Remoulade",
+      "price": 6.90
+    },
+    {
+      "desc": "Matjes Hausfrauensauce, Bratkartoffeln",
+      "price": 6.90
+    }
+  ],
+  "2024-08-07": [
+    {
+      "desc": "Schnitzel Schwein, Blumenkohl, Kartoffeln, Sauce",
+      "price": 6.90
+    },
+    {
+      "desc": "Rührei, Gurkensalat, Kartoffeln",
+      "price": 6.90
+    }
+  ],
+  "2024-08-08": [
+    {
+      "desc": "Rostbrätl, Schmorrzwiebeln, Bratkartoffeln",
+      "price": 6.90
+    },
+    {
+      "desc": "Kaiserschmarrn, Apfelmus, Z+Z",
+      "price": 6.90
+    }
+  ],
+  "2024-08-09": [
+    {
+      "desc": "Hackbraten,Möhren, Kartoffeln",
+      "price": 6.90
+    },
+    {
+      "desc": "Tortellini in Spinat Gorgonzola Rahm, Kirschtomaten",
+      "price": 6.90
+    }
+  ],
+  "2024-W32": [
+    {
+      "desc": "Pasta mit Kaäse Lauch Sauce",
+      "price": 4.90
+    },
+    {
+      "desc": "Spaghetti Pestonara",
+      "price": 4.90
+    },
+    {
+      "desc": "Tagliatelle mit Huhn und cremiger Spinat Frischkäse Sauce",
+      "price": 4.90
+    }
+  ]
+}

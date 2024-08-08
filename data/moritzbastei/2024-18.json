@@ -1,0 +1,52 @@
+{
+  "2024-04-29": [],
+  "2024-04-30": [
+    {
+      "desc": "Schweineschnitzel mit Spiegelei und Bratkartoffeln, dazu Tomatensalat",
+      "price": 9.80
+    },
+    {
+      "desc": "Zucchini-Limettentagliatelle mit gerösteten Sonnenblumenkernen und Parmesan (veget.)",
+      "price": 9.20
+    }
+  ],
+  "2024-05-01": [],
+  "2024-05-02": [
+    {
+      "desc": "Hühnerfrikassee mit Spargel, Erbsen und Champignons, dazu Basmatireis",
+      "price": 9.80
+    },
+    {
+      "desc": "Süßkartoffel-Rösti mit Paprika-Aioli und Spitzkohlsalat (veget.)",
+      "price": 9.20
+    }
+  ],
+  "2024-05-03": [
+    {
+      "desc": "Matjesfilet in Apfel-Zwiebelremoulade, dazu Salzkartoffeln",
+      "price": 9.90
+    }
+  ],
+  "2024-W18": [
+    {
+      "desc": "Pasta mit Tomaten-Basilikum-Pesto, dazu geröstete Sonnenblumenkerne und Parmesan (veget.)",
+      "price": 10.90
+    },
+    {
+      "desc": "Lasagne Tomatenlasagne mit gebratener Aubergine, überbacken mit Mozzarella (veget.)",
+      "price": 12.40
+    },
+    {
+      "desc": "Lasagne \"Bolognese\" überbacken mit Gouda",
+      "price": 12.90
+    },
+    {
+      "desc": "Gratin Marinierte Hähnchenbrust auf Kartoffelgratin \"Indisch\" mit Blumenkohl und Karotte",
+      "price": 12.90
+    },
+    {
+      "desc": "Suppe Soljanka mit Schmand und Baguette",
+      "price": 6.90
+    }
+  ]
+}

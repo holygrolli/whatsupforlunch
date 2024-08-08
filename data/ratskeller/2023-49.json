@@ -1,0 +1,92 @@
+{
+  "2023-12-04": [
+    {
+      "desc": "Hausgemachter Linseneintopf mit Blutwurstwürfeln",
+      "price": 5.0
+    },
+    {
+      "desc": "Vegane Hackbällchen mit Waldpilzrahm und Kartoffelstampf",
+      "price": 5.5
+    },
+    {
+      "desc": "Bauernroulade mit Speckbohnen und Petersilien- kartoffeln",
+      "price": 6.0
+    },
+    {
+      "desc": "Bunte Gnocchi- Pfanne mit Aubergine, Tomate und Schafskäse",
+      "price": 7.5
+    }
+  ],
+  "2023-12-05": [
+    {
+      "desc": "Armer Ritter mit Zimt und Mandeln, dazu VanillesoBe",
+      "price": 5.0
+    },
+    {
+      "desc": "Pasta mit TomatensoBe und geriebenem Käse",
+      "price": 5.5
+    },
+    {
+      "desc": "Pasta mit Wurstgulasch und geriebenem Käse",
+      "price": 6.0
+    },
+    {
+      "desc": "Gebackener Camembert mit Preiselbeeren, Salat und Baguette",
+      "price": 7.5
+    }
+  ],
+  "2023-12-06": [
+    {
+      "desc": "Kürbissuppe mit Sprossen und Croûtons",
+      "price": 5.0
+    },
+    {
+      "desc": "Blumenkohl- Käsemedaillon, buntes Gemüse und Kartoffel- stampf",
+      "price": 5.5
+    },
+    {
+      "desc": "Fischcurry mit Muscheln, Kokosmilch und Zitronenreis",
+      "price": 6.0
+    },
+    {
+      "desc": "Geschmorte Entenkeule mit Apfelrotkohl und Kartoffelklößen",
+      "price": 8.0
+    }
+  ],
+  "2023-12-07": [
+    {
+      "desc": "Sächsische Quarkkäulchen mit Apfelmus und Zimtzucker",
+      "price": 5.0
+    },
+    {
+      "desc": "Pasta mit TomatensoBe und geriebenem Käse",
+      "price": 5.5
+    },
+    {
+      "desc": "Paprikaschote, gefüllt mit Hackfleisch, dazu TomatensoBe und Spätzle",
+      "price": 6.0
+    },
+    {
+      "desc": "Veganer \"Thunfisch\"-Wrap mit Zwiebel, Tomate, Salat und Gurke",
+      "price": 7.5
+    }
+  ],
+  "2023-12-08": [
+    {
+      "desc": "Wirsing- Kartoffeleintopf mit Speck",
+      "price": 5.0
+    },
+    {
+      "desc": "Gemüse-Paella mit Erbsen, Paprika, Lauch und Karotten",
+      "price": 5.5
+    },
+    {
+      "desc": "Currywurst mit fruchtig pikanter Soße und Kartoffelecken",
+      "price": 6.0
+    },
+    {
+      "desc": "Seelachsfilet \"Bordelaise\" mit bunten Karotten und Kartoffel- Stampf",
+      "price": 7.5
+    }
+  ]
+}

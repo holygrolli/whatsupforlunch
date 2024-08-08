@@ -1,0 +1,92 @@
+{
+  "2024-04-15": [
+    {
+      "desc": "Spinatcreme-Suppe mit Eierstich",
+      "price": 5.60
+    },
+    {
+      "desc": "Kartoffel-Kürbis-Rösti mit Kräuterquark und Salat",
+      "price": 6.10
+    },
+    {
+      "desc": "Schweineschnitzel mit Blumenkohl und Petersilienkartoffeln",
+      "price": 6.70
+    },
+    {
+      "desc": "Fusilli mit Bärlauch-Pesto, Cherrytomaten und Mandeln",
+      "price": 8.00
+    }
+  ],
+  "2024-04-16": [
+    {
+      "desc": "Eierkuchen mit Rhabarber-Kompott und Vanillesoße",
+      "price": 5.60
+    },
+    {
+      "desc": "Pasta mit Tomatensoße und geriebenem Käse",
+      "price": 6.10
+    },
+    {
+      "desc": "Pasta mit Wurstgulasch und geriebenem Käse",
+      "price": 6.70
+    },
+    {
+      "desc": "Brokkoli-Cheese-Nuggets auf mediterranem Nudelsalat",
+      "price": 8.00
+    }
+  ],
+  "2024-04-17": [
+    {
+      "desc": "Erbseneintopf mit Bockwurst und Kartoffelwürfeln",
+      "price": 5.60
+    },
+    {
+      "desc": "Süßkartoffel-Kichererbsen-Curry mit Kokosmilch und Reis",
+      "price": 6.10
+    },
+    {
+      "desc": "Leberkäse mit Bayerisch Kraut und Petersilienkartoffeln",
+      "price": 6.70
+    },
+    {
+      "desc": "Spaghetti aglio e olio mit Rucola, Tomate und Hartkäse",
+      "price": 8.00
+    }
+  ],
+  "2024-04-18": [
+    {
+      "desc": "Kaiserschmarr'n mit Rosinen, Mandeln und Apfelmus",
+      "price": 5.60
+    },
+    {
+      "desc": "Pasta mit Tomatensoße und geriebenem Käse",
+      "price": 6.10
+    },
+    {
+      "desc": "Frikadelle mit Waldpilzrahm und Petersilienkartoffeln",
+      "price": 6.70
+    },
+    {
+      "desc": "Graupenrisotto mit Spargel, Karotten und Zuckerschoten",
+      "price": 7.50
+    }
+  ],
+  "2024-04-19": [
+    {
+      "desc": "Rote-Bete-Cremesuppe mit Feta-Würfeln und Kerbel-Pesto",
+      "price": 5.60
+    },
+    {
+      "desc": "Vegan gefüllte Paprikaschote mit Reis und Tomatensoße",
+      "price": 6.10
+    },
+    {
+      "desc": "Gebratene Hähnchenleber mit Äpfeln, Zwiebeln und Stumpf",
+      "price": 6.70
+    },
+    {
+      "desc": "Gebackenes Rotbarschfilet mit Fenchelrahm und Kroketten",
+      "price": 8.50
+    }
+  ]
+}

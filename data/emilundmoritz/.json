@@ -1,0 +1,52 @@
+{
+  "Monday": [
+    {
+      "desc": "Spaghetti Bolognese",
+      "price": 8.50
+    },
+    {
+      "desc": "Caesar Salad",
+      "price": 6.90
+    }
+  ],
+  "Tuesday": [
+    {
+      "desc": "Grilled Chicken with Mashed Potatoes",
+      "price": 9.20
+    },
+    {
+      "desc": "Vegetable Stir-Fry",
+      "price": 7.50
+    }
+  ],
+  "Wednesday": [
+    {
+      "desc": "Beef Burger with Fries",
+      "price": 10.00
+    },
+    {
+      "desc": "Margherita Pizza",
+      "price": 8.50
+    }
+  ],
+  "Thursday": [
+    {
+      "desc": "Pulled Pork Sandwich",
+      "price": 9.50
+    },
+    {
+      "desc": "Quinoa Salad",
+      "price": 7.90
+    }
+  ],
+  "Friday": [
+    {
+      "desc": "Fish and Chips",
+      "price": 10.50
+    },
+    {
+      "desc": "Greek Salad",
+      "price": 8.00
+    }
+  ]
+}

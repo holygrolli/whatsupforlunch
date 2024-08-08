@@ -1,0 +1,52 @@
+{
+  "2023-11-13": [
+    {
+      "desc": "Schnitzel „Wiener Art“ mit Kartoffel-Gurken-Salat",
+      "price": 7.5
+    },
+    {
+      "desc": "Allgäuer Käsespätzle mit Röstzwiebeln",
+      "price": 7.5
+    }
+  ],
+  "2023-11-14": [
+    {
+      "desc": "Linsen-Eintopf mit Kassler-Stücken",
+      "price": 7.5
+    },
+    {
+      "desc": "Vegetarischer Linsen-Eintopf mit Kartoffelstücken",
+      "price": 7.5
+    }
+  ],
+  "2023-11-15": [
+    {
+      "desc": "Mutzbraten mit Kohlrabi-Gemüse und Kartoffelpüree",
+      "price": 7.5
+    },
+    {
+      "desc": "Falafel mit Cous Cous Salat",
+      "price": 7.5
+    }
+  ],
+  "2023-11-16": [
+    {
+      "desc": "Hähnchen-Geschnetzeltes mit Reis",
+      "price": 7.5
+    },
+    {
+      "desc": "Kartoffel-Brokkoli-Auflauf mit Käse überbacken",
+      "price": 7.5
+    }
+  ],
+  "2023-11-17": [
+    {
+      "desc": "Backfisch auf Kartoffel-Gurken-Salat mit Remoulade",
+      "price": 7.5
+    },
+    {
+      "desc": "Kaiserschmarrn mit Apfelmus",
+      "price": 7.5
+    }
+  ]
+}

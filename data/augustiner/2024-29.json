@@ -1,0 +1,52 @@
+{
+  "2024-07-15": [
+    {
+      "desc": "Schnitzel \"Wiener Art\" mit Kartoffel-Gurken-Salat",
+      "price": 7.90
+    },
+    {
+      "desc": "Allgäuer Käsespätzle mit Röstzwiebeln",
+      "price": 7.90
+    }
+  ],
+  "2024-07-16": [
+    {
+      "desc": "Mutzbraten mit Mischgemüse und Kroketten",
+      "price": 7.90
+    },
+    {
+      "desc": "Spätzle-Pilzpfanne",
+      "price": 7.90
+    }
+  ],
+  "2024-07-17": [
+    {
+      "desc": "Blut- und Leberwurst mit Sauerkraut und Kartoffelpüree",
+      "price": 7.90
+    },
+    {
+      "desc": "Kartoffel-Blumenkohl-Auflauf",
+      "price": 7.90
+    }
+  ],
+  "2024-07-18": [
+    {
+      "desc": "Hähnchenkeule mit Rotkohl und Kloß",
+      "price": 7.90
+    },
+    {
+      "desc": "Kartoffel-Frischkäse-Taschen an buntem Blattsalat",
+      "price": 7.90
+    }
+  ],
+  "2024-07-19": [
+    {
+      "desc": "Backfisch auf Kartoffel-Gurken-Salat mit Remoulade",
+      "price": 7.90
+    },
+    {
+      "desc": "Gemüseschnitzel auf Kartoffel-Gurken-Salat",
+      "price": 7.90
+    }
+  ]
+}

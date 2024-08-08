@@ -1,0 +1,44 @@
+{
+  "2023-12-04": [
+    {
+      "desc": "geschlossen",
+      "price": null
+    }
+  ],
+  "2023-12-05": [
+    {
+      "desc": "Schweineschnitzel gefüllt mit Schinken und Käse, dazu Rahmerbsen, Salzkartoffeln und braune Sauce",
+      "price": 7.90
+    },
+    {
+      "desc": "Blumenkohl-Kartoffel-Gratin mit Lauchzwiebeln, überbacken mit Mozzarella und Mandeln (veget.)",
+      "price": 7.70
+    }
+  ],
+  "2023-12-06": [
+    {
+      "desc": "Frikadelle mit Rahmwirsing, Salzkartoffeln und brauner Sauce",
+      "price": 7.90
+    },
+    {
+      "desc": "Salbei-Gnocchi mit Kürbisragout und Cranberrys (veget.)",
+      "price": 7.70
+    }
+  ],
+  "2023-12-07": [
+    {
+      "desc": "Gebackene Hähnchenbrust in Parmesan-Panade, dazu Paprika-Tomatengemüse und Rosmarinkartoffeln",
+      "price": 7.90
+    },
+    {
+      "desc": "Mediterrane Gemüsebolognese u.a. mit Zucchini, Paprika, Aubergine, dazu Pasta und Parmesan (veget.)",
+      "price": 7.70
+    }
+  ],
+  "2023-12-08": [
+    {
+      "desc": "Gebratenes Seelachsfilet mit pikantem Karotten-Pastinakengemüse, dazu Kartoffelstampf und Zitronenbuttersauce",
+      "price": 7.90
+    }
+  ]
+}

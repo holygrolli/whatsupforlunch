@@ -1,0 +1,64 @@
+{
+  "2024-05-27": [
+    {
+      "desc": "Schupfnudel-Pfanne mit Kaisergemüse",
+      "price": 3.80
+    },
+    {
+      "desc": "Graupeneintopf mit Kasselerwürfel",
+      "price": 2.50
+    },
+    {
+      "desc": "Wurstgulasch mit Tomatensoße",
+      "price": 2.95
+    }
+  ],
+  "2024-05-28": [
+    {
+      "desc": "Mit Gemüse-Bulgur gefüllte Paprikaschote an einer Tomatensoße",
+      "price": 3.75
+    },
+    {
+      "desc": "Kräuterragout mit Kartoffeln und Butter",
+      "price": 2.50
+    },
+    {
+      "desc": "Hähnchenschenkel mit Bratensoße",
+      "price": 3.60
+    }
+  ],
+  "2024-05-29": [
+    {
+      "desc": "Gnocchi , Formaggio\" mit Käsesoße",
+      "price": 3.70
+    },
+    {
+      "desc": "Möhren-Kartoffeleintopf mit Schweinefleisch",
+      "price": 2.50
+    },
+    {
+      "desc": "Geschwenkte Pasta mit Porree und Hackfleisch",
+      "price": 3.70
+    }
+  ],
+  "2024-05-30": [
+    {
+      "desc": "Gemischter Salat",
+      "price": 4.80
+    },
+    {
+      "desc": "Kartoffelpuffer mit Apfelmus und Zucker",
+      "price": 2.50
+    },
+    {
+      "desc": "Schnitzel „Münchner Art\" mit Meerrettich-Senf-Panade",
+      "price": 3.75
+    }
+  ],
+  "2024-05-31": [
+    {
+      "desc": "Tagesangebot",
+      "price": null
+    }
+  ]
+}

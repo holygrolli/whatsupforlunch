@@ -1,0 +1,52 @@
+{
+  "2023-12-18": [
+    {
+      "desc": "Schnitzel \"Wiener Art\" mit Kartoffel-Gurken-Salat",
+      "price": 7.5
+    },
+    {
+      "desc": "Allgäuer Käsespätzle mit Röstzwiebeln",
+      "price": 7.5
+    }
+  ],
+  "2023-12-19": [
+    {
+      "desc": "Fleischpflanzerl mit Mischgemüse und Kartoffelpüree",
+      "price": 7.5
+    },
+    {
+      "desc": "Gekochte Eier in Senfsauce mit Kartoffelpüree",
+      "price": 7.5
+    }
+  ],
+  "2023-12-20": [
+    {
+      "desc": "Szegediner Gulasch mit Spätzle und Sauerrahm",
+      "price": 7.5
+    },
+    {
+      "desc": "Mediterrane Gemüse-Lasagne",
+      "price": 7.5
+    }
+  ],
+  "2023-12-21": [
+    {
+      "desc": "\"Jägerschnitzel\"\nPanierte Jagdwurst mit Spirelli in Tomatensauce",
+      "price": 7.5
+    },
+    {
+      "desc": "Schupfnudel-Pfanne mit buntem Gemüse und Röstzwiebeln",
+      "price": 7.5
+    }
+  ],
+  "2023-12-22": [
+    {
+      "desc": "Backfisch auf Kartoffel-Gurken-Salat mit Remoulade",
+      "price": 7.5
+    },
+    {
+      "desc": "Kaiserschmarrn mit Apfelmus",
+      "price": 7.5
+    }
+  ]
+}

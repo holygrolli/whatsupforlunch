@@ -1,0 +1,37 @@
+{
+  "2023-10-09": [
+    { "desc": "Pasta mit Cherrytomaten und Basilikum-Pesto", "price": 3.70 },
+    { "desc": "Gemischtem Salat mit einer Frühlingsrolle", "price": 3.90 },
+    { "desc": "Kartoffeln mit Gurken- salat und Rührei", "price": 3.75 },
+    { "desc": "Ofenkartoffel mit Quarkdip und kleiner gemischter Salat", "price": 3.70 },
+    { "desc": "Gefüllte Zucchini mit Tomate Mozzarella & Basilikum Pesto", "price": 3.70 }
+  ],
+  "2023-10-10": [
+    { "desc": "Linsensuppe", "price": 2.50 },
+    { "desc": "Frikadellenbällchen mit Zwiebelsoße und Kartof- felpüree", "price": 2.50 },
+    { "desc": "Weiße Bohneneintopf mit Kasseler Fleisch", "price": 2.50 },
+    { "desc": "Eierkuchen mit Apfel- mus und Zucker", "price": 2.50 },
+    { "desc": "Pasta Gemüse- Auflauf", "price": 2.50 }
+  ],
+  "2023-10-11": [
+    { "desc": "Geflügel Cevapcici mit Tomatensoße", "price": 3.20 },
+    { "desc": "Schweinegulasch mit Champignons", "price": 3.45 },
+    { "desc": "Hühnerfrikassee mit buntem Gemüse", "price": 3.30 },
+    { "desc": "Bratwurst mit Soße", "price": 2.60 },
+    { "desc": "Tagesangebot", "price": null }
+  ],
+  "2023-10-12": [
+    { "desc": "Tomatenreis", "price": 1.00 },
+    { "desc": "Püree", "price": 1.00 },
+    { "desc": "Reis", "price": 1.00 },
+    { "desc": "Kartoffeln", "price": 1.00 },
+    { "desc": "Reis", "price": 1.00 }
+  ],
+  "2023-10-13": [
+    { "desc": "Rohkostsalat nach Angebot", "price": 1.30 },
+    { "desc": "Rohkostsalat nach Angebot", "price": 1.30 },
+    { "desc": "Rohkostsalat nach Angebot", "price": 1.30 },
+    { "desc": "Rohkostsalat nach Angebot", "price": 1.30 },
+    { "desc": "Rohkostsalat nach Angebot", "price": 1.30 }
+  ]
+}

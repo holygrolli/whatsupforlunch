@@ -1,0 +1,66 @@
+{
+  "2024-04-08": [
+    {
+      "desc": "Tafelspitz auf Meerrettich Sauce, Mischgemüse, Kartoffeln",
+      "price": 6.9
+    },
+    {
+      "desc": "Gnocchis mit Gorgonzoola und gr. Spargel",
+      "price": 6.9
+    }
+  ],
+  "2024-04-09": [
+    {
+      "desc": "Hühnerfrikasse, Reis",
+      "price": 6.9
+    },
+    {
+      "desc": "Schupfnudel Kraut Pfanne mit Champignons",
+      "price": 6.9
+    }
+  ],
+  "2024-04-10": [
+    {
+      "desc": "Schnitzel Pute, Mischgemüse, Kartoffeln",
+      "price": 6.9
+    },
+    {
+      "desc": "Reise Gemüse Pfanne und Tomatensauce",
+      "price": 6.9
+    }
+  ],
+  "2024-04-11": [
+    {
+      "desc": "Gulasch, Spätzle",
+      "price": 6.9
+    },
+    {
+      "desc": "Milchreis, heiße Kirschen, Z+Z",
+      "price": 6.9
+    }
+  ],
+  "2024-04-12": [
+    {
+      "desc": "Sülze, Hausfrauensauce, Bratkartoffeln",
+      "price": 6.9
+    },
+    {
+      "desc": "Backfisch in Senfsauce, Bratkartoffeln",
+      "price": 6.9
+    }
+  ],
+  "2024-W15": [
+    {
+      "desc": "Spaghetti, Bolognese",
+      "price": 4.9
+    },
+    {
+      "desc": "Pasta mit Basilikum Pesto, gr. Spargel",
+      "price": 4.9
+    },
+    {
+      "desc": "Pasta Arabiatta",
+      "price": 4.9
+    }
+  ]
+}

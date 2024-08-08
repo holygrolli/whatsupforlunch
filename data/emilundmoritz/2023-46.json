@@ -1,0 +1,22 @@
+{
+  "2023-11-13": [
+    { "desc": "Schnitzel, Rosenkohl, Petersilienkartoffeln & Soße", "price": 6.6 },
+    { "desc": "Senfeier mit Petersilienkartoffeln", "price": 6.6 }
+  ],
+  "2023-11-14": [
+    { "desc": "Kohlroulade, Kartoffeln und Kümmelsoße", "price": 6.6 },
+    { "desc": "Milchreis mit Pflaumenkompott", "price": 6.6 }
+  ],
+  "2023-11-15": [
+    { "desc": "Gulasch mit Kartoffeln", "price": 6.6 },
+    { "desc": "Marinierter Hering mit Salzkartoffeln", "price": 6.6 }
+  ],
+  "2023-11-16": [
+    { "desc": "Grützwurst, Sauerkraut und Kartoffeln", "price": 6.6 },
+    { "desc": "Toskanische Kartoffelpfanne", "price": 6.6 }
+  ],
+  "2023-11-17": [
+    { "desc": "Putenschnitzel, Mischgemüse, Kartoffeln und Soße", "price": 6.6 },
+    { "desc": "Kartoffelstampf, zerlassene Butter und Fischstäbchen", "price": 6.6 }
+  ]
+}

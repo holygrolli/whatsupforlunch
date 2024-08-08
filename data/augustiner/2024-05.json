@@ -1,0 +1,52 @@
+{
+  "2024-01-29": [
+    {
+      "desc": "Schnitzel \"Wiener Art\" mit Kartoffel-Gurken-Salat",
+      "price": 7.90
+    },
+    {
+      "desc": "Allgäuer Käsespätzle mit Röstzwiebeln",
+      "price": 7.90
+    }
+  ],
+  "2024-01-30": [
+    {
+      "desc": "Pulled Pork in BBQ-Sauce mit Pommes frites und Krautsalat",
+      "price": 7.90
+    },
+    {
+      "desc": "Gebackener Blumenkohl mit Sc. Hollandaise und Salzkartoffeln",
+      "price": 7.90
+    }
+  ],
+  "2024-01-31": [
+    {
+      "desc": "Putenrollbraten mit Rotkohl und Kartoffelkloß",
+      "price": 7.90
+    },
+    {
+      "desc": "Penne Rigate mit Linsen-Bolognese und Parmesan",
+      "price": 7.90
+    }
+  ],
+  "2024-02-01": [
+    {
+      "desc": "Grobe Bratwurst mit Sauerkraut und Kartoffelpüree",
+      "price": 7.90
+    },
+    {
+      "desc": "Gekochte Eier in Senfsauce mit Kartoffelpüree",
+      "price": 7.90
+    }
+  ],
+  "2024-02-02": [
+    {
+      "desc": "Backfisch auf Kartoffel-Gurken-Salat mit Remoulade",
+      "price": 7.90
+    },
+    {
+      "desc": "Vegetarisches Bauernfrühstück mit Fassgurke",
+      "price": 7.90
+    }
+  ]
+}

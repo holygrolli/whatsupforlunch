@@ -1,0 +1,58 @@
+{
+  "2024-06-24": [
+    {
+      "desc": "Hähnchengeschnetzeltes mit gebratener Zucchini, getrockneten Tomaten und Rosmarinkartoffeln",
+      "price": 9.80
+    }
+  ],
+  "2024-06-25": [
+    {
+      "desc": "Schweineschnitzel gefüllt mit Schinken und Käse, dazu Rahmerbsen, Salzkartoffeln und braune Soße",
+      "price": 9.80
+    }
+  ],
+  "2024-06-26": [
+    {
+      "desc": "Königsberger Klopse in Kapernsoße, dazu Kartoffelstampf und Krautsalat",
+      "price": null
+    },
+    {
+      "desc": "Gnocchi in Spinat-Gorgonzolasoße, mit gerösteten Mandeln (veget.)",
+      "price": null
+    }
+  ],
+  "2024-06-27": [
+    {
+      "desc": "Jägerschnitzel mit Tomatensoße, dazu Pasta und Gouda",
+      "price": 9.80
+    },
+    {
+      "desc": "Pasta \"Genovese\" mit grünen Bohnen, Kartoffeln und Basilikum-Pesto (veget.)",
+      "price": 9.20
+    }
+  ],
+  "2024-06-28": [
+    {
+      "desc": "Matjesfilet in Apfel-Zwiebelremoulade, dazu Salzkartoffeln",
+      "price": 9.90
+    }
+  ],
+  "2024-W26": [
+    {
+      "desc": "Pasta mit Petersilien-Macadamia-Pesto, dazu Kirschtomaten und Parmesan (veget.)",
+      "price": 10.90
+    },
+    {
+      "desc": "Spinatlasagne mit getrockneten Tomaten, überbacken mit Mozzarella (veget.)",
+      "price": 12.40
+    },
+    {
+      "desc": "Lasagne \"Bolognese\" überbacken mit Gouda",
+      "price": 12.90
+    },
+    {
+      "desc": "Gebackener Hirtenkäse auf mediterranem Gemüse mit Oliven, dazu Baguette (veget.)",
+      "price": 12.90
+    }
+  ]
+}

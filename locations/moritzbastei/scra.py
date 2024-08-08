@@ -12,7 +12,7 @@ class MBSpider(scrapy.Spider):
     start_urls = ['https://www.moritzbastei.de/gastronomie-kneipe-bistro-drinks/']
 
     def parse(self, response):
-        mittagsangebot = response.xpath('//div[contains(@class,"foodMenu--weekly")]')
+        mittagsangebot = response.xpath('//div[contains(@class,"foodMenu--weekly")]/parent::*')
         if (len(mittagsangebot) == 1):
             for sel in mittagsangebot:
                 div = sel.get()

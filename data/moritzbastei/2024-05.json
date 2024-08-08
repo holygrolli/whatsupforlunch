@@ -1,0 +1,61 @@
+{
+  "2024-01-29": [],
+  "2024-01-30": [
+    {
+      "desc": "Schweineschnitzel mit Rahmerbsen, Salzkartoffeln und brauner Soße",
+      "price": 8.90
+    },
+    {
+      "desc": "Blumenkohl-Kartoffelgratin mit Lauchzwiebeln, überbacken mit Mozzarella und Mandeln (veget.)",
+      "price": 8.70
+    }
+  ],
+  "2024-01-31": [
+    {
+      "desc": "Hähnchengeschnetzeltes mit gebratener Zucchini, getrockneten Tomaten und Rosmarinkartoffeln",
+      "price": 8.90
+    },
+    {
+      "desc": "Pikanter Fenchel mit Kokosmilch, dazu Orangencouscous und gegrillte Tomaten (vegan)",
+      "price": 8.70
+    }
+  ],
+  "2024-02-01": [
+    {
+      "desc": "Wurstgulasch mit Paprika auf Pasta, dazu Gouda",
+      "price": 8.90
+    },
+    {
+      "desc": "Gnocchi in Spinat-Gorgonzolasoße, mit gerösteten Mandeln (veget.)",
+      "price": 8.70
+    }
+  ],
+  "2024-02-02": [
+    {
+      "desc": "Fischcurry mit buntem Gemüse und Sesamreis",
+      "price": 8.90
+    }
+  ],
+  "2024-W05": [
+    {
+      "desc": "Pasta mit Rote-Bete-Pesto, dazu geröstete Haselnüsse und Parmesan (veget.)",
+      "price": 9.80
+    },
+    {
+      "desc": "Lasagne Spitzkohl-Karotten-Lasagne überbacken mit Mozzarella und Sesam (veget.)",
+      "price": 10.50
+    },
+    {
+      "desc": "Lasagne 'Bolognese' überbacken mit Gouda",
+      "price": 10.90
+    },
+    {
+      "desc": "Gratin Marinierte Hähnchenbrust auf Kartoffelgratin 'Indisch' mit Blumenkohl und Karotten",
+      "price": 10.50
+    },
+    {
+      "desc": "Suppe Linseneintopf mit Kasseler und Baguette",
+      "price": 6.90
+    }
+  ]
+}

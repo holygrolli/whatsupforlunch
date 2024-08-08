@@ -1,0 +1,72 @@
+{
+  "2024-07-01": [
+    {
+      "desc": "Champignontopf mit Kräutersoße",
+      "price": 3.70
+    },
+    {
+      "desc": "Hausgemachte Kartoffelsuppe",
+      "price": 3.00
+    },
+    {
+      "desc": "Currywurst mit fruchtig-scharfer Currysauce",
+      "price": 3.85
+    }
+  ],
+  "2024-07-02": [
+    {
+      "desc": "Spaghetti „Primavera“ mit verschiedenen Gemüse",
+      "price": 4.20
+    },
+    {
+      "desc": "Kaiserschmarrn mit Rosinen und Apfelmus",
+      "price": 3.00
+    },
+    {
+      "desc": "Kartoffeltopf mit Kokosmilch und gebratenen Chiliwurstscheiben",
+      "price": 3.80
+    }
+  ],
+  "2024-07-03": [
+    {
+      "desc": "Gemischter Salat mit Kräutercroutons",
+      "price": 3.85
+    },
+    {
+      "desc": "Erbseneintopf mit Kasseler Fleisch",
+      "price": 3.00
+    },
+    {
+      "desc": "Hackfleisch-Bolognese",
+      "price": 2.95
+    }
+  ],
+  "2024-07-04": [
+    {
+      "desc": "Kartoffelrösti mit Salat und Schnittlauch-Dip",
+      "price": 4.50
+    },
+    {
+      "desc": "Quarkkeulchen mit Apfelmus und Zimtzucker",
+      "price": 3.00
+    },
+    {
+      "desc": "Hähnchenschnitzel mit Bratensauce",
+      "price": 3.85
+    }
+  ],
+  "2024-07-05": [
+    {
+      "desc": "Schupfnudelsalat mit Gemüse und Balkankäse",
+      "price": 4.60
+    },
+    {
+      "desc": "Frikadellenbällchen mit Rahmsoße und Kartoffelpüree",
+      "price": 3.00
+    },
+    {
+      "desc": "Tagesangebot",
+      "price": null
+    }
+  ]
+}

@@ -1,0 +1,60 @@
+{
+  "2023-12-27": [
+    {
+      "desc": "Gemüsebolognese",
+      "price": 3.50
+    },
+    {
+      "desc": "Weiße Bohneneintopf",
+      "price": 2.50
+    },
+    {
+      "desc": "Schweinebraten mit Bratensauce",
+      "price": 3.50
+    },
+    {
+      "desc": "Semmelknödel",
+      "price": 1.20
+    },
+    {
+      "desc": "Rohkostsalat nach Angebot",
+      "price": 1.00
+    }
+  ],
+  "2023-12-28": [
+    {
+      "desc": "Salat mit Frühlingsrolle",
+      "price": 3.90
+    },
+    {
+      "desc": "Quarkkeulchen mit Apfelmus",
+      "price": 2.50
+    },
+    {
+      "desc": "Jägerschnitzel mit Tomatensoße",
+      "price": 3.50
+    },
+    {
+      "desc": "Nudeln",
+      "price": 1.00
+    },
+    {
+      "desc": "Rohkostsalat nach Angebot",
+      "price": 1.00
+    }
+  ],
+  "2023-12-29": [
+    {
+      "desc": "Salat mit Gemüseschnitzel",
+      "price": 3.80
+    },
+    {
+      "desc": "Gräupcheneintopf",
+      "price": 2.50
+    },
+    {
+      "desc": "Rohkostsalat nach Angebot",
+      "price": 1.00
+    }
+  ]
+}

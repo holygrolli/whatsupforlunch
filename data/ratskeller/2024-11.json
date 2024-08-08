@@ -1,0 +1,92 @@
+{
+  "2024-03-11": [
+    {
+      "desc": "Nudeltopf mit Geflügelfleisch und Gemüse-Julienne",
+      "price": 5.60
+    },
+    {
+      "desc": "Gemüse-Nuggets mit Buttererbsen und Petersilienkartoffeln",
+      "price": 6.10
+    },
+    {
+      "desc": "Bifteki mit Krautsalat, Tzaziki und Tomatenreis",
+      "price": 6.70
+    },
+    {
+      "desc": "Avocado-Quinoa-Bratling mit Chicorée, Granatapfel und Linsensalat",
+      "price": 8.00
+    }
+  ],
+  "2024-03-12": [
+    {
+      "desc": "Weiße Schokoladen Lasagne mit Beerensoşe",
+      "price": 5.60
+    },
+    {
+      "desc": "Pasta mit Tomatensoße und geriebenem Käse",
+      "price": 6.10
+    },
+    {
+      "desc": "Spaghetti 'Bolognese' mit geriebenem Käse",
+      "price": 6.70
+    },
+    {
+      "desc": "Toskanischer Brotsalat mit getrockneten Tomaten, Oliven und Rucola",
+      "price": 7.50
+    }
+  ],
+  "2024-03-13": [
+    {
+      "desc": "Ungarische Gulaschsuppe mit Paprika und Kartoffel-Würfeln",
+      "price": 5.60
+    },
+    {
+      "desc": "Back-Käse mit Krautsalat, Tzaziki und Tomatenreis",
+      "price": 6.10
+    },
+    {
+      "desc": "Köttbullar mit Rahm-Champignons und Kartoffelstampf",
+      "price": 6.70
+    },
+    {
+      "desc": "Poke-Bowl mit Thunfisch, Avocado, Edamame und Reis",
+      "price": 8.00
+    }
+  ],
+  "2024-03-14": [
+    {
+      "desc": "Kartoffelpuffer mit Apfelmus und Zimtzucker",
+      "price": 5.60
+    },
+    {
+      "desc": "Pasta mit Tomatensoße und geriebenem Käse",
+      "price": 6.10
+    },
+    {
+      "desc": "Bauernroulade mit Speckbohnen und Petersilienkartoffeln",
+      "price": 6.70
+    },
+    {
+      "desc": "Überraschungsgericht mit BIO-Gemüse von KOLA Leipzig",
+      "price": 8.00
+    }
+  ],
+  "2024-03-15": [
+    {
+      "desc": "Indische Linsensuppe mit Koriander und Naan-Brot",
+      "price": 5.60
+    },
+    {
+      "desc": "Zucchini-Möhrenpuffer mit Radieschen-Quark und Salat",
+      "price": 6.10
+    },
+    {
+      "desc": "Grillwurst mit Letscho-Gemüse und Kartoffelstampf",
+      "price": 6.70
+    },
+    {
+      "desc": "Pangasiusfilet mit Tomatenkräuterblattspinat und Süßkartoffel-Püree",
+      "price": 8.00
+    }
+  ]
+}

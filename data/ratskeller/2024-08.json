@@ -1,0 +1,92 @@
+{
+  "2024-02-19": [
+    {
+      "desc": "Grüne-Bohnen-Eintopf mit Rindfleisch und Kartoffelwürfeln",
+      "price": 5.60
+    },
+    {
+      "desc": "Eiergagout in Senfsoße mit Rotkrautsalat, dazu Kartoffeln",
+      "price": 6.10
+    },
+    {
+      "desc": "Szegediner Gulasch mit Sauerkraut und Böhmischen Knödeln",
+      "price": 6.70
+    },
+    {
+      "desc": "Kürbis-Falafel auf Rote-Bete-Hummus und Bulgur-Salat",
+      "price": 8.00
+    }
+  ],
+  "2024-02-20": [
+    {
+      "desc": "Sächsische Quarkkäulchen mit Apfelmus und Zimtzucker",
+      "price": 5.60
+    },
+    {
+      "desc": "Pasta mit Tomatensoße und geriebenem Käse",
+      "price": 6.10
+    },
+    {
+      "desc": "Spaghetti 'Bolognese' mit geriebenem Käse",
+      "price": 6.70
+    },
+    {
+      "desc": "Heringsfilet in Joghurtsoße mit Äpfeln, Zwiebeln und Gurke, dazu Kartoffeln",
+      "price": 8.00
+    }
+  ],
+  "2024-02-21": [
+    {
+      "desc": "Reiseintopf mit Geflügelfleisch und Gemüse-Julienne",
+      "price": 5.60
+    },
+    {
+      "desc": "Sellerieschnitzel mit bunten Karotten und Kräuterreis",
+      "price": 6.10
+    },
+    {
+      "desc": "Krakauer mit Grünkohl und Petersilienkartoffeln",
+      "price": 6.70
+    },
+    {
+      "desc": "Champignon-Blätterteigtasche auf griechischem Salat + Joghurt-Dressing",
+      "price": 8.00
+    }
+  ],
+  "2024-02-22": [
+    {
+      "desc": "Grießbrei mit Kirschragout und Zimtzucker",
+      "price": 5.60
+    },
+    {
+      "desc": "Pasta mit Tomatensoße und geriebenem Käse",
+      "price": 6.10
+    },
+    {
+      "desc": "Lotteraner Schwarzbiert-Gulasch vom Schwein, dazu Pasta",
+      "price": 6.70
+    },
+    {
+      "desc": "Hähnchen Teriyaki mit Mango, Avocado und Glasnudeln",
+      "price": 8.00
+    }
+  ],
+  "2024-02-23": [
+    {
+      "desc": "Brokkoli-Creme-Suppe mit gerösteten Kürbiskernen",
+      "price": 5.60
+    },
+    {
+      "desc": "Gemüse-Paella mit Zucchini, Erbsen und Paprika",
+      "price": 6.10
+    },
+    {
+      "desc": "Jumbo Fischstäbchen mit Tomatensoße und Kartoffelstampf",
+      "price": 6.70
+    },
+    {
+      "desc": "Geschmorte Schweine-Bäckchen mit Romanesco und Kroketten",
+      "price": 8.00
+    }
+  ]
+}

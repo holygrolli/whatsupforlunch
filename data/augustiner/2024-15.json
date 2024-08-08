@@ -1,0 +1,52 @@
+{
+  "2024-04-08": [
+    {
+      "desc": "Schnitzel \"Wiener Art\" mit Kartoffel-Gurken-Salat",
+      "price": 7.90
+    },
+    {
+      "desc": "Allgäuer Käsespätzle mit Röstzwiebeln",
+      "price": 7.90
+    }
+  ],
+  "2024-04-09": [
+    {
+      "desc": "Pulled Pork in BBQ-Sauce mit Krautsalat und Kartoffelecken",
+      "price": 7.90
+    },
+    {
+      "desc": "Blumenkohl mit Zitronen-Buttersauce und Salzkartoffeln",
+      "price": 7.90
+    }
+  ],
+  "2024-04-10": [
+    {
+      "desc": "Wurstgulasch mit Spirelli und geriebenem Käse",
+      "price": 7.90
+    },
+    {
+      "desc": "Kartoffel-Gnocchi in Gorgonzolasauce",
+      "price": 7.90
+    }
+  ],
+  "2024-04-11": [
+    {
+      "desc": "Hähnchen-Geschnetzeltes in Champignonrahm mit Spätzle",
+      "price": 7.90
+    },
+    {
+      "desc": "Rahmchampignons mit Spätzle",
+      "price": 7.90
+    }
+  ],
+  "2024-04-12": [
+    {
+      "desc": "Backfisch auf Kartoffel-Gurken-Salat mit Remoulade",
+      "price": 7.90
+    },
+    {
+      "desc": "Gemüsebratling auf Kartoffel-Gurkensalat",
+      "price": 7.90
+    }
+  ]
+}

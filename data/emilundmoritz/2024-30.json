@@ -1,0 +1,66 @@
+{
+  "2024-07-22": [
+    {
+      "desc": "Krautpfanne Hack + Kohl, Kartoffeln",
+      "price": 6.90
+    },
+    {
+      "desc": "1/2 Blumenkohl mit Butterbrösel, Sc. Hollandaise, Kartoffeln",
+      "price": 6.90
+    }
+  ],
+  "2024-07-23": [
+    {
+      "desc": "Szegediner Gulasch, Spätzle",
+      "price": 6.90
+    },
+    {
+      "desc": "Spätzle Pfanne mit Lauch, Karotten - Zucchinistreifen, Käse",
+      "price": 6.90
+    }
+  ],
+  "2024-07-24": [
+    {
+      "desc": "Königsberger Klöpse in Kapernsauce, Kartoffeln",
+      "price": 6.90
+    },
+    {
+      "desc": "Couscous Gemüse Pfanne",
+      "price": 6.90
+    }
+  ],
+  "2024-07-25": [
+    {
+      "desc": "Grützwurst, Sauerkraut, Kartoffeln",
+      "price": 6.90
+    },
+    {
+      "desc": "Kartoffel Pfanne mit Feta, Paprika, Karotten, Zucchini",
+      "price": 6.90
+    }
+  ],
+  "2024-07-26": [
+    {
+      "desc": "Schweinebraten, Erbsen, Kartoffeln",
+      "price": 6.90
+    },
+    {
+      "desc": "große Kohlroulade gefüllt mit Bulgur , Paprika Letscho, kl. Salat",
+      "price": 6.90
+    }
+  ],
+  "2024-W30": [
+    {
+      "desc": "Tagliatelle mit kleinen Schnitzelstücken, Champignons, Gorgonzola",
+      "price": 4.90
+    },
+    {
+      "desc": "Farfalle mit Pesto Rosso Sauce",
+      "price": 4.90
+    },
+    {
+      "desc": "Pasta mit Wurstgulasch",
+      "price": 4.90
+    }
+  ]
+}

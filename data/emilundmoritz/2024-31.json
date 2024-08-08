@@ -1,0 +1,52 @@
+{
+  "2024-07-29": [
+    {
+      "desc": "Hähnchenbrust, Limettensoße, Reis",
+      "price": 6.90
+    },
+    {
+      "desc": "Mediterane Reispfanne",
+      "price": 6.90
+    }
+  ],
+  "2024-07-30": [
+    {
+      "desc": "Seelachs in Backteig, Maisrahm, Kartoffelstampf",
+      "price": 6.90
+    },
+    {
+      "desc": "Tortellini, Tomaten-Basilikumsoße, Käse",
+      "price": 6.90
+    }
+  ],
+  "2024-07-31": [
+    {
+      "desc": "Hühnerfrikassee mit Reis",
+      "price": 6.90
+    },
+    {
+      "desc": "Gnocchi mit Blattspinat und Parmesan",
+      "price": 6.90
+    }
+  ],
+  "2024-08-01": [
+    {
+      "desc": "Putenschnitzel Calabrese mit Pesto Pasta",
+      "price": 6.90
+    },
+    {
+      "desc": "Bauernfrühstück mit Lauch",
+      "price": 6.90
+    }
+  ],
+  "2024-08-02": [
+    {
+      "desc": "Rinderbraten, Rotkohl, Semmelknödel",
+      "price": 6.90
+    },
+    {
+      "desc": "Quarkkeulchen mit Himbeeren und Vanillesoße",
+      "price": 6.90
+    }
+  ]
+}

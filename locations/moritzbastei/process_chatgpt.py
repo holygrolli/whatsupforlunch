@@ -1,34 +1,11 @@
-import openai, sys
-from datetime import datetime, timedelta
+import os, sys, inspect
+sys.path.append(os.path.dirname(os.path.abspath(inspect.getfile(inspect.currentframe()))) + '/../.shared')
+from DefaultMealChat import DefaultMealChat
+from config import config, prompt_overrides
 
-# list models
-models = openai.Model.list()
+# Create an instance of DefaultMealChat
+meal_chat = DefaultMealChat( 
+                **config,
+                promptOverrides=prompt_overrides)
 
-# print the first model's id
-print(models.data[0].id)
-
-fp = open(sys.argv[1], "r")
-prompt = fp.read()
-fp.close()
-
-fInput = open(sys.argv[2], "r")
-inputString = fInput.read()
-fInput.close()
-
-today = datetime.today()
-weekStart = today - timedelta(days=today.weekday())
-# if on weekend assume we are running for next week
-if today.weekday()>4:
-    weekStart = weekStart + timedelta(days=7)
-print(weekStart.strftime('%Y-%m-%d'))
-# create a chat completion
-chat_completion = openai.ChatCompletion.create(model="gpt-3.5-turbo", messages=[
-    {"role": "system", "content": prompt},
-    {"role": "user", "content": "The week starts with \"Montag\" " + weekStart.strftime('%Y-%m-%d') + " and the input is:\n" + inputString}])
-
-print(chat_completion.usage)
-# print the chat completion
-print(chat_completion.choices[0].message.content)
-out = open ("chatgpt.json", "w")
-out.write(chat_completion.choices[0].message.content)
-out.close()
+meal_chat.processAndWriteToFile()

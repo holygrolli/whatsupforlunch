@@ -1,0 +1,64 @@
+{
+  "2024-04-15": [
+    {
+      "desc": "Gemüsebolognese mit Pasta",
+      "price": 3.50
+    },
+    {
+      "desc": "Linseneintopf mit Kartoffeln",
+      "price": 2.50
+    },
+    {
+      "desc": "Kohlroulade mit Bratensoße",
+      "price": 3.75
+    }
+  ],
+  "2024-04-16": [
+    {
+      "desc": "Salzkartoffeln mit Rahmspinat & Rührei",
+      "price": 3.90
+    },
+    {
+      "desc": "Kräuterquark mit Kartoffeln und Butter",
+      "price": 2.50
+    },
+    {
+      "desc": "Tiegelwurst mit Majoran und Zwiebeln",
+      "price": 3.90
+    }
+  ],
+  "2024-04-17": [
+    {
+      "desc": "Gemüsebrühe mit zweierlei Maustaschen und verschiedenen Gemüse",
+      "price": 3.20
+    },
+    {
+      "desc": "Gräupcheneintopf mit Kasslerwürfel",
+      "price": 2.50
+    },
+    {
+      "desc": "Spaniat-Hackfleischpfanne mit Joghurt und Kartoffeln",
+      "price": 3.90
+    }
+  ],
+  "2024-04-18": [
+    {
+      "desc": "Brokkoli-Kartoffel-Auflauf",
+      "price": 3.50
+    },
+    {
+      "desc": "Hefeklöße mit Pflaumen",
+      "price": 2.50
+    },
+    {
+      "desc": "Schweinegeschnetzeltes „Jäger Art“",
+      "price": 3.85
+    }
+  ],
+  "2024-04-19": [
+    {
+      "desc": "Tagesangebot",
+      "price": null
+    }
+  ]
+}

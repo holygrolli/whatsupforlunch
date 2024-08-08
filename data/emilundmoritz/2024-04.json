@@ -1,0 +1,66 @@
+{
+  "2024-01-22": [
+    {
+      "desc": "Szegediner Gulasch mit Semmelknödel",
+      "price": 6.90
+    },
+    {
+      "desc": "Matjes, Remoulade, Bratkartoffel",
+      "price": 6.90
+    }
+  ],
+  "2024-01-23": [
+    {
+      "desc": "Putenschnitzel, Erbsen, Kartoffeln & Sauce",
+      "price": 6.90
+    },
+    {
+      "desc": "Gnocchi mit Grillgemüse und Tomatensoße",
+      "price": 6.90
+    }
+  ],
+  "2024-01-24": [
+    {
+      "desc": "Grützwurst, Sauerkraut und Kartoffeln",
+      "price": 6.90
+    },
+    {
+      "desc": "Eier in Senfsoße, Kartoffeln",
+      "price": 6.90
+    }
+  ],
+  "2024-01-25": [
+    {
+      "desc": "Bratwurst, Sauerkraut, Kartoffeln & Bratensoße",
+      "price": 6.90
+    },
+    {
+      "desc": "Nudelgratin mit Gemüse und Käsesoße",
+      "price": 6.90
+    }
+  ],
+  "2024-01-26": [
+    {
+      "desc": "Hackbällchen mit Rahmchampions, Reis",
+      "price": 6.90
+    },
+    {
+      "desc": "Seelachs in Zitronen-Senfsoße, Reis",
+      "price": 6.90
+    }
+  ],
+  "2024-W04": [
+    {
+      "desc": "Spaghetti Cabonara",
+      "price": 4.90
+    },
+    {
+      "desc": "Penne mit Spinat-Gorgonzola",
+      "price": 4.90
+    },
+    {
+      "desc": "Spaghetti mit Lachs-Dillsoße und Erbsen",
+      "price": 4.90
+    }
+  ]
+}

@@ -1,0 +1,92 @@
+{
+  "2024-08-26": [
+    {
+      "desc": "Grüner Bohneneintopf mit Rindfleisch und Kartoffelwürfeln",
+      "price": 5.60
+    },
+    {
+      "desc": "Gemüsefrikadelle auf Ratatouille und Kartoffelrösti",
+      "price": 6.10
+    },
+    {
+      "desc": "Wildgulasch mit Preiselbeeren, Rotkraut und Böhmischen Knödeln",
+      "price": 6.70
+    },
+    {
+      "desc": "Quinoa-Grünkohlstrudel auf Karotten-Püree und Linsensalat",
+      "price": 8.50
+    }
+  ],
+  "2024-08-27": [
+    {
+      "desc": "Germknödel mit Kirschfüllung, dazu Vanillesoße",
+      "price": 5.00
+    },
+    {
+      "desc": "Pasta mit Tomatensoße und geriebenem Käse",
+      "price": 6.10
+    },
+    {
+      "desc": "Spaghetti bolognese mit geriebenem Käse",
+      "price": 6.70
+    },
+    {
+      "desc": "Maishähnchenkeule auf Waldpilzrahm und Kartoffel-Gratin",
+      "price": 8.50
+    }
+  ],
+  "2024-08-28": [
+    {
+      "desc": "Pichelsteiner Eintopf mit Schweinefleisch und buntem Gemüse",
+      "price": 5.60
+    },
+    {
+      "desc": "Eieromelette mit Rahmspinat und Petersilienkartoffeln",
+      "price": 6.10
+    },
+    {
+      "desc": "Schweinebraten mit Speckbohnen und Semmelknödeln",
+      "price": 6.70
+    },
+    {
+      "desc": "Überraschungsgericht mit BIO-Gemüse von KOLA Leipzig",
+      "price": 8.50
+    }
+  ],
+  "2024-08-29": [
+    {
+      "desc": "Kokos-Milchreis mit Mango-Ragout",
+      "price": 5.00
+    },
+    {
+      "desc": "Pasta mit Tomatensoße und geriebenem Käse",
+      "price": 6.10
+    },
+    {
+      "desc": "Königsberger Klopse mit Kapernsoße, Bete und Petersilienkartoffeln",
+      "price": 6.70
+    },
+    {
+      "desc": "Ofenbrot mit Räucherlachs, Honig-Senf-Dip und Rucola",
+      "price": 8.50
+    }
+  ],
+  "2024-08-30": [
+    {
+      "desc": "Sellerie-Birnen-Suppe mit Croutons",
+      "price": 5.60
+    },
+    {
+      "desc": "Spinat-Käseknödel auf Kräuter-Waldpilzrahm",
+      "price": 6.10
+    },
+    {
+      "desc": "Brathering mit Zwiebelldressing, Salat und Petersilienkartoffeln",
+      "price": 6.70
+    },
+    {
+      "desc": "Schweineschnitzel mit gebratenen Champignons und Kroketten",
+      "price": 8.50
+    }
+  ]
+}

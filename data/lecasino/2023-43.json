@@ -1,0 +1,71 @@
+{
+  "2023-10-23": [
+    {
+      "desc": "Champignontopf mit Kräutersoße",
+      "price": 3.5
+    },
+    {
+      "desc": "Weißkrauteintopf mit Schweinefleisch",
+      "price": 2.5
+    },
+    {
+      "desc": "Marinierter Hering in Sahnesoße mit Salzkartoffeln",
+      "price": 4.95
+    }
+  ],
+  "2023-10-24": [
+    {
+      "desc": "Gebackene Kartoffeltaschen mit Frischkäse gefüllt & gem. Salat",
+      "price": 4.2
+    },
+    {
+      "desc": "Tomatencremesüppchen mit Croutons",
+      "price": 2.5
+    },
+    {
+      "desc": "Nudelsalat mit Käsekraukauer",
+      "price": 4.5
+    }
+  ],
+  "2023-10-25": [
+    {
+      "desc": "Ofenkartoffel mit Quarkdip und ein kl. gemischter Salat",
+      "price": 4.8
+    },
+    {
+      "desc": "Zwei Eier in Senfsoße mit Kartoffeln",
+      "price": 2.5
+    },
+    {
+      "desc": "Lasagne al forno",
+      "price": 3.75
+    }
+  ],
+  "2023-10-26": [
+    {
+      "desc": "Kartoffelgulasch mit Paprika und Kräuterhaube",
+      "price": 3.5
+    },
+    {
+      "desc": "Kaiserschmarrn mit Rosinen und Apfelmus",
+      "price": 2.5
+    },
+    {
+      "desc": "Currywurst mit fruchtiger Currysoße",
+      "price": 3.5
+    }
+  ],
+  "2023-10-27": [
+    {
+      "desc": "Gebackener Hirtenkäse mit gemischtem Salat",
+      "price": 4.8
+    },
+    {
+      "desc": "Kartoffel-Gemüseauflauf mit Gouda überbacken",
+      "price": 2.5
+    },
+    {
+      "desc": "Tagesangebot"
+    }
+  ]
+}

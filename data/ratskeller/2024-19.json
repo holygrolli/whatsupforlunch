@@ -1,0 +1,26 @@
+{
+  "2024-05-06": [
+    {"desc": "Tomatencremesuppe mit Basilikum-Pesto und Croûtons", "price": 5.60},
+    {"desc": "Gemüsecurry mit Kürbis, Paprika und Kichererbsen, dazu Reis", "price": 6.10},
+    {"desc": "Thüringer Bratwurst mit Sauerkraut und Petersilienkartoffeln", "price": 6.70},
+    {"desc": "Mediterranes Ofengemüse mit Kräuterdip und Rosmarinkartoffeln", "price": 8.50}
+  ],
+  "2024-05-07": [
+    {"desc": "Kaiserschmarr'n mit Rosinen, Mandeln und Apfelmus", "price": 5.60},
+    {"desc": "Pasta mit Tomatensoße und geriebenem Käse", "price": 6.10},
+    {"desc": "Pasta mit Wurstgulasch und geriebenem Käse", "price": 6.70},
+    {"desc": "Glutenfreie ,Penne all´Arrabbiata' mit Hartkäse und Rucola", "price": 8.00}
+  ],
+  "2024-05-08": [
+    {"desc": "Soljanka mit Zitrone und Sauerrahm", "price": 5.60},
+    {"desc": "Kartoffeltaschen mit Frischkäse, dazu Kräuterdip und Salat", "price": 6.10},
+    {"desc": "Hähnchengerout mit Spargel und Brokkoli, dazu Reis", "price": 6.70},
+    {"desc": "Überraschungs-Gericht mit BIO-Gemüse von KOLA Leipzig", "price": 8.50}
+  ],
+  "2024-05-09": [],
+  "2024-05-10": [
+    {"desc": "Brokkoli-Cremesuppe mit gerösteten Kürbiskernen", "price": 5.60},
+    {"desc": "Backfisch mit Remouladenssoße, Salat und Petersilienkartoffeln", "price": 6.70},
+    {"desc": "Gekochtes Rindfleisch mit Meerrettichsoße, Bete Salat und Klößen", "price": 8.50}
+  ]
+}

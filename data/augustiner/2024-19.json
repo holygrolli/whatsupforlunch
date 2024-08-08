@@ -1,0 +1,43 @@
+{
+  "2024-05-06": [
+    {
+      "desc": "Schnitzel \"Wiener Art\" mit Kartoffel-Gurken-Salat",
+      "price": 7.90
+    },
+    {
+      "desc": "Allgäuer Käsespätzle mit Röstzwiebeln",
+      "price": 7.90
+    }
+  ],
+  "2024-05-07": [
+    {
+      "desc": "Hänhnchen-Geschnetzeltes mit Champignons und Butterreis",
+      "price": 7.90
+    },
+    {
+      "desc": "Sesam-Karotten-Knuspersticks mit Kräuterdip und kleinen Salat",
+      "price": 7.90
+    }
+  ],
+  "2024-05-08": [
+    {
+      "desc": "Hackbraten mit Blumenkohl und Kartoffelpüree",
+      "price": 7.90
+    },
+    {
+      "desc": "Vegetarischer Linsen-Eintopf mit Bauernbrot",
+      "price": 7.90
+    }
+  ],
+  "2024-05-09": [],
+  "2024-05-10": [
+    {
+      "desc": "Backfisch auf Kartoffel-Gurken-Salat mit Remoulade",
+      "price": 7.90
+    },
+    {
+      "desc": "Penne in Käsesahnesauce mit Spinat und Cherry-Tomaten",
+      "price": 7.90
+    }
+  ]
+}

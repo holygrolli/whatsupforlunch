@@ -13,12 +13,11 @@ class Spider(scrapy.Spider):
     start_urls = ['https://emil-und-moritz.de/']
 
     def parse(self, response):
-        mittagsangebot = response.xpath('//div[contains(@class,"section_title") and descendant::text()[contains(.,"Woche")]]')
-        if (len(mittagsangebot) == 1):
-            for sel in mittagsangebot:
-                div = sel.get()
-                cleaned_html = minify(cleaner.clean_html(div))
-                print(cleaned_html)
-                yield {"div":cleaned_html}
+        mittagsangebot = response.xpath('//table/parent::div')
+        if (len(mittagsangebot) == 2):
+            div = mittagsangebot[1].get()
+            cleaned_html = minify(cleaner.clean_html(div))
+            print(cleaned_html)
+            yield {"div":cleaned_html}
         else:
             sys.exit(1)

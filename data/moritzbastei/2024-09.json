@@ -1,0 +1,61 @@
+{
+  "2024-02-26": [],
+  "2024-02-27": [
+    {
+      "desc": "Schweineschnitzel \"Western\" mit BBQ-Zwiebeln, Bacon und gebackenen Kartoffelecken, dazu Sour Cream",
+      "price": 9.80
+    },
+    {
+      "desc": "Gnocchi in Fenchelrahmsoße mit getrockneten Tomaten, dazu geröstete Sonnenblumenkerne (veget.)",
+      "price": 9.20
+    }
+  ],
+  "2024-02-28": [
+    {
+      "desc": "Jägerklopse mit Champignons, dazu Kartoffelstampf und Krautsalat",
+      "price": 9.80
+    },
+    {
+      "desc": "Süßkartoffel-Kürbiscurry mit Frühlingszwiebeln und Cranberrys, dazu Baguette (vegan)",
+      "price": 9.20
+    }
+  ],
+  "2024-02-29": [
+    {
+      "desc": "Hähnchenschnitzel mit Rahmerbsen, Salzkartoffeln und brauner Soße",
+      "price": 9.50
+    },
+    {
+      "desc": "Zucchini-Kartoffelrösti mit Kresseschmand und Tomatensalat (veget.)",
+      "price": 9.20
+    }
+  ],
+  "2024-03-01": [
+    {
+      "desc": "Gedünstetes Seelachsfilet auf Spinat-Kartoffelgratin überbacken mit Tomate und Mozzarella",
+      "price": 9.90
+    }
+  ],
+  "2024-W09": [
+    {
+      "desc": "Pasta mit Petersilien-Koriander-Pesto, dazu geröstete Haselnüsse und Parmesan (veget.)",
+      "price": 10.90
+    },
+    {
+      "desc": "Lasagne Spinatlasagne mit getrockneten Tomaten, überbacken mit Mozzarella (veget.)",
+      "price": 12.40
+    },
+    {
+      "desc": "Lasagne \"Bolognese\" überbacken mit Gouda",
+      "price": 12.90
+    },
+    {
+      "desc": "Kartoffel-Schinkengratin mit Erbsen und Kohlrabi, überbacken mit Gouda",
+      "price": 12.90
+    },
+    {
+      "desc": "Linseneintopf mit Kasseler und Baguette",
+      "price": 6.90
+    }
+  ]
+}

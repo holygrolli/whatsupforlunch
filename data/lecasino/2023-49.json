@@ -1,0 +1,68 @@
+{
+  "2023-12-04": [
+    {
+      "desc": "Pasta mit Cherrytomaten und Basilikum-Pesto",
+      "price": 3.70
+    },
+    {
+      "desc": "Linsensuppe",
+      "price": 2.50
+    },
+    {
+      "desc": "Geflügel Cevapcici mit Tomatensoße",
+      "price": 3.65
+    }
+  ],
+  "2023-12-05": [
+    {
+      "desc": "Gemischtem Salat mit einer Frühlingsrolle",
+      "price": 3.90
+    },
+    {
+      "desc": "Frikadellenbällchen mit Zwiebelsoße und Kartoffelpüree",
+      "price": 2.50
+    },
+    {
+      "desc": "Schweinegulasch mit Champignons",
+      "price": 3.85
+    }
+  ],
+  "2023-12-06": [
+    {
+      "desc": "Kartoffeln mit Gurkensalat und Rührei",
+      "price": 3.75
+    },
+    {
+      "desc": "Weiße Bohneneintopf mit Kasseler Fleisch",
+      "price": 2.50
+    },
+    {
+      "desc": "Hühnerfrikassee mit buntem Gemüse",
+      "price": 3.60
+    }
+  ],
+  "2023-12-07": [
+    {
+      "desc": "Ofenkartoffel mit Quarkdip und kleiner gemischter Salat",
+      "price": 3.95
+    },
+    {
+      "desc": "Eierkuchen mit Apfelmus und Zucker",
+      "price": 2.50
+    },
+    {
+      "desc": "Bratwurst mit Soße",
+      "price": 2.85
+    }
+  ],
+  "2023-12-08": [
+    {
+      "desc": "Gefüllte Zucchini mit Tomate Mozzarella & Basilikum Pesto",
+      "price": 3.70
+    },
+    {
+      "desc": "Pasta Gemüse-Auflauf",
+      "price": 2.50
+    }
+  ]
+}

@@ -1,0 +1,92 @@
+{
+  "2023-11-13": [
+    {
+      "desc": "Nudeleintopf mit Geflügelfleisch und Gemüse- Julienne",
+      "price": 5.00
+    },
+    {
+      "desc": "Blumenkohl-Käse- Medaillon mit Salat und Butterreis",
+      "price": 5.50
+    },
+    {
+      "desc": "Königsberger Klopse mit Kapernsoße, Bete Salat und Kartoffeln",
+      "price": 6.00
+    },
+    {
+      "desc": "Quinoa- Grünkohlstrudel mit Erbsenpüree und Linsensalat",
+      "price": 7.50
+    }
+  ],
+  "2023-11-14": [
+    {
+      "desc": "Bratapfel mit Rosinen, Mandeln und VanillesoBe",
+      "price": 5.00
+    },
+    {
+      "desc": "Pasta mit Tomatensoße und geriebenem Käse",
+      "price": 5.50
+    },
+    {
+      "desc": "Pasta mit Wurstgulasch und geriebenem Käse",
+      "price": 6.00
+    },
+    {
+      "desc": "Karotten- Sesamsticks mit Zwiebel-Chutney, Salat und Kürbis- Püree",
+      "price": 7.50
+    }
+  ],
+  "2023-11-15": [
+    {
+      "desc": "Möhreneintopf mit Fleischklößchen und Kartoffel- würfeln",
+      "price": 5.00
+    },
+    {
+      "desc": "Sellerieschnitzel auf buntem Gemüse und Kräuterreis",
+      "price": 5.50
+    },
+    {
+      "desc": "Kohlroulade mit Krautsoße und Petersilien- kartoffeln",
+      "price": 6.00
+    },
+    {
+      "desc": "Poke Bowl mit Thunfisch, Avocado, Edamame und Sushi-Reis",
+      "price": 7.50
+    }
+  ],
+  "2023-11-16": [
+    {
+      "desc": "Grießbrei mit Pflaumenragout und Zimtzucker",
+      "price": 5.00
+    },
+    {
+      "desc": "Pasta mit TomatensoBe und geriebenem Käse",
+      "price": 5.50
+    },
+    {
+      "desc": "Ungarisches Schweinegulasch mit Paprika, dazu Pasta",
+      "price": 6.00
+    },
+    {
+      "desc": "Miesmuscheln in Tomaten- Knoblauchsoße, dazu Farfalle",
+      "price": 7.50
+    }
+  ],
+  "2023-11-17": [
+    {
+      "desc": "Zwiebelsuppe mit Parmesan- Croûtons",
+      "price": 5.00
+    },
+    {
+      "desc": "Graupenrisotto mit Waldpilzen, Karotten, Lauch und Sprossen",
+      "price": 5.50
+    },
+    {
+      "desc": "Seelachsfilet in Buttermilch-Dill- Soße, dazu Risi Bisi",
+      "price": 6.00
+    },
+    {
+      "desc": "Rinderroulade mit Apfelrotkohl und Kartoffel- Klößen",
+      "price": 7.50
+    }
+  ]
+}

@@ -1,0 +1,52 @@
+{
+  "2023-11-06": [
+    {
+      "desc": "Leberkäse mit Spiegelei und Bratkartoffeln",
+      "price": 6.6
+    },
+    {
+      "desc": "Kartoffel-Rosenohlpfanne",
+      "price": 6.6
+    }
+  ],
+  "2023-11-07": [
+    {
+      "desc": "Hühnerfrikassee mit Reis",
+      "price": 6.6
+    },
+    {
+      "desc": "Kaiserschmarrn dazu Zimtpflaumen",
+      "price": 6.6
+    }
+  ],
+  "2023-11-08": [
+    {
+      "desc": "Putenschnitzel mit Mandelbrokkoli und Kartoffeln",
+      "price": 6.6
+    },
+    {
+      "desc": "Lachs- Gemüsepfanne",
+      "price": 6.6
+    }
+  ],
+  "2023-11-09": [
+    {
+      "desc": "Rinderzunge mit Buttererbsen, Kartoffeln dazu Meerrettichsoße",
+      "price": 6.6
+    },
+    {
+      "desc": "Gnocchis in einer Spinat- Sahnesoße",
+      "price": 6.6
+    }
+  ],
+  "2023-11-10": [
+    {
+      "desc": "Kasslerbraten an Grünkohl und Kartoffeln",
+      "price": 6.6
+    },
+    {
+      "desc": "Pikante Couscouspfanne mit Gemüse und Hirtenkäse",
+      "price": 6.6
+    }
+  ]
+}

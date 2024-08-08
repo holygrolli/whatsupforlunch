@@ -1,0 +1,48 @@
+{
+  "2023-12-25": [],
+  "2023-12-26": [],
+  "2023-12-27": [
+    {
+      "desc": "Paprika Sahne Hähnchen mit Brokkoli, Reis",
+      "price": 6.90
+    },
+    {
+      "desc": "Couscous Gemüse Pfanne mit Feta",
+      "price": 6.90
+    }
+  ],
+  "2023-12-28": [
+    {
+      "desc": "Frikadelle mit Buttererbsen, Kartoffeln, Sauce",
+      "price": 6.90
+    },
+    {
+      "desc": "Rataouille Lasagne",
+      "price": 6.90
+    }
+  ],
+  "2023-12-29": [
+    {
+      "desc": "Schweinebraten, Rotkohl, Kartoffeln",
+      "price": 6.90
+    },
+    {
+      "desc": "Eierkuchen, Rotweun Kirschen Z+Z",
+      "price": 6.90
+    }
+  ],
+  "2023-W52": [
+    {
+      "desc": "Penne mit Pilzen, Rucola in Rahm",
+      "price": 4.90
+    },
+    {
+      "desc": "Pasta mit Maronensauce",
+      "price": 4.90
+    },
+    {
+      "desc": "Pasta mit Hähnchengeschnetzeltes",
+      "price": 4.90
+    }
+  ]
+}

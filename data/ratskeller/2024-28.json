@@ -1,0 +1,92 @@
+{
+  "2024-07-08": [
+    {
+      "desc": "Weiße Bohnensuppe mit Kassler- und Kartoffelwürfeln",
+      "price": 5.60
+    },
+    {
+      "desc": "Chili sin Carne mit Reis",
+      "price": 6.10
+    },
+    {
+      "desc": "Hähnchenkeule mit Buttererbsen und Petersilienkartoffeln",
+      "price": 6.70
+    },
+    {
+      "desc": "Brokkoli-Cheese-Nuggets auf Blattspinat-Kartoffelsalat",
+      "price": 8.00
+    }
+  ],
+  "2024-07-09": [
+    {
+      "desc": "Milchreis mit Apfelmus und Zimtzucker",
+      "price": 5.60
+    },
+    {
+      "desc": "Pasta mit Tomatensoße und geriebenem Käse",
+      "price": 6.10
+    },
+    {
+      "desc": "Pasta mit Wurstgulasch und geriebenem Käse",
+      "price": 6.70
+    },
+    {
+      "desc": "Rote-Bete-Puffer mit Avocado-Tomatensalsa und Bulgur-Salat",
+      "price": 8.50
+    }
+  ],
+  "2024-07-10": [
+    {
+      "desc": "Käse-Lauch-Suppe mit Hackfleisch und Champignons",
+      "price": 5.60
+    },
+    {
+      "desc": "Backkäse mit Zaziki, Krautsalat und Tomatenreis",
+      "price": 6.10
+    },
+    {
+      "desc": "Bauernroulade mit Speckbohnen und Petersilienkartoffeln",
+      "price": 6.70
+    },
+    {
+      "desc": "Überraschungs-Gericht mit BIO-Gemüse von KOLA Leipzig",
+      "price": 6.70
+    }
+  ],
+  "2024-07-11": [
+    {
+      "desc": "Kartoffelpuffer mit Apfelmus und Zimtzucker",
+      "price": 5.60
+    },
+    {
+      "desc": "Pasta mit Tomatensoße und geriebenem Käse",
+      "price": 6.10
+    },
+    {
+      "desc": "Thüringer Bratwurst mit Sauerkraut und Petersilienkartoffeln",
+      "price": 6.70
+    },
+    {
+      "desc": "Mediterranes Ofengemüse mit Kräuterdip und Rosmarin-Kartoffeln",
+      "price": 8.50
+    }
+  ],
+  "2024-07-12": [
+    {
+      "desc": "Rote-Bete-Suppe mit Brezelchips und Schnittlauchöl",
+      "price": 5.60
+    },
+    {
+      "desc": "Kartoffel-Kürbis-Rösti mit Kräuter-Dip und Salat",
+      "price": 6.10
+    },
+    {
+      "desc": "Köttbullar mit Rahm-Champignons und Kartoffelstampf",
+      "price": 6.70
+    },
+    {
+      "desc": "Paniertes Rotbarschfilet mit Spinatsoße und Schupfnudeln",
+      "price": 8.50
+    }
+  ]
+}

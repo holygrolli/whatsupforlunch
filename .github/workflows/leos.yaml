@@ -8,22 +8,7 @@ permissions:
   packages: write
   pull-requests: write
 jobs:
-  detectweek:
-    runs-on: ubuntu-latest
-    outputs:
-      run: ${{ steps.week.outputs.success }}
-    steps:
-    - name: week
-      shell: bash
-      run: |
-        echo "success=$([ $(expr $(date +%W) % 2) -eq 1 ] && echo yes || echo no)" >> "$GITHUB_OUTPUT"
   download:
-    needs: detectweek
-    if: >-
-      ${{ 
-        github.event_name == 'workflow_dispatch' 
-        || github.event_name == 'schedule' && needs.detectweek.outputs.run == 'yes'
-      }}
     runs-on: ubuntu-latest
     container:
       image: ghcr.io/holygrolli/whatsupforlunch:main
@@ -42,8 +27,10 @@ jobs:
         run: |
           WD=${PWD}
           mkdir -p tmp
-          scrapy runspider locations/leos/scra.py --nolog | sort > tmp/scraped_links.txt
           cd tmp
+          # run only if there is no file for this week
+          (find ../data/leos -name "$(python ../locations/.shared/getFormattedDate.py).json" | grep . && touch scraped_links.txt) || \
+            scrapy runspider ../locations/leos/scra.py --nolog | sort > scraped_links.txt
           while IFS= read -r line; do
             curl -sOL $line
           done < <(comm -13 ../data/leos/scraped_done.txt scraped_links.txt)
@@ -55,7 +42,7 @@ jobs:
           echo -n "$matrixInput"
           # Start Generate Json String
           echo "$matrixInput" | \
-          jq --slurp --raw-input -c 'split("\n")[:-1]| map(select(length>0))' > matrix
+            jq --slurp --raw-input -c 'split("\n")[:-1]| map(select(length>0))' > matrix
           cat ./matrix
           # End Generate Json String
           matrixStringifiedObject=$(cat ./matrix) # Use this as jq @sh not working right
@@ -77,8 +64,6 @@ jobs:
       max-parallel: 1
       matrix:
         files: ${{fromJson(needs.download.outputs.matrix)}}
-        # include:
-        #   - files: KW-27-und-KW-28_2023_separated_2.pdf
     concurrency: singlethread
     steps:
     - name: checkout source code
@@ -99,40 +84,18 @@ jobs:
       with:
         name: pngs
         path: tmp
-    - name: Configure AWS Credentials
-      uses: aws-actions/configure-aws-credentials@v2
-      with:
-        aws-access-key-id: ${{ secrets.AWS_ACCESS_KEY_ID }}
-        aws-secret-access-key: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
-        aws-region: eu-central-1
-    - name: Configure AWS Profile
-      run: |
-        ls -al
-        mkdir -p ~/.aws
-        cat > ~/.aws/config << EOF
-        [default]
-        region = eu-central-1
-        aws_access_key_id = ${{ secrets.AWS_ACCESS_KEY_ID }}
-        aws_secret_access_key = ${{ secrets.AWS_SECRET_ACCESS_KEY }}
-        EOF
-        cat ~/.aws/config
-    - name: Process png ${{ matrix.files }}
-      working-directory: tmp
-      run: textractor detect-document-text ${{ matrix.files }} output.json --overlay ALL --print ALL
-    - name: extract text
-      working-directory: tmp
-      run: |
-        python ../locations/leos/process_textractor_result.py output.json
-    - name: process txt with chatgpt
+    - name: process image with chatgpt
       working-directory: tmp
       env:
         OPENAI_API_KEY: ${{secrets.OPENAI_API_KEY}}
       shell: bash
       run: |
-        python ../locations/leos/process_chatgpt.py ../locations/leos/prompt.txt output.txt
+        set -E
+        python ../locations/leos/process_chatgpt.py ${{ matrix.files }}
         mkdir -p ../data/leos
-        sed -n '/^\s*{$/,$p' chatgpt.json > final.json
-        cp final.json ../data/leos/$(date -d"$(jq -r 'keys[0]' final.json)" +%Y-%V).json
+        awk '/^\s*{$/,/^\s*}$/ {print}' chatgpt.json > final.json
+        jq -r 'keys[] | select(test("\\d{4}-W\\d{2}"))' final.json | sort | head -n 1 | grep "$(python ../locations/.shared/getFormattedDate.py)" || (echo "JSON does not contain expected key" && exit 1)
+        cp final.json ../data/leos/$(python ../locations/.shared/getFormattedDate.py).json
         CURRENTFILE=${{ matrix.files }}
         cat ../data/leos/scraped_done.txt <(echo $'\n'$(cat scraped_links.txt | grep ${CURRENTFILE%_separated*})) | sort -u | grep . > scraped_done.txt
         cp scraped_done.txt ../data/leos/scraped_done.txt
@@ -144,12 +107,13 @@ jobs:
         path: |
           tmp
     - uses: tibdex/github-app-token@v2
+      if: ${{ !github.event.act && ( github.ref == 'refs/heads/main' || github.ref == 'refs/heads/develop' ) }}
       id: generate-token
       with:
         app_id: ${{ secrets.TOKEN_APP_ID }}
         private_key: ${{ secrets.TOKEN_APP_PRIVATE_KEY }}
     - name: Create Pull Request
-      if: ${{ !github.event.act }}
+      if: ${{ !github.event.act && ( github.ref == 'refs/heads/main' || github.ref == 'refs/heads/develop' ) }}
       uses: peter-evans/create-pull-request@v5
       with:
         add-paths: |

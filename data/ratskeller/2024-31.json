@@ -1,0 +1,92 @@
+{
+  "2024-07-29": [
+    {
+      "desc": "Soljanka mit Sauerrahm und Zitrone",
+      "price": 5.60
+    },
+    {
+      "desc": "Gemüse-Nuggets mit Buttererbsen und Kartoffelstampf",
+      "price": 6.10
+    },
+    {
+      "desc": "Paella-Reispfanne mit Hähnchen, Fisch und Muscheln",
+      "price": 6.70
+    },
+    {
+      "desc": "Sülze mit Remoulade, Salat und Bratkartoffeln",
+      "price": 8.50
+    }
+  ],
+  "2024-07-30": [
+    {
+      "desc": "Kaiserschmarr´n mit Rosinen, Mandeln und Apfelmus",
+      "price": 5.60
+    },
+    {
+      "desc": "Pasta mit Tomatensoße und geriebenem Käse",
+      "price": 6.10
+    },
+    {
+      "desc": "Pasta mit Wurstgulasch und geriebenem Käse",
+      "price": 6.70
+    },
+    {
+      "desc": "Vegane Nuggets auf buntem Sommersalat mit Sweet-Chili-Dip",
+      "price": 8.50
+    }
+  ],
+  "2024-07-31": [
+    {
+      "desc": "Gräupchen-Eintopf mit Kasslerwürfeln",
+      "price": 5.60
+    },
+    {
+      "desc": "2 gekochte Eier mit Senfsoße, Rotkrautsalat und Petersilienkartoffeln",
+      "price": 6.10
+    },
+    {
+      "desc": "Knusper-Seelachsfilet mit buntem Gemüse und Reis",
+      "price": 6.70
+    },
+    {
+      "desc": "Überraschungs-Gericht mit BIO-Gemüse von KOLA Leipzig",
+      "price": 8.50
+    }
+  ],
+  "2024-08-01": [
+    {
+      "desc": "Germknödel mit Pflaumenfüllung, dazu Vanillesoße",
+      "price": 5.60
+    },
+    {
+      "desc": "Pasta mit Tomatensoße und geriebenem Käse",
+      "price": 6.10
+    },
+    {
+      "desc": "Gefüllte Paprikaschote mit Hackfleisch, dazu Tomatensoße+ Spätzle",
+      "price": 6.70
+    },
+    {
+      "desc": "Spaghetti alla puttanesca mit Sardellen, Oliven, Kapern und Tomaten",
+      "price": 8.50
+    }
+  ],
+  "2024-08-02": [
+    {
+      "desc": "Erbsensuppe mit Wurzelgemüse und Minzpesto",
+      "price": 5.60
+    },
+    {
+      "desc": "Tortellini mit Ricotta und Spinatsoße",
+      "price": 6.10
+    },
+    {
+      "desc": "Marinierter Hering mit Apfel-Zwiebelsoße und Petersilien- kartoffeln",
+      "price": 6.70
+    },
+    {
+      "desc": "Schnitzelröllchen mit Tomate, dazu Gurken-Salat und Bratkartoffeln",
+      "price": 8.50
+    }
+  ]
+}

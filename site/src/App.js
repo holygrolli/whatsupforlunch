@@ -2,6 +2,7 @@ import React, { useState, useEffect } from 'react';
 import axios from 'axios';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { solid } from '@fortawesome/fontawesome-svg-core/import.macro'
+import { getWeek } from 'date-fns';
 
 function LocationDetails({details}) {
   if (details.length === 0) {
@@ -53,13 +54,37 @@ function App() {
   useEffect(() => {
     // Filter data based on selectedDate
     if (selectedDate) {
+      // determine current calendar week in format YYYY-WW based on selectedDate
+      let selectedDateObj = new Date(selectedDate);
+      // Get the day of the week (0 - Sunday, 1 - Monday, ..., 6 - Saturday)
+      let dayOfWeek = selectedDateObj.getDay();
+
+      // Calculate how many days to go back to get to the previous Monday
+      let daysToMonday = (dayOfWeek === 0) ? 6 : dayOfWeek - 1; // If it's Sunday, go back 6 days
+
+      // Create a new date object for the previous Monday
+      let mondayDateObj = new Date(selectedDateObj);
+      mondayDateObj.setDate(selectedDateObj.getDate() - daysToMonday);
+
+      // Calculate the year and week number based on the Monday date
+      let selectedYear = mondayDateObj.getFullYear();
+
+      // Calculate the week number based on the Monday date
+      let selectedWeek = String(getWeek(mondayDateObj, {
+        weekStartsOn: 1, firstWeekContainsDate: 4})).padStart(2, '0');
+      // Create the selected week string
+      let selectedWeekString = `${selectedYear}-W${selectedWeek}`;
+
       const transformedArray = [];
       for (const location of data) {
         const offers = location.offers;
-        const locationCopy = { name: location.name, meals: [], details: location.details, link: location.link };
+        const locationCopy = { name: location.name, meals: { day: [], week: []}, details: location.details, link: location.link };
         for (const date in offers) {
           if (date === selectedDate) {
-              locationCopy.meals = offers[date];
+              locationCopy.meals.day = offers[date];
+          }
+          if (date === selectedWeekString) {
+              locationCopy.meals.week = offers[date];
           }
         }
         transformedArray.push(locationCopy);
@@ -82,7 +107,7 @@ function App() {
         <h2>{location.name}</h2>
         <div><a href={location.link}><FontAwesomeIcon icon={solid("link")} style={{color: "#000000",}} /></a> <LocationDetails details={location.details} />
         </div>
-        {location.meals.length > 0 &&
+        {(location.meals.day.length > 0 || location.meals.week.length > 0) &&
         <table className="table">
           <thead>
             <tr>
@@ -91,7 +116,25 @@ function App() {
             </tr>
           </thead>
           <tbody>
-          {location.meals.map((meal,index) => {
+          {location.meals.day.length > 0 && location.meals.week.length > 0 &&
+          <tr>
+            <td colSpan="2" className="text-left fw-bold">Tagesangebot</td>
+          </tr>
+          }
+          {location.meals.day.map((meal,index) => {
+            return (
+            <tr key={meal.desc}>
+              <td>{meal.desc}</td>
+              <td>{meal.price}</td>
+            </tr>
+            )
+          })}
+          {location.meals.day.length > 0 && location.meals.week.length > 0 &&
+          <tr>
+            <td colSpan="2" className="text-left fw-bold">Wochenangebot</td>
+          </tr>
+          }
+          {location.meals.week.map((meal,index) => {
             return (
             <tr key={meal.desc}>
               <td>{meal.desc}</td>

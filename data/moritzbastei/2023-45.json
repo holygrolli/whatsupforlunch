@@ -1,0 +1,43 @@
+{
+  "2023-11-06": [
+    {
+      "desc": "geschlossen"
+    }
+  ],
+  "2023-11-07": [
+    {
+      "desc": "Schweineschnitzel \"Gärtnerin Art\" überbacken mit Gemüse und Sc. Hollandaise, dazu Bratkartoffeln",
+      "price": 7.9
+    },
+    {
+      "desc": "Cannelloni gefüllt mit Hirtenkäse in pikanter Tomatensauce, überbacken mit Gouda (veget.)",
+      "price": 7.7
+    }
+  ],
+  "2023-11-08": [
+    {
+      "desc": "Jägerklopse mit Champignons, dazu Kartoffelstampf und Krautsalat",
+      "price": 7.9
+    },
+    {
+      "desc": "Mediterrane Gemüsebolognese u.a. mit Zucchini, Paprika und Aubergine, dazu Pasta und Parmesan (veget.)",
+      "price": 7.7
+    }
+  ],
+  "2023-11-09": [
+    {
+      "desc": "Hähnchenschnitzel mit Rahmerbsen, Salzkartoffeln und braune Sauce",
+      "price": 7.9
+    },
+    {
+      "desc": "Gebackener Hirtenkäse auf buntem Grillgemüse, dazu Paprika Aioli (veget.)",
+      "price": 7.7
+    }
+  ],
+  "2023-11-10": [
+    {
+      "desc": "Fischcurry mit buntem Gemüse und Sesamreis",
+      "price": 7.9
+    }
+  ]
+}

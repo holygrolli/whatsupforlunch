@@ -1,0 +1,52 @@
+{
+  "2024-03-18": [
+    {
+      "desc": "Schnitzel \"Wiener Art\" mit Kartoffel-Gurken-Salat",
+      "price": 7.90
+    },
+    {
+      "desc": "Allgäuer Käsespätzle mit Röstzwiebeln",
+      "price": 7.90
+    }
+  ],
+  "2024-03-19": [
+    {
+      "desc": "Leberkäs-Burger mit Krautsalat, süßem Senf-Schmand und Röstzwiebeln, dazu Kartoffelecken",
+      "price": 7.90
+    },
+    {
+      "desc": "Kartoffel-Blumenkohl-Auflauf mit Käse",
+      "price": 7.90
+    }
+  ],
+  "2024-03-20": [
+    {
+      "desc": "Chili con Carne mit frischem Hausbrot",
+      "price": 7.90
+    },
+    {
+      "desc": "Kartoffel-Frischkäse-Taschen an buntem Blattsalat",
+      "price": 7.90
+    }
+  ],
+  "2024-03-21": [
+    {
+      "desc": "Gezupftes Haxenfleisch in Meerrettichsauce mit Kartoffelpüree",
+      "price": 7.90
+    },
+    {
+      "desc": "Penne Rigate in mediterraner Gemüsesauce mit Parmesan",
+      "price": 7.90
+    }
+  ],
+  "2024-03-22": [
+    {
+      "desc": "Backfisch auf Kartoffel-Gurken-Salat mit Remoulade",
+      "price": 7.90
+    },
+    {
+      "desc": "Falafel an Cous Cous-Salat mit Minz-Dip",
+      "price": 7.90
+    }
+  ]
+}

@@ -1,0 +1,92 @@
+{
+  "2024-08-19": [
+    {
+      "desc": "Süßkartoffel-Ingwer-Suppe mit Sesam und Koriander",
+      "price": 5.60
+    },
+    {
+      "desc": "Kartoffeltaschen mit Frischkäse, Kräuterdip und Salat",
+      "price": 6.10
+    },
+    {
+      "desc": "Hähnchencurry mit Kichererbsen und Blumenkohl, dazu Reis",
+      "price": 6.70
+    },
+    {
+      "desc": "Fischroulade auf Blattspinat und Rote-Bete-Gnocchi",
+      "price": 8.50
+    }
+  ],
+  "2024-08-20": [
+    {
+      "desc": "American Pancakes mit Apfel-Aprikosenkompott",
+      "price": 5.00
+    },
+    {
+      "desc": "Pasta mit Tomatensoße und geriebenem Käse",
+      "price": 6.10
+    },
+    {
+      "desc": "Pasta mit Wurstgulasch und geriebenem Käse",
+      "price": 6.70
+    },
+    {
+      "desc": "Tajine-Bällchen mit Baba Ghanoush, Granatapfel + Bulgur",
+      "price": 8.50
+    }
+  ],
+  "2024-08-21": [
+    {
+      "desc": "Hausgemachter Linseneintopf mit Blutwurst-Würfeln",
+      "price": 5.00
+    },
+    {
+      "desc": "Waldpilzlasagne mit Feta, Lauch und Thymian",
+      "price": 6.10
+    },
+    {
+      "desc": "Gyrospfanne mit Tzaziki, Krautsalat und Tomatenreis",
+      "price": 6.70
+    },
+    {
+      "desc": "Überraschungsgericht mit BIO-Gemüse von KOLA Leipzig",
+      "price": ""
+    }
+  ],
+  "2024-08-22": [
+    {
+      "desc": "Kartoffelpuffer mit Apfelmus und Zimtucker",
+      "price": 5.00
+    },
+    {
+      "desc": "Pasta mit Tomatensoße und geriebenem Käse",
+      "price": 6.10
+    },
+    {
+      "desc": "Kohlroulade mit Krautsoße und Petersilienkartoffeln",
+      "price": 6.70
+    },
+    {
+      "desc": "Chicken-Wrap mit Romana-Salat, Joghurt und Couscous",
+      "price": 8.50
+    }
+  ],
+  "2024-08-23": [
+    {
+      "desc": "Brokkoli-Cremesuppe mit Kürbiskernen und Sprossen",
+      "price": 5.60
+    },
+    {
+      "desc": "Zucchini-Möhren-Puffer mit Radieschenquark und Salat",
+      "price": 6.10
+    },
+    {
+      "desc": "Currywurst mit leicht-pikanter Soße, dazu Kartoffelecken",
+      "price": 6.70
+    },
+    {
+      "desc": "Kap Seehechtfilet auf Ratatouille und bunten Gnocchi",
+      "price": 8.50
+    }
+  ]
+}

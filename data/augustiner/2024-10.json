@@ -1,0 +1,52 @@
+{
+  "2024-03-04": [
+    {
+      "desc": "Schnitzel \"Wiener Art\" mit Kartoffel-Gurkensalat",
+      "price": 7.90
+    },
+    {
+      "desc": "Allgäuer Käsespätzle mit Röstzwiebeln",
+      "price": 7.90
+    }
+  ],
+  "2024-03-05": [
+    {
+      "desc": "Augustiner Bratwurst mit Sauerkraut und Kartoffelpüree",
+      "price": 7.90
+    },
+    {
+      "desc": "Spaghetti mit Basilikum-Pesto und Parmesan",
+      "price": 7.90
+    }
+  ],
+  "2024-03-06": [
+    {
+      "desc": "Hähnchen-Ragout in Paprikarahm mit Reis",
+      "price": 7.90
+    },
+    {
+      "desc": "Asia Gemüsepfanne mit Reis",
+      "price": 7.90
+    }
+  ],
+  "2024-03-07": [
+    {
+      "desc": "„Jäger Schnitzel“ - Panierte Jagdwurst mit Spirelli und Tomatensauce",
+      "price": 7.90
+    },
+    {
+      "desc": "Weißwein-Risotto mit Champignons",
+      "price": 7.90
+    }
+  ],
+  "2024-03-08": [
+    {
+      "desc": "Backfisch auf Kartoffel-Gurken-Salat mit Remoulade",
+      "price": 7.90
+    },
+    {
+      "desc": "Gebackener Feta Käse an buntem Blattsalat",
+      "price": 7.90
+    }
+  ]
+}

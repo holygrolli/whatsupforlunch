@@ -1,0 +1,52 @@
+{
+  "2024-05-06": [],
+  "2024-05-07": [
+    {
+      "desc": "Schweineschnitzel \"Western\" mit BBQ-Zwiebeln, Bacon und gebackenen Kartoffelecken, dazu Sour-Creme",
+      "price": 9.80
+    },
+    {
+      "desc": "Tortellini in Paprikarahm mit Lauchzwiebeln, überbacken mit Mozzarella und Sonnenblumenkernen (veget.)",
+      "price": 9.20
+    }
+  ],
+  "2024-05-08": [
+    {
+      "desc": "Köingisberger Klopse in Kapernsoße, dazu Kartoffelstampf und Krautsalat",
+      "price": 9.80
+    },
+    {
+      "desc": "Mediterrane Gemüsebolognese - u.a. mit Zucchini, Paprika, Aubergine. Dazu Pasta und Parmesan (veget.)",
+      "price": 9.20
+    }
+  ],
+  "2024-05-09": [],
+  "2024-05-10": [
+    {
+      "desc": "Gebratenes Seelachsfilet mit pikantem Karotten-Pastinakengemüse, dazu Kartoffelstampf und Zitronenbuttersoße",
+      "price": 9.90
+    }
+  ],
+  "2024-W19": [
+    {
+      "desc": "Pasta mit Petersilien-Macadamia-Pesto, dazu Kirschtomaten und Parmesan (veget.)",
+      "price": 10.90
+    },
+    {
+      "desc": "Lasagne Räucherlachs-Spinatlasagne, überbacken mit Mozzarella",
+      "price": 13.20
+    },
+    {
+      "desc": "Lasagne \"Bolognese\" überbacken mit Gouda",
+      "price": 12.90
+    },
+    {
+      "desc": "Nudel-Hackfleischgration, mit Tomaten, Zucchini und Paprika, überbacken mit Hirtenkäse",
+      "price": 12.90
+    },
+    {
+      "desc": "Soja-Kesselgulasch mit Baguette",
+      "price": 6.90
+    }
+  ]
+}

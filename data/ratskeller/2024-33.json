@@ -1,0 +1,92 @@
+{
+  "2024-08-12": [
+    {
+      "desc": "Sächsische Kartoffelsuppe mit Majoran und Bockwurst",
+      "price": 5.60
+    },
+    {
+      "desc": "Sellerieschnitzel mit buntem Salat und Kräuterreis",
+      "price": 6.10
+    },
+    {
+      "desc": "Hähnchen-Geschnetzeltes mit Brokkoli und Zucchini, dazu Spätzle",
+      "price": 6.70
+    },
+    {
+      "desc": "Linguine mit Spinat-Gorgonzolasoße, Mandeln und Tomaten",
+      "price": 8.50
+    }
+  ],
+  "2024-08-13": [
+    {
+      "desc": "Sächsische Quarkkäulchen mit Apfelmus und Zimtzucker",
+      "price": 5.06
+    },
+    {
+      "desc": "Pasta mit Tomatensoße und geriebenem Käse",
+      "price": 6.10
+    },
+    {
+      "desc": "Jägerschnitzel mit Tomatensoße und Pasta",
+      "price": 6.70
+    },
+    {
+      "desc": "Chili-Limetten-Hähnchen auf asiatischem Glasnudelsalat",
+      "price": 8.50
+    }
+  ],
+  "2024-08-14": [
+    {
+      "desc": "Nudel-Geflügeleintopf mit Gemüse-Julienne",
+      "price": 5.06
+    },
+    {
+      "desc": "Kichererbsen-Curry mit Blumenkohl und Limettenreis",
+      "price": 6.10
+    },
+    {
+      "desc": "Grützwurst mit Sauerkraut und Petersilienkartoffeln",
+      "price": 6.70
+    },
+    {
+      "desc": "Überraschungsgericht mit BIO-Gemüse von KOLA Leipzig",
+      "price": 8.50
+    }
+  ],
+  "2024-08-15": [
+    {
+      "desc": "Drei Hefeklöße mit warmen Heidelbeeren",
+      "price": 5.06
+    },
+    {
+      "desc": "Pasta mit Tomatensoße und geriebenem Käse",
+      "price": 6.10
+    },
+    {
+      "desc": "„Cordon bleu“ vom Schwein mit Buttererbsen und Petersilienkartoffeln",
+      "price": 6.70
+    },
+    {
+      "desc": "Shakshuka mit Hummus und Fladenbrot",
+      "price": 8.50
+    }
+  ],
+  "2024-08-16": [
+    {
+      "desc": "Kürbiscremesuppe mit Kokosmilch und Curry",
+      "price": 5.06
+    },
+    {
+      "desc": "Vegetarische Moussaka mit Aubergine, Kartoffeln und Feta",
+      "price": 6.10
+    },
+    {
+      "desc": "Seelachsfilet mit Brokkoli-Kruste auf bunten Karotten und Reis",
+      "price": 6.70
+    },
+    {
+      "desc": "Chicken-Burger mit Tomate, Gurke, Coleslaw und Kartoffelecken",
+      "price": 8.50
+    }
+  ]
+}

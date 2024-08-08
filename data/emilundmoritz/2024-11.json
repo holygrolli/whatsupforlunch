@@ -1,0 +1,66 @@
+{
+  "2024-03-11": [
+    {
+      "desc": "Sauerbraten mit Rotkohl und Klößen",
+      "price": 6.90
+    },
+    {
+      "desc": "Tortellini in Advocadorahm, Kirschtomaten und Parmesan",
+      "price": 6.90
+    }
+  ],
+  "2024-03-12": [
+    {
+      "desc": "Schweineschnitzel an Rahmkarotten mit Petersilienkartoffeln",
+      "price": 6.90
+    },
+    {
+      "desc": "Blumenkohlschnitzel, Rahmkarotten und Petersilienkartoffeln",
+      "price": 6.90
+    }
+  ],
+  "2024-03-13": [
+    {
+      "desc": "Rostbrät'l mit Schmorzwiebeln und Bratkartoffeln",
+      "price": 6.90
+    },
+    {
+      "desc": "Milchreis mit Kirschen und Z+Z",
+      "price": 6.90
+    }
+  ],
+  "2024-03-14": [
+    {
+      "desc": "Geflügelleber an Kartoffelstampf und Zwiebelgemüse",
+      "price": 6.90
+    },
+    {
+      "desc": "panierter Seelachs auf Schmorgurken dazu Kartoffelstampf",
+      "price": 6.90
+    }
+  ],
+  "2024-03-15": [
+    {
+      "desc": "Putengeschnetzeltes mit Möhren- und Zucchinistreifen dazu Reis",
+      "price": 6.90
+    },
+    {
+      "desc": "Gnocchi Gratin mit Blattspinat dazu Tomatensoße",
+      "price": 6.90
+    }
+  ],
+  "2024-W11": [
+    {
+      "desc": "Spaghetti mit Bärlauchpesto und Räucherlachs",
+      "price": 4.90
+    },
+    {
+      "desc": "Pasta \"Primavera\"",
+      "price": 4.90
+    },
+    {
+      "desc": "Pasta mit Hähnchengeschnetzeltem",
+      "price": 4.90
+    }
+  ]
+}
