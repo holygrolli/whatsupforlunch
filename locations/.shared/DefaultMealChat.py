@@ -136,7 +136,7 @@ class DefaultMealChat:
         gpt_messages.append(
             {"role": "user", "content": self.userMessagePrefix + self.userMessage})
         print("gpt_messages: " + str(gpt_messages))
-        chat_completion = client.chat.completions.create(model="gpt-4o",
+        chat_completion = client.chat.completions.create(model="gpt-3.5-turbo-1106",
                                                         messages=gpt_messages,
                                                         response_format={ "type":"text" },
                                                         temperature=0.1,
