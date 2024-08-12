@@ -1,0 +1,66 @@
+{
+  "2024-08-12": [
+    {
+      "desc": "Jägerschnitzel, Nudeln, Tomatensauce",
+      "price": 6.90
+    },
+    {
+      "desc": "Rosmarinkartoffeln, Kräuterquark, kl. Salat",
+      "price": 6.90
+    }
+  ],
+  "2024-08-13": [
+    {
+      "desc": "Geflügelleber, Zwiebel, Kartoffelstampf",
+      "price": 6.90
+    },
+    {
+      "desc": "1/4 Blumenkohl, Kartoffeln, Hollandaise",
+      "price": 6.90
+    }
+  ],
+  "2024-08-14": [
+    {
+      "desc": "Bratwurst an Sauerkraut und Kartoffeln",
+      "price": 6.90
+    },
+    {
+      "desc": "vegane Bratwurst, Sauerkraut, Kartoffeln",
+      "price": 6.90
+    }
+  ],
+  "2024-08-15": [
+    {
+      "desc": "Steak Pute, Letscho, Bratkartoffeln",
+      "price": 6.90
+    },
+    {
+      "desc": "Couscousbratlinge mit Gurken Radieschen Salat, Kräuterdip",
+      "price": 6.90
+    }
+  ],
+  "2024-08-16": [
+    {
+      "desc": "Putencurry mit Ananas, Birne, Basmatireis",
+      "price": 6.90
+    },
+    {
+      "desc": "2 Spiegeleier, Kartoffelsalat",
+      "price": 6.90
+    }
+  ],
+  "2024-W33": [
+    {
+      "desc": "Pasta mit Käse Lauch Sauce",
+      "price": 4.90
+    },
+    {
+      "desc": "Spaghetti Pestonara",
+      "price": 4.90
+    },
+    {
+      "desc": "Tagliatelle mit Huhn und cremiger Frischkäse Sauce",
+      "price": 4.90
+    }
+  ]
+}
