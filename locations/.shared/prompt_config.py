@@ -33,5 +33,5 @@ prompt_config = {
   }""",
   "addCurrentDate": True,
   "addCurrentWeekdays": True,
-  "visionModel": "gpt-4o"
+  "visionModel": "gpt-4o-2024-08-06"
 }
