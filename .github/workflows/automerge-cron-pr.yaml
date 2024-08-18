@@ -8,6 +8,7 @@ on:
   status: {}
 jobs:
   automerge:
+    if: ${{ github.actor != 'dependabot[bot]' }}
     runs-on: ubuntu-latest
     steps:
       - uses: tibdex/github-app-token@v2
