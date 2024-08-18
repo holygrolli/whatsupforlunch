@@ -18,6 +18,7 @@ class DefaultMealChat:
         self.prompt_config = prompt_config
         print("prompt_config: " + str(self.prompt_config))
         if promptOverrides is not None:
+            print("promptOverrides: " + str(promptOverrides))
             self.prompt_config.update(promptOverrides)
         # if dateOverride is set, use it
         if dateOverride is not None:
@@ -118,7 +119,7 @@ class DefaultMealChat:
         ]})
         
         print(f"sending additional user msg: {self.userMessagePrefix + self.userMessage}")
-        chat_completion = client.chat.completions.create(model="gpt-4o",
+        chat_completion = client.chat.completions.create(model=self.prompt_config["visionModel"],
                                                         messages=gpt_messages,
                                                         max_tokens=self.max_tokens)#,
                                                         #response_format={ "type":"json_object" })
