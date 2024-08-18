@@ -34,7 +34,7 @@ on:
   pull_request:
     branches-ignore:
       - 'main'
-concurrency: ssh-deploy
+concurrency: ${{ github.actor == 'dependabot[bot]' && github.run_id || 'ssh-deploy' }}
 jobs:
   changes:
     runs-on: ubuntu-latest
@@ -123,6 +123,7 @@ jobs:
           npm run build
       - name: deploy 🚛
         shell: bash
+        if: ${{ github.actor != 'dependabot[bot]' }}
         run: |
           if [[ "${{ github.head_ref || github.ref_name }}" == "main" ]]; then
             export TARGET_PATH="${{ secrets.DEPLOY_PATH }}"
