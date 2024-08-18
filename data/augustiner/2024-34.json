@@ -1,0 +1,52 @@
+{
+  "2024-08-19": [
+    {
+      "desc": "Schnitzel „Wiener Art“ mit Kartoffel-Gurken-Salat",
+      "price": 7.90
+    },
+    {
+      "desc": "Allgäuer Käsespätzle mit Röstzwiebeln",
+      "price": 7.90
+    }
+  ],
+  "2024-08-20": [
+    {
+      "desc": "Pulled Pork in BBQ Sauce mit Krautsalat und Kartoffel-Ecken",
+      "price": 7.90
+    },
+    {
+      "desc": "Gnocchi mit Blattspinat in Käsesauce",
+      "price": 7.90
+    }
+  ],
+  "2024-08-21": [
+    {
+      "desc": "Szegediner Gulasch mit Spätzle und Sauerrahm",
+      "price": 7.90
+    },
+    {
+      "desc": "Vegetarisches Bauernfrühstück mit Fassgurke",
+      "price": 7.90
+    }
+  ],
+  "2024-08-22": [
+    {
+      "desc": "Augustiner Bratwurst mit Zwiebelsauce und Kartoffelpüree",
+      "price": 7.90
+    },
+    {
+      "desc": "Falafel mit Cous Cous Salat und Minz-Dip",
+      "price": 7.90
+    }
+  ],
+  "2024-08-23": [
+    {
+      "desc": "Backfisch auf Kartoffel-Gurken-Salat mit Remoulade",
+      "price": 7.90
+    },
+    {
+      "desc": "Kartoffel-Frischkäsetaschen an bunten Blattsalaten",
+      "price": 7.90
+    }
+  ]
+}
