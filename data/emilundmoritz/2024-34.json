@@ -1,0 +1,66 @@
+{
+  "2024-08-19": [
+    {
+      "desc": "hausgemachte Boulette, Möhren, Kartoffelstampf, Sauce",
+      "price": 6.90
+    },
+    {
+      "desc": "Tortellini gefüllt mit Frischkäse Tomatensuace, Käse",
+      "price": 6.90
+    }
+  ],
+  "2024-08-20": [
+    {
+      "desc": "Schnitzel Schwein, Erbsen, Kartoffeln, Sauce",
+      "price": 6.90
+    },
+    {
+      "desc": "Kartoffel Pfanne mit frischem Saison Gemüse",
+      "price": 6.90
+    }
+  ],
+  "2024-08-21": [
+    {
+      "desc": "Brauhausgulasch, Spätzle",
+      "price": 6.90
+    },
+    {
+      "desc": "Gnocchi Rahm Spiant Auflauf",
+      "price": 6.90
+    }
+  ],
+  "2024-08-22": [
+    {
+      "desc": "gefüllte Paprikaschote mit Hackfleisch, Kartoffeln, Kümmelsauce",
+      "price": 6.90
+    },
+    {
+      "desc": "gefüllte Paprikaschote gefüllt mit Couscous, Kartoffeln, Tomatensauce",
+      "price": 6.90
+    }
+  ],
+  "2024-08-23": [
+    {
+      "desc": "Hähnchenschenkel, Rahmzucchini, Kartoffeln",
+      "price": 6.90
+    },
+    {
+      "desc": "Bratreis mit frischer Zucchini, Möhre, Ei",
+      "price": 6.90
+    }
+  ],
+  "2024-W34": [
+    {
+      "desc": "Penne mit Thunfischragout und Tomatenrahm",
+      "price": 4.90
+    },
+    {
+      "desc": "Penne mit Linsenragout",
+      "price": 4.90
+    },
+    {
+      "desc": "Spaghetti Bolognese",
+      "price": 4.90
+    }
+  ]
+}
