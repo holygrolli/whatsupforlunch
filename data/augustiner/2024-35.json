@@ -1,0 +1,52 @@
+{
+  "2024-08-26": [
+    {
+      "desc": "Schnitzel „Wiener Art“ mit Kartoffel-Gurken-Salat",
+      "price": 7.90
+    },
+    {
+      "desc": "Allgäuer Käsespätzle mit Röstzwiebeln",
+      "price": 7.90
+    }
+  ],
+  "2024-08-27": [
+    {
+      "desc": "Wurstgulasch mit Spirelli und geriebenem Käse",
+      "price": 7.90
+    },
+    {
+      "desc": "Ratatouille-Gemüse mit Reis",
+      "price": 7.90
+    }
+  ],
+  "2024-08-28": [
+    {
+      "desc": "Kasslerbraten mit Sauerkraut und Salzkartoffeln",
+      "price": 7.90
+    },
+    {
+      "desc": "Krautschupfnudeln mit Röstzwiebeln",
+      "price": 7.90
+    }
+  ],
+  "2024-08-29": [
+    {
+      "desc": "Fleischpflanzerl mit Buttererbsen und Kartoffelpüree",
+      "price": 7.90
+    },
+    {
+      "desc": "Gnocchi mit Kirschtomaten und Rucola in Parmesansauce",
+      "price": 7.90
+    }
+  ],
+  "2024-08-30": [
+    {
+      "desc": "Backfisch auf Kartoffel-Gurken-Salat mit Remoulade",
+      "price": 7.90
+    },
+    {
+      "desc": "Linsen-Chili mit Kidneybohnen und Mais",
+      "price": 7.90
+    }
+  ]
+}
