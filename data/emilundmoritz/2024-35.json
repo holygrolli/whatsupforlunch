@@ -1,0 +1,66 @@
+{
+  "2024-08-26": [
+    {
+      "desc": "Schweinebraten, Möhren, Kartoffeln",
+      "price": 6.90
+    },
+    {
+      "desc": "Kartoffeln, Spinat, Rührei",
+      "price": 6.90
+    }
+  ],
+  "2024-08-27": [
+    {
+      "desc": "Kasslerbraten, Sauerkraut, Kartoffeln",
+      "price": 6.90
+    },
+    {
+      "desc": "Gnocchi mit Tomatenrahm, Kirschtomaten",
+      "price": 6.90
+    }
+  ],
+  "2024-08-28": [
+    {
+      "desc": "Schnitzel, Erbsen, Kartoffeln, Sauce",
+      "price": 6.90
+    },
+    {
+      "desc": "2 Eier in Senfsauce, Kartoffeln",
+      "price": 6.90
+    }
+  ],
+  "2024-08-29": [
+    {
+      "desc": "Sülze, Bratkartoffeln, Remoulade",
+      "price": 6.90
+    },
+    {
+      "desc": "Couscous Pfanne mit frischen Gemüse der Saison",
+      "price": 6.90
+    }
+  ],
+  "2024-08-30": [
+    {
+      "desc": "Putengeschnetzeltes, Reis",
+      "price": 6.90
+    },
+    {
+      "desc": "Chilli sin Carne, Reis",
+      "price": 0.00
+    }
+  ],
+  "2024-W35": [
+    {
+      "desc": "Penne Arrabiata",
+      "price": 4.90
+    },
+    {
+      "desc": "Pasta mit Minihackbällchen und Ricotta",
+      "price": 4.90
+    },
+    {
+      "desc": "Pasta mit Zitronenparmesan Sauce",
+      "price": 4.90
+    }
+  ]
+}
