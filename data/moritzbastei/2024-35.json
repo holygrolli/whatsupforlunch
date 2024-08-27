@@ -1,0 +1,57 @@
+{
+  "2024-08-26": [],
+  "2024-08-27": [
+    {
+      "desc": "Schweineschnitzel mit Honig-Thymian-Möhrchen, dazu Bratkartoffeln",
+      "price": 9.80
+    },
+    {
+      "desc": "Gebratene Gnocchis auf mediterranem Gemüse mit Parmesan und gerösteten Sonnenblumenkernen (veget.)",
+      "price": 9.20
+    }
+  ],
+  "2024-08-28": [
+    {
+      "desc": "Pasta mit Schinken-Sahne-Soße, Lauchzwiebeln und Kirschtomaten",
+      "price": 9.80
+    },
+    {
+      "desc": "Sojagyros mit Ingwer, dazu Kartoffelecken, Zaziki und Krautsalat (veget.)",
+      "price": 9.20
+    }
+  ],
+  "2024-08-29": [
+    {
+      "desc": "Gebackene Paprikaschote gefüllt mit Hackfleisch, dazu Kartoffeln und pikante Tomatensoße",
+      "price": 9.80
+    },
+    {
+      "desc": "Gebackener Tofu auf Mie-Nudelsalat mit buntem Gemüse und geröstetem Sesam (vegan)",
+      "price": 9.20
+    }
+  ],
+  "2024-08-30": [
+    {
+      "desc": "Matjesfilet in Apfel-Zwiebelremoulade, dazu Salzkartoffeln",
+      "price": 9.90
+    }
+  ],
+  "2024-W35": [
+    {
+      "desc": "Pasta mit Rucola-Pesto, dazu geröstete Mandeln und Parmesan (veget.)",
+      "price": 10.90
+    },
+    {
+      "desc": "Kohlrabilasagne mit Karotten und Spitzkohl, überbacken mit Mozzarella und Röstzwiebeln (veget.)",
+      "price": 12.40
+    },
+    {
+      "desc": "Lasagne \"Bolognese\" überbacken mit Gouda",
+      "price": 12.90
+    },
+    {
+      "desc": "Hähnchengratin mit Penne und gebratener Zucchini in pikanter Tomatensoße, überbacken mit Hirtenkäse",
+      "price": 12.90
+    }
+  ]
+}
