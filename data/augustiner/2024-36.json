@@ -1,0 +1,52 @@
+{
+  "2024-09-02": [
+    {
+      "desc": "Schnitzel „Wiener Art“ mit Kartoffel-Gurken-Salat",
+      "price": 7.90
+    },
+    {
+      "desc": "Allgäuer Käsespätzle mit Röstzwiebeln",
+      "price": 7.90
+    }
+  ],
+  "2024-09-03": [
+    {
+      "desc": "Chili con Carne mit Schmand und frischem Bauernbrot",
+      "price": 7.90
+    },
+    {
+      "desc": "Griechischer Salat mit Feta Käse, Oliven und roten Zwiebeln",
+      "price": 7.90
+    }
+  ],
+  "2024-09-04": [
+    {
+      "desc": "Gezupftes Haxenfleisch in Meerrettichsauce mit Salzkartoffeln",
+      "price": 7.90
+    },
+    {
+      "desc": "Kartoffel-Spinat-Auflauf mit Feta Käse",
+      "price": 7.90
+    }
+  ],
+  "2024-09-05": [
+    {
+      "desc": "Gebratene Hähnchenbrust mit Champignonrahm und Kroketten",
+      "price": 7.90
+    },
+    {
+      "desc": "Weißwein-Risotto mit Champignons",
+      "price": 7.90
+    }
+  ],
+  "2024-09-06": [
+    {
+      "desc": "Backfisch auf Kartoffel-Gurken-Salat mit Remoulade",
+      "price": 7.90
+    },
+    {
+      "desc": "Eierkuchen mit Apfelmus",
+      "price": 7.90
+    }
+  ]
+}
