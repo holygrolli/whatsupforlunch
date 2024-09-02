@@ -1,0 +1,66 @@
+{
+  "2024-09-02": [
+    {
+      "desc": "Grützwurst, Sauerkraut, Kartoffeln",
+      "price": 6.90
+    },
+    {
+      "desc": "Couscous Pfanne mit frischem Gemüse",
+      "price": 6.90
+    }
+  ],
+  "2024-09-03": [
+    {
+      "desc": "Rostbrätl mit Schmorrzwiebeln, Bratkartoffeln",
+      "price": 6.90
+    },
+    {
+      "desc": "Kartoffeln, Quark, kl. Salat",
+      "price": 6.90
+    }
+  ],
+  "2024-09-04": [
+    {
+      "desc": "Schnitzel Pute, Blumenkohl, Kafrtoffeln, Sauce",
+      "price": 6.90
+    },
+    {
+      "desc": "Nudel Auflauf mit Tomatenrahm, Kirschtomaten,Käse",
+      "price": 6.90
+    }
+  ],
+  "2024-09-05": [
+    {
+      "desc": "Gulasch, Spätzle",
+      "price": 6.90
+    },
+    {
+      "desc": "Vegetarischer Gulasch, Klöße",
+      "price": 6.90
+    }
+  ],
+  "2024-09-06": [
+    {
+      "desc": "Bauernfrühstück mit Speckwürfeln",
+      "price": 6.90
+    },
+    {
+      "desc": "Bauernfrühstück mit frischem Lauch",
+      "price": 6.90
+    }
+  ],
+  "2024-W36": [
+    {
+      "desc": "Penne Arrabiata",
+      "price": 4.90
+    },
+    {
+      "desc": "Penne mit Hackbällchen und Ricotta",
+      "price": 4.90
+    },
+    {
+      "desc": "Pasta mit Zitronenparmesan Sauce",
+      "price": 4.90
+    }
+  ]
+}
