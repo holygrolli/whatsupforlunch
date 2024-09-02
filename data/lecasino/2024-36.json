@@ -1,0 +1,72 @@
+{
+    "2024-09-02": [
+        {
+            "desc": "Kartoffelrösti mit Kräuter-Joghurt-Dip und med. Gemüse",
+            "price": 3.80
+        },
+        {
+            "desc": "Reiseintopf mit Hähnchenfleisch und einer Scheibe Brot",
+            "price": 3.00
+        },
+        {
+            "desc": "Schweinebraten mit Soße",
+            "price": 3.75
+        }
+    ],
+    "2024-09-03": [
+        {
+            "desc": "Linsensalat mit Hirtenkäse und Gemüse",
+            "price": 4.75
+        },
+        {
+            "desc": "Zwei Eier in Senfsoße mit Kartoffeln",
+            "price": 3.00
+        },
+        {
+            "desc": "Curry-Putengeschnetzeltes mit Früchten",
+            "price": 3.90
+        }
+    ],
+    "2024-09-04": [
+        {
+            "desc": "Couscous-Gemüse-Pfanne und Joghurtdip",
+            "price": 3.50
+        },
+        {
+            "desc": "Schinkennudeln mit Sahnesoße",
+            "price": 3.00
+        },
+        {
+            "desc": "Schweineschnitzel „Wiener-Art“",
+            "price": 3.75
+        }
+    ],
+    "2024-09-05": [
+        {
+            "desc": "Gefüllte Eierkuchen mit Paprika und Fetakäse",
+            "price": 3.90
+        },
+        {
+            "desc": "Grießbrei mit heißen Kirschen",
+            "price": 3.00
+        },
+        {
+            "desc": "Jägerschnitzel mit fruchtiger Tomatensoße",
+            "price": 3.50
+        }
+    ],
+    "2024-09-06": [
+        {
+            "desc": "Brokkoli-Blumenkohl-Kartoffel-Auflauf",
+            "price": 3.50
+        },
+        {
+            "desc": "Krautnudeln",
+            "price": 3.00
+        },
+        {
+            "desc": "Tagesangebot",
+            "price": null
+        }
+    ]
+}
