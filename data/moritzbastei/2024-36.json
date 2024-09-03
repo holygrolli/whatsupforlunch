@@ -1,0 +1,57 @@
+{
+  "2024-09-02": [],
+  "2024-09-03": [
+    {
+      "desc": "Schweineschnitzel mit Spiegelei und Kartoffelspalten, dazu Tomaten-Aioli und Gurkensalat",
+      "price": 9.80
+    },
+    {
+      "desc": "Karottenpfanne mit Zuckerschoten, Kartoffeln und Petersilie, dazu geröstete Sonnenblumenkerne und Hirtenkäse (veget.)",
+      "price": 9.20
+    }
+  ],
+  "2024-09-04": [
+    {
+      "desc": "Frikadelle mit Prinzessbohnen, Salzkartoffeln und brauner Soße",
+      "price": 9.80
+    },
+    {
+      "desc": "Pasta mit roten Linsen, Tomaten, Lauchzwiebeln und gerösteten Kichererbsen (vegan)",
+      "price": 9.20
+    }
+  ],
+  "2024-09-05": [
+    {
+      "desc": "Orientalisches Hähnchen auf Gemüse-Couscous, dazu Minzdip",
+      "price": 9.80
+    },
+    {
+      "desc": "Gebackener Camembert auf verschiedenen Blattsalaten mit Birne und Mandeln, dazu Himbeerdressing (veget.)",
+      "price": 9.20
+    }
+  ],
+  "2024-09-06": [
+    {
+      "desc": "Seelachsfilet auf sommerlichem Reissalat, dazu Honig-Senf-Dip",
+      "price": 9.90
+    }
+  ],
+  "2024-W36": [
+    {
+      "desc": "Pasta mit Orange-Minz-Pesto, dazu geröstete Sonnenblumenkerne und Parmesan (veget.)",
+      "price": 10.90
+    },
+    {
+      "desc": "Kürbislasagne überbacken mit Mozzarella und Mandeln (veget.)",
+      "price": 12.40
+    },
+    {
+      "desc": "Lasagne \"Bolognese\" überbacken mit Gouda",
+      "price": 12.90
+    },
+    {
+      "desc": "Kartoffel-Mangoldgratin mit gebratenen Schweinerückenstreifen, in leichter Senfsoße, überbacken mit Mozzarella",
+      "price": 12.90
+    }
+  ]
+}
