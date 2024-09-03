@@ -81,7 +81,7 @@ jobs:
             github.event_name == 'schedule' && 'main' || ''
           }}
     - name: Download pdf artifacts
-      uses: actions/download-artifact@v3
+      uses: actions/download-artifact@v4.1.7
       with:
         name: pdfs
         path: downloadtmp
@@ -153,12 +153,12 @@ jobs:
               github.event_name == 'schedule' && 'main' || ''
             }}
       - name: Download originally downloaded pdf artifacts
-        uses: actions/download-artifact@v3
+        uses: actions/download-artifact@v4.1.7
         with:
           name: pdfs
           path: downloadtmp
       - name: Download successfully processed pdf artifacts
-        uses: actions/download-artifact@v3
+        uses: actions/download-artifact@v4.1.7
         with:
           name: success-pdfs
           path: success-pdfs
