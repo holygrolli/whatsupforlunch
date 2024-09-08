@@ -1,0 +1,52 @@
+{
+  "2024-09-09": [
+    {
+      "desc": "Schnitzel „Wiener Art“ mit Kartoffel-Gurken-Salat",
+      "price": 7.90
+    },
+    {
+      "desc": "Allgäuer Käsespätzle mit Röstzwiebeln",
+      "price": 7.90
+    }
+  ],
+  "2024-09-10": [
+    {
+      "desc": "Kohlroulade mit Specksauce und Salzkartoffeln",
+      "price": 7.90
+    },
+    {
+      "desc": "Blumenkohlsuppe mit Croûtons",
+      "price": 7.90
+    }
+  ],
+  "2024-09-11": [
+    {
+      "desc": "Hähnchenragout in Paprikasauce mit Reis",
+      "price": 7.90
+    },
+    {
+      "desc": "Gemüse - Reispfanne",
+      "price": 7.90
+    }
+  ],
+  "2024-09-12": [
+    {
+      "desc": "Mutzbraten mit Mischgemüse und Kartoffelpüree",
+      "price": 7.90
+    },
+    {
+      "desc": "Kürbis-Falafel mit Blattsalat und Minze-Dip",
+      "price": 7.90
+    }
+  ],
+  "2024-09-13": [
+    {
+      "desc": "Backfisch auf Kartoffel-Gurken-Salat mit Sc. Remoulade",
+      "price": 7.90
+    },
+    {
+      "desc": "Sellerieschnitzel mit Kartoffel-Gurken-Salat",
+      "price": 7.90
+    }
+  ]
+}
