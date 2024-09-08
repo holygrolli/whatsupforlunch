@@ -1,0 +1,75 @@
+{
+  "2024-09-30": [
+    {
+      "desc": "Weiße Bohnensuppe mit Kassler- und Kartoffelwürfeln",
+      "price": 5.60
+    },
+    {
+      "desc": "Blumenkohl-Kichererbsen-Curry mit Zitronenreis",
+      "price": 6.10
+    },
+    {
+      "desc": "Hähnchen 'Cordon bleu' mit Buttererbsen und Petersilienkartoffeln",
+      "price": 6.70
+    },
+    {
+      "desc": "Orecchiette mit Birnen, Walnüssen und Gorgonzolasoße",
+      "price": 8.50
+    }
+  ],
+  "2024-10-01": [
+    {
+      "desc": "Drei Eierkuchen mit Apfelmus und Zimtzucker",
+      "price": 5.60
+    },
+    {
+      "desc": "Pasta mit Tomatensoße und geriebenem Käse",
+      "price": 6.10
+    },
+    {
+      "desc": "Pasta mit Wurstgulasch und geriebenem Käse",
+      "price": 6.70
+    },
+    {
+      "desc": "Vegane 'Frikadelle' mit Champignon-Soße und Kartoffeln",
+      "price": 8.50
+    }
+  ],
+  "2024-10-02": [
+    {
+      "desc": "Hausgemachter Linseneintopf mit Blutwurst-Würfeln",
+      "price": 5.60
+    },
+    {
+      "desc": "Kartoffeltaschen mit Frischkäse, Kräuterdip und Salat",
+      "price": 6.10
+    },
+    {
+      "desc": "Hackbraten mit Speckbohnen und Kroketten",
+      "price": 6.70
+    },
+    {
+      "desc": "Überraschungsgericht mit BIO-Gemüse von KOLA Leipzig",
+      "price": ""
+    }
+  ],
+  "2024-10-03": [],
+  "2024-10-04": [
+    {
+      "desc": "Blumenkohl-Cremesuppe mit Pumpernickel",
+      "price": 5.60
+    },
+    {
+      "desc": "Gemüse-Köttbullar mit Champignon-Rahm+Kartoffelstampf",
+      "price": 6.10
+    },
+    {
+      "desc": "Backfisch mit Remoulade, Salat und Petersilienkartoffeln",
+      "price": 6.70
+    },
+    {
+      "desc": "Hähnchenbrust mit Frischkäse auf bunten Bohnen +Schupfnudeln",
+      "price": 8.50
+    }
+  ]
+}

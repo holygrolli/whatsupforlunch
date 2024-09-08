@@ -1,0 +1,92 @@
+{
+    "2024-09-09": [
+        {
+            "desc": "Ungarische Gulaschsuppe mit Paprika und Kartoffelwürfeln",
+            "price": 5.60
+        },
+        {
+            "desc": "Blumenkohl-Käsemedaillon mit Salat und Kräuterreis",
+            "price": 6.10
+        },
+        {
+            "desc": "Hähnchenkeule mit bunten Karotten und Petersilienkartoffeln",
+            "price": 6.70
+        },
+        {
+            "desc": "Vollkorn-Fusilli mit Linsenbolognese und Rucola",
+            "price": 8.50
+        }
+    ],
+    "2024-09-10": [
+        {
+            "desc": "Drei Hefeklösse mit warmen Heidelbeeren",
+            "price": 5.00
+        },
+        {
+            "desc": "Pasta mit Tomatensoße und geriebenem Käse",
+            "price": 6.10
+        },
+        {
+            "desc": "Pasta mit Wurstgulasch und geriebenem Käse",
+            "price": 6.70
+        },
+        {
+            "desc": "Rote-Bete-Puffer auf buntem Tomatensalat und Süßkartoffelpüree",
+            "price": 8.50
+        }
+    ],
+    "2024-09-11": [
+        {
+            "desc": "Nudeleintopf mit Geflügelfleisch und Gemüse-Julienne",
+            "price": 5.60
+        },
+        {
+            "desc": "Chili sin Carne mit Kichererbsen und Reis",
+            "price": 6.10
+        },
+        {
+            "desc": "Thüringer Bratwurst mit Sauerkraut und Petersilienkartoffeln",
+            "price": 6.70
+        },
+        {
+            "desc": "Überraschungsgericht mit BIO-Gemüse von KOLA Leipzig",
+            "price": null
+        }
+    ],
+    "2024-09-12": [
+        {
+            "desc": "Milchreis mit Apfelmus und Zimtzucker",
+            "price": 5.60
+        },
+        {
+            "desc": "Pasta mit Tomatensoße und geriebenem Käse",
+            "price": 6.10
+        },
+        {
+            "desc": "Frikadelle mit Champignon-Rahm und Kroketten",
+            "price": 6.70
+        },
+        {
+            "desc": "Spaghetti alla puttanesca mit Tomaten, Oliven, Kapern und Sardellen",
+            "price": 8.50
+        }
+    ],
+    "2024-09-13": [
+        {
+            "desc": "Zucchinicremesuppe mit Kichererbsen und Koriander",
+            "price": 5.60
+        },
+        {
+            "desc": "Tortellini-Gratin mit Mangold, Erbsen und Ricotta",
+            "price": 6.10
+        },
+        {
+            "desc": "Marinierter Hering mit Apfel-Zwiebel-Joghurtsoße + Kartoffel",
+            "price": 6.70
+        },
+        {
+            "desc": "Schnitzelröllchen mit Obazda, dazu Pilze und Kartoffelsalat",
+            "price": 8.50
+        }
+    ]
+}
