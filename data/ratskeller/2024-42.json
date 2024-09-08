@@ -1,0 +1,92 @@
+{
+  "2024-10-14": [
+    {
+      "desc": "Käse-Lauchsuppe mit Hackfleisch und Champignons",
+      "price": 5.60
+    },
+    {
+      "desc": "Zucchini-Möhren-Puffer mit Radieschen-Quark und Salat",
+      "price": 6.10
+    },
+    {
+      "desc": "Grünes Thai Curry mit Hähnchenbrust und Limonen-Reis",
+      "price": 6.70
+    },
+    {
+      "desc": "Grünkernrisotto mit Rosenkohl, Kürbis und Lauch",
+      "price": 8.00
+    }
+  ],
+  "2024-10-15": [
+    {
+      "desc": "American Pancakes mit Apfel-Aprikosen-Kompott",
+      "price": 5.60
+    },
+    {
+      "desc": "Pasta mit Tomatensoße und geriebenem Käse",
+      "price": 6.10
+    },
+    {
+      "desc": "Jägerschnitzel mit Tomatensoße und Pasta",
+      "price": 6.70
+    },
+    {
+      "desc": "Tajine-Bällchen mit Baba Ganoush, Bulgur und Granatapfel",
+      "price": 8.50
+    }
+  ],
+  "2024-10-16": [
+    {
+      "desc": "Grüner Bohneneintopf mit Rindfleisch- und Kartoffelwürfeln",
+      "price": 5.60
+    },
+    {
+      "desc": "Kräuterürei mit Rahmspinat und Petersilienkartoffeln",
+      "price": 6.10
+    },
+    {
+      "desc": "Bolognese-Lasagne mit Hackfleisch, Tomate und Sc. Bechamel",
+      "price": 6.70
+    },
+    {
+      "desc": "Überraschungsgericht mit BIO-Gemüse von KOLA Leipzig",
+      "price": ""
+    }
+  ],
+  "2024-10-17": [
+    {
+      "desc": "Kartoffelpuffer mit Apfelmus und Zimtzucker",
+      "price": 5.60
+    },
+    {
+      "desc": "Pasta mit Tomatensoße und geriebenem Käse",
+      "price": 6.10
+    },
+    {
+      "desc": "Kohlroulade mit Krautsoße und Petersilienkartoffeln",
+      "price": 6.70
+    },
+    {
+      "desc": "Risotto mit Trüffel, Champignons, Lauch und Rucola",
+      "price": 8.50
+    }
+  ],
+  "2024-10-18": [
+    {
+      "desc": "Rotkohl-Cremesuppe mit Apfel-Chutney",
+      "price": 5.60
+    },
+    {
+      "desc": "Pilzragout 'Stroganoff' mit Bete und Spätzle",
+      "price": 6.10
+    },
+    {
+      "desc": "Grillwurst mit Letscho-Gemüse und Kartoffelstampf",
+      "price": 6.70
+    },
+    {
+      "desc": "Schollenfilet mit Dijon-Senf, Rahmporree und Mandelkroketten",
+      "price": 8.50
+    }
+  ]
+}

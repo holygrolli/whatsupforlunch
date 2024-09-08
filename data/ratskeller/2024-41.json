@@ -1,0 +1,92 @@
+{
+  "2024-10-07": [
+    {
+      "desc": "Kürbis-Kokossuppe mit Sprossen",
+      "price": 5.60
+    },
+    {
+      "desc": "Kräuterquark mit Zwiebeln, Butter und Petersilienkartoffeln",
+      "price": 6.10
+    },
+    {
+      "desc": "Hühnerrifkasée mit Erbsen, Karotten und Butterreis",
+      "price": 6.70
+    },
+    {
+      "desc": "Lammhacksteak mit Ratatouille und Rosmarinkartoffeln",
+      "price": 8.50
+    }
+  ],
+  "2024-10-08": [
+    {
+      "desc": "Marillenknödel mit Vanillerahm",
+      "price": 5.00
+    },
+    {
+      "desc": "Pasta mit Tomatensoße und geriebenem Käse",
+      "price": 6.10
+    },
+    {
+      "desc": "Spaghetti 'Bolognese' mit geriebenem Käse",
+      "price": 6.70
+    },
+    {
+      "desc": "Vegane 'Hackrolle' mit Krautsalat und Paprikareis",
+      "price": 8.50
+    }
+  ],
+  "2024-10-09": [
+    {
+      "desc": "Erbseneintopf mit Bockwurst und Kartoffelwürfeln",
+      "price": 5.60
+    },
+    {
+      "desc": "Brokkoli-Nuss-Ecke auf bunten Karotten und Süßkartoffel-Stampf",
+      "price": 6.10
+    },
+    {
+      "desc": "Bauernroulade mit Speckbohnen und Petersilienkartoffeln",
+      "price": 6.70
+    },
+    {
+      "desc": "Überraschungsgericht mit BIO-Gemüse von KOLA Leipzig",
+      "price": 8.50
+    }
+  ],
+  "2024-10-10": [
+    {
+      "desc": "Grießbrei mit Pflaumen-Ragout und Zimtzucker",
+      "price": 5.60
+    },
+    {
+      "desc": "Pasta mit Tomatensoße und geriebenem Käse",
+      "price": 6.10
+    },
+    {
+      "desc": "Szegediner Gulasch mit Sauerkraut und Böhmischen Knödeln",
+      "price": 6.70
+    },
+    {
+      "desc": "Gebackener Blumenkohl mit Kräuterdip und Kartoffelspalten",
+      "price": 8.50
+    }
+  ],
+  "2024-10-11": [
+    {
+      "desc": "Süßkartoffel-Ingwer-Suppe mit Sesam und Koriander",
+      "price": 5.60
+    },
+    {
+      "desc": "Gnocchi-Auflauf mit Waldpilzen, Lauch und Feta",
+      "price": 6.10
+    },
+    {
+      "desc": "Fischstäbchen mit Tomatensoße und Kartoffelstampf",
+      "price": 6.70
+    },
+    {
+      "desc": "Schweinebäckchen mit Romanesco und Kartoffelrösti",
+      "price": 8.50
+    }
+  ]
+}
