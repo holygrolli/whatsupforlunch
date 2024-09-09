@@ -1,0 +1,66 @@
+{
+  "2024-09-09": [
+    {
+      "desc": "Sülze, Bratkartoffeln, Hausfrauensauce",
+      "price": 6.90
+    },
+    {
+      "desc": "Gnocchis mit Spinatrahm",
+      "price": 6.90
+    }
+  ],
+  "2024-09-10": [
+    {
+      "desc": "Hackbraten, Mischgemüse, Kartoffeln",
+      "price": 6.90
+    },
+    {
+      "desc": "Kartoffeln, Quark, kl. Salat",
+      "price": 6.90
+    }
+  ],
+  "2024-09-11": [
+    {
+      "desc": "Königsberger Klöpse in Kapernsauce, Kartoffeln",
+      "price": 6.90
+    },
+    {
+      "desc": "Semmelknödel mit sahnigem Pilzragout",
+      "price": 6.90
+    }
+  ],
+  "2024-09-12": [
+    {
+      "desc": "Schnitzel Schwein, Rahmchampignon, Kartoffeln",
+      "price": 6.90
+    },
+    {
+      "desc": "2 Zucchini Hälften gefüllt mit Couscous uns Tomatenrahmsauce",
+      "price": 6.90
+    }
+  ],
+  "2024-09-13": [
+    {
+      "desc": "Ratsherren Pfanne mit Bohnen, Champignon,Kartoffelstücken, Schwein, Rind in Rahm",
+      "price": 6.90
+    },
+    {
+      "desc": "Käse Spätzle mit Röstzwiebeln",
+      "price": 6.90
+    }
+  ],
+  "2024-W37": [
+    {
+      "desc": "Penne Carbonara",
+      "price": 4.90
+    },
+    {
+      "desc": "Penne mit Rindergeschnetzeltem",
+      "price": 4.90
+    },
+    {
+      "desc": "Penne mit Toskana Sauce, Seelachs, Paprika, Tomatenrahm",
+      "price": 4.90
+    }
+  ]
+}
