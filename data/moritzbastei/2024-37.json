@@ -1,0 +1,57 @@
+{
+  "2024-09-09": [],
+  "2024-09-10": [
+    {
+      "desc": "Schweineschnitzel in Brezel-Panade mit Rahmchampignons und Bratkartoffeln",
+      "price": 9.80
+    },
+    {
+      "desc": "Hausgemachter Burger mit Soja-Patty, Salat, Coleslaw, wahlweise Jalapenos, dazu Kartoffelecken und Tomatensalsa (veget.)",
+      "price": 9.20
+    }
+  ],
+  "2024-09-11": [
+    {
+      "desc": "Pasta mit Tomaten-Thunfischsoße, dazu Oliven und Parmesan",
+      "price": 9.80
+    },
+    {
+      "desc": "Honigglasiertes Ofengemüse mit Gewürzen des Orients, dazu Limetten-Korianderdip (veget.)",
+      "price": 9.20
+    }
+  ],
+  "2024-09-12": [
+    {
+      "desc": "Hähnchengeschnetzeltes mit Spitzkohl und Orangen, dazu Mandelreis",
+      "price": 9.80
+    },
+    {
+      "desc": "Kartoffel-Duett in Gorgonzolasoße mit Kirschtomaten und frittiertem Rucola (veget.)",
+      "price": 9.20
+    }
+  ],
+  "2024-09-13": [
+    {
+      "desc": "Seelachsfilet in Tortilla-Panade, dazu Süßkartoffelspalten, Chili-Maiscreme und Tomatensalat",
+      "price": 9.90
+    }
+  ],
+  "2024-W37": [
+    {
+      "desc": "Pasta mit Rote-Bete-Pesto, dazu geröstete Haselnusskerne, frittierter Rucola und Parmesan (veget.)",
+      "price": 10.90
+    },
+    {
+      "desc": "Wirsing-Tomaten-Lasagne überbacken mit Hirtenkäse (veget.)",
+      "price": 12.40
+    },
+    {
+      "desc": "Lasagne \"Bolognese\" überbacken mit Gouda",
+      "price": 12.90
+    },
+    {
+      "desc": "Kartoffelgratin \"Griechischer Art\" mit Hackfleisch, Tomaten und Aubergine, überbacken mit Goude",
+      "price": 12.90
+    }
+  ]
+}
