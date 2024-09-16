@@ -1,0 +1,66 @@
+{
+  "2024-09-16": [
+    {
+      "desc": "Mutzbraten, Sauerkraut, Kartoffeln",
+      "price": 6.90
+    },
+    {
+      "desc": "Kartoffel Rösti mit Lachs und Kräuterschmand",
+      "price": 6.90
+    }
+  ],
+  "2024-09-17": [
+    {
+      "desc": "Kohlroulade, Kartoffeln, Kümmelsauce",
+      "price": 6.90
+    },
+    {
+      "desc": "Kohlroulade vegetarisch gefüllt mit Reis, Möhren, Champignons, Tomatensauce",
+      "price": 6.90
+    }
+  ],
+  "2024-09-18": [
+    {
+      "desc": "Putensteak, Letscho, Pommes",
+      "price": 6.90
+    },
+    {
+      "desc": "Schupf Nudel Pfanne mit Tomaten Sahne Sauce, Rucola, Mozzarella",
+      "price": 6.90
+    }
+  ],
+  "2024-09-19": [
+    {
+      "desc": "Geschnetzeltes Züricher Art, Spätzle",
+      "price": 6.90
+    },
+    {
+      "desc": "Spinat, Kartoffeln, 2 Speigeleier",
+      "price": 6.90
+    }
+  ],
+  "2024-09-20": [
+    {
+      "desc": "Eisbein, Sauerkraut, Kartoffeln",
+      "price": 6.90
+    },
+    {
+      "desc": "Fischstäbchenauflauf mit Kartoffeln+Spinat",
+      "price": 6.90
+    }
+  ],
+  "2024-W38": [
+    {
+      "desc": "Penne Carbonara",
+      "price": 4.90
+    },
+    {
+      "desc": "Penne mit Rindergeschnetzelten",
+      "price": 4.90
+    },
+    {
+      "desc": "Penne mit Toskana Sauce, Seelachs, Paprika, Tomatenrahm",
+      "price": 4.90
+    }
+  ]
+}
