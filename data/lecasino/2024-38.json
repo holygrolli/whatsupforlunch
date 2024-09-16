@@ -1,0 +1,72 @@
+{
+  "2024-09-16": [
+    {
+      "desc": "Schupfnudel-Pfanne mit Kaisergemüse",
+      "price": 3.80
+    },
+    {
+      "desc": "kaltes Gurkensüppchen mit Dill",
+      "price": 3.00
+    },
+    {
+      "desc": "Wurstgulasch mit Tomatensoße",
+      "price": 2.95
+    }
+  ],
+  "2024-09-17": [
+    {
+      "desc": "Mit Gemüse-Bulgur gefüllte Paprikaschote an einer Tomatensosse",
+      "price": 3.75
+    },
+    {
+      "desc": "Kräuterquark mit Kartoffeln und Butter",
+      "price": 3.00
+    },
+    {
+      "desc": "Hähnchenschenkel mit Bratensosse",
+      "price": 3.60
+    }
+  ],
+  "2024-09-18": [
+    {
+      "desc": "Gnocchi-Feldsalat mit Tomate und Bayernlandkäse",
+      "price": 4.70
+    },
+    {
+      "desc": "Möhren-Kartoffeleintopf mit Schweinefleisch",
+      "price": 3.00
+    },
+    {
+      "desc": "Geschwenkte Pasta mit Porree und Hackfleisch",
+      "price": 3.70
+    }
+  ],
+  "2024-09-19": [
+    {
+      "desc": "Gemischter Salat Hirtenkäse und Baguette",
+      "price": 4.80
+    },
+    {
+      "desc": "Kartoffelpuffer mit Apfelmus und Zucker",
+      "price": 3.00
+    },
+    {
+      "desc": "Schnitzel 'Münchner Art' mit Meerrettich-Senf-Panade",
+      "price": 3.75
+    }
+  ],
+  "2024-09-20": [
+    {
+      "desc": "Maultaschen-Spinat-Gratin mit Tomatensosse und Käse überbacken",
+      "price": 4.20
+    },
+    {
+      "desc": "Pasta in Schinken-Sahnesosse",
+      "price": 3.00
+    },
+    {
+      "desc": "Tagesangebot",
+      "price": null
+    }
+  ]
+}
