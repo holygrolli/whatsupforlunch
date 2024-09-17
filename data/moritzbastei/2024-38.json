@@ -1,0 +1,57 @@
+{
+  "2024-09-16": [],
+  "2024-09-17": [
+    {
+      "desc": "Schweineschnitzel \"Con Carne\", gefüllt mit Chili Con Carne, dazu Mini-Backkartoffeln und Sour Creme",
+      "price": 9.80
+    },
+    {
+      "desc": "Salbei-Gnocchi, dazu pikantes Kürbisragout, Cranberries und gerösteten Mandeln (veget.)",
+      "price": 9.20
+    }
+  ],
+  "2024-09-18": [
+    {
+      "desc": "Gebratener Leberkäse mit Spiegelei, Laugenstange, Krautsalat, Gewürzgurke und süßem Senf",
+      "price": 9.80
+    },
+    {
+      "desc": "Frittierte Aubergine in Parmesanhülle, dazu Tomatenreis und Basilikum-Dip (veget.)",
+      "price": 9.20
+    }
+  ],
+  "2024-09-19": [
+    {
+      "desc": "Schwedische Hackbällchen \"Köttbullar\" mit Kartoffelpüree, crunchy Onions und Preiselbeer-Schmand",
+      "price": 9.80
+    },
+    {
+      "desc": "Karotten-Zucchini-Rösti mit Sesam, Curry Dip und Salatbeilage (veget.)",
+      "price": 9.20
+    }
+  ],
+  "2024-09-20": [
+    {
+      "desc": "Seelachsfilet mit Kartoffel-Pastinakenstampf, Mandelbrokkoli und Zitronensoße",
+      "price": 9.90
+    }
+  ],
+  "2024-W38": [
+    {
+      "desc": "Pasta mit Kichererbsen-Pesto, dazu Erdnüsse und Parmesan (veget.)",
+      "price": 10.90
+    },
+    {
+      "desc": "Mangoldlasagne mit getrockneten Tomaten, überbacken mit Mozzarella (veget.)",
+      "price": 12.40
+    },
+    {
+      "desc": "Lasagne \"Bolognese\" überbacken mit Gouda",
+      "price": 12.90
+    },
+    {
+      "desc": "Gratinierter Hirtenkäse (mit Honig) auf Zucchini-Tomatenragout mit Sonnenblumenkernen, dazu Baguette (veget.)",
+      "price": 12.90
+    }
+  ]
+}
