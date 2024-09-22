@@ -1,0 +1,52 @@
+{
+  "2024-09-23": [
+    {
+      "desc": "Schnitzel „Wiener Art“ mit Kartoffel-Gurken-Salat",
+      "price": 7.90
+    },
+    {
+      "desc": "Allgäuer Käsespätzle mit Röstzwiebeln",
+      "price": 7.90
+    }
+  ],
+  "2024-09-24": [
+    {
+      "desc": "Hühnerfrikassee mit Butterreis",
+      "price": 7.90
+    },
+    {
+      "desc": "Gnocchi mit Frischkäsesauce und frischem Rucola",
+      "price": 7.90
+    }
+  ],
+  "2024-09-25": [
+    {
+      "desc": "Nudel-Auflauf mit Schinken-Sahnesauce",
+      "price": 7.90
+    },
+    {
+      "desc": "Mediterraner Nudel-Auflauf mit Mozzarella überbacken",
+      "price": 7.90
+    }
+  ],
+  "2024-09-26": [
+    {
+      "desc": "Augustiner Frikadelle mit Pfefferrahmsauce und Kroketten",
+      "price": 7.90
+    },
+    {
+      "desc": "Kraut-Schupfnudel-Pfanne mit Pfefferrahmsauce und Röstzwiebeln",
+      "price": 7.90
+    }
+  ],
+  "2024-09-27": [
+    {
+      "desc": "Backfisch auf Kartoffel-Gurken-Salat mit Remoulade",
+      "price": 7.90
+    },
+    {
+      "desc": "Gebackener Blumenkohl mit Käse-Béchamelsauce und Kartoffelpüree",
+      "price": 7.90
+    }
+  ]
+}
