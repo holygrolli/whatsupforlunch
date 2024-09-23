@@ -1,0 +1,66 @@
+{
+  "2024-09-23": [
+    {
+      "desc": "Hackbällchen, Jägersauce, Reis",
+      "price": 6.90
+    },
+    {
+      "desc": "Spinat Gemüse Lasagne mit Tomatensauce",
+      "price": 6.90
+    }
+  ],
+  "2024-09-24": [
+    {
+      "desc": "Schnitzel Schwein, Kürbisgemüse, Bratkartoffeln, Sauce",
+      "price": 6.90
+    },
+    {
+      "desc": "Tortellini Pfanne mit Brokkoli, Lauch, Kirschtomaten, Bohnen",
+      "price": 6.90
+    }
+  ],
+  "2024-09-25": [
+    {
+      "desc": "Spanferkelrollbraten, Sauerkraut, Klöße",
+      "price": 6.90
+    },
+    {
+      "desc": "cremiger Nudelauflauf mit Tomaten und Mozzarella",
+      "price": 6.90
+    }
+  ],
+  "2024-09-26": [
+    {
+      "desc": "Bratwurst, Sauerkraut, Karoffelstampf, Sauce",
+      "price": 6.90
+    },
+    {
+      "desc": "Kartoffel Pfanne Toskana",
+      "price": 6.90
+    }
+  ],
+  "2024-09-27": [
+    {
+      "desc": "Rinderbraten, Rotkohl, Kartoffeln",
+      "price": 6.90
+    },
+    {
+      "desc": "Quarkkeulchen, Apfelmus, Z+Z",
+      "price": 6.90
+    }
+  ],
+  "2024-W39": [
+    {
+      "desc": "Spaghetti Bolognese",
+      "price": 4.90
+    },
+    {
+      "desc": "Pasta mit Peso Kürbiswürfel, Rucola",
+      "price": 4.90
+    },
+    {
+      "desc": "Fortalle mit Erbsen Frischkäsesauce + Lachs",
+      "price": 4.90
+    }
+  ]
+}
