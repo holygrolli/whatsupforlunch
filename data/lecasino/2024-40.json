@@ -1,0 +1,59 @@
+{
+  "2024-09-30": [
+    {
+      "desc": "Gemüsebolognese mit Pasta",
+      "price": 3.50
+    },
+    {
+      "desc": "Linseneintopf mit Kartoffeln",
+      "price": 3.00
+    },
+    {
+      "desc": "Couscoussalat mit Hähnchenbrust und knackigem Gemüse",
+      "price": 4.60
+    }
+  ],
+  "2024-10-01": [
+    {
+      "desc": "Bauernsalat mit Hirtenkäse und Baguette",
+      "price": 4.70
+    },
+    {
+      "desc": "Kräuterquark mit Kartoffeln und Butter",
+      "price": 3.00
+    },
+    {
+      "desc": "Tiegelwurst mit Majoran und Zwiebeln",
+      "price": 3.90
+    }
+  ],
+  "2024-10-02": [
+    {
+      "desc": "Paprika-Tomaten-Reispfanne",
+      "price": 3.60
+    },
+    {
+      "desc": "Kaltes Gemüsesüppchen „Gazpacho-Art” mit Baguette",
+      "price": 3.00
+    },
+    {
+      "desc": "Spinat-Hackfleischpfanne mit Joghurt und Kartoffeln",
+      "price": 3.90
+    }
+  ],
+  "2024-10-03": [],
+  "2024-10-04": [
+    {
+      "desc": "Rote-Linsen-Lasagne",
+      "price": 4.25
+    },
+    {
+      "desc": "Eierragout mit Gemüse der Saison und Kartoffeln",
+      "price": 3.00
+    },
+    {
+      "desc": "Tagesangebot",
+      "price": null
+    }
+  ]
+}
