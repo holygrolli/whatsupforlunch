@@ -1,0 +1,57 @@
+{
+  "2024-09-23": [],
+  "2024-09-24": [
+    {
+      "desc": "Schweineschnitzel \"Western\", mit BBQ-Zwiebeln, Bacon und gebackenen Kartoffelecken, dazu Sour-Creme",
+      "price": 9.80
+    },
+    {
+      "desc": "Eier in Honig-Senfsoße, dazu Salzkartoffeln, frittierte Petersilie und Gurkensalat (veget.)",
+      "price": 8.70
+    }
+  ],
+  "2024-09-25": [
+    {
+      "desc": "Hähnchencurry mit buntem Gemüse in Kokossoße, dazu Basmatireis",
+      "price": 9.80
+    },
+    {
+      "desc": "Tortellini in Paprikarahm mit Lauchzwiebeln, überbacken mit Mozzarella und Sonnenblumenkernen (veget.)",
+      "price": 9.20
+    }
+  ],
+  "2024-09-26": [
+    {
+      "desc": "Jägerschnitzel \"Made by Erika\" mit Tomatensoße, dazu Pasta und Gouda",
+      "price": 9.80
+    },
+    {
+      "desc": "Hefeklöße (ungefüllt) mit Heidelbeer-Soße (veget.)",
+      "price": 8.70
+    }
+  ],
+  "2024-09-27": [
+    {
+      "desc": "Gedünstetes Seelachsfilet auf Kartoffel-Lauchgratin, überbacken mit Gouda",
+      "price": 9.90
+    }
+  ],
+  "2024-W39": [
+    {
+      "desc": "Pasta mit Kürbis-Pesto, dazu geröstete Mandeln, Cranberries und Parmesan (veget.)",
+      "price": 10.90
+    },
+    {
+      "desc": "Waldpilzlasagne mit Röstzwiebeln, überbacken mit Mozzarella (veget.)",
+      "price": 12.40
+    },
+    {
+      "desc": "Lasagne \"Bolognese\" überbacken mit Gouda",
+      "price": 12.90
+    },
+    {
+      "desc": "Kartofffel-Zucchinigratin mit gebratenen Hähnchenbruststreifen, in leichter Senfsoße, überbacken mit Mozzarella und Sonnenblumenkernen",
+      "price": 12.90
+    }
+  ]
+}
