@@ -1,0 +1,43 @@
+{
+  "2024-09-30": [
+    {
+      "desc": "Schnitzel „Wiener Art“ mit Kartoffel-Gurken-Salat",
+      "price": 7.90
+    },
+    {
+      "desc": "Allgäuer Käsespätzle mit Röstzwiebeln",
+      "price": 7.90
+    }
+  ],
+  "2024-10-01": [
+    {
+      "desc": "Hähnchen-Geschnetzeltes „Zürcher Art“ mit Rösti",
+      "price": 7.90
+    },
+    {
+      "desc": "Waldpilz-Ragout mit Brezelknödel",
+      "price": 7.90
+    }
+  ],
+  "2024-10-02": [
+    {
+      "desc": "Blut- und Leberwurst mit Sauerkraut und Kartoffelpüree",
+      "price": 7.90
+    },
+    {
+      "desc": "Gekochte Eier in Senfsauce mit Kartoffelpüree",
+      "price": 7.90
+    }
+  ],
+  "2024-10-03": [],
+  "2024-10-04": [
+    {
+      "desc": "Backfisch auf Kartoffel-Gurken-Salat mit Remoulade",
+      "price": 7.90
+    },
+    {
+      "desc": "Ratatouille-Gemüse mit Reis",
+      "price": 7.90
+    }
+  ]
+}
