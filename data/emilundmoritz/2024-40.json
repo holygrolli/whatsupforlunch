@@ -1,0 +1,66 @@
+{
+  "2024-09-30": [
+    {
+      "desc": "Jägerschnitzel, Pasta, Tomatensauce",
+      "price": 6.90
+    },
+    {
+      "desc": "Kartoffel Kürbis Pfanne mit Rucola",
+      "price": 6.90
+    }
+  ],
+  "2024-10-01": [
+    {
+      "desc": "Hähnchenkeule, Karotten, Kartoffeln, Sauce",
+      "price": 6.90
+    },
+    {
+      "desc": "Lachs Gemüse Pfanne mit Dill Sauce, Basmati Reis",
+      "price": 6.90
+    }
+  ],
+  "2024-10-02": [
+    {
+      "desc": "Tafelspitz mit Wurzelgemüse, Meerrettichsauce, Kartoffeln",
+      "price": 6.90
+    },
+    {
+      "desc": "Maultaschen, Tomatensauce, Parmesan",
+      "price": 6.90
+    }
+  ],
+  "2024-10-03": [
+    {
+      "desc": "Gefüllte Paprikaschote, Kartoffelstampf",
+      "price": 6.90
+    },
+    {
+      "desc": "Gefüllte Parikaschote mit Gemüse Couscous, Tomatensauce, Gurkensalat",
+      "price": 6.90
+    }
+  ],
+  "2024-10-04": [
+    {
+      "desc": "Schnitzel Schwein, Champignons, Bratkartoffeln",
+      "price": 6.90
+    },
+    {
+      "desc": "Süßkartoffelcurry, Reis",
+      "price": 6.90
+    }
+  ],
+  "2024-W40": [
+    {
+      "desc": "Spaghetti Bolognese",
+      "price": 4.90
+    },
+    {
+      "desc": "Pasta mit Pesto, Kürbiswürfel, Rucola",
+      "price": 4.90
+    },
+    {
+      "desc": "Fortalle mit Erbsen Frischkäse Sauce+Lachs",
+      "price": 4.90
+    }
+  ]
+}
