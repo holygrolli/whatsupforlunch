@@ -1,0 +1,48 @@
+{
+  "2024-09-30": [],
+  "2024-10-01": [
+    {
+      "desc": "Schweineschnitzel mit Honig-Thymian-Möhrchen, dazu Salzkartoffeln und braune Soße",
+      "price": 9.80
+    },
+    {
+      "desc": "Zucchini-Limetten-Tagliatelle mit gerösteten Sonnenblumenkernen und Parmesan (veget.)",
+      "price": 9.20
+    }
+  ],
+  "2024-10-02": [
+    {
+      "desc": "Hühnerfrikassee mit Spargel, Erbsen und Champignons, dazu Basmatireis",
+      "price": 9.80
+    },
+    {
+      "desc": "Rühreier mit Rahmspinat, dazu Salzkartoffeln und Salatbeilage (veget.)",
+      "price": 9.20
+    }
+  ],
+  "2024-10-03": [],
+  "2024-10-04": [
+    {
+      "desc": "Gedünstetes Seelachsfilet auf Wurzelgemüse in Meerettichrahm, dazu Basmatireis",
+      "price": 9.90
+    }
+  ],
+  "2024-W40": [
+    {
+      "desc": "Pasta mit Erdnuss-Petersilien-Pesto, dazu Parmesan (veget.)",
+      "price": 10.90
+    },
+    {
+      "desc": "Spitzkohl-Karottenlasagne überbacken mit Mozzarella und Sesam (veget.)",
+      "price": 12.40
+    },
+    {
+      "desc": "Lasagne \"Bolognese\" überbacken mit Gouda",
+      "price": 12.90
+    },
+    {
+      "desc": "Kasseler-Bohnengratin mit Kartoffelwürfel, überbacken mit Gouda",
+      "price": 12.90
+    }
+  ]
+}
