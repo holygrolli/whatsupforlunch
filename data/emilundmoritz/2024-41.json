@@ -1,0 +1,66 @@
+{
+  "2024-10-07": [
+    {
+      "desc": "Krautpfanne mit Hackfleisch",
+      "price": 6.90
+    },
+    {
+      "desc": "Kichererbsencurry mit Reis",
+      "price": 6.90
+    }
+  ],
+  "2024-10-08": [
+    {
+      "desc": "Paprikaschote mit Hack Kartoffelstampf, Soße",
+      "price": 6.90
+    },
+    {
+      "desc": "Rührei, Spinat, Kartoffeln",
+      "price": 6.90
+    }
+  ],
+  "2024-10-09": [
+    {
+      "desc": "Schnitzel, Spiegelei, Bratkartoffeln",
+      "price": 6.90
+    },
+    {
+      "desc": "Kartoffelpuffer mit Pilzen und Schmand",
+      "price": 6.90
+    }
+  ],
+  "2024-10-10": [
+    {
+      "desc": "Backfisch, Kartoffelstampf, Remoulade",
+      "price": 6.90
+    },
+    {
+      "desc": "Toskanische Kartoffelpfanne mit Schafskäse",
+      "price": 6.90
+    }
+  ],
+  "2024-10-11": [
+    {
+      "desc": "Putenrollbraten, Paprikasoße, Kartoffeln",
+      "price": 6.90
+    },
+    {
+      "desc": "Blumenkohl, sc Hollandaise, Kartoffeln",
+      "price": 6.90
+    }
+  ],
+  "2024-W41": [
+    {
+      "desc": "Pasta Thunfischsoße",
+      "price": 4.90
+    },
+    {
+      "desc": "Pasta mit cremiger Zucchinisoße, Käse",
+      "price": 4.90
+    },
+    {
+      "desc": "Pasta mit Paprika Hack",
+      "price": 4.90
+    }
+  ]
+}
