@@ -1,0 +1,61 @@
+{
+  "2024-10-07": [],
+  "2024-10-08": [
+    {
+      "desc": "Schweineschnitzel \"Gärtnerin\" übrbacken mit Gemüse und Sc. Hollandaise, dazu Bratkartoffeln",
+      "price": 9.80
+    },
+    {
+      "desc": "Süßkartoffel-Kürbiscurry mit Lauchzwiebeln und gebackenen Kichererbsen (vegan)",
+      "price": 9.20
+    }
+  ],
+  "2024-10-09": [
+    {
+      "desc": "Gebackene Hähnchenbrust in Parmesan-Panade mit gebratenen Zucchiniwürfeln und Rosmarinkartoffeln",
+      "price": 9.80
+    },
+    {
+      "desc": "Waldpilzgulasch mit Kräuterspätzle und Röstzwiebeln (veget.)",
+      "price": 9.20
+    }
+  ],
+  "2024-10-10": [
+    {
+      "desc": "Königsberger Klopse mit Kräuterkartoffelstampf, gebackenen Kapern und Krautsalat",
+      "price": 9.80
+    },
+    {
+      "desc": "Sojageschnetzeltes mit Champignons, roter Bete, Gewürzgurke und Basmatireis (vegan)",
+      "price": 9.20
+    }
+  ],
+  "2024-10-11": [
+    {
+      "desc": "Gebackenes Seelachsfilet in Cornflakes-Panade mit Petersilienkartoffeln und Remoulade nach \"Beates Art\"",
+      "price": 9.90
+    }
+  ],
+  "2024-W41": [
+    {
+      "desc": "Pasta mit Paprika-Chili-Honigpesto, dazu geröstete Sonnenblumenkerne und Parmesan (veget.)",
+      "price": 10.90
+    },
+    {
+      "desc": "Kürbis-Spinatlasagne überbacken mit Mozzarella und Mandeln (veget.)",
+      "price": 12.40
+    },
+    {
+      "desc": "Lasagne \"Bolognese\" überbacken mit Gouda",
+      "price": 12.90
+    },
+    {
+      "desc": "Hähnchengratin mit Penne und gebratener Zucchini in pikanter Tomatensoße, überbacken mit Hirtenkäse",
+      "price": 12.90
+    },
+    {
+      "desc": "Linseneintopf mit Kasseler, Wurzelgemüse und Baguette",
+      "price": 6.90
+    }
+  ]
+}
