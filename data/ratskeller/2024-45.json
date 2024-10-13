@@ -1,0 +1,92 @@
+{
+  "2024-11-04": [
+    {
+      "desc": "Wirsingtopf mit Krakauer-Scheiben und Kartoffelwürfeln",
+      "price": 5.60
+    },
+    {
+      "desc": "Chili sin Carne mit Reis",
+      "price": 6.10
+    },
+    {
+      "desc": "Thüringer Bratwurst mit Sauerkraut und Petersilienkartoffeln",
+      "price": 6.70
+    },
+    {
+      "desc": "Champignon-Blätterteigtasche auf Kürbispüree und Selleriesalat",
+      "price": 8.50
+    }
+  ],
+  "2024-11-05": [
+    {
+      "desc": "Germknödel mit Zwetschgenfüllung und Vanillesoße",
+      "price": 5.60
+    },
+    {
+      "desc": "Pasta mit Tomatensoße und geriebenem Käse",
+      "price": 6.10
+    },
+    {
+      "desc": "Jägerschnitzel mit Tomatensoße und Pasta",
+      "price": 6.70
+    },
+    {
+      "desc": "Cheeseburger Wrap mit Käse, Hackfleisch, Gurke und Zwiebel",
+      "price": 8.50
+    }
+  ],
+  "2024-11-06": [
+    {
+      "desc": "Gräupchen-Eintopf mit Kassler-Würfeln",
+      "price": 5.60
+    },
+    {
+      "desc": "Mini-Maultaschen-Gemüsecurry-Pfanne",
+      "price": 6.10
+    },
+    {
+      "desc": "Leberkäse mit Krautsalat, süßem Senf und Brezel",
+      "price": 6.70
+    },
+    {
+      "desc": "Entenkeule mit Apfelrotkohl und Kartoffelklößen",
+      "price": 8.50
+    }
+  ],
+  "2024-11-07": [
+    {
+      "desc": "Milchreis mit Apfelmus und Zimtzucker",
+      "price": 5.60
+    },
+    {
+      "desc": "Pasta mit Tomatensoße und geriebenem Käse",
+      "price": 6.10
+    },
+    {
+      "desc": "Rindergulasch mit Pilzen und Pasta",
+      "price": 6.70
+    },
+    {
+      "desc": "Kartoffel-Rösti-Bällchen, gefüllt mit Lachs und Frischkäse, auf Salat",
+      "price": 8.50
+    }
+  ],
+  "2024-11-08": [
+    {
+      "desc": "Spitzkohl-Kichererbsen-Eintopf mit Zwiebel-Chutney",
+      "price": 5.60
+    },
+    {
+      "desc": "Knödel-Trio auf Kräuter-Waldpilzrahm",
+      "price": 6.20
+    },
+    {
+      "desc": "Panierte Schweinelaiber mit Zwiebeln und Kartoffelstampf",
+      "price": 6.70
+    },
+    {
+      "desc": "Seelachsfilet in Buttermilch-Dill-Soße mit Salat und Zitronenreis",
+      "price": 8.50
+    }
+  ]
+}

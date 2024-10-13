@@ -1,0 +1,75 @@
+{
+  "2024-10-28": [
+    {
+      "desc": "Nudeleintopf mit Geflügelfleisch und Gemüsejulienne",
+      "price": 5.60
+    },
+    {
+      "desc": "Blumenkohl-Käsemedaillon mit Salat und Kartoffelstampf",
+      "price": 6.10
+    },
+    {
+      "desc": "Gyrospfanne mit Krautsalat, Tzaziki und Tomatenreis",
+      "price": 6.70
+    },
+    {
+      "desc": "Glutenfreie Pasta mit Linsenbolognese und Rucola",
+      "price": 8.50
+    }
+  ],
+  "2024-10-29": [
+    {
+      "desc": "Drei Hefeklöbe mit warmen Heidelbeeren",
+      "price": 5.60
+    },
+    {
+      "desc": "Pasta mit Tomatensoße und geriebenem Käse",
+      "price": 6.10
+    },
+    {
+      "desc": "Spaghetti \"Bolognese\" mit geriebenem Käse",
+      "price": 6.70
+    },
+    {
+      "desc": "Grünkohl-Hanfbällchen auf Karottenpüree und Linsensalat",
+      "price": 8.50
+    }
+  ],
+  "2024-10-30": [
+    {
+      "desc": "Soljanka mit Sauerrahm und Zitrone",
+      "price": 5.60
+    },
+    {
+      "desc": "Schweizer Kartoffelrösti mit Kräuterdip und buntem Salat",
+      "price": 6.10
+    },
+    {
+      "desc": "Königsberger Klopse mit Kapernsobe, Bete Salat und Kartoffeln",
+      "price": 6.70
+    },
+    {
+      "desc": "Überraschungsgericht mit BIO-Gemüse von KOLA Leipzig",
+      "price": ""
+    }
+  ],
+  "2024-10-31": [],
+  "2024-11-01": [
+    {
+      "desc": "Minestrone - mediterraner Gemüseeintopf",
+      "price": 5.60
+    },
+    {
+      "desc": "Käsespätzl'n \"Allgäuer Art\" mit Röstzwiebeln",
+      "price": 6.10
+    },
+    {
+      "desc": "Currywurst mit fruchtiger, pikanter Soße, dazu Kartoffelecken",
+      "price": 6.70
+    },
+    {
+      "desc": "Marinierter Hering mit Hausfrauenosse und Petersilienkartoffeln",
+      "price": 8.50
+    }
+  ]
+}
