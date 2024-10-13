@@ -1,0 +1,52 @@
+{
+  "2024-10-14": [
+    {
+      "desc": "Schnitzel „Wiener Art“ mit Kartoffel-Gurken-Salat",
+      "price": 7.90
+    },
+    {
+      "desc": "Allgäuer Käsespätzle mit Röstzwiebeln",
+      "price": 7.90
+    }
+  ],
+  "2024-10-15": [
+    {
+      "desc": "Chili con Carne mit Schmand und Hausbrot",
+      "price": 7.90
+    },
+    {
+      "desc": "Kraut-Schupfnudeln mit Röstzwiebeln",
+      "price": 7.90
+    }
+  ],
+  "2024-10-16": [
+    {
+      "desc": "Hähnchencurry mit Reis",
+      "price": 7.90
+    },
+    {
+      "desc": "Gemüsecurry mit Reis",
+      "price": 7.90
+    }
+  ],
+  "2024-10-17": [
+    {
+      "desc": "Wurstgulasch mit Spirelli, Tomatensauce und geriebenem Käse",
+      "price": 7.90
+    },
+    {
+      "desc": "Penne Rigate in mediterraner Gemüsesauce",
+      "price": 7.90
+    }
+  ],
+  "2024-10-18": [
+    {
+      "desc": "Backfisch auf Kartoffel-Gurken-Salat mit Remoulade",
+      "price": 7.90
+    },
+    {
+      "desc": "Gefüllte Ofenkartoffel mit Tsatsiki und Blattsalat",
+      "price": 7.90
+    }
+  ]
+}
