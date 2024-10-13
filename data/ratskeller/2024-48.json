@@ -1,0 +1,92 @@
+{
+    "2024-11-25": [
+        {
+            "desc": "Erbseneintopf mit Bockwurst und Kartoffelwürfeln",
+            "price": 5.60
+        },
+        {
+            "desc": "Back-Käse mit Zaziki, Krautsalat und Tomatenreis",
+            "price": 6.10
+        },
+        {
+            "desc": "Kassler-Braten mit Sauerkraut und Petersilienkartoffeln",
+            "price": 6.70
+        },
+        {
+            "desc": "Shakshuka mit Hummus und Fladenbrot",
+            "price": 8.50
+        }
+    ],
+    "2024-11-26": [
+        {
+            "desc": "Birnen-Schokoladen-Lasagne, dazu Vanillesoße",
+            "price": 5.60
+        },
+        {
+            "desc": "Pasta mit Tomatensoße und geriebenem Käse",
+            "price": 6.10
+        },
+        {
+            "desc": "Jägerschnitzel mit Tomatensoße und Pasta",
+            "price": 6.70
+        },
+        {
+            "desc": "Veganer \"Backfisch\" mit Remoulade, Salat und Kartoffeln",
+            "price": 8.50
+        }
+    ],
+    "2024-11-27": [
+        {
+            "desc": "Käse-Lauchsuppe mit Hackfleisch und Champignons",
+            "price": 5.60
+        },
+        {
+            "desc": "Vegan gefüllte Paprikaschote mit Tomatensoße und Reis",
+            "price": 6.10
+        },
+        {
+            "desc": "Krakauer mit Grünkohl und Petersilienkartoffeln",
+            "price": 6.70
+        },
+        {
+            "desc": "Überraschungsgericht mit BIO-Gemüse von KOLA Leipzig",
+            "price": 8.50
+        }
+    ],
+    "2024-11-28": [
+        {
+            "desc": "Eierkuchen mit Apfel-Rosinenfüllung, dazu Vanillesoße",
+            "price": 5.60
+        },
+        {
+            "desc": "Pasta mit Tomatensoße und geriebenem Käse",
+            "price": 6.10
+        },
+        {
+            "desc": "Ungarisches Schweinegulasch mit Paprika, dazu Pasta",
+            "price": 6.70
+        },
+        {
+            "desc": "Gebackener Camembert mit Preiselbeeren, Salat und Baguette",
+            "price": 8.50
+        }
+    ],
+    "2024-11-29": [
+        {
+            "desc": "Rosenkohlsuppe mit Kartoffelwürfeln und Rettichkresse",
+            "price": 5.60
+        },
+        {
+            "desc": "Kartoffel-Kürbisrösti mit Salat und Kräuterdip",
+            "price": 6.10
+        },
+        {
+            "desc": "Köttbullar mit Rahmchampignons und Kartoffelstampf",
+            "price": 6.70
+        },
+        {
+            "desc": "Pochiertes Kabeljaufilet mit Ratatouille und bunten Gnocchi",
+            "price": 8.50
+        }
+    ]
+}

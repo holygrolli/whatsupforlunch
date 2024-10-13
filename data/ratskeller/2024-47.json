@@ -1,0 +1,75 @@
+{
+  "2024-11-18": [
+    {
+      "desc": "Hausgemachter Linseneintopf mit Blutwurstwürfeln",
+      "price": 5.60
+    },
+    {
+      "desc": "Eieromelette mit Rahmspinat und Petersilienkartoffeln",
+      "price": 6.10
+    },
+    {
+      "desc": "Frikadelle mit Speckbohnen und Kroketten",
+      "price": 6.70
+    },
+    {
+      "desc": "Vegane Nuggets mit Sweet-Chilis0ße und Salat",
+      "price": 8.50
+    }
+  ],
+  "2024-11-19": [
+    {
+      "desc": "Sächsische Quarkkeulchen mit Apfelmus und Zimtzucker",
+      "price": 5.60
+    },
+    {
+      "desc": "Pasta mit Tomatensoße und geriebenem Käse",
+      "price": 6.10
+    },
+    {
+      "desc": "Spaghetti 'Bolognese' mit geriebenem Käse",
+      "price": 6.70
+    },
+    {
+      "desc": "Vegane 'Gyrospfanne' mit Krautsalat und Tomatenreis",
+      "price": 8.50
+    }
+  ],
+  "2024-11-20": [],
+  "2024-11-21": [
+    {
+      "desc": "Grießbrei mit Pflaumenragout und Zimtzucker",
+      "price": 5.60
+    },
+    {
+      "desc": "Pasta mit Tomatensoße und geriebenem Käse",
+      "price": 6.10
+    },
+    {
+      "desc": "Putenrahm-Geschnetzeltes mit Paprika, dazu Reis",
+      "price": 6.70
+    },
+    {
+      "desc": "Plant-Based-Burger mit Limonen-Mayo, Salat und Wedges",
+      "price": 8.50
+    }
+  ],
+  "2024-11-22": [
+    {
+      "desc": "Kürbiscremesuppe mit Lauch und Croutons",
+      "price": 5.60
+    },
+    {
+      "desc": "Spinat-Lasagne mit Ricotta, Karotten und Erbsen",
+      "price": 6.10
+    },
+    {
+      "desc": "Kibbeling mit Remoulade, Salat und Kartoffelecken",
+      "price": 6.70
+    },
+    {
+      "desc": "Rinder-Sauerbraten mit Meerrettichsoße, Bete-Salat und Klößen",
+      "price": 8.50
+    }
+  ]
+}
