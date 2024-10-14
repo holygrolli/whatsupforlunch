@@ -1,0 +1,72 @@
+{
+  "2024-10-14": [
+    {
+      "desc": "Gnocchi-Feldsalat mit Tomate und Bergkäse",
+      "price": 4.70
+    },
+    {
+      "desc": "Karotten-Ingwer-Suppe",
+      "price": 3.00
+    },
+    {
+      "desc": "Ungarischer Kesselgulasch",
+      "price": 3.85
+    }
+  ],
+  "2024-10-15": [
+    {
+      "desc": "Kartoffelrösti mit mediterranem Gemüse",
+      "price": 3.80
+    },
+    {
+      "desc": "Kräuterquark mit Kartoffeln und Butter",
+      "price": 3.00
+    },
+    {
+      "desc": "Wurstgulasch mit fruchtiger Tomatensoße",
+      "price": 2.95
+    }
+  ],
+  "2024-10-16": [
+    {
+      "desc": "Reissalat mit frischem Gemüse",
+      "price": 3.70
+    },
+    {
+      "desc": "Frikadellenbällchen mit Rahmsoße und Kartoffelpüree",
+      "price": 3.00
+    },
+    {
+      "desc": "Schweineleber „Berliner Art“ mit Apfel und Zwiebel",
+      "price": 3.50
+    }
+  ],
+  "2024-10-17": [
+    {
+      "desc": "Ofengemüse mit Backkartoffeln und Kräutercreme",
+      "price": 4.50
+    },
+    {
+      "desc": "Kartoffelpuffer mit Zucker und Apfelmus",
+      "price": 3.00
+    },
+    {
+      "desc": "Schweineschnitzel „Wiener-Art“",
+      "price": 3.75
+    }
+  ],
+  "2024-10-18": [
+    {
+      "desc": "Gemüsebolognese mit Pasta",
+      "price": 3.50
+    },
+    {
+      "desc": "Eierragout mit Gemüse der Saison und Kartoffeln",
+      "price": 3.00
+    },
+    {
+      "desc": "Tagesangebot",
+      "price": null
+    }
+  ]
+}
