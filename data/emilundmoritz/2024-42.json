@@ -1,0 +1,66 @@
+{
+  "2024-10-14": [
+    {
+      "desc": "Frikadelle in Basilikum-Sahnesoße mit Reis",
+      "price": 6.90
+    },
+    {
+      "desc": "Kürbisrisotto",
+      "price": 6.90
+    }
+  ],
+  "2024-10-15": [
+    {
+      "desc": "Wurstgulasch ( aus Bockwurst ) mit Spätzle",
+      "price": 6.90
+    },
+    {
+      "desc": "Spätzlepfanne mit Gemüsestreifen",
+      "price": 6.90
+    }
+  ],
+  "2024-10-16": [
+    {
+      "desc": "Schnitzel mit Letscho und Bratkartoffeln",
+      "price": 6.90
+    },
+    {
+      "desc": "Kaiserschmarrn mit Apfelmus",
+      "price": 6.90
+    }
+  ],
+  "2024-10-17": [
+    {
+      "desc": "Nudel- Schinken- Gratin",
+      "price": 6.90
+    },
+    {
+      "desc": "Pasta al Limone, Erbsen und Parmesan",
+      "price": 6.90
+    }
+  ],
+  "2024-10-18": [
+    {
+      "desc": "Putensteak \"Calabrese\" dazu Tomatensoße und Gnocchi",
+      "price": 6.90
+    },
+    {
+      "desc": "Gnocchi mit Spinatpesto und Röstzwiebeln",
+      "price": 6.90
+    }
+  ],
+  "2024-W42": [
+    {
+      "desc": "Pasta Thunfischsoße",
+      "price": 4.90
+    },
+    {
+      "desc": "Pasta mit cremiger Zucchinisoße und Käse",
+      "price": 4.90
+    },
+    {
+      "desc": "Pasta mit Paprika Hack",
+      "price": 4.90
+    }
+  ]
+}
