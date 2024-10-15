@@ -1,0 +1,61 @@
+{
+  "2024-10-14": [],
+  "2024-10-15": [
+    {
+      "desc": "Schweineschnitzel mit Rahmerbsen, Salzkartoffeln und brauner Soße",
+      "price": 9.80
+    },
+    {
+      "desc": "Gnocchi in Basilikumsoße, mit getrockneten Tomaten, dazu Parmesan und Sonnenblumenkerne (veget.)",
+      "price": 9.20
+    }
+  ],
+  "2024-10-16": [
+    {
+      "desc": "Hähnchengeschnetzeltes mit grünem Pfeffer, Lauch und Champignons, dazu Kartoffelrösti",
+      "price": 9.80
+    },
+    {
+      "desc": "Pasta mit roten Linsen, Tomaten, Lauchzwiebeln und gerösteten Kichererbsen (vegan)",
+      "price": 9.20
+    }
+  ],
+  "2024-10-17": [
+    {
+      "desc": "Frikadelle mit Rosenkohl, Salzkartoffeln und brauner Soße",
+      "price": 9.80
+    },
+    {
+      "desc": "Karottenpfanne mit Zuckerschoten, Kartoffeln und Petersilie, dazu geröstete Sonnenblumenkerne und Hirtenkäse (veget.)",
+      "price": 9.20
+    }
+  ],
+  "2024-10-18": [
+    {
+      "desc": "Gebackenes Seelachsfilet unter Kartoffelkruste, dazu Senfsoße und Gurkensalat",
+      "price": 9.90
+    }
+  ],
+  "2024-W42": [
+    {
+      "desc": "Pasta mit Petersilien-Macadamia-Pesto, dazu Kirschtomaten und Parmesan (veget.)",
+      "price": 10.90
+    },
+    {
+      "desc": "Wirsing-Tomaten-Lasagne überbacken mit Hirtenkäse (veget.)",
+      "price": 12.40
+    },
+    {
+      "desc": "Lasagne \"Bolognese\" überbacken mit Gouda",
+      "price": 12.90
+    },
+    {
+      "desc": "Süßkartoffel-Hackfleisch-Gratin mit grünen Bohnen und Tomaten, überbacken mit Mozzarella",
+      "price": 12.90
+    },
+    {
+      "desc": "Kürbissuppe mit Ingwer und Kokosmilch, dazu karamellisierte Kürbiskerne und Baguette (vegan)",
+      "price": 6.90
+    }
+  ]
+}
