@@ -1,0 +1,52 @@
+{
+  "2024-10-21": [
+    {
+      "desc": "Schnitzel „Wiener Art“ mit Kartoffel-Gurken-Salat",
+      "price": 7.90
+    },
+    {
+      "desc": "Allgäuer Käsespätzle mit Röstzwiebeln",
+      "price": 7.90
+    }
+  ],
+  "2024-10-22": [
+    {
+      "desc": "Fleischpflanzerl mit Buttererbsen und Kartoffelpüree",
+      "price": 7.90
+    },
+    {
+      "desc": "Kartoffel-Frischkäsetaschen und ein kleiner gemischter Salat",
+      "price": 7.90
+    }
+  ],
+  "2024-10-23": [
+    {
+      "desc": "Putenrollbraten mit Fingermöhren und Kroketten",
+      "price": 7.90
+    },
+    {
+      "desc": "Vegetarisches Bauernfrühstück",
+      "price": 7.90
+    }
+  ],
+  "2024-10-24": [
+    {
+      "desc": "Kasslerbraten mit Sauerkraut und Salzkartoffeln",
+      "price": 7.90
+    },
+    {
+      "desc": "Gekochte Eier mit Grüner Sauce und Salzkartoffeln",
+      "price": 7.90
+    }
+  ],
+  "2024-10-25": [
+    {
+      "desc": "Backfisch auf Kartoffel-Gurken-Salat mit Remoulade",
+      "price": 7.90
+    },
+    {
+      "desc": "Kaiserschmarrn mit Apfelmus",
+      "price": 7.90
+    }
+  ]
+}
