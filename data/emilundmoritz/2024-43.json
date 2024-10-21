@@ -1,0 +1,66 @@
+{
+  "2024-10-21": [
+    {
+      "desc": "Bratwurst, Sauerkraut, Kartoffeln, Sauce",
+      "price": 6.90
+    },
+    {
+      "desc": "Champignon Kartoffel Pfanne",
+      "price": 6.90
+    }
+  ],
+  "2024-10-22": [
+    {
+      "desc": "Schnitzel Pute, Rahmkarotten, Kartoffeln",
+      "price": 6.90
+    },
+    {
+      "desc": "Gnocchi + Rucola + Kirschtomaten in Rahm",
+      "price": 6.90
+    }
+  ],
+  "2024-10-23": [
+    {
+      "desc": "Sauerbraten, Rotkohl, Klöße",
+      "price": 6.90
+    },
+    {
+      "desc": "2 Eierkuchen Z+Z, Apfelmus",
+      "price": 6.90
+    }
+  ],
+  "2024-10-24": [
+    {
+      "desc": "Königsberger Klöpse in Kapernsauce, Kartoffeln",
+      "price": 6.90
+    },
+    {
+      "desc": "Couscous Gemüse Pfanne",
+      "price": 6.90
+    }
+  ],
+  "2024-10-25": [
+    {
+      "desc": "Brauhausgulasch, Penne",
+      "price": 6.90
+    },
+    {
+      "desc": "Erdnuss Curry, Reis",
+      "price": 6.90
+    }
+  ],
+  "2024-W43": [
+    {
+      "desc": "Pasta mit gebr. Pilzen, Pesto, Feta",
+      "price": 4.90
+    },
+    {
+      "desc": "Pasta mit Shrimps in Rahm Zitronensauce",
+      "price": 4.90
+    },
+    {
+      "desc": "Pene mit Gechnetzeltem in Rahm",
+      "price": 4.90
+    }
+  ]
+}
