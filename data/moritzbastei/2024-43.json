@@ -1,0 +1,61 @@
+{
+  "2024-10-21": [],
+  "2024-10-22": [
+    {
+      "desc": "Schweineschnitzel gefüllt mit Chilli con Carne, dazu Mini-Backkartoffeln und Sour Cream",
+      "price": 9.80
+    },
+    {
+      "desc": "Mediterrane Gemüsebolognese u.a. mit Zucchini, Paprika und Aubergine, dazu Pasta und Parmesan (veget.)",
+      "price": 9.20
+    }
+  ],
+  "2024-10-23": [
+    {
+      "desc": "Gebratene Hähnchenbrust \"Jerk Style\" auf buntem Grillgemüse mit Tomatensalsa",
+      "price": 9.80
+    },
+    {
+      "desc": "Brokkoli in Kichererbsenbackteig auf rotem Linsencurry mit Paprika und Lauchzwiebeln (vegan)",
+      "price": 9.20
+    }
+  ],
+  "2024-10-24": [
+    {
+      "desc": "Currywurst nach Art des Hauses mit Pommes und Salatbeilage",
+      "price": 9.80
+    },
+    {
+      "desc": "Gebackene Risottobällchen auf pikantem Kürbisragout (veget.)",
+      "price": 9.20
+    }
+  ],
+  "2024-10-25": [
+    {
+      "desc": "Gebratenes Seelachsfilet mit Erbsen-Minzpürree, Zitronensoße und Süßkartoffelecken",
+      "price": 9.90
+    }
+  ],
+  "2024-W43": [
+    {
+      "desc": "Pasta mit Karotten-Ingwer-Pesto, dazu geröstete Haselnüsse und Parmesan (veget.)",
+      "price": 10.90
+    },
+    {
+      "desc": "Lasagne \"Al Pesto\" mit Brokkoli, Waldpilzen und Kräuterpesto, überbacken mit Mozzarella (veget.)",
+      "price": 12.40
+    },
+    {
+      "desc": "Lasagne \"Bolognese\" überbacken mit Gouda",
+      "price": 12.90
+    },
+    {
+      "desc": "Spinat-Kartoffel-Gratin mit gebratenen Hähnchenbruststreifen, überbacken mit Mozzarella und Mandeln",
+      "price": 12.90
+    },
+    {
+      "desc": "Soljanka mit Schmand und Baguette",
+      "price": 6.90
+    }
+  ]
+}
