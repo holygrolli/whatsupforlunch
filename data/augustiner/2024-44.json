@@ -1,0 +1,35 @@
+{
+  "2024-10-28": [
+    {
+      "desc": "Schnitzel „Wiener Art“ mit Kartoffel-Gurken-Salat",
+      "price": 7.90
+    },
+    {
+      "desc": "Allgäuer Käsespätzle mit Röstzwiebeln",
+      "price": 7.90
+    }
+  ],
+  "2024-10-29": [
+    {
+      "desc": "Hühnerfrikassee mit Reis",
+      "price": 7.90
+    },
+    {
+      "desc": "Reispfanne mit buntem Gemüse und Röstzwiebeln",
+      "price": 7.90
+    }
+  ],
+  "2024-10-30": [
+    {
+      "desc": "Gezupftes Haxenfleisch in Meerrettichsauce mit Salzkartoffeln",
+      "price": 7.90
+    },
+    {
+      "desc": "Gebackener Blumenkohl mit Käsesauce und Salzkartoffeln",
+      "price": 7.90
+    }
+  ],
+  "2024-10-31": [],
+  "2024-11-01": [],
+  "2024-W44": []
+}
