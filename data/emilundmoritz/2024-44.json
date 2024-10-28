@@ -1,0 +1,66 @@
+{
+  "2024-10-28": [
+    {
+      "desc": "hausgemachte Boulette, Möhren, Kartoffeln, Sauce",
+      "price": 6.90
+    },
+    {
+      "desc": "2 Eier in Senfsauce, Kartoffeln",
+      "price": 6.90
+    }
+  ],
+  "2024-10-29": [
+    {
+      "desc": "Sülze, Bratkartoffeln, Hausfrauensauce",
+      "price": 6.90
+    },
+    {
+      "desc": "Matjes in Hausfrauensauce, Kartoffeln",
+      "price": 6.90
+    }
+  ],
+  "2024-10-30": [
+    {
+      "desc": "Schnitzel Schwein, Rosenkohl mit Semmelbrösel, Kartoffeln",
+      "price": 6.90
+    },
+    {
+      "desc": "Penne mit Tomatensauce, Käse",
+      "price": 6.90
+    }
+  ],
+  "2024-10-31": [
+    {
+      "desc": "Szegediner Gulasch",
+      "price": 6.90
+    },
+    {
+      "desc": "Kartoffel Pfanne mit Kirschtomaten, Rucola",
+      "price": 6.90
+    }
+  ],
+  "2024-11-01": [
+    {
+      "desc": "Leberkäse gebr., Kartoffelstampf, Sauerkraut, Sauce",
+      "price": 6.90
+    },
+    {
+      "desc": "Kürbisrisotto mit Frühlingszwiebeln und Walnüßen",
+      "price": 6.90
+    }
+  ],
+  "2024-W44": [
+    {
+      "desc": "Pasta mit Pilzragout",
+      "price": 4.90
+    },
+    {
+      "desc": "Pasta mit Kürbissauce",
+      "price": 4.90
+    },
+    {
+      "desc": "Penne Carbonara",
+      "price": 4.90
+    }
+  ]
+}
