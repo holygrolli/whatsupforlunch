@@ -1,0 +1,52 @@
+{
+  "2024-10-28": [],
+  "2024-10-29": [
+    {
+      "desc": "Schweineschnitzel mit Spiegelei und Bratkartoffeln, dazu Tomatensalat",
+      "price": 9.80
+    },
+    {
+      "desc": "Gebackener Hirtenkäse auf Thai-Curry mit buntem Gemüse und Kokosmilch (veget.)",
+      "price": 9.20
+    }
+  ],
+  "2024-10-30": [
+    {
+      "desc": "Wurstgulasch mit Paprika auf Pasta, dazu Gouda",
+      "price": 9.80
+    },
+    {
+      "desc": "Tortellini in Spinat-Gorgonzolasoße mit getrockneten Tomaten, überbacken mit Mozzarella und gerösteten Sonnenblumenkernen (veget.)",
+      "price": 9.20
+    }
+  ],
+  "2024-10-31": [],
+  "2024-11-01": [
+    {
+      "desc": "Gebratenes Seelachsfilet, dazu Erbsen-Minzpürree, Zitronensoße und Süßkartoffelecken",
+      "price": 9.90
+    }
+  ],
+  "2024-W44": [
+    {
+      "desc": "Pasta mit Chili-Mais-Pesto, dazu geröstete Erdnüsse und Parmesan (veget.)",
+      "price": 10.90
+    },
+    {
+      "desc": "Fenchel-Tomaten-Lasagne, überbacken mit Mozzarella und Sesam (veget.)",
+      "price": 12.40
+    },
+    {
+      "desc": "Lasagne \"Bolognese\" überbacken mit Gouda",
+      "price": 12.90
+    },
+    {
+      "desc": "Spitzkohl-Hackfleischgratin mit Kartoffelwürfel, überbacken mit Gouda",
+      "price": 12.90
+    },
+    {
+      "desc": "Grüner Bohneneintopf mit Kasseler und Baguette",
+      "price": 6.90
+    }
+  ]
+}
