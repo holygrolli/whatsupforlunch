@@ -1,0 +1,52 @@
+{
+  "2024-11-04": [
+    {
+      "desc": "Schnitzel „Wiener Art“ mit Kartoffel-Gurken-Salat",
+      "price": 7.90
+    },
+    {
+      "desc": "Allgäuer Käsespätzle mit Röstzwiebeln",
+      "price": 7.90
+    }
+  ],
+  "2024-11-05": [
+    {
+      "desc": "Hähnchen-Gyros mit Reis und Tsatsiki",
+      "price": 7.90
+    },
+    {
+      "desc": "Gemüse-Curry mit Reis",
+      "price": 7.90
+    }
+  ],
+  "2024-11-06": [
+    {
+      "desc": "„Jäger Schnitzel“ - panierte Jagdwurst mit Spirelli in Tomatensauce",
+      "price": 7.90
+    },
+    {
+      "desc": "Spirelli in mediterraner Gemüsesauce",
+      "price": 7.90
+    }
+  ],
+  "2024-11-07": [
+    {
+      "desc": "Hackbraten mit Senfmöhren und Salzkartoffeln",
+      "price": 7.90
+    },
+    {
+      "desc": "Rahmspinat mit Rührei und Salzkartoffeln",
+      "price": 7.90
+    }
+  ],
+  "2024-11-08": [
+    {
+      "desc": "Backfisch auf Kartoffel-Gurken-Salat mit Remoulade",
+      "price": 7.90
+    },
+    {
+      "desc": "Kaiserschmarrn mit Zwetschgenröster",
+      "price": 7.90
+    }
+  ]
+}
