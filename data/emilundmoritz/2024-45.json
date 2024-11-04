@@ -1,0 +1,66 @@
+{
+  "2024-11-04": [
+    {
+      "desc": "Hackbraten, Blumenkohl, Kartoffeln",
+      "price": 6.90
+    },
+    {
+      "desc": "Couscousfrikadelle, Blumenkohl, Tomatensauce",
+      "price": 6.90
+    }
+  ],
+  "2024-11-05": [
+    {
+      "desc": "Schweinebraten, Rotkohl, Kartoffeln",
+      "price": 6.90
+    },
+    {
+      "desc": "Kartoffel Gemüse Pfanne mit Feta",
+      "price": 6.90
+    }
+  ],
+  "2024-11-06": [
+    {
+      "desc": "Schnitzel Hähnchen, Erbsen, Kartoffeln, Sauce",
+      "price": 6.90
+    },
+    {
+      "desc": "Tagliatelle mit Lachs, Blattspinat, Tomatenrahm",
+      "price": 6.90
+    }
+  ],
+  "2024-11-07": [
+    {
+      "desc": "Hühnerfrikasse, Reis",
+      "price": 6.90
+    },
+    {
+      "desc": "Resi Gemüse Pfanne mit Frischkäse",
+      "price": 6.90
+    }
+  ],
+  "2024-11-08": [
+    {
+      "desc": "Rindergulasch ungarischer Art, Spätzle",
+      "price": 6.90
+    },
+    {
+      "desc": "Spinatknödel, Pilzsauce",
+      "price": 6.90
+    }
+  ],
+  "2024-W45": [
+    {
+      "desc": "Pasta mit Pilzragout",
+      "price": 4.90
+    },
+    {
+      "desc": "Pasta mit Kürbissauce",
+      "price": 4.90
+    },
+    {
+      "desc": "Penne Carbonara",
+      "price": 4.90
+    }
+  ]
+}
