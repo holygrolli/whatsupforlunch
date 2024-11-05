@@ -1,0 +1,77 @@
+{
+  "2024-11-04": [],
+  "2024-11-05": [
+    {
+      "desc": "Schweineschnitzel in Haselnusspanade, dazu Rahmchampignons und Bratkartoffeln",
+      "price": 9.80
+    },
+    {
+      "desc": "Cannelloni gefüllt mit Hirtenkäse in pikanter Tomatensoße, überbacken mit Gouda (veget.)",
+      "price": 9.20
+    }
+  ],
+  "2024-11-06": [
+    {
+      "desc": "Schwedische Hackbällchen \"Köttbullar\" mit Kartoffelpürree, crunchy Onions und Preiselbeer-Schmand",
+      "price": 9.80
+    },
+    {
+      "desc": "Gebratene Gnocchis auf mediterranem Gemüse mit Parmesan und gerösteten Sonnenblumenkernen (veget.)",
+      "price": 9.20
+    }
+  ],
+  "2024-11-07": [
+    {
+      "desc": "Orientalisches Hähnchen auf Gemüse-Couscous, dazu Minzdip",
+      "price": 0.00
+    },
+    {
+      "desc": "Hefeklösse (ungefüllt) mit Heidelbeer-Soße (veget.)",
+      "price": 0.00
+    }
+  ],
+  "2024-11-08": [
+    {
+      "desc": "Gebratenes Seelachsfilet mit gebratenen Zucchiniwürfeln, rote Bete Pürree und Zitronensoße",
+      "price": 9.90
+    }
+  ],
+  "2024-W45": [
+    {
+      "desc": "Pasta",
+      "price": 0.00
+    },
+    {
+      "desc": "Pasta mit Koriander-Petersilien-Pesto, dazu geröstete Haselnüsse und Parmesan (veget.)",
+      "price": 10.90
+    },
+    {
+      "desc": "Lasagne",
+      "price": 0.00
+    },
+    {
+      "desc": "Spinatlasagne, überbacken mit Mozzarella (veget.)",
+      "price": 12.40
+    },
+    {
+      "desc": "Lasagne \"Bolognese\" überbacken mit Gouda",
+      "price": 12.90
+    },
+    {
+      "desc": "Gratin",
+      "price": 0.00
+    },
+    {
+      "desc": "Kürbis-Kartoffel-Gratin mit gebratenen Hähnchenbruststreifen und Zucchini, überbacken mit Mozzarella und Mandeln",
+      "price": 12.90
+    },
+    {
+      "desc": "Suppe",
+      "price": 0.00
+    },
+    {
+      "desc": "Hühnernudelsuppe mit Wurzelgemüse und Baguette",
+      "price": 6.90
+    }
+  ]
+}
