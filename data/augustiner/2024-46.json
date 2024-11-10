@@ -1,0 +1,52 @@
+{
+  "2024-11-11": [
+    {
+      "desc": "Schnitzel „Wiener Art“ mit Kartoffel-Gurken-Salat",
+      "price": 7.90
+    },
+    {
+      "desc": "Allgäuer Käsespätzle mit Röstzwiebeln",
+      "price": 7.90
+    }
+  ],
+  "2024-11-12": [
+    {
+      "desc": "Blut- und Leberwurst mit Kartoffelpüree und Sauerkraut",
+      "price": 7.90
+    },
+    {
+      "desc": "Kartoffel-Frischkäse-Taschen an gemischten Salaten",
+      "price": 7.90
+    }
+  ],
+  "2024-11-13": [
+    {
+      "desc": "Penne mit Bolognese-Sauce und geriebenem Parmesan",
+      "price": 7.90
+    },
+    {
+      "desc": "Pilzragout mit Brezelknödel und Sauerrahm",
+      "price": 7.90
+    }
+  ],
+  "2024-11-14": [
+    {
+      "desc": "Hänchenschenkel mit Rotkohl und Kloß",
+      "price": 7.90
+    },
+    {
+      "desc": "Gefüllte Paprika mit Gemüsereis und Tomatensauce",
+      "price": 7.90
+    }
+  ],
+  "2024-11-15": [
+    {
+      "desc": "Backfisch auf Kartoffel-Gurken-Salat mit Remoulade",
+      "price": 7.90
+    },
+    {
+      "desc": "Gemüseschnitzel mit Kartoffel-Gurken-Salat",
+      "price": 7.90
+    }
+  ]
+}
