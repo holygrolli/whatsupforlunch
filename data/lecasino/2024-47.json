@@ -1,0 +1,59 @@
+{
+  "2024-11-18": [
+    {
+      "desc": "Champignontopf mit Kräutersoße",
+      "price": 3.70
+    },
+    {
+      "desc": "Weißkrauteintopf mit Schweinefleisch",
+      "price": 3.00
+    },
+    {
+      "desc": "Marinierter Hering in Sahnesoße mit Salzkartoffeln",
+      "price": 4.95
+    }
+  ],
+  "2024-11-19": [
+    {
+      "desc": "Gebackene Kartoffeltaschen mit Frischkäse gefüllt & gem. Salat",
+      "price": 4.20
+    },
+    {
+      "desc": "Tomatencremesüppchen mit Croutons",
+      "price": 3.00
+    },
+    {
+      "desc": "Rostbrätel 'Thüringer Art'",
+      "price": 3.85
+    }
+  ],
+  "2024-11-20": [],
+  "2024-11-21": [
+    {
+      "desc": "Kartoffelgulasch mit Paprika und Kräuterhaube",
+      "price": 3.80
+    },
+    {
+      "desc": "Kaiserschmarrn mit Rosinen und Apfelmus",
+      "price": 3.00
+    },
+    {
+      "desc": "Currywurst mit fruchtiger Currysoße",
+      "price": 3.85
+    }
+  ],
+  "2024-11-22": [
+    {
+      "desc": "Reisnudelsalat mit Tomate, Paprika und Hirtenkäse",
+      "price": 3.75
+    },
+    {
+      "desc": "Gemüse-Kartoffelauflauf mit Gouda überbacken",
+      "price": 3.00
+    },
+    {
+      "desc": "Tagesangebot",
+      "price": null
+    }
+  ]
+}
