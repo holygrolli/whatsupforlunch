@@ -1,0 +1,66 @@
+{
+  "2024-11-11": [
+    {
+      "desc": "Hähnchenkeule, Möhren, Kartoffeln, Sauce",
+      "price": 6.90
+    },
+    {
+      "desc": "Backfisch, Kartoffelstampf, Dillsauce",
+      "price": 6.90
+    }
+  ],
+  "2024-11-12": [
+    {
+      "desc": "Schnitzel Schwein, Rosenkohl mit Semmelbrösel, Kartoffeln",
+      "price": 6.90
+    },
+    {
+      "desc": "Kartoffel Kürbis Gratin mit Feta",
+      "price": 6.90
+    }
+  ],
+  "2024-11-13": [
+    {
+      "desc": "Bratwurst, Sauerkraut, Kartoffeln",
+      "price": 6.90
+    },
+    {
+      "desc": "2 Eier in Senfsauce, Kartoffeln",
+      "price": 6.90
+    }
+  ],
+  "2024-11-14": [
+    {
+      "desc": "Königsberger Klöpse in Kapernsauce, Kartoffeln",
+      "price": 6.90
+    },
+    {
+      "desc": "Nudeln mit Champignons in Rahm",
+      "price": 6.90
+    }
+  ],
+  "2024-11-15": [
+    {
+      "desc": "Kohlroulade in Kümmelsauce, Kartoffeln",
+      "price": 6.90
+    },
+    {
+      "desc": "Paprikaschote mit Reisfüllung, Tomatensauce",
+      "price": 6.90
+    }
+  ],
+  "2024-W46": [
+    {
+      "desc": "Pasta mit Linsenbolognese",
+      "price": 5.50
+    },
+    {
+      "desc": "Pasta mit Wurstgulasch",
+      "price": 5.50
+    },
+    {
+      "desc": "Pasta mit grünem Pesto, Feta",
+      "price": 5.50
+    }
+  ]
+}
