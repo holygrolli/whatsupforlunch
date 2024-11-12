@@ -1,0 +1,61 @@
+{
+  "2024-11-11": [],
+  "2024-11-12": [
+    {
+      "desc": "Schweineschnitzel mit Prinzessbohnen, Salzkartoffeln und brauner Soße",
+      "price": 9.80
+    },
+    {
+      "desc": "Gebackener Hirtenkäse auf herbstlichem Ofengemüse mit Paprika-Aioli (veget.)",
+      "price": 9.20
+    }
+  ],
+  "2024-11-13": [
+    {
+      "desc": "Hühnerfrikassee mit Spargel, Erbsen und Champignons, dazu Basmatireis",
+      "price": 9.80
+    },
+    {
+      "desc": "Hausgemachte Pilzsemmelknödel mit Gorgonzolasoße und Salatbeilage (veget.)",
+      "price": 9.20
+    }
+  ],
+  "2024-11-14": [
+    {
+      "desc": "Frikadelle mit Rahmwirsing, Salzkartoffeln und brauner Soße",
+      "price": 9.80
+    },
+    {
+      "desc": "Kohlrabischnitzel mit Kräutersoße, Karotten-Kartoffelstampf und Röstzwiebeln (veget.)",
+      "price": 9.20
+    }
+  ],
+  "2024-11-15": [
+    {
+      "desc": "Gedünstetes Seelachsfilet auf Spinat-Kartoffel-Gratin, überbacken mit Tomate und Mozzarella",
+      "price": 9.90
+    }
+  ],
+  "2024-W46": [
+    {
+      "desc": "Pasta mit Rote-Bete-Pesto, dazu geröstete Haselnüsse, frittierter Rucola und Parmesan (veget.)",
+      "price": 10.90
+    },
+    {
+      "desc": "Kürbislasagne, überbacken mit Mozzarella und Mandeln (veget.)",
+      "price": 12.40
+    },
+    {
+      "desc": "Lasagne \"Bolognese\" überbacken mit Gouda",
+      "price": 12.90
+    },
+    {
+      "desc": "Kartoffelgratin \"Griechischer Art\" mit Hackfleisch, Tomaten und Aubergine, überbacken mit Gouda",
+      "price": 12.90
+    },
+    {
+      "desc": "Soja-Kesselgulasch mit Baguette (vegan)",
+      "price": 6.90
+    }
+  ]
+}
