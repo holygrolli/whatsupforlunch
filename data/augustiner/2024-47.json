@@ -1,0 +1,43 @@
+{
+  "2024-11-18": [
+    {
+      "desc": "Schnitzel „Wiener Art“ mit Kartoffel-Gurken-Salat",
+      "price": 7.90
+    },
+    {
+      "desc": "Allgäuer Käsespätzle mit Röstzwiebeln",
+      "price": 7.90
+    }
+  ],
+  "2024-11-19": [
+    {
+      "desc": "Gänse-Curry mit Gemüse und Reis",
+      "price": 7.90
+    },
+    {
+      "desc": "Gemüse-Curry mit Reis",
+      "price": 7.90
+    }
+  ],
+  "2024-11-20": [],
+  "2024-11-21": [
+    {
+      "desc": "Mutzbraten mit Blumenkohl und Kroketten",
+      "price": 7.90
+    },
+    {
+      "desc": "Linsen-Eintopf mit Gemüse",
+      "price": 7.90
+    }
+  ],
+  "2024-11-22": [
+    {
+      "desc": "Backfisch auf Kartoffel-Gurken-Salat mit Remoulade",
+      "price": 7.90
+    },
+    {
+      "desc": "Spirelli mit Tomatensauce und geriebenem Parmesan",
+      "price": 7.90
+    }
+  ]
+}
