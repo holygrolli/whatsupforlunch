@@ -1,0 +1,57 @@
+{
+  "2024-11-18": [
+    {
+      "desc": "Eisbein Scheiben, Sauerkraut, Kartoffeln",
+      "price": 6.90
+    },
+    {
+      "desc": "Seelachs in Honig Senfsauce, Kartoffelstampf",
+      "price": 6.90
+    }
+  ],
+  "2024-11-19": [
+    {
+      "desc": "2 Jägerschnitzel, Nudel+Tomatensauce",
+      "price": 6.90
+    },
+    {
+      "desc": "Kürbisbraten gefüllt mit Maronen+Wildreis",
+      "price": 6.90
+    }
+  ],
+  "2024-11-20": [],
+  "2024-11-21": [
+    {
+      "desc": "Schnitzel -Schwein-, Mischgemüse, Kartoffeln",
+      "price": 6.90
+    },
+    {
+      "desc": "Nudel Brokkoli Auflauf",
+      "price": 6.90
+    }
+  ],
+  "2024-11-22": [
+    {
+      "desc": "Hähnchengeschnetzeltes, Reis",
+      "price": 6.90
+    },
+    {
+      "desc": "Milchreis, heiße Kirschen, Z+Z",
+      "price": 6.90
+    }
+  ],
+  "2024-W47": [
+    {
+      "desc": "Pasta+Linsenbolognese",
+      "price": 5.50
+    },
+    {
+      "desc": "Pasta +Wurstgulasch",
+      "price": 5.50
+    },
+    {
+      "desc": "Pasta mit grüner Pesto+Feta",
+      "price": 5.50
+    }
+  ]
+}
