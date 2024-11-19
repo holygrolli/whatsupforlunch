@@ -1,0 +1,56 @@
+{
+  "2024-11-18": [],
+  "2024-11-19": [
+    {
+      "desc": "Schweineschnitzel \"Western\" mit BBQ-Zwiebeln, Bacon und gebackenen Kartoffelecken, dazu Sour Cream",
+      "price": 9.80
+    },
+    {
+      "desc": "Gebackene Rote Bete mit Spinat, Haselnüssen und Hirtenkäse, dazu Baguette (veget.)",
+      "price": 9.20
+    }
+  ],
+  "2024-11-20": [],
+  "2024-11-21": [
+    {
+      "desc": "Gebackene Hähnchenbrust in Cornflakes-Panade, dazu gebratene Mie-Nudeln mit buntem Gemüse, Sweet Chilisoße und Röstzwiebeln",
+      "price": 9.80
+    },
+    {
+      "desc": "Gerösteter Blumenkohl auf rotem Linsencurry mit Paprika und Lauchzwiebeln (vegan)",
+      "price": 9.20
+    }
+  ],
+  "2024-11-22": [
+    {
+      "desc": "Fischcurry mit buntem Gemüse und Sesamreis",
+      "price": 9.90
+    }
+  ],
+  "2024-W47": [
+    {
+      "desc": "Pasta mit Kürbis-Pesto, dazu geröstete Mandeln, Cranberries und Parmesan (veget.)",
+      "price": 10.90
+    },
+    {
+      "desc": "Mangold-Curry-Lasagne überbacken mit Mozzarella und Sesam (veget.)",
+      "price": 12.40
+    },
+    {
+      "desc": "Lasagne \"Bolognese\" überbacken mit Gouda",
+      "price": 12.90
+    },
+    {
+      "desc": "Spinat-Süßkartoffel-Gratin mit Kokosmilch, überbacken mit Mozzarella und Sonnenblumenkernen",
+      "price": 12.90
+    },
+    {
+      "desc": "Kartoffelsuppe mit Baguette (vegan)",
+      "price": 6.20
+    },
+    {
+      "desc": "Kartoffelsuppe mit Baguette und gebratenen Würstchen",
+      "price": 6.50
+    }
+  ]
+}
