@@ -1,0 +1,66 @@
+{
+  "2024-11-25": [
+    {
+      "desc": "Hackbraten, Möhren, Kartoffeln",
+      "price": 6.90
+    },
+    {
+      "desc": "Gnocchi Auflauf mit Tomaten + Mozzarella",
+      "price": 6.90
+    }
+  ],
+  "2024-11-26": [
+    {
+      "desc": "Bauernfrühstück mit Speckwürfeln",
+      "price": 6.90
+    },
+    {
+      "desc": "Bauernfrühstück mit Grill Gemüse",
+      "price": 6.90
+    }
+  ],
+  "2024-11-27": [
+    {
+      "desc": "Schnitzel- Schwein, Pilzrahm, Bratkartoffeln",
+      "price": 6.90
+    },
+    {
+      "desc": "Hefeklöße mit rote Grütze, Vanillesauce",
+      "price": 6.90
+    }
+  ],
+  "2024-11-28": [
+    {
+      "desc": "Grützwurst, Sauerkraut, Kartoffeln",
+      "price": 6.90
+    },
+    {
+      "desc": "Curry mit Spinat, Kürbis, Kokosmilch, Reis",
+      "price": 6.90
+    }
+  ],
+  "2024-11-29": [
+    {
+      "desc": "Leber- Pute, Kartoffelstampf, Schmorrzwiebel",
+      "price": 6.90
+    },
+    {
+      "desc": "Seelachs mit Dillsauce+ Kartoffelstampf",
+      "price": 6.90
+    }
+  ],
+  "2024-W48": [
+    {
+      "desc": "Pasta, Hähnchengeschnetzeltes",
+      "price": 5.50
+    },
+    {
+      "desc": "Pasta mit Kürbis Walnuss Sauce",
+      "price": 5.50
+    },
+    {
+      "desc": "Pasta mit Pesto Rosse",
+      "price": 5.50
+    }
+  ]
+}
