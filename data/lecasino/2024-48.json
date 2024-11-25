@@ -1,0 +1,72 @@
+{
+  "2024-11-25": [
+    {
+      "desc": "Gemüsebolognese mit Sellerie, Möhren, Porree und Zwiebeln dazu Pasta",
+      "price": 3.50
+    },
+    {
+      "desc": "Linseneintopf mit Kartoffeln",
+      "price": 3.00
+    },
+    {
+      "desc": "Kohlroulade mit Bratensoße",
+      "price": 3.75
+    }
+  ],
+  "2024-11-26": [
+    {
+      "desc": "Paprika-Gurke-Tomaten-Eisbergsalat mit Hirtenkäse und Baguette",
+      "price": 4.70
+    },
+    {
+      "desc": "Kräuterquark mit Kartoffeln und Butter",
+      "price": 3.00
+    },
+    {
+      "desc": "Tiegelwurst mit Majoran und Zwiebeln",
+      "price": 3.90
+    }
+  ],
+  "2024-11-27": [
+    {
+      "desc": "Paprika-Tomaten-Reispfanne",
+      "price": 3.60
+    },
+    {
+      "desc": "Reisetopf mit Hähnchenfleisch",
+      "price": 3.00
+    },
+    {
+      "desc": "Spinat-Hackfleischpfanne mit Joghurt und Kartoffeln",
+      "price": 3.90
+    }
+  ],
+  "2024-11-28": [
+    {
+      "desc": "Salzkartoffeln mit Rahmspinat & Rührei",
+      "price": 3.90
+    },
+    {
+      "desc": "Hefeklöße mit Pflaumen",
+      "price": 3.00
+    },
+    {
+      "desc": "Schweinegeschnetzeltes \"Jäger Art\"",
+      "price": 3.85
+    }
+  ],
+  "2024-11-29": [
+    {
+      "desc": "Rote-Linsen-Lasagne",
+      "price": 4.25
+    },
+    {
+      "desc": "Eierragout mit Gemüse der Saison und Kartoffeln",
+      "price": 3.00
+    },
+    {
+      "desc": "Tagesangebot",
+      "price": null
+    }
+  ]
+}
