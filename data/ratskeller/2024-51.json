@@ -1,0 +1,92 @@
+{
+  "2024-12-16": [
+    {
+      "desc": "Soljanka mit Sauerrahm und Zitrone",
+      "price": 5.60
+    },
+    {
+      "desc": "Kräuterquark mit Zwiebeln, Butter und Petersilienkartoffeln",
+      "price": 6.10
+    },
+    {
+      "desc": "Hühnerfrikassee mit Karotten, Erbsen und Butterreis",
+      "price": 6.70
+    },
+    {
+      "desc": "Linsenbolognese mit Soja Hack, Rucola und Fusilli",
+      "price": 8.50
+    }
+  ],
+  "2024-12-17": [
+    {
+      "desc": "Kaiserschmarren mit Mandeln, Rosinen und Apfelmus",
+      "price": 5.00
+    },
+    {
+      "desc": "Pasta mit Tomatensoße und geriebenem Käse",
+      "price": 6.10
+    },
+    {
+      "desc": "Jägerschnitzel mit Tomatensoße und Pasta",
+      "price": 6.70
+    },
+    {
+      "desc": "Gebackene Süßkartoffel mit Kräuterdip und Salat",
+      "price": 8.50
+    }
+  ],
+  "2024-12-18": [
+    {
+      "desc": "Käse-Lauchsuppe mit Hackfleisch und Champignons",
+      "price": 5.60
+    },
+    {
+      "desc": "Kichererbsen-Süßkartoffel-Curry mit Korianderreis",
+      "price": 6.10
+    },
+    {
+      "desc": "Seelachsfilet „Bordelaise“ mit buntem Gemüse und Petersilienkartoffeln",
+      "price": 6.70
+    },
+    {
+      "desc": "Rinderbraten mit Apfel-Rotkohl und Kartoffelklößen",
+      "price": 8.50
+    }
+  ],
+  "2024-12-19": [
+    {
+      "desc": "Nougat-Topfen-Knödel mit Vanillerahm",
+      "price": 5.60
+    },
+    {
+      "desc": "Pasta mit Tomatensoße und geriebenem Käse",
+      "price": 6.10
+    },
+    {
+      "desc": "Kohlroulade mit Krautsoße und Petersilienkartoffeln",
+      "price": 6.70
+    },
+    {
+      "desc": "Falafel-Bowl mit Bulgur-Salat und Hummus",
+      "price": 8.50
+    }
+  ],
+  "2024-12-20": [
+    {
+      "desc": "Rotkohl-Cremesuppe mit Apfelstückchen",
+      "price": 5.60
+    },
+    {
+      "desc": "Käsespätz 'n „Allgäuer Art“ mit Röstzwiebeln",
+      "price": 6.10
+    },
+    {
+      "desc": "Brathering mit Salat, Zwiebeldressing und Petersilienkartoffeln",
+      "price": 6.70
+    },
+    {
+      "desc": "Schnitzelröllchen mit buntem Gemüse und Kartoffelgratin",
+      "price": 8.50
+    }
+  ]
+}
