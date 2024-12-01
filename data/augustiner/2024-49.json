@@ -1,0 +1,52 @@
+{
+  "2024-12-02": [
+    {
+      "desc": "Schnitzel „Wiener Art“ mit Kartoffel-Gurken-Salat",
+      "price": 7.90
+    },
+    {
+      "desc": "Allgäuer Käsespätzle mit Röstzwiebeln",
+      "price": 7.90
+    }
+  ],
+  "2024-12-03": [
+    {
+      "desc": "Chili con carne mit Schmand und Augustiner Hausbrot",
+      "price": 7.90
+    },
+    {
+      "desc": "Linsen-Chili mit Schmand und Augustiner Hausbrot",
+      "price": 7.90
+    }
+  ],
+  "2024-12-04": [
+    {
+      "desc": "Gezupftes Haxenfleisch in Meerrettichsauce mit Salzkartoffeln",
+      "price": 7.90
+    },
+    {
+      "desc": "Tortellini in Käse-Sahnesauce",
+      "price": 7.90
+    }
+  ],
+  "2024-12-05": [
+    {
+      "desc": "Augustiner Bratwurst mit Sauerkraut und Kartoffelpüree",
+      "price": 7.90
+    },
+    {
+      "desc": "Gnocchi mit Blattspinat in Rahm",
+      "price": 7.90
+    }
+  ],
+  "2024-12-06": [
+    {
+      "desc": "Backfisch auf Kartoffel-Gurken-Salat mit Remoulade",
+      "price": 7.90
+    },
+    {
+      "desc": "Ofenkartoffel mit Kräuterschmand an Blattsalaten",
+      "price": 7.90
+    }
+  ]
+}
