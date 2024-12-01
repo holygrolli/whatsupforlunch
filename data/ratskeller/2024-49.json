@@ -1,0 +1,92 @@
+{
+  "2024-12-02": [
+    {
+      "desc": "Weiße Bohnensuppe mit Kassler- und Kartoffelwürfeln",
+      "price": 5.60
+    },
+    {
+      "desc": "Zwei gekochte Eier mit Senfsoße, Rotkrautsalat und Petersilienkartoffeln",
+      "price": 6.10
+    },
+    {
+      "desc": "Hähnchencurry mit Blumenkohl, Kichererbsen und Reis",
+      "price": 6.70
+    },
+    {
+      "desc": "Vegane 'Currywurst' mit fruchtig-pikanter Soße und Kartoffelecken",
+      "price": 6.70
+    }
+  ],
+  "2024-12-03": [
+    {
+      "desc": "Hausgemachter Apfelstrudel mit Rosinen, dazu Vanillesoße",
+      "price": 5.00
+    },
+    {
+      "desc": "Pasta mit Tomatensoße und geriebenem Käse",
+      "price": 6.10
+    },
+    {
+      "desc": "Pasta mit Wurstgulasch und geriebenem Käse",
+      "price": 6.70
+    },
+    {
+      "desc": "Weißwürste mit süßem Senf, Brezel und Rettichsalat",
+      "price": 8.50
+    }
+  ],
+  "2024-12-04": [
+    {
+      "desc": "Chili con Carne",
+      "price": 5.60
+    },
+    {
+      "desc": "Gemüseschnitzel mit Erbsen und Kartoffelstampf",
+      "price": 6.10
+    },
+    {
+      "desc": "Szegediner Gulasch mit Sauerkraut und Böhmischen Knödeln",
+      "price": 6.70
+    },
+    {
+      "desc": "Blätterteigtasche 'Elsässer Art' mit Schmand, Speck und Zwiebeln, dazu Salat",
+      "price": 8.50
+    }
+  ],
+  "2024-12-05": [
+    {
+      "desc": "Milchreis mit Apfelmus und Zimtzucker",
+      "price": 5.60
+    },
+    {
+      "desc": "Pasta mit Tomatensoße und geriebenem Käse",
+      "price": 6.10
+    },
+    {
+      "desc": "Gefüllte Paprikaschote mit Tomatensoße und Spätzle",
+      "price": 6.70
+    },
+    {
+      "desc": "Panierte Champignons mit Sour Cream, Salat und Baguette",
+      "price": 8.50
+    }
+  ],
+  "2024-12-06": [
+    {
+      "desc": "Steckrüben-Eintopf mit Karotten und Kartoffeln",
+      "price": 5.60
+    },
+    {
+      "desc": "Toskanischer Gnocchi-Auflauf mit Tomaten, Rahm und Paprika",
+      "price": 6.90
+    },
+    {
+      "desc": "Zwei Jumbo-Fischstäbchen mit Soße & Kartoffelstampf",
+      "price": 6.70
+    },
+    {
+      "desc": "Lammhacksteak auf Ratatouille und Kroketten",
+      "price": 8.50
+    }
+  ]
+}
