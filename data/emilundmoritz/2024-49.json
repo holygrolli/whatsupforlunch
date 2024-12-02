@@ -1,0 +1,66 @@
+{
+  "2024-12-02": [
+    {
+      "desc": "Leberkäse, Bratkartoffeln, Spiegelei",
+      "price": 6.90
+    },
+    {
+      "desc": "Eierkuchen, Apfelmus, Z+Z",
+      "price": 6.90
+    }
+  ],
+  "2024-12-03": [
+    {
+      "desc": "Schnitzel- Schwein, Butterbohnen, Kartoffeln, Sauce",
+      "price": 6.90
+    },
+    {
+      "desc": "Kartoffel Brokkoli Gratin",
+      "price": 6.90
+    }
+  ],
+  "2024-12-04": [
+    {
+      "desc": "Mutsbraten, Sauerkraut, Kartoffeln",
+      "price": 6.90
+    },
+    {
+      "desc": "Schupfnudel Pfanne rustikal",
+      "price": 6.90
+    }
+  ],
+  "2024-12-05": [
+    {
+      "desc": "Gulasch gemischt, Knödel",
+      "price": 6.90
+    },
+    {
+      "desc": "Pilzgulasch, Knödel",
+      "price": 6.90
+    }
+  ],
+  "2024-12-06": [
+    {
+      "desc": "Grillwurst, Letscho, Reis",
+      "price": 6.90
+    },
+    {
+      "desc": "Seelachs, Karotten in Rahm, Kartoffelstampf",
+      "price": 6.90
+    }
+  ],
+  "2024-W49": [
+    {
+      "desc": "Pasta, Hähnchnegeschnetzeltes",
+      "price": 5.50
+    },
+    {
+      "desc": "Pasta mit Kürbis Walnuss Sauce",
+      "price": 5.50
+    },
+    {
+      "desc": "Pasta mit Pesto Rosso",
+      "price": 5.50
+    }
+  ]
+}
