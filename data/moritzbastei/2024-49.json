@@ -1,0 +1,47 @@
+{
+  "2024-12-02": [],
+  "2024-12-03": [
+    {
+      "desc": "Schweineschnitzel gefüllt mit Schinken und Käse, dazu Rahmerbsen, Salzkartoffeln und braune Soße",
+      "price": 9.80
+    },
+    {
+      "desc": "Gebackene Kartoffeltaschen an winterlichem Blattsalat mit gebratenem Kürbis, dazu Himbeerdressing und geröstete Mandeln (veget.)",
+      "price": 9.20
+    }
+  ],
+  "2024-12-04": [],
+  "2024-12-05": [
+    {
+      "desc": "Gebratene Lachswürfel auf Tagliatelle mit Kirschtomaten, frittiertem Rucola und Basilikumsoße",
+      "price": 9.80
+    },
+    {
+      "desc": "Gebratene Gnocchis auf mediterranem Gemüse mit Parmesan und gerösteten Sonnenblumenkernen (veget.)",
+      "price": 9.20
+    }
+  ],
+  "2024-12-06": [],
+  "2024-W49": [
+    {
+      "desc": "Pasta mit Paprika-Chili-Honigpesto, dazu geröstete Sonnenblumenkerne und Parmesan (veget.)",
+      "price": 10.90
+    },
+    {
+      "desc": "Lasagne \"Al Pesto\" mit Brokkoli, Waldpilzen und Kräuterpesto, überbacken mit Mozzarella (veget.)",
+      "price": 12.40
+    },
+    {
+      "desc": "Lasagne \"Bolognese\" überbacken mit Gouda",
+      "price": 12.90
+    },
+    {
+      "desc": "Hähnchengratin mit Penne und gebratener Zucchini in pikanter Tomatensoße, überbacken mit Hirtenkäse",
+      "price": 12.90
+    },
+    {
+      "desc": "Gemüsesoljanka mit Schmand und Baguette",
+      "price": 6.90
+    }
+  ]
+}
