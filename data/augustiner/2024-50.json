@@ -1,0 +1,52 @@
+{
+  "2024-12-09": [
+    {
+      "desc": "Schnitzel „Wiener Art“ mit Kartoffel-Gurken-Salat",
+      "price": 7.90
+    },
+    {
+      "desc": "Allgäuer Käsespätzle mit Röstzwiebeln",
+      "price": 7.90
+    }
+  ],
+  "2024-12-10": [
+    {
+      "desc": "Weihnachtliches Curry von der Gans mit Reis",
+      "price": 7.90
+    },
+    {
+      "desc": "Gemüse-Curry mit Reis",
+      "price": 7.90
+    }
+  ],
+  "2024-12-11": [
+    {
+      "desc": "Wurstgulasch mit Spirelli und geriebenem Käse",
+      "price": 7.90
+    },
+    {
+      "desc": "Spirelli mit mediterraner Gemüsesauce",
+      "price": 7.90
+    }
+  ],
+  "2024-12-12": [
+    {
+      "desc": "Fleischplflanzerl mit Mischgemüse und Salzkartoffeln",
+      "price": 7.90
+    },
+    {
+      "desc": "Gekochte Eier in Senfsauce mit Salzkartoffeln",
+      "price": 7.90
+    }
+  ],
+  "2024-12-13": [
+    {
+      "desc": "Backfisch auf Kartoffel-Gurken-Salat mit Remoulade",
+      "price": 7.90
+    },
+    {
+      "desc": "Vegetarisches Bauernfrühstück mit Fassgurke",
+      "price": 7.90
+    }
+  ]
+}
