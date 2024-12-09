@@ -1,0 +1,72 @@
+{
+  "2024-12-16": [
+    {
+      "desc": "Champignontopf mit Kräutersoße",
+      "price": 3.70
+    },
+    {
+      "desc": "Hausgemachte Kartoffelsuppe",
+      "price": 3.00
+    },
+    {
+      "desc": "Currywurst mit fruchtig-scharfer Currysoße",
+      "price": 3.85
+    }
+  ],
+  "2024-12-17": [
+    {
+      "desc": "Spaghetti „Primavera“ mit verschiedenen Gemüse",
+      "price": 4.20
+    },
+    {
+      "desc": "Kaiserschmarrn mit Rosinen und Apfelmus",
+      "price": 3.00
+    },
+    {
+      "desc": "Kartoffeltopf mit Kokosmilch und gebratenen Chiliwurstscheiben",
+      "price": 3.80
+    }
+  ],
+  "2024-12-18": [
+    {
+      "desc": "Paprika-Tomaten-Reispfanne",
+      "price": 3.90
+    },
+    {
+      "desc": "Erbseneintopf mit Kasseler Fleisch",
+      "price": 3.00
+    },
+    {
+      "desc": "Hackfleisch-Bolognese",
+      "price": 2.95
+    }
+  ],
+  "2024-12-19": [
+    {
+      "desc": "Tortellini mit Spinat-Ricotta-Füllung und einer Kräutersoße",
+      "price": 3.60
+    },
+    {
+      "desc": "Quarkkeulchen mit Apfelmus und Zimtzucker",
+      "price": 3.00
+    },
+    {
+      "desc": "Hähnchenschnitzel mit Bratensoße",
+      "price": 3.85
+    }
+  ],
+  "2024-12-20": [
+    {
+      "desc": "Kartoffelrösti mit Salat und Schnittlauch-Dip",
+      "price": 4.50
+    },
+    {
+      "desc": "Nudeln mit Tomatensoße und Käse",
+      "price": 3.00
+    },
+    {
+      "desc": "Tagesangebot",
+      "price": null
+    }
+  ]
+}
