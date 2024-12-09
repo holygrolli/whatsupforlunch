@@ -1,0 +1,66 @@
+{
+  "2024-12-09": [
+    {
+      "desc": "2 Jägerschnitzel, Penne, Tomaten Basilikum Sauce",
+      "price": 6.90
+    },
+    {
+      "desc": "Quarkkeulchen, Apfelmus Z+Z",
+      "price": 6.90
+    }
+  ],
+  "2024-12-10": [
+    {
+      "desc": "Hühnerfrikasse, Reis",
+      "price": 6.90
+    },
+    {
+      "desc": "Kichererbsencurry, Basmatireis",
+      "price": 6.90
+    }
+  ],
+  "2024-12-11": [
+    {
+      "desc": "Eisbein, Sauerkraut,Klöße",
+      "price": 6.90
+    },
+    {
+      "desc": "Tortellini Tosakana",
+      "price": 6.90
+    }
+  ],
+  "2024-12-12": [
+    {
+      "desc": "Geflügelleber, Kartoffelstampf, Schmorrzwiebeln",
+      "price": 6.90
+    },
+    {
+      "desc": "Lachs Gemüse Pfanne",
+      "price": 6.90
+    }
+  ],
+  "2024-12-13": [
+    {
+      "desc": "Rostbrätl, Bratkartoffeln, Schmorrzwiebeln",
+      "price": 6.90
+    },
+    {
+      "desc": "Kraut Kartoffel Pfanne",
+      "price": 6.90
+    }
+  ],
+  "2024-W50": [
+    {
+      "desc": "Pasta Bolognese",
+      "price": 5.50
+    },
+    {
+      "desc": "Pasta + Erbsenfrisch Käse Sauce+ Räucherlachs",
+      "price": 5.50
+    },
+    {
+      "desc": "Penne mit Pesto, Hirtenkäse Rucola",
+      "price": 5.50
+    }
+  ]
+}
