@@ -1,0 +1,61 @@
+{
+  "2024-12-09": [],
+  "2024-12-10": [
+    {
+      "desc": "Schweineschnitzel mit Spiegelei und Bratkartoffeln, dazu Tomatensalat",
+      "price": 9.80
+    },
+    {
+      "desc": "Mediterrane Gemüsebolognese u.a. mit Zucchini, Paprika und Aubergine, dazu Pasta und veganer Streukäse (vegan)",
+      "price": 9.20
+    }
+  ],
+  "2024-12-11": [
+    {
+      "desc": "Gebackene Hähnchenbrust in Parmesan-Panade mit gebratenen Zucchiniwürfeln und Rosmarinkartoffeln",
+      "price": 9.80
+    },
+    {
+      "desc": "Tortellini in Paprikarahm mit Lauchzwiebeln, überbacken mit Mozzarella und Sonnenblumenkernen (veget.)",
+      "price": 9.20
+    }
+  ],
+  "2024-12-12": [
+    {
+      "desc": "Jägerschnitzel mit Tomatensoße, dazu Pasta und Gouda",
+      "price": 9.80
+    },
+    {
+      "desc": "Sojageschnetzeltes mit Champignons und Lauch, dazu Rösti (vegan)",
+      "price": 9.20
+    }
+  ],
+  "2024-12-13": [
+    {
+      "desc": "Gebackenes Rotbarschfilet mit Zuckerschoten und Süßkartoffelstampf, dazu Limettensoße",
+      "price": 9.90
+    }
+  ],
+  "2024-W50": [
+    {
+      "desc": "Pasta mit Kichererbsen-Pesto, dazu getrocknete Tomaten und Parmesan (veget.)",
+      "price": 10.90
+    },
+    {
+      "desc": "Wirsing-Tomaten-Lasagne überbacken mit Hirtenkäse (veget.)",
+      "price": 12.40
+    },
+    {
+      "desc": "Lasagne \"Bolognese\" überbacken mit Gouda",
+      "price": 12.90
+    },
+    {
+      "desc": "Spitzkohl-Hackfleisch-Gratin mit Kartoffelwürfel, überbacken mit Mozzarella",
+      "price": 12.90
+    },
+    {
+      "desc": "Grüner Bohneneintopf mit Rindfleisch und Baguette",
+      "price": 6.90
+    }
+  ]
+}
