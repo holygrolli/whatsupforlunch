@@ -1,0 +1,52 @@
+{
+  "2024-12-16": [
+    {
+      "desc": "Schnitzel „Wiener Art“ mit Kartoffel-Gurken-Salat",
+      "price": 7.90
+    },
+    {
+      "desc": "Allgäuer Käsespätzle mit Röstzwiebeln",
+      "price": 7.90
+    }
+  ],
+  "2024-12-17": [
+    {
+      "desc": "Hühnerfrikassée mit Reis",
+      "price": 7.90
+    },
+    {
+      "desc": "Weißkohl-Eintopf mit Kartoffeln und buntem Gemüse",
+      "price": 7.90
+    }
+  ],
+  "2024-12-18": [
+    {
+      "desc": "Pulled Pork in BBQ-Sauce mit Kroketten",
+      "price": 7.90
+    },
+    {
+      "desc": "Rahmpilze mit Rösti-Taler",
+      "price": 7.90
+    }
+  ],
+  "2024-12-19": [
+    {
+      "desc": "Szegediner Gulasch mit Spätzle und Sauerrahm",
+      "price": 7.90
+    },
+    {
+      "desc": "Spätzlepfanne mit buntem Gemüse",
+      "price": 7.90
+    }
+  ],
+  "2024-12-20": [
+    {
+      "desc": "Backfisch auf Kartoffel-Gurken-Salat mit Remoulade",
+      "price": 7.90
+    },
+    {
+      "desc": "Eierkuchen mit Apfelmus",
+      "price": 7.90
+    }
+  ]
+}
