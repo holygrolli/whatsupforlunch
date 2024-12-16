@@ -1,0 +1,66 @@
+{
+  "2024-12-16": [
+    {
+      "desc": "Rinderbraten, Rorkohl, Kartoffeln",
+      "price": 6.90
+    },
+    {
+      "desc": "Brokkoli Nudelauflauf",
+      "price": 6.90
+    }
+  ],
+  "2024-12-17": [
+    {
+      "desc": "Brauhausgulasch, Spätzle",
+      "price": 6.90
+    },
+    {
+      "desc": "Kichererbsenfrikadelle, Kartoffelstampf, Möhren",
+      "price": 6.90
+    }
+  ],
+  "2024-12-18": [
+    {
+      "desc": "Bratwurst, Sauerkraut, Kartoffelstampf, Sauce",
+      "price": 6.90
+    },
+    {
+      "desc": "Kartoffel Pfanne mit Kitschtomaten+Rucola",
+      "price": 6.90
+    }
+  ],
+  "2024-12-19": [
+    {
+      "desc": "Schnitzel - Schwein-, Erbsen, Kartoffeln, Sauce",
+      "price": 6.90
+    },
+    {
+      "desc": "Couscous Gemüse Pfanne",
+      "price": 6.90
+    }
+  ],
+  "2024-12-20": [
+    {
+      "desc": "Paprika Sahne Hähnchen, Reis, Brokkoli",
+      "price": 6.90
+    },
+    {
+      "desc": "Spaghetti Carbonara mit Zucchini",
+      "price": 6.90
+    }
+  ],
+  "2024-W51": [
+    {
+      "desc": "Pasta Bolognese",
+      "price": 5.50
+    },
+    {
+      "desc": "Pasta + Erbsen Frischkäse Sauce, Räucherlachs",
+      "price": 5.50
+    },
+    {
+      "desc": "Penne mit Pesto, Hirtenkäse+Rucola",
+      "price": 5.50
+    }
+  ]
+}
