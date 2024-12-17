@@ -1,0 +1,61 @@
+{
+  "2024-12-16": [],
+  "2024-12-17": [
+    {
+      "desc": "Currywurst vom Kalb \"Nach Art des Hauses\" mit Kartoffelecken und Salatbeilage",
+      "price": 9.80
+    },
+    {
+      "desc": "Gnocchi in Basilikumsoße mit getrockneten Tomaten, dazu Parmesan und Sonnenblumenkerne (veget.)",
+      "price": 9.20
+    }
+  ],
+  "2024-12-18": [
+    {
+      "desc": "Schweineschnitzel mit Rahmblumenkohl, Salzkartoffeln und brauner Soße",
+      "price": 9.80
+    },
+    {
+      "desc": "Gebackener Hirtenkäse auf honigglasiertem Ofengemüse, dazu Paprika-Aioli (veget.)",
+      "price": 9.20
+    }
+  ],
+  "2024-12-19": [
+    {
+      "desc": "Königsberger Klopse in Kapernsoße, dazu Kartoffelstampf und Krautsalat",
+      "price": 9.80
+    },
+    {
+      "desc": "Pikanter Rahmwirsing mit Champignons, dazu Kräuterspätzle (veget.)",
+      "price": 9.20
+    }
+  ],
+  "2024-12-20": [
+    {
+      "desc": "Gedünstetes Seelachsfilet auf Kartoffel-Lauchgratin, überbacken mit Gouda",
+      "price": 9.90
+    }
+  ],
+  "2024-W51": [
+    {
+      "desc": "Pasta mit Petersilien-Erdnuss-Pesto, dazu Parmesan (veget.)",
+      "price": 10.90
+    },
+    {
+      "desc": "Kürbislasagne überbacken mit Mozzarella und Mandeln (veget.)",
+      "price": 12.40
+    },
+    {
+      "desc": "Lasagne \"Bolognese\" überbacken mit Gouda",
+      "price": 12.90
+    },
+    {
+      "desc": "Kartoffel-Brokkoli-Gratin mit gebratenen Hähnchenbruststreifen, überbacken mit Mozzarella",
+      "price": 12.90
+    },
+    {
+      "desc": "Soljanka mit Schmand und Baguette",
+      "price": 6.90
+    }
+  ]
+}
