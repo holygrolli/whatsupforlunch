@@ -1,0 +1,92 @@
+{
+    "2025-02-10": [
+        {
+            "desc": "Wirsingeintopf mit Kartoffeln und Krakauer-Scheiben",
+            "price": 5.60
+        },
+        {
+            "desc": "Back-Käse mit Zaziki, Krautsalat und Tomatenreis",
+            "price": 6.10
+        },
+        {
+            "desc": "Frikadelle mit bunten Karotten und Petersilienkartoffeln",
+            "price": 6.70
+        },
+        {
+            "desc": "Grünenrisotto mit Rosenkohl, Kürbis, Lauch und Rettich-Kresse",
+            "price": 8.50
+        }
+    ],
+    "2025-02-11": [
+        {
+            "desc": "Erdbeer-Topfenknödel mit Vanillesoße",
+            "price": 5.60
+        },
+        {
+            "desc": "Pasta mit Tomatensoße und geriebenem Käse",
+            "price": 6.10
+        },
+        {
+            "desc": "Jägerschnitzel mit Tomatensoße und Pasta",
+            "price": 6.70
+        },
+        {
+            "desc": "Jambalaya - kreolisches Reisgericht mit Hühnchen und Muscheln",
+            "price": 8.50
+        }
+    ],
+    "2025-02-12": [
+        {
+            "desc": "Reisintopf mit Gemüse-Julienne und Geflügelfleisch",
+            "price": 5.60
+        },
+        {
+            "desc": "2 gekochte Eier mit Senfsoße, Rotkrautsalat und Petersilienkartoffeln",
+            "price": 6.10
+        },
+        {
+            "desc": "Köttbullar mit Rahm-Champignons und Kartoffelstampf",
+            "price": 6.70
+        },
+        {
+            "desc": "Überraschungsgericht mit BIO-Gemüse von KOLA Leipzig",
+            "price": 8.50
+        }
+    ],
+    "2025-02-13": [
+        {
+            "desc": "Süße Schupfnudeln mit Beerensoße",
+            "price": 5.60
+        },
+        {
+            "desc": "Pasta mit Tomatensoße und geriebenem Käse",
+            "price": 6.10
+        },
+        {
+            "desc": "Szegediner Gulasch mit Sauerkraut und Böhmischen Knödeln",
+            "price": 6.70
+        },
+        {
+            "desc": "Tajine-Bällchen mit Baba Ghanoush und Bulgur-Salat",
+            "price": 8.50
+        }
+    ],
+    "2025-02-14": [
+        {
+            "desc": "Süßkartoffel-Ingwersuppe mit Koriander und Sesam",
+            "price": 5.60
+        },
+        {
+            "desc": "Spinat-Lasagne mit Ricotta, Frühlingslauch und Karotten",
+            "price": 6.10
+        },
+        {
+            "desc": "Krakauer mit Grünkohl und Petersilienkartoffeln",
+            "price": 6.70
+        },
+        {
+            "desc": "Panierter Schollenfilet mit Kartoffel-Gurkensalat",
+            "price": 8.50
+        }
+    ]
+}

@@ -1,0 +1,92 @@
+{
+  "2025-01-13": [
+    {
+      "desc": "Nudeleintopf mit Geflügelfleisch und Gemüse-Julienne",
+      "price": 5.60
+    },
+    {
+      "desc": "Kräuterrührei mit Rahmspinat und Petersilienkartoffeln",
+      "price": 6.10
+    },
+    {
+      "desc": "Hähnchencurry mit Blumenkohl, Kichererbsen und Reis",
+      "price": 6.70
+    },
+    {
+      "desc": "Miesmuscheln in Tomaten-Knoblauchsoße, dazu Linguine",
+      "price": 8.50
+    }
+  ],
+  "2025-01-14": [
+    {
+      "desc": "American Pancakes mit Aprikosenkompott",
+      "price": 5.60
+    },
+    {
+      "desc": "Pasta mit Tomatensoße und geriebenem Käse",
+      "price": 6.10
+    },
+    {
+      "desc": "Spaghetti 'Bolognese' mit geriebenem Käse",
+      "price": 6.70
+    },
+    {
+      "desc": "Quinoa-Grünkohlstrudel mit Linsensalat und Kürbispüree",
+      "price": 8.50
+    }
+  ],
+  "2025-01-15": [
+    {
+      "desc": "Erbseneintopf mit Kartoffelwürfeln und Bockwurst",
+      "price": 5.60
+    },
+    {
+      "desc": "Sellerieschnitzel auf bunten Karotten und Kräuterreis",
+      "price": 6.10
+    },
+    {
+      "desc": "Königsberger Klopse mit Kapernsoße, Bete Salat und Kartoffeln",
+      "price": 6.70
+    },
+    {
+      "desc": "Überraschungsgericht mit BIO-Gemüse von KOLA Leipzig",
+      "price": 8.50
+    }
+  ],
+  "2025-01-16": [
+    {
+      "desc": "Milchreis mit Apfelmus und Zimtzucker",
+      "price": 5.60
+    },
+    {
+      "desc": "Pasta mit Tomatensoße und geriebenem Käse",
+      "price": 6.10
+    },
+    {
+      "desc": "Schweine-Geschnetzeltes 'Züricher Art' mit Champignons und Spätzle",
+      "price": 6.70
+    },
+    {
+      "desc": "Wurzelgemüse aus dem Ofen mit Kräuterdip und Kartoffelspalten",
+      "price": 8.50
+    }
+  ],
+  "2025-01-17": [
+    {
+      "desc": "Waldpilzcremesuppe mit Thymian und Croûtons",
+      "price": 5.60
+    },
+    {
+      "desc": "Gemüse-Nuggets mit Buttererbsen und Kartoffelstampf",
+      "price": 6.10
+    },
+    {
+      "desc": "Seelachsfilet 'Bordelaise' mit Spinatsoße und Reis",
+      "price": 6.70
+    },
+    {
+      "desc": "Lammhacksteak auf Ratatouille und Kartoffelrösti",
+      "price": 8.50
+    }
+  ]
+}
