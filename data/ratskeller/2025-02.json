@@ -1,0 +1,92 @@
+{
+  "2025-01-06": [
+    {
+      "desc": "Soljanka mit Sauerrahm und Zitrone",
+      "price": 5.60
+    },
+    {
+      "desc": "Kartoffeltaschen mit Frischkäse, Kräuterdip und Salat",
+      "price": 6.10
+    },
+    {
+      "desc": "Hühnerfrikassee mit Karotten, Erbsen und Butterreis",
+      "price": 6.70
+    },
+    {
+      "desc": "Mediterraner Nudelsalat mit Mozzarellasticks und Rucola",
+      "price": 8.50
+    }
+  ],
+  "2025-01-07": [
+    {
+      "desc": "Sächsische Quarkkäulchen mit Apfelmus und Zimtzucker",
+      "price": 5.60
+    },
+    {
+      "desc": "Pasta mit Tomatensoße und geriebenem Käse",
+      "price": 6.10
+    },
+    {
+      "desc": "Pasta mit Wurstgulasch und geriebenem Käse",
+      "price": 6.70
+    },
+    {
+      "desc": "Veganer \"Backfisch\" mit Remoulade, Salat und Kartoffeln",
+      "price": 8.50
+    }
+  ],
+  "2025-01-08": [
+    {
+      "desc": "Grüner Bohneneintopf mit Rindfleisch und Kartoffelwürfeln",
+      "price": 5.60
+    },
+    {
+      "desc": "Chili sin Carne mit Kichererbsen, Mais und Reis",
+      "price": 6.10
+    },
+    {
+      "desc": "Thüringer Bratwurst mit Sauerkraut und Petersilienkartoffeln",
+      "price": 6.70
+    },
+    {
+      "desc": "Rigatoni Quattro Formaggi - wie beim Italiener…",
+      "price": null
+    }
+  ],
+  "2025-01-09": [
+    {
+      "desc": "Drei Hefeklöβe mit warmen Heidelbeeren",
+      "price": 5.60
+    },
+    {
+      "desc": "Pasta mit Tomatensoße und geriebenem Käse",
+      "price": 6.10
+    },
+    {
+      "desc": "Rindergulasch mit Pilzen, dazu Pasta",
+      "price": 6.70
+    },
+    {
+      "desc": "Hähnchen-Teriyaki-Bowl mit Glasnudelsalat und Koriander",
+      "price": 8.50
+    }
+  ],
+  "2025-01-10": [
+    {
+      "desc": "Rote-Bete-Cremesuppe mit Kartoffelcrunch und Kerbel",
+      "price": 5.60
+    },
+    {
+      "desc": "Käsespatz’n “Allgäuer Art” mit Röstzwiebeln",
+      "price": 6.10
+    },
+    {
+      "desc": "Currywurst mit fruchtig-pikanter Soße, dazu Kartoffelecken",
+      "price": 6.70
+    },
+    {
+      "desc": "Kabeljaufilet mit Fenchelrahm und Kartoffelgratin",
+      "price": 8.50
+    }
+  ]
+}

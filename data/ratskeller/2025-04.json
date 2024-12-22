@@ -1,0 +1,92 @@
+{
+    "2025-01-20": [
+        {
+            "desc": "Chili con Carne mit Hackfleisch, Mais und Kichererbsen",
+            "price": 5.60
+        },
+        {
+            "desc": "Kräuterquark mit Zwiebeln, Butter und Petersilienkartoffeln",
+            "price": 6.10
+        },
+        {
+            "desc": "Gyrospfanne mit Zaziki, Krautsalat und Tomatenreis",
+            "price": 6.70
+        },
+        {
+            "desc": "Vollkorn-Fusilli mit Linsenbolognese und Rucola",
+            "price": 8.50
+        }
+    ],
+    "2025-01-21": [
+        {
+            "desc": "Weiße Schokoladen-Lasagne mit Beerengrayout",
+            "price": 5.60
+        },
+        {
+            "desc": "Pasta mit Tomatensoße und geriebenem Käse",
+            "price": 6.10
+        },
+        {
+            "desc": "Jägerschnitzel mit Tomatensoße und Pasta",
+            "price": 6.70
+        },
+        {
+            "desc": "Bauernfrühstück mit Kartoffeln, Ei, Speck, Gurke, Remoulade und Salat",
+            "price": 8.50
+        }
+    ],
+    "2025-01-22": [
+        {
+            "desc": "Hausgemachter Linseneintopf mit Blutwurstwürfeln",
+            "price": 5.60
+        },
+        {
+            "desc": "Blumenkohl-Käsedalinoon mit buntem Gemüse und Reis",
+            "price": 6.10
+        },
+        {
+            "desc": "Hähnchen 'Cordon bleu' mit Buttererbsen und Petersilienkartoffeln",
+            "price": 6.70
+        },
+        {
+            "desc": "Spaghetti mit veganem 'Thunfisch', Tomaten, Oliven und Rucola",
+            "price": 8.50
+        }
+    ],
+    "2025-01-23": [
+        {
+            "desc": "Kaiserschmarr'n mit Rosinen, Mandeln und Apfelmus",
+            "price": 5.60
+        },
+        {
+            "desc": "Pasta mit Tomatensoße und geriebenem Käse",
+            "price": 6.10
+        },
+        {
+            "desc": "Kohlroulade mit Krautsoße und Petersilienkartoffeln",
+            "price": 6.70
+        },
+        {
+            "desc": "Falafel-Wrap mit Hummus, Koriander und Couscous-Salat",
+            "price": 8.50
+        }
+    ],
+    "2025-01-24": [
+        {
+            "desc": "Karotten-Ingwersuppe mit gerösteten Kürbiskernen",
+            "price": 5.60
+        },
+        {
+            "desc": "Gemüse-Köttbullar mit Waldpilzrahm und Kartoffelstampf",
+            "price": 6.10
+        },
+        {
+            "desc": "Seelachsfilet in Buttermilch-Dill Soße, dazu Risi Bisi",
+            "price": 6.70
+        },
+        {
+            "desc": "Schnitzelröllchen 'Obazda' mit Krautsalat und Breznknödeln",
+            "price": 8.50
+        }
+    ]
+}
