@@ -1,0 +1,33 @@
+{
+  "2024-12-23": [],
+  "2024-12-24": [],
+  "2024-12-25": [],
+  "2024-12-26": [
+    {
+      "desc": "Gefüllte Eierkuchen mit Paprika und Fetakäse",
+      "price": 3.90
+    },
+    {
+      "desc": "Grießbrei mit heißen Kirschen",
+      "price": 3.50
+    },
+    {
+      "desc": "Jägerschnitzel mit fruchtiger Tomatensoße",
+      "price": 3.50
+    }
+  ],
+  "2024-12-27": [
+    {
+      "desc": "Couscous- Gemüse-Pfanne und Joghurtdip",
+      "price": 3.50
+    },
+    {
+      "desc": "Schinkennudeln mit Sahnesoße",
+      "price": 3.50
+    },
+    {
+      "desc": "Tagesangebot",
+      "price": null
+    }
+  ]
+}
