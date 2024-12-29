@@ -1,11 +1,5 @@
 {
-  "2024-01-01": [
-    {
-      "desc": "Das Augustiner Team wünscht ihnen ein frohes neues Jahr!",
-      "price": 7.90
-    }
-  ],
-  "2024-01-02": [
+  "2024-12-30": [
     {
       "desc": "Schnitzel „Wiener Art“ mit Kartoffel-Gurken-Salat",
       "price": 7.90
@@ -15,33 +9,25 @@
       "price": 7.90
     }
   ],
-  "2024-01-03": [
+  "2024-12-31": [],
+  "2025-01-01": [],
+  "2025-01-02": [
     {
-      "desc": "Hühnerfrikassée mit Butterreis",
+      "desc": "Putenrollbraten mit Rotkohl und Kartoffelkloß",
       "price": 7.90
     },
     {
-      "desc": "Möhren-Ingwersuppe mit frischem Augustiner Brot",
+      "desc": "Wirsing-Eintopf mit Kartoffeln und Gemüse",
       "price": 7.90
     }
   ],
-  "2024-01-04": [
-    {
-      "desc": "Gezupftes Haxenfleisch mit Meerrettichsauce und Kartoffelpüree",
-      "price": 7.90
-    },
-    {
-      "desc": "Gebackener Blumenkohl mit Sc. Hollandaise und Kartoffelpüree",
-      "price": 7.90
-    }
-  ],
-  "2024-01-05": [
+  "2025-01-03": [
     {
       "desc": "Backfisch auf Kartoffel-Gurken-Salat mit Remoulade",
       "price": 7.90
     },
     {
-      "desc": "Kaiserschmarrn mit Apfelmus",
+      "desc": "Gebackener Blumenkohl mit Salzkartoffeln und Käsesauce",
       "price": 7.90
     }
   ]
