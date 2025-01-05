@@ -1,0 +1,52 @@
+{
+  "2025-01-06": [
+    {
+      "desc": "Schnitzel „Wiener Art“ mit Kartoffel-Gurken-Salat",
+      "price": 7.90
+    },
+    {
+      "desc": "Allgäuer Käsespätzle mit Röstzwiebeln",
+      "price": 7.90
+    }
+  ],
+  "2025-01-07": [
+    {
+      "desc": "Blut- und Leberwurst mit Kartoffelpüree und Sauerkraut",
+      "price": 7.90
+    },
+    {
+      "desc": "Weißwein-Risotto mit Champignons und Parmesan",
+      "price": 7.90
+    }
+  ],
+  "2025-01-08": [
+    {
+      "desc": "Hähnchenschenkel mit Rotkohl und Kloß",
+      "price": 7.90
+    },
+    {
+      "desc": "Gnocchi an Spinatrahmsauce",
+      "price": 7.90
+    }
+  ],
+  "2025-01-09": [
+    {
+      "desc": "Fleischpflanzerl mit Kroketten und Pfefferrahmsauce",
+      "price": 7.90
+    },
+    {
+      "desc": "Krautschupfnudeln mit Pfefferrahmsauce und Röstzwiebeln",
+      "price": 7.90
+    }
+  ],
+  "2025-01-10": [
+    {
+      "desc": "Backfisch auf Kartoffel-Gurken-Salat mit Remoulade",
+      "price": 7.90
+    },
+    {
+      "desc": "Gemüseschnitzel auf Kartoffel-Gurken-Salat mit Remoulade",
+      "price": 7.90
+    }
+  ]
+}
