@@ -1,0 +1,66 @@
+{
+  "2025-01-06": [
+    {
+      "desc": "Schweinebraten mit Rotkohl und Kartoffeln",
+      "price": 6.90
+    },
+    {
+      "desc": "Gemüserisotto mit gebr. Shrimps",
+      "price": 6.90
+    }
+  ],
+  "2025-01-07": [
+    {
+      "desc": "Hähnchenkeule dazu Tomatensoße und Reis",
+      "price": 6.90
+    },
+    {
+      "desc": "Nudel- Gemüseauflauf",
+      "price": 6.90
+    }
+  ],
+  "2025-01-08": [
+    {
+      "desc": "Schweineschnitzel mit Speckbohnen und Kartoffeln",
+      "price": 6.90
+    },
+    {
+      "desc": "Gnocchi- Gemüsepfanne",
+      "price": 6.90
+    }
+  ],
+  "2025-01-09": [
+    {
+      "desc": "Schweineleber auf Kartoffelstampf und Zwiebelgemüse",
+      "price": 6.90
+    },
+    {
+      "desc": "gebr. Fischfilet mit Dillsoße dazu Kartoffelstampf",
+      "price": 6.90
+    }
+  ],
+  "2025-01-10": [
+    {
+      "desc": "Krautroulade mit Kartoffeln",
+      "price": 6.90
+    },
+    {
+      "desc": "Kräuterquark und Kartoffeln dazu ein kl. Salat",
+      "price": 6.90
+    }
+  ],
+  "2025-W02": [
+    {
+      "desc": "Spaghetti mit Linsenbolognese",
+      "price": 5.50
+    },
+    {
+      "desc": "Pasta mit Hähnchengeschnetzeltem",
+      "price": 5.50
+    },
+    {
+      "desc": "Pasta in Shrimps- Sahnesoße",
+      "price": 5.50
+    }
+  ]
+}
