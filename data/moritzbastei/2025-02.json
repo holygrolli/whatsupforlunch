@@ -1,0 +1,61 @@
+{
+  "2025-01-06": [],
+  "2025-01-07": [
+    {
+      "desc": "Schweineschnitzel mit Rahmerbsen, Salzkartoffeln und brauner Soße",
+      "price": 9.80
+    },
+    {
+      "desc": "Pasta mit roten Linsen, Tomaten, Lauchzwiebeln und gerösteten Kichererbsen (vegan)",
+      "price": 9.20
+    }
+  ],
+  "2025-01-08": [
+    {
+      "desc": "Bauernfrühstück mit Gewürzgurke und Salatbeilage",
+      "price": 9.50
+    },
+    {
+      "desc": "Karottenpfanne mit Zuckerschoten, Kartoffeln und Petersilie, dazu geröstete Sonnenblumenkerne und Hirtenkäse (veget.)",
+      "price": 9.20
+    }
+  ],
+  "2025-01-09": [
+    {
+      "desc": "Wurstgulasch mit Paprika auf Pasta, dazu Gouda",
+      "price": 9.60
+    },
+    {
+      "desc": "Gebratener Blumenkohl mit Sc. Hollandaise und Salzkartoffeln, dazu Tomatensalat (veget.)",
+      "price": 8.70
+    }
+  ],
+  "2025-01-10": [
+    {
+      "desc": "Gebackenes Seelachsfilet unter Kartoffelkruste, dazu Senfsoße und Gurkensalat",
+      "price": 9.90
+    }
+  ],
+  "2025-W02": [
+    {
+      "desc": "Pasta mit Karotten-Ingwer-Pesto, dazu geröstete Haselnüsse und Parmesan (veget.)",
+      "price": 10.90
+    },
+    {
+      "desc": "Spinatlasagne mit getrockneten Tomaten, überbacken mit Mozzarella (veget.)",
+      "price": 12.40
+    },
+    {
+      "desc": "Lasagne \"Bolognese\" überbacken mit Gouda",
+      "price": 12.90
+    },
+    {
+      "desc": "Kürbis-Kartoffel-Gratin mit gebratenen Hähnchenbruststreifen und Zucchini, überbacken mit Mozzarella und Mandeln",
+      "price": 12.90
+    },
+    {
+      "desc": "Linseneintopf mit Kasseler, Wurzelgemüse und Baguette",
+      "price": 6.90
+    }
+  ]
+}
