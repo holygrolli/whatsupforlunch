@@ -1,0 +1,66 @@
+{
+  "2025-01-13": [
+    {
+      "desc": "Rinderbraten, Rotkohl, Klöße",
+      "price": 6.90
+    },
+    {
+      "desc": "Nudelgratin Toskana",
+      "price": 6.90
+    }
+  ],
+  "2025-01-14": [
+    {
+      "desc": "Putengeschnetzeltes, Spätzle",
+      "price": 6.90
+    },
+    {
+      "desc": "Süßkartoffel Rosenkohl Pfanne",
+      "price": 6.90
+    }
+  ],
+  "2025-01-15": [
+    {
+      "desc": "Seelachs paniert, Kartoffelpüree, Rahmspinat",
+      "price": 6.90
+    },
+    {
+      "desc": "Rahmspinat, Kartoffeln, 2 Spiegeleier",
+      "price": 6.90
+    }
+  ],
+  "2025-01-16": [
+    {
+      "desc": "2 Jägerschnitzel, Spirelli, Tomatensauce",
+      "price": 6.90
+    },
+    {
+      "desc": "Couscous Gemüse Pfanne",
+      "price": 6.90
+    }
+  ],
+  "2025-01-17": [
+    {
+      "desc": "Pasta mit Wurstgulasch, Käse",
+      "price": 6.90
+    },
+    {
+      "desc": "Kartoffeln, Kräuterquark, kl. Salat",
+      "price": 6.90
+    }
+  ],
+  "2025-W03": [
+    {
+      "desc": "Pasta mit Erbsenpürree, Räucherlachs",
+      "price": 5.50
+    },
+    {
+      "desc": "Pasta Arrabiata",
+      "price": 5.50
+    },
+    {
+      "desc": "Spaghetti mit Fleischbällchen, Fetarahmsauce",
+      "price": 5.50
+    }
+  ]
+}
