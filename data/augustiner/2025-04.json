@@ -1,0 +1,52 @@
+{
+  "2025-01-20": [
+    {
+      "desc": "Schnitzel „Wiener Art“ mit Kartoffel-Gurken-Salat",
+      "price": 8.50
+    },
+    {
+      "desc": "Allgäuer Käsespätzle mit Röstzwiebeln",
+      "price": 8.50
+    }
+  ],
+  "2025-01-21": [
+    {
+      "desc": "Gezupftes Haxenfleisch in Meerrettichsauce mit Salzkartoffeln",
+      "price": 8.50
+    },
+    {
+      "desc": "Penne Rigate in mediterraner Gemüsesauce",
+      "price": 8.50
+    }
+  ],
+  "2025-01-22": [
+    {
+      "desc": "Hackbraten mit Senfmöhren und Kartoffelpüree",
+      "price": 8.50
+    },
+    {
+      "desc": "Gemüsebratling mit Senfmöhren und Kartoffelpüree",
+      "price": 8.50
+    }
+  ],
+  "2025-01-23": [
+    {
+      "desc": "Hühnerfrikassee mit Erbsen und Champignons an Butterreis",
+      "price": 8.50
+    },
+    {
+      "desc": "Asiatische Gemüsepfanne mit Reis",
+      "price": 8.50
+    }
+  ],
+  "2025-01-24": [
+    {
+      "desc": "Backfisch auf Kartoffel-Gurken-Salat mit Remoulade",
+      "price": 8.50
+    },
+    {
+      "desc": "Kartoffelgnocchi mit Kirschtomaten in Gorgonzolasauce",
+      "price": 8.50
+    }
+  ]
+}
