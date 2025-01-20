@@ -1,0 +1,66 @@
+{
+  "2025-01-20": [
+    {
+      "desc": "Königsberger Klöpse in Kapernsauce, Kartoffeln",
+      "price": 6.90
+    },
+    {
+      "desc": "Tortellini Auflauf mit Tomaten Mozzarella",
+      "price": 6.90
+    }
+  ],
+  "2025-01-21": [
+    {
+      "desc": "Schnitzel, Pute, Möhren, Kartoffeln, Sauce",
+      "price": 6.90
+    },
+    {
+      "desc": "Blumenkohl Tikka Masala, Reis",
+      "price": 6.90
+    }
+  ],
+  "2025-01-22": [
+    {
+      "desc": "Leberkäse, Sauerkraut, Kartoffelstampf, Sauce",
+      "price": 6.90
+    },
+    {
+      "desc": "Fischstäbchen, Kartoffelstampf, Rahmspinat",
+      "price": 6.90
+    }
+  ],
+  "2025-01-23": [
+    {
+      "desc": "Rindergulasch, Spätzle",
+      "price": 6.90
+    },
+    {
+      "desc": "Kartoffel Gemüse Pfanne",
+      "price": 6.90
+    }
+  ],
+  "2025-01-24": [
+    {
+      "desc": "Schweinebraten, Erbsen, Kartoffeln",
+      "price": 6.90
+    },
+    {
+      "desc": "Schupfnudel Pfanne mit Tomatenrahm, Mozzarella",
+      "price": 6.90
+    }
+  ],
+  "2025-W04": [
+    {
+      "desc": "Pasta mit Erbsenpüree, Räucherlachs",
+      "price": 5.50
+    },
+    {
+      "desc": "Pasta Arrbiata",
+      "price": 5.50
+    },
+    {
+      "desc": "Spaghetti mit Fleischbällchen und Fetarahmsauce",
+      "price": 5.50
+    }
+  ]
+}
