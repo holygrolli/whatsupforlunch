@@ -1,0 +1,72 @@
+{
+    "2025-01-20": [
+        {
+            "desc": "Champignontopf mit Kräutersoße",
+            "price": 3.70
+        },
+        {
+            "desc": "Weißkrauttopf mit Schweinefleisch",
+            "price": 3.50
+        },
+        {
+            "desc": "Marinierter Hering in Sahnesoße mit Salzkartoffeln",
+            "price": 4.95
+        }
+    ],
+    "2025-01-21": [
+        {
+            "desc": "Gebackene Kartoffeltaschen mit Frischkäse gefüllt & gem. Salat",
+            "price": 4.20
+        },
+        {
+            "desc": "Tomatensuppe mit Croutons",
+            "price": 3.50
+        },
+        {
+            "desc": "Rostbrätel 'Thüringer Art'",
+            "price": 3.85
+        }       
+    ],
+    "2025-01-22": [
+        {
+            "desc": "Ofenkartoffel mit Quarkdip und ein kl. gemischter Salat",
+            "price": 3.95
+        },
+        {
+            "desc": "Zwei Eier in Senfsoße mit Kartoffeln",
+            "price": 3.50
+        },
+        {
+            "desc": "Lasagne al forno",
+            "price": 4.25
+        }
+    ],
+    "2025-01-23": [
+        {
+            "desc": "Kartoffelgulasch mit Paprika und Kräuterhaube",
+            "price": 3.80
+        },
+        {
+            "desc": "Kaiserschmarrn mit Rosinen und Apfelmus",
+            "price": 3.50
+        },
+        {
+            "desc": "Currywurst mit fruchtiger Currysauce",
+            "price": 3.85
+        }
+    ],
+    "2025-01-24": [
+        {
+            "desc": "Reisnudelsalat mit Tomate, Paprika und Hirtenkäse",
+            "price": 3.75
+        },
+        {
+            "desc": "Gemüse-Kartoffelauflauf mit Gouda überbacken",
+            "price": 3.50
+        },
+        {
+            "desc": "Tagesangebot",
+            "price": null
+        }
+    ]
+}
