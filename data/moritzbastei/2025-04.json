@@ -1,0 +1,77 @@
+{
+  "2025-01-20": [],
+  "2025-01-21": [
+    {
+      "desc": "Schweineschnitzel \"Gärtnerin\" überbacken mit Gemüse und Sc. Hollandaise, dazu Bratkartoffeln",
+      "price": 9.80
+    },
+    {
+      "desc": "Eier in Honig-Senfsoße, dazu Salzkartoffeln, frittierte Petersilie und Gurkensalat (veget.)",
+      "price": 9.20
+    }
+  ],
+  "2025-01-22": [
+    {
+      "desc": "Schwedische Hackbällchen \"Köttbullar\" mit Kartoffelpürree, crunchy Onions und Preiselbeer-Schmand",
+      "price": 9.80
+    },
+    {
+      "desc": "Mediterrane Gemüsebolognese u.a. mit Zucchini, Paprika und Aubergine, dazu Pasta und Gouda (veget.)",
+      "price": 9.20
+    }
+  ],
+  "2025-01-23": [
+    {
+      "desc": "Hähnchenschnitzel mit Rahmblumenkohl, Salzkartoffeln und brauner Soße",
+      "price": 9.80
+    },
+    {
+      "desc": "Brokkoli in Kichererbsenbackteig auf rotem Linsencurry mit Paprika und Lauchzwieblen (vegan)",
+      "price": 9.20
+    }
+  ],
+  "2025-01-24": [
+    {
+      "desc": "Gebratenes Seelachsfilet mit gebratenen Zucchiniwürfeln, rote Bete-Pürree und Zitronensoße",
+      "price": 9.90
+    }
+  ],
+  "2025-W04": [
+    {
+      "desc": "Pasta",
+      "price": 10.90
+    },
+    {
+      "desc": "Pasta mit Koriander-Petersilien-Pesto, dazu geröstete Haselnüsse und Parmesan (veget.)",
+      "price": 10.90
+    },
+    {
+      "desc": "Lasagne",
+      "price": 12.40
+    },
+    {
+      "desc": "Spitzkohl-Karotten-Lasagne überbacken mit Mozzarella und Sesam (veget.)",
+      "price": 12.40
+    },
+    {
+      "desc": "Lasagne \"Bolognese\" überbacken mit Gouda",
+      "price": 12.90
+    },
+    {
+      "desc": "Gratin",
+      "price": 12.90
+    },
+    {
+      "desc": "Kartoffelgratin \"Griechischer Art\" mit Hackfleisch, Tomaten und Aubergine, überbacken mit Gouda",
+      "price": 12.90
+    },
+    {
+      "desc": "Suppe",
+      "price": 6.90
+    },
+    {
+      "desc": "Hühnernudelsuppe mit Wurzelgemüse und Baguette",
+      "price": 6.90
+    }
+  ]
+}
