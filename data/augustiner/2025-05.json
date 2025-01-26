@@ -1,0 +1,52 @@
+{
+  "2025-01-27": [
+    {
+      "desc": "Schnitzel „Wiener Art“ mit Kartoffel-Gurken-Salat",
+      "price": 8.50
+    },
+    {
+      "desc": "Allgäuer Käsespätzle mit Röstzwiebeln",
+      "price": 8.50
+    }
+  ],
+  "2025-01-28": [
+    {
+      "desc": "Chili con carne mit frischem Augustiner Hausbrot",
+      "price": 8.50
+    },
+    {
+      "desc": "Chili sin carne aus Beluga Linsen mit frischem Hausbrot",
+      "price": 8.50
+    }
+  ],
+  "2025-01-29": [
+    {
+      "desc": "Wurstgulasch mit Spirelli und geriebenem Käse",
+      "price": 8.50
+    },
+    {
+      "desc": "Spaghetti in Basilikum-Pesto und Kirschtomaten",
+      "price": 8.50
+    }
+  ],
+  "2025-01-30": [
+    {
+      "desc": "Hähnchen-Ragout in Paprikarahm mit Reis",
+      "price": 8.50
+    },
+    {
+      "desc": "Ratatouille Gemüse mit Reis",
+      "price": 8.50
+    }
+  ],
+  "2025-01-31": [
+    {
+      "desc": "Backfisch auf Kartoffel-Gurken-Salat mit Remoulade",
+      "price": 8.50
+    },
+    {
+      "desc": "Gebackener Feta Käse an buntem Blattsalat",
+      "price": 8.50
+    }
+  ]
+}
