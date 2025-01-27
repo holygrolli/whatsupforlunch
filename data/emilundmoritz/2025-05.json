@@ -1,0 +1,66 @@
+{
+  "2025-01-27": [
+    {
+      "desc": "hausgemachte Boulette, Möhren, Kartoffeln",
+      "price": 6.90
+    },
+    {
+      "desc": "Couscous Gemüse Pfanne mit Paprike, Zucchini, Mais",
+      "price": 6.90
+    }
+  ],
+  "2025-01-28": [
+    {
+      "desc": "Bratwurst, Sauerkraut, Kartoffeln",
+      "price": 6.90
+    },
+    {
+      "desc": "Gnocchi mit frischen Spinat und leichter Gorgonzola Sauce",
+      "price": 6.90
+    }
+  ],
+  "2025-01-29": [
+    {
+      "desc": "Schnitzel- Schwein, Blumenkohl mit Brösel, Kartoffeln",
+      "price": 6.90
+    },
+    {
+      "desc": "Nudel Gratin mit Kirschtomaten und Tomatenrahm",
+      "price": 6.90
+    }
+  ],
+  "2025-01-30": [
+    {
+      "desc": "Hackbällchen Toskana, Reis",
+      "price": 6.90
+    },
+    {
+      "desc": "Risotto Primavera",
+      "price": 6.90
+    }
+  ],
+  "2025-01-31": [
+    {
+      "desc": "Brauhausgulasch, Spätzle",
+      "price": 6.90
+    },
+    {
+      "desc": "Seelachs Pfanne mit Spinat+Kirschtomaten in Rahm, Reis",
+      "price": 6.90
+    }
+  ],
+  "2025-W05": [
+    {
+      "desc": "Pasta mit Hackbällchen Jäger Art",
+      "price": 5.50
+    },
+    {
+      "desc": "Pasta mit Basilikum Pesto, Parmesan",
+      "price": 5.50
+    },
+    {
+      "desc": "Pasta mit Seelachs und Tomatenrahm",
+      "price": 5.50
+    }
+  ]
+}
