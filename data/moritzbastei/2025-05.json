@@ -1,0 +1,57 @@
+{
+  "2025-01-27": [],
+  "2025-01-28": [
+    {
+      "desc": "Schweineschnitzel mit Honig-Thymianmöhrchen, dazu Salzkartoffeln und braune Soße",
+      "price": 9.80
+    },
+    {
+      "desc": "Tagliatelle mit Zitronen-Basilikumsoße, dazu gebackene Kirschtomaten und Parmesan (veget.)",
+      "price": 9.20
+    }
+  ],
+  "2025-01-29": [
+    {
+      "desc": "Gebratener Leberkäse mit Spiegelei, dazu lauwarmer Speck-Kartoffelsalat",
+      "price": 9.80
+    },
+    {
+      "desc": "Sojagulasch mit geschmortem Spitzkohl, dazu Böhmische Knödel (veget.)",
+      "price": 9.20
+    }
+  ],
+  "2025-01-30": [
+    {
+      "desc": "Geschnetzeltes vom Schwein nach \"Züricher Art\" mit Champignons, dazu Kartoffelrösti",
+      "price": 9.80
+    },
+    {
+      "desc": "Gebackener Hirtenkäse auf verschiedenen Blattsalaten mit gebratenem Kürbis, Birnen und Mandeln, dazu Orangendressing (veget.)",
+      "price": 9.20
+    }
+  ],
+  "2025-01-31": [
+    {
+      "desc": "Gebackenes Seelachfilet mit Remoulade, Salzkartoffeln und Gurkensalat",
+      "price": 9.90
+    }
+  ],
+  "2025-W05": [
+    {
+      "desc": "Pasta mit Tomaten-Rosmarin-Pesto, dazu Walnüsse und Parmesan (veget.)",
+      "price": 10.90
+    },
+    {
+      "desc": "Lasagne \"Al Pesto\" mit Brokkoli, Waldpilzen und Kräuterpesto, überbacken mit Mozzarella (veget.)",
+      "price": 12.40
+    },
+    {
+      "desc": "Süßkartoffel-Spinatgratin mit gebratenen Hähnchenbruststreifen, überbacken mit Hirtenkäse und Sonnenblumenkernen",
+      "price": 12.90
+    },
+    {
+      "desc": "Kürbissuppe mit Kokosmilch und Kräutercroutons, dazu Baguette (vegan)",
+      "price": 6.90
+    }
+  ]
+}
