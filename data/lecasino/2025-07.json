@@ -1,0 +1,71 @@
+{
+  "2025-02-10": [
+    {
+      "desc": "Ofengemüse mit Backkartoffeln und Kräutercreme",
+      "price": 4.50
+    },
+    {
+      "desc": "Kohlrabi-Möhreneintopf",
+      "price": 3.50
+    },
+    {
+      "desc": "Ungarischer Kesselgulasch",
+      "price": 3.85
+    }
+  ],
+  "2025-02-11": [
+    {
+      "desc": "Kartoffelrösti mit Mediterranem Gemüse",
+      "price": 4.10
+    },
+    {
+      "desc": "Kräuterquark mit Kartoffeln und Butter",
+      "price": 3.50
+    },
+    {
+      "desc": "Wurstgulasch mit fruchtiger Tomatensoße",
+      "price": 2.95
+    }
+  ],
+  "2025-02-12": [
+    {
+      "desc": "Reissalat mit Tomaten, Paprika, Gurke und Kichererbsen",
+      "price": 3.80
+    },
+    {
+      "desc": "Grüne Bohnen eintopf",
+      "price": 3.50
+    },
+    {
+      "desc": "Schweineleber \"Berliner Art\" mit Apfel und Zwiebel",
+      "price": 3.50
+    }
+  ],
+  "2025-02-13": [
+    {
+      "desc": "Gnocchi-Feldsalat mit Tomate und Balkankäse",
+      "price": 4.70
+    },
+    {
+      "desc": "Kartoffelpuffer mit Zucker und Apfelmus",
+      "price": 3.50
+    },
+    {
+      "desc": "Schweineschnitzel \"Wiener-Art\"",
+      "price": 3.50
+    }
+  ],
+  "2025-02-14": [
+    {
+      "desc": "Vegetarische Bolognese mit Kidneybohnen, Gemüsemais und Dinkel-Pasta",
+      "price": 4.00
+    },
+    {
+      "desc": "Zwei Eier in Senfsoße mit Kartoffeln",
+      "price": 3.50
+    },
+    {
+      "desc": "Tagesangebot"
+    }
+  ]
+}

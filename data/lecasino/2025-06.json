@@ -1,0 +1,72 @@
+{
+  "2025-02-03": [
+    {
+      "desc": "Pasta aglio olio",
+      "price": 3.20
+    },
+    {
+      "desc": "Nudeleintopf mit Huhn und Gemüse",
+      "price": 3.50
+    },
+    {
+      "desc": "Panierter-Seelachs an einer Dill-Senfsoße",
+      "price": 3.85
+    }
+  ],
+  "2025-02-04": [
+    {
+      "desc": "Chili sin Carne mit Mandeln und Kurkumareis",
+      "price": 4.10
+    },
+    {
+      "desc": "Gemüsepfanne mit Kräuterkartoffeln",
+      "price": 3.50
+    },
+    {
+      "desc": "Nudelsalat mit Bratwurst",
+      "price": 4.35
+    }
+  ],
+  "2025-02-05": [
+    {
+      "desc": "Gemüseschnitzel mit kl. gem. Salat",
+      "price": 3.80
+    },
+    {
+      "desc": "Frikadellenbällchen mit Zwiebelsauce und Kartoffelpüree",
+      "price": 3.50
+    },
+    {
+      "desc": "Multigatwany- indische Currysuppe mit Hähnchenfleisch und Ingwer",
+      "price": 3.80
+    }
+  ],
+  "2025-02-06": [
+    {
+      "desc": "Käse-Spätzle mit Röstzwiebeln",
+      "price": 3.50
+    },
+    {
+      "desc": "Milchreis mit Zimt Zucker und Apfelmus",
+      "price": 3.50
+    },
+    {
+      "desc": "Sülze mit Remoulade",
+      "price": 3.20
+    }
+  ],
+  "2025-02-07": [
+    {
+      "desc": "Ofenkartoffel mit Schnittlauch-Dip und ein kl. gemischter Salat",
+      "price": 4.20
+    },
+    {
+      "desc": "Schinkenudeln mit Sahnesoße",
+      "price": 3.50
+    },
+    {
+      "desc": "Tagesangebot",
+      "price": null
+    }
+  ]
+}
