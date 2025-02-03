@@ -53,7 +53,7 @@ jobs:
           matrixStringifiedObject=$(cat ./matrix) # Use this as jq @sh not working right
           echo "::set-output name=matrix::$matrixStringifiedObject"
       - name: Archive all pdfs
-        uses: actions/upload-artifact@v3
+        uses: actions/upload-artifact@v4
         with:
           name: pdfs
           retention-days: ${{ github.event_name != 'workflow_dispatch' && '30' || '2' }}
@@ -81,7 +81,7 @@ jobs:
             github.event_name == 'schedule' && 'main' || ''
           }}
     - name: Download pdf artifacts
-      uses: actions/download-artifact@v3
+      uses: actions/download-artifact@v4
       with:
         name: pdfs
         path: downloadtmp
@@ -127,14 +127,14 @@ jobs:
         cp ${{ matrix.files }} ../success-pdfs
         cp final.json ../success-pdfs/$(date -d"$(jq -r 'keys[] | select(test("\\d{4}-\\d{2}-\\d{2}"))' final.json | sort | head -n 1)" +%Y-%V).json
     - name: Archive final files
-      uses: actions/upload-artifact@v3
+      uses: actions/upload-artifact@v4
       with:
-        name: success-pdfs
+        name: ${{ matrix.files }}-success-pdfs
         retention-days: 5
         path: |
           success-pdfs
     - name: Archive all tmp files
-      uses: actions/upload-artifact@v3
+      uses: actions/upload-artifact@v4
       with:
         name: ${{ matrix.files }}-processed
         retention-days: 5
@@ -153,15 +153,16 @@ jobs:
               github.event_name == 'schedule' && 'main' || ''
             }}
       - name: Download originally downloaded pdf artifacts
-        uses: actions/download-artifact@v3
+        uses: actions/download-artifact@v4
         with:
           name: pdfs
           path: downloadtmp
       - name: Download successfully processed pdf artifacts
-        uses: actions/download-artifact@v3
+        uses: actions/download-artifact@v4
         with:
-          name: success-pdfs
+          pattern: '*-success-pdfs'
           path: success-pdfs
+          merge-multiple: true
       - name: process csv with chatgpt
         working-directory: success-pdfs
         shell: bash

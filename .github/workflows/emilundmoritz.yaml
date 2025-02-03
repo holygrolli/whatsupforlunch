@@ -44,7 +44,7 @@ jobs:
           sed -n '/^\s*{$/,$p' chatgpt.json > final.json
           cp final.json ../data/emilundmoritz/$(date -d"$(jq -r 'keys[] | select(test("\\d{4}-\\d{2}-\\d{2}"))' final.json | sort | head -n 1)" +%Y-%V).json
       - name: Archive all tmp files
-        uses: actions/upload-artifact@v3
+        uses: actions/upload-artifact@v4
         with:
           name: emilundmoritz-processed
           retention-days: 5

@@ -44,7 +44,7 @@ jobs:
           matrixStringifiedObject=$(cat ./matrix) # Use this as jq @sh not working right
           echo "::set-output name=matrix::$matrixStringifiedObject"
       - name: Archive all pdfs
-        uses: actions/upload-artifact@v3
+        uses: actions/upload-artifact@v4
         with:
           name: pdfs
           retention-days: 30
@@ -78,7 +78,7 @@ jobs:
         git config --system --add safe.directory $PWD
         git pull
     - name: Download pdf artifacts
-      uses: actions/download-artifact@v3
+      uses: actions/download-artifact@v4
       with:
         name: pdfs
         path: tmp
@@ -100,7 +100,7 @@ jobs:
         cat ../data/augustiner/scraped_done.txt <(echo $'\n'$(cat scraped_links.txt | grep ${CURRENTFILE%_separated*})) | sort -u | grep . > scraped_done.txt
         cp scraped_done.txt ../data/augustiner/scraped_done.txt
     - name: Archive all tmp files
-      uses: actions/upload-artifact@v3
+      uses: actions/upload-artifact@v4
       with:
         name: ${{ matrix.files }}-processed
         retention-days: 5
