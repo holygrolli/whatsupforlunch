@@ -1,0 +1,57 @@
+{
+  "2025-02-03": [],
+  "2025-02-04": [
+    {
+      "desc": "Schweineschnitzel \"Au Four\" mit Bratkartoffeln und Krautsalat",
+      "price": 9.80
+    },
+    {
+      "desc": "Salbei-Gnocchi, dazu pikantes Kürbisragout, Cranberries und geröstete Mandeln (veget.)",
+      "price": 9.20
+    }
+  ],
+  "2025-02-05": [
+    {
+      "desc": "Hähnchengeschnetzeltes mit gebratener Zucchini, getrockneten Tomaten und Rosmarinkartoffeln",
+      "price": 9.80
+    },
+    {
+      "desc": "Gerösteter Blumenkohl auf Tomatencouscous mit Koriander-Petersiliensoße (veget.)",
+      "price": 9.20
+    }
+  ],
+  "2025-02-06": [
+    {
+      "desc": "Currywurst nach \"Art des Hauses\" mit Kartoffelecken und Salatbeilage",
+      "price": 9.80
+    },
+    {
+      "desc": "Cannelloni gefüllt mit Spinat in Gorgonzolasoße, überbacken mit Gouda und Mandeln (veget.)",
+      "price": 9.20
+    }
+  ],
+  "2025-02-07": [
+    {
+      "desc": "Gebratenes Seelachsfilet mit Kartoffel-Pastinakenstampf, Mandelbrokkoli und Tomaten-Sahnesoße",
+      "price": 9.90
+    }
+  ],
+  "2025-W06": [
+    {
+      "desc": "Pasta mit Dattel-Oliven-Pesto, dazu geröstete Mandeln und Parmesan (veget.)",
+      "price": 10.90
+    },
+    {
+      "desc": "Wirsing-Tomaten-Lasagne überbacken mit Mozzarella (veget.)",
+      "price": 12.40
+    },
+    {
+      "desc": "Spitzkohl-Hackfleisch-Gratin mit Kartoffelwürfel, überbacken mit Mozzarella und Sonnenblumenkernen",
+      "price": 12.90
+    },
+    {
+      "desc": "Soljanka mit Schmand, dazu Baguette",
+      "price": 6.90
+    }
+  ]
+}
