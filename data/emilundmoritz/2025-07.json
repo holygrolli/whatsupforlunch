@@ -1,0 +1,66 @@
+{
+  "2025-02-10": [
+    {
+      "desc": "Schnitzel Schwein, Rahm Kohlrabi, Kartoffeln",
+      "price": 6.90
+    },
+    {
+      "desc": "Kartoffel Pfanne mit Kirschtomaten, Rucola",
+      "price": 6.90
+    }
+  ],
+  "2025-02-11": [
+    {
+      "desc": "Sülze, Bratkartoffeln, Hausfrauensauce",
+      "price": 6.90
+    },
+    {
+      "desc": "Gemüse Lasagne",
+      "price": 6.90
+    }
+  ],
+  "2025-02-12": [
+    {
+      "desc": "Schweinebraten, Möhren, Kartoffeln",
+      "price": 6.90
+    },
+    {
+      "desc": "Reis Pfanne mit frischem Gemüse",
+      "price": 6.90
+    }
+  ],
+  "2025-02-13": [
+    {
+      "desc": "Szegenidiner Gulasch, Spätzle",
+      "price": 6.90
+    },
+    {
+      "desc": "Paprikaschote gefüllt mit Couscous, Tomatenrahm",
+      "price": 6.90
+    }
+  ],
+  "2025-02-14": [
+    {
+      "desc": "Currywurst, Pommes",
+      "price": 6.90
+    },
+    {
+      "desc": "Champignon Pfanne, Knödel",
+      "price": 6.90
+    }
+  ],
+  "2025-W07": [
+    {
+      "desc": "Spaghetti, Bolognese",
+      "price": 5.50
+    },
+    {
+      "desc": "Spirelli, Gulasch- Schwein-",
+      "price": 5.50
+    },
+    {
+      "desc": "Pasta mit Feta, Oliven, Rucola",
+      "price": 5.50
+    }
+  ]
+}
