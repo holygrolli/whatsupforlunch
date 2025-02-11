@@ -1,0 +1,61 @@
+{
+  "2025-02-10": [],
+  "2025-02-11": [
+    {
+      "desc": "Schweineschnitzel mit Prinzessbohnen, Salzkartoffeln und brauner Soße",
+      "price": 9.80
+    },
+    {
+      "desc": "Tortellini in Spinat-Gorgonzolasoße mit getrockneten Tomaten, überbacken mit Mozzarella und gerösteten Sonnenblumenkernen (veget.)",
+      "price": 9.20
+    }
+  ],
+  "2025-02-12": [
+    {
+      "desc": "Jägerklopse mit Champignons, dazu Kartoffelstampf und Bohnensalat",
+      "price": 9.80
+    },
+    {
+      "desc": "Kürbis-Kartoffel-Rösti mit Kresseschmand und Salatbeilage (veget.)",
+      "price": 9.20
+    }
+  ],
+  "2025-02-13": [
+    {
+      "desc": "Gyros mit gebackenen Kartoffelecken, Tzatziki und Krautsalat",
+      "price": 9.80
+    },
+    {
+      "desc": "Kohlrabischnitzel mit Kräutersoße, dazu Kartoffel-Karottenstampf und Röstzwiebeln (veget.)",
+      "price": 9.20
+    }
+  ],
+  "2025-02-14": [
+    {
+      "desc": "Gebratenes Seelachsfilet dazu Erbsen-Minzpüree, Zitronensoße und Süßkartoffelecken",
+      "price": 9.90
+    }
+  ],
+  "2025-W07": [
+    {
+      "desc": "Pasta",
+      "price": 10.90
+    },
+    {
+      "desc": "Pasta mit Paprika-Chili-Honig-Pesto, dazu geröstete Sonnenblumenkerne und Parmesan (veget.)",
+      "price": 10.90
+    },
+    {
+      "desc": "Fenchel-Tomaten-Lasagne mit gebratener Aubergine, überbacken mit Mozzarella und Thymian (veget.)",
+      "price": 12.90
+    },
+    {
+      "desc": "Hähnchengratin mit Penne und gebratener Zucchini in pikanter Tomatensoße, überbacken mit Hirtenkäse",
+      "price": 12.90
+    },
+    {
+      "desc": "Grüner Bohneneintopf mit Kasseler und Baguette",
+      "price": 7.50
+    }
+  ]
+}
