@@ -1,0 +1,52 @@
+{
+  "2025-02-17": [
+    {
+      "desc": "Schnitzel „Wiener Art“ mit Kartoffel-Gurken-Salat",
+      "price": 8.50
+    },
+    {
+      "desc": "Allgäuer Käsespätzle mit Röstzwiebeln",
+      "price": 8.50
+    }
+  ],
+  "2025-02-18": [
+    {
+      "desc": "„Jägerschnitzel“ - Panierte Jagdwurst mit Spirelli in Tomatensauce",
+      "price": 8.50
+    },
+    {
+      "desc": "Ratatouille-Gemüse mit Reis",
+      "price": 8.50
+    }
+  ],
+  "2025-02-19": [
+    {
+      "desc": "Putenrollbraten mit buntem Gemüse und Kartoffelpüree",
+      "price": 8.50
+    },
+    {
+      "desc": "Spätzlepfanne mit buntem Gemüse und Röstzwiebeln",
+      "price": 8.50
+    }
+  ],
+  "2025-02-20": [
+    {
+      "desc": "Gezupftes Haxenfleisch in Meerrettichsauce mit Salzkartoffeln",
+      "price": 8.50
+    },
+    {
+      "desc": "Linsen-Chili mit Schmand und Augustiner Hausbrot",
+      "price": 8.50
+    }
+  ],
+  "2025-02-21": [
+    {
+      "desc": "Backfisch auf Kartoffel-Gurken-Salat mit Remoulade",
+      "price": 8.50
+    },
+    {
+      "desc": "Reispfanne mit Asia-Gemüse",
+      "price": 8.50
+    }
+  ]
+}
