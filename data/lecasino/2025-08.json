@@ -1,0 +1,72 @@
+{
+  "2025-02-17": [
+    {
+      "desc": "Champignontopf mit Semmelknödel und Kräutersoße",
+      "price": 4.60
+    },
+    {
+      "desc": "Hausgemachte Kartoffelsuppe",
+      "price": 3.50
+    },
+    {
+      "desc": "Currywurst mit fruchtig-scharfer Currysoße",
+      "price": 3.85
+    }
+  ],
+  "2025-02-18": [
+    {
+      "desc": "Spaghetti 'Primavera' mit Paprika, Möhren, Zucchini und Broccoli-Gemüse",
+      "price": 4.20
+    },
+    {
+      "desc": "Kartoffel-Gurkensalat mit Köttbullarbällchen",
+      "price": 3.50
+    },
+    {
+      "desc": "Kartoffeltopf mit Kokosmilch und gebratenen Chiliwurstscheiben",
+      "price": 3.80
+    }
+  ],
+  "2025-02-19": [
+    {
+      "desc": "Salat mit Eisberg, Tomate Gurke und Paprika dazu Kräutercroutons und Sonnenblumenkerne",
+      "price": 4.30
+    },
+    {
+      "desc": "Erbseneintopf mit Kasseler Fleisch",
+      "price": 3.50
+    },
+    {
+      "desc": "Hackfleisch-Bolognese",
+      "price": 2.95
+    }
+  ],
+  "2025-02-20": [
+    {
+      "desc": "Reisnudelsalat mit Tomaten, Zucchini und Hirtenkäse",
+      "price": 4.40
+    },
+    {
+      "desc": "Quarkkeulchen mit Apfelmus und Zimt Zucker",
+      "price": 3.50
+    },
+    {
+      "desc": "Hähnchenschnitzel mit Bratensoße",
+      "price": 3.85
+    }
+  ],
+  "2025-02-21": [
+    {
+      "desc": "vegetarische Asiatische Gemüsepfanne mit Basmatireis",
+      "price": 4.20
+    },
+    {
+      "desc": "Nudeln mit Tomatensoße und Käse",
+      "price": 3.50
+    },
+    {
+      "desc": "Tagesangebot",
+      "price": null
+    }
+  ]
+}
