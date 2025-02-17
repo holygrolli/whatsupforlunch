@@ -1,0 +1,66 @@
+{
+  "2025-02-17": [
+    {
+      "desc": "Hähnchenkeule mit Zucchini-Paprikagemüse, Reis und Soße",
+      "price": 6.90
+    },
+    {
+      "desc": "Chilli sin Carne mit Reis",
+      "price": 6.90
+    }
+  ],
+  "2025-02-18": [
+    {
+      "desc": "Backfisch dazu Remoulade und Bratkartoffeln",
+      "price": 6.90
+    },
+    {
+      "desc": "Reisfrikadelle mit Rahmgemüse",
+      "price": 6.90
+    }
+  ],
+  "2025-02-19": [
+    {
+      "desc": "Schweineleber auf Kartoffelstampf und Zwiebelgemüse",
+      "price": 6.90
+    },
+    {
+      "desc": "Curry- Gemüsepfanne mit Reis",
+      "price": 6.90
+    }
+  ],
+  "2025-02-20": [
+    {
+      "desc": "Schweineschnitzel mit Schmandgurkensalat und Kartoffeln",
+      "price": 6.90
+    },
+    {
+      "desc": "Rührei mit Gurkensalat und Kartoffeln",
+      "price": 6.90
+    }
+  ],
+  "2025-02-21": [
+    {
+      "desc": "Kasslerbraten an Bayrischkraut und Kartoffeln",
+      "price": 6.90
+    },
+    {
+      "desc": "Quarkkeulchen dazu Apfelmus und Z+Z",
+      "price": 6.90
+    }
+  ],
+  "2025-W08": [
+    {
+      "desc": "Spaghetti Bolognese",
+      "price": 5.50
+    },
+    {
+      "desc": "Spirelli mit Schweinegulasch",
+      "price": 5.50
+    },
+    {
+      "desc": "Pasta mit Feta, Oliven und Rucola",
+      "price": 5.50
+    }
+  ]
+}
