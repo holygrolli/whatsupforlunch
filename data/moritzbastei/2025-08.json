@@ -1,0 +1,61 @@
+{
+  "2025-02-17": [],
+  "2025-02-18": [
+    {
+      "desc": "Schweineschnitzel mit Spiegelei und Bratkartoffeln, dazu Tomatensalat",
+      "price": 9.80
+    },
+    {
+      "desc": "Zucchini-Limetten-Tagliatelle mit gerösteten Sonnenblumenkernen und Parmesan (veget.)",
+      "price": 9.20
+    }
+  ],
+  "2025-02-19": [
+    {
+      "desc": "Hühnerfrikassee mit Spargel, Erbsen und Champignons, dazu Basmatireis",
+      "price": 9.80
+    },
+    {
+      "desc": "Sojageschnetzeltes nach \"Zürcher Art\" mit Champignons, dazu Kräuterspätzle (veget.)",
+      "price": 9.20
+    }
+  ],
+  "2025-02-20": [
+    {
+      "desc": "Jägerschnitzel mit Tomatensoße, dazu Pasta und Gouda",
+      "price": 9.80
+    },
+    {
+      "desc": "Frittierte Aubergine in Parmesanhülle, dazu Tomatenreis und Basilikum-Dip (veget.)",
+      "price": 9.20
+    }
+  ],
+  "2025-02-21": [
+    {
+      "desc": "Gedünstetes Seelachsfilet auf Kartoffel-Lauchgratin, überbacken mit Gouda",
+      "price": 9.90
+    }
+  ],
+  "2025-W08": [
+    {
+      "desc": "Pasta mit Cranberry-Haselnuss-Pesto, dazu frittierte Petersilie und Parmesan (veget.)",
+      "price": 10.90
+    },
+    {
+      "desc": "Kürbis-Spinat-Lasagne überbacken mit Mozzarella und Mandeln (veget.)",
+      "price": 12.90
+    },
+    {
+      "desc": "Kartoffelgratin \"Indsch\" mit gebratenen Hähnchenbruststreifen, Blumenkohl und Karotten",
+      "price": 12.90
+    },
+    {
+      "desc": "Kartoffelsuppe mit gebratenen Würsten und Baguette",
+      "price": 7.50
+    },
+    {
+      "desc": "Kartoffelsuppe mit Baguette (vegan)",
+      "price": 7.10
+    }
+  ]
+}
