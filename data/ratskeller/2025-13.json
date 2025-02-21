@@ -1,0 +1,92 @@
+{
+    "2025-03-24": [
+        {
+            "desc": "Hausgemachter Linseneintopf mit Blutwurstwürfeln",
+            "price": 5.60
+        },
+        {
+            "desc": "Gemüseschnitzel auf bunten Karotten und Kräuterreis",
+            "price": 6.10
+        },
+        {
+            "desc": "Grützwurst mit Sauerkraut und Petersilienkartoffeln",
+            "price": 6.70
+        },
+        {
+            "desc": "Fusilli mit Bärlauch-Pesto, Cherrytomaten und Hartkäse",
+            "price": 8.50
+        }
+    ],
+    "2025-03-25": [
+        {
+            "desc": "Kaiserschmarr'n mit Rosinen, Mandeln und Apfelmus",
+            "price": 5.60
+        },
+        {
+            "desc": "Pasta mit Tomatensoße und geriebenem Käse",
+            "price": 6.10
+        },
+        {
+            "desc": "Jägerschnitzel mit Tomatensoße und Pasta",
+            "price": 6.70
+        },
+        {
+            "desc": "Quinoa-Grünkohl-Strudel auf Kürbispüree und Linsensalat",
+            "price": 8.50
+        }
+    ],
+    "2025-03-26": [
+        {
+            "desc": "Käse-Lauchsuppe mit Hackfleisch und Champignons",
+            "price": 5.60
+        },
+        {
+            "desc": "Indisches rotes Linsen-Dhal mit Gurken-Raita und Reis",
+            "price": 6.10
+        },
+        {
+            "desc": "Currywurst mit fruchtig-pikanter Soße und Kartoffelecken",
+            "price": 6.70
+        },
+        {
+            "desc": "Überraschungsgericht mit BIO-Gemüse von KOLA Leipzig",
+            "price": 8.50
+        }
+    ],
+    "2025-03-27": [
+        {
+            "desc": "Grießbrei mit Pflaumenragout und Zimtzucker",
+            "price": 5.60
+        },
+        {
+            "desc": "Pasta mit Tomatensoße und geriebenem Käse",
+            "price": 6.10
+        },
+        {
+            "desc": "Hähnchen-Schnitzel auf buntem Gemüse und Kroketten",
+            "price": 6.70
+        },
+        {
+            "desc": "Bunte-Bete-Bowl mit Blumenkohl, Joghurt-Minz-Dip und Graupen",
+            "price": 8.50
+        }
+    ],
+    "2025-03-28": [
+        {
+            "desc": "Spargelsuppe mit Erdbeer-Chutney",
+            "price": 5.60
+        },
+        {
+            "desc": "Bunte Schupfnudeln mit Brokkoli-Käsesoße",
+            "price": 6.10
+        },
+        {
+            "desc": "Panierter Rotbarschfilet mit Rahmwirsing und Kartoffeln",
+            "price": 6.70
+        },
+        {
+            "desc": "Lammbraten mit Ras el-Hanout, bunten Bohnen und Bulgur",
+            "price": 8.50
+        }
+    ]
+}

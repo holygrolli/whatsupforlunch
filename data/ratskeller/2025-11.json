@@ -1,0 +1,92 @@
+{
+  "2025-03-10": [
+    {
+      "desc": "Borschtsch mit Rindfleisch, Bete, Kohl, Paprika und Schmand",
+      "price": 5.60
+    },
+    {
+      "desc": "Chili sin Carne mit Soja-Hack, Kichererbsen und Reis",
+      "price": 6.10
+    },
+    {
+      "desc": "Schweinesteak mit Schmorzwiebeln und Kartoffelstampf",
+      "price": 6.70
+    },
+    {
+      "desc": "Spaghetti aglio e olio mit Rucola, Cherrytomaten und Hartkäse",
+      "price": 8.50
+    }
+  ],
+  "2025-03-11": [
+    {
+      "desc": "Drei Eierkuchen mit Apfelmus und Zimtzucker",
+      "price": 5.00
+    },
+    {
+      "desc": "Pasta mit Tomatensosse und geriebenem Käse",
+      "price": 6.10
+    },
+    {
+      "desc": "Pasta mit Wurstgulasch und geriebenem Käse",
+      "price": 6.70
+    },
+    {
+      "desc": "Chicken-Bowl mit Edamame, Lauch, Koriander und Crispy-Reissalat",
+      "price": 8.50
+    }
+  ],
+  "2025-03-12": [
+    {
+      "desc": "Vegetarische Maultaschen mit Gemüsebrühe",
+      "price": 5.60
+    },
+    {
+      "desc": "Eierragout mit Erbsen, Karotten und Kartoffelstampf",
+      "price": 6.10
+    },
+    {
+      "desc": "Szegediner Gulasch mit Sauerkraut und Böhmischen Knödeln",
+      "price": 6.70
+    },
+    {
+      "desc": "Überraschungs-Gericht mit BIO-Gemüse von KOLA Leipzig",
+      "price": null
+    }
+  ],
+  "2025-03-13": [
+    {
+      "desc": "Kokosmilchreis mit Mango-Kompott",
+      "price": 5.60
+    },
+    {
+      "desc": "Pasta mit Tomatensosse und geriebenem Käse",
+      "price": 6.10
+    },
+    {
+      "desc": "Hühnerfrikassee mit Karotten, Erbsen und Butterreis",
+      "price": 6.70
+    },
+    {
+      "desc": "Rigatoni mit Trüffelrahm, Champignons und Lauch",
+      "price": 8.50
+    }
+  ],
+  "2025-03-14": [
+    {
+      "desc": "Indische Linsensuppe mit Ingwer, Koriander und Sesam",
+      "price": 5.60
+    },
+    {
+      "desc": "Gemüse-Nuggets auf Karotten und Schupfnudeln",
+      "price": null
+    },
+    {
+      "desc": "Brathering mit Beilagensalat, Salat und Petersilienkartoffeln",
+      "price": 6.70
+    },
+    {
+      "desc": "Schweinefilet mit Chimichurri, Paprika und Kroketten",
+      "price": 8.50
+    }
+  ]
+}
