@@ -1,0 +1,92 @@
+{
+    "2025-03-03": [
+        {
+            "desc": "Chili con Carne mit Hackfleisch, Mais und Kichererbsen",
+            "price": 5.60
+        },
+        {
+            "desc": "Eieromelette mit Rahmspinat und Petersilienkartoffeln",
+            "price": 6.10
+        },
+        {
+            "desc": "Seelachsfilet \"Bordelaise\" mit buntem Gemüse und Kräuterreis",
+            "price": 6.70
+        },
+        {
+            "desc": "Weißwürste mit süßem Senf, Krautsalat und Brezel",
+            "price": 8.50
+        }
+    ],
+    "2025-03-04": [
+        {
+            "desc": "Quark-Kräppelchen mit Apfelmus",
+            "price": 5.60
+        },
+        {
+            "desc": "Pasta mit Tomatensoße und geriebenem Käse",
+            "price": 6.10
+        },
+        {
+            "desc": "Jägerschnitzel mit Tomatensoße und Pasta",
+            "price": 6.70
+        },
+        {
+            "desc": "Soja-Geschnetzeltes \"Züricher Art\" mit Champignons und Reis",
+            "price": 8.50
+        }
+    ],
+    "2025-03-05": [
+        {
+            "desc": "Pichelsteiner Eintopf mit Schweinefleisch und buntem Gemüse",
+            "price": 5.60
+        },
+        {
+            "desc": "Vegan gefüllte Paprikaschote mit Tomatensoße und Reis",
+            "price": 6.10
+        },
+        {
+            "desc": "Rinderhacksteak mit Rahmwirsing und Petersilienkartoffeln",
+            "price": 6.70
+        },
+        {
+            "desc": "Bunte Gnocchi mit Vier-Käse-Soße und Lauch",
+            "price": 8.50
+        }
+    ],
+    "2025-03-06": [
+        {
+            "desc": "Nougat-Topfenknödel mit Vanillesoße",
+            "price": 5.60
+        },
+        {
+            "desc": "Pasta mit Tomatensoße und geriebenem Käse",
+            "price": 6.10
+        },
+        {
+            "desc": "Hackbällchen in Tomatensoße, dazu Pasta",
+            "price": 6.70
+        },
+        {
+            "desc": "Rinderroulade mit Apfelrotkohl und Kartoffelklößen",
+            "price": 8.50
+        }
+    ],
+    "2025-03-07": [
+        {
+            "desc": "Brokkoli-Cremesuppe mit Erbsenpüree",
+            "price": 5.60
+        },
+        {
+            "desc": "Käsespätzle in \"Allgäuer Art\" mit Röstzwiebeln",
+            "price": 6.10
+        },
+        {
+            "desc": "Hähnchenkeulen mit Äpfeln, Zwiebeln und Kartoffelstampf",
+            "price": 6.70
+        },
+        {
+            "desc": "Pangasiusfilet mit Gemülatakrustee, Mangold und buntem Gnocchi",
+            "price": 8.50
+        }
+    ]
+}
