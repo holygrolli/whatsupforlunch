@@ -1,0 +1,52 @@
+{
+  "2025-02-24": [
+    {
+      "desc": "Schnitzel „Wiener Art“ mit Kartoffel-Gurken-Salat",
+      "price": 8.50
+    },
+    {
+      "desc": "Allgäuer Käsespätzle mit Röstzwiebeln",
+      "price": 8.50
+    }
+  ],
+  "2025-02-25": [
+    {
+      "desc": "Hackbraten mit Senfmöhren und Kartoffelpüree",
+      "price": 8.50
+    },
+    {
+      "desc": "Kartoffel-Gnocchi mit Blattspinat in Käsesauce",
+      "price": 8.50
+    }
+  ],
+  "2025-02-26": [
+    {
+      "desc": "Hähnchenkeule mit Rotkohl und Kloß",
+      "price": 8.50
+    },
+    {
+      "desc": "Waldpilz-Ragout mit Rösti",
+      "price": 8.50
+    }
+  ],
+  "2025-02-27": [
+    {
+      "desc": "Chili con carne mit Schmand und Augustiner Hausbrot",
+      "price": 8.50
+    },
+    {
+      "desc": "Schupfnudel-Sauerkrautpfanne mit Röstzwiebeln",
+      "price": 8.50
+    }
+  ],
+  "2025-02-28": [
+    {
+      "desc": "Backfisch auf Kartoffel-Gurken-Salat mit Remoulade",
+      "price": 8.50
+    },
+    {
+      "desc": "Falafel Bällchen an lauwarmem Cous Cous Salat",
+      "price": 8.50
+    }
+  ]
+}
