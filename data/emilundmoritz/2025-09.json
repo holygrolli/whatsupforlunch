@@ -1,0 +1,66 @@
+{
+  "2025-02-24": [
+    {
+      "desc": "Zucchini- Hackpfanne mit Kartoffeln",
+      "price": 6.90
+    },
+    {
+      "desc": "Spiegelei mit Blattspinat und Kartoffeln",
+      "price": 6.90
+    }
+  ],
+  "2025-02-25": [
+    {
+      "desc": "Putenschnitzel, Rahmmischgemüse und Kartoffeln",
+      "price": 6.90
+    },
+    {
+      "desc": "Kaiserschmarrn mit Apfelmus und Beerenkompott",
+      "price": 6.90
+    }
+  ],
+  "2025-02-26": [
+    {
+      "desc": "Braumeistergulasch an Rosenkohl dazu Knödel",
+      "price": 6.90
+    },
+    {
+      "desc": "Kartoffelrösti mit Räucherlachs und Schmand",
+      "price": 6.90
+    }
+  ],
+  "2025-02-27": [
+    {
+      "desc": "Mutzbraten an Sauerkraut und Kartoffeln",
+      "price": 6.90
+    },
+    {
+      "desc": "Kartoffelauflauf",
+      "price": 6.90
+    }
+  ],
+  "2025-02-28": [
+    {
+      "desc": "Hackbällchen- Champignonpfanne und Bratkartoffeln",
+      "price": 6.90
+    },
+    {
+      "desc": "Linsen-Gemüsepfanne serviert mit Reis",
+      "price": 6.90
+    }
+  ],
+  "2025-W09": [
+    {
+      "desc": "Spaghetti in Schinken-Sahnesoße",
+      "price": 5.50
+    },
+    {
+      "desc": "Pasta mit Gemüsestreifen",
+      "price": 5.50
+    },
+    {
+      "desc": "Pasta mit Brokkoliröschen und Cashewnüsse",
+      "price": 5.50
+    }
+  ]
+}
