@@ -1,0 +1,57 @@
+{
+  "2025-02-24": [],
+  "2025-02-25": [
+    {
+      "desc": "Schweineschnitzel mit Rahmblumenkohl, Salzkartoffeln und brauner Soße",
+      "price": 9.80
+    },
+    {
+      "desc": "Gebackener Hirtenkäse auf Ratatouille-Gemüse, dazu Rosmarinkartoffeln (veget.)",
+      "price": 9.20
+    }
+  ],
+  "2025-02-26": [
+    {
+      "desc": "Frikadelle mit Speck-Rosenkohl, Salzkartoffeln und brauner Soße",
+      "price": 9.80
+    },
+    {
+      "desc": "Pikanter Fenchel mit Koskosmilch, dazu Orangencouscous und gegrillte Tomaten (vegan)",
+      "price": 9.20
+    }
+  ],
+  "2025-02-27": [
+    {
+      "desc": "Hähnchencurry mit buntem Gemüse in Kokossoße, dazu Basmatireis",
+      "price": 9.80
+    },
+    {
+      "desc": "Pasta \"Genovese\" mit grünen Bohnen, Kartoffeln und Basilikum-Pesto",
+      "price": 9.20
+    }
+  ],
+  "2025-02-28": [
+    {
+      "desc": "Gedünstetes Seelachsfilet auf Spinat-Kartoffelgratin, überbacken mit Tomate und Mozzarella",
+      "price": 9.90
+    }
+  ],
+  "2025-W09": [
+    {
+      "desc": "Pasta mit Petersilien-Macadamia-Pesto, dazu Kirschtomaten und Parmesan (veget.)",
+      "price": 10.90
+    },
+    {
+      "desc": "Kohlrabilasagne mit Karotten und Spitzkohl, überbacken mit Mozzarella (veget.)",
+      "price": 12.90
+    },
+    {
+      "desc": "Süßkartoffel-Hackfleisch-Gratin mit Tomaten und grünen Bohnen, überbacken mit Hirtenkäse",
+      "price": 12.90
+    },
+    {
+      "desc": "Linseneintopf mit Kasseler, Wurzelgemüse und Baguette",
+      "price": 7.50
+    }
+  ]
+}
