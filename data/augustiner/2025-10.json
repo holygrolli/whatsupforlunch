@@ -1,0 +1,52 @@
+{
+  "2025-03-03": [
+    {
+      "desc": "Schnitzel „Wiener Art“ mit Kartoffel-Gurken-Salat",
+      "price": 8.50
+    },
+    {
+      "desc": "Allgäuer Käsespätzle mit Röstzwiebeln",
+      "price": 8.50
+    }
+  ],
+  "2025-03-04": [
+    {
+      "desc": "Hähnchen-Ragout in Paprikarahm mit Reis",
+      "price": 8.50
+    },
+    {
+      "desc": "Kartoffel-Spinat-Auflauf mit Feta Käse",
+      "price": 8.50
+    }
+  ],
+  "2025-03-05": [
+    {
+      "desc": "Kasslerbraten mit Sauerkraut und Salzkartoffeln",
+      "price": 8.50
+    },
+    {
+      "desc": "Weißwein-Risotto mit Champignons",
+      "price": 8.50
+    }
+  ],
+  "2025-03-06": [
+    {
+      "desc": "Hackfleisch-Eintopf mit Lauch und Käse",
+      "price": 8.50
+    },
+    {
+      "desc": "Schupfnudelpfanne mit Rosenkohl",
+      "price": 8.50
+    }
+  ],
+  "2025-03-07": [
+    {
+      "desc": "Backfisch auf Kartoffel-Gurken-Salat mit Remoulade",
+      "price": 8.50
+    },
+    {
+      "desc": "Gemüseschnitzel an Kartoffel-Gurken-Salat",
+      "price": 8.50
+    }
+  ]
+}
