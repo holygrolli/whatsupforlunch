@@ -1,0 +1,66 @@
+{
+  "2025-03-03": [
+    {
+      "desc": "Grützwurst, Sauerkraut, Kartoffeln",
+      "price": 6.90
+    },
+    {
+      "desc": "Tortellini Pfanne mit Grillgemüse",
+      "price": 6.90
+    }
+  ],
+  "2025-03-04": [
+    {
+      "desc": "Schnitzel Hähnchen, Rahmpilze, Kartoffeln",
+      "price": 6.90
+    },
+    {
+      "desc": "Kohlrabi Schnitzel mit Mandelkruste, Kartoffelbrei, Kräutersauce",
+      "price": 6.90
+    }
+  ],
+  "2025-03-05": [
+    {
+      "desc": "Spirelli, Wurstgulasch",
+      "price": 6.90
+    },
+    {
+      "desc": "Kartoffelbrei, Mais in Rahm, Fischstäbchen",
+      "price": 6.90
+    }
+  ],
+  "2025-03-06": [
+    {
+      "desc": "Schweinebraten, Erbsen, Kartoffeln",
+      "price": 6.90
+    },
+    {
+      "desc": "Kartoffel Brokkoli Gratin",
+      "price": 6.90
+    }
+  ],
+  "2025-03-07": [
+    {
+      "desc": "Rostbrätl, Zwiebel geschmorrt, Bratkartoffeln",
+      "price": 6.90
+    },
+    {
+      "desc": "Bärlauch Gnocchi mit Tomaten, Feta",
+      "price": 6.90
+    }
+  ],
+  "2025-W10": [
+    {
+      "desc": "Spaghetti Schinken Sahne Sauce",
+      "price": 5.50
+    },
+    {
+      "desc": "Pasta mit Grillgemüse + Pesto",
+      "price": 5.50
+    },
+    {
+      "desc": "Pasta mit Brokkoli Röschen",
+      "price": 5.50
+    }
+  ]
+}
