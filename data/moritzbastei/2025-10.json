@@ -1,0 +1,61 @@
+{
+  "2025-03-03": [],
+  "2025-03-04": [
+    {
+      "desc": "Schweineschnitzel \"Western\" mit BBQ-Zwiebeln, Bacon und gebackenen Kartoffelecken, dazu Sour Cream",
+      "price": 9.80
+    },
+    {
+      "desc": "Eier in Honig-Senfsoße, dazu Salzkartoffeln, frittierte Petersilie und Gurkensalat (veget.)",
+      "price": 8.90
+    }
+  ],
+  "2025-03-05": [
+    {
+      "desc": "Königsberger Klopse in Kapernsoße, dazu Kartoffelstampf und Krautsalat",
+      "price": 9.80
+    },
+    {
+      "desc": "Mediterrane Gemüsebolognese u.a. mit Zucchini, Paprika und Aubergine, dazu Pasta und Gouda (veget.)",
+      "price": 9.20
+    }
+  ],
+  "2025-03-06": [
+    {
+      "desc": "Hähnchenschnitzel mit Rahmerbsen, Salzkartoffeln und brauner Soße",
+      "price": 9.80
+    },
+    {
+      "desc": "Pikanter Rahmwirsing mit Champignons, dazu Kräuterspätzle (veget.)",
+      "price": 9.20
+    }
+  ],
+  "2025-03-07": [
+    {
+      "desc": "Gebratenes Seelachsfilet mit pikantem Karotten-Pastinakengemüse, dazu Kräuter-Kartoffelstampf und Zitronensoße",
+      "price": 9.90
+    }
+  ],
+  "2025-W10": [
+    {
+      "desc": "Pasta",
+      "price": 10.90
+    },
+    {
+      "desc": "Pasta mit Rote-Bete-Pesto, dazu geröstete Erdnüsse, frittierter Rucola und Parmesan (veget.)",
+      "price": 10.90
+    },
+    {
+      "desc": "Waldpilz-Lasagne mit Röstzwiebeln, überbacken mit Mozzarella (veget.)",
+      "price": 12.90
+    },
+    {
+      "desc": "Kürbis-Kartoffel-Gratin mit gebratenen Hähnchenbruststreifen und Zucchini, überbacken mit Mozzarella und Mandeln",
+      "price": 12.90
+    },
+    {
+      "desc": "Currywurst nach \"Art des Hauses\" mit Baguette und Salatbeilage",
+      "price": 12.50
+    }
+  ]
+}
