@@ -1,0 +1,52 @@
+{
+  "2025-03-10": [
+    {
+      "desc": "Schnitzel „Wiener Art“ mit Kartoffel-Gurken-Salat",
+      "price": 8.50
+    },
+    {
+      "desc": "Allgäuer Käsespätzle mit Röstzwiebeln",
+      "price": 8.50
+    }
+  ],
+  "2025-03-11": [
+    {
+      "desc": "Thüringer Rostbratwurst mit Kartoffelpüree und Sauerkraut",
+      "price": 8.50
+    },
+    {
+      "desc": "Eier mit Grüner Sauce und Salzkartoffeln",
+      "price": 8.50
+    }
+  ],
+  "2025-03-12": [
+    {
+      "desc": "Kartoffel-Bohnen-Eintopf mit Schweinefleisch",
+      "price": 8.50
+    },
+    {
+      "desc": "Mediterrane Gemüse-Lasagne",
+      "price": 8.50
+    }
+  ],
+  "2025-03-13": [
+    {
+      "desc": "Hühnerfrikassee mit Butterreis",
+      "price": 8.50
+    },
+    {
+      "desc": "Penne mit Gorgonzola-Sauce und Blattspinat",
+      "price": 8.50
+    }
+  ],
+  "2025-03-14": [
+    {
+      "desc": "Backfisch auf Kartoffel-Gurken-Salat mit Remoulade",
+      "price": 8.50
+    },
+    {
+      "desc": "Frischkäse-Taschen mit gemischtem Salat",
+      "price": 8.50
+    }
+  ]
+}
