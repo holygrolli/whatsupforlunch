@@ -1,0 +1,57 @@
+{
+  "2025-03-10": [],
+  "2025-03-11": [
+    {
+      "desc": "Schweineschnitzel \"Gärtnerin\" überbacken mit Sc. Hollandaise, dazu Bratkartoffeln",
+      "price": 9.80
+    },
+    {
+      "desc": "Gnocchi in Basilikumsoße mit getrockneten Tomaten, dazu Parmesan und Sonnenblumenkerne (veget.)",
+      "price": 8.90
+    }
+  ],
+  "2025-03-12": [
+    {
+      "desc": "Pasta mit Schinken-Sahnesoße, Lauchzwiebeln und Kirschtomaten",
+      "price": 9.80
+    },
+    {
+      "desc": "Gebackene Kartoffeltaschen gefüllt mit Frischkäse, auf verschiedenen Blattsalaten mit gebratenem Kürbis, Birne und Mandeln, dazu Orangendressing (veget.)",
+      "price": 9.20
+    }
+  ],
+  "2025-03-13": [
+    {
+      "desc": "Gebackene Paprikaschote gefüllt mit Hackfleisch, dazu Kartoffeln und pikante Tomatensoße",
+      "price": 9.80
+    },
+    {
+      "desc": "Pasta mit roten Linsen, Tomaten, Lauchzwiebeln und gerösteten Kichererbsen (vegan)",
+      "price": 9.20
+    }
+  ],
+  "2025-03-14": [
+    {
+      "desc": "Gebratenes Seelachsfilet mit Zuckerschoten und Süßkartoffelstampf, dazu Limettensoße",
+      "price": 9.90
+    }
+  ],
+  "2025-W11": [
+    {
+      "desc": "Geschnetzeltes vom Schwein nach \"Zürcher Art\" mit Champignons, dazu Basmatireis",
+      "price": 12.50
+    },
+    {
+      "desc": "Pasta mit Petersilien-Erdnuss-Pesto, dazu Parmesan (veget.)",
+      "price": 10.90
+    },
+    {
+      "desc": "Spinat-Lasagne mit getrockneten Tomaten, überbacken mit Mozzarella (veget.)",
+      "price": 12.90
+    },
+    {
+      "desc": "Kartoffel-Mangold-Gratin mit gebratenen Schweinerückenstreifen, in leichter Senfsoße, überbacken mit Mozzarella",
+      "price": 12.90
+    }
+  ]
+}
