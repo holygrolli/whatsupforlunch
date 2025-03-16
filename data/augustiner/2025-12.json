@@ -1,0 +1,52 @@
+{
+  "2025-03-17": [
+    {
+      "desc": "Schnitzel „Wiener Art“ mit Kartoffel-Gurkensalat",
+      "price": 8.50
+    },
+    {
+      "desc": "Allgäuer Käsespätzle mit Röstzwiebeln",
+      "price": 8.50
+    }
+  ],
+  "2025-03-18": [
+    {
+      "desc": "Haxenfleisch mit Meerrettichsauce und Salzkartoffeln",
+      "price": 8.50
+    },
+    {
+      "desc": "Spinat mit Rührei und Salzkartoffeln",
+      "price": 8.50
+    }
+  ],
+  "2025-03-19": [
+    {
+      "desc": "Paprika-Hähnchenragout mit Butterreis",
+      "price": 8.50
+    },
+    {
+      "desc": "Gemüsecurry mit Butterreis",
+      "price": 8.50
+    }
+  ],
+  "2025-03-20": [
+    {
+      "desc": "Spirelli mit Wurstgulasch und Käse",
+      "price": 8.50
+    },
+    {
+      "desc": "Gebackener Blumenkohl mit Kartoffelpüree und Käsesauce",
+      "price": 8.50
+    }
+  ],
+  "2025-03-21": [
+    {
+      "desc": "Backfisch auf Kartoffel-Gurken-Salat mit Remoulade",
+      "price": 8.50
+    },
+    {
+      "desc": "Vegetarisches Bauernfrühstück mit Fassgurke",
+      "price": 8.50
+    }
+  ]
+}
