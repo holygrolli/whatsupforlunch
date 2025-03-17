@@ -1,0 +1,66 @@
+{
+  "2025-03-17": [
+    {
+      "desc": "Holzfällerpfanne ( Bratkartoffeln mit Bratwurst und Spiegelei obenauf )",
+      "price": 6.90
+    },
+    {
+      "desc": "2 Eierkuchen mit Waldbeeren",
+      "price": 6.90
+    }
+  ],
+  "2025-03-18": [
+    {
+      "desc": "Putenrollbraten mit Semmelblumenkohl und Kartoffeln",
+      "price": 6.90
+    },
+    {
+      "desc": "Blumenkohl- Bohnencurry mit Basmatireis",
+      "price": 6.90
+    }
+  ],
+  "2025-03-19": [
+    {
+      "desc": "Putenschnitzel an Buttererbsen und Kartoffeln",
+      "price": 6.90
+    },
+    {
+      "desc": "Paella",
+      "price": 6.90
+    }
+  ],
+  "2025-03-20": [
+    {
+      "desc": "Schweinegulasch mit Klöße und Rotkohl",
+      "price": 6.90
+    },
+    {
+      "desc": "Spätzlepfanne mit Kirschtomaten und Zuckerschoten",
+      "price": 6.90
+    }
+  ],
+  "2025-03-21": [
+    {
+      "desc": "Eisbeinfleisch in Meerrettichsoße dazu Sauerkraut und Kartoffeln",
+      "price": 6.90
+    },
+    {
+      "desc": "Tortellini Toskana",
+      "price": 6.90
+    }
+  ],
+  "2025-W12": [
+    {
+      "desc": "Spaghetti in Thunfischsoße",
+      "price": 5.50
+    },
+    {
+      "desc": "Pasta mit Bärlauchpesto",
+      "price": 5.50
+    },
+    {
+      "desc": "Pasta mit Rindergeschnetzeltem",
+      "price": 5.50
+    }
+  ]
+}
