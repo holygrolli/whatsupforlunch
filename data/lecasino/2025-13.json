@@ -1,0 +1,71 @@
+{
+  "2025-03-24": [
+    {
+      "desc": "Gemüsebolognese mit Kichererbsen und Pasta",
+      "price": 3.90
+    },
+    {
+      "desc": "Reiseintopf mit Hähnchenfleisch",
+      "price": 3.50
+    },
+    {
+      "desc": "Kohlroulade mit Bratensoße",
+      "price": 3.75
+    }
+  ],
+  "2025-03-25": [
+    {
+      "desc": "Salzkartoffeln mit Rahmspinat & Rührei",
+      "price": 4.20
+    },
+    {
+      "desc": "Kräuterquark mit Kartoffeln und Butter",
+      "price": 3.50
+    },
+    {
+      "desc": "Tiegelwurst mit Majoran und Zwiebeln",
+      "price": 3.90
+    }
+  ],
+  "2025-03-26": [
+    {
+      "desc": "Paprika-Tomaten-Reispfanne",
+      "price": 3.90
+    },
+    {
+      "desc": "Linseneintopf mit Kartoffeln",
+      "price": 3.50
+    },
+    {
+      "desc": "Schweinehackbraten",
+      "price": 3.70
+    }
+  ],
+  "2025-03-27": [
+    {
+      "desc": "Bauernsalat mit Mehrkornbaguette",
+      "price": 4.80
+    },
+    {
+      "desc": "Germknödel mit Schokoladencremefüllung",
+      "price": 3.50
+    },
+    {
+      "desc": "Schweinegeschnetzeltes \"Jäger Art\"",
+      "price": 3.85
+    }
+  ],
+  "2025-03-28": [
+    {
+      "desc": "Rote-Linsen-Lasagne",
+      "price": 4.25
+    },
+    {
+      "desc": "Krautnudeln mit Schinken",
+      "price": 3.50
+    },
+    {
+      "desc": "Tagesangebot"
+    }
+  ]
+}
