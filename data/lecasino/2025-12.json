@@ -1,0 +1,51 @@
+{
+    "2025-03-17": [
+        {
+            "desc": "Graupenintopf mit Kasslerwürfel",
+            "price": 3.50
+        },
+        {
+            "desc": "Wurstgulasch mit Tomatensoße",
+            "price": 2.95
+        }
+    ],
+    "2025-03-18": [
+        {
+            "desc": "Kräuterquark mit Kartoffeln und Butter",
+            "price": 3.50
+        },
+        {
+            "desc": "Rindergulasch",
+            "price": 4.20
+        }
+    ],
+    "2025-03-19": [
+        {
+            "desc": "Möhren-Kartoffeleintopf mit Schweinefleisch",
+            "price": 3.50
+        },
+        {
+            "desc": "Geschnetzelte Pasta mit Porree und Hackfleisch",
+            "price": 3.70
+        }
+    ],
+    "2025-03-20": [
+        {
+            "desc": "Kartoffelpuffer mit Apfelmus und Zucker",
+            "price": 3.50
+        },
+        {
+            "desc": "Schnitzel „Münchner Art“ mit Meerrettich-Senf-Panade",
+            "price": 3.75
+        }
+    ],
+    "2025-03-21": [
+        {
+            "desc": "Bauerntopf",
+            "price": 3.50
+        },
+        {
+            "desc": "Tagesangebot"
+        }
+    ]
+}
