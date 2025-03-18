@@ -1,0 +1,73 @@
+{
+  "2025-03-17": [],
+  "2025-03-18": [
+    {
+      "desc": "Schweineschnitzel gefüllt mit Schinken und Käse, dazu Rahmerbsen, Salzkartoffeln und braune Soße",
+      "price": 9.80
+    },
+    {
+      "desc": "Karotten-Pfanne mit Zuckerschoten, Kartoffeln und Petersilie, dazu geröstete Sonnenblumenkerne und Hirtenkäse (veget.)",
+      "price": 8.90
+    }
+  ],
+  "2025-03-19": [
+    {
+      "desc": "Gebackene Hähnchenbrust in Parmesan-Panade, dazu Paprika-Tomatengemüse und Rosmarinkartoffeln",
+      "price": 9.80
+    },
+    {
+      "desc": "Sojagulasch mit geschmortem Weißkohl und Petersilien-Kartoffeln (veget.)",
+      "price": 9.20
+    }
+  ],
+  "2025-03-20": [
+    {
+      "desc": "Wurstgulasch mit Paprika auf Pasta, dazu Gouda",
+      "price": 9.80
+    },
+    {
+      "desc": "Cannelloni gefüllt mit Hirtenkäse in pikanter Tomatensoße, überbacken mit Gouda und Sonnenblumenkernen (veget.)",
+      "price": 9.20
+    }
+  ],
+  "2025-03-21": [
+    {
+      "desc": "Gebratenes Seelachsfilet in Pringles-Panade, dazu Süßkartoffelspalten, Chili-Maiscreme und Tomatensalat",
+      "price": 9.90
+    }
+  ],
+  "2025-W12": [
+    {
+      "desc": "Pasta",
+      "price": 10.90
+    },
+    {
+      "desc": "Pasta mit Kichererbsen-Pesto, dazu getrocknete Tomaten, geröstete Sonnenblumenkerne und Parmesan (veget.)",
+      "price": 10.90
+    },
+    {
+      "desc": "Lasagne",
+      "price": 12.90
+    },
+    {
+      "desc": "Spitzkohl-Karottenlasagne überbacken mit Mozzarella und Sesam (veget.)",
+      "price": 12.90
+    },
+    {
+      "desc": "Gratin",
+      "price": 12.90
+    },
+    {
+      "desc": "Kartoffelgratin \"Griechischer Art\" mit Hackfleisch, Tomaten und Aubergine, überbacken mit Gouda",
+      "price": 12.90
+    },
+    {
+      "desc": "Extra",
+      "price": 12.90
+    },
+    {
+      "desc": "Hähnchengeschnetzeltes mit getrockneten Tomaten und gebratener Zucchini, dazu Basmatireis",
+      "price": 12.90
+    }
+  ]
+}
