@@ -1,0 +1,52 @@
+{
+  "2025-03-24": [
+    {
+      "desc": "Schnitzel „Wiener Art“ mit Kartoffel-Gurken-Salat",
+      "price": 8.50
+    },
+    {
+      "desc": "Allgäuer Käsespätzle mit Röstzwiebeln",
+      "price": 8.50
+    }
+  ],
+  "2025-03-25": [
+    {
+      "desc": "Hackfleisch-Käse-Lauchsuppe",
+      "price": 8.50
+    },
+    {
+      "desc": "Spätzle-Pilzpfanne",
+      "price": 8.50
+    }
+  ],
+  "2025-03-26": [
+    {
+      "desc": "Hähnchen-Geschnetzeltes „Jäger Art“ mit Kartoffelpuffer",
+      "price": 8.50
+    },
+    {
+      "desc": "Falafel mit lauwarmen Cous Cous und Minz-Dip",
+      "price": 8.50
+    }
+  ],
+  "2025-03-27": [
+    {
+      "desc": "Hackbraten mit Möhrenscheiben und Kartoffelpüree",
+      "price": 8.50
+    },
+    {
+      "desc": "Griechischer Salat mit Feta Käse und Oliven",
+      "price": 8.50
+    }
+  ],
+  "2025-03-28": [
+    {
+      "desc": "Backfisch auf Kartoffel-Gurken-Salat mit Remoulade",
+      "price": 8.50
+    },
+    {
+      "desc": "Gemüseschnitzel auf Kartoffel-Gurken-Salat mit Remoulade",
+      "price": 8.50
+    }
+  ]
+}
