@@ -1,0 +1,66 @@
+{
+  "2025-03-24": [
+    {
+      "desc": "2 Jägerschnitzel, Nudeln+Tomatensauce",
+      "price": 6.90
+    },
+    {
+      "desc": "Gnocchi mit Spinatrahm",
+      "price": 6.90
+    }
+  ],
+  "2025-03-25": [
+    {
+      "desc": "Schnitzel Schwein, Rahm Kohlrabi, Kartoffeln",
+      "price": 6.90
+    },
+    {
+      "desc": "Schnitzel Sellerie, Kräutersauce, Kartoffelstampf, Bohnen",
+      "price": 6.90
+    }
+  ],
+  "2025-03-26": [
+    {
+      "desc": "Leber Pute, Kartoffelstampf, Apfel Zwiebel geschmorrt",
+      "price": 6.90
+    },
+    {
+      "desc": "Bratkartoffeln, Spiegelei, Gurkensalat",
+      "price": 6.90
+    }
+  ],
+  "2025-03-27": [
+    {
+      "desc": "Königsberger Klöpse in Kaprensauce, Kartoffeln",
+      "price": 6.90
+    },
+    {
+      "desc": "Schupfnudel Pfanne mit Tomatenrahm, Kirschtomaten, Rucola",
+      "price": 6.90
+    }
+  ],
+  "2025-03-28": [
+    {
+      "desc": "Rostbrätl, Bratkartoffeln, Zwiebel geschmorrt",
+      "price": 6.90
+    },
+    {
+      "desc": "Lachs Gemüse Pfanne mit Reis",
+      "price": 6.90
+    }
+  ],
+  "2025-W13": [
+    {
+      "desc": "Farfalle mit Avocado Limetten Sauce",
+      "price": 5.50
+    },
+    {
+      "desc": "Spirelli mit Wurstgulasch",
+      "price": 5.50
+    },
+    {
+      "desc": "Spaghetti mit Bärlauch Pesto",
+      "price": 5.50
+    }
+  ]
+}
