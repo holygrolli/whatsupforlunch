@@ -1,0 +1,57 @@
+{
+  "2025-03-24": [],
+  "2025-03-25": [
+    {
+      "desc": "Schweineschnitzel mit Spiegelei und Bratkartoffeln, dazu Tomatensalat",
+      "price": 9.80
+    },
+    {
+      "desc": "Waldpilzgulasch mit Kräuterspätzle und Röstzwiebeln (veget.)",
+      "price": 8.90
+    }
+  ],
+  "2025-03-26": [
+    {
+      "desc": "Bauernfrühstück mit Gewürzgurke und Salatbeilage",
+      "price": 9.80
+    },
+    {
+      "desc": "Salbeignocchi, dazu pikantes Kürbisragout, Cranberrys und geröstete Mandeln (veget.)",
+      "price": 9.20
+    }
+  ],
+  "2025-03-27": [
+    {
+      "desc": "Schwedische Hackbällchen \"Köttbullar\" mit Kartoffelpüree, crunchy Onions und Preiselbeeren",
+      "price": 9.80
+    },
+    {
+      "desc": "Tortellini in Paprikarahm mit Lauchzwieblen, überbacken mit Mozzarella und Sonnenblumenkernen (veget.)",
+      "price": 9.20
+    }
+  ],
+  "2025-03-28": [
+    {
+      "desc": "Gebackenes Seelachsfilet mit Remoulade, Salzkartoffeln und Gurkensalat",
+      "price": 9.90
+    }
+  ],
+  "2025-W13": [
+    {
+      "desc": "Pasta mit Bärlauch-Pesto, dazu geröstete Haselnüsse und Parmesan (veget.)",
+      "price": 10.90
+    },
+    {
+      "desc": "Fenchel-Tomaten-Lasagne mit gebratener Aubergine, überbacken mit Mozzarella und Thymian (veget.)",
+      "price": 12.90
+    },
+    {
+      "desc": "Hähnchengratin mit Penne und gebratener Zucchini, in pikanter Tomatensoße, überbacken mit Hirtenkäse",
+      "price": 12.90
+    },
+    {
+      "desc": "Pfeffer-Geschnetzeltes vom Schwein, mit Kirschtomaten und frittiertem Rucola, dazu Basmatireis",
+      "price": 12.90
+    }
+  ]
+}
