@@ -1,0 +1,52 @@
+{
+  "2025-03-31": [
+    {
+      "desc": "Schnitzel „Wiener Art“ mit Kartoffel-Gurken-Salat",
+      "price": 8.50
+    },
+    {
+      "desc": "Allgäuer Käsespätzle mit Röstzwiebeln",
+      "price": 8.50
+    }
+  ],
+  "2025-04-01": [
+    {
+      "desc": "Jägerschnitzel mit Spirelli und Tomatensauce",
+      "price": 8.50
+    },
+    {
+      "desc": "Gefüllte Paprika mit Olivenreis, überbacken mit Feta Käse an Tomatensauce",
+      "price": 8.50
+    }
+  ],
+  "2025-04-02": [
+    {
+      "desc": "Kohlroulade mit Salzkartoffeln und Specksauce",
+      "price": 8.50
+    },
+    {
+      "desc": "Gebackener Blumenkohl mit Salzkartoffeln und Sauce Hollandaise",
+      "price": 8.50
+    }
+  ],
+  "2025-04-03": [
+    {
+      "desc": "Hähnchencurry mit Butterreis",
+      "price": 8.50
+    },
+    {
+      "desc": "Gnocchi-Gemüsepfanne",
+      "price": 8.50
+    }
+  ],
+  "2025-04-04": [
+    {
+      "desc": "Backfisch auf Kartoffel-Gurken-Salat mit Remoulade",
+      "price": 8.50
+    },
+    {
+      "desc": "Weißwein-Risotto mit Champignons und Parmesan",
+      "price": 8.50
+    }
+  ]
+}
