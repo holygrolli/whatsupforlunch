@@ -1,0 +1,75 @@
+{
+    "2025-04-28": [
+        {
+            "desc": "Grüner Bohneneintopf mit Rindfleisch",
+            "price": 5.60
+        },
+        {
+            "desc": "Sellerieschnitzel mit Erbsen und Kräuterreis",
+            "price": 6.10
+        },
+        {
+            "desc": "Gyrospfanne mit Zaziki, Krautsalat und Tomatenreis",
+            "price": 6.70
+        },
+        {
+            "desc": "Kabeljaufilet in Rote-Bete-Hülle auf Fenchel und Gratin",
+            "price": 8.50
+        }
+    ],
+    "2025-04-29": [
+        {
+            "desc": "Kaiserschmarr´n mit Rosinen, Mandeln und Apfelmus",
+            "price": 5.60
+        },
+        {
+            "desc": "Pasta mit Tomatensoße und geriebenem Käse",
+            "price": 6.10
+        },
+        {
+            "desc": "Spaghetti „Bolognese“ mit geriebenem Käse",
+            "price": 6.70
+        },
+        {
+            "desc": "Veganes „Gulasch“ mit Apfelrotkohl und Klößen",
+            "price": 8.50
+        }
+    ],
+    "2025-04-30": [
+        {
+            "desc": "Provenzalischer Fischeintopf mit Muscheln, Oliven, Fenchel und Tomate",
+            "price": 5.60
+        },
+        {
+            "desc": "Eieromelette mit Gurkensalat und Petersilienkartoffeln",
+            "price": 6.10
+        },
+        {
+            "desc": "Putensahne-Geschnetzeltes mit Paprika, dazu Spätzle",
+            "price": 6.70
+        },
+        {
+            "desc": "Überraschungsgericht mit BIO-Gemüse von KOLA Leipzig",
+            "price": ""
+        }
+    ],
+    "2025-05-01": [],
+    "2025-05-02": [
+        {
+            "desc": "Süßkartoffel-Ingwersuppe mit Sesam und Koriander",
+            "price": 5.60
+        },
+        {
+            "desc": "Spargelrisotto mit Erbsen, Cherry-Tomaten und Hartkäse",
+            "price": 6.10
+        },
+        {
+            "desc": "Grillwurst mit Letscho-Gemüse und Kartoffelstampf",
+            "price": 6.70
+        },
+        {
+            "desc": "Rotbarschfilet auf Blattspinat und Kräuter-Spätzle",
+            "price": 8.50
+        }
+    ]
+}

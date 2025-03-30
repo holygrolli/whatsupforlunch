@@ -1,0 +1,92 @@
+{
+    "2025-04-07": [
+        {
+            "desc": "Gräupcheneintopf mit Kasslerwürfeln",
+            "price": 5.60
+        },
+        {
+            "desc": "2 gekochte Eier mit Senfsoße, Rotkrautsalat und Petersilienkartoffeln",
+            "price": 6.10
+        },
+        {
+            "desc": "Frikadelle mit Champignon-Rahm und Kroketten",
+            "price": 6.70
+        },
+        {
+            "desc": "Tajine-Bällchen mit Rote-Bete-Hummus und Tabouleh Salat",
+            "price": 8.50
+        }
+    ],
+    "2025-04-08": [
+        {
+            "desc": "Eierpfannkuchen mit Waldbeeren, dazu Vanillesoße",
+            "price": 5.60
+        },
+        {
+            "desc": "Pasta mit Tomatensoße und geriebenem Käse",
+            "price": 6.10
+        },
+        {
+            "desc": "Spaghetti „Bolognese“ mit geriebenem Käse",
+            "price": 6.70
+        },
+        {
+            "desc": "Veganer „Gyros“ Wrap mit Kraut, Zwiebeln, Salat und Couscous",
+            "price": 8.50
+        }
+    ],
+    "2025-04-09": [
+        {
+            "desc": "Chili con Carne",
+            "price": 5.60
+        },
+        {
+            "desc": "Gemüserösti mit Kräuterquark und Salat",
+            "price": 6.10
+        },
+        {
+            "desc": "Krakauer mit Grünkohl und Petersilienkartoffeln",
+            "price": 6.70
+        },
+        {
+            "desc": "Überraschungsgericht mit BIO-Gemüse von KOLA Leipzig",
+            "price": null
+        }
+    ],
+    "2025-04-10": [
+        {
+            "desc": "Drei Hefeklöße mit warmen Heidelbeeren",
+            "price": 5.60
+        },
+        {
+            "desc": "Blumenkohlcurry mit Süßkartoffel und Kichererbsen, dazu Reis",
+            "price": 6.10
+        },
+        {
+            "desc": "Schweine-Schnitzel mit Blumenkohl, Hollandaise und Kartoffeln",
+            "price": 6.70
+        },
+        {
+            "desc": "Mediterranes Ofengemüse mit Kräuterdip und Kartoffelspalten",
+            "price": 8.50
+        }
+    ],
+    "2025-04-11": [
+        {
+            "desc": "Rote-Bete-Cremesuppe mit Feta-Würfeln und Kerbel",
+            "price": 5.60
+        },
+        {
+            "desc": "Gemüse-„Paella“ mit Zucchini, Paprika, Karotten und Erbsen",
+            "price": 6.10
+        },
+        {
+            "desc": "Jumbo Fischstäbchen mit Tomatensoße und Kartoffelstampf",
+            "price": 6.70
+        },
+        {
+            "desc": "Sülze mit Remoulade, Salat und Bratkartoffeln",
+            "price": 8.50
+        }
+    ]
+}
