@@ -1,0 +1,75 @@
+{
+    "2025-04-21": [],
+    "2025-04-22": [
+        {
+            "desc": "Erdbeer-Topfen-Knödel mit Vanillesoße",
+            "price": 5.00
+        },
+        {
+            "desc": "Pasta mit Tomatensoße und geriebenem Käse",
+            "price": 6.10
+        },
+        {
+            "desc": "Pasta mit Wurstgulasch und geriebenem Käse",
+            "price": 6.70
+        },
+        {
+            "desc": "Vegane „Bratwurst“ mit Sauerkraut und Petersilienkartoffeln",
+            "price": 8.50
+        }
+    ],
+    "2025-04-23": [
+        {
+            "desc": "Nudeleintopf mit Geflügelfleisch und Gemüse-Julienne",
+            "price": 5.00
+        },
+        {
+            "desc": "Kräuterquark mit Zwiebeln, Butter und Petersilienkartoffeln",
+            "price": 6.10
+        },
+        {
+            "desc": "Paprikaschote mit Hackfleisch, dazu Tomatensoße und Spätzle",
+            "price": 6.70
+        },
+        {
+            "desc": "Überraschungs-Gericht mit BIO-Gemüse von KOLA Leipzig",
+            "price": ""
+        }
+    ],
+    "2025-04-24": [
+        {
+            "desc": "Eierkuchen mit Rhabarber-Kompott und Vanille",
+            "price": 5.00
+        },
+        {
+            "desc": "Mexikanische Reispfanne mit Mais und Soja-Geschnetzeltem",
+            "price": 6.10
+        },
+        {
+            "desc": "Wildgulasch mit Rotkohl und Böhmischen Knödeln",
+            "price": 6.70
+        },
+        {
+            "desc": "Leberkäse-Burger mit Obazda, Kraut, Laugenbrötchen und Wedges",
+            "price": 8.50
+        }
+    ],
+    "2025-04-25": [
+        {
+            "desc": "Paprikacremesuppe mit Knoblauch-Croûtons",
+            "price": 5.00
+        },
+        {
+            "desc": "Gemüselasagne mit Zucchini, Aubergine und Karotten",
+            "price": 6.10
+        },
+        {
+            "desc": "Panierter Schollenfilet mit Kartoffel-Gurkensalat",
+            "price": 6.70
+        },
+        {
+            "desc": "“Steak au four” mit buntem Salat und Kroketten",
+            "price": 8.50
+        }
+    ]
+}
