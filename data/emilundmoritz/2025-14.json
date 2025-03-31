@@ -1,0 +1,66 @@
+{
+  "2025-03-31": [
+    {
+      "desc": "Putengeschnetzeltes mit Basmatireis",
+      "price": 6.90
+    },
+    {
+      "desc": "Gemüse- Fruchtcurry mit Basmatireis",
+      "price": 6.90
+    }
+  ],
+  "2025-04-01": [
+    {
+      "desc": "Schweineschnitzel mit Gurkensalat und Petersilienkartoffeln",
+      "price": 6.90
+    },
+    {
+      "desc": "Backfisch an Gurkensalat und Petersilienkartoffeln",
+      "price": 6.90
+    }
+  ],
+  "2025-04-02": [
+    {
+      "desc": "Schweinegulasch \"Braumeister Art\" mit Spätzle",
+      "price": 6.90
+    },
+    {
+      "desc": "Bärlauchgnocchis mit Tomaten und Fetawürfel",
+      "price": 6.90
+    }
+  ],
+  "2025-04-03": [
+    {
+      "desc": "Putensteak dazu Letscho mit Bratkartoffeln",
+      "price": 6.90
+    },
+    {
+      "desc": "Milchreis mit Apfelmus und Z+Z",
+      "price": 6.90
+    }
+  ],
+  "2025-04-04": [
+    {
+      "desc": "Bratwurst an Sauerkraut und Kartoffelstampf",
+      "price": 6.90
+    },
+    {
+      "desc": "Kartoffel- Blumenkohlgratin",
+      "price": 6.90
+    }
+  ],
+  "2025-W14": [
+    {
+      "desc": "Farfalle mit Advocado- Limettensoße",
+      "price": 5.50
+    },
+    {
+      "desc": "Spirelli mit Wurstgulasch",
+      "price": 5.50
+    },
+    {
+      "desc": "Spaghetti mit Bärlauchpesto",
+      "price": 5.50
+    }
+  ]
+}
