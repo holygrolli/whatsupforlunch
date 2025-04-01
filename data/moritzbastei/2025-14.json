@@ -1,0 +1,61 @@
+{
+  "2025-03-31": [],
+  "2025-04-01": [
+    {
+      "desc": "Schweineschnitzel in Haselnusspanade, dazu Rahmchampignons und Bratkartoffeln",
+      "price": 9.80
+    },
+    {
+      "desc": "Karotten-Zucchini-Rösti mit Walnüssen, Chili-Honig-Dip und Salatbeilage (veget.)",
+      "price": 8.90
+    }
+  ],
+  "2025-04-02": [
+    {
+      "desc": "Mediterrane Frikadelle gefüllt mit Hirtenkäse, dazu Tomaten-Paprikagemüse und Rosmarinkartoffeln",
+      "price": 9.80
+    },
+    {
+      "desc": "Brokkoli in Kichererbsenbackteig auf rotem Linsencurry mit Paprika und Lauchzwiebeln (vegan)",
+      "price": 9.20
+    }
+  ],
+  "2025-04-03": [
+    {
+      "desc": "Hähnchenschnitzel mit Rahmblumenkohl, Salzkartoffeln und brauner Soße",
+      "price": 9.80
+    },
+    {
+      "desc": "Gebackener Hirtenkäse auf mediterranem Gemüse mit Oliven, dazu Baguette (veget.)",
+      "price": 9.20
+    }
+  ],
+  "2025-04-04": [
+    {
+      "desc": "Gebratenes Seelachsfilet mit Erbsen-Minzpüree, Zitronensoße und Süßkartoffelecken",
+      "price": 9.90
+    },
+    {
+      "desc": "Feuriges Hähnchen in Paprikarahm, dazu Basmatireis und geröstete Mandeln",
+      "price": 9.90
+    }
+  ],
+  "2025-W14": [
+    {
+      "desc": "Pasta mit Dattel-Oliven-Pesto, dazu geröstete Mandeln und Parmesan (veget.)",
+      "price": 10.90
+    },
+    {
+      "desc": "Lasagne \"Al Pesto\" mit Brokkoli, Waldpilzen und Kräuterpesto, überbacken mit Mozzarella (veget.)",
+      "price": 12.90
+    },
+    {
+      "desc": "Bärlauch-Hähnchen-Gratin mit Kartoffelwürfel und Kaisergemüse, überbacken mit Mozzarella und Sonnenblumenkernen",
+      "price": 12.90
+    },
+    {
+      "desc": "Feuriges Hähnchen in Paprikarahm, dazu Basmatireis und geröstete Mandeln",
+      "price": 12.90
+    }
+  ]
+}
