@@ -1,0 +1,72 @@
+{
+  "2025-04-07": [
+    {
+      "desc": "Ofengemüse mit Backkartoffeln und Kräutercreme",
+      "price": 4.50
+    },
+    {
+      "desc": "Grüne Bohnen Eintopf",
+      "price": 3.50
+    },
+    {
+      "desc": "Ungarischer Kesselgulasch",
+      "price": 3.85
+    }
+  ],
+  "2025-04-08": [
+    {
+      "desc": "Kartoffelrösti mit Mediterranean Gemüse",
+      "price": 4.10
+    },
+    {
+      "desc": "Blumenkohl mit Kartoffeln an Kräutersoße",
+      "price": 3.50
+    },
+    {
+      "desc": "Wurstgulasch mit fruchtiger Tomatensoße",
+      "price": 2.95
+    }
+  ],
+  "2025-04-09": [
+    {
+      "desc": "Reissalat mit Tomaten, Paprika, Gurke und Kichererbsen",
+      "price": 3.80
+    },
+    {
+      "desc": "Schweine Hackfleisch-Käse-Lauchsuppe",
+      "price": 3.50
+    },
+    {
+      "desc": "Kasselerbraten",
+      "price": 3.85
+    }
+  ],
+  "2025-04-10": [
+    {
+      "desc": "Gnocchi-Feldsalat mit Tomate und Balkankäse",
+      "price": 4.70
+    },
+    {
+      "desc": "Hefeklöß mit Pflaumen",
+      "price": 3.50
+    },
+    {
+      "desc": "Schweineschnitzel 'Wiener-Art'",
+      "price": 3.75
+    }
+  ],
+  "2025-04-11": [
+    {
+      "desc": "Vegetarische Bolognese mit Kidneybohnen, Gemüsemais und Dinkel-Pasta",
+      "price": 4.00
+    },
+    {
+      "desc": "Kartoffeltopf mit Kocomilch und gebratenen Chiliwurstscheiben",
+      "price": 3.50
+    },
+    {
+      "desc": "Tagesangebot",
+      "price": null
+    }
+  ]
+}
