@@ -17,7 +17,7 @@ permissions:
 
 jobs:
   get-version:
-    runs-on: ubuntu-latest
+    runs-on: ubuntu-24.04
     outputs:
       skipped: ${{ steps.changelog.outputs.skipped }}
       version: ${{ steps.changelog.outputs.tag }}
@@ -48,7 +48,7 @@ jobs:
       DEPLOY_PATH: ${{ secrets.DEPLOY_PATH }}
   create-version:
     needs: build
-    runs-on: ubuntu-latest
+    runs-on: ubuntu-24.04
     steps:
       # Get the repository's code
       - name: Checkout

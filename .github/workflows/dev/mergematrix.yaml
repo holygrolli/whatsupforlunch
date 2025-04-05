@@ -6,7 +6,7 @@ permissions:
   packages: write
 jobs:
   download:
-    runs-on: ubuntu-latest
+    runs-on: ubuntu-24.04
     container:
       image: ghcr.io/holygrolli/whatsupforlunch:main
     outputs:
@@ -54,7 +54,7 @@ jobs:
   process:
     needs: download
     if: ${{ needs.download.outputs.matrix != '' && toJson(fromJson(needs.download.outputs.matrix)) != '[]' }}
-    runs-on: ubuntu-latest
+    runs-on: ubuntu-24.04
     container:
       image: ghcr.io/holygrolli/whatsupforlunch:main
     strategy:
@@ -100,7 +100,7 @@ jobs:
   publish:
     needs: process
     if: success() || failure ()
-    runs-on: ubuntu-latest
+    runs-on: ubuntu-24.04
     steps:
       - name: checkout
         uses: actions/checkout@v3

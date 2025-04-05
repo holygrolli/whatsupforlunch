@@ -9,7 +9,7 @@ on:
 jobs:
   automerge:
     if: ${{ github.actor != 'dependabot[bot]' }}
-    runs-on: ubuntu-latest
+    runs-on: ubuntu-24.04
     steps:
       - uses: tibdex/github-app-token@v2
         id: generate-token
