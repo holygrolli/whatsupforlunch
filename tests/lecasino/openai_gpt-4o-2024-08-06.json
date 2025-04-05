@@ -1,5 +1,10 @@
 {
-  "2024-01-01": [],
+  "2024-01-01": [
+    {
+      "desc": "Feiertag",
+      "price": null
+    }
+  ],
   "2024-01-02": [
     {
       "desc": "Pasta mit Spinat-Frischkäsesoße",
@@ -16,15 +21,15 @@
   ],
   "2024-01-03": [
     {
-      "desc": "Gemüseschnitzel mit kl. gem. Salat",
+      "desc": "Gemüseschnitzel mit kleinem gemischtem Salat",
       "price": 3.80
     },
     {
-      "desc": "Frikadellenbällchen mit Zwiebels0ße und Kartoffelpüree",
+      "desc": "Frikadellenbällchen mit Zwiebelsauce und Kartoffelpüree",
       "price": 2.50
     },
     {
-      "desc": "Mulligatawny- indische Currysuppe mit Hähnchenfleisch und Ingwer",
+      "desc": "Mulligatawny - indische Currysuppe mit Hähnchenfleisch und Ingwer",
       "price": 3.80
     }
   ],
@@ -44,7 +49,7 @@
   ],
   "2024-01-05": [
     {
-      "desc": "Ofenkartoffel mit Quarkdip und ein kl. gemischter Salat",
+      "desc": "Ofenkartoffel mit Quark-Dip und ein kl. gemischter Salat",
       "price": 3.95
     },
     {
