@@ -14,7 +14,7 @@ permissions:
   pull-requests: write
 jobs:
   check:
-    runs-on: ubuntu-latest
+    runs-on: ubuntu-24.04
     container:
       image: ghcr.io/holygrolli/whatsupforlunch:main
     outputs:
@@ -38,7 +38,7 @@ jobs:
   download:
     needs: check
     if: ${{ needs.check.outputs.ts != '' || inputs.force_publish }}
-    runs-on: ubuntu-latest
+    runs-on: ubuntu-24.04
     container:
       image: ghcr.io/holygrolli/whatsupforlunch:main
     steps:

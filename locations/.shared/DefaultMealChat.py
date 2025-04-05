@@ -4,6 +4,7 @@ from datetime import datetime, timedelta
 import base64
 import json
 import mimetypes
+import os
 from prompt_config import prompt_config
 
 class DefaultMealChat:
@@ -13,8 +14,10 @@ class DefaultMealChat:
                     userMessagePrefix="",
                     userImageFile="image_input",
                     dateOverride=None,
+                    output_prefix="chatgpt",
                     max_tokens=1000,
                     promptOverrides=None):
+        self.output_prefix = output_prefix
         self.prompt_config = prompt_config
         print("prompt_config: " + str(self.prompt_config))
         if promptOverrides is not None:
@@ -41,6 +44,19 @@ class DefaultMealChat:
         else:
             self.userMessage = userMessage
 
+    # return dict for the model provider config and always default to openai
+    def return_model_provider_config(self):
+        model_provider = self.prompt_config.get("model_provider")
+        if model_provider == "google":
+            return {
+                "base_url": f"https://generativelanguage.googleapis.com/v1beta/openai",
+                "api_key": os.environ.get("GEMINI_API_KEY"),
+            }
+        else:
+            return {
+                "base_url": f"https://api.openai.com/v1",
+                "api_key": os.environ.get("OPENAI_API_KEY"),
+            }
     # return a string with a list of all the days of the current week based on the provided date string
     def return_weekdays_from_date(self, date_string):
         week_days = []
@@ -77,12 +93,17 @@ class DefaultMealChat:
 
     def writeToFile(self, chat_completion):
         print(chat_completion.usage)
-        out = open("usage.json", "w")
+        # if output_prefix is not empty, use it as prefix else use a combination of the model provider and the model
+        if self.output_prefix:
+            prefix = self.output_prefix
+        else:
+            prefix = self.prompt_config["model_provider"] + "_" + self.prompt_config["visionModel"]
+        out = open(f"{prefix}_usage.json", "w")
         out.write(json.dumps(chat_completion.usage.to_dict(), indent=4, sort_keys=True))
         out.close()
         # print the chat completion for debugging
         print(chat_completion.choices[0].message.content)
-        out = open("chatgpt.json", "w")
+        out = open(f"{prefix}.json", "w")
         out.write(self.extract_json_content(chat_completion.choices[0].message.content))
         out.close()
 
@@ -96,7 +117,8 @@ class DefaultMealChat:
         return gpt_messages
 
     def processImageAndWriteToFile(self):
-        client = OpenAI()
+
+        client = OpenAI(**self.return_model_provider_config())
         systemPromptSubstituted = self.prompt_config["systemPrompt"].format(**self.return_default_substitutions())
         print("Using the prompt: " + systemPromptSubstituted)
         gpt_messages=[
@@ -126,7 +148,7 @@ class DefaultMealChat:
         self.writeToFile(chat_completion)
 
     def processAndWriteToFile(self):
-        client = OpenAI()
+        client = OpenAI(**self.return_model_provider_config())
         systemPromptSubstituted = self.prompt_config["systemPrompt"].format(**self.return_default_substitutions())
         # print the system prompt for debugging
         gpt_messages=[

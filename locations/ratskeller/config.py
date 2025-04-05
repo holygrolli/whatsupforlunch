@@ -15,5 +15,7 @@ config = {
     """
 }
 prompt_overrides = {
-    "addCurrentDate": False
+    "addCurrentDate": False,
+    "model_provider": "google",
+    "visionModel": "gemini-2.0-flash"
 }

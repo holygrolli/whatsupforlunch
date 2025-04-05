@@ -8,10 +8,18 @@ from testconfig import testconfig
 
 class TestLecasino(unittest.TestCase):
     def test_process_chatgpt(self):
-        # Create an instance of DefaultMealChat
-        meal_chat = DefaultMealChat(
-                        **config,
-                        **testconfig,
-                        promptOverrides=prompt_overrides)
+        test_cases = [
+            {"prompt_override": {"model_provider": "openai", "visionModel": "gpt-4o-2024-08-06"}},
+            {"prompt_override": {"model_provider": "google", "visionModel": "gemini-2.0-flash"}},
+        ]
 
-        meal_chat.processImageAndWriteToFile()
+        for case in test_cases:
+            with self.subTest(case=case):
+                # Create an instance of DefaultMealChat with overrides
+                meal_chat = DefaultMealChat(
+                    **config,
+                    **testconfig,
+                    promptOverrides={**prompt_overrides, **case["prompt_override"]}
+                )
+
+                meal_chat.processImageAndWriteToFile()
