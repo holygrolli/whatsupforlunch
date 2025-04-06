@@ -94,7 +94,7 @@ jobs:
         shell: bash
         run: |
           mkdir -p tmp-data
-          for loc in $(ls -1 data | grep -v galeria);
+          for loc in $(ls -1 data);
           do
             jq '.offers = inputs' data/${loc}/details.json <(jq -s 'reduce .[] as $item ({}; . * $item)' data/${loc}/2*.json) > tmp-data/merged_${loc}.json
           done

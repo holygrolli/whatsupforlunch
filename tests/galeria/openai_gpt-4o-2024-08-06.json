@@ -1,0 +1,27 @@
+{
+  "2025-04-21": [],
+  "2025-04-22": [
+    {
+      "desc": "Küchenchef-Tag, Lassen Sie sich überraschen",
+      "price": 13.95
+    }
+  ],
+  "2025-04-23": [
+    {
+      "desc": "Ofen-Gnocchi, Käsesauce, Blattspinat, Krautsalat",
+      "price": 13.95
+    }
+  ],
+  "2025-04-24": [
+    {
+      "desc": "Nürnberger Würstchen, Bratensauce, Sauerkraut, Kartoffelstampf",
+      "price": 13.95
+    }
+  ],
+  "2025-04-25": [
+    {
+      "desc": "Pazifisches Buttfilet in Petersilienpanade, Remouladensauce, Blattspinat, Petersilienkartoffeln",
+      "price": 13.95
+    }
+  ]
+}
