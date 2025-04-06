@@ -1,0 +1,52 @@
+{
+  "2025-04-07": [
+    {
+      "desc": "Schnitzel „Wiener Art“ mit Kartoffel-Gurken-Salat",
+      "price": 8.50
+    },
+    {
+      "desc": "Allgäuer Käsespätzle mit Röstzwiebeln",
+      "price": 8.50
+    }
+  ],
+  "2025-04-08": [
+    {
+      "desc": "Szegediner Gulasch mit Sauerrahm und Spätzle",
+      "price": 8.50
+    },
+    {
+      "desc": "Gemüsepuffer an bunten Blattsalaten",
+      "price": 8.50
+    }
+  ],
+  "2025-04-09": [
+    {
+      "desc": "Fleischpflanzerl mit Mischgemüse und Kartoffelpüree",
+      "price": 8.50
+    },
+    {
+      "desc": "Gekochte Eier in Senfsauce mit Kartoffelpüree",
+      "price": 8.50
+    }
+  ],
+  "2025-04-10": [
+    {
+      "desc": "Hähnchenragout in Waldpilzsauce mit Rösti",
+      "price": 8.50
+    },
+    {
+      "desc": "Schupfnudel-Pfanne mit Champignons und Frühlingszwiebeln",
+      "price": 8.50
+    }
+  ],
+  "2025-04-11": [
+    {
+      "desc": "Backfisch auf Kartoffel-Gurken-Salat mit Remoulade",
+      "price": 8.50
+    },
+    {
+      "desc": "Blumenkohl-Käsemedaillon mit Kartoffel-Gurken-Salat",
+      "price": 8.50
+    }
+  ]
+}
