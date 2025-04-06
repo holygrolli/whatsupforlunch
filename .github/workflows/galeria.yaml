@@ -1,0 +1,165 @@
+name: galeria
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '0 18 * * 0'
+permissions: 
+  contents: write
+  packages: write
+jobs:
+  download:
+    runs-on: ubuntu-24.04
+    container:
+      image: ghcr.io/holygrolli/whatsupforlunch:main
+    outputs:
+      matrix: ${{ steps.setmatrix.outputs.matrix }}
+    steps:
+      - name: checkout
+        uses: actions/checkout@v3
+        with:
+          ref: >-
+            ${{
+              github.event_name == 'schedule' && 'main' || ''
+            }}
+      - name: get new links
+        shell: bash
+        run: |
+          WD=${PWD}
+          mkdir -p tmp
+          cd tmp
+          MENU="https://galeria-restaurant.de/wp-content/uploads/wochenkarte_lunchdeal.pdf"
+          last_modified=$(curl -sI "$MENU" | grep -i "last-modified" | cut -d' ' -f2-)
+          if [[ -n "$last_modified" ]]; then
+            last_run=$(cat ../data/leos/last_run_timestamp.txt || echo "1970-01-01T00:00:00Z")
+            if [[ "$(date -d "$last_modified" +%s)" -gt "$(date -d "$last_run" +%s)" ]]; then
+              curl -sOL "$MENU"
+            fi
+          else
+            curl -sOL "$MENU"
+          fi
+      - id: setmatrix
+        working-directory: tmp
+        run: |
+          matrixInput=$(find . -name '*.pdf' -printf '%P\n') # Creates array of all pdf files in tmp folder
+          # Start Generate Json String
+          echo "$matrixInput" | \
+          jq --slurp --raw-input -c 'split("\n")[:-1] | map(select(length>0))' > matrix
+          cat ./matrix
+          # End Generate Json String
+          matrixStringifiedObject=$(cat ./matrix) # Use this as jq @sh not working right
+          echo "::set-output name=matrix::$matrixStringifiedObject"
+      - name: Archive all pdfs
+        uses: actions/upload-artifact@v4
+        with:
+          name: pdfs
+          retention-days: 30
+          path: |
+            tmp
+  process:
+    needs: download
+    if: ${{ needs.download.outputs.matrix != '' && toJson(fromJson(needs.download.outputs.matrix)) != '[]' }}
+    runs-on: ubuntu-24.04
+    container:
+      image: ghcr.io/holygrolli/whatsupforlunch:main
+    strategy:
+      max-parallel: 1
+      matrix:
+        files: ${{fromJson(needs.download.outputs.matrix)}}
+        # include:
+        #   - files: KW-27-und-KW-28_2023_separated_2.pdf
+    concurrency: singlethread
+    steps:
+    - name: checkout source code
+      uses: actions/checkout@v3
+      with:
+        ref: >-
+          ${{
+            github.event_name == 'schedule' && 'main' || ''
+          }}
+    - name: Download pdf artifacts
+      uses: actions/download-artifact@v4
+      with:
+        name: pdfs
+        path: downloadtmp
+    - name: copy step files
+      run: |
+        mkdir tmp
+        cd tmp
+        cp ../downloadtmp/${{ matrix.files }} .
+    - name: Extract image from pdf ${{ matrix.files }}
+      working-directory: tmp
+      run: pdftoppm -singlefile -r 100 -jpeg ${{ matrix.files }} image
+    - name: process image with chatgpt
+      working-directory: tmp
+      env:
+        GEMINI_API_KEY: ${{secrets.GEMINI_API_KEY}}
+      shell: bash
+      run: |
+        python ../locations/galeria/process_chatgpt.py
+        sed -n '/^\s*{$/,$p' chatgpt.json > final.json
+    - name: collect final files
+      working-directory: tmp
+      shell: bash
+      run: |
+        mkdir -p ../success-pdfs
+        cp ${{ matrix.files }} ../success-pdfs
+        cp final.json ../success-pdfs/$(date -d"$(jq -r 'keys[] | select(test("\\d{4}-\\d{2}-\\d{2}"))' final.json | sort | head -n 1)" +%Y-%V).json
+    - name: Archive final files
+      uses: actions/upload-artifact@v4
+      with:
+        name: ${{ matrix.files }}-success-pdfs
+        retention-days: 5
+        path: |
+          success-pdfs
+    - name: Archive all tmp files
+      uses: actions/upload-artifact@v4
+      with:
+        name: ${{ matrix.files }}-processed
+        retention-days: 5
+        path: |
+          tmp
+  publish:
+    needs: process
+    if: success() || failure ()
+    runs-on: ubuntu-24.04
+    steps:
+      - name: checkout
+        uses: actions/checkout@v3
+        with:
+          ref: >-
+            ${{
+              github.event_name == 'schedule' && 'main' || ''
+            }}
+      - name: Download originally downloaded pdf artifacts
+        uses: actions/download-artifact@v4
+        with:
+          name: pdfs
+          path: downloadtmp
+      - name: Download successfully processed pdf artifacts
+        uses: actions/download-artifact@v4
+        with:
+          pattern: '*-success-pdfs'
+          path: success-pdfs
+          merge-multiple: true
+      - name: process csv with chatgpt
+        working-directory: success-pdfs
+        shell: bash
+        run: |
+          date -u +"%Y-%m-%dT%H:%M:%SZ" > ../data/galeria/last_run_timestamp.txt
+          cp *.json ../data/galeria/
+      - uses: tibdex/github-app-token@v2
+        id: generate-token
+        with:
+          app_id: ${{ secrets.TOKEN_APP_ID }}
+          private_key: ${{ secrets.TOKEN_APP_PRIVATE_KEY }}
+      - name: Create Pull Request
+        if: ${{ !github.event.act }}
+        uses: peter-evans/create-pull-request@v5
+        with:
+          add-paths: |
+            data
+          branch: ${{ github.workflow }}-cron
+          commit-message: "chore(data): automated scraping"
+          labels: "auto-approve-cron"
+          title: "${{ github.workflow }} data updates"
+          token: ${{ steps.generate-token.outputs.token }}
