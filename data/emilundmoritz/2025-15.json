@@ -1,0 +1,66 @@
+{
+  "2025-04-07": [
+    {
+      "desc": "Schnitzel- Schwein-, Rahmkarotten, Kartoffeln, Sauce",
+      "price": 6.90
+    },
+    {
+      "desc": "Spinat, Rührei, Kartoffeln",
+      "price": 6.90
+    }
+  ],
+  "2025-04-08": [
+    {
+      "desc": "Hackbraten, Mischgemüse, Kartoffeln",
+      "price": 6.90
+    },
+    {
+      "desc": "2 Hefeklöße, Heidelbeeren Kompott",
+      "price": 6.90
+    }
+  ],
+  "2025-04-09": [
+    {
+      "desc": "Szegediner Gulasch, Semmelknödel",
+      "price": 6.90
+    },
+    {
+      "desc": "Seelachs, Kartoffelstampf, Dillsauce",
+      "price": 6.90
+    }
+  ],
+  "2025-04-10": [
+    {
+      "desc": "Steak, Rahmpchampignons, Bratkartoffeln",
+      "price": 6.90
+    },
+    {
+      "desc": "Paprikaschote gefüllt mit Gemüse, Reis, Tomatensauce",
+      "price": 6.90
+    }
+  ],
+  "2025-04-11": [
+    {
+      "desc": "Himmel und Erde aus der Pfanne mit gebratener Blutwurst",
+      "price": 6.90
+    },
+    {
+      "desc": "2 Eier in Senfsauce, Kartoffeln",
+      "price": 6.90
+    }
+  ],
+  "2025-W15": [
+    {
+      "desc": "Spaghetti mit Spinat Sahne Sauce",
+      "price": 5.50
+    },
+    {
+      "desc": "Spirelli Bolognese",
+      "price": 5.50
+    },
+    {
+      "desc": "Farfalle mit Basilikum Parmesan Pesto",
+      "price": 5.50
+    }
+  ]
+}
