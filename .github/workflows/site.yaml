@@ -80,7 +80,7 @@ jobs:
       || (needs.changes.outputs.data == 'true' || needs.changes.outputs.workflow == 'true' || github.event_name == 'pull_request' || github.event_name == 'workflow_dispatch' && (inputs.comment != 'run when data or workflow changes or when manually triggered')) }}
     runs-on: ubuntu-24.04
     container:
-      image: ghcr.io/holygrolli/whatsupforlunch:main
+      image: ghcr.io/holygrolli/whatsupforlunch:sha-979e9b6-2024-08-08
     steps:
       # Get the repository's code
       - name: Checkout

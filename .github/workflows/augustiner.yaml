@@ -11,7 +11,7 @@ jobs:
   download:
     runs-on: ubuntu-24.04
     container:
-      image: ghcr.io/holygrolli/whatsupforlunch:main
+      image: ghcr.io/holygrolli/whatsupforlunch:sha-979e9b6-2024-08-08
     outputs:
       matrix: ${{ steps.setmatrix.outputs.matrix }}
     steps:
@@ -55,7 +55,7 @@ jobs:
     if: ${{ needs.download.outputs.matrix != '' && toJson(fromJson(needs.download.outputs.matrix)) != '[]' }}
     runs-on: ubuntu-24.04
     container:
-      image: ghcr.io/holygrolli/whatsupforlunch:main
+      image: ghcr.io/holygrolli/whatsupforlunch:sha-979e9b6-2024-08-08
     strategy:
       max-parallel: 1
       matrix:
