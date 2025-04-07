@@ -30,7 +30,7 @@ jobs:
           MENU="https://galeria-restaurant.de/wp-content/uploads/wochenkarte_lunchdeal.pdf"
           last_modified=$(curl -sI "$MENU" | grep -i "last-modified" | cut -d' ' -f2-)
           if [[ -n "$last_modified" ]]; then
-            last_run=$(cat ../data/leos/last_run_timestamp.txt || echo "1970-01-01T00:00:00Z")
+            last_run=$(cat ../data/galeria/last_run_timestamp.txt || echo "1970-01-01T00:00:00Z")
             if [[ "$(date -d "$last_modified" +%s)" -gt "$(date -d "$last_run" +%s)" ]]; then
               curl -sOL "$MENU"
             fi
