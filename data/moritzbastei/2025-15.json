@@ -1,0 +1,61 @@
+{
+  "2025-04-07": [],
+  "2025-04-08": [
+    {
+      "desc": "Schweineschnitzel mit Prinzessbohnen, Salzkartoffeln und brauner Soße",
+      "price": 9.80
+    },
+    {
+      "desc": "Gnocchi in Bärlauchsoße mit getrockneten Tomaten, dazu Parmesan und Sonnenblumenkerne (veget.)",
+      "price": 8.90
+    }
+  ],
+  "2025-04-09": [
+    {
+      "desc": "Orientalisches Hähnchen auf Gemüse-Couscous, dazu Minzdip",
+      "price": 9.80
+    },
+    {
+      "desc": "Zucchini-Limettentagliatelle mit gerösteten Sonnenblumenkernen und Parmesan (veget.)",
+      "price": 9.20
+    }
+  ],
+  "2025-04-10": [
+    {
+      "desc": "Gyros mit gebackenen Kartoffelecken, Tzatziki und Krautsalat",
+      "price": 9.80
+    },
+    {
+      "desc": "Gebackener Hirtenkäse auf verschiedenen Blattsalaten mit gebratenen Süßkartoffelwürfeln, Birnen und Mandeln, dazu Orangendressing (veget.)",
+      "price": 9.20
+    }
+  ],
+  "2025-04-11": [
+    {
+      "desc": "Matjesfilet in Apfel-Zwiebelremoulade, dazu Salzkartoffeln",
+      "price": 9.90
+    },
+    {
+      "desc": "Chili Con Carne mit Hackfleisch, dazu Basmatireis und Schmand",
+      "price": 9.90
+    }
+  ],
+  "2025-W15": [
+    {
+      "desc": "Pasta mit Tomaten-Rosmarin-Pesto, dazu Walnüsse und Parmesan (veget.)",
+      "price": 10.90
+    },
+    {
+      "desc": "Kürbis-Spinat-Lasagne, überbacken mit Mozzarella und Mandeln (veget.)",
+      "price": 12.90
+    },
+    {
+      "desc": "Süßkartoffel-Hackfleisch-Gratin mit Tomaten und grünen Bohnen, überbacken mit Hirtenkäse",
+      "price": 12.90
+    },
+    {
+      "desc": "Chili Con Carne mit Hackfleisch, dazu Basmatireis und Schmand",
+      "price": 12.90
+    }
+  ]
+}
