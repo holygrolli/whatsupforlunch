@@ -1,0 +1,43 @@
+{
+  "2025-04-14": [
+    {
+      "desc": "Schnitzel „Wiener Art“ mit Kartoffel-Gurken-Salat",
+      "price": 8.50
+    },
+    {
+      "desc": "Allgäuer Käsespätzle mit Röstzwiebeln",
+      "price": 8.50
+    }
+  ],
+  "2025-04-15": [
+    {
+      "desc": "Sauerbraten mit Rotkohl und Kloß",
+      "price": 8.50
+    },
+    {
+      "desc": "Kartoffel-Spinat-Auflauf",
+      "price": 8.50
+    }
+  ],
+  "2025-04-16": [
+    {
+      "desc": "Chili con Carne mit Sauerrahm",
+      "price": 8.50
+    },
+    {
+      "desc": "Linsen-Chili mit Sauerrahm",
+      "price": 8.50
+    }
+  ],
+  "2025-04-17": [
+    {
+      "desc": "Mutzbraten mit grünen Bohnen und Salzkartoffeln",
+      "price": 8.50
+    },
+    {
+      "desc": "Asia-Gemüsepfanne mit Reis",
+      "price": 8.50
+    }
+  ],
+  "2025-04-18": []
+}
