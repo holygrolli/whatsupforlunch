@@ -1,0 +1,59 @@
+{
+    "2025-04-28": [
+        {
+            "desc": "Dinkelpasta mit Cherrytomaten und Basilikum-Pesto mit Mandeln",
+            "price": 4.50
+        },
+        {
+            "desc": "Linsensuppe",
+            "price": 3.50
+        },
+        {
+            "desc": "Hähnchen Cordon Bleu",
+            "price": 3.95
+        }
+    ],
+    "2025-04-29": [
+        {
+            "desc": "Gemüsesuppe mit einer Scheibe Brot",
+            "price": 3.10
+        },
+        {
+            "desc": "Frikadellenbällchen mit Zwiebelsöße und Kartoffelpüree",
+            "price": 3.50
+        },
+        {
+            "desc": "Schweinegulasch mit Champignons",
+            "price": 3.85
+        }
+    ],
+    "2025-04-30": [
+        {
+            "desc": "Kartoffeln mit Rührei und Gurkensalat",
+            "price": 3.75
+        },
+        {
+            "desc": "Weiße Bohneneintopf mit Kasseler Fleisch",
+            "price": 3.50
+        },
+        {
+            "desc": "Panierter Seelachs mit Remolade",
+            "price": 4.70
+        }
+    ],
+    "2025-05-01": [],
+    "2025-05-02": [
+        {
+            "desc": "Kichererbsen-Curry-Pfanne mit Kokosmilch",
+            "price": 3.90
+        },
+        {
+            "desc": "Pasta Gemüse-Auflauf",
+            "price": 3.50
+        },
+        {
+            "desc": "Tagesangebot",
+            "price": null
+        }
+    ]
+}

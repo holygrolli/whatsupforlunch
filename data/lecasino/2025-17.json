@@ -1,0 +1,68 @@
+{
+  "2025-04-21": [
+    {
+      "desc": "Wir wünschen Ihnen und Ihrer Familie ein schönes Osterfest",
+      "price": null
+    },
+    {
+      "desc": "Wir wünschen Ihnen und Ihrer Familie ein schönes Osterfest",
+      "price": null
+    }
+  ],
+  "2025-04-22": [
+    {
+      "desc": "Linsensalat mit Hirtenkäse und Gemüse",
+      "price": 4.75
+    },
+    {
+      "desc": "Zwei Eier in Senfsoße mit Kartoffeln",
+      "price": 3.50
+    },
+    {
+      "desc": "Curry-Putengeschnetzeltes",
+      "price": 3.90
+    }
+  ],
+  "2025-04-23": [
+    {
+      "desc": "Couscous-Gemüse-Pfanne und Joghurtdip",
+      "price": 3.70
+    },
+    {
+      "desc": "Schinkennudeln mit Sahnesoße",
+      "price": 3.50
+    },
+    {
+      "desc": "Schweineschnitzel 'Wiener-Art'",
+      "price": 3.75
+    }
+  ],
+  "2025-04-24": [
+    {
+      "desc": "Vollkornnudeln mit Zucchini, Möhren, Tomaten und Zitronen-Thymian-Soße",
+      "price": 4.60
+    },
+    {
+      "desc": "Grießbrei mit heißen Kirschen",
+      "price": 3.50
+    },
+    {
+      "desc": "Bratwurst mit Soße",
+      "price": 2.85
+    }
+  ],
+  "2025-04-25": [
+    {
+      "desc": "Mandelbrokkoli-Blumenkohl-Auflauf",
+      "price": 4.40
+    },
+    {
+      "desc": "Krautnudeln mit Schinken",
+      "price": 3.50
+    },
+    {
+      "desc": "Tagesangebot",
+      "price": null
+    }
+  ]
+}
