@@ -1,0 +1,43 @@
+{
+  "2025-04-14": [
+    {
+      "desc": "Königsberger Klöpse in Kapernsauce, Kartoffeln",
+      "price": 6.90
+    },
+    {
+      "desc": "Gurkensalat, Kartoffeln, Speigelei",
+      "price": 6.90
+    }
+  ],
+  "2025-04-15": [
+    {
+      "desc": "Hühnerfrikasse, Reis",
+      "price": 6.90
+    },
+    {
+      "desc": "Kartoffel Gemüse Pfanne",
+      "price": 6.90
+    }
+  ],
+  "2025-04-16": [
+    {
+      "desc": "Cordon Bleu, Erbsen, Kartoffeln",
+      "price": 6.90
+    },
+    {
+      "desc": "Seelachs, Honig Senfsauce, Reis",
+      "price": 6.90
+    }
+  ],
+  "2025-04-17": [
+    {
+      "desc": "Falscher Hase, grüne Bohnen, Kartoffeln",
+      "price": 6.90
+    },
+    {
+      "desc": "Kartoffeln, Quark, kl. Salat",
+      "price": 6.90
+    }
+  ],
+  "2025-04-18": []
+}
