@@ -1,0 +1,43 @@
+{
+  "2025-04-21": [],
+  "2025-04-22": [
+    {
+      "desc": "Schweineschnitzel „Wiener Art“ mit Kartoffel-Gurken-Salat",
+      "price": 8.50
+    },
+    {
+      "desc": "Allgäuer Käsespätzle mit Röstzwiebeln",
+      "price": 8.50
+    }
+  ],
+  "2025-04-23": [
+    {
+      "desc": "Pulled Pork mit Kartoffel-Ecken und Krautsalat",
+      "price": 8.50
+    },
+    {
+      "desc": "Schupfnudel-Krautpfanne mit Röstzwiebeln",
+      "price": 8.50
+    }
+  ],
+  "2025-04-24": [
+    {
+      "desc": "Bratwurst mit Sauerkraut und Kartoffelpüree",
+      "price": 8.50
+    },
+    {
+      "desc": "Ratatouille Gemüse mit Reis",
+      "price": 8.50
+    }
+  ],
+  "2025-04-25": [
+    {
+      "desc": "Backfisch mit Kartoffel-Gurkensalat und Remoulade",
+      "price": 8.50
+    },
+    {
+      "desc": "Gemüsebratling mit Kartoffel-Gurken-Salat",
+      "price": 8.50
+    }
+  ]
+}
