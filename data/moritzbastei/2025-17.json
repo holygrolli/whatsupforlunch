@@ -1,0 +1,57 @@
+{
+  "2025-04-21": [],
+  "2025-04-22": [
+    {
+      "desc": "Schweineschnitzel \"Mailänder Art\" in Parmesan-Semmelkruste, dazu pikante Tomatensoße und Linguine",
+      "price": 9.80
+    },
+    {
+      "desc": "Gnocchi in Gorgonzolasoße mit Birnenspalten, Frühlingszwiebeln und gerösteten Mandeln (veget.)",
+      "price": 8.90
+    }
+  ],
+  "2025-04-23": [
+    {
+      "desc": "Gebratene Hähnchenbrust \"Jerk Style\" auf buntem Grillgemüse mit Tomatensalsa",
+      "price": 9.80
+    },
+    {
+      "desc": "Tagliatelle mit Zitronen-Basilikumsoße, dazu gebackene Kirschtomaten und Parmesan (veget.)",
+      "price": 9.20
+    }
+  ],
+  "2025-04-24": [
+    {
+      "desc": "Jägerklopse mit Champignons, dazu Kartoffelstampf und Krautsalat",
+      "price": 9.80
+    },
+    {
+      "desc": "Gerösteter Blumenkohl auf rotem Linsencurry mit Paprika und Lauchzwiebeln (vegan)",
+      "price": 9.20
+    }
+  ],
+  "2025-04-25": [
+    {
+      "desc": "Kartoffelrösti überbacken mit Spinat, Räucherlachs und Mozzarella, dazu Kräuterschmand und Salatbeilage",
+      "price": 9.20
+    }
+  ],
+  "2025-W17": [
+    {
+      "desc": "Pasta mit Petersilien-Erdnuss-Pesto, dazu Parmesan (veget.)",
+      "price": 10.90
+    },
+    {
+      "desc": "Lasagne \"Mexico\" mit Mais, roten Bohnen und Paprika, überbacken mit Schmand und Cheddar (veget.)",
+      "price": 12.90
+    },
+    {
+      "desc": "Nudel-Hackfleisch-Gratin mit Tomaten und Zucchini, überbacken mit Hirtenkäse",
+      "price": 12.90
+    },
+    {
+      "desc": "Geschnetzeltes vom Schwein nach \"Zürcher Art\" mit Champignons, dazu Basmatireis",
+      "price": 12.90
+    }
+  ]
+}
