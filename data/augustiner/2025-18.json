@@ -1,0 +1,43 @@
+{
+  "2025-04-28": [
+    {
+      "desc": "Schweineschnitzel „Wiener Art“ mit Kartoffel-Gurken-Salat",
+      "price": 8.50
+    },
+    {
+      "desc": "Allgäuer Käsespätzle mit Röstzwiebeln",
+      "price": 8.50
+    }
+  ],
+  "2025-04-29": [
+    {
+      "desc": "Gezupftes Haxenfleisch in Meerrettichsauce mit Salzkartoffeln",
+      "price": 8.50
+    },
+    {
+      "desc": "Gnocchi mit mediterranem Gemüse und Parmesan",
+      "price": 8.50
+    }
+  ],
+  "2025-04-30": [
+    {
+      "desc": "Wurstgulasch mit Spirelli in Tomatensauce und geriebenem Käse",
+      "price": 8.50
+    },
+    {
+      "desc": "Gemüsecurry mit Reis",
+      "price": 8.50
+    }
+  ],
+  "2025-05-01": [],
+  "2025-05-02": [
+    {
+      "desc": "Backfisch mit Kartoffel-Gurken-Salat und Remoulade",
+      "price": 8.50
+    },
+    {
+      "desc": "Blumenkohl-Käsemedaillon mit Salzkartoffeln und Sc. Hollandaise",
+      "price": 8.50
+    }
+  ]
+}
