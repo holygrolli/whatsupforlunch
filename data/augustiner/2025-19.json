@@ -1,0 +1,52 @@
+{
+  "2025-05-05": [
+    {
+      "desc": "Schweineschnitzel „Wiener Art“ mit Kartoffel-Gurken-Salat",
+      "price": 8.50
+    },
+    {
+      "desc": "Allgäuer Käsespätzle mit Röstzwiebeln",
+      "price": 8.50
+    }
+  ],
+  "2025-05-06": [
+    {
+      "desc": "Fleischpflanzerl mit Mischgemüse und Kartoffelpüree",
+      "price": 8.50
+    },
+    {
+      "desc": "Gekochte Eier in Senfsauce mit Kartoffelpüree",
+      "price": 8.50
+    }
+  ],
+  "2025-05-07": [
+    {
+      "desc": "Kalbsleber-Geschnetzeltes in Champignonrahm mit Reis",
+      "price": 8.50
+    },
+    {
+      "desc": "Waldpilz-Ragout mit Rösti Talern",
+      "price": 8.50
+    }
+  ],
+  "2025-05-08": [
+    {
+      "desc": "Hähnchenkeule mit Rotkohl und Kloß",
+      "price": 8.50
+    },
+    {
+      "desc": "Rahmspinat mit Rührei und Salzkartoffeln",
+      "price": 8.50
+    }
+  ],
+  "2025-05-09": [
+    {
+      "desc": "Backfisch mit Kartoffel-Gurken-Salat und Remoulade",
+      "price": 8.50
+    },
+    {
+      "desc": "Gemüsepuffer mit Kräuterschmand an Blattsalaten",
+      "price": 8.50
+    }
+  ]
+}
