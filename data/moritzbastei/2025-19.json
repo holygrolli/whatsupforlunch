@@ -1,0 +1,69 @@
+{
+  "2025-05-05": [],
+  "2025-05-06": [
+    {
+      "desc": "Schweineschnitzel \"Western\" mit BBQ-Zwiebeln, Bacon und gebackenen Kartoffelecken, dazu Sour Cream",
+      "price": 9.80
+    },
+    {
+      "desc": "Pasta mit roten Linsen, Tomaten, Lauchzwiebeln und gerösteten Kicherbsen (vegan)",
+      "price": 8.90
+    }
+  ],
+  "2025-05-07": [
+    {
+      "desc": "Frikadelle mit Prinzessbohnen, Salzkartoffeln und brauner Soße",
+      "price": 9.80
+    },
+    {
+      "desc": "Gebackene Auberginentaler (veget.) ODER knusprige Hähnchenbruststreifen auf verschiedenen Blattsalaten mit getrockneten Tomaten, gegrillter Paprika, Sonnenblumenkernen und Parmesancroutons, dazu Honig-Senf-Dressing",
+      "price": 9.20
+    }
+  ],
+  "2025-05-08": [
+    {
+      "desc": "Hühnerfrikassee mit Spargel, Erbsen und Champignons, dazu Basmatireis",
+      "price": 9.80
+    },
+    {
+      "desc": "Eier in Honig-Senfsoße, dazu Salzkartoffeln, frittierte Petersilie und Gurkensalat (veget.)",
+      "price": 8.90
+    }
+  ],
+  "2025-05-09": [
+    {
+      "desc": "Pfeffer-Geschnetzeltes vom Schwein, mit Kirschtomaten und frittiertem Rucola, dazu Basmatireis",
+      "price": 9.80
+    }
+  ],
+  "2025-W19": [
+    {
+      "desc": "Schweineschnitzel \"Western\" mit BBQ-Zwiebeln, Bacon und gebackenen Kartoffelecken, dazu Sour Cream",
+      "price": 9.80
+    },
+    {
+      "desc": "Pasta mit roten Linsen, Tomaten, Lauchzwiebeln und gerösteten Kicherbsen (vegan)",
+      "price": 8.90
+    },
+    {
+      "desc": "Frikadelle mit Prinzessbohnen, Salzkartoffeln und brauner Soße",
+      "price": 9.80
+    },
+    {
+      "desc": "Gebackene Auberginentaler (veget.) ODER knusprige Hähnchenbruststreifen auf verschiedenen Blattsalaten mit getrockneten Tomaten, gegrillter Paprika, Sonnenblumenkernen und Parmesancroutons, dazu Honig-Senf-Dressing",
+      "price": 9.20
+    },
+    {
+      "desc": "Hühnerfrikassee mit Spargel, Erbsen und Champignons, dazu Basmatireis",
+      "price": 9.80
+    },
+    {
+      "desc": "Eier in Honig-Senfsoße, dazu Salzkartoffeln, frittierte Petersilie und Gurkensalat (veget.)",
+      "price": 8.90
+    },
+    {
+      "desc": "Pfeffer-Geschnetzeltes vom Schwein, mit Kirschtomaten und frittiertem Rucola, dazu Basmatireis",
+      "price": 9.80
+    }
+  ]
+}
