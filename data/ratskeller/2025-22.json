@@ -1,0 +1,74 @@
+{
+    "2025-05-26": [
+        {
+            "desc": "Gräupchen-Eintopf mit Kasslerwürfeln",
+            "price": 5.60
+        },
+        {
+            "desc": "Zwei gekochte Eier mit Senfsoße, Rotkrautsalat und Kartoffeln",
+            "price": 6.10
+        },
+        {
+            "desc": "Hackbraten mit buntem Gemüse und Kroketten",
+            "price": 6.70
+        },
+        {
+            "desc": "Linsenbolognese mit Tomaten, Rucola und Linguine",
+            "price": 8.50
+        }
+    ],
+    "2025-05-27": [
+        {
+            "desc": "Schokoladen-Germknödel mit Vanillesoße",
+            "price": 5.60
+        },
+        {
+            "desc": "Pasta mit Tomatensoße und geriebenem Käse",
+            "price": 6.10
+        },
+        {
+            "desc": "Jägerschnitzel mit Tomatensoße und Pasta",
+            "price": 6.70
+        },
+        {
+            "desc": "„Cheeseburger“-Wrap mit Käse, Hackfleisch, Gurke, Tomate + Zwiebel",
+            "price": 8.50
+        }
+    ],
+    "2025-05-28": [
+        {
+            "desc": "Borschtsch mit Rindfleisch, Bete, Kohl und Schmand",
+            "price": 5.60
+        },
+        {
+            "desc": "Brokkoli-Nuss-Ecke mit Spinatsoße und bunten Gnocchi",
+            "price": 6.10
+        },
+        {
+            "desc": "Currywurst mit fruchtig pikanter Soße, dazu Kartoffelecken",
+            "price": 6.70
+        },
+        {
+            "desc": "Überraschungs-Gericht mit BIO-Gemüse von KOLA Leipzig"
+        }
+    ],
+    "2025-05-29": [],
+    "2025-05-30": [
+        {
+            "desc": "Blumenkohlsuppe mit Rettichkresse",
+            "price": 5.60
+        },
+        {
+            "desc": "Gemüse-Köttbullar mit Waldpilzrahm und Kartoffelstampf",
+            "price": 6.10
+        },
+        {
+            "desc": "Bifteki mit Knoblauchdip, Krautsalat und Reis",
+            "price": 6.70
+        },
+        {
+            "desc": "Kap-Seehechtfilet „Müllerin Art“ mit buntem Gemüse und Petersilienkartoffeln",
+            "price": 8.50
+        }
+    ]
+}

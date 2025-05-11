@@ -1,0 +1,92 @@
+{
+  "2025-06-16": [
+    {
+      "desc": "Hausgemachter Linseneintopf mit Blutwurstwürfeln",
+      "price": 5.60
+    },
+    {
+      "desc": "Backkäse mit Zaziki, Krautsalat und Tomatenreis",
+      "price": 6.10
+    },
+    {
+      "desc": "Thüringer Bratwurst mit Sauerkraut und Petersilien-kartoffeln",
+      "price": 6.70
+    },
+    {
+      "desc": "Kürbis-Falafel mit Rote-Bete-Hummus und Bulgur-Salat",
+      "price": 8.50
+    }
+  ],
+  "2025-06-17": [
+    {
+      "desc": "Kaiserschmarr'n mit Rosinen, Mandeln und Apfelmus",
+      "price": 5.60
+    },
+    {
+      "desc": "Pasta mit Tomatensoße und geriebenem Käse",
+      "price": 6.10
+    },
+    {
+      "desc": "Jägerschnitzel mit Tomatensoße und Pasta",
+      "price": 6.70
+    },
+    {
+      "desc": "Bunter Sommersalat mit Pfirsich, Schinken-Chips und Mozzarella",
+      "price": 8.50
+    }
+  ],
+  "2025-06-18": [
+    {
+      "desc": "Soljanka mit Zitrone und Sauerrahm",
+      "price": 5.60
+    },
+    {
+      "desc": "Kürbis-Steckrüben-Frikadelle mit Erbsen und Reis",
+      "price": 6.10
+    },
+    {
+      "desc": "Königsberger Klopse mit Kapernsoße, Bete Salat und Kartoffeln",
+      "price": 6.70
+    },
+    {
+      "desc": "Überraschungs-Gericht mit BIO-Gemüse von KOLA Leipzig",
+      "price": null
+    }
+  ],
+  "2025-06-19": [
+    {
+      "desc": "Grießbrei mit Pflaumen-Ragout und Zimtzucker",
+      "price": 5.60
+    },
+    {
+      "desc": "Eierragout mit Erbsen, Karotten und Kartoffelstampf",
+      "price": 6.10
+    },
+    {
+      "desc": "Hähnchen-Geschnetzeltes mit Spargel, dazu Spätzle",
+      "price": 6.70
+    },
+    {
+      "desc": "Gebackener Blumenkohl mit Sour Cream und Rosmarin-kartoffeln",
+      "price": 8.50
+    }
+  ],
+  "2025-06-20": [
+    {
+      "desc": "Tomatencreme-Suppe mit Basilikum-Pesto und Croûtons",
+      "price": 5.60
+    },
+    {
+      "desc": "Vegetarische Moussaka mit Aubergine, Kartoffeln und Feta",
+      "price": 6.10
+    },
+    {
+      "desc": "Schweinesteak mit bunten Karotten und Petersilien-kartoffeln",
+      "price": 6.70
+    },
+    {
+      "desc": "Fischroulade mit Buttererbsen und Schupfnudeln",
+      "price": 8.50
+    }
+  ]
+}
