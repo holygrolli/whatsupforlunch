@@ -1,0 +1,66 @@
+{
+  "2025-05-12": [
+    {
+      "desc": "Currywurst, Pommes, Currysauce",
+      "price": 6.90
+    },
+    {
+      "desc": "Kartoffel Gemüse Pfanne",
+      "price": 6.90
+    }
+  ],
+  "2025-05-13": [
+    {
+      "desc": "Penne mit Wurstgulasch, Käse",
+      "price": 6.90
+    },
+    {
+      "desc": "Gnocchi mit leichter Gorgonzola Rahm",
+      "price": 6.90
+    }
+  ],
+  "2025-05-14": [
+    {
+      "desc": "Chili con Carne, Reis",
+      "price": 6.90
+    },
+    {
+      "desc": "Chili sin Carne, Reis",
+      "price": 6.90
+    }
+  ],
+  "2025-05-15": [
+    {
+      "desc": "Schnitzel- Schwein, Erbsen, Kartoffeln, Sauce",
+      "price": 6.90
+    },
+    {
+      "desc": "Schupfnudel Pfanne mit cremigen Tomatenrahm, Rucola",
+      "price": 6.90
+    }
+  ],
+  "2025-05-16": [
+    {
+      "desc": "Brauhausgulasch, Spätzle",
+      "price": 6.90
+    },
+    {
+      "desc": "Penne mit grünem Spargel, Kirschtomaten, Pesto",
+      "price": 6.90
+    }
+  ],
+  "2025-W20": [
+    {
+      "desc": "Penne mit Räucherlachs und Rahmspinat",
+      "price": 5.50
+    },
+    {
+      "desc": "Liguine mit Kirschtomaten, Feta, Pesto",
+      "price": 5.50
+    },
+    {
+      "desc": "Spaghetti Bolognese",
+      "price": 5.50
+    }
+  ]
+}
