@@ -1,0 +1,61 @@
+{
+  "2025-05-19": [],
+  "2025-05-20": [
+    {
+      "desc": "Schweineschnitzel mit Spiegelei und Bratkartoffeln, dazu Tomatensalat",
+      "price": 10.20
+    },
+    {
+      "desc": "Karottenpfanne mit Zuckerschoten, Kartoffeln und Petersilie, dazu geröstete Sonnenblumenkerne und Hirtenkäse (veget.)",
+      "price": 9.20
+    }
+  ],
+  "2025-05-21": [
+    {
+      "desc": "Bauernfrühstück, dazu Gewürzgurke und Salatbeilage",
+      "price": 9.50
+    },
+    {
+      "desc": "Mediterrane Gemüsebolognese, u.a. mit Zucchini, Paprika, Aubergine, dazu Pasta, Parmesan und Sellerie-Chips (veget.)",
+      "price": 9.20
+    }
+  ],
+  "2025-05-22": [
+    {
+      "desc": "Gebackene Hähnchenbrust in Cornflakes-Panade, dazu gebratene Mie-Nudeln mit buntem Gemüse, Sweet Chilisoße und Röstzwiebeln",
+      "price": 9.80
+    },
+    {
+      "desc": "Gebackener Hirtenkäse auf verschiedenen Blattsalaten mit gegrillten Paprika, Zucchini, Sonnenblumenkernen und Parmesancroutons, dazu Orangendressing (veget.)",
+      "price": 9.20
+    }
+  ],
+  "2025-05-23": [
+    {
+      "desc": "Matjesfilet in Apfel-Zwiebelremoulade, dazu Salzkartoffeln",
+      "price": 9.90
+    },
+    {
+      "desc": "Currywurst \"Nach Art des Hauses\" mit Kartoffelecken und Salatbeilage",
+      "price": 9.80
+    }
+  ],
+  "2025-W21": [
+    {
+      "desc": "Pasta mit Minze-Orangen-Pesto, dazu geröstete Mandeln und Parmesan",
+      "price": 10.90
+    },
+    {
+      "desc": "Spitzkohl-Karottenlasagne überbacken mit Mozzarella und Sesam (veget.)",
+      "price": 12.90
+    },
+    {
+      "desc": "Hähnchengratin mit Penne und gebratener Zucchini in pikanter Tomatensoße, überbacken mit Hirtenkäse",
+      "price": 12.90
+    },
+    {
+      "desc": "Currywurst \"Nach Art des Hauses\" mit Kartoffelecken und Salatbeilage",
+      "price": 12.90
+    }
+  ]
+}
