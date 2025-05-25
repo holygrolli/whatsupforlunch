@@ -1,0 +1,43 @@
+{
+  "2025-05-26": [
+    {
+      "desc": "Schweineschnitzel „Wiener Art“ mit Kartoffel-Gurken-Salat",
+      "price": 8.50
+    },
+    {
+      "desc": "Allgäuer Käsespätzle mit Röstzwiebeln",
+      "price": 8.50
+    }
+  ],
+  "2025-05-27": [
+    {
+      "desc": "Hackbraten mit Buttererbsen und Kartoffelpüree",
+      "price": 8.50
+    },
+    {
+      "desc": "Gekochte Eier in grüner Sauce mit Salzkartoffeln",
+      "price": 8.50
+    }
+  ],
+  "2025-05-28": [
+    {
+      "desc": "Szegediner Gulasch mit Spätzle und Sauerrahm",
+      "price": 8.50
+    },
+    {
+      "desc": "Weißwein-Risotto mit Champignons und Parmesan",
+      "price": 8.50
+    }
+  ],
+  "2025-05-29": [],
+  "2025-05-30": [
+    {
+      "desc": "Backfisch mit Kartoffel-Gurkensalat und Remoulade",
+      "price": 8.50
+    },
+    {
+      "desc": "Leipziger Räbchen mit Vanillesauce",
+      "price": 8.50
+    }
+  ]
+}
