@@ -1,0 +1,57 @@
+{
+  "2025-05-26": [
+    {
+      "desc": "Leber Geflügel, Kartoffelstampf, Apfel-Porree Gemüse",
+      "price": 6.90
+    },
+    {
+      "desc": "Kartoffel Spargl Pfanne",
+      "price": 6.90
+    }
+  ],
+  "2025-05-27": [
+    {
+      "desc": "Steak- Schwein, Letscho, Bratkartoffeln",
+      "price": 6.90
+    },
+    {
+      "desc": "Matjes, Remoulade, Bratkartoffeln",
+      "price": 6.90
+    }
+  ],
+  "2025-05-28": [
+    {
+      "desc": "Schnitzel Hähnchen, Erbsen, Kartoffeln, Sauce",
+      "price": 6.90
+    },
+    {
+      "desc": "Gurkensalat, Kartoffeln, Rührei",
+      "price": 6.90
+    }
+  ],
+  "2025-05-29": [],
+  "2025-05-30": [
+    {
+      "desc": "Mutsbraten, Sauerkraut, Kartoffeln",
+      "price": 6.90
+    },
+    {
+      "desc": "Kichererbsencurry, Reis",
+      "price": 6.90
+    }
+  ],
+  "2025-W22": [
+    {
+      "desc": "Penne mit Rindergeschnetzeltem",
+      "price": 5.50
+    },
+    {
+      "desc": "Spaghetti Arrabiata",
+      "price": 5.50
+    },
+    {
+      "desc": "Penne mit Erbsenmus, Räucherlachs",
+      "price": 5.50
+    }
+  ]
+}
