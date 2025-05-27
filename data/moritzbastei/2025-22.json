@@ -1,0 +1,52 @@
+{
+  "2025-05-26": [],
+  "2025-05-27": [
+    {
+      "desc": "Schweineschnitzel \"Gärtnerin\" überbacken mit Gemüse und Sc. Hollandaise, dazu Bratkartoffeln",
+      "price": 10.20
+    },
+    {
+      "desc": "Tagliatelle mit Zitronen-Basilikumsoße, dazu gebackene Kirschtomaten und Parmesan (veget.)",
+      "price": 9.20
+    }
+  ],
+  "2025-05-28": [
+    {
+      "desc": "Schwedische Hackbällchen \"Köttbullar\" mit Kartoffelpüree, crunchy Onions und Preiselbeeren",
+      "price": 9.80
+    },
+    {
+      "desc": "Zucchini-Kartoffelrösti mit Kresseschmand und Tomatensalat (veget.)",
+      "price": 9.20
+    }
+  ],
+  "2025-05-29": [],
+  "2025-05-30": [
+    {
+      "desc": "Seelachsfilet in Tortillapanade, dazu Süßkartoffelspalten, Chili-Maiscreme und Tomatensalat",
+      "price": 9.90
+    },
+    {
+      "desc": "Geschnetzeltes vom Schwein nach \"Züricher Art\" mit Champignons, dazu Kartoffelrösti",
+      "price": 9.80
+    }
+  ],
+  "2025-W22": [
+    {
+      "desc": "Pasta mit Bärlauchpesto dazu geröstete Haselnüsse, Karottenchips und Parmesan (veget.)",
+      "price": 10.90
+    },
+    {
+      "desc": "Kohlrabilasagne mit Karotten und Spitzkohl, überbacken mit Mozzarella (veget.)",
+      "price": 12.90
+    },
+    {
+      "desc": "Süßkartoffel-Spinatgratin mit gebratenen Hähnchenbruststreifen, überbacken mit Hirtenkäse und Sonnenblumenkernen",
+      "price": 12.90
+    },
+    {
+      "desc": "Geschnetzeltes vom Schwein nach \"Züricher Art\" mit Champignons, dazu Kartoffelrösti",
+      "price": 12.90
+    }
+  ]
+}
