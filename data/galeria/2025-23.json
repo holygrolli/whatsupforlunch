@@ -1,0 +1,32 @@
+{
+  "2025-06-02": [
+    {
+      "desc": "Küchenchef-Tag, lassen Sie sich überraschen!",
+      "price": 13.95
+    }
+  ],
+  "2025-06-03": [
+    {
+      "desc": "Bauernfrikadelle, Champignonrahmsauce, Bratkartoffeln und Krautsalat",
+      "price": 13.95
+    }
+  ],
+  "2025-06-04": [
+    {
+      "desc": "Hähnchenbrust, Tomatensauce, Ratatouille, Reis und Möhrensalat",
+      "price": 13.95
+    }
+  ],
+  "2025-06-05": [
+    {
+      "desc": "Asia-Wok-Pfanne, Hähnchen, Sesam-Gemüse und Mie-Nudeln",
+      "price": 13.95
+    }
+  ],
+  "2025-06-06": [
+    {
+      "desc": "Fischstäbchen, Rahmspinat, Kartoffelstampf und Tagessalat",
+      "price": 13.95
+    }
+  ]
+}
