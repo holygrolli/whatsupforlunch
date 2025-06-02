@@ -1,0 +1,66 @@
+{
+  "2025-06-02": [
+    {
+      "desc": "Steak - Pute Letscho, Bratkartoffeln",
+      "price": 6.90
+    },
+    {
+      "desc": "Gnocchis mit Kirschtomaten, Rahmspinat",
+      "price": 6.90
+    }
+  ],
+  "2025-06-03": [
+    {
+      "desc": "Bratwurst, Sauerkraut, Kartoffelstampf",
+      "price": 6.90
+    },
+    {
+      "desc": "Backfisch, Kartoffelstampf, Tomatensauce",
+      "price": 6.90
+    }
+  ],
+  "2025-06-04": [
+    {
+      "desc": "Schnitzel- Schwein, Rahmzucchini, Kartoffeln",
+      "price": 6.90
+    },
+    {
+      "desc": "Linsencurry, Basmatireis",
+      "price": 6.90
+    }
+  ],
+  "2025-06-05": [
+    {
+      "desc": "Hackbraten, Mischgemüse, Kartoffeln",
+      "price": 6.90
+    },
+    {
+      "desc": "Nudel Lachs Pfanne mit leichtem Gorgonzolarahm",
+      "price": 6.90
+    }
+  ],
+  "2025-06-06": [
+    {
+      "desc": "Schweinegeschnetzeltes, Spätzle",
+      "price": 6.90
+    },
+    {
+      "desc": "Spätzle Gemüse Pfanne",
+      "price": 6.90
+    }
+  ],
+  "2025-W23": [
+    {
+      "desc": "Penne mit Rindergeschnetzelten",
+      "price": 5.50
+    },
+    {
+      "desc": "Spaghetti Arrabiatta",
+      "price": 5.50
+    },
+    {
+      "desc": "Penne mit Erbsenmus, Räucherlachs",
+      "price": 5.50
+    }
+  ]
+}
