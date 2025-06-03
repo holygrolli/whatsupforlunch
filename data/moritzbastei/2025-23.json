@@ -1,0 +1,40 @@
+{
+  "2025-06-02": [],
+  "2025-06-03": [
+    {
+      "desc": "Schweineschnitzel \"Au Four\" mit Bratkartoffeln und Bohnensalat",
+      "price": 10.20
+    },
+    {
+      "desc": "Gebratene Gnocchi auf mediterranem Gemüse mit Parmesan und gerösteten Sonnenblumenkernen (veget.)",
+      "price": 9.20
+    }
+  ],
+  "2025-06-04": [
+    {
+      "desc": "Jägerklopse mit Champignons, dazu Kartoffelstampf und Krautsalat",
+      "price": 9.80
+    },
+    {
+      "desc": "Pasta \"Genovese\" mit grünen Bohnen, Kartoffeln, Basilikumpesto und Parmesan (veget.)",
+      "price": 9.20
+    }
+  ],
+  "2025-06-05": [
+    {
+      "desc": "Feuriges Hähnchen in Paprikarahm, dazu Basmatireis und geröstete Mandeln",
+      "price": 9.80
+    },
+    {
+      "desc": "Waldpilzgulasch mit Kräuterspätzle und Röstzwiebeln (veget.)",
+      "price": 9.20
+    }
+  ],
+  "2025-06-06": [],
+  "2025-W23": [
+    {
+      "desc": "Feuriges Hähnchen in Paprikarahm, dazu Basmatireis und Mandeln",
+      "price": 12.90
+    }
+  ]
+}
