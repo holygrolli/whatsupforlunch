@@ -1,0 +1,43 @@
+{
+  "2025-06-09": [],
+  "2025-06-10": [
+    {
+      "desc": "Schweineschnitzel „Wiener Art“ mit Kartoffel-Gurken-Salat",
+      "price": 8.50
+    },
+    {
+      "desc": "Allgäuer Käsespätzle mit Röstzwiebeln",
+      "price": 8.50
+    }
+  ],
+  "2025-06-11": [
+    {
+      "desc": "Grobe Bratwurst mit Sauerkraut und Kartoffelpüree",
+      "price": 8.50
+    },
+    {
+      "desc": "Linsen-Chili mit Sauerrahm",
+      "price": 8.50
+    }
+  ],
+  "2025-06-12": [
+    {
+      "desc": "Pulled pork in BBQ-Sauce mit Kartoffel-Ecken und Krautsalat",
+      "price": 8.50
+    },
+    {
+      "desc": "Spätzlepfanne mit buntem Gemüse und Röstzwiebeln",
+      "price": 8.50
+    }
+  ],
+  "2025-06-13": [
+    {
+      "desc": "Backfisch mit Kartoffel-Gurkensalat und Remoulade",
+      "price": 8.50
+    },
+    {
+      "desc": "Pilzrahm-Ragout mit Rösti Talern",
+      "price": 8.50
+    }
+  ]
+}
