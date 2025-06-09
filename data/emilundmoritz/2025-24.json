@@ -1,0 +1,57 @@
+{
+  "2025-06-09": [],
+  "2025-06-10": [
+    {
+      "desc": "Sülze, Bratkartoffeln, Hausfrauensauce",
+      "price": 6.90
+    },
+    {
+      "desc": "Gemüsecurry, Reis",
+      "price": 6.90
+    }
+  ],
+  "2025-06-11": [
+    {
+      "desc": "Hühnerfrikasse, Reis",
+      "price": 6.90
+    },
+    {
+      "desc": "Kartoffel Lachs Pfanne",
+      "price": 6.90
+    }
+  ],
+  "2025-06-12": [
+    {
+      "desc": "Hackbällchen in Champignonrahm ,Kartoffelstampf",
+      "price": 6.90
+    },
+    {
+      "desc": "Tortellini Toskana",
+      "price": 6.90
+    }
+  ],
+  "2025-06-13": [
+    {
+      "desc": "Schnitzel Schwein, Speckbohnen, Kartoffeln",
+      "price": 6.90
+    },
+    {
+      "desc": "Seelachs Pfanne, Reis",
+      "price": 6.90
+    }
+  ],
+  "2025-W24": [
+    {
+      "desc": "Penne, Wurstgulasch",
+      "price": 5.50
+    },
+    {
+      "desc": "Spaghetti mit Shrimps Zitronenrahm",
+      "price": 5.50
+    },
+    {
+      "desc": "Penne mit Gorgonzola Spinat Sauce",
+      "price": 5.50
+    }
+  ]
+}
