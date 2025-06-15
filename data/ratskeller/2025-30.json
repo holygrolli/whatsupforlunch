@@ -1,0 +1,92 @@
+{
+    "2025-07-21": [
+        {
+            "desc": "Sächsische Kartoffelsuppe mit Majoran und Bockwurst",
+            "price": 5.60
+        },
+        {
+            "desc": "Veganes Gulasch mit Pilzen, Paprika und Reis",
+            "price": 6.10
+        },
+        {
+            "desc": "„Cordon bleu\" vom Schwein mit Buttererbsen und Petersilien-kartoffeln",
+            "price": 6.70
+        },
+        {
+            "desc": "Halloumi-Wrap, Gurke, Tomate, Zwiebel, Joghurt und Bulgur",
+            "price": 8.50
+        }
+    ],
+    "2025-07-22": [
+        {
+            "desc": "Drei Eierkuchen mit Apfelmus und Zimtzucker",
+            "price": 5.60
+        },
+        {
+            "desc": "Pasta mit Tomatensoße und geriebenem Käse",
+            "price": 6.10
+        },
+        {
+            "desc": "Spaghetti ,,Bolognese\" mit geriebenem Käse",
+            "price": 6.70
+        },
+        {
+            "desc": "Bunter Sommersalat mit Hähnchenstreifen Anti Pasti und Baguette",
+            "price": 8.50
+        }
+    ],
+    "2025-07-23": [
+        {
+            "desc": "Spinatsuppe mit Eierstich",
+            "price": 5.60
+        },
+        {
+            "desc": "Gemüse-Schnitzel mit bunten Karotten und Reis",
+            "price": 6.10
+        },
+        {
+            "desc": "Kohlroulade mit Krautsoße und Petersilien-kartoffeln",
+            "price": 6.70
+        },
+        {
+            "desc": "Überraschungs-Gericht mit BIO-Gemüse von KOLA Leipzig",
+            "price": null
+        }
+    ],
+    "2025-07-24": [
+        {
+            "desc": "Süße Schupfnudeln mit Erdbeeren und Vanillesoße",
+            "price": 5.60
+        },
+        {
+            "desc": "2 gekochte Eier mit Senfsoße, Rotkrautsalat und Petersilien-kartoffeln",
+            "price": 6.10
+        },
+        {
+            "desc": "Pasta mit Brokkoli-Schinken-Käse-Sahnesoße",
+            "price": 6.70
+        },
+        {
+            "desc": "Würzfleisch vom Huhn mit Champignons, dazu Zitrone und Baguette",
+            "price": 8.50
+        }
+    ],
+    "2025-07-25": [
+        {
+            "desc": "Brokkoli-Creme-Suppe mit gebackenen Kichererbsen",
+            "price": 5.60
+        },
+        {
+            "desc": "Gemüserösti mit Schnittlauch-Quark und Salat",
+            "price": 6.10
+        },
+        {
+            "desc": "Marinierter Hering, Hausfrauensoße und Petersilien-kartoffeln",
+            "price": 6.70
+        },
+        {
+            "desc": "Schnitzelröllchen, gefüllt mit Obazda, dazu Krautsalat und Wedges",
+            "price": 8.50
+        }
+    ]
+}
