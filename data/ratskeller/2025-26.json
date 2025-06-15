@@ -1,0 +1,93 @@
+{
+  "2025-06-23": [
+    {
+      "desc": "Nudeleintopf mit Geflügelfleisch und Gemüse- Julienne",
+      "price": 5.60
+    },
+    {
+      "desc": "Sellerieschnitzel mit bunten Karotten und Kartoffelstampf",
+      "price": 6.10
+    },
+    {
+      "desc": "Leberkäse mit Bayrisch Kraut und Petersilien- kartoffeln",
+      "price": 6.70
+    },
+    {
+      "desc": "Fischcurry mit Pak Choi, Blumenkohl, Paprika und Reis",
+      "price": 8.50
+    }
+  ],
+  "2025-06-24": [
+    {
+      "desc": "Schokoladen- Germknödel mit Vanillesoße",
+      "price": 5.60
+    },
+    {
+      "desc": "Pasta mit Tomatensoße und geriebenem Käse",
+      "price": 6.10
+    },
+    {
+      "desc": "Pasta mit Wurstgulasch und geriebenem Käse",
+      "price": 6.70
+    },
+    {
+      "desc": "Veganer Backfisch mit Remoulade, Salat und Kartoffel- Ecken",
+      "price": 8.50
+    }
+  ],
+  "2025-06-25": [
+    {
+      "desc": "Erbseneintopf mit Kartoffelwürfeln und Bockwurst",
+      "price": 5.60
+    },
+    {
+      "desc": "Kartoffeltaschen mit Frischkäse, Kräuterdip und Salat",
+      "price": 6.10
+    },
+    {
+      "desc": "Putenrahm- Geschnetzeltes mit Paprika und Reis",
+      "price": 6.70
+    },
+    {
+      "desc": "Überraschungs- Gericht mit BIO- Gemüse von KOLA Leipzig",
+      "price": ""
+    }
+  ],
+  "2025-06-26": [
+    {
+      "desc": "Grießbrei mit Kirschragout und Zimtzucker",
+      "price": 5.60
+    },
+    {
+      "desc": "Schupfnudel- Gratin mit Brokkoli, Erbsen und Karotten",
+      "price": 6.10
+    },
+    {
+      "desc": "Szegediner Gulasch mit Sauerkraut und Böhmischen Knödeln",
+      "price": 6.70
+    },
+    {
+      "desc": "Gebackene Tintenfischringe, dazu Aioli, Salat und Baguette",
+      "price": 8.50
+    }
+  ],
+  "2025-06-27": [
+    {
+      "desc": "Tom-Kha-Gai- Suppe mit Zitronengras, Kokos und Koriander",
+      "price": 5.60
+    },
+    {
+      "desc": "Spinat- Käseknödel mit Salbeibutter und Waldpilzrahm",
+      "price": 6.10
+    },
+    {
+      "desc": "Knusper- Seelachsfilet mit Zitronenbutter- Soße, Salat und Reis",
+      "price": 6.70
+    },
+    {
+      "desc": "Lammhacksteak auf Ratatouille und Kartoffelrösti",
+      "price": 8.50
+    }
+  ],
+  "description": "This JSON contains the meal offers for the calendar week from 2025-06-23 to 2025-06-27."
+}

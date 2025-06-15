@@ -1,0 +1,92 @@
+{
+  "2025-07-07": [
+    {
+      "desc": "Gräupchen-Eintopf mit Kassler-Würfeln",
+      "price": 5.60
+    },
+    {
+      "desc": "Eieromelette mit Rahmspinat und Petersilienkartoffeln",
+      "price": 6.10
+    },
+    {
+      "desc": "Schweine-Geschnetzeltes „Stroganoff\" mit Bete, Pilzen und Spätzle",
+      "price": 6.70
+    },
+    {
+      "desc": "Mais-Lauchrösti mit Kräuterdip und Salat",
+      "price": 8.50
+    }
+  ],
+  "2025-07-08": [
+    {
+      "desc": "Riesen-Germknödel mit Kirschfüllung, dazu Vanillesoße",
+      "price": 5.60
+    },
+    {
+      "desc": "Pasta mit Tomatensoße und geriebenem Käse",
+      "price": 6.10
+    },
+    {
+      "desc": "Jägerschnitzel mit Tomatensoße und Pasta",
+      "price": 6.70
+    },
+    {
+      "desc": "Rote-Bete-Puffer auf Kürbispüree und Linsensalat",
+      "price": 8.50
+    }
+  ],
+  "2025-07-09": [
+    {
+      "desc": "Chili con Carne mit Hackfleisch, Mais, Bohnen und Tomaten",
+      "price": 5.60
+    },
+    {
+      "desc": "Brokkoli-Nuss-Ecke mit Karotten und Kartoffelstampf",
+      "price": 6.10
+    },
+    {
+      "desc": "Hähnchencurry mit Blumenkohl, Kichererbsen und Reis",
+      "price": 6.70
+    },
+    {
+      "desc": "Überraschungs-Gericht mit BIO-Gemüse von KOLA Leipzig",
+      "price": 6.70
+    }
+  ],
+  "2025-07-10": [
+    {
+      "desc": "Kaiserschmarr'n mit Rosinen, Mandeln und Apfelmus",
+      "price": 5.60
+    },
+    {
+      "desc": "Gnocchi-Auflauf mit Kürbis, Pilzen und Paprika",
+      "price": 6.10
+    },
+    {
+      "desc": "Thüringer Bratwurst mit Sauerkraut und Petersilienkartoffeln",
+      "price": 6.70
+    },
+    {
+      "desc": "Tofu-Bowl mit Edamame, Kichererbsen, Koriander und Quinoa",
+      "price": 8.50
+    }
+  ],
+  "2025-07-11": [
+    {
+      "desc": "Paprikacreme-Suppe mit Knoblauch-Croûtons",
+      "price": 5.60
+    },
+    {
+      "desc": "Gemüse-Lasagne mit Zucchini, Aubergine und Karotte",
+      "price": 6.10
+    },
+    {
+      "desc": "Köttbullar mit Rahmpilzen und Kartoffelstampf",
+      "price": 6.70
+    },
+    {
+      "desc": "Paniertes Schollenfilet auf Kartoffel-Gurkensalat",
+      "price": 8.50
+    }
+  ]
+}
