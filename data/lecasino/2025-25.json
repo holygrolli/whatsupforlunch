@@ -1,0 +1,72 @@
+{
+    "2025-06-16": [
+        {
+            "desc": "Kartoffelrösti mit Kräuterdip und med. Gemüse",
+            "price": 4.10
+        },
+        {
+            "desc": "Weißkrauteintopf mit Kartoffelwürfeln und einer Scheibe Brot",
+            "price": 3.50
+        },
+        {
+            "desc": "Schweinebraten mit Bratensoße",
+            "price": 3.75
+        }
+    ],
+    "2025-06-17": [
+        {
+            "desc": "Linsensalat mit Hirtenkäse und Gemüse",
+            "price": 4.75
+        },
+        {
+            "desc": "Kräuterquark mit Kartoffeln und Butter",
+            "price": 3.50
+        },
+        {
+            "desc": "Frischer Spargel mit Petersilienkartoffeln und Hollandaise",
+            "price": 6.00
+        }
+    ],
+    "2025-06-18": [
+        {
+            "desc": "Couscous-Gemüse-Pfanne und Joghurt-Dip",
+            "price": 3.70
+        },
+        {
+            "desc": "Schinkennudeln mit Sahnesoße",
+            "price": 3.50
+        },
+        {
+            "desc": "Schweineschnitzel mit Spargel, Petersilienkartoffeln und holländischer Soße",
+            "price": 7.50
+        }
+    ],
+    "2025-06-19": [
+        {
+            "desc": "Vollkornnudeln mit Zucchini, Möhren, Tomaten und Zitronen-Thymian-Soße",
+            "price": 4.60
+        },
+        {
+            "desc": "Grießbrei mit heißen Kirschen",
+            "price": 3.50
+        },
+        {
+            "desc": "Buntes Spargelragout wahlweise mit Salzkartoffeln oder Reis",
+            "price": 5.50
+        }
+    ],
+    "2025-06-20": [
+        {
+            "desc": "Mandel-Brokkoli-Blumenkohl-Auflauf",
+            "price": 4.40
+        },
+        {
+            "desc": "Hackfleisch-Zucchini-Pfanne mit Kartoffeln",
+            "price": 3.50
+        },
+        {
+            "desc": "Tagesangebot",
+            "price": null
+        }
+    ]
+}
