@@ -1,0 +1,61 @@
+{
+  "2025-06-23": [],
+  "2025-06-24": [
+    {
+      "desc": "Schweineschnitzel \"Mailänder Art\" in Parmesan-Semmelkruste, dazu pikante Tomatensoße und Linguine",
+      "price": 10.20
+    },
+    {
+      "desc": "Gebackener Hirtenkäse auf Melonen-Zuckerschotensalat mit Blattspinat und Parmesancroûtons, dazu Limetten-Minzdressing und Ciabatta (veget.)",
+      "price": 9.20
+    }
+  ],
+  "2025-06-25": [
+    {
+      "desc": "Orientalisches Hähnchen auf Gemüse-Couscous, dazu Minzdip",
+      "price": 9.80
+    },
+    {
+      "desc": "Gerösteter Blumenkohl auf rotem Linsencurry mit Paprika und Lauchzwiebeln (vegan)",
+      "price": 9.20
+    }
+  ],
+  "2025-06-26": [
+    {
+      "desc": "Gebratener Leberkäse mit Spiegelei, dazu Bratkartoffeln und Tomatensalat",
+      "price": 9.80
+    },
+    {
+      "desc": "Tagliatelle mit Zitronen-Basilikumsoße, dazu gebackene Kirschtomaten und Parmesan (veget.)",
+      "price": 8.90
+    }
+  ],
+  "2025-06-27": [
+    {
+      "desc": "Gebratenes Seelachsfilet auf Brokkoli-Kartoffelgratin mit Tomaten-Sahnesoße, überbacken mit Mozzarella und Mandeln",
+      "price": 9.90
+    },
+    {
+      "desc": "Geschnetzeltes vom Schwein nach \"Züricher Art\" mit Champignons, dazu Kartoffelrösti",
+      "price": 9.80
+    }
+  ],
+  "2025-W26": [
+    {
+      "desc": "Pasta mit Koriander-Petersilien-Pesto, dazu geröstete Haselnüsse, Karottenchips und Parmesan (veget.)",
+      "price": 10.90
+    },
+    {
+      "desc": "Spinatlasagne mit getrockneten Tomaten, überbacken mit Hirtenkäse (veget.)",
+      "price": 12.90
+    },
+    {
+      "desc": "Gebackener Hirtenkäse auf mediterranem Ofengemüse mit Oliven, dazu Baguette",
+      "price": 12.90
+    },
+    {
+      "desc": "Geschnetzeltes vom Schwein nach \"Züricher Art\" mit Champignons, dazu Kartoffelrösti",
+      "price": 12.90
+    }
+  ]
+}
