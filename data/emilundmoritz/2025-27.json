@@ -1,0 +1,66 @@
+{
+  "2025-06-30": [
+    {
+      "desc": "Königsberger Klopse mit Kartoffeln",
+      "price": 6.90
+    },
+    {
+      "desc": "Gemüselasagne",
+      "price": 6.90
+    }
+  ],
+  "2025-07-01": [
+    {
+      "desc": "Schweineschnitzel dazu Kräuter-Rahmkarotten und Bratkartoffeln",
+      "price": 6.90
+    },
+    {
+      "desc": "Matjesfilet an Hausfrauensoße und Bratkartoffeln",
+      "price": 6.90
+    }
+  ],
+  "2025-07-02": [
+    {
+      "desc": "Putenleber auf Kartoffelstampf mit Apfel-Zwiebelgemüse",
+      "price": 6.90
+    },
+    {
+      "desc": "Milchreis mit Kirschen und Zucker Zimt",
+      "price": 6.90
+    }
+  ],
+  "2025-07-03": [
+    {
+      "desc": "Schweinebraten mit Brösel- Blumenkohl dazu Petersilienkartoffeln",
+      "price": 6.90
+    },
+    {
+      "desc": "panierter Blumenkohl mit Petersilienkartoffeln",
+      "price": 6.90
+    }
+  ],
+  "2025-07-04": [
+    {
+      "desc": "Currywurst mit Pommes",
+      "price": 6.90
+    },
+    {
+      "desc": "Kartoffel-Gemüsepfanne",
+      "price": 6.90
+    }
+  ],
+  "2025-W27": [
+    {
+      "desc": "Pasta Bolognese",
+      "price": 5.50
+    },
+    {
+      "desc": "Pasta mit Kräuterpesto und Tomaten",
+      "price": 5.50
+    },
+    {
+      "desc": "Pasta Cabonara",
+      "price": 5.50
+    }
+  ]
+}
