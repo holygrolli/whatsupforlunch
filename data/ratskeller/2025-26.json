@@ -50,7 +50,7 @@
     },
     {
       "desc": "Überraschungs- Gericht mit BIO- Gemüse von KOLA Leipzig",
-      "price": ""
+      "price": null
     }
   ],
   "2025-06-26": [
@@ -88,6 +88,5 @@
       "desc": "Lammhacksteak auf Ratatouille und Kartoffelrösti",
       "price": 8.50
     }
-  ],
-  "description": "This JSON contains the meal offers for the calendar week from 2025-06-23 to 2025-06-27."
+  ]
 }
