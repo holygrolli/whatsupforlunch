@@ -1,0 +1,61 @@
+{
+  "2025-06-30": [],
+  "2025-07-01": [
+    {
+      "desc": "Schweineschnitzel überbacken mit Tomate und Mozzarella, dazu Rosmarinkartoffeln und Basilikum-Schmand",
+      "price": 10.20
+    },
+    {
+      "desc": "Gnocchi in leichter Käsesoße mit Birnenspalten, Frühlingszwiebeln und geröstete Mandeln (veget.)",
+      "price": 9.20
+    }
+  ],
+  "2025-07-02": [
+    {
+      "desc": "Hähnchencurry mit buntem Gemüse in Kokossoße, dazu Basmatireis",
+      "price": 9.80
+    },
+    {
+      "desc": "Gebackene Auberginentaler ODER knusprige Hähnchenbruststreifen auf verschiedenen Blattsalaten mit getrockneten Tomaten, gegrillter Paprika, Sonnenblumenkernen und Parmesancroutons, dazu Honig-Senfdressing",
+      "price": 9.20
+    }
+  ],
+  "2025-07-03": [
+    {
+      "desc": "Wurstgulasch mit Paprika auf Pasta, dazu Gouda",
+      "price": 9.80
+    },
+    {
+      "desc": "Pasta mit roten Linsen, Tomaten, Lauchzwiebeln und gerösteten Kichererbsen (vegan)",
+      "price": 8.90
+    }
+  ],
+  "2025-07-04": [
+    {
+      "desc": "Gebackenes Seelachsfilet in Cornflakes-Panade mit hausgemachtem Kartoffelsalat",
+      "price": 9.90
+    },
+    {
+      "desc": "Feuriges Hähnchen in Paprikarahm, dazu Basmatireis und geröstete Mandeln",
+      "price": 9.80
+    }
+  ],
+  "2025-W27": [
+    {
+      "desc": "Pasta mit Rucola-Pesto, dazu geröstete Erdnüsse und Parmesan (veget.)",
+      "price": 10.90
+    },
+    {
+      "desc": "Spitzkohl-Karotten-Lasagne überbacken mit Mozzarella und Sesam (veget.)",
+      "price": 12.90
+    },
+    {
+      "desc": "Nudel-Hackfleisch-Gratin mit Tomaten, Paprika und Zucchini, überbacken mit Hirtenkäse",
+      "price": 12.90
+    },
+    {
+      "desc": "Feuriges Hähnchen in Paprikarahm, dazu Basmatireis und geröstete Mandeln",
+      "price": 12.90
+    }
+  ]
+}
