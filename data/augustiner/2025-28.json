@@ -1,0 +1,52 @@
+{
+  "2025-07-07": [
+    {
+      "desc": "Schweineschnitzel „Wiener Art“ mit Kartoffel-Gurken-Salat",
+      "price": 8.50
+    },
+    {
+      "desc": "Allgäuer Käsespätzle mit Röstzwiebeln",
+      "price": 8.50
+    }
+  ],
+  "2025-07-08": [
+    {
+      "desc": "Hackbraten in grüner Pfeffersauce mit Buttermöhren und Salzkartoffeln",
+      "price": 8.50
+    },
+    {
+      "desc": "Rührei mit Gurkensalat und Salzkartoffeln",
+      "price": 8.50
+    }
+  ],
+  "2025-07-09": [
+    {
+      "desc": "„Jägerschnitzel“ - panierte Jagdwurst mit Spirelli und Tomatensauce",
+      "price": 8.50
+    },
+    {
+      "desc": "Spirelli in mediterraner Gemüsesauce mit Parmesan",
+      "price": 8.50
+    }
+  ],
+  "2025-07-10": [
+    {
+      "desc": "Hühnerfrikassée mit Reis",
+      "price": 8.50
+    },
+    {
+      "desc": "Asia Gemüse - Reispfanne",
+      "price": 8.50
+    }
+  ],
+  "2025-07-11": [
+    {
+      "desc": "Backfisch mit Kartoffel-Gurkensalat und Remoulade",
+      "price": 8.50
+    },
+    {
+      "desc": "Milchreis mit Pflaumenkompott",
+      "price": 8.50
+    }
+  ]
+}
