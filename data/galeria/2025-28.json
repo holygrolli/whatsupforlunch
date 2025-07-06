@@ -1,0 +1,32 @@
+{
+  "2025-07-07": [
+    {
+      "desc": "Küchenchef-Tag, Lassen Sie sich überraschen!",
+      "price": 13.95
+    }
+  ],
+  "2025-07-08": [
+    {
+      "desc": "Schweinegulasch, Spätzle und Möhrensalat",
+      "price": 13.95
+    }
+  ],
+  "2025-07-09": [
+    {
+      "desc": "Hähnchenschenkel, Krautsalat und Pommes frites",
+      "price": 13.95
+    }
+  ],
+  "2025-07-10": [
+    {
+      "desc": "Hackbällchen, Paprikasauce, Butter-Gemüsereis",
+      "price": 13.95
+    }
+  ],
+  "2025-07-11": [
+    {
+      "desc": "Sahnehering \"Hausfrauenart\", Petersilienkartoffeln",
+      "price": 13.95
+    }
+  ]
+}
