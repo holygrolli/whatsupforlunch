@@ -1,0 +1,66 @@
+{
+  "2025-07-07": [
+    {
+      "desc": "Jägerschnitzel auf Pasta und Tomatensoße",
+      "price": 6.90
+    },
+    {
+      "desc": "Zucchinischnitzel auf Reis dazu Tomatensoße",
+      "price": 6.90
+    }
+  ],
+  "2025-07-08": [
+    {
+      "desc": "Krautpfanne mit Hackfleisch und Kartoffeln",
+      "price": 6.90
+    },
+    {
+      "desc": "Kaiserschmarrn mit Apfelmus",
+      "price": 6.90
+    }
+  ],
+  "2025-07-09": [
+    {
+      "desc": "Kartoffel- Brokkoli Gratin mit Hähnchenstreifen",
+      "price": 6.90
+    },
+    {
+      "desc": "Kartoffel- Brokkoli Gratin",
+      "price": 6.90
+    }
+  ],
+  "2025-07-10": [
+    {
+      "desc": "Kartoffelrösti mit Räucherlachs und Kräuterschmand",
+      "price": 6.90
+    },
+    {
+      "desc": "Kartoffelrösti an Tomatensalat und Kräuterschmand",
+      "price": 6.90
+    }
+  ],
+  "2025-07-11": [
+    {
+      "desc": "Mariniertes Putensteak mit Nudelsalat",
+      "price": 6.90
+    },
+    {
+      "desc": "Grillkäse mit Nudelsalat",
+      "price": 6.90
+    }
+  ],
+  "2025-W28": [
+    {
+      "desc": "Pasta mit Avocado- Limettensoße",
+      "price": 5.50
+    },
+    {
+      "desc": "Pasta mit Schweinegulasch",
+      "price": 5.50
+    },
+    {
+      "desc": "Pasta Arrabiata",
+      "price": 5.50
+    }
+  ]
+}
