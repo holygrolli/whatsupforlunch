@@ -1,0 +1,52 @@
+{
+  "2025-07-14": [
+    {
+      "desc": "Schweineschnitzel „Wiener Art“ mit Kartoffel-Gurken-Salat",
+      "price": 8.50
+    },
+    {
+      "desc": "Allgäuer Käsespätzle mit Röstzwiebeln",
+      "price": 8.50
+    }
+  ],
+  "2025-07-15": [
+    {
+      "desc": "Pulled Pork in BBQ-Sauce mit Krautsalat und Kartoffel-Ecken",
+      "price": 8.50
+    },
+    {
+      "desc": "Schupfnudel-Pfanne mit Kraut und Röstzwiebeln",
+      "price": 8.50
+    }
+  ],
+  "2025-07-16": [
+    {
+      "desc": "Kohlroulade in Specksauce mit Salzkartoffeln",
+      "price": 8.50
+    },
+    {
+      "desc": "Gebackener Blumenkohl mit Sauce Hollandaise und Salzkartoffeln",
+      "price": 8.50
+    }
+  ],
+  "2025-07-17": [
+    {
+      "desc": "Hähnchen-Geschnetzeltes in Champignonrahm mit Rösti",
+      "price": 8.50
+    },
+    {
+      "desc": "Gemüsecurry mit Reis",
+      "price": 8.50
+    }
+  ],
+  "2025-07-18": [
+    {
+      "desc": "Backfisch mit Kartoffel-Gurken-Salat und Remoulade",
+      "price": 8.50
+    },
+    {
+      "desc": "Kartoffelpuffer mit Apfelmus",
+      "price": 8.50
+    }
+  ]
+}
