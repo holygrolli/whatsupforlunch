@@ -1,0 +1,61 @@
+{
+  "2025-07-14": [],
+  "2025-07-15": [
+    {
+      "desc": "Schweineschnitzel \"Schweizer Art\" überbacken mit Champignons und Gouda, dazu Kartoffelecken und Kräuter-Schmand",
+      "price": 10.20
+    },
+    {
+      "desc": "Zucchini-Limettentagliatelle mit gerösteten Sonnenblumenkernen und Parmesan (veget.)",
+      "price": 9.20
+    }
+  ],
+  "2025-07-16": [
+    {
+      "desc": "Frikadelle mit Röstzwiebeln, dazu sommerlicher Kartoffelsalat mit Radieschen, Rucola, Lauchzwiebeln, Esssig und Öl und Meerettich-Senfcreme",
+      "price": 9.80
+    },
+    {
+      "desc": "Gebackene Kartoffeltaschen gefüllt mit Frischkäse auf verschiedenen Blattsalaten mit gebratenem Kürbis, Birnen und Mandeln, dazu Orangendressing (veget.)",
+      "price": 9.20
+    }
+  ],
+  "2025-07-17": [
+    {
+      "desc": "Hähnchenschnitzel mit Rahmerbsen, Salzkartoffeln und brauner Soße",
+      "price": 9.80
+    },
+    {
+      "desc": "Gebratene Gnocchi auf mediterranem Gemüse mit Parmesan und gerösteten Sonnenblumenkernen (veget.)",
+      "price": 8.90
+    }
+  ],
+  "2025-07-18": [
+    {
+      "desc": "Matjesfilet in Apfel-Zwiebelremoulade, dazu Salzkartoffeln",
+      "price": 9.90
+    },
+    {
+      "desc": "Hähnchengeschnetzeltes mit gebratenen Zucchinis, getrockneten Tomaten und Rosmarinkartoffeln",
+      "price": 9.80
+    }
+  ],
+  "2025-W29": [
+    {
+      "desc": "Pasta mit Minz-Orangen-Pesto, dazu geröstete Sonnenblumenkerne und Parmesan (veget.)",
+      "price": 10.90
+    },
+    {
+      "desc": "Zuchini-Süßkartoffel-Lasagne überbacken mit Mozzarella (veget.)",
+      "price": 12.90
+    },
+    {
+      "desc": "Kartoffelgratin \"Griechische Art\" mit Hackfleisch, Tomaten und Aubergine, überbacken mit Gouda",
+      "price": 12.90
+    },
+    {
+      "desc": "Hähnchengeschnetzeltes mit getrockneten Tomaten und gebratener Zucchini, dazu Basmatireis",
+      "price": 12.90
+    }
+  ]
+}
