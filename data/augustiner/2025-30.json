@@ -1,0 +1,52 @@
+{
+  "2025-07-21": [
+    {
+      "desc": "Schweineschnitzel „Wiener Art“ mit Kartoffel-Gurken-Salat",
+      "price": 8.50
+    },
+    {
+      "desc": "Allgäuer Käsespätzle mit Röstzwiebeln",
+      "price": 8.50
+    }
+  ],
+  "2025-07-22": [
+    {
+      "desc": "Gezupftes Haxenfleisch in Meerrettichsauce mit Salzkartoffeln",
+      "price": 8.50
+    },
+    {
+      "desc": "Rahmspinat mit Rührei und Salzkartoffeln",
+      "price": 8.50
+    }
+  ],
+  "2025-07-23": [
+    {
+      "desc": "Chili con Carne mit Sauerrahm und Augustiner Hausbrot",
+      "price": 8.50
+    },
+    {
+      "desc": "Waldpilz-Ragout mit Brezelknödeln",
+      "price": 8.50
+    }
+  ],
+  "2025-07-24": [
+    {
+      "desc": "Wurstgulasch mit Spirelli und geriebenem Käse",
+      "price": 8.50
+    },
+    {
+      "desc": "Kartoffel-Blumenkohl-Auflauf",
+      "price": 8.50
+    }
+  ],
+  "2025-07-25": [
+    {
+      "desc": "Backfisch mit Kartoffel-Gurken-Salat und Remoulade",
+      "price": 8.50
+    },
+    {
+      "desc": "Gemüseschnitzel mit Kartoffel-Gurken-Salat",
+      "price": 8.50
+    }
+  ]
+}
