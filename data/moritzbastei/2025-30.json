@@ -1,0 +1,61 @@
+{
+  "2025-07-21": [],
+  "2025-07-22": [
+    {
+      "desc": "Schweineschnitzel \"Gärtnerin\" überbacken mit Gemüse und Sc. Hollandaise, dazu Bratkartoffeln",
+      "price": 10.20
+    },
+    {
+      "desc": "Mediterrane Gemüsebolognese u.a. mit Zucchini, Paprika und Aubergine, dazu Pasta, Parmesan und Sellerie-Chips (veget.)",
+      "price": 9.20
+    }
+  ],
+  "2025-07-23": [
+    {
+      "desc": "Hühnerfrikassee mit Spargel, Erbsen und Champignons, dazu Basmatireis",
+      "price": 9.80
+    },
+    {
+      "desc": "Sojagyros mit Ingwer, dazu Kartoffelecken, Tzatziki und Krautsalat (veget.)",
+      "price": 9.20
+    }
+  ],
+  "2025-07-24": [
+    {
+      "desc": "Pasta mit Schinken-Sahne-Soße, Lauchzwiebeln und Kirschtomaten",
+      "price": 9.80
+    },
+    {
+      "desc": "Gebackener Hirtenkäse auf Melonen-Zuckerschotensalat mit Blattspinat und Parmesancroutons, dazu Limetten-Minzdressing und Ciabatta (veget.)",
+      "price": 8.90
+    }
+  ],
+  "2025-07-25": [
+    {
+      "desc": "Gebratenes Seelachsfilet mit gebratenen Zucchiniwürfeln, rote Bete Pürree und Zitronensoße",
+      "price": 9.90
+    },
+    {
+      "desc": "Pfeffer-Geschnetzeltes vom Schwein, mit Kirschtomaten und frittiertem Rucola, dazu Basmatireis",
+      "price": 9.80
+    }
+  ],
+  "2025-W30": [
+    {
+      "desc": "Pasta mit Paprika-Chili-Honigpesto, dazu geröstete Sonnenblumenkerne und Parmesan (veget.)",
+      "price": 10.90
+    },
+    {
+      "desc": "Spinatlasagne mit getrockneten Tomaten, überbacken mit Mozzarella (veget.)",
+      "price": 12.90
+    },
+    {
+      "desc": "Kartoffelgratin \"Indisch\" mit gebratenen Hähnchenbruststreifen, Blumenkohl und Karotten",
+      "price": 12.90
+    },
+    {
+      "desc": "Pfeffer-Geschnetzeltes vom Schwein, mit Kirschtomaten und frittiertem Rucola, dazu Basmatireis",
+      "price": 12.90
+    }
+  ]
+}
