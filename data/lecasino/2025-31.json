@@ -1,0 +1,72 @@
+{
+  "2025-07-28": [
+    {
+      "desc": "Ofengemüse mit Backkartoffeln und Kräutercreme",
+      "price": 4.50
+    },
+    {
+      "desc": "Grüne Bohneneintopf",
+      "price": 3.50
+    },
+    {
+      "desc": "Ungarischer Kesselgulasch",
+      "price": 3.85
+    }
+  ],
+  "2025-07-29": [
+    {
+      "desc": "Kartoffelrösti mit mediterranem Gemüse",
+      "price": 4.10
+    },
+    {
+      "desc": "Blumenkohl mit Kartoffeln an Kräutersoße",
+      "price": 3.50
+    },
+    {
+      "desc": "Wurstgulasch mit fruchtiger Tomatensoße",
+      "price": 2.95
+    }
+  ],
+  "2025-07-30": [
+    {
+      "desc": "Reissalat mit Tomaten, Paprika, Gurke und Kichererbsen",
+      "price": 3.80
+    },
+    {
+      "desc": "Schweine Hackfleisch-Käse-Lauchsuppe",
+      "price": 3.50
+    },
+    {
+      "desc": "Spinat-Lasagne mit Käse überbacken",
+      "price": 4.50
+    }
+  ],
+  "2025-07-31": [
+    {
+      "desc": "Gnocchi-Feldsalat mit Tomate und Balkankäse",
+      "price": 4.70
+    },
+    {
+      "desc": "Milchreis mit Zimt Zucker und Apfelmus",
+      "price": 3.50
+    },
+    {
+      "desc": "Kasselerbraten",
+      "price": 3.85
+    }
+  ],
+  "2025-08-01": [
+    {
+      "desc": "vegetarische Bolognese mit Kidneybohnen, Gemüsemais und Dinkel-Pasta",
+      "price": 4.00
+    },
+    {
+      "desc": "Kartoffeltopf mit Kokomilch und gebratenen Chiliwurstscheibchen",
+      "price": 3.50
+    },
+    {
+      "desc": "Tagesangebot",
+      "price": null
+    }
+  ]
+}
