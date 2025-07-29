@@ -1,0 +1,61 @@
+{
+  "2025-07-28": [],
+  "2025-07-29": [
+    {
+      "desc": "Schweineschnitzel mit Rahmenblumenkohl, Salzkartoffeln und brauner Soße",
+      "price": 10.20
+    },
+    {
+      "desc": "Tagliatelle mit Zitronen-Basilikumsoße, dazu gebackene Kirschtomaten und Parmesan (veget.)",
+      "price": 9.20
+    }
+  ],
+  "2025-07-30": [
+    {
+      "desc": "Schwedische Hackbällchen \"Köttbullar\" mit Kartoffelpüree, crunchy Onions und Preiselbeeren",
+      "price": 9.80
+    },
+    {
+      "desc": "Zucchini-Kartoffel-Rösti mit Kräuterschmand und Tomatensalat (veget.)",
+      "price": 9.20
+    }
+  ],
+  "2025-07-31": [
+    {
+      "desc": "Bauernfrühstück, dazu Gewürzgurke und Salatbeilage",
+      "price": 9.80
+    },
+    {
+      "desc": "Hausgemachte Spinat-Semmelknödel mit leichter Käsesoße, dazu geröstete Mandeln und rote Kresse (veget.)",
+      "price": 8.90
+    }
+  ],
+  "2025-08-01": [
+    {
+      "desc": "Seelachsfilet auf sommerlichem Reissalat, dazu Honig-Senf-Dip",
+      "price": 9.90
+    },
+    {
+      "desc": "Feuriges Hähnchen in Paprikarahm, dazu Basmatireis und geröstete Mandeln",
+      "price": 9.80
+    }
+  ],
+  "2025-W31": [
+    {
+      "desc": "Pasta mit Petersilien-Macadamia-Pesto, dazu Kirschtomaten und Parmesan (veget.)",
+      "price": 10.90
+    },
+    {
+      "desc": "Spitzkohl-Karotten-Lasagne überbacken mit Mozzarella und Sesam (veget.)",
+      "price": 12.90
+    },
+    {
+      "desc": "Süßkartoffel-Hackfleisch-Gratin mit Tomaten und grünen Bohnen, überbacken mit Hirtenkäse",
+      "price": 12.90
+    },
+    {
+      "desc": "Feuriges Hähnchen in Paprikarahm, dazu Basmatireis und geröstete Mandeln",
+      "price": 12.90
+    }
+  ]
+}
