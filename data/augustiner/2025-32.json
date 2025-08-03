@@ -1,0 +1,52 @@
+{
+  "2025-08-04": [
+    {
+      "desc": "Schweineschnitzel „Wiener Art“ mit Kartoffel-Gurken-Salat",
+      "price": 8.50
+    },
+    {
+      "desc": "Allgäuer Käsespätzle mit Röstzwiebeln",
+      "price": 8.50
+    }
+  ],
+  "2025-08-05": [
+    {
+      "desc": "Hühnerfrikassee mit Butterreis",
+      "price": 8.50
+    },
+    {
+      "desc": "Weißwein-Risotto mit Champignons und Parmesan",
+      "price": 8.50
+    }
+  ],
+  "2025-08-06": [
+    {
+      "desc": "Gezupftes Haxenfleisch in BBQ-Sauce mit Coleslaw Salat und Kartoffel-Ecken",
+      "price": 8.50
+    },
+    {
+      "desc": "Mediterrane Gemüselasagne",
+      "price": 8.50
+    }
+  ],
+  "2025-08-07": [
+    {
+      "desc": "Jägerschnitzel mit Spirelli und Tomatensauce",
+      "price": 8.50
+    },
+    {
+      "desc": "Spirelli mit Spinat-Gorgonzola Sauce",
+      "price": 8.50
+    }
+  ],
+  "2025-08-08": [
+    {
+      "desc": "Backfisch mit Kartoffel-Gurkensalat und Remoulade",
+      "price": 8.50
+    },
+    {
+      "desc": "Kaiserschmarrn mit Apfelmus",
+      "price": 8.50
+    }
+  ]
+}
