@@ -1,0 +1,92 @@
+{
+  "2025-08-11": [
+    {
+      "desc": "Nudeleintopf mit Geflügelfleisch und Gemüse-Julienne",
+      "price": 5.60
+    },
+    {
+      "desc": "Quinoa-Erbsenfrikadelle mit Spinatsoße und Schupf-nudeln",
+      "price": 6.10
+    },
+    {
+      "desc": "Königsberger Klopse mit Kapernsoße, Bete Salat und Kartoffeln",
+      "price": 6.70
+    },
+    {
+      "desc": "Gebackener Camembert mit Preiselbeeren, Salat und Baguette",
+      "price": 8.50
+    }
+  ],
+  "2025-08-12": [
+    {
+      "desc": "Nougat-Topfenknödel mit Vanillerahm",
+      "price": 5.60
+    },
+    {
+      "desc": "Pasta mit Tomatensoße und geriebenem Käse",
+      "price": 6.10
+    },
+    {
+      "desc": "Spaghetti „Bolognese\" mit geriebenem Käse",
+      "price": 6.70
+    },
+    {
+      "desc": "Strammer Max mit Schinken-würfeln, Spiegelei, Gurke und Salat",
+      "price": 8.50
+    }
+  ],
+  "2025-08-13": [
+    {
+      "desc": "Borschtsch mit Rindfleisch, Rote Bete, Kohl und Sauerrahm",
+      "price": 5.60
+    },
+    {
+      "desc": "Kartoffel-Kürbisrösti mit Kräuterdip und Salat",
+      "price": 6.10
+    },
+    {
+      "desc": "Geflügelfrikadelle mit Rahmkohlrabi und Petersilien-kartoffeln",
+      "price": 6.70
+    },
+    {
+      "desc": "Überraschungs-Gericht mit BIO-Gemüse von KOLA Leipzig",
+      "price": null
+    }
+  ],
+  "2025-08-14": [
+    {
+      "desc": "Milchreis mit Apfelmus und Zimtzucker",
+      "price": 5.60
+    },
+    {
+      "desc": "Spinat-Käseknödel mit Kräuter-Waldpilzrahm",
+      "price": 6.10
+    },
+    {
+      "desc": "Hackbällchen in Tomatensoße, dazu Pasta",
+      "price": 6.70
+    },
+    {
+      "desc": "Roulade vom Schwein mit Apfelrotkohl und Kartoffelklößen",
+      "price": 8.50
+    }
+  ],
+  "2025-08-15": [
+    {
+      "desc": "Blumenkohl-Cremesuppe mit Pumpernickel und Sprossen",
+      "price": 5.60
+    },
+    {
+      "desc": "Bauernfrühstück mit Ei, Kartoffeln, Salat, Gurke und Remoulade",
+      "price": 6.10
+    },
+    {
+      "desc": "Jumbo-Fischstäbchen mit Tomatensoße und Kartoffel-Stampf",
+      "price": 6.70
+    },
+    {
+      "desc": "Lammhacksteak auf Ratatouille und bunten Gnocchi",
+      "price": 8.50
+    }
+  ]
+}

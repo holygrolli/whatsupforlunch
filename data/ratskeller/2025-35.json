@@ -1,0 +1,92 @@
+{
+    "2025-08-25": [
+        {
+            "desc": "Usedomer Fisch-Soljanka mit Paprika und Gewürzgurken",
+            "price": 5.60
+        },
+        {
+            "desc": "Zwei gekochte Eier mit Senfsoße, Rotkrautsalat und Petersilien-kartoffeln",
+            "price": 6.10
+        },
+        {
+            "desc": "Putenrahm-geschnetzeltes mit Paprika und Butterreis",
+            "price": 6.70
+        },
+        {
+            "desc": "Spaghetti aglio e olio mit Tomaten, Rucola und Hartkäse",
+            "price": 8.50
+        }
+    ],
+    "2025-08-26": [
+        {
+            "desc": "Drei Eierkuchen mit Apfelmus und Zimtzucker",
+            "price": 5.60
+        },
+        {
+            "desc": "Pasta mit Tomatensoße und geriebenem Käse",
+            "price": 6.10
+        },
+        {
+            "desc": "Pasta mit Wurstgulasch und geriebenem Käse",
+            "price": 6.70
+        },
+        {
+            "desc": "Sauerkraut-Kroketten mit Tofu, Senf und Kartoffelstampf",
+            "price": 8.50
+        }
+    ],
+    "2025-08-27": [
+        {
+            "desc": "Sächsische Kartoffelsuppe mit Majoran und Bockwurst",
+            "price": 5.60
+        },
+        {
+            "desc": "Gemüse-Schnitzel mit buntem Salat und Kräuterreis",
+            "price": 6.10
+        },
+        {
+            "desc": "„Paella\" - Reispfanne mit Hähnchen, Fisch und Muscheln",
+            "price": 6.70
+        },
+        {
+            "desc": "Überraschungs-Gericht mit BIO-Gemüse von KOLA Leipzig",
+            "price": null
+        }
+    ],
+    "2025-08-28": [
+        {
+            "desc": "Germknödel mit Pflaumen und Vanille-Zimt-Soße",
+            "price": 5.60
+        },
+        {
+            "desc": "Tortellini mit Ricottafüllung, dazu Spinatsoße",
+            "price": 6.10
+        },
+        {
+            "desc": "Kotelett vom Schwein, Blumenkohl, Sc. Holland. + Kartoffeln",
+            "price": 6.70
+        },
+        {
+            "desc": "Frühlingsrolle mit Hähnchen, süß-saurer Soße und Asia-Nudelsalat",
+            "price": 8.50
+        }
+    ],
+    "2025-08-29": [
+        {
+            "desc": "Krautsuppe mit Speck, Pilzen, Paprika und Schmand",
+            "price": 5.60
+        },
+        {
+            "desc": "Sellerieschnitzel mit Erbsen und bunten Gnocchi",
+            "price": 6.10
+        },
+        {
+            "desc": "Putenleber mit geschmorten Zwiebeln und Kartoffelstampf",
+            "price": 6.70
+        },
+        {
+            "desc": "Matjes-Happen in Joghurt-Apfelsoße, dazu Salat und Kartoffeln",
+            "price": 8.50
+        }
+    ]
+}
