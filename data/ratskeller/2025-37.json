@@ -1,0 +1,92 @@
+{
+    "2025-09-08": [
+        {
+            "desc": "Gräupchen-Eintopf mit Kassler-Würfeln",
+            "price": 5.60
+        },
+        {
+            "desc": "Eieromelette mit Rahmspinat und Petersilien-kartoffeln",
+            "price": 6.10
+        },
+        {
+            "desc": "Frikadelle mit Speckbohnen und Kroketten",
+            "price": 6.70
+        },
+        {
+            "desc": "Kürbis-Falafel mit Rote-Bete-Hummus und Taboulé-Salat",
+            "price": 8.50
+        }
+    ],
+    "2025-09-09": [
+        {
+            "desc": "Erdbeer-Topfenknödel mit Vanillerahm",
+            "price": 5.60
+        },
+        {
+            "desc": "Pasta mit Tomatensoße und geriebenem Käse",
+            "price": 6.10
+        },
+        {
+            "desc": "Jägerschnitzel mit Tomatensoße und Pasta",
+            "price": 6.70
+        },
+        {
+            "desc": "Veganes „Gyros\" mit Knoblauchdip, Krautsalat und Reis",
+            "price": 8.50
+        }
+    ],
+    "2025-09-10": [
+        {
+            "desc": "Soljanka mit Zitrone und Sauerrahm",
+            "price": 5.60
+        },
+        {
+            "desc": "Kräuterquark mit Zwiebeln, Butter und Petersilien-kartoffeln",
+            "price": 6.10
+        },
+        {
+            "desc": "Hühnerfrikassee mit Erbsen, Karotten und Butterreis",
+            "price": 6.70
+        },
+        {
+            "desc": "Überraschungs-Gericht mit BIO-Gemüse von KOLA Leipzig",
+            "price": null
+        }
+    ],
+    "2025-09-11": [
+        {
+            "desc": "Kokosmilchreis mit Mango-ragout",
+            "price": 5.60
+        },
+        {
+            "desc": "Mac and Cheese-Gratin - mit Makkaroni und Käsesoße",
+            "price": 6.10
+        },
+        {
+            "desc": "Kassler-Braten mit Sauerkraut und Petersilien-kartoffeln",
+            "price": 6.70
+        },
+        {
+            "desc": "Gebackene Tintenfischringe auf buntem Salat mit Linsen und Knobidip",
+            "price": 8.50
+        }
+    ],
+    "2025-09-12": [
+        {
+            "desc": "Waldpilzcreme-Suppe mit Thymian und Croûtons",
+            "price": 5.60
+        },
+        {
+            "desc": "Gefüllte Zucchini mit Gemüse, dazu Salat und Kräuterreis",
+            "price": 6.10
+        },
+        {
+            "desc": "Grützwurst mit Sauerkraut und Petersilien-kartoffeln",
+            "price": 6.70
+        },
+        {
+            "desc": "Knusper-Seelachs gefüllt mit Tomate, dazu Fenchel+Kartoffel - Gratin",
+            "price": 8.50
+        }
+    ]
+}
