@@ -1,0 +1,72 @@
+{
+  "2025-08-04": [
+    {
+      "desc": "Champignontopf mit Semmelknödel und Kräutersoße",
+      "price": 4.60
+    },
+    {
+      "desc": "Hausgemachte Kartoffelsuppe",
+      "price": 3.50
+    },
+    {
+      "desc": "Currywurst-Pastapfanne mit fruchtig-scharfer Currysauce",
+      "price": 4.20
+    }
+  ],
+  "2025-08-05": [
+    {
+      "desc": "Spaghetti 'Primavera' mit Paprika, Möhren, Zucchini und Broccoligemüse",
+      "price": 4.20
+    },
+    {
+      "desc": "Frikadelle mit Püree und Soße",
+      "price": 3.50
+    },
+    {
+      "desc": "Rinderbraten",
+      "price": 4.30
+    }
+  ],
+  "2025-08-06": [
+    {
+      "desc": "Salat mit Eisberg, Tomate, Gurke und Paprika, Croutons und Sonnenblumenkerne",
+      "price": 4.30
+    },
+    {
+      "desc": "Erbseneintopf mit Kasseler Fleisch",
+      "price": 3.50
+    },
+    {
+      "desc": "Hackfleisch-Bolognese",
+      "price": 2.95
+    }
+  ],
+  "2025-08-07": [
+    {
+      "desc": "Reisnudelsalat mit Tomaten, Zucchini und Hirtenkäse",
+      "price": 4.40
+    },
+    {
+      "desc": "Quarkkeulchen mit Apfelmus und Zimt Zucker",
+      "price": 3.50
+    },
+    {
+      "desc": "Hähnchenschnitzel mit Cornflakespanade an Bratensoße",
+      "price": 3.85
+    }
+  ],
+  "2025-08-08": [
+    {
+      "desc": "Vegetarische Asiatische Gemüsepfanne mit Basmatireis",
+      "price": 4.20
+    },
+    {
+      "desc": "Penne all'arrabbiata mit frischen Kräutern (auf scharfe Art) mit Käse",
+      "price": 3.50
+    },
+    {
+      "desc": "Tagesangebot",
+      "price": null
+    }
+  ]
+}
