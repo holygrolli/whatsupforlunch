@@ -1,0 +1,61 @@
+{
+  "2025-08-04": [],
+  "2025-08-05": [
+    {
+      "desc": "Schweineschnitzel \"Western\" mit BBQ-Zwiebeln, Bacon und gebackenen Kartoffelecken",
+      "price": 10.20
+    },
+    {
+      "desc": "Gnocchi mit gebratenem grünen Spargel, Rucola und Kirschtomaten, dazu Parmesan (veget.)",
+      "price": 9.20
+    }
+  ],
+  "2025-08-06": [
+    {
+      "desc": "Currywurst \"Nach Art Des Hauses\" mit Kartoffelecken und Salatbeilage",
+      "price": 9.80
+    },
+    {
+      "desc": "Karottenpfanne mit Zuckerschoten, Kartoffeln und Petersilie, dazu geröstete Sonnenblumenkerne und Hirtenkäse (veget.)",
+      "price": 9.20
+    }
+  ],
+  "2025-08-07": [
+    {
+      "desc": "Gebackene Hähnchenbrust in Cornflakespanade, dazu gebratene Mie-Nudeln mit buntem Gemüse, Sweet Chilisoße und Röstzwiebeln",
+      "price": 9.80
+    },
+    {
+      "desc": "Eier in Honig-Senfsoße, dazu Salzkartoffeln, frittierte Petersilie und Gurkensalat (veget.)",
+      "price": 8.90
+    }
+  ],
+  "2025-08-08": [
+    {
+      "desc": "Seelachsfilet in Pringles-Panade, dazu Süßkartoffelspalten, Chili-Maiscreme und Tomatensalat",
+      "price": 9.90
+    },
+    {
+      "desc": "Hähnchencurry mit buntem Gemüse in Kokossoße, dazu Basmatireis und Erdnüsse",
+      "price": 9.80
+    }
+  ],
+  "2025-W32": [
+    {
+      "desc": "Hähnchencurry mit buntem Gemüse in Kokossoße, dazu Basmatireis und Erdnüsse",
+      "price": 12.90
+    },
+    {
+      "desc": "Pasta mit Tomaten-Rosmarin-Pesto, dazu Walnüsse und Parmesan (veget.)",
+      "price": 10.90
+    },
+    {
+      "desc": "Waldpilz-Lasagne überbacken mit Mozzarella und Röstzwiebeln (veget.)",
+      "price": 12.90
+    },
+    {
+      "desc": "Kartoffel-Brokkoligratin mit gebratenen Hähnchenbruststreifen, überbacken mit Mozzarella und Mandeln",
+      "price": 12.90
+    }
+  ]
+}
