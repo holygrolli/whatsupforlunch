@@ -1,0 +1,72 @@
+{
+    "2025-08-11": [
+        {
+            "desc": "Kartoffelrösti mit Kräuterdip und med. Gemüse",
+            "price": 4.10
+        },
+        {
+            "desc": "Weißkrautintopf mit Kartoffelwürfeln und einer Scheibe Brot",
+            "price": 3.50
+        },
+        {
+            "desc": "Bratwurst mit Bratensoße",
+            "price": 2.85
+        }
+    ],
+    "2025-08-12": [
+        {
+            "desc": "Linsensalat mit Hirtenkäse und Gemüse",
+            "price": 4.75
+        },
+        {
+            "desc": "Kräuterquark mit Kartoffeln und Butter",
+            "price": 3.50
+        },
+        {
+            "desc": "Curry-Putengeschnetzeltes",
+            "price": 3.90
+        }
+    ],
+    "2025-08-13": [
+        {
+            "desc": "Couscous-Gemüse-Pfanne und Joghurt-Dip",
+            "price": 3.70
+        },
+        {
+            "desc": "Schinkennudeln mit Sahnesoße",
+            "price": 3.50
+        },
+        {
+            "desc": "Schweineschnitzel \"Wiener-Art\"",
+            "price": 3.75
+        }
+    ],
+    "2025-08-14": [
+        {
+            "desc": "Vollkornnudeln mit Zucchini, Möhren, Tomaten und Zitronen-Thymiansoße",
+            "price": 4.60
+        },
+        {
+            "desc": "Grießbrei mit heißen Kirschen",
+            "price": 3.50
+        },
+        {
+            "desc": "Tagespezial: Frische Pfifferlinge in Rahm mit Kartoffelrösti oder Spätzle",
+            "price": 6.00
+        }
+    ],
+    "2025-08-15": [
+        {
+            "desc": "Mandel-Brokkoli-Blumenkohl-Auflauf",
+            "price": 4.40
+        },
+        {
+            "desc": "Hackfleisch-Zucchini-Pfanne mit Kartoffeln",
+            "price": 3.50
+        },
+        {
+            "desc": "Tagesangebot",
+            "price": null
+        }
+    ]
+}
