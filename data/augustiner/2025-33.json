@@ -1,0 +1,52 @@
+{
+  "2025-08-11": [
+    {
+      "desc": "Schweineschnitzel „Wiener Art“ mit Kartoffel-Gurken-Salat",
+      "price": 8.50
+    },
+    {
+      "desc": "Allgäuer Käsespätzle mit Röstzwiebeln",
+      "price": 8.50
+    }
+  ],
+  "2025-08-12": [
+    {
+      "desc": "Königsberger Klopse in Kapernsauce mit Salzkartoffeln",
+      "price": 8.50
+    },
+    {
+      "desc": "Rahmspinat mit Rührei und Salzkartoffeln",
+      "price": 8.50
+    }
+  ],
+  "2025-08-13": [
+    {
+      "desc": "Kasslerbraten mit Sauerkraut und Kartoffelstampf",
+      "price": 8.50
+    },
+    {
+      "desc": "Gemüsebratling mit Kräuterquark und Blattsalat",
+      "price": 8.50
+    }
+  ],
+  "2025-08-14": [
+    {
+      "desc": "Hähnchen-Geschnetzeltes in Paprikarahm mit Reis",
+      "price": 8.50
+    },
+    {
+      "desc": "Mediterranes Gemüse-Ragout mit Reis",
+      "price": 8.50
+    }
+  ],
+  "2025-08-15": [
+    {
+      "desc": "Backfisch mit Kartoffel-Gurken-Salat und Remoulade",
+      "price": 8.50
+    },
+    {
+      "desc": "Leipziger Räbchen mit Pflaumen-Eis und Vanillesauce",
+      "price": 8.50
+    }
+  ]
+}
