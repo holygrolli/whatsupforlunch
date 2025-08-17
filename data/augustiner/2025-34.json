@@ -1,0 +1,52 @@
+{
+  "2025-08-18": [
+    {
+      "desc": "Schweineschnitzel „Wiener Art“ mit Kartoffel-Gurken-Salat",
+      "price": 8.50
+    },
+    {
+      "desc": "Allgäuer Käsespätzle mit Röstzwiebeln",
+      "price": 8.50
+    }
+  ],
+  "2025-08-19": [
+    {
+      "desc": "Fleischpflanzerl mit Pfannengemüse und Spätzle",
+      "price": 8.50
+    },
+    {
+      "desc": "Spätzlepfanne mit buntem Gemüse und Röstzwiebeln",
+      "price": 8.50
+    }
+  ],
+  "2025-08-20": [
+    {
+      "desc": "Gezupftes Haxenfleisch in Meerrettichsauce mit Salzkartoffeln",
+      "price": 8.50
+    },
+    {
+      "desc": "Rührei mit Gurkensalat und Salzkartoffeln",
+      "price": 8.50
+    }
+  ],
+  "2025-08-21": [
+    {
+      "desc": "Hähnchencurry mit Butterreis",
+      "price": 8.50
+    },
+    {
+      "desc": "Rotes Gemüse-Curry in Kokosmilch mit Reis",
+      "price": 8.50
+    }
+  ],
+  "2025-08-22": [
+    {
+      "desc": "Backfisch mit Kartoffel-Gurkensalat und Remoulade",
+      "price": 8.50
+    },
+    {
+      "desc": "Gefüllte Ofenkartoffel mit Kräuterquark an Blattsalaten",
+      "price": 8.50
+    }
+  ]
+}
