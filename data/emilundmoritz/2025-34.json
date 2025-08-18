@@ -1,0 +1,66 @@
+{
+  "2025-08-18": [
+    {
+      "desc": "Steak Pute, Kartoffelsalat mit Essig/ Öl und grüner Gurke",
+      "price": 6.99
+    },
+    {
+      "desc": "2 Spiegeleier, Kartoffelsalat Essig/ Öl und grüner Gurke",
+      "price": 6.99
+    }
+  ],
+  "2025-08-19": [
+    {
+      "desc": "Matjes mit Hausfrauensauce, Dillkartoffeln",
+      "price": 6.99
+    },
+    {
+      "desc": "frischer Zucchini- Tomaten- Salat mit Feta, Lauchzwiebel, Basilikum und Brotwürfel gebr.",
+      "price": 6.99
+    }
+  ],
+  "2025-08-20": [
+    {
+      "desc": "Gyros, Zatziki, Reissalat",
+      "price": 6.99
+    },
+    {
+      "desc": "Kartoffeln, Quark, kl. Gurkensalat",
+      "price": 6.99
+    }
+  ],
+  "2025-08-21": [
+    {
+      "desc": "Schnitzel Pute, Nudelsalat",
+      "price": 6.99
+    },
+    {
+      "desc": "Backfisch, Nudelsalat",
+      "price": 6.99
+    }
+  ],
+  "2025-08-22": [
+    {
+      "desc": "Leber- Schwein, Kartoffelstampf, Zwiebel Gemüse",
+      "price": 6.99
+    },
+    {
+      "desc": "Fischstäbchen, Kartoffelstampf, Sauce",
+      "price": 6.99
+    }
+  ],
+  "2025-W34": [
+    {
+      "desc": "Penne mit Wurstgulasch",
+      "price": 5.50
+    },
+    {
+      "desc": "Pasta mit Erbsenmus+Lachs",
+      "price": 5.50
+    },
+    {
+      "desc": "Pasta mit Rindergeschnetzelten",
+      "price": 5.50
+    }
+  ]
+}
