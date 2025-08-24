@@ -1,0 +1,52 @@
+{
+  "2025-09-01": [
+    {
+      "desc": "Schweineschnitzel „Wiener Art“ mit Kartoffel-Gurken-Salat",
+      "price": 8.50
+    },
+    {
+      "desc": "Allgäuer Käsespätzle mit Röstzwiebeln",
+      "price": 8.50
+    }
+  ],
+  "2025-09-02": [
+    {
+      "desc": "Wurstgulasch mit Spirelli und geriebenem Käse",
+      "price": 8.50
+    },
+    {
+      "desc": "Spirelli in Tomaten-Gemüsesauce mit Parmesan",
+      "price": 8.50
+    }
+  ],
+  "2025-09-03": [
+    {
+      "desc": "Putenrollbraten mit Mischgemüse und Kroketten",
+      "price": 8.50
+    },
+    {
+      "desc": "Pilzpfanne mit Spätzle",
+      "price": 8.50
+    }
+  ],
+  "2025-09-04": [
+    {
+      "desc": "Gezupftes Haxenfleisch in Senfsauce mit Erbspüree und Sauerkraut",
+      "price": 8.50
+    },
+    {
+      "desc": "Krautschupfnudeln mit Röstzwiebeln",
+      "price": 8.50
+    }
+  ],
+  "2025-09-05": [
+    {
+      "desc": "Backfisch mit Kartoffel-Gurken-Salat und Remoulade",
+      "price": 8.50
+    },
+    {
+      "desc": "Linsen-Chili mit Sauerrahm und unserem Hausbrot",
+      "price": 8.50
+    }
+  ]
+}
