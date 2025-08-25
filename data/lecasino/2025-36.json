@@ -1,0 +1,72 @@
+{
+    "2025-09-01": [
+        {
+            "desc": "Schupfnudel-Pfanne mit Brechbohnen, Erbsen, Karottengemüse",
+            "price": 4.50
+        },
+        {
+            "desc": "Grapen­eintopf mit Kasslerwürfeln",
+            "price": 3.50
+        },
+        {
+            "desc": "Wurstgulasch mit Tomatensoße",
+            "price": 2.95
+        }
+    ],
+    "2025-09-02": [
+        {
+            "desc": "Mit Gemüse-Bulgur gefüllte Paprikaschote an einer Tomatensoße",
+            "price": 3.75
+        },
+        {
+            "desc": "Nudeln mit Bärlauchpesto",
+            "price": 3.50
+        },
+        {
+            "desc": "Rindergulasch",
+            "price": 4.20
+        }
+    ],
+    "2025-09-03": [
+        {
+            "desc": "Gnocchi-Feldsalat mit Tomaten und Balkankäse",
+            "price": 4.70
+        },
+        {
+            "desc": "Möhren-Kartoffeleintopf mit Schweinefleisch",
+            "price": 3.50
+        },
+        {
+            "desc": "Geschwenkte Pasta mit Porree und Hackfleisch",
+            "price": 3.70
+        }
+    ],
+    "2025-09-04": [
+        {
+            "desc": "Bunter Gartensalat mit Mozzarella und Mehrkornbaguette",
+            "price": 4.90
+        },
+        {
+            "desc": "Kartoffelpuffer mit Apfelmus und Zucker",
+            "price": 3.50
+        },
+        {
+            "desc": "Schnitzel „Münchner Art“ mit Meerrettich-Senf-Panade",
+            "price": 3.75
+        }
+    ],
+    "2025-09-05": [
+        {
+            "desc": "Maultaschen-Spinat-Gratin mit Tomatens­oße und Käse überbacken",
+            "price": 4.50
+        },
+        {
+            "desc": "Bauern­topf",
+            "price": 3.50
+        },
+        {
+            "desc": "Tagesangebot",
+            "price": null
+        }
+    ]
+}
