@@ -1,0 +1,61 @@
+{
+  "2025-08-25": [],
+  "2025-08-26": [
+    {
+      "desc": "Schweineschnitzel \"Strammer Max\" mit Kochschinken und Spiegelei, dazu Bratkartoffeln",
+      "price": 10.20
+    },
+    {
+      "desc": "Waldpilzgulasch mit Kräuterspätzle und Röstzwiebeln (veget.)",
+      "price": 9.20
+    }
+  ],
+  "2025-08-27": [
+    {
+      "desc": "Gebackene Hähnchenbrust in Parmesan-Panade auf Tomaten-Paprikagemüse, dazu Rosmarinkartoffeln",
+      "price": 9.80
+    },
+    {
+      "desc": "Zucchini-Limetten-Tagliatelle mit gerösteten Sonnenblumenkernen und Parmesan (veget.)",
+      "price": 9.20
+    }
+  ],
+  "2025-08-28": [
+    {
+      "desc": "Wurstgulasch mit Paprika auf Pasta, dazu Gouda",
+      "price": 9.80
+    },
+    {
+      "desc": "Gnocchi in Basilikumsoße mit getrockneten Tomaten, dazu Parmesan und Sonnenblumenkerne (veget.)",
+      "price": 9.20
+    }
+  ],
+  "2025-08-29": [
+    {
+      "desc": "Gebratenes Seelachsfilet dazu Orangen-Fenchel und Tomatenreis",
+      "price": 9.90
+    },
+    {
+      "desc": "Hähnchengeschnetzeltes nach \"Züricher Art\" mit Champignons, dazu Kartoffelrösti und frittierte Petersilie",
+      "price": 9.80
+    }
+  ],
+  "2025-W35": [
+    {
+      "desc": "Pasta mit Minz-Orangen-Pesto, dazu geröstete Mandeln und Parmesan (veget.)",
+      "price": 10.90
+    },
+    {
+      "desc": "Spinatlasagne mit getrockneten Tomaten, überbacken mit Mozzarella (veget.)",
+      "price": 12.90
+    },
+    {
+      "desc": "Hähnchengratin mit Penne und gebratener Zucchini, in pikanter Tomatensoße, überbacken mit Hirtenkäse",
+      "price": 12.90
+    },
+    {
+      "desc": "Hähnchengeschnetzeltes nach \"Züricher Art\" mit Champignons, dazu Kartoffelrösti und frittierte Petersilie",
+      "price": 12.90
+    }
+  ]
+}
