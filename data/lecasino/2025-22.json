@@ -1,0 +1,59 @@
+{
+  "2025-05-26": [
+    {
+      "desc": "Pasta aglio olio",
+      "price": 3.50
+    },
+    {
+      "desc": "Nudeleintopf mit Huhn und Gemüse",
+      "price": 3.50
+    },
+    {
+      "desc": "Hühnerfrikassee mit buntem Gemüse",
+      "price": 3.60
+    }
+  ],
+  "2025-05-27": [
+    {
+      "desc": "Chili sin Carne mit Mandeln und Kurkumareis",
+      "price": 4.10
+    },
+    {
+      "desc": "Gemüsepfanne mit Kräuterkaroffeln",
+      "price": 3.50
+    },
+    {
+      "desc": "Szegediner Schweinegulasch",
+      "price": 3.90
+    }
+  ],
+  "2025-05-28": [
+    {
+      "desc": "Gemüsschnitzel mit kl. gem. Salat",
+      "price": 3.80
+    },
+    {
+      "desc": "Wirsingeintopf mit Schweinefleisch",
+      "price": 3.50
+    },
+    {
+      "desc": "Muligatawny- indische Currysuppe mit Hähnchenfleisch und Ingwer",
+      "price": 3.80
+    }
+  ],
+  "2025-05-29": [],
+  "2025-05-30": [
+    {
+      "desc": "Ofenkartoffel mit Schnittlauch-Dip und ein kl. gemischter Salat",
+      "price": 4.20
+    },
+    {
+      "desc": "Tortellini mit Spinat-Ricotta Füllung an Kräutersoße",
+      "price": 3.50
+    },
+    {
+      "desc": "Tagesangebot",
+      "price": null
+    }
+  ]
+}

@@ -1,0 +1,66 @@
+{
+  "2025-08-11": [
+    {
+      "desc": "Wurstgulasch, Spätzle",
+      "price": 6.99
+    },
+    {
+      "desc": "Nudeln, Tomatensauce, Käse",
+      "price": 6.99
+    }
+  ],
+  "2025-08-12": [
+    {
+      "desc": "Rostbrätl, Zwiebel geschmorrt, Bratkartoffeln",
+      "price": 6.99
+    },
+    {
+      "desc": "Gnocchi, frischer Spinat in Rahm",
+      "price": 6.99
+    }
+  ],
+  "2025-08-13": [
+    {
+      "desc": "Zsegediner Gulasch, Spätzle",
+      "price": 6.99
+    },
+    {
+      "desc": "Spätzle Gemüse Pfanne",
+      "price": 6.99
+    }
+  ],
+  "2025-08-14": [
+    {
+      "desc": "Bratwurst, Sauerkraut, Kartoffelstampf",
+      "price": 6.99
+    },
+    {
+      "desc": "Parikaschote gefüllt mit Couscous und Tomatensauce",
+      "price": 6.99
+    }
+  ],
+  "2025-08-15": [
+    {
+      "desc": "Schnitzel Pute, Blumenkohl, Kartoffeln",
+      "price": 6.99
+    },
+    {
+      "desc": "Blumenkohl mit Brösel, Sc. Hollandaise, kartoffeln",
+      "price": 6.99
+    }
+  ],
+  "2025-W33": [
+    {
+      "desc": "Pasta mit Erbsenmus + Lachs",
+      "price": 5.50
+    },
+    {
+      "desc": "Pasta mit Rindergeschnetzelten",
+      "price": 5.50
+    },
+    {
+      "desc": "Pasta Arriabata",
+      "price": 0.00
+    }
+  ]
+}

@@ -1,0 +1,61 @@
+{
+  "2025-07-07": [],
+  "2025-07-08": [
+    {
+      "desc": "Schweineschnitzel \"Strammer Max\" mit Kochschinken und Spiegelei, dazu Bratkartoffeln",
+      "price": 10.20
+    },
+    {
+      "desc": "Karottenpfanne mit Zuckerschoten, Kartoffeln und Petersilie, dazu geröstete Sonnenblumenkerne mit Hirtenkäse (veget.)",
+      "price": 9.20
+    }
+  ],
+  "2025-07-09": [
+    {
+      "desc": "Gebratene Hähnchenbrust \"Jerk Style\" auf buntem Grillgemüse mit Tomatensalsa",
+      "price": 9.80
+    },
+    {
+      "desc": "Gebratene Minikartoffeln mit Kirschtomaten, Rucola, dazu Paprika-Gurken-Quark sowie geröstete Sonnenblumenkerne",
+      "price": 9.20
+    }
+  ],
+  "2025-07-10": [
+    {
+      "desc": "Jägerschnitzel mit Tomatensoße, dazu Pasta und Gouda",
+      "price": 9.80
+    },
+    {
+      "desc": "Gebackene Risottobällchen auf pikantem Kürbisragout mit frittiertem Rucola (veget.)",
+      "price": 8.90
+    }
+  ],
+  "2025-07-11": [
+    {
+      "desc": "Gebratenes Seelachsfilet dazu Erbsen-Minzpüree, Zitronensoße und Süßkartoffelecken",
+      "price": 9.90
+    },
+    {
+      "desc": "Currywurst \"Nach Art des Hauses\" mit Kartoffelecken und Salatbeilage",
+      "price": 9.80
+    }
+  ],
+  "2025-W28": [
+    {
+      "desc": "Currywurst \"Nach Art des Hauses\" mit Kartoffelecken und Salatbeilage",
+      "price": 12.90
+    },
+    {
+      "desc": "Pasta mit Dattel-Oliven-Pesto, dazu geröstete Mandeln und Parmesan (veget.)",
+      "price": 10.90
+    },
+    {
+      "desc": "Sommerlasagne u.a. mit Zuckerschoten, Aubergine und Paprika, überbacken mit Mozzarella und Sonnenblumenkernen (veget.)",
+      "price": 12.90
+    },
+    {
+      "desc": "Hähnchengratin mit Penne und gebratener Zucchini in pikanter Tomatensoße, überbacken mit Hirtenkäse",
+      "price": 12.90
+    }
+  ]
+}

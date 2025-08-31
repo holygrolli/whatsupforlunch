@@ -1,0 +1,92 @@
+{
+  "2025-08-18": [
+    {
+      "desc": "Grüner Bohneneintopf mit Rindfleisch und Kartoffel- würfeln",
+      "price": 5.60
+    },
+    {
+      "desc": "Böhmische Knödel mit Rahm- Champignons und Salat",
+      "price": 6.10
+    },
+    {
+      "desc": "Gyrospfanne mit Zaziki, Krautsalat und Tomatenreis",
+      "price": 6.70
+    },
+    {
+      "desc": "Vegane Hackbällchen mit Tomaten- Basilikumsoße und Pasta",
+      "price": 8.50
+    }
+  ],
+  "2025-08-19": [
+    {
+      "desc": "Kaiserschmarren mit Rosinen, Mandeln und Apfelmus",
+      "price": 5.60
+    },
+    {
+      "desc": "Pasta mit Tomatensoße und geriebenem Käse",
+      "price": 6.10
+    },
+    {
+      "desc": "Jägerschnitzel mit Tomatensoße und Pasta",
+      "price": 6.70
+    },
+    {
+      "desc": "Shakshuka mit Hummus und Fladenbrot",
+      "price": 8.50
+    }
+  ],
+  "2025-08-20": [
+    {
+      "desc": "Käse-Lauch-Suppe mit Hackfleisch und Champignons",
+      "price": 5.60
+    },
+    {
+      "desc": "Mexikanische Reispfanne mit Soja-,,Hack\", dazu Reis",
+      "price": 6.10
+    },
+    {
+      "desc": "Kohlroulade mit Krautsoße und Petersilien- kartoffeln",
+      "price": 6.70
+    },
+    {
+      "desc": "Überraschungs- Gericht mit BIO- Gemüse von KOLA Leipzig",
+      "price": null
+    }
+  ],
+  "2025-08-21": [
+    {
+      "desc": "Drei Hefeklöße mit warmen Heidelbeeren",
+      "price": 5.60
+    },
+    {
+      "desc": "Kartoffel- Blumenkohl- Gratin mit Frühlingslauch",
+      "price": 6.10
+    },
+    {
+      "desc": "Szegediner Gulasch mit Sauerkraut und Böhmischen Knödeln",
+      "price": 6.70
+    },
+    {
+      "desc": "Veganer „Backfisch\" mit Remoulade, Salat und Kartoffel- Ecken",
+      "price": 8.50
+    }
+  ],
+  "2025-08-22": [
+    {
+      "desc": "Indische rote Linsensuppe mit Koriander und Naan-Brot",
+      "price": 5.60
+    },
+    {
+      "desc": "Zucchini- Möhrenpuffer mit Radieschen- Quark und Salat",
+      "price": 6.10
+    },
+    {
+      "desc": "Krakauer mit Grünkohl und Petersilien- kartoffeln",
+      "price": 6.70
+    },
+    {
+      "desc": "Kabeljaufilet in Buttermilch-Dill- Soße, dazu Risi Bisi",
+      "price": 8.50
+    }
+  ]
+}

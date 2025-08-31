@@ -1,0 +1,66 @@
+{
+  "2025-06-23": [
+    {
+      "desc": "Putengeschnetzeltes, Reis",
+      "price": 6.90
+    },
+    {
+      "desc": "Kartoffel Brokkoli Auflauf",
+      "price": 6.90
+    }
+  ],
+  "2025-06-24": [
+    {
+      "desc": "Wurstgulasch, Spirelli",
+      "price": 6.90
+    },
+    {
+      "desc": "Pasta Gemüse Pfanne",
+      "price": 6.90
+    }
+  ],
+  "2025-06-25": [
+    {
+      "desc": "Hähnchenkeule, Möhren, Kartoffeln, Sauce",
+      "price": 6.90
+    },
+    {
+      "desc": "Eier in Senfsauce, Kartoffeln",
+      "price": 6.90
+    }
+  ],
+  "2025-06-26": [
+    {
+      "desc": "Schnitzel- Schwein, Kartoffel Gurkensalat",
+      "price": 6.90
+    },
+    {
+      "desc": "Backfisch, Kartoffel Gurken Salat",
+      "price": 6.90
+    }
+  ],
+  "2025-06-27": [
+    {
+      "desc": "Hackbraten, Mischgemüse, Kartoffeln",
+      "price": 6.90
+    },
+    {
+      "desc": "Kartoffeln, Quark, kl. Salat",
+      "price": 6.90
+    }
+  ],
+  "2025-W26": [
+    {
+      "desc": "Pasta, Bolognese",
+      "price": 5.50
+    },
+    {
+      "desc": "Pasta, Kräuterpesto, Kirschtomaten",
+      "price": 5.50
+    },
+    {
+      "desc": "Pasta, Carbonara",
+      "price": 5.50
+    }
+  ]
+}

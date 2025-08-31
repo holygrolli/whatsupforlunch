@@ -1,0 +1,52 @@
+{
+  "2025-06-02": [
+    {
+      "desc": "Schweineschnitzel „Wiener Art“ mit Kartoffel-Gurken-Salat",
+      "price": 8.50
+    },
+    {
+      "desc": "Allgäuer Käsespätzle mit Röstzwiebeln",
+      "price": 8.50
+    }
+  ],
+  "2025-06-03": [
+    {
+      "desc": "Fleischbällchen in Jägersauce mit Butterspätzle",
+      "price": 8.50
+    },
+    {
+      "desc": "Bunter Blattsalat mit Oliven, Tomaten und gekochtem Ei",
+      "price": 8.50
+    }
+  ],
+  "2025-06-04": [
+    {
+      "desc": "Putenragout in mediterraner Gemüsesauce mit Reis",
+      "price": 8.50
+    },
+    {
+      "desc": "Asia-Gemüsepfanne mit Reis",
+      "price": 8.50
+    }
+  ],
+  "2025-06-05": [
+    {
+      "desc": "Kasslerbraten mit Sauerkraut und Salzkartoffeln",
+      "price": 8.50
+    },
+    {
+      "desc": "Kraut-Schupfnudelpfanne mit Röstzwiebeln",
+      "price": 8.50
+    }
+  ],
+  "2025-06-06": [
+    {
+      "desc": "Backfisch mit Kartoffel-Gurken-Salat und Remoulade",
+      "price": 8.50
+    },
+    {
+      "desc": "Gebackener Blumenkohl mit Sc. Hollandaise und Salzkartoffeln",
+      "price": 8.50
+    }
+  ]
+}

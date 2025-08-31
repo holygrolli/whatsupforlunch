@@ -1,0 +1,66 @@
+{
+  "2025-07-14": [
+    {
+      "desc": "Bratwurst, Sauerkraut, Kartoffelstampf",
+      "price": 6.90
+    },
+    {
+      "desc": "Kartoffel Gemüse Pfanne",
+      "price": 6.90
+    }
+  ],
+  "2025-07-15": [
+    {
+      "desc": "Hühnerfrikasse, Reis",
+      "price": 6.90
+    },
+    {
+      "desc": "Semmelknödel mit Champignons in Rahmsauce",
+      "price": 6.90
+    }
+  ],
+  "2025-07-16": [
+    {
+      "desc": "Königsberger Klöpse, Kartoffeln",
+      "price": 6.90
+    },
+    {
+      "desc": "Spaghetti mit Zucchini- Möhren streifen in Tomatenrahm",
+      "price": 6.90
+    }
+  ],
+  "2025-07-17": [
+    {
+      "desc": "Brauhausgulasch, Spätzle",
+      "price": 6.90
+    },
+    {
+      "desc": "Gnocchi Spinat Auflauf",
+      "price": 0.00
+    }
+  ],
+  "2025-07-18": [
+    {
+      "desc": "Boulette, Möhren, Kartoffeln",
+      "price": 6.90
+    },
+    {
+      "desc": "2 Eierkuchen, Apfelmus Z+Z",
+      "price": 6.90
+    }
+  ],
+  "2025-W29": [
+    {
+      "desc": "Pasta mit Avocado Limettensauce",
+      "price": 5.50
+    },
+    {
+      "desc": "Pasta mit Wurstgulasch",
+      "price": 5.50
+    },
+    {
+      "desc": "Pasta Arrabiata",
+      "price": 5.50
+    }
+  ]
+}

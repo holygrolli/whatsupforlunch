@@ -1,0 +1,92 @@
+{
+    "2025-06-02": [
+        {
+            "desc": "Usedomer Fisch-Soljanka mit Gewürzgurken und Paprika",
+            "price": 5.60
+        },
+        {
+            "desc": "Gemüseschnitzel mit Rahmkohlrabi und Petersilien-kartoffeln",
+            "price": 6.10
+        },
+        {
+            "desc": "Gyrospfanne mit Tsatsiki, Krautsalat und Tomatenreis",
+            "price": 6.70
+        },
+        {
+            "desc": "Würzfleisch vom Huhn mit Champignons, Zitrone und Baguette",
+            "price": 8.50
+        }
+    ],
+    "2025-06-03": [
+        {
+            "desc": "Eierkuchen mit Rhabarber-Kompott und Vanillesoße",
+            "price": 5.60
+        },
+        {
+            "desc": "Pasta mit Tomatensoße und geriebenem Käse",
+            "price": 6.10
+        },
+        {
+            "desc": "Pasta mit Wurstgulasch und geriebenem Käse",
+            "price": 6.70
+        },
+        {
+            "desc": "Shakshuka mit Hummus und Fladenbrot",
+            "price": 8.50
+        }
+    ],
+    "2025-06-04": [
+        {
+            "desc": "Sächsische Kartoffelsuppe mit Majoran und Bockwurst",
+            "price": 5.60
+        },
+        {
+            "desc": "Chili sin Carne mit Kichererbsen und Reis",
+            "price": 6.10
+        },
+        {
+            "desc": "Frikadelle mit Speckbohnen und Kroketten",
+            "price": 6.70
+        },
+        {
+            "desc": "Überraschungs-Gericht mit BIO-Gemüse von KOLA Leipzig",
+            "price": null
+        }
+    ],
+    "2025-06-05": [
+        {
+            "desc": "Milchreis mit Apfelmus und Zimtzucker",
+            "price": 5.60
+        },
+        {
+            "desc": "Zucchini-Möhrenpuffer mit Radieschen-Quark und Salat",
+            "price": 6.10
+        },
+        {
+            "desc": "Rindergulasch mit Pilzen, dazu Pasta",
+            "price": 6.70
+        },
+        {
+            "desc": "Hähnchen-Teriyaki-Bowl mit Lauch, Karotte und Crispy-Reis-Salat",
+            "price": 8.50
+        }
+    ],
+    "2025-06-06": [
+        {
+            "desc": "Rote-Bete-Cremesuppe mit Croûtons und Kerbel-Pesto",
+            "price": 5.60
+        },
+        {
+            "desc": "Spargel-Lasagne mit Erbsen, Schnittlauch und Feta",
+            "price": 6.10
+        },
+        {
+            "desc": "Grützwurst mit Sauerkraut und Petersilien-kartoffeln",
+            "price": 6.70
+        },
+        {
+            "desc": "Knurrhahnfilet mit Mangold und bunten Fusilli",
+            "price": 8.50
+        }
+    ]
+}

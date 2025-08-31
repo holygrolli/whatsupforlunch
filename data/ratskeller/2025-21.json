@@ -1,0 +1,92 @@
+{
+    "2025-05-19": [
+        {
+            "desc": "Erbseneintopf mit Kartoffelwürfeln und Bockwurst",
+            "price": 5.60
+        },
+        {
+            "desc": "Asiatische Gemüsepfanne mit süß-sauer Soße, dazu Reis",
+            "price": 6.10
+        },
+        {
+            "desc": "Köttbullar mit Rahm-Champignons und Kartoffelstampf",
+            "price": 6.70
+        },
+        {
+            "desc": "Graupenrisotto mit Spargel, Erbsen, Cherry-Tomaten und Hartkäse",
+            "price": 8.50
+        }
+    ],
+    "2025-05-20": [
+        {
+            "desc": "Kartoffelpuffer mit Apfelmus und Zimtzucker",
+            "price": 5.60
+        },
+        {
+            "desc": "Pasta mit Tomatensoße und geriebenem Käse",
+            "price": 6.10
+        },
+        {
+            "desc": "Spaghetti „Bolognese“ mit geriebenem Käse",
+            "price": 6.70
+        },
+        {
+            "desc": "Caesar Salad mit Crispy-Chicken, Cherrytomaten, Parmesan und Croûtons",
+            "price": 8.50
+        }
+    ],
+    "2025-05-21": [
+        {
+            "desc": "Chili con Carne",
+            "price": 5.60
+        },
+        {
+            "desc": "Blumenkohl-Käse-Medaillon mit Salat und Kräuterreis",
+            "price": 6.10
+        },
+        {
+            "desc": "Kohlroulade mit Krautsoße und Petersilien-kartoffeln",
+            "price": 6.70
+        },
+        {
+            "desc": "Überraschungs-Gericht mit BIO-Gemüse von KOLA Leipzig",
+            "price": null
+        }
+    ],
+    "2025-05-22": [
+        {
+            "desc": "Marillenknödel mit Vanillerahm",
+            "price": 5.60
+        },
+        {
+            "desc": "Sellerieschnitzel auf Rahmspinat und bunten Gnocchi",
+            "price": 6.10
+        },
+        {
+            "desc": "Pasta mit Brokkoli-Schinken-Käse-Sahnesoße",
+            "price": 6.70
+        },
+        {
+            "desc": "Rinderroulade mit Apfelrotkohl und Kartoffelklößen",
+            "price": 8.50
+        }
+    ],
+    "2025-05-23": [
+        {
+            "desc": "Pastinaken-cremesuppe mit Pumpernickel und Erbsenkresse",
+            "price": 5.60
+        },
+        {
+            "desc": "Gemüserösti mit Bärlauch-Quark und Salat",
+            "price": 6.10
+        },
+        {
+            "desc": "Krakauer mit Grünkohl und Petersilien-kartoffeln",
+            "price": 6.70
+        },
+        {
+            "desc": "Seelachsfilet mit Brokkoli-Kruste, Spinatsoße und Zitronenreis",
+            "price": 8.50
+        }
+    ]
+}

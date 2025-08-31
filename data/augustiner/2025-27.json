@@ -1,0 +1,52 @@
+{
+  "2025-06-30": [
+    {
+      "desc": "Schweineschnitzel „Wiener Art“ mit Kartoffel-Gurken-Salat",
+      "price": 8.50
+    },
+    {
+      "desc": "Allgäuer Käsespätzle mit Röstzwiebeln",
+      "price": 8.50
+    }
+  ],
+  "2025-07-01": [
+    {
+      "desc": "Fleischpflanzerl mit Mischgemüse und Kartoffelpüree",
+      "price": 8.50
+    },
+    {
+      "desc": "Spaghetti mit Basilikum-Pesto und Parmesan",
+      "price": 8.50
+    }
+  ],
+  "2025-07-02": [
+    {
+      "desc": "Hähnchencurry mit Butterreis",
+      "price": 8.50
+    },
+    {
+      "desc": "Vegetarisches Bauernfrühstück mit Fassgurke",
+      "price": 8.50
+    }
+  ],
+  "2025-07-03": [
+    {
+      "desc": "Schweinerückensteak mit Champignonrahm und Kroketten",
+      "price": 8.50
+    },
+    {
+      "desc": "Risotto mit Rucola und Kirschtomaten",
+      "price": 8.50
+    }
+  ],
+  "2025-07-04": [
+    {
+      "desc": "Backfisch mit Kartoffel-Gurken-Salat und Remoulade",
+      "price": 8.50
+    },
+    {
+      "desc": "Gebackener Feta Käse an bunten Blattsalaten",
+      "price": 8.50
+    }
+  ]
+}

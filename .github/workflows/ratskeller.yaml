@@ -27,6 +27,7 @@ jobs:
           WD=${PWD}
           mkdir -p tmp
           scrapy runspider locations/ratskeller/scra.py --nolog | sort > tmp/scraped_links.txt
+          cat tmp/scraped_links.txt
           cd tmp
           while IFS= read -r line; do
             curl -sOL $line

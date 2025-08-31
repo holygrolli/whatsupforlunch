@@ -1,0 +1,61 @@
+{
+  "2025-06-16": [],
+  "2025-06-17": [
+    {
+      "desc": "Schweineschnitzel \"Western\" mit BBQ-Zwiebeln, Bacon und gebackenen Kartoffelecken, dazu Sour-Creme",
+      "price": 10.20
+    },
+    {
+      "desc": "Gnocchi mit gebratenem grünen Spargel, Rucola und Kirschtomaten, dazu Parmesan (veget.)",
+      "price": 9.20
+    }
+  ],
+  "2025-06-18": [
+    {
+      "desc": "Gebackene Paprikaschote gefüllt mit Hackfleisch, dazu Kartoffeln und pikante Tomatensoße",
+      "price": 9.80
+    },
+    {
+      "desc": "Mediterrane Gemüsebolognese u.a. mit Zucchini, Paprika, Aubergine, dazu Pasta, Parmesan und Sellerie-Chips (veget.)",
+      "price": 9.20
+    }
+  ],
+  "2025-06-19": [
+    {
+      "desc": "Currywurst \"Nach Art des Hause\" mit Kartoffelecken und Salatbeilage",
+      "price": 9.80
+    },
+    {
+      "desc": "Eier in Honig-Senfsoße, dazu Salzkartoffeln, frittierte Petersilie und Gurkensalat",
+      "price": 8.90
+    }
+  ],
+  "2025-06-20": [
+    {
+      "desc": "Gebackenes Seelachsfilet und Kartoffelkruste, dazu Senfsoße und Gurkensalat",
+      "price": 9.90
+    },
+    {
+      "desc": "Hähnchen-Geschnetzeltes mit gebratenem Spitzkohl, dazu Basmatireis und Sesam",
+      "price": 9.80
+    }
+  ],
+  "2025-W25": [
+    {
+      "desc": "Pasta mit Limetten-Minz-Pesto, dazu geröstete Mandeln und Parmesan (veget.)",
+      "price": 10.90
+    },
+    {
+      "desc": "Fenchel-Tomatenlasagne mit gebratener Aubergine, überbacken mit Mozzarella und Thymian (veget.)",
+      "price": 12.90
+    },
+    {
+      "desc": "Kürbis-Kartoffelgratin mit gebratenen Hähnchenbruststreifen und Zucchini, überbacken mit Mozzarella und Mandeln",
+      "price": 12.90
+    },
+    {
+      "desc": "Hähnchen-Geschnetzeltes mit gebratenem Spitzkohl, dazu Basmatireis und Sesam",
+      "price": 12.90
+    }
+  ]
+}

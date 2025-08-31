@@ -1,0 +1,61 @@
+{
+  "2025-08-18": [],
+  "2025-08-19": [
+    {
+      "desc": "Schweineschnitzel \"Mailänder Art\" in Parmesan-Semmelkruste, dazu pikante Tomatensoße und Linguine",
+      "price": 10.20
+    },
+    {
+      "desc": "Pasta Genovese mit grünen Bohnen, Kartoffeln, Basilikumpesto und Parmesan (veget.)",
+      "price": 9.20
+    }
+  ],
+  "2025-08-20": [
+    {
+      "desc": "Gyros mit gebackenen Kartoffelecken, Tzatziki und Krautsalat",
+      "price": 9.80
+    },
+    {
+      "desc": "Gebackener Hirtenkäse auf verschiedenen Blattsalaten mit gegrillter Paprika, Zucchini, Sonnenblumenkernen und Parmesancroûtons, dazu Orangendressing (veget.)",
+      "price": 9.20
+    }
+  ],
+  "2025-08-21": [
+    {
+      "desc": "Jägerschnitzel mit Tomatensoße, dazu Pasta und Gouda",
+      "price": 9.80
+    },
+    {
+      "desc": "Brokkoli in Kichererbsenbackteig auf rotem Linsencurry mit Paprika und Lauchzwiebeln (vegan)",
+      "price": 9.20
+    }
+  ],
+  "2025-08-22": [
+    {
+      "desc": "Gebratenes Seelachsfilet, dazu Erbsen-Minzpüree, Zitronensoße und Süßkartoffelecken",
+      "price": 9.90
+    },
+    {
+      "desc": "Pfeffergeschnetzeltes vom Hähnchen mit Kirschtomaten und frittiertem Rucola, dazu Basmatireis",
+      "price": 9.80
+    }
+  ],
+  "2025-W34": [
+    {
+      "desc": "Pasta mit Dattel-Oliven-Pesto, dazu geröstete Mandeln und Parmesan (veget.)",
+      "price": 10.90
+    },
+    {
+      "desc": "Zucchini-Süßkartoffel-Lasagne überbacken mit Mozzarella und Thymian (veget.)",
+      "price": 12.90
+    },
+    {
+      "desc": "Kartoffelgratin \"Griechischer Art\" mit Hackfleisch, Tomaten und Aubergine, überbacken mit Gouda",
+      "price": 12.90
+    },
+    {
+      "desc": "Pfeffergeschnetzeltes vom Hähnchen mit Kirschtomaten und frittiertem Rucola, dazu Basmatireis",
+      "price": 12.90
+    }
+  ]
+}

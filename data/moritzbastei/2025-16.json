@@ -1,0 +1,34 @@
+{
+  "2025-04-14": [],
+  "2025-04-15": [
+    {
+      "desc": "Schweineschnitzel \"Strammer Max\" mit Kochschinken und Spiegelei, dazu Bratkartoffeln",
+      "price": 9.80
+    },
+    {
+      "desc": "Mediterrane Gemüsebolognese u.a. mit Zucchini, Paprika und Aubergine, dazu Pasta, Parmesan und Sellerie-Chips (veget.)",
+      "price": 8.90
+    }
+  ],
+  "2025-04-16": [
+    {
+      "desc": "Hähnchengeschnetzeltes mit Fenchel, getrockneten Tomaten und Rosmarin",
+      "price": 9.80
+    },
+    {
+      "desc": "Kräuter-Rührei mit Rahmspinat, dazu Salzkartoffeln und Salatbeilage (veget.)",
+      "price": 9.20
+    }
+  ],
+  "2025-04-17": [
+    {
+      "desc": "Königsberger Klopse mit Kräuterkartoffelstampf, gebackenen Kapern und Krautsalat",
+      "price": 9.80
+    },
+    {
+      "desc": "Hausgemachte Bärlauch-Semmelknödel auf pikantem Tomatenragout, mit Parmesan und frittiertem Rucola (veget.)",
+      "price": 9.20
+    }
+  ],
+  "2025-04-18": []
+}

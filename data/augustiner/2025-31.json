@@ -1,0 +1,52 @@
+{
+  "2025-07-28": [
+    {
+      "desc": "Schweineschnitzel „Wiener Art“ mit Kartoffel-Gurken-Salat",
+      "price": 8.50
+    },
+    {
+      "desc": "Allgäuer Käsespätzle mit Röstzwiebeln",
+      "price": 8.50
+    }
+  ],
+  "2025-07-29": [
+    {
+      "desc": "Fleischpflanzerl mit Buttermöhren und Kartoffelpüree",
+      "price": 8.50
+    },
+    {
+      "desc": "Käse-Tortellini mit Kräutersauce und frischem Rucola",
+      "price": 8.50
+    }
+  ],
+  "2025-07-30": [
+    {
+      "desc": "Gyros mit Tsatsiki und Pommes frites",
+      "price": 8.50
+    },
+    {
+      "desc": "Eier mit Grüner Sauce und Salzkartoffeln",
+      "price": 8.50
+    }
+  ],
+  "2025-07-31": [
+    {
+      "desc": "Gemüse-Reispfanne mit gebackener Hähnchenbrust",
+      "price": 8.50
+    },
+    {
+      "desc": "Gemüse-Reispfanne mit gebackenem Halloumi",
+      "price": 8.50
+    }
+  ],
+  "2025-08-01": [
+    {
+      "desc": "Backfisch mit Kartoffel-Gurkensalat und Remoulade",
+      "price": 8.50
+    },
+    {
+      "desc": "Ofenkartoffel mit Kräuterquark und kleinem Salat",
+      "price": 8.50
+    }
+  ]
+}

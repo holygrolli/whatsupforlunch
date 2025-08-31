@@ -1,0 +1,57 @@
+{
+  "2025-04-28": [
+    {
+      "desc": "Schweinegeschnetzeltes, Spätzle",
+      "price": 6.90
+    },
+    {
+      "desc": "Matjes mit Hausfrauensauce, Bratkartoffeln",
+      "price": 6.90
+    }
+  ],
+  "2025-04-29": [
+    {
+      "desc": "Kohlroulade mit Kümmelsauce, Kartoffeln",
+      "price": 6.90
+    },
+    {
+      "desc": "Kohlroulade - veg. gefüllt-, Kümmelsauce, Kartoffeln",
+      "price": 6.90
+    }
+  ],
+  "2025-04-30": [
+    {
+      "desc": "Lasagne Bolognese",
+      "price": 6.90
+    },
+    {
+      "desc": "Lasagne mit Spinat",
+      "price": 6.90
+    }
+  ],
+  "2025-05-01": [],
+  "2025-05-02": [
+    {
+      "desc": "Schnitzel Schwein, Rahmzucchini, Kartoffeln",
+      "price": 6.90
+    },
+    {
+      "desc": "Couscousboulette mit Tomatensauce, Rahmzucchini",
+      "price": 6.90
+    }
+  ],
+  "2025-W18": [
+    {
+      "desc": "Spaghetti Carbonara",
+      "price": 4.90
+    },
+    {
+      "desc": "Pasta mit Kirschtomaten, Oliven, Feta",
+      "price": 4.90
+    },
+    {
+      "desc": "Pasta mit Zitronen Shrimps Sauce",
+      "price": 4.90
+    }
+  ]
+}

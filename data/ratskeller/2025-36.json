@@ -1,0 +1,92 @@
+{
+  "2025-09-01": [
+    {
+      "desc": "Hausgemachter Linseneintopf mit Blutwurstwürfeln",
+      "price": 5.60
+    },
+    {
+      "desc": "Soja-Geschnetzeltes mit Pilzen, Paprika und Reis",
+      "price": 6.10
+    },
+    {
+      "desc": "Grillwurst mit Letscho-Gemüse und Kartoffelstampf",
+      "price": 6.70
+    },
+    {
+      "desc": "Vollkorn-Fusilli mit Gorgonzolasoße, Birnen und Walnüssen",
+      "price": 8.50
+    }
+  ],
+  "2025-09-02": [
+    {
+      "desc": "American Pancakes mit Apfel-Aprikosen-Kompott",
+      "price": 5.60
+    },
+    {
+      "desc": "Pasta mit Tomatensoße und geriebenem Käse",
+      "price": 6.10
+    },
+    {
+      "desc": "Spaghetti „Bolognese\" mit geriebenem Käse",
+      "price": 6.70
+    },
+    {
+      "desc": "Quinoa-Grünkohlstrudel mit Kürbispüree und Linsensalat",
+      "price": 8.50
+    }
+  ],
+  "2025-09-03": [
+    {
+      "desc": "Ungarische Gulaschsuppe mit Paprika und Kartoffelwürfeln",
+      "price": 5.60
+    },
+    {
+      "desc": "Gemüse-Frikadelle mit Spinatsoße und bunten Gnocchi",
+      "price": 6.10
+    },
+    {
+      "desc": "Putenrollbraten mit Buttergemüse und Petersilien-kartoffeln",
+      "price": 6.70
+    },
+    {
+      "desc": "Überraschungs-Gericht mit BIO-Gemüse von KOLA Leipzig",
+      "price": null
+    }
+  ],
+  "2025-09-04": [
+    {
+      "desc": "Grießbrei mit Kirschragout und Zimtzucker",
+      "price": 5.60
+    },
+    {
+      "desc": "Blumenkohl-Käse-Medaillon mit buntem Salat und Kräuterreis",
+      "price": 6.10
+    },
+    {
+      "desc": "Pasta mit Schinken-Käse-Sahnesoße",
+      "price": 6.70
+    },
+    {
+      "desc": "Schweine-Bäckchen mit gebratenen Champignons und Rösti",
+      "price": 8.50
+    }
+  ],
+  "2025-09-05": [
+    {
+      "desc": "Tomatencreme-Suppe mit Basilikum-Pesto und Croûtons",
+      "price": 5.60
+    },
+    {
+      "desc": "Schweizer Kartoffelrösti mit Kräuterdip und Salat",
+      "price": 6.10
+    },
+    {
+      "desc": "Seelachsfilet „Bordelaise\" mit Spinatsoße und Risi Bisi",
+      "price": 6.70
+    },
+    {
+      "desc": "„Steak au four\" vom Schwein mit Buttererbsen und Kroketten",
+      "price": 8.50
+    }
+  ]
+}

@@ -1,0 +1,66 @@
+{
+  "2025-05-05": [
+    {
+      "desc": "Jägerschnitzel, Pasta, Tomatensauce",
+      "price": 6.90
+    },
+    {
+      "desc": "Kartoffelrösti, Räucherlachs, Kräuter Creme fraiche",
+      "price": 6.90
+    }
+  ],
+  "2025-05-06": [
+    {
+      "desc": "Schnitzel Pute, Rahmporree, Kartoffeln",
+      "price": 6.90
+    },
+    {
+      "desc": "Gemüsecurry, Basmatireis",
+      "price": 6.90
+    }
+  ],
+  "2025-05-07": [
+    {
+      "desc": "Schweinebraten, Möhren, Kartoffeln",
+      "price": 6.90
+    },
+    {
+      "desc": "2 Pfannkuchen, Apfelmus, Z+Z",
+      "price": 6.90
+    }
+  ],
+  "2025-05-08": [
+    {
+      "desc": "Boulette, Mischgemüse, Kartoffeln",
+      "price": 6.90
+    },
+    {
+      "desc": "Rührei, Kartoffeln, Gurken Schmand Salat",
+      "price": 6.90
+    }
+  ],
+  "2025-05-09": [
+    {
+      "desc": "Grillwurst, Letscho, Kartoffelstampf",
+      "price": 6.90
+    },
+    {
+      "desc": "Seelachs paniert, Kartoffelstampf, Rahmspinat",
+      "price": 6.90
+    }
+  ],
+  "2025-W19": [
+    {
+      "desc": "Spaghetti Carbonara",
+      "price": 5.50
+    },
+    {
+      "desc": "Pasta, Kirschtomaten, Oliven, Feta",
+      "price": 5.50
+    },
+    {
+      "desc": "Pasta mit Zitronen Shrimps Sauce",
+      "price": 5.50
+    }
+  ]
+}
