@@ -1,0 +1,66 @@
+{
+  "2025-09-01": [
+    {
+      "desc": "Leberkäse, Bayrisch Kraut. Kartoffeln",
+      "price": 6.99
+    },
+    {
+      "desc": "Kohlrabi in Mandelpanade, Sc. Holandaise, Kartoffeln",
+      "price": 6.99
+    }
+  ],
+  "2025-09-02": [
+    {
+      "desc": "hausgemachte Boulette, grüne Bohnen, Kartoffeln",
+      "price": 6.99
+    },
+    {
+      "desc": "Seelachs paniert, Rahmspinat, Kartoffeln",
+      "price": 6.99
+    }
+  ],
+  "2025-09-03": [
+    {
+      "desc": "Schnitzel- Schwein, Gurkensalat, Kartoffeln",
+      "price": 6.99
+    },
+    {
+      "desc": "Schupfenudel- Krautpfanne",
+      "price": 6.99
+    }
+  ],
+  "2025-09-04": [
+    {
+      "desc": "Hühnerfrikasse, Reis",
+      "price": 6.99
+    },
+    {
+      "desc": "Kürbiscurry, Basmatireis",
+      "price": 6.99
+    }
+  ],
+  "2025-09-05": [
+    {
+      "desc": "Spirelli, Wurstgulasch",
+      "price": 6.99
+    },
+    {
+      "desc": "Nudelgratin",
+      "price": 6.99
+    }
+  ],
+  "2025-W36": [
+    {
+      "desc": "Spirelli, Bolognese",
+      "price": 5.50
+    },
+    {
+      "desc": "Penne mit Basilikumpesto",
+      "price": 5.50
+    },
+    {
+      "desc": "Penne mit Lachs Sahne Sauce",
+      "price": 5.50
+    }
+  ]
+}
