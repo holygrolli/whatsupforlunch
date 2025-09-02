@@ -1,0 +1,61 @@
+{
+  "2025-09-01": [],
+  "2025-09-02": [
+    {
+      "desc": "Schweineschnitzel \"Au Four\" mit Bratkartoffeln und Bohnensalat",
+      "price": 10.20
+    },
+    {
+      "desc": "Mediterrane Gemüsebolognese mit Zucchini, Paprika, Aubergine, dazu Pasta, Parmesan und Sellerie-Chips (veget.)",
+      "price": 9.20
+    }
+  ],
+  "2025-09-03": [
+    {
+      "desc": "Hühnerfrikasse mit Spargel, Erbsen und Champignons, dazu Basmatireis",
+      "price": 9.80
+    },
+    {
+      "desc": "Gebackener Hirtenkäse auf Melonen-Zuckerschotensalat mit Blattspinat und Parmesancroutons, dazu Limetten-Minzdressing und Ciabatta (veget.)",
+      "price": 9.20
+    }
+  ],
+  "2025-09-04": [
+    {
+      "desc": "Königsberger Klopse mit Kräuterkartoffelstampf und Krautsalat",
+      "price": 9.80
+    },
+    {
+      "desc": "Gebratene Minikartoffeln mit Kirschtomaten und Rucola, dazu Paprika-Gurken-Quark, sowie geröstete Sonnenblumenkerne (veget.)",
+      "price": 9.20
+    }
+  ],
+  "2025-09-05": [
+    {
+      "desc": "Gebratenes Seelachsfilet mit Zuckerschoten und Süßkartoffelstampf, dazu Limettensoße",
+      "price": 9.90
+    },
+    {
+      "desc": "Feuriges Hähnchen in Paprikarahm, dazu Basmatireis und geröstete Mandeln",
+      "price": 9.80
+    }
+  ],
+  "2025-W36": [
+    {
+      "desc": "Pasta mit Koriander-Petersilien-Pesto dazu geröstete Haselnüsse, Karottenchips und Parmesan (veget.)",
+      "price": 10.90
+    },
+    {
+      "desc": "Spitzkohl-Karotten-Lasagne überbacken mit Mozzarella und Sesam (veget.)",
+      "price": 12.90
+    },
+    {
+      "desc": "Spinat-Kartoffel-Gratin mit gebratenen Hähnchenbruststreifen, überbacken mit Mozzarella und Sonnenblumenkernen",
+      "price": 12.90
+    },
+    {
+      "desc": "Feuriges Hähnchen in Paprikarahm, dazu Basmatireis und geröstete Mandeln",
+      "price": 12.90
+    }
+  ]
+}
