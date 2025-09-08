@@ -1,0 +1,66 @@
+{
+  "2025-09-08": [
+    {
+      "desc": "Hähnchenkeule, Möhren, Kartoffeln, Sauce",
+      "price": 6.99
+    },
+    {
+      "desc": "Kartoffel Brokkoli Gratin",
+      "price": 6.99
+    }
+  ],
+  "2025-09-09": [
+    {
+      "desc": "Paprikaschote mit Hack, Kartoffeln, Sauce",
+      "price": 6.99
+    },
+    {
+      "desc": "Paprikaschote mit Couscoua, Kartoffeln, Sauce",
+      "price": 6.99
+    }
+  ],
+  "2025-09-10": [
+    {
+      "desc": "Szegediner Gulasch, Knödel",
+      "price": 6.99
+    },
+    {
+      "desc": "Pilzgulasch, Knödel",
+      "price": 6.99
+    }
+  ],
+  "2025-09-11": [
+    {
+      "desc": "Putengeschnetzeltes, Reis",
+      "price": 6.99
+    },
+    {
+      "desc": "Fischstäbchen, Kartoffelstampf, Mais in Rahm",
+      "price": 6.99
+    }
+  ],
+  "2025-09-12": [
+    {
+      "desc": "Schnitzel - Schwein, Letscho, Pommes",
+      "price": 6.99
+    },
+    {
+      "desc": "Kartoffel Gemüse Pfanne",
+      "price": 6.99
+    }
+  ],
+  "2025-W37": [
+    {
+      "desc": "Farfalle mit roter Pesto, Oliven, Rucola, Feta",
+      "price": 5.50
+    },
+    {
+      "desc": "Tagliatelle mit grüner Pesto + gebr. Hähnchenbrust",
+      "price": 5.50
+    },
+    {
+      "desc": "Penne Wurstgulasch",
+      "price": 5.50
+    }
+  ]
+}
