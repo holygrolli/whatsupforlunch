@@ -1,0 +1,61 @@
+{
+  "2025-09-08": [],
+  "2025-09-09": [
+    {
+      "desc": "Schweineschnitzel mit Rahmerbsen, Salzkartoffeln und brauner Soße",
+      "price": 10.20
+    },
+    {
+      "desc": "Salbei-Gnocchi mit pikantem Kürbisragout, Cranberrys und gerösteten Mandeln (veget.)",
+      "price": 9.20
+    }
+  ],
+  "2025-09-10": [
+    {
+      "desc": "Currywurst \"Nach Art des Hauses\" mit Kartofelecken und Salatbeilage",
+      "price": 9.80
+    },
+    {
+      "desc": "Gebackene Auberginentaler (veget.) ODER knusprige Hähnchenbruststreifen auf verschiedenen Blattsalaten mit getrockneter Tomate, gegrillter Paprika, Sonnenblumenkernen und Parmesancroutons, dazu Honig-Senf-Dressing",
+      "price": 9.20
+    }
+  ],
+  "2025-09-11": [
+    {
+      "desc": "Pasta mit Schinken-Sahnesoße, Lauchzwiebeln und Kirschtomaten",
+      "price": 9.80
+    },
+    {
+      "desc": "Karottenpfanne mit Zuckerschoten, Kartoffeln und Petersilie, dazu geröstete Sonnenblumenkerne und Hirtenkäse (veget.)",
+      "price": 9.20
+    }
+  ],
+  "2025-09-12": [
+    {
+      "desc": "Gebackenes Seelachsfilet mit Remoulade, Salzkartoffeln und Gurkensalat",
+      "price": 9.90
+    },
+    {
+      "desc": "Hähnchengeschnetzeltes mit gebratenen Zucchinis, getrockneten Tomaten und Rosmarinkartoffeln",
+      "price": 9.80
+    }
+  ],
+  "2025-W37": [
+    {
+      "desc": "Pasta mit Paprika-Chili-Honigpesto, dazu geröstete Sonnenblumenkerne und Parmesan (veget.)",
+      "price": 10.90
+    },
+    {
+      "desc": "Lasagne \"Al Pesto\" mit Brokkoli, Waldpilzen und Kräuterpesto, überbacken mit Mozzarella",
+      "price": 12.90
+    },
+    {
+      "desc": "Nudel-Hackfleisch-Gratin mit Tomaten und Zucchini, überbacken mit Hirtenkäse",
+      "price": 12.90
+    },
+    {
+      "desc": "Hähnchengeschnetzeltes mit gebratenen Zucchinis, getrockneten Tomaten und Rosmarinkartoffeln",
+      "price": 12.90
+    }
+  ]
+}
