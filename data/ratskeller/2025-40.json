@@ -1,0 +1,75 @@
+{
+  "2025-09-29": [
+    {
+      "desc": "Chili con Carne mit Mais, Bohnen und Hackfleisch",
+      "price": 5.60
+    },
+    {
+      "desc": "Kartoffeltaschen mit Frischkäse, Kräuterdip und Salat",
+      "price": 6.10
+    },
+    {
+      "desc": "Königsberger Klopse mit Kapernsoße, Bete-Salat und Kartoffeln",
+      "price": 6.70
+    },
+    {
+      "desc": "Linguine mit Linsenbolognese, Rucola und Tomaten",
+      "price": 8.50
+    }
+  ],
+  "2025-09-30": [
+    {
+      "desc": "Sächsische Quarkkäulchen mit Apfelmus und Zimtzucker",
+      "price": 5.60
+    },
+    {
+      "desc": "Pasta mit Tomatensoße und geriebenem Käse",
+      "price": 6.10
+    },
+    {
+      "desc": "Jägerschnitzel mit Tomatensoße und Pasta",
+      "price": 6.70
+    },
+    {
+      "desc": "Blumenkohl Falafel mit Karotten-Hummus und Bulgursalat",
+      "price": 8.50
+    }
+  ],
+  "2025-10-01": [
+    {
+      "desc": "Grüner Bohneneintopf mit Rindfleisch und Kartoffel-würfeln",
+      "price": 5.60
+    },
+    {
+      "desc": "Sellerieschnitzel mit bunten Karotten und Kräuterreis",
+      "price": 6.10
+    },
+    {
+      "desc": "Leberkäse mit Bayrisch Kraut und Petersilien-kartoffeln",
+      "price": 6.70
+    },
+    {
+      "desc": "Überraschungs-Gericht mit BIO-Gemüse von KOLA Leipzig",
+      "price": null
+    }
+  ],
+  "2025-10-02": [
+    {
+      "desc": "Milchreis mit Apfelmus und Zimtzucker",
+      "price": 5.60
+    },
+    {
+      "desc": "Waldpilzlasagne mit Hirtenkäse und Thymian",
+      "price": 6.10
+    },
+    {
+      "desc": "Schweine-Schnitzel mit Letscho-Gemüse und Petersilien-kartoffeln",
+      "price": 6.70
+    },
+    {
+      "desc": "Miesmuscheln in Tomaten-Knoblauchsoße, dazu Fusilli",
+      "price": 8.50
+    }
+  ],
+  "2025-10-03": []
+}

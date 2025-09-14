@@ -1,0 +1,92 @@
+{
+  "2025-10-20": [
+    {
+      "desc": "Sächsische Kartoffelsuppe mit Majoran und Bockwurst",
+      "price": 5.60
+    },
+    {
+      "desc": "Veganes „Gulasch\" mit Paprika, Pilzen und Kartoffelstampf",
+      "price": 6.10
+    },
+    {
+      "desc": "Gyrospfanne mit Zaziki, Krautsalat und Tomatenreis",
+      "price": 6.70
+    },
+    {
+      "desc": "Gebackener Blumenkohl mit Sour Cream und Ofenkartoffeln",
+      "price": 8.50
+    }
+  ],
+  "2025-10-21": [
+    {
+      "desc": "American Pancakes mit Apfel-Aprikosen-Kompott",
+      "price": 5.60
+    },
+    {
+      "desc": "Pasta mit Tomatensoße und geriebenem Käse",
+      "price": 6.10
+    },
+    {
+      "desc": "Jägerschnitzel mit Tomatensoße und Pasta",
+      "price": 6.70
+    },
+    {
+      "desc": "Vegane Chik'n-Nuggets auf buntem Reissalat und Curry Dip",
+      "price": 8.50
+    }
+  ],
+  "2025-10-22": [
+    {
+      "desc": "Gräupchen-Eintopf mit Kasslerwürfeln",
+      "price": 5.60
+    },
+    {
+      "desc": "Kräuterrührei mit Rahmspinat und Petersilienkartoffeln",
+      "price": 6.10
+    },
+    {
+      "desc": "Schweinebraten mit Apfelrotkohl und Semmelknödeln",
+      "price": 6.70
+    },
+    {
+      "desc": "Überraschungs-Gericht mit BIO-Gemüse von KOLA Leipzig",
+      "price": 8.50
+    }
+  ],
+  "2025-10-23": [
+    {
+      "desc": "Germknödel mit Pflaumen, Vanille und Mohn",
+      "price": 5.60
+    },
+    {
+      "desc": "Gnocchi-Gratin mit Kürbis, Pilzen und Lauch",
+      "price": 6.10
+    },
+    {
+      "desc": "„Cordon bleu\" vom Schwein mit Honigmöhren und Petersilienkartoffeln",
+      "price": 6.70
+    },
+    {
+      "desc": "Spaghetti mit veganem „Thunfisch\" Oliven, Rucola u. Tomate",
+      "price": 8.50
+    }
+  ],
+  "2025-10-24": [
+    {
+      "desc": "Sellerie-Birnensuppe mit Croûtons",
+      "price": 5.60
+    },
+    {
+      "desc": "Spinat-Käseknödel auf Kräuter-Waldpilzrahm",
+      "price": 6.10
+    },
+    {
+      "desc": "Backfisch mit Remoulade, Salat und Petersilien-kartoffeln",
+      "price": 6.70
+    },
+    {
+      "desc": "Hähnchenbrust mit Tomate, Mozzarella, Spinat und Gnocchi",
+      "price": 8.50
+    }
+  ]
+}

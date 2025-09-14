@@ -1,0 +1,92 @@
+{
+  "2025-09-22": [
+    {
+      "desc": "Soljanka mit Zitrone und Sauerrahm",
+      "price": 5.60
+    },
+    {
+      "desc": "Zucchini-Möhrenpuffer mit Salat und Radieschen-quark",
+      "price": 6.10
+    },
+    {
+      "desc": "Hähnchencurry mit Kokosmilch, Kichererbsen und Reis",
+      "price": 6.70
+    },
+    {
+      "desc": "Rigatoni mit Trüffelrahm, Champignons und Lauch",
+      "price": 8.50
+    }
+  ],
+  "2025-09-23": [
+    {
+      "desc": "Marillenknödel mit Vanillerahm",
+      "price": 5.60
+    },
+    {
+      "desc": "Pasta mit Tomatensoße und geriebenem Käse",
+      "price": 6.10
+    },
+    {
+      "desc": "Spaghetti „Bolognese\" mit geriebenem Käse",
+      "price": 6.70
+    },
+    {
+      "desc": "Veganer „Backfisch\" mit Remoulade, Salat und Kartoffel-ecken",
+      "price": 8.50
+    }
+  ],
+  "2025-09-24": [
+    {
+      "desc": "Nudeleintopf mit Geflügelfleisch und Gemüse-Julienne",
+      "price": 5.60
+    },
+    {
+      "desc": "Chili sin Carne mit Kichererbsen, Mais und Bohnen",
+      "price": 6.10
+    },
+    {
+      "desc": "Kohlroulade mit Krautsoße und Petersilien-kartoffeln",
+      "price": 6.70
+    },
+    {
+      "desc": "Überraschungs-Gericht mit BIO-Gemüse von KOLA Leipzig",
+      "price": null
+    }
+  ],
+  "2025-09-25": [
+    {
+      "desc": "Drei Eierkuchen mit Apfelmus und Zimtzucker",
+      "price": 5.60
+    },
+    {
+      "desc": "Pastinaken-Steckrübenrösti auf Ratatouille und Reis",
+      "price": 6.10
+    },
+    {
+      "desc": "Rindergulasch mit Pilzen, dazu Pasta",
+      "price": 6.70
+    },
+    {
+      "desc": "Aktionsgericht WERTvoll „Himmel&Bete\"",
+      "price": null
+    }
+  ],
+  "2025-09-26": [
+    {
+      "desc": "Steckrübensuppe mit Kokosmilch und Quinoa",
+      "price": 5.60
+    },
+    {
+      "desc": "Pilzragout „Stroganoff\" mit Bete, Gurke und Spätzle",
+      "price": 6.10
+    },
+    {
+      "desc": "Currywurst mit fruchtig-pikanter Soße, dazu Kartoffelecken",
+      "price": 6.70
+    },
+    {
+      "desc": "Marinierter Hering mit Joghurt-Apfelsoße und Petersilienkartoffeln",
+      "price": 8.50
+    }
+  ]
+}
