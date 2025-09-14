@@ -1,0 +1,92 @@
+{
+  "2025-10-06": [
+    {
+      "desc": "Wirsingeintopf mit Krakauerwürfeln",
+      "price": 5.60
+    },
+    {
+      "desc": "Brokkoli-Nuss Ecke mit bunten Karotten und Kräuterreis",
+      "price": 6.10
+    },
+    {
+      "desc": "Schweine-Geschnetzeltes „Züricher Art\" mit Champignons und Spätzle",
+      "price": 6.70
+    },
+    {
+      "desc": "Würzfleisch vom Huhn mit Pilzen, Zitrone und Baguette",
+      "price": 8.50
+    }
+  ],
+  "2025-10-07": [
+    {
+      "desc": "Süße Schupfnudeln mit Beerensoße",
+      "price": 5.60
+    },
+    {
+      "desc": "Pasta mit Tomatensoße und geriebenem Käse",
+      "price": 6.10
+    },
+    {
+      "desc": "Pasta mit Wurstgulasch und geriebenem Käse",
+      "price": 6.70
+    },
+    {
+      "desc": "Gebackener Camembert auf buntem Salat, Preiselbeeren u. Baguette",
+      "price": 8.50
+    }
+  ],
+  "2025-10-08": [
+    {
+      "desc": "Kürbiscreme-Suppe mit Kokosmilch und Curry",
+      "price": 5.60
+    },
+    {
+      "desc": "Backkäse mit Krautsalat, Zaziki und Tomatenreis",
+      "price": 6.10
+    },
+    {
+      "desc": "Hackbraten mit Buttererbsen und Kroketten",
+      "price": 6.70
+    },
+    {
+      "desc": "Überraschungs-Gericht mit BIO-Gemüse von KOLA Leipzig",
+      "price": null
+    }
+  ],
+  "2025-10-09": [
+    {
+      "desc": "Quark-Kräppelchen mit Apfelmus und Zimtzucker",
+      "price": 5.60
+    },
+    {
+      "desc": "2 gekochte Eier mit Senfsoße, Rotkrautsalat und Petersilien-kartoffeln",
+      "price": 6.10
+    },
+    {
+      "desc": "Ungarisches Schweine-Gulasch mit Paprika, dazu Pasta",
+      "price": 6.70
+    },
+    {
+      "desc": "Cheeseburger-Wrap mit Gurke, Käse, Zwiebeln, Salat und Tomate",
+      "price": 8.50
+    }
+  ],
+  "2025-10-10": [
+    {
+      "desc": "Apfel-Pastinaken-Suppe mit Radieschen-Sprossen",
+      "price": 5.60
+    },
+    {
+      "desc": "Gemüserösti mit Schnittlauch-Quark und Salat",
+      "price": 6.10
+    },
+    {
+      "desc": "Köttbullar mit Rahm-Champignons u. Kartoffelstampf",
+      "price": 6.70
+    },
+    {
+      "desc": "Paniertes Schollenfilet auf Blattspinat und Süßkartoffel-Püree",
+      "price": 8.50
+    }
+  ]
+}

@@ -1,0 +1,88 @@
+{
+  "2025-09-15": [
+    {
+      "desc": "Käse-Lauchsuppe mit Hackfleisch und Champignons",
+      "price": 5.60
+    },
+    {
+      "desc": "Gemüseschnitzel mit Spinatsoße und bunten Gnocchi",
+      "price": 6.10
+    },
+    {
+      "desc": "Szegediner Gulasch mit Sauerkraut und Böhmischen Knödeln",
+      "price": 6.70
+    },
+    {
+      "desc": "Spaghetti „Puttanesca“ mit Oliven, Sardellen und Kapern",
+      "price": 8.50
+    }
+  ],
+  "2025-09-16": [
+    {
+      "desc": "Drei Hefeklöße mit warmen Heidelbeeren",
+      "price": 5.60
+    },
+    {
+      "desc": "Pasta mit Tomatensoße und geriebenem Käse",
+      "price": 6.10
+    },
+    {
+      "desc": "Pasta mit Wurstgulasch und geriebenem Käse",
+      "price": 6.70
+    },
+    {
+      "desc": "Shakshuka mit Hummus und Fladenbrot",
+      "price": 8.50
+    }
+  ],
+  "2025-09-17": [
+    {
+      "desc": "Erbseneintopf mit Bockwurst und Kartoffelwürfeln",
+      "price": 5.60
+    },
+    {
+      "desc": "Kräuterquark mit Zwiebeln, Butter und Petersilienkartoffeln",
+      "price": 6.10
+    },
+    {
+      "desc": "Schweine-Geschnetzeltes „Stroganoff“ mit Bete, Pilzen und Spätzle",
+      "price": 6.70
+    }
+  ],
+  "2025-09-18": [
+    {
+      "desc": "Kaiser-schmarrn mit Rosinen, Mandeln und Apfelmus",
+      "price": 5.60
+    },
+    {
+      "desc": "Schupfnudelpfanne mit Auberginen-Bohnenragout",
+      "price": 6.10
+    },
+    {
+      "desc": "Hackbällchen in Tomatensoße, dazu Pasta",
+      "price": 6.70
+    },
+    {
+      "desc": "Rinderroulade mit Apfelrotkohl und Kartoffelklößen",
+      "price": 8.50
+    }
+  ],
+  "2025-09-19": [
+    {
+      "desc": "Karotten-Ingwersuppe mit Orange",
+      "price": 5.60
+    },
+    {
+      "desc": "Vegetarische Moussaka mit Aubergine, Feta und Kartoffeln",
+      "price": 6.10
+    },
+    {
+      "desc": "Bauernroulade mit Speckbohnen und Petersilienkartoffeln",
+      "price": 6.70
+    },
+    {
+      "desc": "Hokifilet auf Pak Choi und Limettenreis",
+      "price": 8.50
+    }
+  ]
+}

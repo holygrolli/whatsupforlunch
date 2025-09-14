@@ -1,0 +1,92 @@
+{
+    "2025-10-13": [
+        {
+            "desc": "Ungarische Gulaschsuppe mit Paprika und Kartoffelwürfeln",
+            "price": 5.60
+        },
+        {
+            "desc": "Süßkartoffel-Kichererbsen-Curry mit Kokosmilch und Reis",
+            "price": 6.10
+        },
+        {
+            "desc": "Thüringer Bratwurst mit Sauerkraut und Petersilien-kartoffeln",
+            "price": 6.70
+        },
+        {
+            "desc": "Halloumi-Wrap mit Joghurt, Couscous und Salat",
+            "price": 8.50
+        }
+    ],
+    "2025-10-14": [
+        {
+            "desc": "Eierkuchen, gefüllt mit Apfel und Rosinen, dazu Vanillesoße",
+            "price": 5.60
+        },
+        {
+            "desc": "Pasta mit Tomatensoße und geriebenem Käse",
+            "price": 6.10
+        },
+        {
+            "desc": "Spaghetti „Bolognese\" mit geriebenem Käse",
+            "price": 6.70
+        },
+        {
+            "desc": "Vegane „Currywurst\" mit fruchtig-pikanter Soße, dazu Wedges",
+            "price": 8.50
+        }
+    ],
+    "2025-10-15": [
+        {
+            "desc": "Hausgemachter Linseneintopf mit Blutwurstwürfeln",
+            "price": 5.60
+        },
+        {
+            "desc": "Blumenkohl-Käsemedaillon auf buntem Gemüse und Spätzle",
+            "price": 6.10
+        },
+        {
+            "desc": "Hähnchenkeule mit Honigmöhren und Petersilien-kartoffeln",
+            "price": 6.70
+        },
+        {
+            "desc": "Überraschungs-Gericht mit BIO-Gemüse von KOLA Leipzig",
+            "price": null
+        }
+    ],
+    "2025-10-16": [
+        {
+            "desc": "Grießbrei mit Pflaumen-Ragout und Zimtzucker",
+            "price": 5.60
+        },
+        {
+            "desc": "Kürbis-Kartoffel-Rösti mit Kräuterdip und Salat",
+            "price": 6.10
+        },
+        {
+            "desc": "Wildgulasch mit Apfelrotkohl und Böhmischen Knödeln",
+            "price": 6.70
+        },
+        {
+            "desc": "Gebackene Mozzarellasticks & mediterraner Nudelsalat",
+            "price": 8.50
+        }
+    ],
+    "2025-10-17": [
+        {
+            "desc": "Indische Linsensuppe mit Koriander und Naan Brot",
+            "price": 5.60
+        },
+        {
+            "desc": "Allgäuer „Käsespatz'n\" mit Röstzwiebeln",
+            "price": 6.10
+        },
+        {
+            "desc": "Jumbo Fischstäbchen mit Tomatensoße und Kartoffel-stampf",
+            "price": 6.70
+        },
+        {
+            "desc": "Hähnchen-Gyros-Bowl mit buntem Salat, Knobi-Dip und Fladenbrot",
+            "price": 8.50
+        }
+    ]
+}
