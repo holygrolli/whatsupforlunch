@@ -1,0 +1,52 @@
+{
+  "2025-09-15": [
+    {
+      "desc": "Schweineschnitzel „Wiener Art“ mit Kartoffel-Gurken-Salat",
+      "price": 8.50
+    },
+    {
+      "desc": "Allgäuer Käsespätzle mit Röstzwiebeln",
+      "price": 8.50
+    }
+  ],
+  "2025-09-16": [
+    {
+      "desc": "Fleichpflanzerl mit Kartoffelpüree und Champignon-Rahmsauce",
+      "price": 8.50
+    },
+    {
+      "desc": "Gebackener Blumenkohl mit Kartoffelpüree und Sauce Hollandaise",
+      "price": 8.50
+    }
+  ],
+  "2025-09-17": [
+    {
+      "desc": "Hähnchen-Curry mit Reis",
+      "price": 8.50
+    },
+    {
+      "desc": "Gnocchi mit mediterraner Gemüsesauce und frittiertem Rucola",
+      "price": 8.50
+    }
+  ],
+  "2025-09-18": [
+    {
+      "desc": "Kassler mit Salzkartoffeln und Sauerkraut",
+      "price": 8.50
+    },
+    {
+      "desc": "Kartoffeltaschen mit Frischkäse und gemischtem Salat",
+      "price": 8.50
+    }
+  ],
+  "2025-09-19": [
+    {
+      "desc": "Backfisch mit Kartoffel-Gurken-Salat und Remoulade",
+      "price": 8.50
+    },
+    {
+      "desc": "Kaiserschmarrn mit Zwetschgenröster",
+      "price": 8.50
+    }
+  ]
+}
