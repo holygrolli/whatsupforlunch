@@ -1,0 +1,66 @@
+{
+  "2025-09-15": [
+    {
+      "desc": "Kohlroulade, Kartoffeln, Kümmelsauce",
+      "price": 6.99
+    },
+    {
+      "desc": "Kohlroulade mit Couscous gefüllt, Kartoffel, Sauce",
+      "price": 6.99
+    }
+  ],
+  "2025-09-16": [
+    {
+      "desc": "Schnitzel Schwein, Karottten, kartoffeln",
+      "price": 6.99
+    },
+    {
+      "desc": "Milchreis, heiße Kirschen, Z+Z",
+      "price": 6.99
+    }
+  ],
+  "2025-09-17": [
+    {
+      "desc": "Steak Pute, grüne Bohnen, Bratkartoffeln",
+      "price": 6.99
+    },
+    {
+      "desc": "Pasta Gemüse Pfanne",
+      "price": 6.99
+    }
+  ],
+  "2025-09-18": [
+    {
+      "desc": "Himmel und Erde, Kartoffelstampf, Röstzwiebel",
+      "price": 6.99
+    },
+    {
+      "desc": "Backfisch, Kartoffelstampf, Kräutersauce",
+      "price": 6.99
+    }
+  ],
+  "2025-09-19": [
+    {
+      "desc": "Schweinebraten, Rotkohl, Kartoffeln",
+      "price": 6.99
+    },
+    {
+      "desc": "Kichererbenncurry, Blattspinat, Basmatireis",
+      "price": 6.99
+    }
+  ],
+  "2025-W38": [
+    {
+      "desc": "Farfalle, rote pesto, Oliven, Rucola, Feta",
+      "price": 5.50
+    },
+    {
+      "desc": "Penne mit grüner Pesto, Hähnchen gebr.",
+      "price": 5.50
+    },
+    {
+      "desc": "Penne, Wurstgulasch",
+      "price": 5.50
+    }
+  ]
+}
