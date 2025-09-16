@@ -1,0 +1,61 @@
+{
+  "2025-09-15": [],
+  "2025-09-16": [
+    {
+      "desc": "Schweineschnitzel \"Western\" mit BBQ-Zwiebeln, Bacon und gebackenen Kartoffelecken, dazu Sour Cream",
+      "price": 10.20
+    },
+    {
+      "desc": "Cannelloni gefüllt mit Hirtenkäse in pikanter Tomatensoße, überbacken mit Gouda und Sonnenblumenkernen (veget.)",
+      "price": 9.20
+    }
+  ],
+  "2025-09-17": [
+    {
+      "desc": "Gebackene Paprikaschote gefüllt mit Hackfleisch, dazu Kartoffeln und pikante Tomatensoße",
+      "price": 9.80
+    },
+    {
+      "desc": "Gebratene Sojafrikadelle mit Kräuterkartoffelpüree, crunchy Onions und Rahmchampignons (veget.)",
+      "price": 9.20
+    }
+  ],
+  "2025-09-18": [
+    {
+      "desc": "Hähnchenschnitzel mit Rahmblumenkohl, Salzkartoffeln und brauner Soße",
+      "price": 9.80
+    },
+    {
+      "desc": "Gebackene Falafel auf verschiedenen Blattsalaten mit gegrillter Paprika, Zucchini und Aubergine, dazu ein Joghurt-Minzdip (veget.)",
+      "price": 9.20
+    }
+  ],
+  "2025-09-19": [
+    {
+      "desc": "Gedünstetes Seelachsfilet auf Kartoffel-Lauchgratin, überbacken mit Gouda",
+      "price": 9.90
+    },
+    {
+      "desc": "Hähnchencurry mit buntem Gemüse in Kokossoße, dazu Basmatireis und Erdnüsse",
+      "price": 9.80
+    }
+  ],
+  "2025-W38": [
+    {
+      "desc": "Pasta mit Kichererbsenpesto, dazu getrocknete Tomaten, geröstete Sonnenblumenkerne und Parmesan (veget.)",
+      "price": 10.90
+    },
+    {
+      "desc": "Kürbislasagne überbacken mit Mozzarella und Mandeln (veget.)",
+      "price": 12.90
+    },
+    {
+      "desc": "Kartoffelgratin \"Indisch\" mit gebratenen Hähnchenbruststreifen, Blumenkohl und Karotten",
+      "price": 12.90
+    },
+    {
+      "desc": "Hähnchencurry mit buntem Gemüse in Kokossoße, dazu Basmatireis und Erdnüsse",
+      "price": 12.90
+    }
+  ]
+}
