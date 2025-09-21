@@ -1,0 +1,52 @@
+{
+  "2025-09-22": [
+    {
+      "desc": "Schweineschnitzel „Wiener Art“ mit Kartoffel-Gurken-Salat",
+      "price": 8.50
+    },
+    {
+      "desc": "Allgäuer Käsespätzle mit Röstzwiebeln",
+      "price": 8.50
+    }
+  ],
+  "2025-09-23": [
+    {
+      "desc": "Szegediner Gulasch mit Spätzle und Sauerrahm",
+      "price": 8.50
+    },
+    {
+      "desc": "Rahmchampignons mit Rösti",
+      "price": 8.50
+    }
+  ],
+  "2025-09-24": [
+    {
+      "desc": "Herzhafter Wurstgulasch mit Spirelli",
+      "price": 8.50
+    },
+    {
+      "desc": "Falafel Bällchen mit Cous Cous Salat",
+      "price": 8.50
+    }
+  ],
+  "2025-09-25": [
+    {
+      "desc": "Mutzbraten mit Mischgemüse und Kroketten",
+      "price": 8.50
+    },
+    {
+      "desc": "Tortellini in crémiger Käsesauce",
+      "price": 8.50
+    }
+  ],
+  "2025-09-26": [
+    {
+      "desc": "Backfisch mit Kartoffel-Gurkensalat und Remoulade",
+      "price": 8.50
+    },
+    {
+      "desc": "Leipziger Rebchen mit Pflaumen-Eis",
+      "price": 8.50
+    }
+  ]
+}
