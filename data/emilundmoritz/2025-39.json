@@ -1,0 +1,66 @@
+{
+  "2025-09-22": [
+    {
+      "desc": "Grützwurst, Sauerkraut, Kartoffeln",
+      "price": 6.99
+    },
+    {
+      "desc": "Kartoffel Brokkoli Auflauf",
+      "price": 6.99
+    }
+  ],
+  "2025-09-23": [
+    {
+      "desc": "Königsberger Klöpse in Kapernsauce, Kartoffeln",
+      "price": 6.99
+    },
+    {
+      "desc": "Fischstäbchen, Kartoffelbrei, Mais in Rahm",
+      "price": 6.99
+    }
+  ],
+  "2025-09-24": [
+    {
+      "desc": "Jägerschnitzel, Pasta, Tomatensauce",
+      "price": 6.99
+    },
+    {
+      "desc": "Gnocchi mit Tomatenrahm, Mozzarella",
+      "price": 6.99
+    }
+  ],
+  "2025-09-25": [
+    {
+      "desc": "Sülze, Bratkartoffeln, Hausfrauensauce",
+      "price": 6.99
+    },
+    {
+      "desc": "Kürbiscurry, Basmatireis",
+      "price": 6.99
+    }
+  ],
+  "2025-09-26": [
+    {
+      "desc": "Schweinebraten, Möhren, Kartoffeln",
+      "price": 6.99
+    },
+    {
+      "desc": "Lasagne vegetarisch",
+      "price": 6.99
+    }
+  ],
+  "2025-W39": [
+    {
+      "desc": "Penne, Wurstgulasch",
+      "price": 5.50
+    },
+    {
+      "desc": "Penne mit Rindergeschnetzelten + Champignons",
+      "price": 5.50
+    },
+    {
+      "desc": "Penne Arrabiata",
+      "price": 5.50
+    }
+  ]
+}
