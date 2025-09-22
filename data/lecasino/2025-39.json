@@ -1,0 +1,72 @@
+{
+    "2025-09-22": [
+        {
+            "desc": "Ofengemüse mit Backkartoffeln und Kräutercreme",
+            "price": 4.50
+        },
+        {
+            "desc": "Grüne Bohneneintopf",
+            "price": 3.50
+        },
+        {
+            "desc": "Kartoffelsalat mit Fleischkäse und süßem Senf",
+            "price": 4.50
+        }
+    ],
+    "2025-09-23": [
+        {
+            "desc": "Käse-Spätzle mit Röstzwiebeln",
+            "price": 3.50
+        },
+        {
+            "desc": "Blumenkohl mit Kartoffeln an Kräutersoße",
+            "price": 3.50
+        },
+        {
+            "desc": "Wurstgulasch mit fruchtiger Tomatensoße",
+            "price": 2.95
+        }
+    ],
+    "2025-09-24": [
+        {
+            "desc": "Kartoffelrösti mit Mediterranem Gemüse",
+            "price": 4.10
+        },
+        {
+            "desc": "Schweine Hackfleisch-Käse-Lauchsuppe",
+            "price": 3.50
+        },
+        {
+            "desc": "Schwerauer Hopfenfangeneckts unter Kloßhaube",
+            "price": 5.50
+        }
+    ],
+    "2025-09-25": [
+        {
+            "desc": "Gnocchi- Feldsalat mit Tomate und Balkankäse",
+            "price": 4.70
+        },
+        {
+            "desc": "Milchreis mit Zimt Zucker und Apfelmus",
+            "price": 3.50
+        },
+        {
+            "desc": "Knusprige Schweinshaxe",
+            "price": 5.55
+        }
+    ],
+    "2025-09-26": [
+        {
+            "desc": "Vegetarische Bolognese mit Kidneybohnen, Gemüsemais und Dinkel-Pasta",
+            "price": 4.00
+        },
+        {
+            "desc": "Kartoffeltopf mit Kokomilch und gebratenen Chiliwurstscheiben",
+            "price": 3.50
+        },
+        {
+            "desc": "Tagesangebot",
+            "price": null
+        }
+    ]
+}
