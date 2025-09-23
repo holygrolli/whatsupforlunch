@@ -1,0 +1,61 @@
+{
+  "2025-09-22": [],
+  "2025-09-23": [
+    {
+      "desc": "Schweineschnitzel \"Gärtnerin\" überbacken mit Gemüse und Sc. Hollandaise, dazu Bratkartoffeln",
+      "price": 10.20
+    },
+    {
+      "desc": "Eier in Honig-Senfsoße, dazu Salzkartoffeln, frittierte Petersilie und Gurkensalat (veget.)",
+      "price": 9.20
+    }
+  ],
+  "2025-09-24": [
+    {
+      "desc": "Orientalisches Hähnchen auf Gemüse-Couscous, dazu Minz-Dip",
+      "price": 9.80
+    },
+    {
+      "desc": "Gebackener Tofu auf herbstlichem Ofengemüse mit Paprika-Aioli (veget.)",
+      "price": 9.20
+    }
+  ],
+  "2025-09-25": [
+    {
+      "desc": "Frikadelle mit Speck-Rosenkohl, Salzkartoffeln und brauner Soße",
+      "price": 9.80
+    },
+    {
+      "desc": "Gnocchi in leichter Käsesoße mit Birnenspalten, Frühlingszwiebeln und gerösteten Mandeln (veget.)",
+      "price": 9.20
+    }
+  ],
+  "2025-09-26": [
+    {
+      "desc": "Matjesfilet in Apfel-Zwiebelremoulade, dazu Salzkartoffeln",
+      "price": 9.90
+    },
+    {
+      "desc": "Pfeffer-Geschnetzeltes vom Hähnchen, mit Kirschtomaten und frittiertem Rucola, dazu Basmatireis",
+      "price": 9.80
+    }
+  ],
+  "2025-W39": [
+    {
+      "desc": "Pasta mit Karotten-Ingwer-Pesto, dazu geröstete Haselnüsse und Parmesan (veget.)",
+      "price": 10.90
+    },
+    {
+      "desc": "Wirsing-Tomatenlasagne überbacken mit Hirtenkäse (veget.)",
+      "price": 12.90
+    },
+    {
+      "desc": "Kartoffelgratin \"Griechischer Art\" mit Hackfleisch, Tomaten und Aubergine, überbacken mit Gouda",
+      "price": 12.90
+    },
+    {
+      "desc": "Pfeffer-Geschnetzeltes vom Hähnchen, mit Kirschtomaten und frittiertem Rucola, dazu Basmatireis",
+      "price": 12.90
+    }
+  ]
+}
