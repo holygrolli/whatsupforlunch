@@ -1,0 +1,43 @@
+{
+  "2025-09-29": [
+    {
+      "desc": "Schweineschnitzel „Wiener Art“ mit Kartoffel-Gurken-Salat",
+      "price": 8.50
+    },
+    {
+      "desc": "Allgäuer Käsespätzle mit Röstzwiebeln",
+      "price": 8.50
+    }
+  ],
+  "2025-09-30": [
+    {
+      "desc": "Königsberger Klopse in Kapernsauce mit Salzkartoffeln",
+      "price": 8.50
+    },
+    {
+      "desc": "Gekochte Eier in Senfsauce mit Salzkartoffeln",
+      "price": 8.50
+    }
+  ],
+  "2025-10-01": [
+    {
+      "desc": "Hähnchen-Geschnetzeltes in Champignonrahm mit Butterspätzle",
+      "price": 8.50
+    },
+    {
+      "desc": "Spätzle-Gemüsepfanne mit Röstzwiebeln",
+      "price": 8.50
+    }
+  ],
+  "2025-10-02": [
+    {
+      "desc": "Spaghetti Bolognese",
+      "price": 8.50
+    },
+    {
+      "desc": "Spaghetti in Basilikum-Pesto mit Kirschtomaten",
+      "price": 8.50
+    }
+  ],
+  "2025-10-03": []
+}
