@@ -1,0 +1,58 @@
+{
+  "2025-09-29": [
+    {
+      "desc": "Gulasch, Spätzle",
+      "price": 6.99
+    },
+    {
+      "desc": "Kartoffel Kürbis Pfanne",
+      "price": 6.99
+    }
+  ],
+  "2025-09-30": [
+    {
+      "desc": "Hähnchenschenkel, Blumenkohl, Kartoffeln, Sauce",
+      "price": 6.99
+    },
+    {
+      "desc": "Blumenkohl paniert, Sc. Hollandaise, Kartoffeln",
+      "price": 6.99
+    }
+  ],
+  "2025-10-01": [
+    {
+      "desc": "Schnitzel - Pute, Möhren, Kartoffeln, Sauce",
+      "price": 6.99
+    },
+    {
+      "desc": "Schnitzel - Sellerie, Möhren, Kartoffeln",
+      "price": 6.99
+    }
+  ],
+  "2025-10-02": [
+    {
+      "desc": "Rindergeschnetzeltes, Kartoffeln",
+      "price": 6.99
+    },
+    {
+      "desc": "Tomaten Pasta mit Seelachs",
+      "price": 6.99
+    }
+  ],
+  "2025-10-03": [
+    {
+      "desc": "Penne, Wurstgulasch",
+      "price": 5.50
+    },
+    {
+      "desc": "Penne Arriabata",
+      "price": 5.50
+    }
+  ],
+  "2025-W40": [
+    {
+      "desc": "Penne, Rindergeschnetzeltes + Champignons",
+      "price": 5.50
+    }
+  ]
+}
