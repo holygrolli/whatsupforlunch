@@ -1,0 +1,52 @@
+{
+  "2025-09-29": [],
+  "2025-09-30": [
+    {
+      "desc": "Schweineschnitzel \"Mailänder Art\" in Parmesan-Semmelkruste, dazu pikante Tomatensoße und Linguine",
+      "price": 10.20
+    },
+    {
+      "desc": "Tortellini in Paprikarahm mit Lauchzwiebeln, überbacken mit Mozzarella und Sonnenblumenkernen (veget.)",
+      "price": 9.20
+    }
+  ],
+  "2025-10-01": [
+    {
+      "desc": "Bauernfrühstück mit Gewürzgurke und Salatbeilage",
+      "price": 9.50
+    },
+    {
+      "desc": "Tagliatelle mit Zitronen-Basilikumsoße, dazu gebackene Kirschtomaten und Parmesan (veget.)",
+      "price": 9.20
+    }
+  ],
+  "2025-10-02": [
+    {
+      "desc": "Schwedische Hackbällchen \"Köttbullar\" mit Kartoffelpürree, crunchy Onions und Preiselbeeren",
+      "price": 9.80
+    },
+    {
+      "desc": "Gerösteter Blumenkohl auf rotem Linsencurry mit Paprika und Lauchwziebeln (vegan)",
+      "price": 9.20
+    }
+  ],
+  "2025-10-03": [],
+  "2025-W40": [
+    {
+      "desc": "Pasta mit Petersilien-Macadamia-Pesto, dazu Tomatenwürfel und Parmesan (veget.)",
+      "price": 10.90
+    },
+    {
+      "desc": "Spinatlasagne mit getrockneten Tomaten, überbacken mit Mozzarella (veget.)",
+      "price": 12.90
+    },
+    {
+      "desc": "Kartoffel-Brokkoli-Gratin mit gebratenen Hähnchenbruststreifen, überbacken mit Mozzarella und Mandeln",
+      "price": 12.90
+    },
+    {
+      "desc": "Hähnchengeschnetzeltes mit gebratenem Spitzkohl, dazu Sesamreis",
+      "price": 12.90
+    }
+  ]
+}
