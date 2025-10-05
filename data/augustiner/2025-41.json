@@ -1,0 +1,52 @@
+{
+  "2025-10-06": [
+    {
+      "desc": "Schweineschnitzel „Wiener Art“ mit Kartoffel-Gurken-Salat",
+      "price": 8.50
+    },
+    {
+      "desc": "Allgäuer Käsespätzle mit Röstzwiebeln",
+      "price": 8.50
+    }
+  ],
+  "2025-10-07": [
+    {
+      "desc": "Hackbraten mit Senfmöhren und Salzkartoffeln",
+      "price": 8.50
+    },
+    {
+      "desc": "Rahmspinat mit Rührei und Salzkartoffeln",
+      "price": 8.50
+    }
+  ],
+  "2025-10-08": [
+    {
+      "desc": "Hähnchen-Gyros mit Tsatsiki und Reis",
+      "price": 8.50
+    },
+    {
+      "desc": "Gemüse-Curry in Kokosmilch mit Reis",
+      "price": 8.50
+    }
+  ],
+  "2025-10-09": [
+    {
+      "desc": "Chili con Carne mit unserem Hausbrot",
+      "price": 8.50
+    },
+    {
+      "desc": "Linsen-Chili mit unserem Hausbrot",
+      "price": 8.50
+    }
+  ],
+  "2025-10-10": [
+    {
+      "desc": "Backfisch mit Kartoffel-Gurken-Salat und Remouladensauce",
+      "price": 8.50
+    },
+    {
+      "desc": "Gemüseschnitzel mit Kartoffel-Gurken-Salat",
+      "price": 8.50
+    }
+  ]
+}
