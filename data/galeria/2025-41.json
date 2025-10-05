@@ -1,0 +1,32 @@
+{
+  "2025-10-06": [
+    {
+      "desc": "Küchenchef-Tag",
+      "price": 13.95
+    }
+  ],
+  "2025-10-07": [
+    {
+      "desc": "Schweinegulasch, Spätzle und Bohnensalat",
+      "price": 13.95
+    }
+  ],
+  "2025-10-08": [
+    {
+      "desc": "Hähnchenschenkel, Bratensauce, Mischgemüse und Kroketten",
+      "price": 13.95
+    }
+  ],
+  "2025-10-09": [
+    {
+      "desc": "Hacksteak mit Frischkäse-Füllung, Ajvar und Tomatenreis",
+      "price": 13.95
+    }
+  ],
+  "2025-10-10": [
+    {
+      "desc": "Sahnehering Hausfrauenart und Petersilienkartoffeln",
+      "price": 13.95
+    }
+  ]
+}
