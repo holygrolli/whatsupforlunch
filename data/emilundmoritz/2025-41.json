@@ -1,0 +1,66 @@
+{
+  "2025-10-06": [
+    {
+      "desc": "Hähnchen- Reispfanne mit Zucchini",
+      "price": 6.99
+    },
+    {
+      "desc": "Gemüsecurry mit Reis",
+      "price": 6.99
+    }
+  ],
+  "2025-10-07": [
+    {
+      "desc": "Geflügelleber auf Kartoffelstampf und Zwiebeln",
+      "price": 6.99
+    },
+    {
+      "desc": "Hefeklöße mit Waldfrüchten",
+      "price": 6.99
+    }
+  ],
+  "2025-10-08": [
+    {
+      "desc": "Eisbeinfleisch mit Sauerkraut und Kartoffeln dazu Meerrettichsoße",
+      "price": 6.99
+    },
+    {
+      "desc": "Tortellini- Toskana- Gratin",
+      "price": 6.99
+    }
+  ],
+  "2025-10-09": [
+    {
+      "desc": "Hähnchenbrust in der Knusperpanade mit Buttererbsen und Kartoffeln",
+      "price": 6.99
+    },
+    {
+      "desc": "gebr. Seelachsfilet mit Kräuter- Dillsoße und Kartoffelstampf",
+      "price": 6.99
+    }
+  ],
+  "2025-10-10": [
+    {
+      "desc": "Rostbrät'l mit Bratkartoffeln und Schmorzwiebeln",
+      "price": 6.99
+    },
+    {
+      "desc": "Spiegelei mit Bratkartoffeln und Gurkensalat",
+      "price": 6.99
+    }
+  ],
+  "2025-W41": [
+    {
+      "desc": "Spaghetti Cabonara",
+      "price": 5.50
+    },
+    {
+      "desc": "Farfalle mit Erbsenmus und Räucherlachs",
+      "price": 5.50
+    },
+    {
+      "desc": "Penne mit Hackbällchen in Fetarahm",
+      "price": 5.50
+    }
+  ]
+}
