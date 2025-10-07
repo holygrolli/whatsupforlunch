@@ -1,0 +1,61 @@
+{
+  "2025-10-06": [],
+  "2025-10-07": [
+    {
+      "desc": "Schweineschnitzel \"Au Four\" mit Bratkartoffeln und Krautsalat",
+      "price": 10.20
+    },
+    {
+      "desc": "Gnocchi in Basilikumsoße mit getrockenten Tomaten, dazu Parmesan und Sonnenblumenkerne (veget.)",
+      "price": 9.20
+    }
+  ],
+  "2025-10-08": [
+    {
+      "desc": "Jägerklopse mit Champignons, dazu Kartoffelstampf und Bohnensalat",
+      "price": 9.80
+    },
+    {
+      "desc": "Mediterrane Gemüsebolognese u.a. mit Zucchini, Paprika und Aubergine, dazu Pasta, Parmesan und Selleriechips (veget.)",
+      "price": 9.20
+    }
+  ],
+  "2025-10-09": [
+    {
+      "desc": "Wurstgulasch mit Paprika auf Pasta, dazu Gouda",
+      "price": 9.60
+    },
+    {
+      "desc": "Gebackener Hirtenkäse auf verschiedenen Blattsalaten mit gebratenen Süßkartoffelwürfeln, Birnen und Mandeln, dazu Orangendressing und Baguette (veget.)",
+      "price": 9.20
+    }
+  ],
+  "2025-10-10": [
+    {
+      "desc": "Gebackenes Seelachsfilet unter Kartoffelkruste, dazu Senfsoße und Gurkensalat",
+      "price": 9.90
+    },
+    {
+      "desc": "Feuriges Hähnchen in Paprikarahm, dazu Basmatireis und geröstete Mandeln",
+      "price": 9.80
+    }
+  ],
+  "2025-W41": [
+    {
+      "desc": "Pasta mit Rote-Bete-Pesto, dazu Erdnüsse, frittierte Petersilie und Parmesan (veget.)",
+      "price": 10.90
+    },
+    {
+      "desc": "Waldpilzlasagne überbacken mit Mozzarella und Röstzwiebeln (veget.)",
+      "price": 12.90
+    },
+    {
+      "desc": "Kürbis-Kartoffel-Gratin mit gebratenen Hähnchenbruststreifen und Zucchini, überbacken mit Mozzarella und Sonnenblumenkerne",
+      "price": 12.90
+    },
+    {
+      "desc": "Feuriges Hähnchen in Paprikarahm, dazu Basmatireis und geröstete Mandeln",
+      "price": 12.90
+    }
+  ]
+}
