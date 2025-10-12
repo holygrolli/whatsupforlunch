@@ -1,0 +1,52 @@
+{
+  "2025-10-13": [
+    {
+      "desc": "Schweineschnitzel „Wiener Art“ mit Kartoffel-Gurken-Salat",
+      "price": 8.50
+    },
+    {
+      "desc": "Allgäuer Käsespätzle mit Röstzwiebeln",
+      "price": 8.50
+    }
+  ],
+  "2025-10-14": [
+    {
+      "desc": "Pulled pork in BBQ-Sauce mit Krautsalat und Kartoffel-Ecken",
+      "price": 8.50
+    },
+    {
+      "desc": "Weißwein-Risotto mit Champignons",
+      "price": 8.50
+    }
+  ],
+  "2025-10-15": [
+    {
+      "desc": "Kohlroulade in Specksauce mit Salzkartoffeln",
+      "price": 8.50
+    },
+    {
+      "desc": "Gebackener Blumenkohl mit Salzkartoffeln und Sc. Hollandaise",
+      "price": 8.50
+    }
+  ],
+  "2025-10-16": [
+    {
+      "desc": "Augustiner Bratwurst mit Sauerkraut und Kartoffelpüree",
+      "price": 8.50
+    },
+    {
+      "desc": "Gnocchi in mediterraner Gemüsesauce mit Parmesan",
+      "price": 8.50
+    }
+  ],
+  "2025-10-17": [
+    {
+      "desc": "Backfisch mit Kartoffel-Gurkensalat und Remouladensauce",
+      "price": 8.50
+    },
+    {
+      "desc": "Kartoffel-Frischkäsetaschen an buntem Blattsalat",
+      "price": 8.50
+    }
+  ]
+}
