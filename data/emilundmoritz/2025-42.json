@@ -1,0 +1,66 @@
+{
+  "2025-10-13": [
+    {
+      "desc": "Schnitzel Schwein, Erbsen & Kartoffeln",
+      "price": 6.99
+    },
+    {
+      "desc": "Spätzle Gemüse Pfanne",
+      "price": 6.99
+    }
+  ],
+  "2025-10-14": [
+    {
+      "desc": "Geschnetzeltes Züricher Art",
+      "price": 6.99
+    },
+    {
+      "desc": "Kartoffel Gemüse Rösti, Kräuterschmand, Salat",
+      "price": 6.99
+    }
+  ],
+  "2025-10-15": [
+    {
+      "desc": "Steak Schwein, Letscho, Bratkartoffeln",
+      "price": 6.99
+    },
+    {
+      "desc": "Matjes, Hausfrauensauce, Bratkartoffeln",
+      "price": 6.99
+    }
+  ],
+  "2025-10-16": [
+    {
+      "desc": "Schweinebraten, Rotkohl, Kartoffeln",
+      "price": 6.99
+    },
+    {
+      "desc": "Kartoffel Brokkoli Gratin",
+      "price": 6.99
+    }
+  ],
+  "2025-10-17": [
+    {
+      "desc": "Schnitzel Pute, Kürbis Gemüse, Reis",
+      "price": 6.99
+    },
+    {
+      "desc": "Quarkkeulchen, Apfelmus, Z+Z",
+      "price": 6.99
+    }
+  ],
+  "2025-W42": [
+    {
+      "desc": "Penne mit Champignonrahm",
+      "price": 5.50
+    },
+    {
+      "desc": "Penne mit Hackbällchen und Feta Rahm",
+      "price": 5.50
+    },
+    {
+      "desc": "Penne mit Wurstgulasch",
+      "price": 5.50
+    }
+  ]
+}
