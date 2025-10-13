@@ -1,0 +1,72 @@
+{
+  "2025-10-13": [
+    {
+      "desc": "Dinkelpasta mit Cherrytomaten und Basilikum-Pesto mit Mandeln",
+      "price": 4.50
+    },
+    {
+      "desc": "Bunte Gemüsesuppe mit hausgemachten Pfannkuchen-Streifen",
+      "price": 3.50
+    },
+    {
+      "desc": "Hähnchen „Cordon Bleu“",
+      "price": 3.95
+    }
+  ],
+  "2025-10-14": [
+    {
+      "desc": "Gemüsesuppe mit einer Scheibe Brot",
+      "price": 3.10
+    },
+    {
+      "desc": "Frikadellenbällchen mit Tomaten-Paprikasoße und Kartoffelpüree",
+      "price": 3.50
+    },
+    {
+      "desc": "Schweinegulasch mit Champignons",
+      "price": 3.85
+    }
+  ],
+  "2025-10-15": [
+    {
+      "desc": "Kartoffeln mit Rührei und Gurkensalat",
+      "price": 3.75
+    },
+    {
+      "desc": "Weiße Bohneneintopf mit Kasslerfleisch",
+      "price": 3.50
+    },
+    {
+      "desc": "Panierter-Seelachs mit Remoulade",
+      "price": 4.70
+    }
+  ],
+  "2025-10-16": [
+    {
+      "desc": "Ofenkartoffel mit Quark Dip und kleinen gemischter Salat",
+      "price": 4.20
+    },
+    {
+      "desc": "Hefeklöβe mit Pflaumen",
+      "price": 3.50
+    },
+    {
+      "desc": "Jägerschnitzel mit fruchtiger Tomatensoße",
+      "price": 3.50
+    }
+  ],
+  "2025-10-17": [
+    {
+      "desc": "Kichererbsen-Curry-Pfanne mit Kokosmilch",
+      "price": 3.90
+    },
+    {
+      "desc": "Pasta Gemüse-Auflauf",
+      "price": 3.50
+    },
+    {
+      "desc": "Tagesangebot",
+      "price": null
+    }
+  ]
+}
