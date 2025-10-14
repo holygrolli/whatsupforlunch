@@ -1,0 +1,61 @@
+{
+  "2025-10-13": [],
+  "2025-10-14": [
+    {
+      "desc": "Schweineschnitzel mit Rahmerbsen, Salzkartoffeln und brauner Soße",
+      "price": 10.20
+    },
+    {
+      "desc": "Karottenpfanne mit Zuckerschoten, Kartoffeln und Petersilie, dazu geröstete Sonnenbkumenkerne und Hirtenkäse (veget.)",
+      "price": 9.20
+    }
+  ],
+  "2025-10-15": [
+    {
+      "desc": "Currywurst \"Nach Art des Hauses\" mit Kartoffelecken und Salatbeilage",
+      "price": 9.80
+    },
+    {
+      "desc": "Zucchini-Limetten-Tagliatelle mit gerösteten Sonnenblumenkernen und Parmesan (veget.)",
+      "price": 9.20
+    }
+  ],
+  "2025-10-16": [
+    {
+      "desc": "Hähnchenschnitzel mit Rahmblumenkohl, Salzkartoffeln und brauner Soße",
+      "price": 9.80
+    },
+    {
+      "desc": "Gebackene Risottobällchen auf pikantem Kürbisragout mit frittiertem Rucola (veget.)",
+      "price": 9.20
+    }
+  ],
+  "2025-10-17": [
+    {
+      "desc": "Gebratenes Seelachsfilet mit Kartoffel-Pastinakenstampf, Mandelbrokkoli und Tomaten-Sahnesoße",
+      "price": 9.90
+    },
+    {
+      "desc": "Hähnchengeschnetzeltes nach \"Züricher Art\" mit Champignons, dazu Kartoffelrösti",
+      "price": 9.80
+    }
+  ],
+  "2025-W42": [
+    {
+      "desc": "Pasta mit Spinat-Petersilien-Pesto, dazu Birnen, Walnüsse und Parmesan (veget.)",
+      "price": 10.90
+    },
+    {
+      "desc": "Spitzkohl-Karottenlasagne überbacken mit Mozzarella und Sesam (veget.)",
+      "price": 12.90
+    },
+    {
+      "desc": "Süßkartoffel-Hackfleisch-Gratin mit Tomaten und grünen Bohnen, überbacken mit Hirtenkäse",
+      "price": 12.90
+    },
+    {
+      "desc": "Hähnchengeschnetzeltes nach \"Züricher Art\" mit Champignons, dazu Kartoffelrösti",
+      "price": 12.90
+    }
+  ]
+}
