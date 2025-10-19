@@ -1,0 +1,52 @@
+{
+  "2025-10-20": [
+    {
+      "desc": "Schweineschnitzel „Wiener Art“ mit Kartoffel-Gurken-Salat",
+      "price": 8.50
+    },
+    {
+      "desc": "Allgäuer Käsespätzle mit Röstzwiebeln",
+      "price": 8.50
+    }
+  ],
+  "2025-10-21": [
+    {
+      "desc": "Wurstgulasch mit Spirelli und geriebenem Käse",
+      "price": 8.50
+    },
+    {
+      "desc": "Spirelli mit Kirschtomaten in Käse-Sahnesauce",
+      "price": 8.50
+    }
+  ],
+  "2025-10-22": [
+    {
+      "desc": "Hähnchenkeule mit Rotkohl und Kloß",
+      "price": 8.50
+    },
+    {
+      "desc": "Spätzlepfanne mit Pilzen und Gemüse",
+      "price": 8.50
+    }
+  ],
+  "2025-10-23": [
+    {
+      "desc": "Fleischpflanzerl mit Buttererbsen und Kartoffelpüree",
+      "price": 8.50
+    },
+    {
+      "desc": "Kraut-Schupfnudeln mit Röstzwiebeln",
+      "price": 8.50
+    }
+  ],
+  "2025-10-24": [
+    {
+      "desc": "Backfisch mit Kartoffel-Gurken-Salat und Remouladensauce",
+      "price": 8.50
+    },
+    {
+      "desc": "Ofenkartoffel mit Tsatsiki und buntem Blattsalat",
+      "price": 8.50
+    }
+  ]
+}
