@@ -1,0 +1,59 @@
+{
+    "2025-10-27": [
+        {
+            "desc": "Graupeneintopf mit Kasslerwürfel",
+            "price": 3.50
+        },
+        {
+            "desc": "Wurstgulasch mit Tomatensoße",
+            "price": 2.95
+        },
+        {
+            "desc": "Tagesangebot",
+            "price": null
+        }
+    ],
+    "2025-10-28": [
+        {
+            "desc": "Nudeln mit Bärlauchpesto",
+            "price": 3.50
+        },
+        {
+            "desc": "Rindergulasch",
+            "price": 4.20
+        },
+        {
+            "desc": "Tagesangebot",
+            "price": null
+        }
+    ],
+    "2025-10-29": [
+        {
+            "desc": "Möhren-Kartoffeleintopf mit Schweinefleisch",
+            "price": 3.50
+        },
+        {
+            "desc": "Geschwenkte Pasta mit Porree und Hackfleisch",
+            "price": 3.70
+        },
+        {
+            "desc": "Tagesangebot",
+            "price": null
+        }
+    ],
+    "2025-10-30": [
+        {
+            "desc": "Kartoffelpuffer mit Apfelmus und Zucker",
+            "price": 3.50
+        },
+        {
+            "desc": "Schnitzel 'Münchner Art’ mit Meerrettich-Senf-Panade",
+            "price": 3.75
+        },
+        {
+            "desc": "Tagesangebot",
+            "price": null
+        }
+    ],
+    "2025-10-31": []
+}

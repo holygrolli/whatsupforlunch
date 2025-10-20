@@ -1,0 +1,72 @@
+{
+  "2025-10-20": [
+    {
+      "desc": "Champignonpfopf mit Schwarzen Vollkornreis und Kräutersoße",
+      "price": 4.30
+    },
+    {
+      "desc": "Nudeln mit Tomatensoße und Käse",
+      "price": 3.50
+    },
+    {
+      "desc": "Marinierter Hering in Sahnesoße mit Salzkartoffeln",
+      "price": 4.95
+    }
+  ],
+  "2025-10-21": [
+    {
+      "desc": "Gebackene Kartofeltaschen mit Frischkäse gefüllt & gem. Salat",
+      "price": 4.20
+    },
+    {
+      "desc": "Kohlrabi-Möhreneintopf",
+      "price": 3.50
+    },
+    {
+      "desc": "Currywurst mit fruchtiger Currysoße",
+      "price": 3.85
+    }
+  ],
+  "2025-10-22": [
+    {
+      "desc": "Reisnudelsalat mit Kidneybohnen, Paprika, Tomaten und Hirtenkäse",
+      "price": 4.40
+    },
+    {
+      "desc": "Zwei Eier in Senfsoße mit Kartoffeln",
+      "price": 3.50
+    },
+    {
+      "desc": "Lasagne al forno",
+      "price": 4.25
+    }
+  ],
+  "2025-10-23": [
+    {
+      "desc": "Kartoffelgulasch mit Paprika und Kräuterhaube",
+      "price": 3.80
+    },
+    {
+      "desc": "Kaiserschmarrn mit Rosinen und Apfelmus",
+      "price": 3.50
+    },
+    {
+      "desc": "Mariniertes Schweinesteak",
+      "price": 3.85
+    }
+  ],
+  "2025-10-24": [
+    {
+      "desc": "Ofenkartoffel mit Quark-dip und ein kl. gemischter Salat",
+      "price": 4.20
+    },
+    {
+      "desc": "Gemüse-Kartoffelauflauf mit Gouda überbacken",
+      "price": 3.50
+    },
+    {
+      "desc": "Tagesangebot",
+      "price": null
+    }
+  ]
+}
