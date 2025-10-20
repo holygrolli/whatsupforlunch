@@ -1,0 +1,66 @@
+{
+  "2025-10-20": [
+    {
+      "desc": "hausgemachte Boulette, Kohlrabi, Kartoffelstampf, Sauce",
+      "price": 6.99
+    },
+    {
+      "desc": "Couscousboulette, Kohlrabi, Kartoffelstampf",
+      "price": 6.99
+    }
+  ],
+  "2025-10-21": [
+    {
+      "desc": "Putengulasch, Knödel",
+      "price": 6.99
+    },
+    {
+      "desc": "Pilzragout, Knödel",
+      "price": 6.99
+    }
+  ],
+  "2025-10-22": [
+    {
+      "desc": "Mutsbraten, Sauerkraut, Kartoffeln",
+      "price": 6.99
+    },
+    {
+      "desc": "Rosenkohl Curry mit Kicherbsen, Basmatireis",
+      "price": 6.99
+    }
+  ],
+  "2025-10-23": [
+    {
+      "desc": "Schnitzel - Pute, Letscho, Pommes",
+      "price": 6.99
+    },
+    {
+      "desc": "Wirsing Kartoffel Pfanne",
+      "price": 6.99
+    }
+  ],
+  "2025-10-24": [
+    {
+      "desc": "Nudel Schinken Gratin",
+      "price": 6.99
+    },
+    {
+      "desc": "Backfisch, Möhren, Kartoffelstampf",
+      "price": 6.99
+    }
+  ],
+  "2025-W43": [
+    {
+      "desc": "cremige Pasta mit Hähnchen",
+      "price": 5.50
+    },
+    {
+      "desc": "cremige Zitronen Brokkoli Pasta",
+      "price": 5.50
+    },
+    {
+      "desc": "Penne Wurstgulasch",
+      "price": 5.50
+    }
+  ]
+}
