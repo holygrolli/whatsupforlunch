@@ -1,0 +1,61 @@
+{
+  "2025-10-20": [],
+  "2025-10-21": [
+    {
+      "desc": "Schweineschnitzel mit Spiegelei und Bratkartoffeln, dazu Tomatensalat",
+      "price": 10.20
+    },
+    {
+      "desc": "Waldpilzgulasch mit Kräuterspätzle und Röstzwiebeln (veget.)",
+      "price": 9.20
+    }
+  ],
+  "2025-10-22": [
+    {
+      "desc": "Gebackene Hähnchenbrust in Cornflakespanade, dazu Mie-Nudeln mit buntem Gemüse, Sweet Chili Soße und Röstzwiebeln",
+      "price": 9.80
+    },
+    {
+      "desc": "Cannelloni gefüllt mit Spinat in Gorgonzolasoße, überbacken mit Gouda und Mandeln (veget.)",
+      "price": 9.20
+    }
+  ],
+  "2025-10-23": [
+    {
+      "desc": "Jägerschnitzel mit Tomatensoße, dazu Pasta und Gouda",
+      "price": 9.80
+    },
+    {
+      "desc": "Vegetarische Frikadelle überbacken mit Hirtenkäse auf Ratatouille-Gemüse, dazu Rosmarinkartoffeln (veget.)",
+      "price": 9.20
+    }
+  ],
+  "2025-10-24": [
+    {
+      "desc": "Gedünstetes Seelachsfilet auf Spinat-Kartoffel-Gratin, überbacken mit Tomate und Mozzarella",
+      "price": 9.90
+    },
+    {
+      "desc": "Hähnchencurry mit buntem Gemüse in Kokossoße, dazu Basmatireis und Erdnüsse",
+      "price": 9.80
+    }
+  ],
+  "2025-W43": [
+    {
+      "desc": "Pasta mit pikantem Mais-Pesto, dazu geröstete Kicherbsen und Parmesan (veget.)",
+      "price": 10.90
+    },
+    {
+      "desc": "Zucchini-Süßkartoffel-Lasagne überbacken mit Mozzarella und Sonnenblumenkerne (veget.)",
+      "price": 12.90
+    },
+    {
+      "desc": "Hähnchengratin mit Penne und gebratener Zucchini, in pikanter Tomatensoße, überbacken mit Mozzarella",
+      "price": 12.90
+    },
+    {
+      "desc": "Linseneintopf mit Kasseler, Wurzelgemüse und Baguette",
+      "price": 3.40
+    }
+  ]
+}
