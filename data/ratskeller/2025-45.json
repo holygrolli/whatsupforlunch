@@ -1,0 +1,92 @@
+{
+    "2025-11-03": [
+        {
+            "desc": "Provenzalischer Fischeintopf mit Muscheln, Oliven, Fenchel und Kapern",
+            "price": 5.60
+        },
+        {
+            "desc": "Chili sin Carne mit Kichererbsen, Mais, Bohnen und Reis",
+            "price": 6.10
+        },
+        {
+            "desc": "Königsberger Klopse mit Rote-Bete-Salat und Petersilien-kartoffeln",
+            "price": 6.70
+        },
+        {
+            "desc": "Orecchiette mit Gorgonzolasoße, Birnen und Walnüssen",
+            "price": 8.50
+        }
+    ],
+    "2025-11-04": [
+        {
+            "desc": "Drei Hefeklöße mit warmen Heidelbeeren",
+            "price": 5.60
+        },
+        {
+            "desc": "Pasta mit Tomatensoße und geriebenem Käse",
+            "price": 6.10
+        },
+        {
+            "desc": "Spaghetti Bolognese mit geriebenem Käse",
+            "price": 6.70
+        },
+        {
+            "desc": "Shakshuka mit Hummus und Fladenbrot",
+            "price": 8.50
+        }
+    ],
+    "2025-11-05": [
+        {
+            "desc": "Erbseneintopf mit Kartoffelwürfeln und Bockwurst",
+            "price": 5.60
+        },
+        {
+            "desc": "Vegane „Frikadelle“ mit Champignons und Kartoffelstampf",
+            "price": 6.10
+        },
+        {
+            "desc": "Currywurst mit fruchtig pikanter Soße, dazu Kartoffelecken",
+            "price": 6.70
+        },
+        {
+            "desc": "Überraschungs-Gericht mit BIO-Gemüse von KOLA Leipzig",
+            "price": null
+        }
+    ],
+    "2025-11-06": [
+        {
+            "desc": "Topfenknödel mit Kirschfüllung, dazu Vanillesoße",
+            "price": 5.60
+        },
+        {
+            "desc": "Schupfnudeln mit Auberginen-ragout, Kürbis und Hirtenkäse",
+            "price": 6.10
+        },
+        {
+            "desc": "Pasta mit Schinken-Käse-Sahnesoße",
+            "price": 6.70
+        },
+        {
+            "desc": "Entenkeule mit Apfelrotkohl und Kartoffelklößen",
+            "price": 10.00
+        }
+    ],
+    "2025-11-07": [
+        {
+            "desc": "Champignon-Cremesuppe mit Zwiebelchutney und Croûtons",
+            "price": 5.60
+        },
+        {
+            "desc": "Gemüsenuggets auf bunten Karotten und Rote Bete Gnocchi",
+            "price": 6.10
+        },
+        {
+            "desc": "Grützwurst mit Sauerkraut und Petersilien-kartoffeln",
+            "price": 6.70
+        },
+        {
+            "desc": "Hokifilet mit Mango Salsa, Pak Choi und Reis",
+            "price": 8.50
+        }
+    ]
+}
