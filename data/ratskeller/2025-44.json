@@ -1,0 +1,75 @@
+{
+  "2025-10-27": [
+    {
+      "desc": "Spinatcreme-suppe mit Eierstich",
+      "price": 5.60
+    },
+    {
+      "desc": "Sellerieschnitzel mit Erbsen und bunten Gnocchi",
+      "price": 6.10
+    },
+    {
+      "desc": "Frikadelle mit Rahmkohlrabi und Petersilien-kartoffeln",
+      "price": 6.70
+    },
+    {
+      "desc": "Linguine mit Hähnchenbrust, Austernseitlingen und Lauch",
+      "price": 8.50
+    }
+  ],
+  "2025-10-28": [
+    {
+      "desc": "Nougat-Topfenknödel mit Vanillerahm",
+      "price": 5.60
+    },
+    {
+      "desc": "Pasta mit Tomatensoße und geriebenem Käse",
+      "price": 6.10
+    },
+    {
+      "desc": "Pasta mit Wurstgulasch und geriebenem Käse",
+      "price": 6.70
+    },
+    {
+      "desc": "Veganer „Backfisch“ mit Remoulade, Salat und Petersilien-kartoffeln",
+      "price": 8.50
+    }
+  ],
+  "2025-10-29": [
+    {
+      "desc": "Soljanka mit Zitrone und Sauerrahm",
+      "price": 5.60
+    },
+    {
+      "desc": "Kräuterquark mit Zwiebeln, Butter und Petersilien-kartoffeln",
+      "price": 6.10
+    },
+    {
+      "desc": "Paprikaschote mit Geflügel-Hack, dazu Tomatensoße + Spätzle",
+      "price": 6.70
+    },
+    {
+      "desc": "Überraschungs-Gericht mit BIO-Gemüse von KOLA Leipzig",
+      "price": null
+    }
+  ],
+  "2025-10-30": [
+    {
+      "desc": "Kaiserschmarrn mit Rosinen, Mandeln und Apfelmus",
+      "price": 5.60
+    },
+    {
+      "desc": "Graupenrisotto mit Kürbis, Steckrübe und Rosenkohl",
+      "price": 6.10
+    },
+    {
+      "desc": "Hühnerfrikassee mit Karotten, Erbsen und Butterreis",
+      "price": 6.70
+    },
+    {
+      "desc": "Tagliatelle mit Lachswürfeln, Zucchini und Tomatenrahm",
+      "price": 8.50
+    }
+  ],
+  "2025-10-31": []
+}
