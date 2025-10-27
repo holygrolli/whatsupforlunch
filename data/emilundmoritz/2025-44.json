@@ -1,0 +1,58 @@
+{
+  "2025-10-27": [
+    {
+      "desc": "Paprikaschote gefüllt mit Hack, Kartoffeln, Kümmelsauce",
+      "price": 6.99
+    },
+    {
+      "desc": "Paprikaschote gefüllt mit Couscous + Gemüse, Kartoffeln, Tomatensauce",
+      "price": 6.99
+    }
+  ],
+  "2025-10-28": [
+    {
+      "desc": "Grützwurst, Sauerkraut, Kartoffeln",
+      "price": 6.99
+    },
+    {
+      "desc": "Kartoffelpuffer, Apfelmus, Z+Z",
+      "price": 6.99
+    }
+  ],
+  "2025-10-29": [
+    {
+      "desc": "Schnitzel Schwein, Rosenkohl, Kartoffeln",
+      "price": 6.99
+    },
+    {
+      "desc": "Pasta mit Grillgemüse",
+      "price": 6.99
+    }
+  ],
+  "2025-10-30": [
+    {
+      "desc": "Wirsingroulade, Kartoffelstampf",
+      "price": 6.99
+    },
+    {
+      "desc": "Wirsingroulade gefüllt mit Bulgur, Parmesan",
+      "price": 6.99
+    }
+  ],
+  "2025-10-31": [
+    {
+      "desc": "Pasta mit Hähnchen und Rahm",
+      "price": 5.50
+    },
+    {
+      "desc": "Pasta mit Brokkoli Zitronen Rahm",
+      "price": 5.50
+    }
+  ],
+  "2025-W44": [
+    {
+      "desc": "Pasta Wurstgulasch",
+      "price": 5.50
+    }
+  ]
+}
