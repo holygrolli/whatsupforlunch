@@ -1,0 +1,56 @@
+{
+  "2025-10-27": [],
+  "2025-10-28": [
+    {
+      "desc": "Schweineschnitzel \"Schweizer Art\" überbacken mit Champignons und Gouda, dazu Kartoffelecken und Kräuter-Schmand",
+      "price": 10.20
+    },
+    {
+      "desc": "Gebackene Minikartoffeln mit Kirschtomaten und Rucola, dazu Paprika-Gurken-Quark sowie geröstete Sonnenblumenkerne (veget.)",
+      "price": 9.20
+    }
+  ],
+  "2025-10-29": [
+    {
+      "desc": "Hühnerfrikassee mit Spargel, Erbsen und Champignons, dazu Basmatireis",
+      "price": 9.80
+    },
+    {
+      "desc": "Pasta mit roten Linsen, Tomaten, Lauchzwiebeln und gerösteten Kichererbsen (vegan)",
+      "price": 9.20
+    }
+  ],
+  "2025-10-30": [
+    {
+      "desc": "Pasta mit Schinken-Sahnesoße, Lauchzwiebeln und Kirschtomaten",
+      "price": 9.60
+    },
+    {
+      "desc": "Gebratene Gnocchi auf mediterranem Gemüse mit Parmesan und gerösteten Sonnenblumenkernen (veget.)",
+      "price": 9.20
+    }
+  ],
+  "2025-10-31": [],
+  "2025-W44": [
+    {
+      "desc": "Pasta mit Dattel-Oliven-Pesto, dazu geröstete Sonnenblumenkerne und Parmesan (veget.)",
+      "price": 10.90
+    },
+    {
+      "desc": "Kürbislasagne überbacken mit Mozzarella und Mandeln (veget.)",
+      "price": 12.90
+    },
+    {
+      "desc": "Spinat-Kartoffelgratin mit gebratenen Hähnchenbruststreifen, überbacken mit Mozzarella und Sonnenblumenkernen",
+      "price": 12.90
+    },
+    {
+      "desc": "Hähnchengeschnetzeltes mit Champignons und Lauch, dazu Basmatireis",
+      "price": 12.90
+    },
+    {
+      "desc": "Soljanka mit Schmand und Baguette",
+      "price": 3.90
+    }
+  ]
+}
