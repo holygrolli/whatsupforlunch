@@ -1,0 +1,66 @@
+{
+  "2025-11-03": [
+    {
+      "desc": "Schweinebraten, Möhren, Kartoffeln",
+      "price": 6.99
+    },
+    {
+      "desc": "Kaiserschmarrn, Kirschkompott",
+      "price": 6.99
+    }
+  ],
+  "2025-11-04": [
+    {
+      "desc": "Jägerschnitzel, Penne, Tomatensauce",
+      "price": 6.99
+    },
+    {
+      "desc": "Tortellini mit Grillgemüse, Mozzarella",
+      "price": 6.99
+    }
+  ],
+  "2025-11-05": [
+    {
+      "desc": "Gyros, Pommes, Tzatziki",
+      "price": 6.99
+    },
+    {
+      "desc": "Rahmspinat, Kartoffeln, Rührei",
+      "price": 6.99
+    }
+  ],
+  "2025-11-06": [
+    {
+      "desc": "Schnitzel - Hähnchen- Karotten, Kartoffeln",
+      "price": 6.99
+    },
+    {
+      "desc": "Fischstäbchen, Karotten, Kartoffeln",
+      "price": 6.99
+    }
+  ],
+  "2025-11-07": [
+    {
+      "desc": "Rostbrätl, Bratkartoffeln",
+      "price": 6.99
+    },
+    {
+      "desc": "Waldpilzrahm, Spätzle",
+      "price": 6.99
+    }
+  ],
+  "2025-W45": [
+    {
+      "desc": "Farfalle mit Kürbisrahm",
+      "price": 5.50
+    },
+    {
+      "desc": "Spaghetti, Bolognese",
+      "price": 5.50
+    },
+    {
+      "desc": "Penne Arrabiata",
+      "price": 5.50
+    }
+  ]
+}
