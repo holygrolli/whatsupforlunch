@@ -1,0 +1,65 @@
+{
+  "2025-11-03": [],
+  "2025-11-04": [
+    {
+      "desc": "Schweineschnitzel mit Prinzessbohnen, Salzkartoffeln und brauner Sauce",
+      "price": 10.20
+    },
+    {
+      "desc": "Gnocchi in Gorgonzolasoße mit Birnenspalten, Lauchzwiebeln und gerösteten Mandeln (veget.)",
+      "price": 9.20
+    }
+  ],
+  "2025-11-05": [
+    {
+      "desc": "Hähnchenbrust \"Jerk Style\" auf buntem Grillgemüse mit Tomatensalsa",
+      "price": 9.80
+    },
+    {
+      "desc": "Sojagulasch mit geschmortem Spitzkohl und böhmischen Knödeln (veget.)",
+      "price": 9.20
+    }
+  ],
+  "2025-11-06": [
+    {
+      "desc": "Wurstgulasch mit Paprika auf Pasta, dazu Gouda",
+      "price": 9.60
+    },
+    {
+      "desc": "Süßkartoffel-Kürbiscurry mit Zuckerschoten, gerösteten Kichererbsen und Baguette (vegan)",
+      "price": 9.20
+    }
+  ],
+  "2025-11-07": [
+    {
+      "desc": "Tagliatelle in Lachs-Basilikumsauce mit gebackenen Kirschtomaten und Parmesan",
+      "price": 9.90
+    },
+    {
+      "desc": "Hähnchengeschnetzeltes mit Zucchini und getrockneten Tomaten, dazu Basmatireis",
+      "price": 9.80
+    }
+  ],
+  "2025-W45": [
+    {
+      "desc": "Pasta mit rote Bete-Rosmarin-Pesto, dazu Walnüsse und Parmesan (veget.)",
+      "price": 10.90
+    },
+    {
+      "desc": "Kohlrabilasagne mit Karotten und Weißkohl, überbacken mit Mozzarella (veget.)",
+      "price": 12.90
+    },
+    {
+      "desc": "Spitzkohl-Kartoffel-Hackfleischgratin mit Kartoffelwürfeln, überbacken mit Gouda und Sonnenblumenkernen",
+      "price": 12.90
+    },
+    {
+      "desc": "Hähnchengeschnetzeltes mit Zucchini und getrockneten Tomaten, dazu Basmatireis",
+      "price": 12.90
+    },
+    {
+      "desc": "Grüner Bohneneintopf mit Kasseler, Wurzelgemüse und Baguette",
+      "price": 6.90
+    }
+  ]
+}
