@@ -1,0 +1,66 @@
+{
+  "2025-11-10": [
+    {
+      "desc": "Bratwurst, Sauerkraut, Kartoffeln",
+      "price": 6.99
+    },
+    {
+      "desc": "Gnocchi Rahm Spinat Auflauf",
+      "price": 6.99
+    }
+  ],
+  "2025-11-11": [
+    {
+      "desc": "Frikadelle, Erbsen, Kartoffeln, Sauce",
+      "price": 6.99
+    },
+    {
+      "desc": "Käse Spätzle mit Röstzwiebeln",
+      "price": 6.99
+    }
+  ],
+  "2025-11-12": [
+    {
+      "desc": "Gulasch gemischt Spätzle",
+      "price": 6.99
+    },
+    {
+      "desc": "Grießbrei, Pflaumenragout, Z+Z",
+      "price": 6.99
+    }
+  ],
+  "2025-11-13": [
+    {
+      "desc": "Schnitzel Schwein, Möhren in Rahm, Kartoffeln",
+      "price": 6.99
+    },
+    {
+      "desc": "Süßkartoffel Kichererbsen Schmortopf, Reis",
+      "price": 3.99
+    }
+  ],
+  "2025-11-14": [
+    {
+      "desc": "Putengeschnetzeltes, Reis",
+      "price": 6.99
+    },
+    {
+      "desc": "Nudeln , Tomaten Basilikum Sauce, Käse",
+      "price": 6.99
+    }
+  ],
+  "2025-W46": [
+    {
+      "desc": "Farfalle mit Kürbisrahm",
+      "price": 5.50
+    },
+    {
+      "desc": "Spaghetti, Bolognese",
+      "price": 5.50
+    },
+    {
+      "desc": "Penne Arrabiata",
+      "price": 5.50
+    }
+  ]
+}
