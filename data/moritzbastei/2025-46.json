@@ -1,0 +1,65 @@
+{
+  "2025-11-10": [],
+  "2025-11-11": [
+    {
+      "desc": "Schweineschnitzel gefüllt mit Schinken und Käse, dazu Rahmerbsen und Bratkartoffeln",
+      "price": 10.20
+    },
+    {
+      "desc": "Eier in Honig-Senfsoße, dazu Salzkartoffeln, frittierte Petersilie und Gurkensalat (veget.)",
+      "price": 8.90
+    }
+  ],
+  "2025-11-12": [
+    {
+      "desc": "Königsberger Klopse mit Kräuterkartoffelstampf und Krautsalat",
+      "price": 9.80
+    },
+    {
+      "desc": "Hausgemachte Spinat-Semmelknödel mit leichter Käsesoße, dazu geröstete Mandeln und rote Kresse (veget.)",
+      "price": 9.20
+    }
+  ],
+  "2025-11-13": [
+    {
+      "desc": "Currywurst \"nach Art des Hauses\" mit Kartoffelecken und Salatbeilage",
+      "price": 9.80
+    },
+    {
+      "desc": "Zucchini-Limettentagliatelle mit gerösteten Sonnenblumenkernen und Parmesan (veget.)",
+      "price": 9.20
+    }
+  ],
+  "2025-11-14": [
+    {
+      "desc": "Gebratenes Seelachsfilet, dazu Erbsen-Minzpüree, Zitronensoße und Süßkartoffelecken",
+      "price": 9.90
+    },
+    {
+      "desc": "Feuriges Hähnchen in Paprikarahm, dazu Basmatireis und geröstete Mandeln",
+      "price": 9.80
+    }
+  ],
+  "2025-W46": [
+    {
+      "desc": "Pasta mit Kürbis-Pesto, dazu geröstete Haselnüsse, Cranberrys und Parmesan (veget.)",
+      "price": 10.90
+    },
+    {
+      "desc": "Lasagne \"al Pesto\" mit Brokkoli, Waldpilzen, und Kräuter-Pesto, überbacken mit Mozzarella (veget.)",
+      "price": 12.90
+    },
+    {
+      "desc": "Kartoffelgratin \"Indisch\" mit gebratenen Hähnchenbruststreifen, Karotten und Blumenkohl",
+      "price": 12.90
+    },
+    {
+      "desc": "Feuriges Hähnchen in Paprikarahm, dazu Basmatireis und geröstete Mandeln",
+      "price": 12.90
+    },
+    {
+      "desc": "Soja-Kesselgulasch mit Baguette (vegan)",
+      "price": 3.90
+    }
+  ]
+}
