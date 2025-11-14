@@ -1,75 +1,75 @@
 {
-    "2025-11-17": [
-        {
-            "desc": "Chili con Carne mit Mais, Kidneybohnen und Hackfleisch",
-            "price": 5.60
-        },
-        {
-            "desc": "Eieromelette mit Rahmspinat und Petersilien-kartoffeln",
-            "price": 6.10
-        },
-        {
-            "desc": "Schweine-Geschnetzeltes „Stroganoff\" mit Pilzen, Bete und Spätzle",
-            "price": 6.70
-        },
-        {
-            "desc": "Spaghetti „Carbonara\" mit Speck, Ei und Hartkäse",
-            "price": 8.50
-        }
-    ],
-    "2025-11-18": [
-        {
-            "desc": "Quark-Kräppelchen mit Apfelmus und Zimtzucker",
-            "price": 5.60
-        },
-        {
-            "desc": "Pasta mit Tomatensoße und geriebenem Käse",
-            "price": 6.10
-        },
-        {
-            "desc": "Pasta mit Wurstgulasch und geriebenem Käse",
-            "price": 6.70
-        },
-        {
-            "desc": "Herbst-Bowl mit Feldsalat, Nüssen, Bete, Graupe und Kürbis-Dressing",
-            "price": 8.50
-        }
-    ],
-    "2025-11-19": [],
-    "2025-11-20": [
-        {
-            "desc": "Marillenknödel mit Vanillesoße",
-            "price": 5.60
-        },
-        {
-            "desc": "Vegane „Hackbällchen\" in Tomatensoße, dazu Pasta",
-            "price": 6.10
-        },
-        {
-            "desc": "Schweine-schnitzel mit Waldpilzsoße und Petersilien-kartoffeln",
-            "price": 6.70
-        },
-        {
-            "desc": "Frühlingsrolle mit Hähnchen auf Glasnudelsalat und Koriander",
-            "price": 8.50
-        }
-    ],
-    "2025-11-21": [
-        {
-            "desc": "Rotkohlcreme-Suppe mit Apfel-Chutney",
-            "price": 5.60
-        },
-        {
-            "desc": "Gefüllte Zucchini mit Erbsen und Kräuterreis",
-            "price": 6.10
-        },
-        {
-            "desc": "Putenrollbraten mit Bohnen und Petersilien-kartoffeln",
-            "price": 6.70
-        },
-        {
-            "desc": "Rotbarschfilet mit Olivenkruste, Ratatouille und Gnocchi",
-            "price": 8.50
-        }
-    ]
+  "2025-11-17": [
+    {
+      "desc": "Chili con Carne mit Mais, Kidneybohnen und Hackfleisch",
+      "price": 5.60
+    },
+    {
+      "desc": "Eieromelette mit Rahmspinat und Petersilien-kartoffeln",
+      "price": 6.10
+    },
+    {
+      "desc": "Schweine-Geschnetzeltes „Stroganoff“ mit Pilzen, Bete und Spätzle",
+      "price": 6.70
+    },
+    {
+      "desc": "Spaghetti „Carbonara“ mit Speck, Ei und Hartkäse",
+      "price": 8.50
+    }
+  ],
+  "2025-11-18": [
+    {
+      "desc": "Quark-Kräppelchen mit Apfelmus und Zimtzucker",
+      "price": 5.60
+    },
+    {
+      "desc": "Pasta mit Tomatensoße und geriebenem Käse",
+      "price": 6.10
+    },
+    {
+      "desc": "Pasta mit Wurstgulasch und geriebenem Käse",
+      "price": 6.70
+    },
+    {
+      "desc": "Herbst-Bowl mit Feldsalat, Nüssen, Bete, Graupe und Kürbis-Dressing",
+      "price": 8.50
+    }
+  ],
+  "2025-11-19": [],
+  "2025-11-20": [
+    {
+      "desc": "Marillenknödel mit Vanillesoße",
+      "price": 5.60
+    },
+    {
+      "desc": "Vegane „Hackbällchen“ in Tomatensoße, dazu Pasta",
+      "price": 6.10
+    },
+    {
+      "desc": "Schweine-schnitzel mit Waldpilzsoße und Petersilien-kartoffeln",
+      "price": 6.70
+    },
+    {
+      "desc": "Frühlingsrolle mit Hähnchen auf Glasnudelsalat und Koriander",
+      "price": 8.50
+    }
+  ],
+  "2025-11-21": [
+    {
+      "desc": "Rotkohlcreme-Suppe mit Apfel-Chutney",
+      "price": 5.60
+    },
+    {
+      "desc": "Gefüllte Zucchini mit Erbsen und Kräuterreis",
+      "price": 6.10
+    },
+    {
+      "desc": "Putenrollbraten mit Bohnen und Petersilien-kartoffeln",
+      "price": 6.70
+    },
+    {
+      "desc": "Rotbarschfilet mit Olivenkruste, Ratatouille und Gnocchi",
+      "price": 8.50
+    }
+  ]
 }
