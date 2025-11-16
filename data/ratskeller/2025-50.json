@@ -1,0 +1,92 @@
+{
+    "2025-12-08": [
+        {
+            "desc": "Hausgemachter Linseneintopf mit Blutwurstwürfeln",
+            "price": 5.60
+        },
+        {
+            "desc": "Vegane Paprikaschote mit Tomatensoße und Reis",
+            "price": 6.10
+        },
+        {
+            "desc": "Currywurst mit fruchtig-pikanter Soße, dazu Kartoffelecken",
+            "price": 6.70
+        },
+        {
+            "desc": "Gebackener Camembert mit Preiselbeeren, Salat und Baguette",
+            "price": 8.50
+        }
+    ],
+    "2025-12-09": [
+        {
+            "desc": "Birnen-Lasagne mit Vanille-Zimt-Soße",
+            "price": 5.60
+        },
+        {
+            "desc": "Pasta mit Tomatensoße und geriebenem Käse",
+            "price": 6.10
+        },
+        {
+            "desc": "Pasta mit Wurstgulasch und geriebenem Käse",
+            "price": 6.70
+        },
+        {
+            "desc": "Shakshuka mit Hummus und Fladenbrot",
+            "price": 8.50
+        }
+    ],
+    "2025-12-10": [
+        {
+            "desc": "Bauerneintopf mit Paprika, Hackfleisch und Kartoffelwürfeln",
+            "price": 5.60
+        },
+        {
+            "desc": "Kräuterquark mit Zwiebeln, Butter und Petersilien-kartoffeln",
+            "price": 6.10
+        },
+        {
+            "desc": "Hühnerfrikassee mit Karotten, Erbsen und Butterreis",
+            "price": 6.70
+        },
+        {
+            "desc": "Überraschungsgericht mit BIO-Gemüse von KOLA Leipzig",
+            "price": null
+        }
+    ],
+    "2025-12-11": [
+        {
+            "desc": "Kartoffelpuffer mit Apfelmus und Zimtzucker",
+            "price": 5.60
+        },
+        {
+            "desc": "Chili sin Carne mit Kichererbsen, Mais, Bohnen und Reis",
+            "price": 6.10
+        },
+        {
+            "desc": "Hackbällchen in Tomatensoße, dazu Pasta",
+            "price": 6.70
+        },
+        {
+            "desc": "Entenkeule mit Apfelrotkohl und Kartoffelklößen",
+            "price": 10.00
+        }
+    ],
+    "2025-12-12": [
+        {
+            "desc": "Brunnenkresse-Cremesuppe mit Knoblauch-Croûtons",
+            "price": 5.60
+        },
+        {
+            "desc": "Grünkernrisotto mit Rosenkohl, Steckrübe und Karotte",
+            "price": 6.10
+        },
+        {
+            "desc": "Seelachsfilet mit Buttermilch-Dill-Soße und Risi Bisi",
+            "price": 6.70
+        },
+        {
+            "desc": "Sülze mit Remoulade, Salat und Bratkartoffeln",
+            "price": 8.50
+        }
+    ]
+}
