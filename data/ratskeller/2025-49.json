@@ -1,0 +1,92 @@
+{
+    "2025-12-01": [
+        {
+            "desc": "Sächsische Kartoffelsuppe mit Majoran und Bockwurst",
+            "price": 5.60
+        },
+        {
+            "desc": "Gemüsefrikadelle mit Spinatsoße und bunten Gnocchi",
+            "price": 6.10
+        },
+        {
+            "desc": "Geflügel-Cevapcici mit Zaziki, Krautsalat und Tomatenreis",
+            "price": 6.70
+        },
+        {
+            "desc": "Spaghetti mit veganem „Thunfisch\", Tomaten, Oliven und Rucola",
+            "price": 8.50
+        }
+    ],
+    "2025-12-02": [
+        {
+            "desc": "Drei Eierkuchen mit Apfelmus und Zimtzucker",
+            "price": 5.60
+        },
+        {
+            "desc": "Pasta mit Tomatensoße und geriebenem Käse",
+            "price": 6.10
+        },
+        {
+            "desc": "Jägerschnitzel mit Tomatensoße und Pasta",
+            "price": 6.70
+        },
+        {
+            "desc": "Ofenbrot mit Schinkenwürfeln, Kräuterdip und Salat",
+            "price": 8.50
+        }
+    ],
+    "2025-12-03": [
+        {
+            "desc": "Käse-Lauchsuppe mit Hackfleisch und Champignons",
+            "price": 5.60
+        },
+        {
+            "desc": "Kartoffeltaschen mit Frischkäse, Kräuterdip und Salat",
+            "price": 6.10
+        },
+        {
+            "desc": "Thüringer Bratwurst mit Sauerkraut und Petersilien-kartoffeln",
+            "price": 6.70
+        },
+        {
+            "desc": "Überraschungsgericht mit BIO-Gemüse von KOLA Leipzig",
+            "price": null
+        }
+    ],
+    "2025-12-04": [
+        {
+            "desc": "Hefeklöße mit Heidelbeer-füllung, dazu Vanillesoße",
+            "price": 5.60
+        },
+        {
+            "desc": "Asiatische Gemüsepfanne mit süß-saurer Soße und Reis",
+            "price": 6.10
+        },
+        {
+            "desc": "Wildgulasch mit Apfelrotkohl und Böhmischen Knödeln",
+            "price": 6.70
+        },
+        {
+            "desc": "Weißwurst mit süßem Senf, Krautsalat und Brezel",
+            "price": 8.50
+        }
+    ],
+    "2025-12-05": [
+        {
+            "desc": "Süßkartoffel-Ingwersuppe mit Sesam und Koriander",
+            "price": 5.60
+        },
+        {
+            "desc": "Schwarzwurzel-bratling mit bunten Karotten und Schupf-nudeln",
+            "price": 6.10
+        },
+        {
+            "desc": "Backfisch mit Remoulade, Salat und Petersilien-kartoffeln",
+            "price": 6.70
+        },
+        {
+            "desc": "Steak „au four\" mit Buttererbsen und Kroketten",
+            "price": 8.50
+        }
+    ]
+}

@@ -1,0 +1,92 @@
+{
+    "2025-11-24": [
+        {
+            "desc": "Ungarische Gulaschsuppe mit Paprika und Kartoffelwürfeln",
+            "price": 5.60
+        },
+        {
+            "desc": "Gemüserösti mit Kräuterdip und Salat",
+            "price": 6.10
+        },
+        {
+            "desc": "Bauernroulade mit Speckbohnen und Petersilien-kartoffeln",
+            "price": 6.70
+        },
+        {
+            "desc": "Tagliatelle mit Lachswürfeln, Zucchini und Tomatenrahm",
+            "price": 8.50
+        }
+    ],
+    "2025-11-25": [
+        {
+            "desc": "Germknödel mit Schokoladen-füllung, dazu Vanillesoße",
+            "price": 5.60
+        },
+        {
+            "desc": "Pasta mit Tomatensoße und geriebenem Käse",
+            "price": 6.10
+        },
+        {
+            "desc": "Spaghetti Bolognese mit geriebenem Käse",
+            "price": 6.70
+        },
+        {
+            "desc": "Veganer „Leberkäse\" mit Bayerisch Kraut und Petersilien-kartoffeln",
+            "price": 8.50
+        }
+    ],
+    "2025-11-26": [
+        {
+            "desc": "Nudeleintopf mit Geflügelfleisch und Gemüse-Julienne",
+            "price": 5.60
+        },
+        {
+            "desc": "Brokkoli-Nuss-Ecke auf buntem Gemüse und Kräuterreis",
+            "price": 6.10
+        },
+        {
+            "desc": "Wirsingroulade mit Krautsoße und Petersilien-kartoffeln",
+            "price": 6.70
+        },
+        {
+            "desc": "Überraschungsgericht mit BIO-Gemüse von KOLA Leipzig",
+            "price": 0.00
+        }
+    ],
+    "2025-11-27": [
+        {
+            "desc": "Grießbrei mit Pflaumenragout und Zimtzucker",
+            "price": 5.60
+        },
+        {
+            "desc": "Sellerieschnitzel auf Erbsen und bunten Gnocchi",
+            "price": 6.10
+        },
+        {
+            "desc": "Ungarischer Schweinegulasch mit Paprika, dazu Pasta",
+            "price": 6.70
+        },
+        {
+            "desc": "Caesar Salad mit Hähnchenbrust, Cherrytomaten und Croûtons",
+            "price": 8.50
+        }
+    ],
+    "2025-11-28": [
+        {
+            "desc": "Rote-Bete-Cremesuppe mit Pastinakenchips und Kresse",
+            "price": 5.60
+        },
+        {
+            "desc": "Käsespatz'n „Allgäuer Art\" mit Röstzwiebeln",
+            "price": 6.10
+        },
+        {
+            "desc": "Köttbullar mit Rahmpilzen und Kartoffelstampf",
+            "price": 6.70
+        },
+        {
+            "desc": "Paniertes Schollenfilet mit Porree und Risi Bisi",
+            "price": 8.50
+        }
+    ]
+}
