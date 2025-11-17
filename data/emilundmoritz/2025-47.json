@@ -1,0 +1,57 @@
+{
+  "2025-11-17": [
+    {
+      "desc": "Geschnetzeltes Stroganoff, Spätzle",
+      "price": 6.99
+    },
+    {
+      "desc": "Herbst Bowl - Feldsalat, Nüsse, Rote Beete, Kürbisdressing",
+      "price": 6.99
+    }
+  ],
+  "2025-11-18": [
+    {
+      "desc": "Schnitzel Schwein, Rahmchampignons, Kartoffeln",
+      "price": 6.99
+    },
+    {
+      "desc": "Seelachs gebraten, Mischgemüse, Zitronenreis",
+      "price": 6.99
+    }
+  ],
+  "2025-11-19": [],
+  "2025-11-20": [
+    {
+      "desc": "Hackbraten, Möhren, Kartoffeln",
+      "price": 6.99
+    },
+    {
+      "desc": "Kartoffeln, Kräuterquark",
+      "price": 6.99
+    }
+  ],
+  "2025-11-21": [
+    {
+      "desc": "Steak - Pute Letscho, Bratkartoffeln",
+      "price": 6.99
+    },
+    {
+      "desc": "Tagliatelle mit Lachswürfeln, Zucchini Tomatenrahm",
+      "price": 6.99
+    }
+  ],
+  "2025-W47": [
+    {
+      "desc": "Pasta Schweinegulasch",
+      "price": 5.50
+    },
+    {
+      "desc": "Pasta mit Kräuterpesto",
+      "price": 5.50
+    },
+    {
+      "desc": "Pasta mit Pilzrahm",
+      "price": 5.50
+    }
+  ]
+}
