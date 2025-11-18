@@ -1,0 +1,56 @@
+{
+  "2025-11-17": [],
+  "2025-11-18": [
+    {
+      "desc": "Schweineschnitzel \"Mailänder Art\" in Parmesan-Semmelkruste, dazu pikante Tomatensoße und Linguine",
+      "price": 10.20
+    },
+    {
+      "desc": "Tortellini in Spinat-Gorgonzolasoße mit getrockneten Tomaten, überacken mit Mozzarella und gerösteten Sonnenblumenkernen (veget.)",
+      "price": 8.90
+    }
+  ],
+  "2025-11-19": [],
+  "2025-11-20": [
+    {
+      "desc": "Frikadelle mit Speckrosenkohl, Salzkartoffeln und brauner Soße",
+      "price": 9.80
+    },
+    {
+      "desc": "Mediterrane Gemüsebolognese u.a. mit Zucchini, Paprika und Aubergine, dazu Pasta, Parmesan und Selleriechips (veget.)",
+      "price": 9.20
+    }
+  ],
+  "2025-11-21": [
+    {
+      "desc": "Gebackenes Seelachsfilet mit Remoulade, Salzkartoffeln und Gurkensalat",
+      "price": 9.90
+    },
+    {
+      "desc": "Pfeffer-Geschnetzeltes vom Hähnchen, mit Kirschtomaten und frittiertem Rucola, dazu Basmatireis",
+      "price": 9.80
+    }
+  ],
+  "2025-W47": [
+    {
+      "desc": "Pasta mit Petersilien-Macadamia-Pesto, dazu Tomatenwürfel und Parmesan (veget.)",
+      "price": 10.90
+    },
+    {
+      "desc": "Wirsing-Tomatenlasagne überbacken mit Hirtenkäse (veget.)",
+      "price": 12.90
+    },
+    {
+      "desc": "Kartoffelgratin \"Griechischer Art\" mit Hackfleisch, Tomaten und Aubergine, überbacken mit Gouda",
+      "price": 12.90
+    },
+    {
+      "desc": "Pfeffer-Geschnetzeltes vom Hähnchen, mit Kirschtomaten und frittiertem Rucola, dazu Basmatireis",
+      "price": 12.90
+    },
+    {
+      "desc": "Möhreneintopf mit Kasseler und Baguette",
+      "price": 3.90
+    }
+  ]
+}
