@@ -1,4 +1,4 @@
 testconfig = {
-    "dateOverride": "2023-12-22",
-    "output_prefix": ""
+    "userMessageFile": "input.txt",
+    "dateOverride": "2025-11-21"
 }
