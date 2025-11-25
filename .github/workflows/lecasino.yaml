@@ -35,16 +35,11 @@ jobs:
         run: |
           WD=${PWD}
           mkdir -p tmp
-          scrapy runspider locations/lecasino/scra.py --nolog | grep -iv anger | grep -iv heiter | grep -iv lindenau | sort > tmp/scraped_links.txt
-          cd tmp
-          echo "found these changed links: $(comm -13 ../data/lecasino/scraped_done.txt scraped_links.txt)"
-          while IFS= read -r line; do
-            curl -sOL $line
-          done < <(comm -13 ../data/lecasino/scraped_done.txt scraped_links.txt)
+          scrapy runspider locations/lecasino/scra.py 
       - id: setmatrix
         working-directory: tmp
         run: |
-          matrixInput=$(find . -name '*.pdf' -printf '%P\n') # Creates array of all pdf files in tmp folder
+          matrixInput=$(find . -name 'cleaned_*.html' -printf '%P\n') # Creates array of all pdf files in tmp folder
           # Start Generate Json String
           echo "$matrixInput" | \
           jq --slurp --raw-input -c 'split("\n")[:-1] | map(select(length>0))' > matrix
@@ -52,10 +47,10 @@ jobs:
           # End Generate Json String
           matrixStringifiedObject=$(cat ./matrix) # Use this as jq @sh not working right
           echo "::set-output name=matrix::$matrixStringifiedObject"
-      - name: Archive all pdfs
+      - name: Archive all htmls
         uses: actions/upload-artifact@v4
         with:
-          name: pdfs
+          name: htmls
           retention-days: ${{ github.event_name != 'workflow_dispatch' && '30' || '2' }}
           path: |
             tmp
@@ -80,37 +75,17 @@ jobs:
           ${{
             github.event_name == 'schedule' && 'main' || ''
           }}
-    - name: Download pdf artifacts
+    - name: Download html artifacts
       uses: actions/download-artifact@v4
       with:
-        name: pdfs
+        name: htmls
         path: downloadtmp
     - name: copy step files
       run: |
         mkdir tmp
         cd tmp
-        cp ../downloadtmp/${{ matrix.files }} .
-    - name: Configure AWS Credentials
-      uses: aws-actions/configure-aws-credentials@v2
-      with:
-        aws-access-key-id: ${{ secrets.AWS_ACCESS_KEY_ID }}
-        aws-secret-access-key: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
-        aws-region: eu-central-1
-    - name: Configure AWS Profile
-      run: |
-        ls -al
-        mkdir -p ~/.aws
-        cat > ~/.aws/config << EOF
-        [default]
-        region = eu-central-1
-        aws_access_key_id = ${{ secrets.AWS_ACCESS_KEY_ID }}
-        aws_secret_access_key = ${{ secrets.AWS_SECRET_ACCESS_KEY }}
-        EOF
-        cat ~/.aws/config
-    - name: Extract image from pdf ${{ matrix.files }}
-      working-directory: tmp
-      run: pdftoppm -singlefile -r 150 -png ${{ matrix.files }} image
-    - name: process image with chatgpt
+        cp ../downloadtmp/${{ matrix.files }} ./chatgpt_user.txt
+    - name: process html with chatgpt
       working-directory: tmp
       env:
         OPENAI_API_KEY: ${{secrets.OPENAI_API_KEY}}
@@ -123,16 +98,16 @@ jobs:
       working-directory: tmp
       shell: bash
       run: |
-        mkdir -p ../success-pdfs
-        cp ${{ matrix.files }} ../success-pdfs
-        cp final.json ../success-pdfs/$(date -d"$(jq -r 'keys[] | select(test("\\d{4}-\\d{2}-\\d{2}"))' final.json | sort | head -n 1)" +%Y-%V).json
+        mkdir -p ../success-htmls
+        cp ./chatgpt_user.txt ../success-htmls/${{ matrix.files }}
+        cp final.json ../success-htmls/$(date -d"$(jq -r 'keys[] | select(test("\\d{4}-\\d{2}-\\d{2}"))' final.json | sort | head -n 1)" +%Y-%V).json
     - name: Archive final files
       uses: actions/upload-artifact@v4
       with:
-        name: ${{ matrix.files }}-success-pdfs
+        name: ${{ matrix.files }}-success-htmls
         retention-days: 5
         path: |
-          success-pdfs
+          success-htmls
     - name: Archive all tmp files
       uses: actions/upload-artifact@v4
       with:
@@ -152,19 +127,14 @@ jobs:
             ${{
               github.event_name == 'schedule' && 'main' || ''
             }}
-      - name: Download originally downloaded pdf artifacts
+      - name: Download successfully processed html artifacts
         uses: actions/download-artifact@v4
         with:
-          name: pdfs
-          path: downloadtmp
-      - name: Download successfully processed pdf artifacts
-        uses: actions/download-artifact@v4
-        with:
-          pattern: '*-success-pdfs'
-          path: success-pdfs
+          pattern: '*-success-htmls'
+          path: success-htmls
           merge-multiple: true
       - name: process csv with chatgpt
-        working-directory: success-pdfs
+        working-directory: success-htmls
         shell: bash
         run: |
           for file in $(find . -type f -name "*.pdf" -printf '%P\n');
