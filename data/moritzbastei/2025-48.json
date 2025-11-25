@@ -1,0 +1,65 @@
+{
+  "2025-11-24": [],
+  "2025-11-25": [
+    {
+      "desc": "Schweineschnitzel \"Western\" mit BBQ Zwiebeln, Bacon und gebackenen Kartoffelecken, dazu Sour-Creme",
+      "price": 10.20
+    },
+    {
+      "desc": "Waldpilzgulasch mit Kräuterspätzle und Röstzwiebeln (veget.)",
+      "price": 9.20
+    }
+  ],
+  "2025-11-26": [
+    {
+      "desc": "Pasta mit Schinken-Sahnesoße, Lauchzwiebeln und Kirschtomaten",
+      "price": 9.60
+    },
+    {
+      "desc": "Karotten-Pfanne mit Zuckerschoten, Kartoffeln und Petersilie, dazu geröstete Sonnenblumenkerne und Hirtenkäse (veget.)",
+      "price": 9.20
+    }
+  ],
+  "2025-11-27": [
+    {
+      "desc": "Hähnchenschnitzel mit Rahmerbsen, Salzkartoffeln und brauner Soße",
+      "price": 9.80
+    },
+    {
+      "desc": "Gerösteter Blumenkohl auf Tomatencouscous mit Koriander-Petersiliensoße (veget.)",
+      "price": 9.20
+    }
+  ],
+  "2025-11-28": [
+    {
+      "desc": "Gedünstetes Seelachsfilet auf Kartoffel-Lauchgratin, überbacken mit Gouda",
+      "price": 9.90
+    },
+    {
+      "desc": "Hähnchencurry mit buntem Gemüse in Kokossoße, dazu Basmatireis und Erdnüsse",
+      "price": 9.80
+    }
+  ],
+  "2025-W48": [
+    {
+      "desc": "Pasta mit Spinat-Petersilien-Pesto, dazu Birnen, Walnüsse und Parmesan (veget.)",
+      "price": 10.90
+    },
+    {
+      "desc": "Kürbislasagne überbacken mit Mozzarella und Mandeln (veget.)",
+      "price": 12.90
+    },
+    {
+      "desc": "Kartoffel-Brokkoli-Gratin mit gebratenen Hähnchenbruststreifen, überbacken mit Mozzarella und Sonnenblumenkernen",
+      "price": 12.90
+    },
+    {
+      "desc": "Hähnchencurry mit buntem Gemüse in Kokossoße, dazu Basmatireis und Erdnüsse",
+      "price": 12.90
+    },
+    {
+      "desc": "Linseneintopf mit Kasseler, Wurzelgemüse und Baguette",
+      "price": 3.90
+    }
+  ]
+}
