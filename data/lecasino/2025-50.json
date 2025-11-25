@@ -1,0 +1,116 @@
+{
+  "2025-12-08": [
+    {
+      "desc": "Dinkelpasta mit Cherry-Tomaten und Basilikum-Pesto mit Mandeln",
+      "price": 4.50
+    },
+    {
+      "desc": "Bunte Gemüsesuppe mit hausgemachten Pfannkuchen-Streifen",
+      "price": 3.50
+    },
+    {
+      "desc": "Hähnchen „Cordon Bleu“",
+      "price": 3.95
+    },
+    {
+      "desc": "Kartoffeln",
+      "price": 1.10
+    },
+    {
+      "desc": "Rohkostsalat nach Angebot",
+      "price": 1.40
+    },
+    {
+      "desc": "Kaisergemüse",
+      "price": 1.10
+    }
+  ],
+  "2025-12-09": [
+    {
+      "desc": "Gemüsesuppe mit einer Scheibe Brot",
+      "price": 3.10
+    },
+    {
+      "desc": "Frikadellenbällchen mit Tomaten-Paprikasoße und Kartoffelpüree",
+      "price": 3.50
+    },
+    {
+      "desc": "Schweinegulasch mit Champignons",
+      "price": 3.85
+    },
+    {
+      "desc": "Pasta",
+      "price": 1.10
+    },
+    {
+      "desc": "Rohkostsalat nach Angebot",
+      "price": 1.40
+    }
+  ],
+  "2025-12-10": [
+    {
+      "desc": "Kartoffeln mit Rührei und Gurkensalat",
+      "price": 3.75
+    },
+    {
+      "desc": "Weiße Bohneneintopf mit Kasslerfleisch",
+      "price": 3.50
+    },
+    {
+      "desc": "Panierter-Seelachs mit Remoulade",
+      "price": 4.70
+    },
+    {
+      "desc": "Bratkartoffeln",
+      "price": 1.30
+    },
+    {
+      "desc": "Pommes",
+      "price": 1.30
+    },
+    {
+      "desc": "Rohkostsalat nach Angebot",
+      "price": 1.40
+    }
+  ],
+  "2025-12-11": [
+    {
+      "desc": "Ofenkartoffel mit Quark Dip und kleinen gemischter Salat",
+      "price": 4.20
+    },
+    {
+      "desc": "Hefeklöße mit Pflaumen",
+      "price": 3.50
+    },
+    {
+      "desc": "Jägerschnitzel mit fruchtiger Tomatensoße",
+      "price": 3.50
+    },
+    {
+      "desc": "Pasta",
+      "price": 1.10
+    },
+    {
+      "desc": "Rohkostsalat nach Angebot",
+      "price": 1.40
+    }
+  ],
+  "2025-12-12": [
+    {
+      "desc": "Kichererbsen-Curry-Pfanne mit Kokosmilch",
+      "price": 3.90
+    },
+    {
+      "desc": "Pasta Gemüse-Auflauf",
+      "price": 3.50
+    },
+    {
+      "desc": "Tagesangebot",
+      "price": 0.00
+    },
+    {
+      "desc": "Rohkostsalat nach Angebot",
+      "price": 1.40
+    }
+  ]
+}
