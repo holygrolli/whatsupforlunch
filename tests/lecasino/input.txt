@@ -1,0 +1,257 @@
+Le Casino 1
+Speiseplan vom 1. Dezember bis zum 7. Dezember
+Montag
+DGE-Gericht
+Kartoffelrösti mit Kräuterdip und mediterranem Gemüse
+408 kcal - 1707 kJ
+4,10 Euro
+Menü 1
+Weißkrauteintopf mit Kartoffelwürfeln und einer Scheibe Brot
+119 kcal - 402 kJ
+3,50 Euro
+Menü 2
+Schweinebraten mit Bratensoße
+aE,i,j
+392 kcal - 1640 kJ
+3,75 Euro
+Sättigungsbeilage
+Kartoffeln
+136 kcal - 569 kJ
+1,10 Euro
+Gemüsebeilage
+Rohkostsalat nach Angebot
+e,2,9
+1,40 Euro
+Gemüse n. Angebot
+1,10 Euro
+Dienstag
+DGE-Gericht
+Linsensalat mit Hirtenkäse und Gemüse
+a,c,g
+578 kcal - 2422 kJ
+4,75 Euro
+Menü 1
+Kräuterquark mit Kartoffeln und Butter
+g,2,3
+436 kcal - 1824 kJ
+3,50 Euro
+Menü 2
+Curry-Putengeschnetzeltes
+g
+220 kcal - 920 kJ
+3,90 Euro
+Sättigungsbeilage
+Reis
+a
+264 kcal - 1105 kJ
+1,10 Euro
+Gemüsebeilage
+Rohkostsalat nach Angebot
+e,2,9
+1,40 Euro
+Mittwoch
+DGE-Gericht
+Couscous-Gemüse-Pfanne und Joghurt-Dip
+a,Ge,g,i
+660 kcal - 2761 kJ
+3,70 Euro
+Menü 1
+Schinkennudeln mit Sahnesoße
+aW,aG,g
+378 kcal - 1580 kJ
+3,50 Euro
+Menü 2
+Schweineschnitzel „Wiener-Art“
+a,aW,c
+591 kcal - 2472 kJ
+3,75 Euro
+Sättigungsbeilage
+Kartoffeln
+136 kcal - 569 kJ
+1,10 Euro
+Bratkartoffeln
+164 kcal - 686 kJ
+1,30 Euro
+Geriebener Gouda
+g,2,3
+74 kcal - 310 kJ
+0,45 €
+Gemüsebeilage
+Rohkostsalat nach Angebot
+e,2,9
+1,40 Euro
+Gemüse Angebot
+118 kcal - 494 kJ
+1,10 Euro
+Donnerstag
+DGE-Gericht
+Vollkornnudeln mit Zucchini, Möhren, Tomaten und Zitronen-Thymiansoße
+a,aW,aG
+444 kcal - 1860 kJ
+4,60 Euro
+Menü 1
+Grießbrei mit heißen Kirschen
+aR,g,2
+473 kcal - 1979 kJ
+3,50 Euro
+Menü 2
+Bratwurst mit Soße
+aW,i,j,11
+402 kcal - 1682 kJ
+2,85 Euro
+Sättigungsbeilage
+Püree
+g,2,3
+99 kcal - 414 kJ
+1,10 Euro
+Kartoffeln
+136 kcal/569 kJ
+1,30 Euro
+Gemüsebeilage
+Rohkostsalat nach Angebot
+e,2,9
+1,40 Euro
+Sauerkraut
+30 kcal - 126 kJ
+1,10 Euro
+Freitag
+DGE-Gericht
+Mandel-Brokkoli-Blumenkohl-Auflauf
+a,c,g,i
+455 kcal - 1906 kJ
+4,40 Euro
+Menü 1
+Hackfleisch-Zucchini-Pfanne mit Kartoffeln
+554 kcal - 2318 kJ
+3,50 Euro
+Menü 2
+Tagesangebot
+Sättigungsbeilage
+Gemüsebeilage
+Rohkostsalat nach Angebot
+e,2,9
+1,40 Euro
+sorting
+Montag
+sorting
+Dienstag
+sorting
+Mittwoch
+sorting
+Donnerstag
+sorting
+Freitag
+sorting
+DGE-Gericht
+Kartoffelrösti mit Kräuterdip und mediterranem Gemüse
+408 kcal - 1707 kJ
+4,10 Euro
+Linsensalat mit Hirtenkäse und Gemüse
+a,c,g
+578 kcal - 2422 kJ
+4,75 Euro
+Couscous-Gemüse-Pfanne und Joghurt-Dip
+a,Ge,g,i
+660 kcal - 2761 kJ
+3,70 Euro
+Vollkornnudeln mit Zucchini, Möhren, Tomaten und Zitronen-Thymiansoße
+a,aW,aG
+444 kcal - 1860 kJ
+4,60 Euro
+Mandel-Brokkoli-Blumenkohl-Auflauf
+a,c,g,i
+455 kcal - 1906 kJ
+4,40 Euro
+Menü 1
+Weißkrauteintopf mit Kartoffelwürfeln und einer Scheibe Brot
+119 kcal - 402 kJ
+3,50 Euro
+Kräuterquark mit Kartoffeln und Butter
+g,2,3
+436 kcal - 1824 kJ
+3,50 Euro
+Schinkennudeln mit Sahnesoße
+aW,aG,g
+378 kcal - 1580 kJ
+3,50 Euro
+Grießbrei mit heißen Kirschen
+aR,g,2
+473 kcal - 1979 kJ
+3,50 Euro
+Hackfleisch-Zucchini-Pfanne mit Kartoffeln
+554 kcal - 2318 kJ
+3,50 Euro
+Menü 2
+Schweinebraten mit Bratensoße
+aE,i,j
+392 kcal - 1640 kJ
+3,75 Euro
+Curry-Putengeschnetzeltes
+g
+220 kcal - 920 kJ
+3,90 Euro
+Schweineschnitzel „Wiener-Art“
+a,aW,c
+591 kcal - 2472 kJ
+3,75 Euro
+Bratwurst mit Soße
+aW,i,j,11
+402 kcal - 1682 kJ
+2,85 Euro
+Tagesangebot
+Sättigungsbeilage
+Kartoffeln
+136 kcal - 569 kJ
+1,10 Euro
+Reis
+a
+264 kcal - 1105 kJ
+1,10 Euro
+Kartoffeln
+136 kcal - 569 kJ
+1,10 Euro
+Bratkartoffeln
+164 kcal - 686 kJ
+1,30 Euro
+Geriebener Gouda
+g,2,3
+74 kcal - 310 kJ
+0,45 €
+Püree
+g,2,3
+99 kcal - 414 kJ
+1,10 Euro
+Kartoffeln
+136 kcal/569 kJ
+1,30 Euro
+Gemüsebeilage
+Rohkostsalat nach Angebot
+e,2,9
+1,40 Euro
+Gemüse n. Angebot
+1,10 Euro
+Rohkostsalat nach Angebot
+e,2,9
+1,40 Euro
+Rohkostsalat nach Angebot
+e,2,9
+1,40 Euro
+Gemüse Angebot
+118 kcal - 494 kJ
+1,10 Euro
+Rohkostsalat nach Angebot
+e,2,9
+1,40 Euro
+Sauerkraut
+30 kcal - 126 kJ
+1,10 Euro
+Rohkostsalat nach Angebot
+e,2,9
+1,40 Euro
+Der
+Gästezuschlag
+für Tischgäste außerhalb der Leipziger Gruppe beträgt 1,50 € pro Mittagsgericht und 0,50 € für Desserts sowie alle Brötchen-, Imbiss- und Snackangebote. Änderungen des Speiseplanes sind möglich.
+Allergene
+a = glutenhaltiges Getreide, aW = Weizen, aG = Grieß, aR = Roggen, aH = Hafer, aGe = Gerste, b = Krebstiere, c = Eier, d = Fisch, e = Nüsse, f = Sojabohnen, g = Milch (Lactose), h = Schalenfrüchte/Nüsse, ha = Haselnüsse, hb = Walnüsse, hc = Cashewnüsse, hd = Pekannüsse, hf = Macadamien, hi = Pistazien, hl = Mandeln, i = Sellerie, j = Senf, k = Sesam, l = Lupinen, m = Weichtiere, n = Schwefeldioxid und Sulfit
+Inhaltsstoffe
+1 = Farbstoff, 2 = Konservierungsstoffe, 3 = Antioxidationsmittel, 4 = Geschmacksverstärker, 5 = geschwefelt, 6 = geschwärzt, 7 = gewachst, 8 = Phosphat, 9 = Süßungsmittel, 10 = enthält eine Phenylalaninquelle, 11 = kann bei übermäßigem Verzehr abführend wirken, 12 = genetisch verändert
