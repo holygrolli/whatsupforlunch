@@ -1,7 +1,12 @@
 import scrapy
 import os
+import sys
 from pathlib import Path
 import lxml.html as lxml_html
+
+# Add parent directory to path to import shared modules
+sys.path.insert(0, str(Path(__file__).resolve().parent.parent / '.shared'))
+from dynamodb_link_validator import LinkValidator
 
 class Lecasino(scrapy.Spider):
     name = "lecasino"
@@ -12,6 +17,17 @@ class Lecasino(scrapy.Spider):
     menu_pages_html = None
     # base directory to save fetched HTML pages
     artifacts_dir = Path(__file__).resolve().parents[2] / 'tmp'
+    
+    def __init__(self, *args, **kwargs):
+        super(Lecasino, self).__init__(*args, **kwargs)
+        # Initialize link validator
+        try:
+            self.link_validator = LinkValidator()
+            self.use_link_validation = True
+            print("DynamoDB link validation enabled")
+        except Exception as e:
+            print(f"Warning: Could not initialize link validator: {e}")
+            self.use_link_validation = False
 
     def parse(self, response):
         print(response.body)
@@ -22,7 +38,13 @@ class Lecasino(scrapy.Spider):
             for sel in links:
                 link = sel.get()
                 full = link if link.startswith('http') else "https://www.l.de" + link
-                print(full)
+                
+                # Check if link already exists in DynamoDB
+                if self.use_link_validation and self.link_validator.link_exists(full):
+                    print(f"Skipping already processed link: {full}")
+                    continue
+                
+                print(f"Processing new link: {full}")
                 # schedule a request to fetch the menu page and process it
                 yield scrapy.Request(url=full, callback=self.parse_menu_page, cb_kwargs={"source_url": full})
         else:
