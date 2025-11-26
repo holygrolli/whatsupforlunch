@@ -19,7 +19,7 @@ jobs:
   download:
     runs-on: ubuntu-24.04
     container:
-      image: ghcr.io/holygrolli/whatsupforlunch:sha-979e9b6-2024-08-08
+      image: whatsupforlunch:latest
     outputs:
       matrix: ${{ steps.setmatrix.outputs.matrix }}
     steps:
@@ -30,6 +30,12 @@ jobs:
             ${{
               github.event_name == 'schedule' && 'main' || ''
             }}
+      - name: Configure AWS credentials
+        uses: aws-actions/configure-aws-credentials@v4
+        with:
+          aws-access-key-id: ${{ secrets.AWS_ACCESS_KEY_ID }}
+          aws-secret-access-key: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
+          aws-region: eu-central-1
       - name: get new links
         shell: bash
         run: |
@@ -101,6 +107,23 @@ jobs:
         mkdir -p ../success-htmls
         cp ./chatgpt_user.txt ../success-htmls/${{ matrix.files }}
         cp final.json ../success-htmls/$(date -d"$(jq -r 'keys[] | select(test("\\d{4}-\\d{2}-\\d{2}"))' final.json | sort | head -n 1)" +%Y-%V).json
+    - name: Mark link as processed in DynamoDB
+      shell: bash
+      env:
+        AWS_ACCESS_KEY_ID: ${{ secrets.AWS_ACCESS_KEY_ID }}
+        AWS_SECRET_ACCESS_KEY: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
+        AWS_DEFAULT_REGION: eu-central-1
+      run: |
+        # Extract the original URL from the filename
+        # The filename format is: cleaned_lecasino_https_www.l.de_..._.html
+        filename="${{ matrix.files }}"
+        # Remove the "cleaned_lecasino" prefix and ".html" suffix
+        url_encoded="${filename#cleaned_lecasino}"
+        url_encoded="${url_encoded%.html}"
+        # Convert back to URL format
+        url=$(echo "$url_encoded" | sed 's/_https_/https:\/\//' | sed 's/_http_/http:\/\//' | sed 's/_/\//g')
+        echo "Marking link as processed: $url"
+        python locations/.shared/mark_link_processed.py "$url" || echo "Warning: Failed to mark link as processed"
     - name: Archive final files
       uses: actions/upload-artifact@v4
       with:
