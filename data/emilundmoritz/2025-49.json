@@ -1,0 +1,66 @@
+{
+  "2025-12-01": [
+    {
+      "desc": "Chilli con Carne, Reis",
+      "price": 6.99
+    },
+    {
+      "desc": "Rahmspinat, Rührei, Kartoffeln",
+      "price": 6.99
+    }
+  ],
+  "2025-12-02": [
+    {
+      "desc": "Putenrollbraten, Bohnen, Kartoffeln",
+      "price": 6.99
+    },
+    {
+      "desc": "Toskanische Kartoffelpfanne mit Grillgemüse und frischem Spinat",
+      "price": 6.99
+    }
+  ],
+  "2025-12-03": [
+    {
+      "desc": "Schnitzel - Schwein mit Waldpilzsauce, Kartoffeln",
+      "price": 6.99
+    },
+    {
+      "desc": "Backfisch mit lauwarmen Kartoffelsalat,",
+      "price": 6.99
+    }
+  ],
+  "2025-12-04": [
+    {
+      "desc": "Kasslerbraten, Sauerkraut, Kartoffeln",
+      "price": 6.99
+    },
+    {
+      "desc": "Schupfnudel Pfanne mit Sauerkraut, Spiegelei",
+      "price": 6.99
+    }
+  ],
+  "2025-12-05": [
+    {
+      "desc": "Rinderbraten, Rotkohl, Kartoffeln",
+      "price": 6.99
+    },
+    {
+      "desc": "Pangasiusfilet, Möhren, Reis, Kräutersauce",
+      "price": 6.99
+    }
+  ],
+  "2025-W49": [
+    {
+      "desc": "Pasta mit Gulasch",
+      "price": 5.50
+    },
+    {
+      "desc": "Pasta mit Kräuterpesto, Kirschtomaten",
+      "price": 5.50
+    },
+    {
+      "desc": "Pasta mit Pilzrahm",
+      "price": 5.50
+    }
+  ]
+}
