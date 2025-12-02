@@ -1,0 +1,47 @@
+{
+  "2025-12-01": [],
+  "2025-12-02": [
+    {
+      "desc": "Schweineschnitzel \"Strammer Max\" mit Kochschinken und Spiegelei, dazu Bratkartoffeln",
+      "price": 10.20
+    },
+    {
+      "desc": "Salbei-Gnocchi dazu pikantes Kürbisragout, Cranberrys und geröstete Mandeln (veget.)",
+      "price": 9.20
+    }
+  ],
+  "2025-12-03": [
+    {
+      "desc": "Jägerklopse mit Champignons, dazu Kartoffelstampf und Krautsalat",
+      "price": 9.80
+    },
+    {
+      "desc": "Pasta \"Genovese\" mit grünen Bohnen, Kartoffeln und Basilikum-Pesto",
+      "price": 9.20
+    }
+  ],
+  "2025-12-04": [],
+  "2025-12-05": [],
+  "2025-W49": [
+    {
+      "desc": "Pasta mit Paprika-Chili-Honigpesto, dazu geröstete Sonnenblumenkerne und Parmesan (veget.)",
+      "price": 9.20
+    },
+    {
+      "desc": "Spitzkohl-Karottenlasagne überbacken mit Mozzarella und Sesam (veget.)",
+      "price": 9.90
+    },
+    {
+      "desc": "Lasagne \"Bolognese\" überbacken mit Gouda",
+      "price": 9.90
+    },
+    {
+      "desc": "Kürbis-Kartoffelgratin mit gebratenen Hähnchenbruststreifen und Zucchini, überbacken mit Mozzarella und Mandeln",
+      "price": 9.80
+    },
+    {
+      "desc": "Soljanka mit Schmand und Baguette",
+      "price": 3.40
+    }
+  ]
+}
