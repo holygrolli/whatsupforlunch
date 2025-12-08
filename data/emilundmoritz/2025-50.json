@@ -1,0 +1,62 @@
+{
+  "2025-12-08": [
+    {
+      "desc": "Steak Schwein, Jägersauce, Kartoffeln",
+      "price": 6.99
+    },
+    {
+      "desc": "Champignonpfanne, Kartoffeln",
+      "price": 6.99
+    }
+  ],
+  "2025-12-09": [
+    {
+      "desc": "Königsberger Klöpse in Kapernsauce, Kartoffeln",
+      "price": 6.99
+    },
+    {
+      "desc": "Kartoffel Gemüse Pfanne mit Rucola, frischem Gemüse",
+      "price": 6.99
+    }
+  ],
+  "2025-12-10": [
+    {
+      "desc": "Schnitzel- Pute, Erbsen, Kartoffeln, Sauce",
+      "price": 6.99
+    },
+    {
+      "desc": "Seelachs gebr. in Dillsauce, Reis",
+      "price": 6.99
+    }
+  ],
+  "2025-12-11": [
+    {
+      "desc": "Jägerschnitzel, Pasta, Tomatensauce",
+      "price": 6.99
+    },
+    {
+      "desc": "Mutsbraten, Sauerkraut, Kartoffeln",
+      "price": 6.99
+    }
+  ],
+  "2025-12-12": [
+    {
+      "desc": "Gnocchi mit Spinatrahm",
+      "price": 6.99
+    },
+    {
+      "desc": "Pasta mit Tomatenbasilikum",
+      "price": 5.50
+    }
+  ],
+  "2025-W50": [
+    {
+      "desc": "Pasta Carbonara",
+      "price": 5.50
+    },
+    {
+      "desc": "Pasta Hähchengeschnetzeltes",
+      "price": 5.50
+    }
+  ]
+}
