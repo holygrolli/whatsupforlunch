@@ -1,0 +1,65 @@
+{
+  "2025-12-08": [],
+  "2025-12-09": [
+    {
+      "desc": "Schweineschnitzel mit Rahmblumenkohl, Salzkartoffeln und brauner Soße",
+      "price": 10.20
+    },
+    {
+      "desc": "Cannelloni gefüllt mit Hirtenkäse in pikanter Tomatensoße, überbacken mit Gouda und Sonnenblumenkernen (veget.)",
+      "price": 9.20
+    }
+  ],
+  "2025-12-10": [
+    {
+      "desc": "Wurstgulasch mit Paprika auf Pasta, dazu Gouda",
+      "price": 9.60
+    },
+    {
+      "desc": "Eier in Honig-Senfsoße dazu Salzkartoffeln, frittierte Petersilie und Gurkensalat (veget.)",
+      "price": 8.90
+    }
+  ],
+  "2025-12-11": [
+    {
+      "desc": "Frikadelle mit Rahmwirsing, Salzkartoffeln und brauner Soße",
+      "price": 9.80
+    },
+    {
+      "desc": "Gebackener Hirtenkäse auf Ratatouille-Gemüse, dazu Rosmarinkartoffeln (veget.)",
+      "price": 9.20
+    }
+  ],
+  "2025-12-12": [
+    {
+      "desc": "Tagliatelle in Lachs-Basilikumsauce mit gebackenen Kirschtomaten und Parmesan",
+      "price": 9.90
+    },
+    {
+      "desc": "Feuriges Hähnchen in Paprikarahm, dazu Basmatireis und geröstete Mandeln",
+      "price": 9.80
+    }
+  ],
+  "2025-W50": [
+    {
+      "desc": "Pasta mit Koriander-Petersilien-Pesto, dazu geröstete Haselnüsse, Karottenchips und Parmesan (veget.)",
+      "price": 10.90
+    },
+    {
+      "desc": "Waldpilz-Lasagne überbacken mit Mozzarella und Röstzwiebeln (veget.)",
+      "price": 12.90
+    },
+    {
+      "desc": "Süßkartoffel-Hackfleischgratin mit Tomaten und grünen Bohnen, überbacken mit Hirtenkäse",
+      "price": 12.90
+    },
+    {
+      "desc": "Feuriges Hähnchen in Paprikarahm, dazu Basmatireis und geröstete Mandeln",
+      "price": 12.90
+    },
+    {
+      "desc": "Soja-Kesselgulasch mit Baguette",
+      "price": 3.90
+    }
+  ]
+}
