@@ -1,0 +1,120 @@
+{
+  "2025-12-22": [
+    {
+      "desc": "Schupfnudel-Pfanne mit Brechbohnen, Erbsen, Karottengemüse",
+      "price": 4.50
+    },
+    {
+      "desc": "Graupeneintopf mit Kasslerwürfel",
+      "price": 3.50
+    },
+    {
+      "desc": "Wurstgulasch mit Tomatensoße",
+      "price": 2.95
+    },
+    {
+      "desc": "Pasta",
+      "price": 1.10
+    },
+    {
+      "desc": "Geriebener Gouda",
+      "price": 0.45
+    },
+    {
+      "desc": "Rohkostsalat nach Angebot",
+      "price": 1.40
+    }
+  ],
+  "2025-12-23": [
+    {
+      "desc": "Mit Gemüse-Bulgur gefüllte Paprikaschote an einer Tomatensoße",
+      "price": 3.75
+    },
+    {
+      "desc": "Nudeln mit Bärlauchpesto",
+      "price": 3.50
+    },
+    {
+      "desc": "Rindergulasch",
+      "price": 4.20
+    },
+    {
+      "desc": "Kartoffeln",
+      "price": 1.10
+    },
+    {
+      "desc": "Rohkostsalat nach Angebot",
+      "price": 1.40
+    },
+    {
+      "desc": "Gemüse n. Angebot",
+      "price": 1.10
+    }
+  ],
+  "2025-12-24": [
+    {
+      "desc": "Gnocchi-Feldsalat mit Tomaten und Balkankäse",
+      "price": 4.70
+    },
+    {
+      "desc": "Möhren-Kartoffeleintopf mit Schweinefleisch",
+      "price": 3.50
+    },
+    {
+      "desc": "Geschwenkte Pasta mit Porree und Hackfleisch",
+      "price": 3.70
+    },
+    {
+      "desc": "Geriebener Gouda",
+      "price": 0.45
+    },
+    {
+      "desc": "Rohkostsalat nach Angebot",
+      "price": 1.40
+    }
+  ],
+  "2025-12-25": [
+    {
+      "desc": "Bunter Gartensalat mit Mozzarella und Mehrkornbaguette",
+      "price": 4.90
+    },
+    {
+      "desc": "Kartoffelpuffer mit Apfelmus und Zucker",
+      "price": 3.50
+    },
+    {
+      "desc": "Schnitzel „Münchner Art“ mit Meerrettich-Senf-Panade",
+      "price": 3.75
+    },
+    {
+      "desc": "Bratkartoffeln",
+      "price": 1.30
+    },
+    {
+      "desc": "Rohkostsalat nach Angebot",
+      "price": 1.40
+    },
+    {
+      "desc": "Gemüse n. Angebot",
+      "price": 1.10
+    }
+  ],
+  "2025-12-26": [
+    {
+      "desc": "Maultaschen-Spinat-Gratin mit Tomatensoße und Käse überbacken",
+      "price": 4.50
+    },
+    {
+      "desc": "Bauerntopf",
+      "price": 3.50
+    },
+    {
+      "desc": "Tagesangebot",
+      "price": 0.00
+    },
+    {
+      "desc": "Rohkostsalat nach Angebot",
+      "price": 1.40
+    }
+  ]
+}
