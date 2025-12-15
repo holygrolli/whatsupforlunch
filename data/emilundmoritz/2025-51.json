@@ -1,0 +1,66 @@
+{
+  "2025-12-15": [
+    {
+      "desc": "Hähnchenkeule, Rotkohl, Kartoffeln",
+      "price": 6.99
+    },
+    {
+      "desc": "Kartoffelpuffer, Kräuterquark, Gurkensalat",
+      "price": 6.99
+    }
+  ],
+  "2025-12-16": [
+    {
+      "desc": "Zucchini Hack Pfanne, Kartoffeln",
+      "price": 6.99
+    },
+    {
+      "desc": "Zucchini Kartoffel Auflauf",
+      "price": 6.99
+    }
+  ],
+  "2025-12-17": [
+    {
+      "desc": "Schnitzel Schwein, Mischgemüse, Kartoffeln, Sauce",
+      "price": 6.99
+    },
+    {
+      "desc": "Kichererbsen Süßkartoffel Curry",
+      "price": 6.99
+    }
+  ],
+  "2025-12-18": [
+    {
+      "desc": "Eisbeinfleisch, Kesselkraut, Kartoffeln",
+      "price": 6.99
+    },
+    {
+      "desc": "Seelachs in Cornflakespanade, Reis, Zitronensauce",
+      "price": 6.99
+    }
+  ],
+  "2025-12-19": [
+    {
+      "desc": "Schweinebraten, Möhren, Kartoffeln",
+      "price": 6.99
+    },
+    {
+      "desc": "Gnocchi mit Zucchini Tomatencreme",
+      "price": 6.99
+    }
+  ],
+  "2025-W51": [
+    {
+      "desc": "Pasta mit Tomaten Basilikum Sauce",
+      "price": 5.50
+    },
+    {
+      "desc": "Pasta Carbonara",
+      "price": 5.50
+    },
+    {
+      "desc": "Pasta Hähnchengeschnetzeltes",
+      "price": 5.50
+    }
+  ]
+}
