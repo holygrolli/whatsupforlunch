@@ -1,0 +1,65 @@
+{
+  "2025-12-15": [],
+  "2025-12-16": [
+    {
+      "desc": "Schweineschnitzel \"Gärtnerin\" überbacken mit Gemüse und Sc. Hollandaise, dazu Bratkartoffeln",
+      "price": 10.20
+    },
+    {
+      "desc": "Gnocchi in Basilikumsoße mit getrockneten Tomaten, dazu Parmesan und Sonnenblumenkerne (veget.)",
+      "price": 9.20
+    }
+  ],
+  "2025-12-17": [
+    {
+      "desc": "Schwedische Hackbällchen \"Köttbullar\" mit Kartoffelpüree, Röstzwiebeln und Preiselbeeren",
+      "price": 9.60
+    },
+    {
+      "desc": "Mediterrane Gemüsebolognese u.a. mit Zucchini, Paprika und Aubergine, dazu Pasta, Parmesan und Selleriechips (veget.)",
+      "price": 8.90
+    }
+  ],
+  "2025-12-18": [
+    {
+      "desc": "Currywurst \"Nach Art des Hauses\" mit Kartoffelecken und Salatbeilage",
+      "price": 9.80
+    },
+    {
+      "desc": "Karotten-Pfanne mit Zuckerschoten, Kartoffeln und Petersilie, dazu geröstete Sonnenblumenkerne und Hirtenkäse (veget.)",
+      "price": 9.20
+    }
+  ],
+  "2025-12-19": [
+    {
+      "desc": "Gebratenes Seelachsfilet, dazu Erbsen-Minzpüree, Zitronensoße und Süßkartoffelecken",
+      "price": 9.90
+    },
+    {
+      "desc": "Pfeffergeschnetzeltes vom Hähnchen, mit Kirschtomaten und frittiertem Rucola, dazu Basmatireis",
+      "price": 9.80
+    }
+  ],
+  "2025-W51": [
+    {
+      "desc": "Pasta mit rote Bete-Rosmarin-Pesto, dazu Walnüsse und Parmesan (veget.)",
+      "price": 10.90
+    },
+    {
+      "desc": "Spinatlasagne mit getrockneten Tomaten, überbacken mit Mozzarella (veget.)",
+      "price": 12.90
+    },
+    {
+      "desc": "Hähnchengratin mit Penne und gebratener Zucchini, in pikanter Tomatensoße, überbacken mit Mozzarella und Sonnenblumenkerne",
+      "price": 12.90
+    },
+    {
+      "desc": "Pfeffergeschnetzeltes vom Hähnchen, mit Kirschtomaten und frittiertem Rucola, dazu Basmatireis",
+      "price": 12.90
+    },
+    {
+      "desc": "Möhreneintopf mit Kasseler und Baguette",
+      "price": 3.90
+    }
+  ]
+}
