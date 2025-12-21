@@ -1,0 +1,92 @@
+{
+  "2026-01-19": [
+    {
+      "desc": "Chili con Carne mit Mais, Kidneybohnen und Hackfleisch",
+      "price": 5.60
+    },
+    {
+      "desc": "Kräuterquark mit Zwiebeln, Butter und Petersilien-kartoffeln",
+      "price": 6.10
+    },
+    {
+      "desc": "Züricher Schweine-geschnetzeltes mit Pilzen und Spätzle",
+      "price": 6.70
+    },
+    {
+      "desc": "Vegane „Hackrolle“ mit Tomate, Ratatouille und Reis",
+      "price": 8.50
+    }
+  ],
+  "2026-01-20": [
+    {
+      "desc": "Drei Eierkuchen mit Apfelmus und Zimtzucker",
+      "price": 5.60
+    },
+    {
+      "desc": "Pasta mit Tomatensoße und geriebenem Käse",
+      "price": 6.10
+    },
+    {
+      "desc": "Spaghetti Bolognese mit geriebenem Käse",
+      "price": 6.70
+    },
+    {
+      "desc": "Vegane „Currywurst“ mit fruchtig-pikanter Soße und Wedges",
+      "price": 8.50
+    }
+  ],
+  "2026-01-21": [
+    {
+      "desc": "Nudeleintopf mit Geflügelfleisch und Gemüse-Julienne",
+      "price": 5.60
+    },
+    {
+      "desc": "Veganes „Gulasch“ mit Paprika, Pilzen und Reis",
+      "price": 6.10
+    },
+    {
+      "desc": "„Cordon bleu“ vom Schwein mit Buttererbsen und Petersilien-kartoffeln",
+      "price": 6.70
+    },
+    {
+      "desc": "Überraschungsgericht mit BIO-Gemüse von KOLA Leipzig",
+      "price": null
+    }
+  ],
+  "2026-01-22": [
+    {
+      "desc": "Marillenknödel mit Vanillesoße",
+      "price": 5.60
+    },
+    {
+      "desc": "Vegane „Hackbällchen“ mit Tomatensoße und Pasta",
+      "price": 6.10
+    },
+    {
+      "desc": "Wildgulasch mit Apfelrotkohl und Semmelknödeln",
+      "price": 6.70
+    },
+    {
+      "desc": "Chicken-Wrap mit Avocado, Mango-Salsa, Salat und Quinoa",
+      "price": 8.50
+    }
+  ],
+  "2026-01-23": [
+    {
+      "desc": "Sellerie-Birnen-Suppe mit Walnuss-Pesto",
+      "price": 5.60
+    },
+    {
+      "desc": "Vegetarische Moussaka mit Aubergine, Feta, Kartoffeln und Tomate",
+      "price": 6.10
+    },
+    {
+      "desc": "Bauernroulade mit Speckbohnen und Petersilien-kartoffeln",
+      "price": 6.70
+    },
+    {
+      "desc": "Zanderfilet mit bunten Bohnen und Kroketten",
+      "price": 8.50
+    }
+  ]
+}
