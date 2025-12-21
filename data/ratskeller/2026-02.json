@@ -1,0 +1,92 @@
+{
+  "2026-01-05": [
+    {
+      "desc": "Ungarische Gulaschsuppe mit Paprika und Kartoffelwürfeln",
+      "price": 5.60
+    },
+    {
+      "desc": "Vegane „Frikadelle\" mit Champignonrahm und Reis",
+      "price": 6.10
+    },
+    {
+      "desc": "Königsberger Klopse mit Kapernsoße, Bete-Salat und Kartoffeln",
+      "price": 6.70
+    },
+    {
+      "desc": "Gebackener Camembert mit Preiselbeeren, Salat und Baguette",
+      "price": 8.50
+    }
+  ],
+  "2026-01-06": [
+    {
+      "desc": "Nougat-Topfenknödel mit Vanillesoße",
+      "price": 5.60
+    },
+    {
+      "desc": "Pasta mit Tomatensoße und geriebenem Käse",
+      "price": 6.10
+    },
+    {
+      "desc": "Jägerschnitzel mit Tomatensoße und Pasta",
+      "price": 6.70
+    },
+    {
+      "desc": "Spaghetti mit veganem „Thunfisch\", Oliven und Rucola",
+      "price": 8.50
+    }
+  ],
+  "2026-01-07": [
+    {
+      "desc": "Sächsische Kartoffelsuppe mit Majoran und Bockwurst",
+      "price": 5.60
+    },
+    {
+      "desc": "Sellerieschnitzel mit Erbsen und bunten Gnocchi",
+      "price": 6.10
+    },
+    {
+      "desc": "Hühnerfrikassee mit Erbsen, Karotten und Butterreis",
+      "price": 6.70
+    },
+    {
+      "desc": "Überraschungsgericht mit BIO-Gemüse von KOLA Leipzig",
+      "price": null
+    }
+  ],
+  "2026-01-08": [
+    {
+      "desc": "Milchreis mit Apfelmus und Zimtzucker",
+      "price": 5.60
+    },
+    {
+      "desc": "Eier-Omelette mit Rahmspinat und Petersilien-kartoffeln",
+      "price": 6.10
+    },
+    {
+      "desc": "Szegediner Gulasch mit Sauerkraut und Böhmischen Knödeln",
+      "price": 6.70
+    },
+    {
+      "desc": "Kürbis-Falafel mit Rote-Bete-Hummus und Bulgursalat",
+      "price": 8.50
+    }
+  ],
+  "2026-01-09": [
+    {
+      "desc": "Kürbiscreme-suppe mit Kokosmilch und Koriander",
+      "price": 5.60
+    },
+    {
+      "desc": "Käsespatz'n „Allgäuer Art\" mit Röstzwiebeln",
+      "price": 6.10
+    },
+    {
+      "desc": "Krakauer mit Grünkohl und Petersilien-kartoffeln",
+      "price": 6.70
+    },
+    {
+      "desc": "Thunfischfilet mit Blattspinat und Limonenreis",
+      "price": 8.50
+    }
+  ]
+}
