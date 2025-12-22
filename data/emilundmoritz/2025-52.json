@@ -1,0 +1,39 @@
+{
+  "2025-12-22": [
+    {
+      "desc": "Geschnetzeltes Züricher Art mit Reis",
+      "price": 6.99
+    },
+    {
+      "desc": "Milchreis mit heißen Kirschen und Zucker-Zimt",
+      "price": 6.99
+    }
+  ],
+  "2025-12-23": [
+    {
+      "desc": "Rostbrät`l mit Bratkartoffeln dazu Schmorzwiebeln",
+      "price": 6.99
+    },
+    {
+      "desc": "2 Spiegeleier, Bratkartoffeln und Gurkensalat",
+      "price": 6.99
+    }
+  ],
+  "2025-12-24": [
+    {
+      "desc": "Pasta Tomaten- Basilikumsoße",
+      "price": 5.50
+    },
+    {
+      "desc": "Pasta Cabonara",
+      "price": 5.50
+    }
+  ],
+  "2025-12-25": [
+    {
+      "desc": "Pasta Hähnchengeschnetzeltes",
+      "price": 5.50
+    }
+  ],
+  "2025-12-26": []
+}
