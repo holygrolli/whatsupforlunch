@@ -1,0 +1,94 @@
+{
+  "2026-01-05": [
+    {
+      "desc": "Schnitzel Pute, Blumenkohl, Kartoffeln, Sauce",
+      "price": 6.99
+    },
+    {
+      "desc": "Kartoffel Brokkoli Auflauf",
+      "price": 6.99
+    }
+  ],
+  "2026-01-06": [
+    {
+      "desc": "Gyros Pfanne, Tzatziki, Tomatenreis",
+      "price": 6.99
+    },
+    {
+      "desc": "Kartoffelgemüse Pfanne",
+      "price": 6.99
+    }
+  ],
+  "2026-01-07": [
+    {
+      "desc": "Schweinebraten, Möhren, Kartoffeln",
+      "price": 6.99
+    },
+    {
+      "desc": "Chili sin Carne, Reis",
+      "price": 6.99
+    }
+  ],
+  "2026-01-08": [
+    {
+      "desc": "Königsberger Klopse in Kapernsauce, Kartoffeln",
+      "price": 6.99
+    },
+    {
+      "desc": "Backfisch Kartoffelstampf, Remoulade",
+      "price": 6.99
+    }
+  ],
+  "2026-01-09": [
+    {
+      "desc": "Kasslerbraten, Sauerkraut, Kartoffeln",
+      "price": 6.99
+    },
+    {
+      "desc": "3 Eierkuchen, Apfelmus, Z+Z",
+      "price": 6.99
+    }
+  ],
+  "2026-W02": [
+    {
+      "desc": "Schnitzel Pute, Blumenkohl, Kartoffeln, Sauce",
+      "price": 6.99
+    },
+    {
+      "desc": "Kartoffel Brokkoli Auflauf",
+      "price": 6.99
+    },
+    {
+      "desc": "Gyros Pfanne, Tzatziki, Tomatenreis",
+      "price": 6.99
+    },
+    {
+      "desc": "Kartoffelgemüse Pfanne",
+      "price": 6.99
+    },
+    {
+      "desc": "Schweinebraten, Möhren, Kartoffeln",
+      "price": 6.99
+    },
+    {
+      "desc": "Chili sin Carne, Reis",
+      "price": 6.99
+    },
+    {
+      "desc": "Königsberger Klopse in Kapernsauce, Kartoffeln",
+      "price": 6.99
+    },
+    {
+      "desc": "Backfisch Kartoffelstampf, Remoulade",
+      "price": 6.99
+    },
+    {
+      "desc": "Kasslerbraten, Sauerkraut, Kartoffeln",
+      "price": 6.99
+    },
+    {
+      "desc": "3 Eierkuchen, Apfelmus, Z+Z",
+      "price": 6.99
+    }
+  ]
+}
