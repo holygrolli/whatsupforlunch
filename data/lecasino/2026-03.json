@@ -1,0 +1,64 @@
+{
+  "2026-01-12": [
+    {
+      "desc": "Ofengemüse mit Backkartoffeln und Kräutercreme",
+      "price": 4.50
+    },
+    {
+      "desc": "Sättigungsbeilage: Rohkostsalat nach Angebot",
+      "price": 1.40
+    }
+  ],
+  "2026-01-13": [
+    {
+      "desc": "Kartoffelrösti mit Mediterranem Gemüse",
+      "price": 4.10
+    },
+    {
+      "desc": "Sättigungsbeilage: Pasta",
+      "price": 1.10
+    },
+    {
+      "desc": "Gemüsebeilage: Rohkostsalat nach Angebot",
+      "price": 1.40
+    }
+  ],
+  "2026-01-14": [
+    {
+      "desc": "Reissalat mit Tomaten, Paprika, Gurke und Kichererbsen",
+      "price": 3.80
+    },
+    {
+      "desc": "Sättigungsbeilage: Rohkostsalat nach Angebot",
+      "price": 1.40
+    }
+  ],
+  "2026-01-15": [
+    {
+      "desc": "Gnocchi- Feldsalat mit Tomate und Balkankäse",
+      "price": 4.70
+    },
+    {
+      "desc": "Sättigungsbeilage: Kartoffeln",
+      "price": 1.10
+    },
+    {
+      "desc": "Gemüsebeilage: Rohkostsalat nach Angebot",
+      "price": 1.40
+    }
+  ],
+  "2026-01-16": [
+    {
+      "desc": "vegetarische Bolognese mit Kidneybohnen, Gemüsemais und Dinkel-Pasta",
+      "price": 4.00
+    },
+    {
+      "desc": "Sättigungsbeilage: Gouda gerieben",
+      "price": 0.45
+    },
+    {
+      "desc": "Gemüsebeilage: Rohkostsalat nach Angebot",
+      "price": 1.40
+    }
+  ]
+}
