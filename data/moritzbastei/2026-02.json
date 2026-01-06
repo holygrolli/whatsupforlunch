@@ -1,0 +1,65 @@
+{
+  "2026-01-05": [],
+  "2026-01-06": [
+    {
+      "desc": "Schweineschnitzel mit Rahmerbsen, Salzkartoffeln und brauner Soße",
+      "price": 10.20
+    },
+    {
+      "desc": "Pasta mit roten Linsen, Tomaten, Lauchzwiebeln und gerösteten Kichererbsen (vegan)",
+      "price": 9.20
+    }
+  ],
+  "2026-01-07": [
+    {
+      "desc": "Bauernfrühstück mit Gewürzgurke und Salatbeilage",
+      "price": 9.50
+    },
+    {
+      "desc": "Gnocchi in leichter Käsesoße mit Birnenspalten, Frühlingszwiebeln und gerösteten Mandeln (veget.)",
+      "price": 9.20
+    }
+  ],
+  "2026-01-08": [
+    {
+      "desc": "Jägerschnitzel mit Tomatensoße, dazu Pasta und Gouda",
+      "price": 9.80
+    },
+    {
+      "desc": "Gebratener Blumenkohl mit Sc. Hollandaise und Salzkartoffeln, dazu Tomatensalat",
+      "price": 8.90
+    }
+  ],
+  "2026-01-09": [
+    {
+      "desc": "Gebackenes Seelachsfilet unter Kartoffelkruste, dazu Senfsoße und Gurkensalat",
+      "price": 9.90
+    },
+    {
+      "desc": "Hähnchencurry mit buntem Gemüse in Kokossoße, dazu Basmatireis und Erdnüsse",
+      "price": 9.80
+    }
+  ],
+  "2026-W02": [
+    {
+      "desc": "Pasta mit Karotten-Ingwer-Pesto, dazu geröstete Haselnüsse und Parmesan (veget.)",
+      "price": 10.90
+    },
+    {
+      "desc": "Spinatlasagne mit getrockneten Tomaten, überbacken mit Mozzarella (veget.)",
+      "price": 12.90
+    },
+    {
+      "desc": "Kürbis-Kartoffel-Gratin mit gebratenen Hähnchenbruststreifen und Zucchini, überbacken mit Mozzarella und Mandeln",
+      "price": 12.90
+    },
+    {
+      "desc": "Hähnchencurry mit buntem Gemüse in Kokossoße, dazu Basmatireis und Erdnüsse",
+      "price": 12.90
+    },
+    {
+      "desc": "Linseneintopf mit Wurzelgemüse, Kasseler und Baguette",
+      "price": 3.90
+    }
+  ]
+}
