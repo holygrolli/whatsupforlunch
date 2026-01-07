@@ -1,45 +1,93 @@
 {
-  "2026-01-05": [
+  "2026-01-11": [
     {
-      "desc": "Pasta aglio olio",
+      "desc": "Gemüsebolognese mit Kichererbsen und Pasta",
+      "price": 3.90
+    },
+    {
+      "desc": "Reiseintopf mit Hähnchenfleisch",
       "price": 3.50
     },
     {
-      "desc": "Nudeleintopf mit Huhn und Gemüse",
-      "price": 3.50
-    },
-    {
-      "desc": "Hühnerfrikassee mit buntem Gemüse",
-      "price": 3.60
+      "desc": "Kohlroulade mit Bratensoße",
+      "price": 3.75
     },
     {
       "desc": "Kartoffeln",
       "price": 1.10
     },
     {
-      "desc": "Reis",
+      "desc": "Rohkostsalat nach Angebot",
+      "price": 1.40
+    }
+  ],
+  "2026-01-12": [
+    {
+      "desc": "Salzkartoffeln mit Rahmspinat & Rührei",
+      "price": 4.20
+    },
+    {
+      "desc": "Curry-Reis- Gemüse-Pfanne",
+      "price": 3.50
+    },
+    {
+      "desc": "Tiegelwurst mit Majoran und Zwiebeln",
+      "price": 3.90
+    },
+    {
+      "desc": "Kartoffeln",
       "price": 1.10
     },
     {
       "desc": "Rohkostsalat nach Angebot",
       "price": 1.40
+    },
+    {
+      "desc": "Sauerkraut",
+      "price": 1.10
     }
   ],
-  "2026-01-06": [
+  "2026-01-13": [
     {
-      "desc": "Chili sin Carne mit Mandeln und Kurkumareis",
-      "price": 4.10
-    },
-    {
-      "desc": "Gemüsepfanne mit Kräuterkartoffeln",
-      "price": 3.50
-    },
-    {
-      "desc": "Szegediner Schweinegulasch",
+      "desc": "Paprika-Tomaten- Reispfanne",
       "price": 3.90
     },
     {
-      "desc": "Semmelknödel",
+      "desc": "Linseneintopf mit Kartoffeln",
+      "price": 3.50
+    },
+    {
+      "desc": "Schweinehackbraten",
+      "price": 3.70
+    },
+    {
+      "desc": "Kartoffeln",
+      "price": 1.10
+    },
+    {
+      "desc": "Rohkostsalat nach Angebot",
+      "price": 1.40
+    },
+    {
+      "desc": "Gemüse n. Angebot",
+      "price": 1.10
+    }
+  ],
+  "2026-01-14": [
+    {
+      "desc": "Bauernsalat mit Mehrkornbaguette",
+      "price": 4.80
+    },
+    {
+      "desc": "Germknödel mit Schokoladencremefüllung",
+      "price": 3.50
+    },
+    {
+      "desc": "Schweinegeschnetzeltes „Jäger Art“",
+      "price": 3.85
+    },
+    {
+      "desc": "Spätzle",
       "price": 1.30
     },
     {
@@ -47,53 +95,13 @@
       "price": 1.40
     }
   ],
-  "2026-01-07": [
+  "2026-01-15": [
     {
-      "desc": "Gemüseschnitzel(Karotten/ Sellerie/ Lauch/ Kartoffeln) mit kl. gem. Salat",
-      "price": 3.80
+      "desc": "Rote-Linsen-Lasagne",
+      "price": 4.25
     },
     {
-      "desc": "Wirsingeintopf mit Schweinefleisch",
-      "price": 3.50
-    },
-    {
-      "desc": "Muligatawny – indische Currysuppe mit Hähnchenfleisch und Ingwer",
-      "price": 3.80
-    },
-    {
-      "desc": "Rohkostsalat nach Angebot",
-      "price": 1.40
-    }
-  ],
-  "2026-01-08": [
-    {
-      "desc": "Käse-Spätzle mit Röstzwiebeln",
-      "price": 3.50
-    },
-    {
-      "desc": "Eierkuchen mit Apfelmus und Zucker",
-      "price": 3.50
-    },
-    {
-      "desc": "Sülze mit Remoulade",
-      "price": 3.20
-    },
-    {
-      "desc": "Bratkartoffeln",
-      "price": 1.30
-    },
-    {
-      "desc": "Rohkostsalat nach Angebot",
-      "price": 1.40
-    }
-  ],
-  "2026-01-09": [
-    {
-      "desc": "Ofenkartoffel mit Schnittlauch-Dip und ein kl. gemischter Salat",
-      "price": 4.20
-    },
-    {
-      "desc": "Tortellini mit Spinat-Ricotta Füllung an Kräutersoße",
+      "desc": "Krautnudeln mit Schinken",
       "price": 3.50
     },
     {
