@@ -1,63 +1,107 @@
 {
-  "2026-01-12": [
+  "2026-01-18": [
     {
-      "desc": "Ofengemüse mit Backkartoffeln und Kräutercreme",
-      "price": 4.50
+      "desc": "Pasta aglio olio",
+      "price": 3.50
     },
     {
-      "desc": "Sättigungsbeilage: Rohkostsalat nach Angebot",
+      "desc": "Nudeleintopf mit Huhn und Gemüse",
+      "price": 3.50
+    },
+    {
+      "desc": "Hühnerfrikassee mit buntem Gemüse",
+      "price": 3.60
+    },
+    {
+      "desc": "Kartoffeln",
+      "price": 1.10
+    },
+    {
+      "desc": "Reis",
+      "price": 1.10
+    },
+    {
+      "desc": "Rohkostsalat nach Angebot",
       "price": 1.40
     }
   ],
-  "2026-01-13": [
+  "2026-01-19": [
     {
-      "desc": "Kartoffelrösti mit Mediterranem Gemüse",
+      "desc": "Chili sin Carne mit Mandeln und Kurkumareis",
       "price": 4.10
     },
     {
-      "desc": "Sättigungsbeilage: Pasta",
-      "price": 1.10
+      "desc": "Gemüsepfanne mit Kräuterkartoffeln",
+      "price": 3.50
     },
     {
-      "desc": "Gemüsebeilage: Rohkostsalat nach Angebot",
+      "desc": "Szegediner Schweinegulasch",
+      "price": 3.90
+    },
+    {
+      "desc": "Semmelknödel",
+      "price": 1.30
+    },
+    {
+      "desc": "Rohkostsalat nach Angebot",
       "price": 1.40
     }
   ],
-  "2026-01-14": [
+  "2026-01-20": [
     {
-      "desc": "Reissalat mit Tomaten, Paprika, Gurke und Kichererbsen",
+      "desc": "Gemüseschnitzel(Karotten/ Sellerie/ Lauch/ Kartoffeln) mit kl. gem. Salat",
       "price": 3.80
     },
     {
-      "desc": "Sättigungsbeilage: Rohkostsalat nach Angebot",
+      "desc": "Wirsingeintopf mit Schweinefleisch",
+      "price": 3.50
+    },
+    {
+      "desc": "Muligatawny – indische Currysuppe mit Hähnchenfleisch und Ingwer",
+      "price": 3.80
+    },
+    {
+      "desc": "Rohkostsalat nach Angebot",
       "price": 1.40
     }
   ],
-  "2026-01-15": [
+  "2026-01-21": [
     {
-      "desc": "Gnocchi- Feldsalat mit Tomate und Balkankäse",
-      "price": 4.70
+      "desc": "Käse-Spätzle mit Röstzwiebeln",
+      "price": 3.50
     },
     {
-      "desc": "Sättigungsbeilage: Kartoffeln",
-      "price": 1.10
+      "desc": "Eierkuchen mit Apfelmus und Zucker",
+      "price": 3.50
     },
     {
-      "desc": "Gemüsebeilage: Rohkostsalat nach Angebot",
+      "desc": "Sülze mit Remoulade",
+      "price": 3.20
+    },
+    {
+      "desc": "Bratkartoffeln",
+      "price": 1.30
+    },
+    {
+      "desc": "Rohkostsalat nach Angebot",
       "price": 1.40
     }
   ],
-  "2026-01-16": [
+  "2026-01-22": [
     {
-      "desc": "vegetarische Bolognese mit Kidneybohnen, Gemüsemais und Dinkel-Pasta",
-      "price": 4.00
+      "desc": "Ofenkartoffel mit Schnittlauch-Dip und ein kl. gemischter Salat",
+      "price": 4.20
     },
     {
-      "desc": "Sättigungsbeilage: Gouda gerieben",
+      "desc": "Tortellini mit Spinat-Ricotta Füllung an Kräutersoße",
+      "price": 3.50
+    },
+    {
+      "desc": "Gouda gerieben",
       "price": 0.45
     },
     {
-      "desc": "Gemüsebeilage: Rohkostsalat nach Angebot",
+      "desc": "Rohkostsalat nach Angebot",
       "price": 1.40
     }
   ]
