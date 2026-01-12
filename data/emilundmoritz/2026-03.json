@@ -1,0 +1,66 @@
+{
+  "2026-01-12": [
+    {
+      "desc": "Grillwurst, Letscho, Reis",
+      "price": 6.99
+    },
+    {
+      "desc": "Reis Gemüse Pfanne",
+      "price": 6.99
+    }
+  ],
+  "2026-01-13": [
+    {
+      "desc": "Jägerschnitzel, Pasta, Tomatensauce",
+      "price": 6.99
+    },
+    {
+      "desc": "Backfisch, Kartoffelstampf, Tomatensauce",
+      "price": 6.99
+    }
+  ],
+  "2026-01-14": [
+    {
+      "desc": "Kohlroulade, Kartoffeln, Kümmelsauce",
+      "price": 6.99
+    },
+    {
+      "desc": "Krautpfanne vegetarisch, Bratkartoffeln",
+      "price": 6.99
+    }
+  ],
+  "2026-01-15": [
+    {
+      "desc": "Leber Schwein, Apfel Zwiebel Gemüse, Bratkartoffeln",
+      "price": 6.99
+    },
+    {
+      "desc": "2 Spiegeleier, Gurkensalat, Dillkartoffeln",
+      "price": 6.99
+    }
+  ],
+  "2026-01-16": [
+    {
+      "desc": "Geschnetzeltes Stroganoff, Spätzle",
+      "price": 6.99
+    },
+    {
+      "desc": "Kartoffel Zucchini Auflauf",
+      "price": 6.99
+    }
+  ],
+  "2026-W02": [
+    {
+      "desc": "Pasta Bolognese",
+      "price": 5.50
+    },
+    {
+      "desc": "Pasta Arrabiata",
+      "price": 5.50
+    },
+    {
+      "desc": "Pasta mit Champignons in Rahm",
+      "price": 5.50
+    }
+  ]
+}
