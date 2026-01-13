@@ -1,0 +1,61 @@
+{
+  "2026-01-12": [],
+  "2026-01-13": [
+    {
+      "desc": "Schweineschnitzel \"Western\" mit BBQ - Zwiebeln, Bacon und gebackenen Kartoffelecken, dazu Sour Cream",
+      "price": 10.20
+    },
+    {
+      "desc": "Waldpilzgulasch mit Kräuterspätzle und Röstzwiebeln (veget.)",
+      "price": 9.20
+    }
+  ],
+  "2026-01-14": [
+    {
+      "desc": "Gebackene Paprikaschote gefüllt mit Hackfleisch, dazu Kartoffeln und pikante Tomatensoße",
+      "price": 9.80
+    },
+    {
+      "desc": "Gnocchi in Basilikumsoße mit getrockneten Tomaten, dazu Parmesan (veget.)",
+      "price": 9.20
+    }
+  ],
+  "2026-01-15": [
+    {
+      "desc": "Knusprige Entenbrust, dazu gebratene Mie-Nudeln mit buntem Gemüse, Sweet Chilisoße und Röstzwiebeln",
+      "price": 9.80
+    },
+    {
+      "desc": "Süßkartoffel-Kürbiscurry mit Zuckerschoten und gerösteten Kichererbsen (vegan)",
+      "price": 9.20
+    }
+  ],
+  "2026-01-16": [
+    {
+      "desc": "Feuriges Hähnchen in Paprikarahm, dazu Basmatireis und geröstete Mandeln",
+      "price": 9.90
+    }
+  ],
+  "2026-W02": [
+    {
+      "desc": "Pasta mit Paprika-Chili-Honigpesto, dazu geröstete Sonnenblumenkerne und Parmesan (veget.)",
+      "price": 10.90
+    },
+    {
+      "desc": "Spitzkohl-Karotten-Lasagne überbacken mit Mozzarella und Sesam (veget.)",
+      "price": 12.90
+    },
+    {
+      "desc": "Kartoffel-Mangold-Gratin mit gebratenen Schweinerückenstreifen, in leichter Senfsoße, überbacken mit Mozzarella",
+      "price": 12.90
+    },
+    {
+      "desc": "Feuriges Hähnchen in Paprikarahm, dazu Basmatireis und geröstete Mandeln",
+      "price": 12.90
+    },
+    {
+      "desc": "Grüner Bohneneintopf mit Kasseler und Baguette",
+      "price": 3.90
+    }
+  ]
+}
