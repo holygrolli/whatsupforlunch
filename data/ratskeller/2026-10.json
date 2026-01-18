@@ -1,0 +1,92 @@
+{
+  "2026-03-02": [
+    {
+      "desc": "Hausgemachter Linseneintopf mit Blutwurstwürfeln",
+      "price": 5.60
+    },
+    {
+      "desc": "Brokkoli-Nuss-Ecke mit Erbsen und bunten Gnocchi",
+      "price": 6.10
+    },
+    {
+      "desc": "Schweinesteak mit Speckbohnen und Petersilien-kartoffeln",
+      "price": 6.70
+    },
+    {
+      "desc": "Paprika-Falafel mit Joghurt-Minz-Dip, Bete und Couscous",
+      "price": 8.50
+    }
+  ],
+  "2026-03-03": [
+    {
+      "desc": "Riesen Germ-Knödel mit Kirschfüllung, dazu Vanillesoße",
+      "price": 5.60
+    },
+    {
+      "desc": "Pasta mit Tomatensoße und geriebenem Käse",
+      "price": 6.10
+    },
+    {
+      "desc": "Spaghetti Bolognese mit geriebenem Käse",
+      "price": 6.70
+    },
+    {
+      "desc": "Quinoa-Grünkohl-Strudel mit Bulgur-Salat und Sesamsoße",
+      "price": 8.50
+    }
+  ],
+  "2026-03-04": [
+    {
+      "desc": "Soljanka mit Zitrone und Sauerrahm",
+      "price": 5.60
+    },
+    {
+      "desc": "Gemüse Köttbullar mit Rahmpilzen und Kartoffelstampf",
+      "price": 6.10
+    },
+    {
+      "desc": "Hühnerfrikassee mit Erbsen, Karotten und Butterreis",
+      "price": 6.70
+    },
+    {
+      "desc": "Überraschungsgericht mit BIO-Gemüse von KOLA Leipzig",
+      "price": 0.00
+    }
+  ],
+  "2026-03-05": [
+    {
+      "desc": "Topfenknödel mit Zwetschgen-Füllung, dazu Vanillesoße",
+      "price": 5.60
+    },
+    {
+      "desc": "Gemüsestäbchen auf Rahmporree und Kräuterreis",
+      "price": 6.10
+    },
+    {
+      "desc": "Rindergulasch mit Pilzen, dazu Spätzle",
+      "price": 6.70
+    },
+    {
+      "desc": "Linguine mit Salsiccia, Basilikum, Tomaten und Knoblauch",
+      "price": 8.50
+    }
+  ],
+  "2026-03-06": [
+    {
+      "desc": "Petersilienwurzel-Cremesuppe mit Kresse und Zwiebel-Chutney",
+      "price": 5.60
+    },
+    {
+      "desc": "Lasagne mit Wirsing, Karotten, Lauch und Gouda",
+      "price": 6.10
+    },
+    {
+      "desc": "Brathering mit Zwiebeln, Salat und Petersilien-kartoffeln",
+      "price": 6.70
+    },
+    {
+      "desc": "Hähnchenbrust „Piccata“ mit Tomatensoße und Tagliatelle",
+      "price": 8.50
+    }
+  ]
+}
