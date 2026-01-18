@@ -1,0 +1,92 @@
+{
+  "2026-02-16": [
+    {
+      "desc": "Usedomer Fisch-Soljanka mit Paprika und Gewürzgurken",
+      "price": 5.60
+    },
+    {
+      "desc": "Gemüseschnitzel mit Kohlrabi und Kartoffelstampf",
+      "price": 6.10
+    },
+    {
+      "desc": "Puten-Paprika-Rahm-Geschnetzeltes mit Reis",
+      "price": 6.70
+    },
+    {
+      "desc": "Tortellini mit Ricotta, Spinatsoße, Mandeln und Hartkäse",
+      "price": 8.50
+    }
+  ],
+  "2026-02-17": [
+    {
+      "desc": "Süße Schupfnudeln mit Beerensoße",
+      "price": 5.60
+    },
+    {
+      "desc": "Pasta mit Tomatensoße und geriebenem Käse",
+      "price": 6.10
+    },
+    {
+      "desc": "Jägerschnitzel mit Tomatensoße und Pasta",
+      "price": 6.70
+    },
+    {
+      "desc": "Bauernfrühstück mit Remoulade, Gewürzgurke und Salat",
+      "price": 8.50
+    }
+  ],
+  "2026-02-18": [
+    {
+      "desc": "Sächsische Kartoffelsuppe mit Majoran und Bockwurst",
+      "price": 5.60
+    },
+    {
+      "desc": "Blumenkohl-Käsemedaillon mit Salat und Kräuterreis",
+      "price": 6.10
+    },
+    {
+      "desc": "Paprikaschote mit Geflügelhack, Tomatensoße und Spätzle",
+      "price": 6.70
+    },
+    {
+      "desc": "Überraschungs-gericht mit BIO-Gemüse von KOLA Leipzig",
+      "price": 0.00
+    }
+  ],
+  "2026-02-19": [
+    {
+      "desc": "Kartoffelpuffer mit Apfelmus und Zimtzucker",
+      "price": 5.60
+    },
+    {
+      "desc": "Kürbis-Lasagne mit Lauch und Schwarzwurzel",
+      "price": 6.10
+    },
+    {
+      "desc": "Schweinebraten mit Apfelrotkohl und Semmelknödeln",
+      "price": 6.70
+    },
+    {
+      "desc": "Gebackener Blumenkohl mit Sour Cream und Kartoffelspalten",
+      "price": 8.50
+    }
+  ],
+  "2026-02-20": [
+    {
+      "desc": "Indische rote Linsensuppe mit Kokosmilch und Naan (Brot)",
+      "price": 5.60
+    },
+    {
+      "desc": "Gemüserösti mit Schnittlauch-Quark und Salat",
+      "price": 6.10
+    },
+    {
+      "desc": "Grillwurst mit Letscho-Gemüse und Kartoffelstampf",
+      "price": 6.70
+    },
+    {
+      "desc": "Seelachsfilet mit Brokkoli-Kruste, Spinatsoße und Risi Bisi",
+      "price": 8.50
+    }
+  ]
+}
