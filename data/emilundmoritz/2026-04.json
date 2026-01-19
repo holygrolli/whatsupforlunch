@@ -1,0 +1,66 @@
+{
+  "2026-01-19": [
+    {
+      "desc": "Grützwurst, Sauerkraut, Kartoffeln",
+      "price": 6.99
+    },
+    {
+      "desc": "Gnocchi mit Spinatrahm, Kirschtomaten",
+      "price": 6.99
+    }
+  ],
+  "2026-01-20": [
+    {
+      "desc": "Königsberger Klöpse in Kapernsauce, Kartoffeln",
+      "price": 6.99
+    },
+    {
+      "desc": "Couscous Pfanne mit Tomaten, Kidneybohnen",
+      "price": 6.99
+    }
+  ],
+  "2026-01-21": [
+    {
+      "desc": "Bauerntopf mit Hackfleisch,Kartoffeln, Paprika",
+      "price": 6.99
+    },
+    {
+      "desc": "Bauerntopf mit Möhren, Paprika, Linsen, Kartoffeln",
+      "price": 6.99
+    }
+  ],
+  "2026-01-22": [
+    {
+      "desc": "Kötbullar mit Pilzrahm, Kartoffelstampf",
+      "price": 6.99
+    },
+    {
+      "desc": "Käseknödel mit Pilzrahm",
+      "price": 6.99
+    }
+  ],
+  "2026-01-23": [
+    {
+      "desc": "Hähnchenkeule, Möhren, Kartoffeln, Sauce",
+      "price": 6.99
+    },
+    {
+      "desc": "Kartoffel Brokkoli Auflauf",
+      "price": 6.99
+    }
+  ],
+  "2026-W04": [
+    {
+      "desc": "Pasta Bolognese",
+      "price": 5.50
+    },
+    {
+      "desc": "Pasta Arrabiata",
+      "price": 5.50
+    },
+    {
+      "desc": "Pasta mit Pilzrahm",
+      "price": 5.50
+    }
+  ]
+}
