@@ -123,7 +123,7 @@ jobs:
         # Convert back to URL format
         url=$(echo "$url_encoded" | sed 's/_https_/https:\/\//' | sed 's/_http_/http:\/\//' | sed 's/_/\//g')
         echo "Marking link as processed: $url"
-        python locations/.shared/mark_link_processed.py "$url" || echo "Warning: Failed to mark link as processed"
+        python locations/.shared/mark_link_processed.py "$url" --ttl-weeks 3 || echo "Warning: Failed to mark link as processed"
     - name: Archive final files
       uses: actions/upload-artifact@v4
       with:
