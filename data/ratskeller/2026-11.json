@@ -1,0 +1,92 @@
+{
+  "2026-03-09": [
+    {
+      "desc": "Weißer Bohneneintopf mit Geflügel-Würstchen",
+      "price": 5.60
+    },
+    {
+      "desc": "Chili sin Carne mit Mais, Kichererbsen, Bohnen und Reis",
+      "price": 6.10
+    },
+    {
+      "desc": "Hacksteak mit Waldpilzsoße und Kartoffel-stampf",
+      "price": 6.70
+    },
+    {
+      "desc": "Farfalle mit Auberginen, Hirtenkäse, Kapern und Tomaten",
+      "price": 8.50
+    }
+  ],
+  "2026-03-10": [
+    {
+      "desc": "Drei Hefeklöße mit warmen Heidelbeeren",
+      "price": 5.60
+    },
+    {
+      "desc": "Pasta mit Tomatensoße und geriebenem Käse",
+      "price": 6.10
+    },
+    {
+      "desc": "Jägerschnitzel mit Tomatensoße und Pasta",
+      "price": 6.70
+    },
+    {
+      "desc": "Shakshuka mit Hummus und Fladenbrot",
+      "price": 8.50
+    }
+  ],
+  "2026-03-11": [
+    {
+      "desc": "Chili con Carne mit Mais, Bohnen und Hackfleisch",
+      "price": 5.60
+    },
+    {
+      "desc": "Kartoffeltaschen mit Frischkäse, Kräuterdip und Salat",
+      "price": 6.10
+    },
+    {
+      "desc": "Königsberger Klopse mit Kapernsoße, Bete Salat und Kartoffeln",
+      "price": 6.70
+    },
+    {
+      "desc": "Rote-Bete-Puffer mit Linsensalat und Kürbispüree",
+      "price": 8.50
+    }
+  ],
+  "2026-03-12": [
+    {
+      "desc": "Kaiserschmarr'n mit Rosinen, Mandeln und Apfelmus",
+      "price": 5.60
+    },
+    {
+      "desc": "Kräuterquark mit Zwiebeln, Butter und Petersilien-kartoffeln",
+      "price": 6.10
+    },
+    {
+      "desc": "Hähnchenragout mit Champignons und Butterreis",
+      "price": 6.70
+    },
+    {
+      "desc": "Spaghetti aglio e olio, mit Rucola, Tomaten und Hartkäse",
+      "price": 8.50
+    }
+  ],
+  "2026-03-13": [
+    {
+      "desc": "Bärlauch-Creme-Suppe mit Sprossen und Croutons",
+      "price": 5.60
+    },
+    {
+      "desc": "Gemüse-Nuggets mit bunten Karotten und Spätzle",
+      "price": 6.10
+    },
+    {
+      "desc": "Seelachsfilet „Bordelaise“ mit Buttererbsen und Kartoffelstampf",
+      "price": 6.70
+    },
+    {
+      "desc": "Rindfleisch-Köfte mit Krautsalat, Grillgemüse und Reis",
+      "price": 8.50
+    }
+  ]
+}

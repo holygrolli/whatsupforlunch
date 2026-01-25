@@ -1,0 +1,65 @@
+{
+  "2026-01-19": [],
+  "2026-01-20": [
+    {
+      "desc": "Schweineschnitzel \"Gärtnerin\" überbacken mit Gemüse und Sc. Hollandaise, dazu Bratkartoffeln",
+      "price": 9.80
+    },
+    {
+      "desc": "Eier in Honig-Senfsoße, dazu Salzkartoffeln, frittierte Petersilie und Gurkensalat (veget.)",
+      "price": 8.90
+    }
+  ],
+  "2026-01-21": [
+    {
+      "desc": "Schwedische Hackbällchen \"Köttbullar\" mit Kartoffelpüree, crunchy Onions und Preiselbeeren",
+      "price": 9.80
+    },
+    {
+      "desc": "Mediterrane Gemüsebolognese u.a. mit Zucchini, Paprika und Aubergine, dazu Pasta und Gouda (veget.)",
+      "price": 9.20
+    }
+  ],
+  "2026-01-22": [
+    {
+      "desc": "Hähnchenschnitzel mit Rahmblumenkohl, Salzkartoffeln und brauner Soße",
+      "price": 9.80
+    },
+    {
+      "desc": "Brokkoli in Kichererbsenbackteig, auf rotem Linsencurry mit Paprika und Lauchzwiebeln (vegan)",
+      "price": 9.20
+    }
+  ],
+  "2026-01-23": [
+    {
+      "desc": "Gebratenes Seelachsfilet mit gebratenen Zucchiniwürfeln, rote Bete Püree und Zitronensoße",
+      "price": 9.90
+    },
+    {
+      "desc": "Pfeffergeschnetzeltes vom Huhn, mit Kirschtomaten und frittiertem Rucola, dazu Basmatireis",
+      "price": 9.80
+    }
+  ],
+  "2026-W04": [
+    {
+      "desc": "Pasta mit Koriander-Petersilien-Pesto, dazu geröstete Haselnüsse und Parmesan (veget.)",
+      "price": 10.90
+    },
+    {
+      "desc": "Lasagne \"Al Pesto\" mit Waldpilzen, Brokkoli und Kräuter-Pesto, überbacken mit Mozzarella (veget.)",
+      "price": 12.90
+    },
+    {
+      "desc": "Kartoffelgratin \"Griechischer Art\" mit Hackfleisch, Tomaten und Aubergine, überbacken mit Gouda",
+      "price": 12.90
+    },
+    {
+      "desc": "Pfeffergeschnetzeltes vom Huhn, mit Kirschtomaten und frittiertem Rucola, dazu Basmatireis",
+      "price": 12.90
+    },
+    {
+      "desc": "Hühnernudelsuppe mit Wurzelgemüse und Baguette",
+      "price": 3.90
+    }
+  ]
+}

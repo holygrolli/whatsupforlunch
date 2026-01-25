@@ -1,0 +1,92 @@
+{
+    "2026-02-23": [
+        {
+            "desc": "Ungarische Gulaschsuppe mit Paprika und Kartoffelwürfeln",
+            "price": 5.60
+        },
+        {
+            "desc": "Gemüsefrikadelle auf Rahmporree und Spätzle",
+            "price": 6.10
+        },
+        {
+            "desc": "Bifteki mit Knoblauchdip, Krautsalat und Reis",
+            "price": 6.70
+        },
+        {
+            "desc": "Bauernomelette gefüllt mit Kartoffeln, Speck und Gurken-Salat",
+            "price": 8.50
+        }
+    ],
+    "2026-02-24": [
+        {
+            "desc": "Eierkuchen mit Heidelbeer-Füllung, dazu Vanillesoße",
+            "price": 5.60
+        },
+        {
+            "desc": "Pasta mit Tomatensoße und geriebenem Käse",
+            "price": 6.10
+        },
+        {
+            "desc": "Pasta mit Wurstgulasch und geriebenem Käse",
+            "price": 6.70
+        },
+        {
+            "desc": "Grünkohl-Hanfbällchen mit Bete Salat und Karottenpüree",
+            "price": 8.50
+        }
+    ],
+    "2026-02-25": [
+        {
+            "desc": "Möhren-Kartoffeleintopf mit Fleischbällchen",
+            "price": 5.60
+        },
+        {
+            "desc": "Blumenkohl-Curry mit Kichererbsen, Süßkartoffel und Reis",
+            "price": 6.10
+        },
+        {
+            "desc": "Hähnchenkeule mit Buttererbsen und Petersilien-kartoffeln",
+            "price": 6.70
+        },
+        {
+            "desc": "Spaghetti mit Thunfisch, roten Zwiebeln, Rucola und Tomaten",
+            "price": 8.50
+        }
+    ],
+    "2026-02-26": [
+        {
+            "desc": "Milchreis mit Apfelmus und Zimtzucker",
+            "price": 5.60
+        },
+        {
+            "desc": "Backkäse mit Zaziki, Krautsalat und Tomatenreis",
+            "price": 6.10
+        },
+        {
+            "desc": "Wirsingroulade mit Krautsoße und Petersilien-kartoffeln",
+            "price": 6.70
+        },
+        {
+            "desc": "Chicken Teriyaki Bowl auf buntem Glasnudelsalat mit Koriander und Sesam",
+            "price": 8.50
+        }
+    ],
+    "2026-02-27": [
+        {
+            "desc": "Rotkohlcreme-Suppe mit Apfel-Chutney und Croûtons",
+            "price": 5.60
+        },
+        {
+            "desc": "Spinat-Käseknödel auf Kräuter-Waldpilzrahm",
+            "price": 6.10
+        },
+        {
+            "desc": "2 Jumbo Fischstäbchen mit Tomaten-Soße + Kartoffel-Stampf",
+            "price": 6.70
+        },
+        {
+            "desc": "Lammhacksteak mit Ratatouille und Kroketten",
+            "price": 8.50
+        }
+    ]
+}

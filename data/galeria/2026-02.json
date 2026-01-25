@@ -1,0 +1,32 @@
+{
+  "2026-01-05": [
+    {
+      "desc": "Küchenchef-Tag",
+      "price": 13.95
+    }
+  ],
+  "2026-01-06": [
+    {
+      "desc": "Hähnchenoberkeule, Gemüse und Rosmarinkartoffeln",
+      "price": 13.95
+    }
+  ],
+  "2026-01-07": [
+    {
+      "desc": "Gemüsemaultaschen, Tomaten-Sahnesauce, Ratatouille",
+      "price": 13.95
+    }
+  ],
+  "2026-01-08": [
+    {
+      "desc": "Paniertes Schweinekotelett, Bratensauce, Prinzessbohnen und Petersilienkartoffeln",
+      "price": 13.95
+    }
+  ],
+  "2026-01-09": [
+    {
+      "desc": "Seelachsfilet, Kräutersauce, Brokkoli und Reis",
+      "price": 13.95
+    }
+  ]
+}

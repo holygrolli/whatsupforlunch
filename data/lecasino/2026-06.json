@@ -1,0 +1,124 @@
+{
+  "2026-02-02": [
+    {
+      "desc": "Champignontopf mit Semmelknödel und Kräutersoße",
+      "price": 4.60
+    },
+    {
+      "desc": "Hausgemachte Kartoffelsuppe",
+      "price": 3.50
+    },
+    {
+      "desc": "Currywurst-Pastapfanne mit fruchtig-scharfer Currysoße",
+      "price": 4.20
+    },
+    {
+      "desc": "Rohkostsalat nach Angebot",
+      "price": 1.40
+    }
+  ],
+  "2026-02-03": [
+    {
+      "desc": "Spaghetti „Primavera“ mit Paprika, Möhren, Zucchini und Broccoli-Gemüse",
+      "price": 4.20
+    },
+    {
+      "desc": "Frikadelle mit Püree und Soße",
+      "price": 3.50
+    },
+    {
+      "desc": "Rinderbraten",
+      "price": 4.30
+    },
+    {
+      "desc": "Klöße",
+      "price": 1.30
+    },
+    {
+      "desc": "Gouda gerieben",
+      "price": 0.45
+    },
+    {
+      "desc": "Rohkostsalat nach Angebot",
+      "price": 1.40
+    },
+    {
+      "desc": "Rotkraut",
+      "price": 1.10
+    }
+  ],
+  "2026-02-04": [
+    {
+      "desc": "Salat mit Eisberg, Tomate, Gurke und Paprika, Croutons und Sonnenblumenkerne",
+      "price": 4.30
+    },
+    {
+      "desc": "Erbseneintopf mit Kasseler Fleisch",
+      "price": 3.50
+    },
+    {
+      "desc": "Hackfleisch-Bolognese",
+      "price": 2.95
+    },
+    {
+      "desc": "Pasta",
+      "price": 1.10
+    },
+    {
+      "desc": "Gouda gerieben",
+      "price": 0.45
+    },
+    {
+      "desc": "Rohkostsalat nach Angebot",
+      "price": 1.40
+    }
+  ],
+  "2026-02-05": [
+    {
+      "desc": "Reisnudelsalat mit Tomaten, Zucchini und Hirtenkäse",
+      "price": 4.40
+    },
+    {
+      "desc": "Quarkkeulchen mit Apfelmus und Zimt und Zucker",
+      "price": 3.50
+    },
+    {
+      "desc": "Hähnchenschnitzel mit Cornflakespanade an Bratensoße",
+      "price": 3.85
+    },
+    {
+      "desc": "Kroketten",
+      "price": 1.30
+    },
+    {
+      "desc": "Kartoffeln",
+      "price": 1.10
+    },
+    {
+      "desc": "Rohkostsalat nach Angebot",
+      "price": 1.40
+    },
+    {
+      "desc": "Rahmchampignons",
+      "price": 1.80
+    }
+  ],
+  "2026-02-06": [
+    {
+      "desc": "vegetarische Asiatische Gemüsepfanne mit Basmatireis",
+      "price": 4.20
+    },
+    {
+      "desc": "Penne all'arrabbiata mit frischen Kräutern (auf scharfe Art) mit Käse",
+      "price": 3.50
+    },
+    {
+      "desc": "Gouda gerieben",
+      "price": 0.45
+    },
+    {
+      "desc": "Rohkostsalat nach Angebot",
+      "price": 1.40
+    }
+  ]
+}

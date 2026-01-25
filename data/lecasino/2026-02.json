@@ -1,0 +1,116 @@
+{
+  "2026-01-12": [
+    {
+      "desc": "Gemüsebolognese mit Kichererbsen und Pasta",
+      "price": 3.90
+    },
+    {
+      "desc": "Reiseintopf mit Hähnchenfleisch",
+      "price": 3.50
+    },
+    {
+      "desc": "Kohlroulade mit Bratensoße",
+      "price": 3.75
+    },
+    {
+      "desc": "Kartoffeln",
+      "price": 1.10
+    },
+    {
+      "desc": "Rohkostsalat nach Angebot",
+      "price": 1.40
+    }
+  ],
+  "2026-01-13": [
+    {
+      "desc": "Salzkartoffeln mit Rahmspinat & Rührei",
+      "price": 4.20
+    },
+    {
+      "desc": "Curry-Reis- Gemüse-Pfanne",
+      "price": 3.50
+    },
+    {
+      "desc": "Tiegelwurst mit Majoran und Zwiebeln",
+      "price": 3.90
+    },
+    {
+      "desc": "Kartoffeln",
+      "price": 1.10
+    },
+    {
+      "desc": "Rohkostsalat nach Angebot",
+      "price": 1.40
+    },
+    {
+      "desc": "Sauerkraut",
+      "price": 1.10
+    }
+  ],
+  "2026-01-14": [
+    {
+      "desc": "Paprika-Tomaten- Reispfanne",
+      "price": 3.90
+    },
+    {
+      "desc": "Linseneintopf mit Kartoffeln",
+      "price": 3.50
+    },
+    {
+      "desc": "Schweinehackbraten",
+      "price": 3.70
+    },
+    {
+      "desc": "Kartoffeln",
+      "price": 1.10
+    },
+    {
+      "desc": "Rohkostsalat nach Angebot",
+      "price": 1.40
+    },
+    {
+      "desc": "Gemüse n. Angebot",
+      "price": 1.10
+    }
+  ],
+  "2026-01-15": [
+    {
+      "desc": "Bauernsalat mit Mehrkornbaguette",
+      "price": 4.80
+    },
+    {
+      "desc": "Germknödel mit Schokoladencremefüllung",
+      "price": 3.50
+    },
+    {
+      "desc": "Schweinegeschnetzeltes „Jäger Art“",
+      "price": 3.85
+    },
+    {
+      "desc": "Spätzle",
+      "price": 1.30
+    },
+    {
+      "desc": "Rohkostsalat nach Angebot",
+      "price": 1.40
+    }
+  ],
+  "2026-01-16": [
+    {
+      "desc": "Rote-Linsen-Lasagne",
+      "price": 4.25
+    },
+    {
+      "desc": "Krautnudeln mit Schinken",
+      "price": 3.50
+    },
+    {
+      "desc": "Tagesangebot",
+      "price": 0.45
+    },
+    {
+      "desc": "Rohkostsalat nach Angebot",
+      "price": 1.40
+    }
+  ]
+}
