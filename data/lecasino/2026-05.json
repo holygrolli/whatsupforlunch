@@ -1,0 +1,108 @@
+{
+  "2026-01-26": [
+    {
+      "desc": "Ofengemüse mit Backkartoffeln und Kräutercreme",
+      "price": 4.50
+    },
+    {
+      "desc": "Grüne Bohneneintopf",
+      "price": 3.50
+    },
+    {
+      "desc": "Ungarischer Kesselgulasch",
+      "price": 3.85
+    },
+    {
+      "desc": "Rohkostsalat nach Angebot",
+      "price": 1.40
+    }
+  ],
+  "2026-01-27": [
+    {
+      "desc": "Kartoffelrösti mit Mediterranem Gemüse",
+      "price": 4.10
+    },
+    {
+      "desc": "Blumenkohl mit Kartoffeln an Kräutersoße",
+      "price": 3.50
+    },
+    {
+      "desc": "Wurstgulasch mit fruchtiger Tomatensoße",
+      "price": 2.95
+    },
+    {
+      "desc": "Pasta",
+      "price": 1.10
+    },
+    {
+      "desc": "Gouda gerieben",
+      "price": 0.45
+    },
+    {
+      "desc": "Rohkostsalat nach Angebot",
+      "price": 1.40
+    }
+  ],
+  "2026-01-28": [
+    {
+      "desc": "Reissalat mit Tomaten, Paprika, Gurke und Kichererbsen",
+      "price": 3.80
+    },
+    {
+      "desc": "Schweine Hackfleisch-Käse-Lauchsuppe",
+      "price": 3.50
+    },
+    {
+      "desc": "Spinat-Lasagne mit Käse überbacken",
+      "price": 4.50
+    },
+    {
+      "desc": "Rohkostsalat nach Angebot",
+      "price": 1.40
+    }
+  ],
+  "2026-01-29": [
+    {
+      "desc": "Gnocchi- Feldsalat mit Tomate und Balkankäse",
+      "price": 4.70
+    },
+    {
+      "desc": "Milchreis mit Zimt, Zucker und Apfelmus",
+      "price": 3.50
+    },
+    {
+      "desc": "Kasselerbraten",
+      "price": 3.85
+    },
+    {
+      "desc": "Kartoffeln",
+      "price": 1.10
+    },
+    {
+      "desc": "Rohkostsalat nach Angebot",
+      "price": 1.40
+    },
+    {
+      "desc": "Gemüse n. Angebot",
+      "price": 1.10
+    }
+  ],
+  "2026-01-30": [
+    {
+      "desc": "vegetarische Bolognese mit Kidneybohnen, Gemüsemais und Dinkel-Pasta",
+      "price": 4.00
+    },
+    {
+      "desc": "Kartoffeltopf mit Kokosmilch und gebratenen Chiliwurstscheibchen",
+      "price": 3.50
+    },
+    {
+      "desc": "Gouda gerieben",
+      "price": 0.45
+    },
+    {
+      "desc": "Rohkostsalat nach Angebot",
+      "price": 1.40
+    }
+  ]
+}
