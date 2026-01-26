@@ -1,0 +1,66 @@
+{
+  "2026-01-26": [
+    {
+      "desc": "Bratwurst, Sauerkraut, Kartoffelstampf",
+      "price": 6.99
+    },
+    {
+      "desc": "Backfisch, Kartoffelstampf, Dillsauce kl. Salat",
+      "price": 6.99
+    }
+  ],
+  "2026-01-27": [
+    {
+      "desc": "Brauhausgulasch, Spätzle",
+      "price": 6.99
+    },
+    {
+      "desc": "Paprika gefüllt mit Couscous, Tomatensauce",
+      "price": 6.99
+    }
+  ],
+  "2026-01-28": [
+    {
+      "desc": "hausgemachte Boulette, Möhren, Kartoffelstampf, Sauce",
+      "price": 6.99
+    },
+    {
+      "desc": "Kartoffel Gemüse Pfanne",
+      "price": 6.99
+    }
+  ],
+  "2026-01-29": [
+    {
+      "desc": "Chilli con Carne, Reis",
+      "price": 6.99
+    },
+    {
+      "desc": "Chilli sin Carne, Reis",
+      "price": 6.99
+    }
+  ],
+  "2026-01-30": [
+    {
+      "desc": "Stücken vom Eisbein in Meerrettichsauce, Sauerkraut, Kartoffeln",
+      "price": 6.99
+    },
+    {
+      "desc": "Risotto mit frischem Spinat + Gorgonzola",
+      "price": 6.99
+    }
+  ],
+  "2026-W05": [
+    {
+      "desc": "Pasta + Wurstgulasch",
+      "price": 5.50
+    },
+    {
+      "desc": "Pasta mit Pilzrahm",
+      "price": 5.50
+    },
+    {
+      "desc": "Pasta mit Basilikumpesto, Pinienkernen",
+      "price": 5.50
+    }
+  ]
+}
