@@ -1,0 +1,65 @@
+{
+  "2026-01-26": [],
+  "2026-01-27": [
+    {
+      "desc": "Schweineschnitzel mit Honig-Thymianmöhrchen, dazu Salzkartoffeln und brauner Soße",
+      "price": 10.20
+    },
+    {
+      "desc": "Tagliatelle mit Zitronen-Basilikumsoße dazu gebackene Kirschtomaten und Parmesan (veget.)",
+      "price": 9.20
+    }
+  ],
+  "2026-01-28": [
+    {
+      "desc": "Gebratener Leberkäse mit Spiegelei, dazu Bratkartoffeln und Tomatensalat",
+      "price": 9.80
+    },
+    {
+      "desc": "Sojagulasch mit geschmortem Spitzkohl, dazu Böhmische Knödel (veget.)",
+      "price": 9.20
+    }
+  ],
+  "2026-01-29": [
+    {
+      "desc": "Geschnetzeltes vom Schwein nach' Züricher Art 'mit Champignons, dazu Kartoffelrösti",
+      "price": 9.80
+    },
+    {
+      "desc": "Gebackener Hirtenkäse auf verschiedenen Blattsalaten mit gebratenem Kürbis, Birnen und Mandeln, dazu Orangendressing (veget.)",
+      "price": 9.20
+    }
+  ],
+  "2026-01-30": [
+    {
+      "desc": "Gebackenes Seelachsfilet mit Remoulade, Salzkartoffeln und Gurkensalat",
+      "price": 9.90
+    },
+    {
+      "desc": "Hähnchengeschnetzeltes mit Lauch und Champignons, dazu Basmatireis",
+      "price": 9.80
+    }
+  ],
+  "2026-W05": [
+    {
+      "desc": "Hähnchengeschnetzeltes mit Lauch und Champignons, dazu Basmatireis",
+      "price": 12.90
+    },
+    {
+      "desc": "Pasta mit Tomaten-Rosmarin-Pesto, dazu Walnüsse und Parmesan (veget.)",
+      "price": 10.90
+    },
+    {
+      "desc": "Kürbis-Lasagne überbacken mit Mozzarella und Mandeln (veget.)",
+      "price": 12.90
+    },
+    {
+      "desc": "Süßkartoffel-Spinatgratin mit gebratenen Hähnchenbruststreifen, überbacken mit Hirtenkäse und Sonnenblumenkernen",
+      "price": 12.90
+    },
+    {
+      "desc": "Soljanka mit Schmand und Baguette",
+      "price": 3.90
+    }
+  ]
+}
