@@ -1,0 +1,66 @@
+{
+  "2026-02-02": [
+    {
+      "desc": "Spaghetti Bolognese, Käse",
+      "price": 6.99
+    },
+    {
+      "desc": "Kartoffeln + Kräuterquark, kl. Salat",
+      "price": 6.99
+    }
+  ],
+  "2026-02-03": [
+    {
+      "desc": "Hühnerfrikasse, Reis",
+      "price": 6.99
+    },
+    {
+      "desc": "Eier in Senfsauce, Kartoffeln",
+      "price": 6.99
+    }
+  ],
+  "2026-02-04": [
+    {
+      "desc": "Kohlroulade in Kümmelsauce, Kartoffelstampf",
+      "price": 6.99
+    },
+    {
+      "desc": "Matjes mit Hausfrauensauce, Kartoffeln",
+      "price": 6.99
+    }
+  ],
+  "2026-02-05": [
+    {
+      "desc": "Schnitzel Schwein, Jägersauce, Kartoffeln",
+      "price": 6.99
+    },
+    {
+      "desc": "Champignons in Rahmsauce, Semmelknödel",
+      "price": 6.99
+    }
+  ],
+  "2026-02-06": [
+    {
+      "desc": "Grünkohl mit Kasslerstücken und Bratkartoffeln",
+      "price": 6.99
+    },
+    {
+      "desc": "2 Spiegeleier, Bratkartoffeln, Krautsalat",
+      "price": 6.99
+    }
+  ],
+  "2026-W06": [
+    {
+      "desc": "Pasta + Wurstgulasch",
+      "price": 5.50
+    },
+    {
+      "desc": "Pasta mit Pilzrahm",
+      "price": 5.50
+    },
+    {
+      "desc": "Pasta mit Basilikumpesto, Pinienkernen",
+      "price": 5.50
+    }
+  ]
+}
