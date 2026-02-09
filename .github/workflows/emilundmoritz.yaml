@@ -16,7 +16,7 @@ jobs:
   download:
     runs-on: ubuntu-24.04
     container:
-      image: ghcr.io/holygrolli/whatsupforlunch:sha-979e9b6-2024-08-08
+      image: ghcr.io/holygrolli/whatsupforlunch:sha-087f703-2026-02-09
     outputs:
       matrix: ${{ steps.setmatrix.outputs.matrix }}
     steps:

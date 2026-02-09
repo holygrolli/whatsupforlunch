@@ -19,7 +19,7 @@ jobs:
   download:
     runs-on: ubuntu-24.04
     container:
-      image: ghcr.io/holygrolli/whatsupforlunch:sha-7a952b4-2025-11-26
+      image: ghcr.io/holygrolli/whatsupforlunch:sha-087f703-2026-02-09
     outputs:
       matrix: ${{ steps.setmatrix.outputs.matrix }}
     steps:
@@ -65,7 +65,7 @@ jobs:
     if: ${{ needs.download.outputs.matrix != '' && toJson(fromJson(needs.download.outputs.matrix)) != '[]' && (github.event_name != 'workflow_dispatch' || inputs.force_process ) }}
     runs-on: ubuntu-24.04
     container:
-      image: ghcr.io/holygrolli/whatsupforlunch:sha-7a952b4-2025-11-26
+      image: ghcr.io/holygrolli/whatsupforlunch:sha-087f703-2026-02-09
     strategy:
       max-parallel: 1
       matrix:
