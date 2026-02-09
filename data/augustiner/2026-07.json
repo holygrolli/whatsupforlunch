@@ -1,0 +1,52 @@
+{
+  "2026-02-09": [
+    {
+      "desc": "Schweineschnitzel „Wiener Art“ mit Kartoffel-Gurken-Salat",
+      "price": 8.50
+    },
+    {
+      "desc": "Allgäuer Käsespätzle mit Röstzwiebeln",
+      "price": 8.50
+    }
+  ],
+  "2026-02-10": [
+    {
+      "desc": "Chili con Carne mit Schmand",
+      "price": 8.50
+    },
+    {
+      "desc": "Spätzle-Gemüsepfanne mit Pilzen",
+      "price": 8.50
+    }
+  ],
+  "2026-02-11": [
+    {
+      "desc": "Weißwurst-Nudelpfanne in Senf-Sahnesauce",
+      "price": 8.50
+    },
+    {
+      "desc": "Spaghetti in Tomatensauce mit Kapern, Oliven und Parmesan",
+      "price": 8.50
+    }
+  ],
+  "2026-02-12": [
+    {
+      "desc": "Hähnchen-Geschnetzeltes in Champignonrahm mit Rösti-Talern",
+      "price": 8.50
+    },
+    {
+      "desc": "Rahmschwammerl mit Rösti-Talern",
+      "price": 8.50
+    }
+  ],
+  "2026-02-13": [
+    {
+      "desc": "Backfisch mit Kartoffel-Gurken-Salat und Remouladensauce",
+      "price": 8.50
+    },
+    {
+      "desc": "Ofenkartoffel mit Kräuter-Schmand und kleinem Blattsalat",
+      "price": 8.50
+    }
+  ]
+}
