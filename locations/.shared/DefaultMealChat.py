@@ -15,7 +15,7 @@ class DefaultMealChat:
                     userImageFile="image_input",
                     dateOverride=None,
                     output_prefix="chatgpt",
-                    max_tokens=1000,
+                    max_tokens=5000,
                     promptOverrides=None):
         self.output_prefix = output_prefix
         self.prompt_config = prompt_config
@@ -159,10 +159,9 @@ class DefaultMealChat:
         gpt_messages.append(
             {"role": "user", "content": self.userMessagePrefix + self.userMessage})
         print("gpt_messages: " + str(gpt_messages))
-        chat_completion = client.chat.completions.create(model="gpt-4o-mini",
+        chat_completion = client.chat.completions.create(model="gpt-5-mini",
                                                         messages=gpt_messages,
                                                         response_format={ "type":"text" },
-                                                        temperature=0.1,
                                                         seed=1,
-                                                        max_tokens=self.max_tokens)
+                                                        max_completion_tokens=self.max_tokens)
         self.writeToFile(chat_completion)
