@@ -1,0 +1,66 @@
+{
+  "2026-02-09": [
+    {
+      "desc": "Schweinebraten, Möhren, Kartoffeln",
+      "price": 6.99
+    },
+    {
+      "desc": "Couscous Pfanne mit Zucchini, Spinat, Feta",
+      "price": 6.99
+    }
+  ],
+  "2026-02-10": [
+    {
+      "desc": "Wirsing Hackfleisch Pfanne, Kartoffeln",
+      "price": 6.99
+    },
+    {
+      "desc": "Gnocchi in Spinatrahm und Kirschtomaten",
+      "price": 6.99
+    }
+  ],
+  "2026-02-11": [
+    {
+      "desc": "Leber Pute, Kartoffelstampf, Zwiebel Gemüse",
+      "price": 6.99
+    },
+    {
+      "desc": "Backfisch, Kartoffelstampf, Dillsauce",
+      "price": 6.99
+    }
+  ],
+  "2026-02-12": [
+    {
+      "desc": "Schnitzel Hähnchen, Erbsen+Möhren, Kartoffeln, Sauce",
+      "price": 6.99
+    },
+    {
+      "desc": "3 Kartoffelpuffer, Apfelmus, Z+Z",
+      "price": 6.99
+    }
+  ],
+  "2026-02-13": [
+    {
+      "desc": "Grützwurst, Sauerkraut, Kartoffeln",
+      "price": 6.99
+    },
+    {
+      "desc": "Nudel Gemüse Pfanne mit Rucole, Feta",
+      "price": 6.99
+    }
+  ],
+  "2026-W07": [
+    {
+      "desc": "Pasta + Wurstgulasch",
+      "price": 5.50
+    },
+    {
+      "desc": "Pasta Thunfisch in Sahnesauce",
+      "price": 5.50
+    },
+    {
+      "desc": "Pasta ala Genovese",
+      "price": 5.50
+    }
+  ]
+}
