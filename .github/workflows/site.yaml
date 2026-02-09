@@ -104,8 +104,10 @@ jobs:
         shell: bash
         run: |
           git config --global --add safe.directory $PWD
-          if [[ -n "${{ github.event.inputs.version }}" && "${{ github.event.inputs.version }}" != "snapshot" ]]; then
-            echo "BUILD_VERSION=${{ github.event.inputs.version }}" >> "$GITHUB_OUTPUT"
+          # Prefer workflow_dispatch event input, fall back to reusable-workflow input
+          VERSION="${{ github.event.inputs.version || inputs.version }}"
+          if [[ -n "$VERSION" && "$VERSION" != "snapshot" ]]; then
+            echo "BUILD_VERSION=$VERSION" >> "$GITHUB_OUTPUT"
           else
             git describe --tags --abbrev=0 && echo "BUILD_VERSION=$(git describe --tags --abbrev=0)" >> "$GITHUB_OUTPUT" || echo "BUILD_VERSION=snapshot" >> "$GITHUB_OUTPUT"
           fi
