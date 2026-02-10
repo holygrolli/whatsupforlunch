@@ -1,0 +1,65 @@
+{
+  "2026-02-09": [],
+  "2026-02-10": [
+    {
+      "desc": "Schweineschnitzel in Haselnusspanade, dazu Rahmchampignons und Bratkartoffeln",
+      "price": 10.20
+    },
+    {
+      "desc": "Sojagyros mit Ingwer, dazu Kartoffelecken, Tzatziki und Krautsalat (veget.)",
+      "price": 9.20
+    }
+  ],
+  "2026-02-11": [
+    {
+      "desc": "Hühnerfrikassee mit Spargel, Erbsen und Champignons, dazu Basmatireis",
+      "price": 9.80
+    },
+    {
+      "desc": "Frittierte Aubergine in Parmesanhülle, dazu Tomatenreis und Basilikum-Dip (veget.)",
+      "price": 9.20
+    }
+  ],
+  "2026-02-12": [
+    {
+      "desc": "Jägerklopse mit Champignons, dazu Kartoffelstampf und Bohnensalat",
+      "price": 9.80
+    },
+    {
+      "desc": "Kürbis-Kartoffelrösti mit Kresse-Schmand und Salatbeilage (veget.)",
+      "price": 9.20
+    }
+  ],
+  "2026-02-13": [
+    {
+      "desc": "Gebratenes Seelachsfilet, dazu Erbsen-Minzpürree, Zitronensoße und Süßkartoffelecken",
+      "price": 9.90
+    },
+    {
+      "desc": "Feuriges Hähnchen in Paprikarahm, dazu Basmatireis und geröstete Mandeln",
+      "price": 9.80
+    }
+  ],
+  "2026-W07": [
+    {
+      "desc": "Pasta mit Petersilien-Macadamia-Pesto, dazu Kirschtomaten und Parmesan (veget.)",
+      "price": 10.90
+    },
+    {
+      "desc": "Kohlrabilasagne mit Karotten und Spitzkohl, überbacken mit Mozzarella",
+      "price": 12.90
+    },
+    {
+      "desc": "Hähnchengratin mit Pasta und gebratener Zucchini in pikanter Tomatensoße, überbacken mit Hirtenkäse",
+      "price": 12.90
+    },
+    {
+      "desc": "Feuriges Hähnchen in Paprikarahm, dazu Basmatireis und geröstete Mandeln (Extra, ab 15 Uhr)",
+      "price": 12.90
+    },
+    {
+      "desc": "Linseneintopf mit Kasseler, Wurzelgemüse und Baguette",
+      "price": 6.90
+    }
+  ]
+}
