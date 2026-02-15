@@ -1,0 +1,52 @@
+{
+  "2026-02-16": [
+    {
+      "desc": "Schweineschnitzel „Wiener Art“ mit Kartoffel-Gurken-Salat",
+      "price": 8.50
+    },
+    {
+      "desc": "Allgäuer Käsespätzle mit Röstzwiebeln",
+      "price": 8.50
+    }
+  ],
+  "2026-02-17": [
+    {
+      "desc": "„Jägerschnitzel“ panierte Jagdwurst mit Spirelli und Tomatensauce",
+      "price": 8.50
+    },
+    {
+      "desc": "Spirelli in mediterraner Gemüsesauce",
+      "price": 8.50
+    }
+  ],
+  "2026-02-18": [
+    {
+      "desc": "Hackfleisch-Lauchsuppe mit Frischkäse",
+      "price": 8.50
+    },
+    {
+      "desc": "Ratatouille-Gemüse mit Reis",
+      "price": 8.50
+    }
+  ],
+  "2026-02-19": [
+    {
+      "desc": "Mutzbraten mit Speckbohnen und Kartoffelpüree",
+      "price": 8.50
+    },
+    {
+      "desc": "Rahmspinat mit Rührei und Salzkartoffeln",
+      "price": 8.50
+    }
+  ],
+  "2026-02-20": [
+    {
+      "desc": "Backfisch mit Kartoffel-Gurken-Salat und Remouladensauce",
+      "price": 8.50
+    },
+    {
+      "desc": "Kartoffelpuffer mit Apfelmus",
+      "price": 8.50
+    }
+  ]
+}
