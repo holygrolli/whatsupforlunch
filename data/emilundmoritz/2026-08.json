@@ -1,0 +1,66 @@
+{
+  "2026-02-16": [
+    {
+      "desc": "Sülze, Hausfrauensauce, Bratkartoffeln",
+      "price": 6.99
+    },
+    {
+      "desc": "Kartoffel Pfanne mit Zucchini, Paprika, Rucola",
+      "price": 6.99
+    }
+  ],
+  "2026-02-17": [
+    {
+      "desc": "Putencurry, Reis",
+      "price": 6.99
+    },
+    {
+      "desc": "Seelachs, Honig Senfsauce, Reis",
+      "price": 6.99
+    }
+  ],
+  "2026-02-18": [
+    {
+      "desc": "Hähnchenbrust, Paprika Sahne Sauce, Spätzle",
+      "price": 6.99
+    },
+    {
+      "desc": "Käsespätzle mit Röstzwiebeln",
+      "price": 6.99
+    }
+  ],
+  "2026-02-19": [
+    {
+      "desc": "Schweinegulasch, Semmelknödel",
+      "price": 6.99
+    },
+    {
+      "desc": "Kartoffel Blumenkohl Auflauf",
+      "price": 6.99
+    }
+  ],
+  "2026-02-20": [
+    {
+      "desc": "Hackbraten, Mischgemüse, Kartoffeln",
+      "price": 6.99
+    },
+    {
+      "desc": "Rührei, Spinat, Kartoffeln",
+      "price": 6.99
+    }
+  ],
+  "2026-W08": [
+    {
+      "desc": "Penne+Wurstgulasch",
+      "price": 5.50
+    },
+    {
+      "desc": "Pasta mit Thunfisch in Sahnesauce",
+      "price": 5.50
+    },
+    {
+      "desc": "Pasta ala Genovese",
+      "price": 5.50
+    }
+  ]
+}
