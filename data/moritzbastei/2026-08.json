@@ -1,0 +1,65 @@
+{
+  "2026-02-16": [],
+  "2026-02-17": [
+    {
+      "desc": "Schweineschnitzel \"Mailänder Art\" in Parmesan-Semmelkruste, dazu pikante Tomatensoße und Linguine",
+      "price": 10.20
+    },
+    {
+      "desc": "Zucchini-Limetten-Tagliatelle mit gerösteten Sonnenblumenkernen und Parmesan (veget.)",
+      "price": 9.20
+    }
+  ],
+  "2026-02-18": [
+    {
+      "desc": "Pasta mit Schinken-Sahne-Soße, Lauchzwiebeln und Kirschtomaten",
+      "price": 9.60
+    },
+    {
+      "desc": "Tortellini in Spinat-Gorgonzolasoße mit getrockneten Tomaten, überbacken mit Mozzarella und gerösteten Sonnenblumenkernen",
+      "price": 9.20
+    }
+  ],
+  "2026-02-19": [
+    {
+      "desc": "Frikadelle mit Rosenkohl, Salzkartoffeln und brauner Soße",
+      "price": 9.80
+    },
+    {
+      "desc": "Gebackener Hirtenkäse auf Ratatouille-Gemüse, dazu Rosmarinkartoffeln (veget.)",
+      "price": 9.20
+    }
+  ],
+  "2026-02-20": [
+    {
+      "desc": "Gedünstetes Seelachsfilet auf Kartoffel-Lauchgratin, überbacken mit Gouda",
+      "price": 9.90
+    },
+    {
+      "desc": "Hähnchengeschnetzeltes mit gebratenen Zucchinis, getrockneten Tomaten und Rosmarinkartoffeln",
+      "price": 9.80
+    }
+  ],
+  "2026-W08": [
+    {
+      "desc": "Pasta mit Spinat-Petersilien-Pesto, dazu Birnen, Walnüsse und Parmesan",
+      "price": 10.90
+    },
+    {
+      "desc": "Fenchel-Tomaten-Lasagne überbacken mit Mozzarella und Sonnenblumenkernen (veget.)",
+      "price": 12.90
+    },
+    {
+      "desc": "Kartoffel-Brokkoli-Gratin mit gebratenen Hähnchenbruststreifen, überbacken mit Mozzarella und Mandeln",
+      "price": 12.90
+    },
+    {
+      "desc": "Hähnchengeschnetzeltes mit gebratenen Zucchinis, getrockneten Tomaten und Rosmarinkartoffeln",
+      "price": 12.90
+    },
+    {
+      "desc": "Soja-Kesselgulasch mit Baguette (vegan)",
+      "price": 6.90
+    }
+  ]
+}
