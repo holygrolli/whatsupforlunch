@@ -1,0 +1,52 @@
+{
+  "2026-02-23": [
+    {
+      "desc": "Schweineschnitzel „Wiener Art“ mit Kartoffel-Gurken-Salat",
+      "price": 8.50
+    },
+    {
+      "desc": "Allgäuer Käsespätzle mit Röstzwiebeln",
+      "price": 8.50
+    }
+  ],
+  "2026-02-24": [
+    {
+      "desc": "Fleischpflanzerl mit Letscho und Kartoffelpüree",
+      "price": 8.50
+    },
+    {
+      "desc": "Gemüse-Schnitzel mit Letscho und Kartoffelpüree",
+      "price": 8.50
+    }
+  ],
+  "2026-02-25": [
+    {
+      "desc": "Hähnchen Cordon Bleu mit Pommes frites",
+      "price": 8.50
+    },
+    {
+      "desc": "Rührei mit Gurkensalat und Salzkartoffeln",
+      "price": 8.50
+    }
+  ],
+  "2026-02-26": [
+    {
+      "desc": "Schweinefilet-Geschnetzeltes in Senf-Zwiebelsauce mit Spätzle",
+      "price": 8.50
+    },
+    {
+      "desc": "Gnocchi mit Blattspinat und Feta Käse",
+      "price": 8.50
+    }
+  ],
+  "2026-02-27": [
+    {
+      "desc": "Backfisch mit Kartoffel-Gurken-Salat und Remouladensauce",
+      "price": 8.50
+    },
+    {
+      "desc": "Spaghetti all’ arrabbiata",
+      "price": 8.50
+    }
+  ]
+}
