@@ -1,0 +1,120 @@
+{
+  "2026-03-09": [
+    {
+      "desc": "Gemüsebolognese mit Kichererbsen und Pasta",
+      "price": 3.90
+    },
+    {
+      "desc": "Reiseintopf mit Hähnchenfleisch",
+      "price": 3.50
+    },
+    {
+      "desc": "Kohlroulade mit Bratensoße",
+      "price": 3.75
+    },
+    {
+      "desc": "Sättigungsbeilage: Kartoffeln",
+      "price": 1.10
+    },
+    {
+      "desc": "Gemüsebeilage: Rohkostsalat nach Angebot",
+      "price": 1.40
+    }
+  ],
+  "2026-03-10": [
+    {
+      "desc": "Salzkartoffeln mit Rahmspinat & Rührei",
+      "price": 4.20
+    },
+    {
+      "desc": "Curry-Reis-Gemüse-Pfanne",
+      "price": 3.50
+    },
+    {
+      "desc": "Tiegelwurst mit Majoran und Zwiebeln",
+      "price": 3.90
+    },
+    {
+      "desc": "Sättigungsbeilage: Kartoffeln",
+      "price": 1.10
+    },
+    {
+      "desc": "Gemüsebeilage: Rohkostsalat nach Angebot",
+      "price": 1.40
+    },
+    {
+      "desc": "Gemüsebeilage: Sauerkraut",
+      "price": 1.10
+    }
+  ],
+  "2026-03-11": [
+    {
+      "desc": "Paprika-Tomaten-Reispfanne",
+      "price": 3.90
+    },
+    {
+      "desc": "Linseneintopf mit Kartoffeln",
+      "price": 3.50
+    },
+    {
+      "desc": "Schweinehackbraten",
+      "price": 3.70
+    },
+    {
+      "desc": "Sättigungsbeilage: Kartoffeln",
+      "price": 1.10
+    },
+    {
+      "desc": "Gemüsebeilage: Rohkostsalat nach Angebot",
+      "price": 1.40
+    },
+    {
+      "desc": "Gemüsebeilage: Gemüse nach Angebot",
+      "price": 1.10
+    }
+  ],
+  "2026-03-12": [
+    {
+      "desc": "Bauernsalat mit Mehrkornbaguette",
+      "price": 4.80
+    },
+    {
+      "desc": "Germknödel mit Schokoladencremefüllung",
+      "price": 3.50
+    },
+    {
+      "desc": "Schweinegeschnetzeltes „Jäger Art“",
+      "price": 3.85
+    },
+    {
+      "desc": "Sättigungsbeilage: Spätzle",
+      "price": 1.30
+    },
+    {
+      "desc": "Gemüsebeilage: Rohkostsalat nach Angebot",
+      "price": 1.40
+    }
+  ],
+  "2026-03-13": [
+    {
+      "desc": "Rote-Linsen-Lasagne",
+      "price": 4.25
+    },
+    {
+      "desc": "Krautnudeln mit Schinken",
+      "price": 3.50
+    },
+    {
+      "desc": "Tagesangebot",
+      "price": 0.00
+    },
+    {
+      "desc": "Sättigungsbeilage: Gouda gerieben",
+      "price": 0.45
+    },
+    {
+      "desc": "Gemüsebeilage: Rohkostsalat nach Angebot",
+      "price": 1.40
+    }
+  ]
+}
