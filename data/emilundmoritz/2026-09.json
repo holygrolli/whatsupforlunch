@@ -1,0 +1,66 @@
+{
+  "2026-02-23": [
+    {
+      "desc": "Züricher Geschnetzeltes, Spätzle",
+      "price": 6.99
+    },
+    {
+      "desc": "Kartoffeln, Kräuterquark, Kartoffeln",
+      "price": 6.99
+    }
+  ],
+  "2026-02-24": [
+    {
+      "desc": "Bratwurst, Sauerkraut, Kartoffeln, Sauce",
+      "price": 6.99
+    },
+    {
+      "desc": "Pasta mit Lachs, Zucchini, Tomatenrahm",
+      "price": 6.99
+    }
+  ],
+  "2026-02-25": [
+    {
+      "desc": "Gyros Pfanne, Reis, Tzatziki",
+      "price": 6.99
+    },
+    {
+      "desc": "Backfisch, Kartoffelstampf, Kräutersauce",
+      "price": 6.99
+    }
+  ],
+  "2026-02-26": [
+    {
+      "desc": "Ungarischer Gulasch, Pasta",
+      "price": 6.99
+    },
+    {
+      "desc": "Couscous Gemüse Pfanne",
+      "price": 6.99
+    }
+  ],
+  "2026-02-27": [
+    {
+      "desc": "Schnitzel Schwein, Blumenkohl, Kartoffeln",
+      "price": 6.99
+    },
+    {
+      "desc": "Pasta mit Tomatensauce, Käse",
+      "price": 6.99
+    }
+  ],
+  "2026-W09": [
+    {
+      "desc": "Pasta mit Lachs + Erbsenmus",
+      "price": 5.50
+    },
+    {
+      "desc": "Spaghetti Bolognese, Käse",
+      "price": 5.50
+    },
+    {
+      "desc": "Pasta mit Avocado Limettensauce",
+      "price": 5.50
+    }
+  ]
+}
