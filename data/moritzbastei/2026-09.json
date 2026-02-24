@@ -1,0 +1,60 @@
+{
+  "2026-02-23": [],
+  "2026-02-24": [
+    {
+      "desc": "Schweineschnitzel mit Rahmerbsen und Bratkartoffeln",
+      "price": 10.20
+    },
+    {
+      "desc": "Eier in Honig-Senf-Soße, dazu Salzkartoffeln, frittierte Petersilie und Gurkensalat (veget.)",
+      "price": 8.90
+    }
+  ],
+  "2026-02-25": [
+    {
+      "desc": "Bauernfrühstück, dazu Gewürzgurke und Salatbeilage",
+      "price": 9.50
+    },
+    {
+      "desc": "Karottenpfanne mit Zuckerschoten, Kartoffeln und Petersilie, dazu geröstete Sonnenblumenkerne und Hirtenkäse (veget.)",
+      "price": 9.20
+    }
+  ],
+  "2026-02-26": [
+    {
+      "desc": "Königsberger Klopse mit Kräuterkartoffelstampf und Krautsalat",
+      "price": 9.80
+    },
+    {
+      "desc": "Mediterrane Gemüsebolognese u.a. mit Zucchini, Paprika und Aubergine, dazu Pasta, Parmesan und Selleriechips (veget.)",
+      "price": 9.20
+    }
+  ],
+  "2026-02-27": [],
+  "2026-W09": [
+    {
+      "desc": "Pasta mit Kürbis-Pesto, dazu Cranberrys, geröstete Mandeln und Parmesan",
+      "price": 10.90
+    },
+    {
+      "desc": "Spitzkohl-Karotten-Lasagne überbacken mit Mozzarella und Sesam (veget.)",
+      "price": 12.90
+    },
+    {
+      "desc": "Kartoffelgratin \"Indisch\" mit gebratenen Hähnchenbruststreifen, Blumenkohl und Karotten",
+      "price": 12.90
+    },
+    {
+      "desc": "Soljanka mit Schmand und Baguette (klein)",
+      "price": 3.90
+    },
+    {
+      "desc": "Soljanka mit Schmand und Baguette (groß)",
+      "price": 6.90
+    },
+    {
+      "desc": "Pfeffergeschnetzeltes vom Huhn mit Kirschtomaten und frittiertem Rucola, dazu Basmatireis",
+      "price": 12.90
+    }
+  ]
+}
