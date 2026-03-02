@@ -1,0 +1,66 @@
+{
+  "2026-03-02": [
+    {
+      "desc": "Steak Schwein, Speckbohnen, Kartoffeln",
+      "price": 6.99
+    },
+    {
+      "desc": "Linguine Tomatenbasilikumsauce, gebr. Zucchini",
+      "price": 6.99
+    }
+  ],
+  "2026-03-03": [
+    {
+      "desc": "Rindergulasch, Spätzle",
+      "price": 6.99
+    },
+    {
+      "desc": "Fischstäbchen, Kartoffelstampf, Erbsen",
+      "price": 6.99
+    }
+  ],
+  "2026-03-04": [
+    {
+      "desc": "Schnitzel Schwein, Blumenkohl, Kartoffeln",
+      "price": 6.99
+    },
+    {
+      "desc": "Kartoffelpuffer, Rahmpilze, kl. Salat",
+      "price": 6.99
+    }
+  ],
+  "2026-03-05": [
+    {
+      "desc": "hausgemachte Boulette, Kohlrabi, Kartoffeln, Sauce",
+      "price": 6.99
+    },
+    {
+      "desc": "Seelachs, Fenchel Zucchini Gemüse, Reis, Dillsauce",
+      "price": 6.99
+    }
+  ],
+  "2026-03-06": [
+    {
+      "desc": "Jägerschnitzel, Pasta, Tomatensauce",
+      "price": 6.99
+    },
+    {
+      "desc": "2 Spiegeleier, Bratkartoffeln",
+      "price": 6.99
+    }
+  ],
+  "2026-W10": [
+    {
+      "desc": "Spaghetti Bolognese, Käse",
+      "price": 5.50
+    },
+    {
+      "desc": "Pasta mit Avocado Limettensauce",
+      "price": 5.50
+    },
+    {
+      "desc": "Pasta mit Lachs + Erbsenmus",
+      "price": 5.50
+    }
+  ]
+}
