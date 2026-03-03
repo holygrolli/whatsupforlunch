@@ -1,0 +1,60 @@
+{
+  "2026-03-02": [],
+  "2026-03-03": [
+    {
+      "desc": "Schweineschnitzel mit BBQ-Zwiebeln, Bacon und gebackenen Kartoffelecken, dazu Sour Cream",
+      "price": 10.20
+    },
+    {
+      "desc": "Gebratene Minikartoffeln mit Kirschtomaten und Rucola, dazu Paprika-Gurken-Quark sowie geröstete Sonnenblumenkerne (veget.)",
+      "price": 9.20
+    }
+  ],
+  "2026-03-04": [
+    {
+      "desc": "Gebackene Paprikaschote gefüllt mit Hackfleisch, dazu Kartoffeln und pikante Tomatensoße",
+      "price": 9.80
+    },
+    {
+      "desc": "Hausgemachte Spinat-Semmelknödel in leichter Käsesoße, dazu geröstete Mandeln und rote Kresse (veget.)",
+      "price": 9.20
+    }
+  ],
+  "2026-03-05": [
+    {
+      "desc": "Wurstgulasch mit Paprika auf Pasta, dazu Gouda",
+      "price": 9.60
+    },
+    {
+      "desc": "Pikanter Fenchel mit Kokosmilch, dazu Orangencouscous und gegrillte Tomaten (vegan)",
+      "price": 9.20
+    }
+  ],
+  "2026-03-06": [],
+  "2026-W10": [
+    {
+      "desc": "Pasta mit Paprika-Chili-Honigpesto, dazu geröstete Sonnenblumenkerne und Parmesan",
+      "price": 10.90
+    },
+    {
+      "desc": "Waldpilz-Lasagne mit Röstzwiebeln, überbacken mit Mozzarella (veget.)",
+      "price": 12.90
+    },
+    {
+      "desc": "Kartoffelgratin \"Griechischer Art\" mit Hackfleisch, Tomaten und Aubergine, überbacken mit Gouda",
+      "price": 12.90
+    },
+    {
+      "desc": "Kohlrabi-Karotteneintopf mit Kasseler, dazu Baguette (klein)",
+      "price": 3.90
+    },
+    {
+      "desc": "Kohlrabi-Karotteneintopf mit Kasseler, dazu Baguette (groß)",
+      "price": 6.90
+    },
+    {
+      "desc": "Hähnchencurry mit buntem Gemüse in Kokossoße, dazu Basmatireis und Erdnüsse (Extra ab 15 Uhr)",
+      "price": 12.90
+    }
+  ]
+}
