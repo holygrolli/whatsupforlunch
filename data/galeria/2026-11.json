@@ -1,0 +1,32 @@
+{
+  "2026-03-09": [
+    {
+      "desc": "Küchenchef-Tag, Lassen Sie sich überraschen!",
+      "price": 13.95
+    }
+  ],
+  "2026-03-10": [
+    {
+      "desc": "Asia-Wok-Pfanne, Hähnchen, Sesam-Gemüse und Mie-Nudeln",
+      "price": 13.95
+    }
+  ],
+  "2026-03-11": [
+    {
+      "desc": "Rinder-Cevapcici, Paprikasauce und Reis",
+      "price": 13.95
+    }
+  ],
+  "2026-03-12": [
+    {
+      "desc": "Möhrengemüse Bürgerlich, Bauernfrikadelle und Majoranjus",
+      "price": 13.95
+    }
+  ],
+  "2026-03-13": [
+    {
+      "desc": "Pazifisches Buttfilet in Petersilienpanade, Blattspinat und Sesamkartoffeln",
+      "price": 13.95
+    }
+  ]
+}
