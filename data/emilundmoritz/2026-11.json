@@ -1,0 +1,66 @@
+{
+  "2026-03-09": [
+    {
+      "desc": "Schweinebraten, Rotkohl, Kartoffeln",
+      "price": 6.99
+    },
+    {
+      "desc": "Farfalle mit Auberginen, Hirtenkäse, Kapern, Tomaten",
+      "price": 6.99
+    }
+  ],
+  "2026-03-10": [
+    {
+      "desc": "Hähnchenbrust gebraten, Reis, Zucchini, Kräutersauce",
+      "price": 6.99
+    },
+    {
+      "desc": "Backfisch, Reis Tomatensauce, Zucchini",
+      "price": 6.99
+    }
+  ],
+  "2026-03-11": [
+    {
+      "desc": "Erbseneintopf mit Bockwurst, Brot",
+      "price": 6.99
+    },
+    {
+      "desc": "Couscous Pfanne mit Grillgemüse, Shrimps",
+      "price": 6.99
+    }
+  ],
+  "2026-03-12": [
+    {
+      "desc": "Schnitzel Hamburg, Kartoffeln, Gurkensalat",
+      "price": 6.99
+    },
+    {
+      "desc": "Milchreis, heiße Kirschen, Z+Z",
+      "price": 6.99
+    }
+  ],
+  "2026-03-13": [
+    {
+      "desc": "Hähnchenkeule, Paprika Tomatensauce, Reis",
+      "price": 6.99
+    },
+    {
+      "desc": "Kartoffeltaschen, Kräuterquark, kl. Salat",
+      "price": 6.99
+    }
+  ],
+  "2026-W11": [
+    {
+      "desc": "Spaghetti, Bolognese, Käse",
+      "price": 6.99
+    },
+    {
+      "desc": "Penne mit Lachs + Erbsenmus",
+      "price": 6.99
+    },
+    {
+      "desc": "Penne mit Avocado Limettensauce",
+      "price": 6.99
+    }
+  ]
+}
