@@ -1,0 +1,51 @@
+{
+  "2026-03-09": [],
+  "2026-03-10": [
+    {
+      "desc": "Schweineschnitzel gefüllt mit Schinken und Käse, dazu Rahmerbsen und Bratkartoffeln",
+      "price": 10.20
+    },
+    {
+      "desc": "Gnocchi mit gebratenem grünem Spargel, Rucola und Kirschtomaten, dazu Parmesan (veget.)",
+      "price": 9.20
+    }
+  ],
+  "2026-03-11": [],
+  "2026-03-12": [],
+  "2026-03-13": [
+    {
+      "desc": "Tagliatelle in Lachs-Basilikum-Soße mit gebackenen Kirschtomaten und Parmesan",
+      "price": 9.90
+    },
+    {
+      "desc": "Hähnchengeschnetzeltes nach \"Züricher Art\" mit Champignons, dazu Kräuterreis",
+      "price": 9.80
+    }
+  ],
+  "2026-W11": [
+    {
+      "desc": "Pasta mit pikantem Mais-Pesto, dazu Erdnüsse und Parmesan",
+      "price": 10.90
+    },
+    {
+      "desc": "Spinatlasagne mit getrockneten Tomaten, überbacken mit Mozzarella (veget.)",
+      "price": 12.90
+    },
+    {
+      "desc": "Gebackener Hirtenkäse auf mediterranem Gemüse mit Oliven, dazu Baguette (veget.)",
+      "price": 12.90
+    },
+    {
+      "desc": "Tom Kha Gai: Thailändische Suppe mit Hühnchen, Kokosmilch, Galgant und Zitronengras, dazu Baguette (klein)",
+      "price": 3.90
+    },
+    {
+      "desc": "Tom Kha Gai: Thailändische Suppe mit Hühnchen, Kokosmilch, Galgant und Zitronengras, dazu Baguette (groß)",
+      "price": 6.90
+    },
+    {
+      "desc": "Hähnchengeschnetzeltes nach \"Züricher Art\" mit Champignons, dazu Kräuterreis (Extra ab 15 Uhr)",
+      "price": 12.90
+    }
+  ]
+}
