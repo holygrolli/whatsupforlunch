@@ -1,0 +1,66 @@
+{
+  "2026-03-16": [
+    {
+      "desc": "Steak Schwein, Speckbohnen, Bratkartoffeln",
+      "price": 6.99
+    },
+    {
+      "desc": "Toskanische Kartoffel Pfanne mit Grillgemüse, Schafskäse",
+      "price": 6.99
+    }
+  ],
+  "2026-03-17": [
+    {
+      "desc": "Hackbällchen mit Champignonrahm, Reis, Salat",
+      "price": 6.99
+    },
+    {
+      "desc": "Rührei, Kartoffeln, Gurkensalat",
+      "price": 6.99
+    }
+  ],
+  "2026-03-18": [
+    {
+      "desc": "Schnitzel Schwein, Rosenkohl, Kartoffeln",
+      "price": 6.99
+    },
+    {
+      "desc": "Gnocchi mit Spinat und Kirschtomaten",
+      "price": 6.99
+    }
+  ],
+  "2026-03-19": [
+    {
+      "desc": "Geschnetzeltes mit Champignons, Spätzle",
+      "price": 6.99
+    },
+    {
+      "desc": "Penne mit Räucherlachs, Rahmspinat",
+      "price": 6.99
+    }
+  ],
+  "2026-03-20": [
+    {
+      "desc": "Cordon Bleu vom Hähnchen, Mischgemüse, Kartoffeln",
+      "price": 6.99
+    },
+    {
+      "desc": "Kartoffel Gemüse Gratin",
+      "price": 6.99
+    }
+  ],
+  "2026-W12": [
+    {
+      "desc": "Pasta mit Bärlauchpesto",
+      "price": 5.50
+    },
+    {
+      "desc": "Pasta mit Hackbällchen, Letscho",
+      "price": 5.50
+    },
+    {
+      "desc": "Pasta Käsesauce",
+      "price": 5.50
+    }
+  ]
+}
