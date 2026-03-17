@@ -1,0 +1,69 @@
+{
+  "2026-03-16": [],
+  "2026-03-17": [
+    {
+      "desc": "Schweineschnitzel \"Strammer Max\" mit Kochschinken und Spiegelei, dazu Bratkartoffeln",
+      "price": 10.20
+    },
+    {
+      "desc": "Waldpilzgulasch mit Kräuterspätzle und Röstzwiebeln (veget.)",
+      "price": 9.20
+    }
+  ],
+  "2026-03-18": [
+    {
+      "desc": "Gyros mit gebackenen Kartoffeln, Tzatziki und Krautsalat",
+      "price": 9.80
+    },
+    {
+      "desc": "Gebackener Hirtenkäse auf verschiedenen Blattsalaten mit gebratenem Kürbis, Birnen und Mandeln, dazu Orangendressing (veget.)",
+      "price": 9.20
+    }
+  ],
+  "2026-03-19": [
+    {
+      "desc": "Jägerschnitzel mit Tomatensoße, dazu Pasta und Gouda",
+      "price": 9.80
+    },
+    {
+      "desc": "Karottenpfanne mit Zuckerschoten, Kartoffeln und Petersilie, dazu geröstete Sonnenblumenkerne und Hirtenkäse (veget.)",
+      "price": 9.20
+    }
+  ],
+  "2026-03-20": [
+    {
+      "desc": "Gebackenes Seelachsfilet mit Remoulade, Salzkartoffeln und Gurkensalat",
+      "price": 9.90
+    },
+    {
+      "desc": "Feuriges Hähnchen in Paprikarahm, dazu Basmatireis und geröstete Mandeln",
+      "price": 9.80
+    }
+  ],
+  "2026-W12": [
+    {
+      "desc": "Pasta mit Minz-Orangen-Pesto, dazu geröstete Sonnenblumenkerne und Parmesan (veget.)",
+      "price": 10.90
+    },
+    {
+      "desc": "Zucchini-Süßkartoffel-Lasagne überbacken mit Mozzarella (veget.)",
+      "price": 12.90
+    },
+    {
+      "desc": "Spinat-Kartoffel-Gratin mit gebratenen Hähnchenbruststreifen, überbacken mit Hirtenkäse und Sonnenblumenkernen",
+      "price": 12.90
+    },
+    {
+      "desc": "Soljanka mit Schmand (klein)",
+      "price": 3.90
+    },
+    {
+      "desc": "Soljanka mit Schmand (groß)",
+      "price": 6.90
+    },
+    {
+      "desc": "Feuriges Hähnchen in Paprikarahm, dazu Basmatireis und geröstete Mandeln (Extra ab 15 Uhr)",
+      "price": 12.90
+    }
+  ]
+}
