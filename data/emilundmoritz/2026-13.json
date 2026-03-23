@@ -1,0 +1,66 @@
+{
+  "2026-03-23": [
+    {
+      "desc": "Hacksteak, Waldpilzsauce, Kartoffelstampf",
+      "price": 6.99
+    },
+    {
+      "desc": "Champignonpfanne, Bratkartoffeln, Ztatziki",
+      "price": 6.99
+    }
+  ],
+  "2026-03-24": [
+    {
+      "desc": "Leberkäse mit Spiegelei, Bayrisch Kraut. Kartoffeln",
+      "price": 6.99
+    },
+    {
+      "desc": "Linguine mit Linsenbolognese",
+      "price": 6.99
+    }
+  ],
+  "2026-03-25": [
+    {
+      "desc": "Szegediner Gulasch, Sauerkraut, Knödel",
+      "price": 6.99
+    },
+    {
+      "desc": "Bratkartoffeln, Gurkensalat, 2 Spiegeleier",
+      "price": 6.99
+    }
+  ],
+  "2026-03-26": [
+    {
+      "desc": "Pasta, Wurstgulasch, Käse",
+      "price": 6.99
+    },
+    {
+      "desc": "Gemüse Lasagne mit Aubergine, Zucchnini, Karotten",
+      "price": 6.99
+    }
+  ],
+  "2026-03-27": [
+    {
+      "desc": "Schnitzel Schwein, Bohnen, Kartoffeln, Sauce",
+      "price": 6.99
+    },
+    {
+      "desc": "Seelachs, Kartoffel Gurken Salat",
+      "price": 6.99
+    }
+  ],
+  "2026-W13": [
+    {
+      "desc": "Pasta mit Bärlauchpesto",
+      "price": 5.50
+    },
+    {
+      "desc": "Pasta mit Hackbällchen, Letscho",
+      "price": 5.50
+    },
+    {
+      "desc": "Pasta, Käsesauce",
+      "price": 5.50
+    }
+  ]
+}
