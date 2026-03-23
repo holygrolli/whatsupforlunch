@@ -1,0 +1,132 @@
+{
+  "2026-04-06": [
+    {
+      "desc": "Kartoffelrösti mit Kräuterdip und mediterranem Gemüse",
+      "price": 4.10
+    },
+    {
+      "desc": "Weißkrauteintopf mit Kartoffelwürfeln und einer Scheibe Brot",
+      "price": 3.50
+    },
+    {
+      "desc": "Schweinebraten mit Bratensoße",
+      "price": 3.75
+    },
+    {
+      "desc": "Kartoffeln (Sättigungsbeilage)",
+      "price": 1.10
+    },
+    {
+      "desc": "Rohkostsalat nach Angebot (Gemüsebeilage)",
+      "price": 1.40
+    },
+    {
+      "desc": "Gemüse n. Angebot (Gemüsebeilage)",
+      "price": 1.10
+    }
+  ],
+  "2026-04-07": [
+    {
+      "desc": "Linsensalat mit Hirtenkäse und Gemüse",
+      "price": 4.75
+    },
+    {
+      "desc": "Kräuterquark mit Kartoffeln und Butter",
+      "price": 3.50
+    },
+    {
+      "desc": "Curry-Putengeschnetzeltes",
+      "price": 3.90
+    },
+    {
+      "desc": "Reis (Sättigungsbeilage)",
+      "price": 1.10
+    },
+    {
+      "desc": "Rohkostsalat nach Angebot (Gemüsebeilage)",
+      "price": 1.40
+    }
+  ],
+  "2026-04-08": [
+    {
+      "desc": "Couscous-Gemüse-Pfanne und Joghurt-Dip",
+      "price": 3.70
+    },
+    {
+      "desc": "Schinkennudeln mit Sahnesoße",
+      "price": 3.50
+    },
+    {
+      "desc": "Schweineschnitzel „Wiener-Art“",
+      "price": 3.75
+    },
+    {
+      "desc": "Kartoffeln (Sättigungsbeilage)",
+      "price": 1.10
+    },
+    {
+      "desc": "Bratkartoffeln (Sättigungsbeilage)",
+      "price": 1.30
+    },
+    {
+      "desc": "Geriebener Gouda (Sättigungsbeilage)",
+      "price": 0.45
+    },
+    {
+      "desc": "Rohkostsalat nach Angebot (Gemüsebeilage)",
+      "price": 1.40
+    },
+    {
+      "desc": "Gemüse Angebot (Gemüsebeilage)",
+      "price": 1.10
+    }
+  ],
+  "2026-04-09": [
+    {
+      "desc": "Vollkornnudeln mit Zucchini, Möhren, Tomaten und Zitronen-Thymiansoße",
+      "price": 4.60
+    },
+    {
+      "desc": "Grießbrei mit heißen Kirschen",
+      "price": 3.50
+    },
+    {
+      "desc": "Bratwurst mit Soße",
+      "price": 2.85
+    },
+    {
+      "desc": "Püree (Sättigungsbeilage)",
+      "price": 1.10
+    },
+    {
+      "desc": "Kartoffeln (Sättigungsbeilage)",
+      "price": 1.30
+    },
+    {
+      "desc": "Rohkostsalat nach Angebot (Gemüsebeilage)",
+      "price": 1.40
+    },
+    {
+      "desc": "Sauerkraut (Gemüsebeilage)",
+      "price": 1.10
+    }
+  ],
+  "2026-04-10": [
+    {
+      "desc": "Mandel-Brokkoli-Blumenkohl-Auflauf",
+      "price": 4.40
+    },
+    {
+      "desc": "Hackfleisch-Zucchini-Pfanne mit Kartoffeln",
+      "price": 3.50
+    },
+    {
+      "desc": "Tagesangebot (Menü 2) - Preis nicht angegeben",
+      "price": 0.00
+    },
+    {
+      "desc": "Rohkostsalat nach Angebot (Gemüsebeilage)",
+      "price": 1.40
+    }
+  ]
+}
