@@ -1,0 +1,60 @@
+{
+  "2026-03-30": [],
+  "2026-03-31": [
+    {
+      "desc": "Schweineschnitzel \"Gärtnerin\" überbacken mit Gemüse und Sc. Hollandaise, dazu Bratkartoffeln",
+      "price": 10.20
+    },
+    {
+      "desc": "Sojagyros mit Ingwer, dazu Kartoffelecken, Tzatziki und Spitzkohlsalat (veget.)",
+      "price": 9.20
+    }
+  ],
+  "2026-04-01": [
+    {
+      "desc": "Orientalisches Hähnchen auf Gemüse-Couscous, dazu Minz-Dip",
+      "price": 9.80
+    },
+    {
+      "desc": "Gnocchi in Bärlauchsoße mit getrockneten Tomaten, dazu Parmesan und Sonnenblumenkerne (veget.)",
+      "price": 9.20
+    }
+  ],
+  "2026-04-02": [
+    {
+      "desc": "Jägerklopse mit Champignons, dazu Kartoffelstampf und Krautsalat",
+      "price": 9.80
+    },
+    {
+      "desc": "Eier in Honig-Senfsoße, dazu Kartoffeln, frittierte Petersilie und Gurkensalat (veget.)",
+      "price": 8.90
+    }
+  ],
+  "2026-04-03": [],
+  "2026-W14": [
+    {
+      "desc": "Pasta mit Dattel-Oliven-Pesto, dazu geröstete Mandeln und Parmesan (veget.)",
+      "price": 10.90
+    },
+    {
+      "desc": "Fenchel-Tomaten-Lasagne mit gebratener Aubergine, überbacken mit Mozzarella und Thymian (veget.)",
+      "price": 12.90
+    },
+    {
+      "desc": "Hähnchengratin mit Penne und gebratener Zucchini in pikanter Tomatensoße, überbacken mit Hirtenkäse",
+      "price": 12.90
+    },
+    {
+      "desc": "Soja-Kesselgulasch mit Baguette (vegan) (klein)",
+      "price": 3.90
+    },
+    {
+      "desc": "Soja-Kesselgulasch mit Baguette (vegan) (groß)",
+      "price": 6.90
+    },
+    {
+      "desc": "Hähnchengeschnetzeltes mit Champignons und Lauch, dazu Basmatireis (Extra ab 15 Uhr)",
+      "price": 12.90
+    }
+  ]
+}
