@@ -1,0 +1,112 @@
+{
+  "2026-04-20": [
+    {
+      "desc": "DGE-Gericht: Champignontopf mit Schwarzen Vollkornreis und Kräutersoße",
+      "price": 4.30
+    },
+    {
+      "desc": "Menü 1: Nudeln mit Tomatensoße und Käse",
+      "price": 3.50
+    },
+    {
+      "desc": "Menü 2: Marinierter Hering in Sahnesoße mit Salzkartoffeln",
+      "price": 4.95
+    },
+    {
+      "desc": "Sättigungsbeilage: Geriebener Gouda",
+      "price": 0.45
+    },
+    {
+      "desc": "Sättigungsbeilage: Kartoffeln",
+      "price": 1.10
+    },
+    {
+      "desc": "Gemüsebeilage: Rohkostsalat nach Angebot",
+      "price": 1.40
+    }
+  ],
+  "2026-04-21": [
+    {
+      "desc": "DGE-Gericht: Gebackene Kartoffeltaschen mit Frischkäse gefüllt & gem. Salat",
+      "price": 4.20
+    },
+    {
+      "desc": "Menü 1: Kohlrabi-Möhreneintopf",
+      "price": 3.50
+    },
+    {
+      "desc": "Menü 2: Currywurst mit fruchtiger Currysoße",
+      "price": 3.85
+    },
+    {
+      "desc": "Sättigungsbeilage: Pommes",
+      "price": 1.30
+    },
+    {
+      "desc": "Gemüsebeilage: Rohkostsalat nach Angebot",
+      "price": 1.40
+    }
+  ],
+  "2026-04-22": [
+    {
+      "desc": "DGE-Gericht: Reisnudelsalat mit Kidneybohnen, Paprika, Tomaten und Hirtenkäse",
+      "price": 4.40
+    },
+    {
+      "desc": "Menü 1: Zwei Eier in Senfsoße mit Kartoffeln",
+      "price": 3.50
+    },
+    {
+      "desc": "Menü 2: Lasagne al forno",
+      "price": 4.25
+    },
+    {
+      "desc": "Gemüsebeilage: Rohkostsalat nach Angebot",
+      "price": 1.40
+    }
+  ],
+  "2026-04-23": [
+    {
+      "desc": "DGE-Gericht: Kartoffelgulasch mit Paprika und Kräuterhaube",
+      "price": 3.80
+    },
+    {
+      "desc": "Menü 1: Kaiserschmarrn mit Rosinen und Apfelmus",
+      "price": 3.50
+    },
+    {
+      "desc": "Menü 2: Mariniertes Schweinesteak",
+      "price": 3.85
+    },
+    {
+      "desc": "Sättigungsbeilage: Bratkartoffeln",
+      "price": 1.30
+    },
+    {
+      "desc": "Gemüsebeilage: Rohkostsalat nach Angebot",
+      "price": 1.40
+    },
+    {
+      "desc": "Gemüsebeilage: Erbsen",
+      "price": 1.10
+    }
+  ],
+  "2026-04-24": [
+    {
+      "desc": "DGE-Gericht: Ofenkartoffel mit Quark-dip und ein kl. gemischter Salat",
+      "price": 4.20
+    },
+    {
+      "desc": "Menü 1: Gemüse-Kartoffelauflauf mit Gouda überbacken",
+      "price": 3.50
+    },
+    {
+      "desc": "Menü 2: Tagesangebot",
+      "price": 0.00
+    },
+    {
+      "desc": "Gemüsebeilage: Rohkostsalat nach Angebot",
+      "price": 1.40
+    }
+  ]
+}
