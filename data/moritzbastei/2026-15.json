@@ -1,0 +1,77 @@
+{
+  "2026-04-06": [],
+  "2026-04-07": [
+    {
+      "desc": "Schweineschnitzel mit Rahmblumenkohl, Salzkartoffeln und brauner Soße",
+      "price": 10.20
+    },
+    {
+      "desc": "Cannelloni gefüllt mit Spinat in Gorgonzolasoße, überbacken mit Gouda und Mandeln (veget.)",
+      "price": 9.20
+    }
+  ],
+  "2026-04-08": [
+    {
+      "desc": "Currywurst \"Nach Art des Hauses\" mit Kartoffelecken und Salatbeilage",
+      "price": 9.80
+    },
+    {
+      "desc": "Hausgemachte Bärlauch-Semmelknödel auf pikantem Tomatenragout, dazu Parmesan (veget.)",
+      "price": 9.20
+    }
+  ],
+  "2026-04-09": [
+    {
+      "desc": "Gebackene Hähnchenbrust in Cornflakes-Panade, dazu gebratene Mie-Nudeln mit buntem Gemüse, Sweet-Chilisoße und Röstzwiebeln",
+      "price": 9.80
+    },
+    {
+      "desc": "Gerösteter Blumenkohl mit rote Bete-Hummus, Fladenbrot und Salatbeilage (vegan)",
+      "price": 9.20
+    }
+  ],
+  "2026-04-10": [
+    {
+      "desc": "Matjesfilet in Apfel-Zwiebelremoulade, dazu Salzkartoffeln",
+      "price": 9.90
+    },
+    {
+      "desc": "Pfeffergeschnetzeltes vom Huhn, mit Kirschtomaten und frittierter Petersilie, dazu Basmatireis",
+      "price": 9.80
+    }
+  ],
+  "2026-W15": [
+    {
+      "desc": "Pasta mit Paprika-Chili-Pesto, dazu geröstete Sonnenblumenkerne und Parmesan (veget.)",
+      "price": 10.90
+    },
+    {
+      "desc": "Frühlingslasagne u.a. mit Karotte, Zuckerschote, Blumenkohl und Frühlingszwiebeln, überbacken mit Mozzarella und Sonnenblumenkernen (veget.)",
+      "price": 12.90
+    },
+    {
+      "desc": "Nudel-Hackfleischgratin mit Tomaten und Zucchini, überbacken mit Hirtenkäse",
+      "price": 12.90
+    },
+    {
+      "desc": "Kartoffelsuppe mit Baguette (vegan) – klein",
+      "price": 3.90
+    },
+    {
+      "desc": "Kartoffelsuppe mit Baguette (vegan) – groß",
+      "price": 6.90
+    },
+    {
+      "desc": "Kartoffelsuppe mit gebratenen Würstchen, dazu Baguette – klein",
+      "price": 4.10
+    },
+    {
+      "desc": "Kartoffelsuppe mit gebratenen Würstchen, dazu Baguette – groß",
+      "price": 7.10
+    },
+    {
+      "desc": "Pfeffergeschnetzeltes vom Huhn, mit Kirschtomaten und frittierter Petersilie, dazu Basmatireis (Extra ab 15 Uhr)",
+      "price": 12.90
+    }
+  ]
+}
