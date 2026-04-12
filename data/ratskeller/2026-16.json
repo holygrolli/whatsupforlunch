@@ -1,0 +1,92 @@
+{
+  "2026-04-13": [
+    {
+      "desc": "Nudeleintopf mit Geflügelfleisch und Gemüse- Julienne",
+      "price": 5.60
+    },
+    {
+      "desc": "Brokkoli-Nuss- Ecke mit Spinatsoße und bunten Gnocchi",
+      "price": 6.10
+    },
+    {
+      "desc": "Gyrospfanne mit Zaziki, Krautsalat und Tomatenreis",
+      "price": 6.70
+    },
+    {
+      "desc": "Grillkäse auf buntem Linsensalat mit Spargel, Erbsen + Baguette",
+      "price": 8.50
+    }
+  ],
+  "2026-04-14": [
+    {
+      "desc": "Nougat-Topfen-knödel mit Vanillesoße",
+      "price": 5.60
+    },
+    {
+      "desc": "Pasta mit Tomatensoße und geriebenem Käse",
+      "price": 6.10
+    },
+    {
+      "desc": "Spaghetti Bolognese mit geriebenem Käse",
+      "price": 6.70
+    },
+    {
+      "desc": "Coq au Vin mit Zwiebeln, Champignons + Trüffel-Kartoffel- Stampf",
+      "price": 8.50
+    }
+  ],
+  "2026-04-15": [
+    {
+      "desc": "Gräupchen- Eintopf mit Kassler- würfeln",
+      "price": 5.60
+    },
+    {
+      "desc": "Eieromelette mit Rahmspinat und Petersilien- kartoffeln",
+      "price": 6.10
+    },
+    {
+      "desc": "Paprikaschote mit Geflügelhack, Tomatensoße und Spätzle",
+      "price": 6.70
+    },
+    {
+      "desc": "Überraschungs- gericht mit BIO- Gemüse von KOLA Leipzig",
+      "price": null
+    }
+  ],
+  "2026-04-16": [
+    {
+      "desc": "Kaiserschmarr'n mit Rosinen, Mandeln und Apfelmus",
+      "price": 5.60
+    },
+    {
+      "desc": "Kräuterquark mit Zwiebeln, Butter und Petersilien- kartoffeln",
+      "price": 6.10
+    },
+    {
+      "desc": "Wildgulasch mit Apfelrotkohl und Böhmischen Knödeln",
+      "price": 6.70
+    },
+    {
+      "desc": "Dreierlei Kohl mit Erbsen-Kresse- Soße, Cashew- bröseln und Sprossen",
+      "price": 8.50
+    }
+  ],
+  "2026-04-17": [
+    {
+      "desc": "Tomatencreme- Suppe mit Basilikum-Pesto und Croûtons",
+      "price": 5.60
+    },
+    {
+      "desc": "Käsespatz'n „Allgäuer Art\" mit Röstzwiebeln",
+      "price": 6.10
+    },
+    {
+      "desc": "Krakauer mit Grünkohl und Petersilien- kartoffeln",
+      "price": 6.70
+    },
+    {
+      "desc": "Knuspriges Seelachsfilet mit Gurkensalat und Risi-Bisi",
+      "price": 8.50
+    }
+  ]
+}
