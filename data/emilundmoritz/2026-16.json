@@ -1,0 +1,66 @@
+{
+  "2026-04-13": [
+    {
+      "desc": "Kasslerbraten, Sauerkraut, Kartoffeln",
+      "price": 6.99
+    },
+    {
+      "desc": "Grießbrei, Kirschkompott, Z+Z",
+      "price": 6.99
+    }
+  ],
+  "2026-04-14": [
+    {
+      "desc": "Geschnetzeltes von der Pute, Paprika, Reis",
+      "price": 6.99
+    },
+    {
+      "desc": "Gnocchi mit Bärlauch Pesto, Kirschtomaten",
+      "price": 6.99
+    }
+  ],
+  "2026-04-15": [
+    {
+      "desc": "Schnitzel - Schwein, Jägersauce, Kartoffeln",
+      "price": 6.99
+    },
+    {
+      "desc": "Portion Blumenkohl, Kartoffeln, Butterbrösel, Sc. Hollandaise",
+      "price": 6.99
+    }
+  ],
+  "2026-04-16": [
+    {
+      "desc": "Rostbrätl, geschmorrte Zwiebel, Kartoffelstampf",
+      "price": 6.99
+    },
+    {
+      "desc": "Fischstäbchen, Kartoffelstampf, Tomatensauce",
+      "price": 6.99
+    }
+  ],
+  "2026-04-17": [
+    {
+      "desc": "Currywurst, Pommes",
+      "price": 6.99
+    },
+    {
+      "desc": "2 Spiegeleier, Bratkartoffeln, Gurkensalat",
+      "price": 6.99
+    }
+  ],
+  "2026-W16": [
+    {
+      "desc": "Penne, Wurstgulasch",
+      "price": 5.50
+    },
+    {
+      "desc": "Pasta mit Avocado Limettensauce",
+      "price": 5.50
+    },
+    {
+      "desc": "Spaghetti Pilz Rahmsauce",
+      "price": 5.50
+    }
+  ]
+}
