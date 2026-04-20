@@ -1,0 +1,66 @@
+{
+  "2026-04-20": [
+    {
+      "desc": "Hähnchen Spätzle Pfanne",
+      "price": 6.99
+    },
+    {
+      "desc": "Spätzle Gemüse Pfanne",
+      "price": 6.99
+    }
+  ],
+  "2026-04-21": [
+    {
+      "desc": "Jägerschnitzel, Spirelli, Tomatensauce",
+      "price": 6.99
+    },
+    {
+      "desc": "Matjes, Hausfrauensauce, Kartoffeln",
+      "price": 6.99
+    }
+  ],
+  "2026-04-22": [
+    {
+      "desc": "Steak Schwein, Letscho, Bratkartoffeln",
+      "price": 6.99
+    },
+    {
+      "desc": "Kartoffel Brokkoli Gratin",
+      "price": 6.99
+    }
+  ],
+  "2026-04-23": [
+    {
+      "desc": "Sülze, Bratkartoffeln, Remoulade",
+      "price": 6.99
+    },
+    {
+      "desc": "Backfisch, Kartoffelstampf, Remoulade",
+      "price": 6.99
+    }
+  ],
+  "2026-04-24": [
+    {
+      "desc": "Schnitzel Pute, Kohlrabi, Kartoffeln, Sauce",
+      "price": 6.99
+    },
+    {
+      "desc": "Quarkkeulchen, Apfelkompott, Z+Z",
+      "price": 6.99
+    }
+  ],
+  "2026-W17": [
+    {
+      "desc": "Penne, Wurstgulasch",
+      "price": 5.50
+    },
+    {
+      "desc": "Pasta Avocado, Limettensauce",
+      "price": 5.50
+    },
+    {
+      "desc": "Spaghetti + Pilz Rahmsauce",
+      "price": 5.50
+    }
+  ]
+}
