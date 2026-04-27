@@ -1,0 +1,58 @@
+{
+  "2026-04-27": [
+    {
+      "desc": "Bratwurst, Sauerkraut, Kartoffeln, Sauce",
+      "price": 6.99
+    },
+    {
+      "desc": "Süßkartoffel Kicherbesen Curry mit Blumenkohl, Kräuterreis",
+      "price": 6.99
+    }
+  ],
+  "2026-04-28": [
+    {
+      "desc": "Königsberger Klöpse in Kapernsauce, Kartoffeln",
+      "price": 6.99
+    },
+    {
+      "desc": "Bauernfrühstück vegetarisch",
+      "price": 6.99
+    }
+  ],
+  "2026-04-29": [
+    {
+      "desc": "Schnitzel - Schwein-, Blumenkohl mit Sc. Hollandaise, Kartoffeln",
+      "price": 6.99
+    },
+    {
+      "desc": "Fischstäbchen, kartoffelstampf, Blumenkohl",
+      "price": 6.99
+    }
+  ],
+  "2026-04-30": [
+    {
+      "desc": "Rollbraten vom Kaninchen, Rotkohl, Kartoffeln",
+      "price": 6.99
+    },
+    {
+      "desc": "Tagliatelle mit Champignons, Frischkäselauch",
+      "price": 6.99
+    }
+  ],
+  "2026-05-01": [
+    {
+      "desc": "Penne mit Wurstgulasch",
+      "price": 5.50
+    },
+    {
+      "desc": "Penne mit Spinat Käse Sauce",
+      "price": 5.50
+    }
+  ],
+  "2026-W18": [
+    {
+      "desc": "Penne Bärlauch Pesto + Kirschtomaten",
+      "price": 5.50
+    }
+  ]
+}
