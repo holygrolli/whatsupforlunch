@@ -1,0 +1,32 @@
+{
+  "2026-05-04": [
+    {
+      "desc": "Küchenchef-Tag, lassen Sie sich überraschen!",
+      "price": 11.95
+    }
+  ],
+  "2026-05-05": [
+    {
+      "desc": "Bayerischer Leberkäse, Bratensauce, Röstzwiebeln und Bratkartoffeln",
+      "price": 11.95
+    }
+  ],
+  "2026-05-06": [
+    {
+      "desc": "Hähnchen \"Korma\", gebratene Paprika und Reis",
+      "price": 11.95
+    }
+  ],
+  "2026-05-07": [
+    {
+      "desc": "Schweinenackensteak, Kräuterbutter, Krautsalat und Pommes frites",
+      "price": 11.95
+    }
+  ],
+  "2026-05-08": [
+    {
+      "desc": "Seelachs im Kräutermantel, Zitronensauce, Brokkoli und Reis",
+      "price": 11.95
+    }
+  ]
+}
