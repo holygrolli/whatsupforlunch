@@ -1,0 +1,57 @@
+{
+  "2026-05-11": [
+    {
+      "desc": "Rostbrätl, Bratkartoffeln",
+      "price": 6.99
+    },
+    {
+      "desc": "3 Fischstäbchen, Kartoffelstampf, Gurkensalat",
+      "price": 6.99
+    }
+  ],
+  "2026-05-12": [
+    {
+      "desc": "Schweinegulasch, Spirelli",
+      "price": 6.99
+    },
+    {
+      "desc": "Spirelli, Tomatensauce",
+      "price": 6.99
+    }
+  ],
+  "2026-05-13": [
+    {
+      "desc": "Schnitzel Schwein, Möhren, Kartoffeln",
+      "price": 6.99
+    },
+    {
+      "desc": "Kohlrabischnitzel, Möhrengemüse, Kartoffeln",
+      "price": 6.99
+    }
+  ],
+  "2026-05-14": [],
+  "2026-05-15": [
+    {
+      "desc": "Kaßlerbraten, Sauerkraut, Kartoffeln",
+      "price": 6.99
+    },
+    {
+      "desc": "Mar. Hering mit Hausfrauensauce, Kartoffeln",
+      "price": 6.99
+    }
+  ],
+  "2026-W20": [
+    {
+      "desc": "Pasta Wurstgulasch",
+      "price": 5.50
+    },
+    {
+      "desc": "Spaghetti mit Spinat Käse Sauce",
+      "price": 5.50
+    },
+    {
+      "desc": "Spaghetti mit Bärlauchpesto+Kirschtomaten",
+      "price": 5.50
+    }
+  ]
+}
