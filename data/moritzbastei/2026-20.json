@@ -1,0 +1,48 @@
+{
+  "2026-05-11": [],
+  "2026-05-12": [
+    {
+      "desc": "Schweineschnitzel \"Mailänder Art\" in Parmesan-Semmelkruste, dazu pikante Tomatensoße und Linguine",
+      "price": 10.20
+    },
+    {
+      "desc": "Gnocchi mit gebratenem Spargel, Rucola und Kirschtomaten, dazu Parmesan (veget.)",
+      "price": 9.20
+    }
+  ],
+  "2026-05-13": [
+    {
+      "desc": "Currywurst vom Kalb \"Nach Art des Hauses\" mit Kartoffelecken und Salatbeilage",
+      "price": 9.80
+    },
+    {
+      "desc": "Sojagulasch mit geschmortem Weißkohl, dazu Böhmische Knödel (veget.)",
+      "price": 9.20
+    }
+  ],
+  "2026-05-14": [],
+  "2026-05-15": [
+    {
+      "desc": "Hähnchencurry mit buntem Gemüse in Erdnuss-Kokossoße, dazu Basmatireis",
+      "price": 9.80
+    }
+  ],
+  "2026-W20": [
+    {
+      "desc": "Pasta mit Paprika-Chili-Honigpesto, dazu geröstete Sonnenblumenkerne und Parmesan (veget.)",
+      "price": 10.90
+    },
+    {
+      "desc": "Mangoldlasagne mit getrockneten Tomaten, überbacken mit Mozzarella (veget.)",
+      "price": 12.90
+    },
+    {
+      "desc": "Hähnchengratin mit Penne und gebratener Zucchini in pikanter Tomatensoße, überbacken mit Hirtenkäse",
+      "price": 12.90
+    },
+    {
+      "desc": "Hähnchencurry mit buntem Gemüse in Erdnuss-Kokossoße, dazu Basmatireis (Extra ab 15 Uhr)",
+      "price": 12.90
+    }
+  ]
+}
