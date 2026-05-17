@@ -1,0 +1,91 @@
+{
+  "2026-06-22": [
+    {
+      "desc": "Grüner Bohneneintopf mit Rindfleisch und Kartoffel- würfeln",
+      "price": 5.60
+    },
+    {
+      "desc": "Vegane „Frikadelle\" mit Champignon- Rahm und Reis",
+      "price": 6.10
+    },
+    {
+      "desc": "Hähnchen „Cordon bleu\" mit Honigmöhren und Petersilien- kartoffeln",
+      "price": 6.70
+    },
+    {
+      "desc": "Bunte Fusilli mit Auberginen- Ragout, Kapern und Hirtenkäse",
+      "price": 8.50
+    }
+  ],
+  "2026-06-23": [
+    {
+      "desc": "Drei Eierkuchen mit Apfelmus und Zimtzucker",
+      "price": 5.60
+    },
+    {
+      "desc": "Pasta mit Tomatensoße und geriebenem Käse",
+      "price": 6.10
+    },
+    {
+      "desc": "Jägerschnitzel mit Tomatensoße und Pasta",
+      "price": 6.70
+    },
+    {
+      "desc": "Toskanischer Brotsalat mit Oliven, Rucola und Mozzarella- Sticks",
+      "price": 8.50
+    }
+  ],
+  "2026-06-24": [
+    {
+      "desc": "Soljanka mit Zitrone und Sauerrahm",
+      "price": 5.60
+    },
+    {
+      "desc": "Kartoffeltaschen mit Frischkäse, Kräuterdip und Salat",
+      "price": 6.10
+    },
+    {
+      "desc": "Geflügelbällchen mit Champignon- Rahm und Kartoffelstampf",
+      "price": 6.70
+    },
+    {
+      "desc": "Überraschungs- gericht mit BIO- Gemüse von KOLA Leipzig"
+    }
+  ],
+  "2026-06-25": [
+    {
+      "desc": "Drei Hefeklöße mit warmen Heidelbeeren",
+      "price": 5.60
+    },
+    {
+      "desc": "Brokkoli-Nuss- Ecke auf Erbsen und Kräuterreis",
+      "price": 6.10
+    },
+    {
+      "desc": "Thüringer Bratwurst mit Sauerkraut und Petersilien- kartoffeln",
+      "price": 6.70
+    },
+    {
+      "desc": "Chicken Wrap mit griechischem Salat und Joghurt",
+      "price": 8.50
+    }
+  ],
+  "2026-06-26": [
+    {
+      "desc": "Rote-Bete- Cremesuppe mit Hirtenkäse und Sprossen",
+      "price": 5.60
+    },
+    {
+      "desc": "Grünkernrisotto mit Paprika, Zuckerschoten, Zucchini und Karotten",
+      "price": 6.10
+    },
+    {
+      "desc": "Knusper Seelachsfilet mit Blattspinat und Risi Bisi",
+      "price": 6.70
+    },
+    {
+      "desc": "Lammhacksteak auf Ratatouille und bunten Gnocchi",
+      "price": 8.50
+    }
+  ]
+}
