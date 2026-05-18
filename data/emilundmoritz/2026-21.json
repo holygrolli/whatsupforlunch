@@ -1,0 +1,66 @@
+{
+  "2026-05-18": [
+    {
+      "desc": "Geschnetzeltes \" Züricher Art\", Spätzle",
+      "price": 6.99
+    },
+    {
+      "desc": "Spätzle Champignon Pfanne, Röstzwiebeln",
+      "price": 6.99
+    }
+  ],
+  "2026-05-19": [
+    {
+      "desc": "Steak Pute, Ananas- Currysauce, Basmatireis",
+      "price": 6.99
+    },
+    {
+      "desc": "Basmatireis Pfanne mit grünem Spargel, Kirschtomaten Bärlauchpesto",
+      "price": 6.99
+    }
+  ],
+  "2026-05-20": [
+    {
+      "desc": "Paprika gefüllt mit Hach, Kartoffeln, Sauce",
+      "price": 6.99
+    },
+    {
+      "desc": "Kartoffel Gemüse Rösti mit Kräuterdip, kl. Salat",
+      "price": 6.99
+    }
+  ],
+  "2026-05-21": [
+    {
+      "desc": "Geflügelleber, Kartoffel Stampf, Zwiebel",
+      "price": 6.99
+    },
+    {
+      "desc": "Seelachs paniert, Kartoffelstampf, Dill Zitronensauce, Kartoffelstampf",
+      "price": 6.99
+    }
+  ],
+  "2026-05-22": [
+    {
+      "desc": "Schnitzel- Schwein-, Kartoffel Gurkensalat",
+      "price": 6.99
+    },
+    {
+      "desc": "Rührei, Spinat, Kartoffeln",
+      "price": 6.99
+    }
+  ],
+  "2026-W21": [
+    {
+      "desc": "Spirelli Wurstgulasch",
+      "price": 5.50
+    },
+    {
+      "desc": "Spirelli mit Pilzrahmsauce",
+      "price": 5.50
+    },
+    {
+      "desc": "Spaghetti mit Bärlauch Pesto",
+      "price": 5.50
+    }
+  ]
+}
