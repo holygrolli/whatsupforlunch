@@ -1,0 +1,132 @@
+{
+  "2026-06-01": [
+    {
+      "desc": "DGE-Gericht: Kartoffelrösti mit Kräuterdip und mediterranem Gemüse",
+      "price": 4.10
+    },
+    {
+      "desc": "Menü 1: Weißkrauteintopf mit Kartoffelwürfeln und einer Scheibe Brot",
+      "price": 3.50
+    },
+    {
+      "desc": "Menü 2: Schweinebraten mit Bratensoße",
+      "price": 3.75
+    },
+    {
+      "desc": "Sättigungsbeilage: Kartoffeln",
+      "price": 1.10
+    },
+    {
+      "desc": "Gemüsebeilage: Rohkostsalat nach Angebot",
+      "price": 1.40
+    },
+    {
+      "desc": "Gemüse n. Angebot",
+      "price": 1.10
+    }
+  ],
+  "2026-06-02": [
+    {
+      "desc": "DGE-Gericht: Linsensalat mit Hirtenkäse und Gemüse",
+      "price": 4.75
+    },
+    {
+      "desc": "Menü 1: Kräuterquark mit Kartoffeln und Butter",
+      "price": 3.50
+    },
+    {
+      "desc": "Menü 2: Curry-Putengeschnetzeltes",
+      "price": 3.90
+    },
+    {
+      "desc": "Sättigungsbeilage: Reis",
+      "price": 1.10
+    },
+    {
+      "desc": "Gemüsebeilage: Rohkostsalat nach Angebot",
+      "price": 1.40
+    }
+  ],
+  "2026-06-03": [
+    {
+      "desc": "DGE-Gericht: Couscous-Gemüse-Pfanne und Joghurt-Dip",
+      "price": 3.70
+    },
+    {
+      "desc": "Menü 1: Schinkennudeln mit Sahnesoße",
+      "price": 3.50
+    },
+    {
+      "desc": "Menü 2: Schweineschnitzel „Wiener-Art“",
+      "price": 3.75
+    },
+    {
+      "desc": "Sättigungsbeilage: Kartoffeln",
+      "price": 1.10
+    },
+    {
+      "desc": "Sättigungsbeilage: Bratkartoffeln",
+      "price": 1.30
+    },
+    {
+      "desc": "Sättigungsbeilage: Geriebener Gouda",
+      "price": 0.45
+    },
+    {
+      "desc": "Gemüsebeilage: Rohkostsalat nach Angebot",
+      "price": 1.40
+    },
+    {
+      "desc": "Gemüse Angebot",
+      "price": 1.10
+    }
+  ],
+  "2026-06-04": [
+    {
+      "desc": "DGE-Gericht: Vollkornnudeln mit Zucchini, Möhren, Tomaten und Zitronen-Thymiansoße",
+      "price": 4.60
+    },
+    {
+      "desc": "Menü 1: Grießbrei mit heißen Kirschen",
+      "price": 3.50
+    },
+    {
+      "desc": "Menü 2: Bratwurst mit Soße",
+      "price": 2.85
+    },
+    {
+      "desc": "Sättigungsbeilage: Püree",
+      "price": 1.10
+    },
+    {
+      "desc": "Sättigungsbeilage: Kartoffeln",
+      "price": 1.30
+    },
+    {
+      "desc": "Gemüsebeilage: Rohkostsalat nach Angebot",
+      "price": 1.40
+    },
+    {
+      "desc": "Gemüsebeilage: Sauerkraut",
+      "price": 1.10
+    }
+  ],
+  "2026-06-05": [
+    {
+      "desc": "DGE-Gericht: Mandel-Brokkoli-Blumenkohl-Auflauf",
+      "price": 4.40
+    },
+    {
+      "desc": "Menü 1: Hackfleisch-Zucchini-Pfanne mit Kartoffeln",
+      "price": 3.50
+    },
+    {
+      "desc": "Menü 2: Tagesangebot",
+      "price": 0.00
+    },
+    {
+      "desc": "Gemüsebeilage: Rohkostsalat nach Angebot",
+      "price": 1.40
+    }
+  ]
+}
