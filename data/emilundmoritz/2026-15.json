@@ -1,0 +1,57 @@
+{
+  "2026-04-06": [],
+  "2026-04-07": [
+    {
+      "desc": "Hackbraten, Rotkohl, Kartoffeln",
+      "price": 6.99
+    },
+    {
+      "desc": "Senfeier, Kartoffeln, kl. Salat",
+      "price": 6.99
+    }
+  ],
+  "2026-04-08": [
+    {
+      "desc": "Gulasch, Spätzle",
+      "price": 6.99
+    },
+    {
+      "desc": "Backfisch, Kartoffelsalat",
+      "price": 6.99
+    }
+  ],
+  "2026-04-09": [
+    {
+      "desc": "Hähnchen Spätzle Pfanne mit Pilzen + Erbsen",
+      "price": 6.99
+    },
+    {
+      "desc": "Spinat, Rührei, Kartoffeln",
+      "price": 6.99
+    }
+  ],
+  "2026-04-10": [
+    {
+      "desc": "Schnitzel Schwein, Möhren, Kartoffeln",
+      "price": 6.99
+    },
+    {
+      "desc": "Tortellini mit Käse gefüllt, Bärlauchsauce",
+      "price": 6.99
+    }
+  ],
+  "2026-W15": [
+    {
+      "desc": "Pasta mit Bärlauchpesto",
+      "price": 5.50
+    },
+    {
+      "desc": "Pasta mit Champignons + Spinat",
+      "price": 5.50
+    },
+    {
+      "desc": "Pasta mit Paprikapesto, Parmesan",
+      "price": 5.50
+    }
+  ]
+}

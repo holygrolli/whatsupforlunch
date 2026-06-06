@@ -1,0 +1,92 @@
+{
+    "2026-05-04": [
+        {
+            "desc": "Soljanka mit Zitrone und Sauerrahm",
+            "price": 5.60
+        },
+        {
+            "desc": "Sellerieschnitzel auf Erbsen und bunten Gnocchi",
+            "price": 6.10
+        },
+        {
+            "desc": "Hacksteak mit Waldpilzsoße und Kartoffelstampf",
+            "price": 6.70
+        },
+        {
+            "desc": "Hähnchenbrust-„Saltimbocca\" auf Auberginen-Melanzane und Linguine",
+            "price": 8.50
+        }
+    ],
+    "2026-05-05": [
+        {
+            "desc": "Kartoffelpuffer mit Apfelmus und Zimtzucker",
+            "price": 5.60
+        },
+        {
+            "desc": "Pasta mit Tomatensoße und geriebenem Käse",
+            "price": 6.10
+        },
+        {
+            "desc": "Spaghetti Bolognese mit geriebenem Käse",
+            "price": 6.70
+        },
+        {
+            "desc": "Bauernfrühstück mit Kartoffeln, Speck, Ei, Salat, Gewürzgurke und Remoulade",
+            "price": 8.50
+        }
+    ],
+    "2026-05-06": [
+        {
+            "desc": "Grüner Bohnen-eintopf mit Rindfleisch und Kartoffelwürfeln",
+            "price": 5.60
+        },
+        {
+            "desc": "Vegan gefüllte Paprikaschote mit Tomatensoße und Reis",
+            "price": 6.10
+        },
+        {
+            "desc": "Thüringer Rostbrätl mit Zwiebeln und Kartoffelstampf",
+            "price": 6.70
+        },
+        {
+            "desc": "Überraschungsgericht mit BIO-Gemüse von KOLA Leipzig",
+            "price": null
+        }
+    ],
+    "2026-05-07": [
+        {
+            "desc": "Grießbrei mit Sauerkirsch-Ragout und Zimtzucker",
+            "price": 5.60
+        },
+        {
+            "desc": "2 gekochte Eier mit Senfsoße, Rotkrautsalat und Petersilienkartoffeln",
+            "price": 6.10
+        },
+        {
+            "desc": "Ungarisches Schweinegulasch mit Paprika, dazu Pasta",
+            "price": 6.70
+        },
+        {
+            "desc": "Penne mit Trüffelrahm, Champignons und Lauch",
+            "price": 8.50
+        }
+    ],
+    "2026-05-08": [
+        {
+            "desc": "Paprikacreme-Suppe mit Knoblauch-Croûtons",
+            "price": 5.60
+        },
+        {
+            "desc": "Schupfnudel-Gratin mit Erbsen, Brokkoli und Karotten",
+            "price": 6.10
+        },
+        {
+            "desc": "Fischstäbchen mit Tomatensoße und Kartoffelstampf",
+            "price": 6.70
+        },
+        {
+            "desc": "Hähnchenbrust „Piccata\" mit Spargelragout und Spinat-Gnocchi",
+            "price": 8.50
+        }
+    ]
+}

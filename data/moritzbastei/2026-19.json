@@ -1,0 +1,61 @@
+{
+  "2026-05-04": [],
+  "2026-05-05": [
+    {
+      "desc": "Schweineschnitzel \"Western\" mit BBQ-Zwiebeln, Bacon und gebackenen Kartoffelecken, dazu Sour Cream",
+      "price": 10.20
+    },
+    {
+      "desc": "Waldpilzgulasch mit Kräuterspätzle und Röstzwiebeln (veget.)",
+      "price": 9.20
+    }
+  ],
+  "2026-05-06": [
+    {
+      "desc": "Mediterrane Frikadelle gefüllt mit Hirtenkäse, dazu Tomaten-Paprikagemüse und Rosmarinkartoffeln",
+      "price": 9.80
+    },
+    {
+      "desc": "Hausgemachte Bärlauch-Semmelknödel auf pikantem Tomatenragout, dazu Parmesan (veget.)",
+      "price": 9.20
+    }
+  ],
+  "2026-05-07": [
+    {
+      "desc": "Gyros mit gebackenen Kartoffelecken, Tzatziki und Krautsalat",
+      "price": 9.80
+    },
+    {
+      "desc": "Zucchini-Limettentagliatelle mit gerösteten Sonnenblumenkernen und Parmesan (veget.)",
+      "price": 9.20
+    }
+  ],
+  "2026-05-08": [
+    {
+      "desc": "Gebratenes Seelachsfilet mit Kartoffel-Pastinakenstampf, Mandelbrokkoli und Tomaten-Sahnesoße",
+      "price": 9.90
+    },
+    {
+      "desc": "Feuriges Hähnchen in Paprikarahm, dazu Basmatireis und geröstete Mandeln",
+      "price": 9.80
+    }
+  ],
+  "2026-W19": [
+    {
+      "desc": "Pasta mit Minz-Orangen-Pesto, dazu geröstete Sonnenblumenkerne und Parmesan (veget.)",
+      "price": 10.90
+    },
+    {
+      "desc": "Zucchini-Süßkartoffel-Lasagne überbacken mit Mozzarella und Sonnenblumenkernen (veget.)",
+      "price": 12.90
+    },
+    {
+      "desc": "Spargelgratin mit Schinken, überbacken mit Gouda",
+      "price": 12.90
+    },
+    {
+      "desc": "Feuriges Hähnchen in Paprikarahm, dazu Basmatireis und geröstete Mandeln (Extra ab 15 Uhr)",
+      "price": 12.90
+    }
+  ]
+}

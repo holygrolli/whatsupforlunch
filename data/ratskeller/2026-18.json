@@ -1,0 +1,75 @@
+{
+  "2026-04-27": [
+    {
+      "desc": "Chili con Carne mit Bohnen, Mais und Hackfleisch",
+      "price": 5.60
+    },
+    {
+      "desc": "Gemüseschnitzel mit bunten Karotten und Kräuterreis",
+      "price": 6.10
+    },
+    {
+      "desc": "Frikadelle mit Speckbohnen und Petersilienkartoffeln",
+      "price": 6.70
+    },
+    {
+      "desc": "Rigatoni mit Spargel, Cherrytomaten und Ziegenfrischkäse",
+      "price": 8.50
+    }
+  ],
+  "2026-04-28": [
+    {
+      "desc": "Drei Eierkuchen mit Apfelmus und Zimtzucker",
+      "price": 5.60
+    },
+    {
+      "desc": "Pasta mit Tomatensoße und geriebenem Käse",
+      "price": 6.10
+    },
+    {
+      "desc": "Pasta mit Wurstgulasch und geriebenem Käse",
+      "price": 6.70
+    },
+    {
+      "desc": "Vegane „Gyros\"-Bowl mit buntem Salat, Knobi-Dip und Reis",
+      "price": 8.50
+    }
+  ],
+  "2026-04-29": [
+    {
+      "desc": "Sächsische Kartoffelsuppe mit Majoran und Bockwurst",
+      "price": 5.60
+    },
+    {
+      "desc": "Veganes Geschnetzeltes mit Champignons und Reis",
+      "price": 6.10
+    },
+    {
+      "desc": "Schweinebraten mit Rotkraut und Semmel-Knödeln",
+      "price": 6.70
+    },
+    {
+      "desc": "Überraschungsgericht mit BIO-Gemüse von KOLA Leipzig",
+      "price": 0.00
+    }
+  ],
+  "2026-04-30": [
+    {
+      "desc": "Germknödel mit Kirsch-füllung, dazu Vanille-Soße",
+      "price": 5.60
+    },
+    {
+      "desc": "Kartoffeltaschen mit Frischkäse, Kräuterdip und Salat",
+      "price": 6.10
+    },
+    {
+      "desc": "Puten-Paprika-Rahmgeschnetzeltes mit Butterreis",
+      "price": 6.70
+    },
+    {
+      "desc": "Bunter Farfalle-Salat mit Spargel und gebackenen Rote-Bete-Sticks",
+      "price": 8.50
+    }
+  ],
+  "2026-05-01": []
+}

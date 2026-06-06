@@ -1,0 +1,75 @@
+{
+    "2026-03-30": [
+        {
+            "desc": "Erbseneintopf mit Bockwurst und Kartoffel-würfeln",
+            "price": 5.60
+        },
+        {
+            "desc": "2 gekochte Eier mit Senfsoße, Rotkrautsalat und Petersilien-kartoffeln",
+            "price": 6.10
+        },
+        {
+            "desc": "Hackbraten mit Speckbohnen und Kroketten",
+            "price": 6.70
+        },
+        {
+            "desc": "Spaghetti „Puttanesca\" mit Sardellen, Oliven, Kapern und Tomaten",
+            "price": 8.50
+        }
+    ],
+    "2026-03-31": [
+        {
+            "desc": "Kaiserschmarr'n mit Rosinen, Mandeln und Apfelmus",
+            "price": 5.60
+        },
+        {
+            "desc": "Pasta mit Tomatensoße und geriebenem Käse",
+            "price": 6.10
+        },
+        {
+            "desc": "Jägerschnitzel mit Tomatensoße und Pasta",
+            "price": 6.70
+        },
+        {
+            "desc": "Veganer „Backfisch\" mit Remoulade, Salat und Petersilien-kartoffeln",
+            "price": 8.50
+        }
+    ],
+    "2026-04-01": [
+        {
+            "desc": "Fischeintopf mit Muscheln, Paprika und Fenchel",
+            "price": 5.60
+        },
+        {
+            "desc": "Gemüse-Schnitzel auf Rahmspinat und Reis",
+            "price": 6.10
+        },
+        {
+            "desc": "Köttbullar mit Rahmpilzen und Kartoffelstampf",
+            "price": 6.70
+        },
+        {
+            "desc": "Überraschungsgericht mit BIO-Gemüse von KOLA Leipzig",
+            "price": null
+        }
+    ],
+    "2026-04-02": [
+        {
+            "desc": "Grießbrei mit Pflaumen-Ragout und Zimtzucker",
+            "price": 5.60
+        },
+        {
+            "desc": "Gemüsefrikadelle auf Ratatouille und Schupfnudeln",
+            "price": 6.10
+        },
+        {
+            "desc": "„Cordon bleu\" vom Schwein mit Honigmöhren und Petersilien-kartoffeln",
+            "price": 6.70
+        },
+        {
+            "desc": "Falafel-Bowl mit Sesamsoße, Koriander, Bete und Bulgur",
+            "price": 8.50
+        }
+    ],
+    "2026-04-03": []
+}

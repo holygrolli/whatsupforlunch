@@ -1,0 +1,101 @@
+{
+  "2026-05-26": [
+    {
+      "desc": "Asia-Wok-Pfanne, Hähnchen, Asia-Gemüse, Sesam und Mie-Nudeln",
+      "price": 11.95
+    }
+  ],
+  "2026-05-27": [
+    {
+      "desc": "Nürnberger Würstchen, Bratensauce, Sauerkraut und Kartoffelstampf",
+      "price": 11.95
+    }
+  ],
+  "2026-05-28": [
+    {
+      "desc": "Bauernfrikadelle, Champignon-Rahmsauce und Bratkartoffeln",
+      "price": 11.95
+    }
+  ],
+  "2026-05-29": [
+    {
+      "desc": "Seelachs Natur, Kräutersauce, Prinzessbohnen und Reis",
+      "price": 11.95
+    }
+  ],
+  "2026-06-01": [],
+  "2026-06-02": [
+    {
+      "desc": "Schweinegulasch, Spätzle und Tagessalat",
+      "price": 11.95
+    }
+  ],
+  "2026-06-03": [
+    {
+      "desc": "Hackfleischbällchen, Pfefferrahmsauce, Karottengemüse und Petersilienkartoffeln",
+      "price": 11.95
+    }
+  ],
+  "2026-06-04": [
+    {
+      "desc": "Hähnchenbrust, Rahmsauce, Blattspinat und Reis",
+      "price": 11.95
+    }
+  ],
+  "2026-06-05": [
+    {
+      "desc": "Backfisch, Remoulade und Pommes frites",
+      "price": 11.95
+    }
+  ],
+  "2026-06-08": [],
+  "2026-06-09": [
+    {
+      "desc": "Marinierter Hähnchen-Schenkel, Krautsalat und Pommes frites",
+      "price": 11.95
+    }
+  ],
+  "2026-06-10": [
+    {
+      "desc": "Käsespätzle, Röstzwiebeln und Tagessalat",
+      "price": 11.95
+    }
+  ],
+  "2026-06-11": [
+    {
+      "desc": "Schweinebraten, Bratensauce, Honig-Pastinaken und Salzkartoffeln",
+      "price": 11.95
+    }
+  ],
+  "2026-06-12": [
+    {
+      "desc": "Pazifisches Buttfilet in Petersilienpanade, Dijon-Senfsauce, Ratatouille und Reis",
+      "price": 11.95
+    }
+  ],
+  "2026-06-15": [],
+  "2026-06-16": [
+    {
+      "desc": "Bayerischer Leberkäse, Bratensauce, Röstzwiebeln und Bratkartoffeln",
+      "price": 11.95
+    }
+  ],
+  "2026-06-17": [
+    {
+      "desc": "Hähnchen \"Korma\", gebratene Paprika und Reis",
+      "price": 11.95
+    }
+  ],
+  "2026-06-18": [
+    {
+      "desc": "Schweinenackensteak, Kräuterbutter, Krautsalat und Pommes frites",
+      "price": 11.95
+    }
+  ],
+  "2026-06-19": [
+    {
+      "desc": "Seelachs im Kräutermantel, Zitronensauce, Brokkoli und Reis",
+      "price": 11.95
+    }
+  ]
+}

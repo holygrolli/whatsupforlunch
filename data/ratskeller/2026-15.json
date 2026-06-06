@@ -1,0 +1,75 @@
+{
+  "2026-04-06": [],
+  "2026-04-07": [
+    {
+      "desc": "Drei Eierkuchen mit Erdbeeren und Vanillesoße",
+      "price": 5.60
+    },
+    {
+      "desc": "Pasta mit Tomatensoße und geriebenem Käse",
+      "price": 6.10
+    },
+    {
+      "desc": "Pasta mit Wurstgulasch und geriebenem Käse",
+      "price": 6.70
+    },
+    {
+      "desc": "Halloumi-Wrap mit Bulgur, Joghurt, Minze und Salat",
+      "price": 8.50
+    }
+  ],
+  "2026-04-08": [
+    {
+      "desc": "Grüner Bohneneintopf mit Rindfleisch und Kartoffelwürfeln",
+      "price": 5.60
+    },
+    {
+      "desc": "Blumenkohl-Käsemedaillon mit Buttererbsen und bunten Gnocchi",
+      "price": 6.10
+    },
+    {
+      "desc": "Leberkäse mit Bayrisch Kraut und Petersilien-kartoffeln",
+      "price": 6.70
+    },
+    {
+      "desc": "Linguine mit Linsenbolognese, Rucola und Tomaten",
+      "price": 8.50
+    }
+  ],
+  "2026-04-09": [
+    {
+      "desc": "Kokosmilchreis mit Mango-Ragout und Zimtzucker",
+      "price": 5.60
+    },
+    {
+      "desc": "Zucchini-Möhrenpuffer mit Radieschen-Quark und Salat",
+      "price": 6.10
+    },
+    {
+      "desc": "Szegediner Gulasch mit Sauerkraut und Böhmischen Knödeln",
+      "price": 6.70
+    },
+    {
+      "desc": "Mediterraner Nudelsalat mit Oliven, Rucola und Mozzarella-Sticks",
+      "price": 8.50
+    }
+  ],
+  "2026-04-10": [
+    {
+      "desc": "Spargelcreme-Suppe mit Erdbeer-Chutney",
+      "price": 5.60
+    },
+    {
+      "desc": "Gemüse Lasagne mit Aubergine, Zucchini und Karotte",
+      "price": 6.10
+    },
+    {
+      "desc": "Paniertes Schollenfilet mit Kartoffel-Gurkensalat",
+      "price": 6.70
+    },
+    {
+      "desc": "Schweinesteak „au four\" mit Buttererbsen und Kroketten",
+      "price": 8.50
+    }
+  ]
+}

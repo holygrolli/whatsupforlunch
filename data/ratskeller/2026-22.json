@@ -1,0 +1,76 @@
+{
+    "2026-05-25": [],
+    "2026-05-26": [
+        {
+            "desc": "Nougat-Topfen-knödel mit Vanillesoße",
+            "price": 5.60
+        },
+        {
+            "desc": "Pasta mit Tomatensoße und geriebenem Käse",
+            "price": 6.10
+        },
+        {
+            "desc": "Spaghetti Bolognese mit geriebenem Käse",
+            "price": 6.70
+        },
+        {
+            "desc": "Blumenkohl-Käsesticks auf buntem Linsen-salat und Sour Cream",
+            "price": 8.50
+        }
+    ],
+    "2026-05-27": [
+        {
+            "desc": "Käse-Lauch-suppe mit Hackfleisch und Champignons",
+            "price": 5.60
+        },
+        {
+            "desc": "Gemüse-schnitzel mit Brokkoli + Rote-Bete-Gnocchi",
+            "price": 6.10
+        },
+        {
+            "desc": "Hähnchencurry mit Blumenkohl, Kichererbsen und Reis",
+            "price": 6.70
+        },
+        {
+            "desc": "Überraschungsgericht mit BIO-Gemüse von KOLA Leipzig",
+            "price": null
+        }
+    ],
+    "2026-05-28": [
+        {
+            "desc": "Milchreis mit Apfelmus und Zimtzucker",
+            "price": 5.60
+        },
+        {
+            "desc": "Käsespatz'n „Allgäuer Art\" mit Röstzwiebeln",
+            "price": 6.10
+        },
+        {
+            "desc": "Kohlroulade mit Krautsoße und Petersilien-kartoffeln",
+            "price": 6.70
+        },
+        {
+            "desc": "Chicken Teriyaki Bowl auf buntem Glasnudelsalat mit Koriander und Sesam",
+            "price": 8.50
+        }
+    ],
+    "2026-05-29": [
+        {
+            "desc": "Bärlauch-Creme-Suppe mit Croûtons und Sprossen",
+            "price": 5.60
+        },
+        {
+            "desc": "Tortellini-Gratin mit Spinat, Erbsen und Blumenkohl",
+            "price": 6.10
+        },
+        {
+            "desc": "Backfisch mit Remoulade, Salat und Petersilien-kartoffeln",
+            "price": 6.70
+        },
+        {
+            "desc": "Schweine-Bäckchen mit Champignons und Kartoffel-Rösti",
+            "price": 8.50
+        }
+    ],
+    "description": "This menu is valid from 2026-05-25 to 2026-05-29. The offer of 2026-05-25 is missing because it is a public holiday (Pfingsten)."
+}

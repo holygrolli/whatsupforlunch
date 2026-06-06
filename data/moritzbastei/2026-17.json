@@ -1,0 +1,51 @@
+{
+  "2026-04-20": [],
+  "2026-04-21": [],
+  "2026-04-22": [],
+  "2026-04-23": [
+    {
+      "desc": "Gebackene Hähnchenbrust in Parmesan-Panade auf Tomaten-Paprikagemüse, dazu Rosmarinkartoffeln",
+      "price": 9.80
+    },
+    {
+      "desc": "Gebratene Minikartoffeln mit Kirschtomaten und Rucola, dazu Paprika-Gurken-Quark sowie geröstete Sonnenblumenkerne (veget.)",
+      "price": 9.20
+    }
+  ],
+  "2026-04-24": [
+    {
+      "desc": "Gebackenes Seelachsfilet mit Remoulade, Salzkartoffeln und Gurkensalat",
+      "price": 9.90
+    },
+    {
+      "desc": "Hähnchengeschnetzeltes mit Zuckerschoten und Waldpilzen, dazu Basmatireis",
+      "price": 9.80
+    }
+  ],
+  "2026-W17": [
+    {
+      "desc": "Pasta mit Bärlauch-Pesto, dazu geröstete Haselnüsse, Karottenchips und Parmesan (veget.)",
+      "price": 10.90
+    },
+    {
+      "desc": "Spinatlasagne mit getrockneten Tomaten, überbacken mit Mozzarella (veget.)",
+      "price": 12.90
+    },
+    {
+      "desc": "Gebackener Hirtenkäse auf mediterranem Gemüse mit Oliven, dazu Baguette (veget.)",
+      "price": 12.90
+    },
+    {
+      "desc": "Soljanka mit Schmand und Baguette (klein)",
+      "price": 3.90
+    },
+    {
+      "desc": "Soljanka mit Schmand und Baguette (groß)",
+      "price": 6.90
+    },
+    {
+      "desc": "Hähnchengeschnetzeltes mit Zuckerschoten und Waldpilzen, dazu Basmatireis (Extra ab 15 Uhr)",
+      "price": 12.90
+    }
+  ]
+}

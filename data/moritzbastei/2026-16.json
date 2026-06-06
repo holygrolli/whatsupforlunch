@@ -1,0 +1,69 @@
+{
+  "2026-04-13": [],
+  "2026-04-14": [
+    {
+      "desc": "Schweineschnitzel \"Western\" mit BBQ-Zwiebeln, Bacon und gebackenen Kartoffelecken, dazu Sour Cream",
+      "price": 10.20
+    },
+    {
+      "desc": "Karotten-Pfanne mit Zuckerschoten, Kartoffeln und Petersilie, dazu geröstete Sonnenblumenkerne (veget.)",
+      "price": 9.20
+    }
+  ],
+  "2026-04-15": [
+    {
+      "desc": "Hühnerfrikassee mit Spargel, Erbsen und Champignons, dazu Basmatireis",
+      "price": 9.80
+    },
+    {
+      "desc": "Pasta \"Genovese\" mit grünen Bohnen, Kartoffeln, Basilikumpesto und Parmesan (veget.)",
+      "price": 9.20
+    }
+  ],
+  "2026-04-16": [
+    {
+      "desc": "Gebratener Leberkäse mit Spiegelei, dazu Bratkartoffeln und Tomatensalat",
+      "price": 9.80
+    },
+    {
+      "desc": "Gebackene Falafel (vegan) ODER Hähnchenspieße auf verschiedenen Blattsalaten mit gegrillter Paprika, Zucchini und Aubergine mit Joghurt-Minzdip oder Mango-Chilisoße, dazu Fladenbrot",
+      "price": 9.20
+    }
+  ],
+  "2026-04-17": [
+    {
+      "desc": "Seelachsfilet in Cornflakes-Panade, dazu Süßkartoffelspalten, Chili-Maiscreme und Tomatensalat",
+      "price": 9.90
+    },
+    {
+      "desc": "Feuriges Hähnchen in Paprikarahm, dazu Basmatireis und geröstete Mandeln",
+      "price": 9.80
+    }
+  ],
+  "2026-W16": [
+    {
+      "desc": "Pasta mit Spinat-Petersilien-Pesto, dazu Birnen, Walnüsse und Parmesan (veget.)",
+      "price": 10.90
+    },
+    {
+      "desc": "Waldpilzlasagne mit Röstzwiebeln, überbacken mit Mozzarella (veget.)",
+      "price": 12.90
+    },
+    {
+      "desc": "Kartoffelgratin \"Indisch\" mit gebratenen Hähnchenbruststreifen, Blumenkohl und Karotten",
+      "price": 12.90
+    },
+    {
+      "desc": "Hühnernudelsuppe mit Wurzelgemüse und Baguette (klein)",
+      "price": 3.90
+    },
+    {
+      "desc": "Hühnernudelsuppe mit Wurzelgemüse und Baguette (groß)",
+      "price": 6.90
+    },
+    {
+      "desc": "Feuriges Hähnchen in Paprikarahm, dazu Basmatireis und geröstete Mandeln (Extra ab 15 Uhr)",
+      "price": 12.90
+    }
+  ]
+}

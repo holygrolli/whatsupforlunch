@@ -1,0 +1,60 @@
+{
+  "2026-04-27": [],
+  "2026-04-28": [
+    {
+      "desc": "Schweineschnitzel mit Spiegelei und Bratkartoffeln, dazu Tomatensalat",
+      "price": 10.20
+    },
+    {
+      "desc": "Mediterrane Gemüsebolognese u.a. mit Zucchini, Paprika und Aubergine, dazu Pasta, Parmesan und Selleriechips (veget.)",
+      "price": 9.20
+    }
+  ],
+  "2026-04-29": [
+    {
+      "desc": "Bauernfrühstück, dazu Gewürzgurke und Salatbeilage",
+      "price": 9.50
+    },
+    {
+      "desc": "Tortellini in Paprikarahm mit Lauchzwiebeln, überbacken mit Mozzarella und Sonnenblumenkernen (veget.)",
+      "price": 9.20
+    }
+  ],
+  "2026-04-30": [
+    {
+      "desc": "Hackbällchen \\\"mediterran\\\" in Tomaten-Sahnesoße, dazu Bärlauchreis",
+      "price": 9.80
+    },
+    {
+      "desc": "Gebackener Hirtenkäse auf verschiedenen Blattsalaten mit gegrillter Paprika, Zucchini und Sonnenblumenkernen, dazu Orangendressing und Fladenbrot (veget.)",
+      "price": 9.20
+    }
+  ],
+  "2026-05-01": [],
+  "2026-W18": [
+    {
+      "desc": "Pasta mit Tomaten-Rosmarin-Pesto, dazu Walnüsse und Parmesan (veget.)",
+      "price": 10.90
+    },
+    {
+      "desc": "Spitzkohl-Karottenlasagne überbacken mit Mozzarella und Sesam (veget.)",
+      "price": 12.90
+    },
+    {
+      "desc": "Kartoffelgratin \"Griechischer Art\" mit Hackfleisch, Tomaten und Aubergine, überbacken mit Gouda",
+      "price": 12.90
+    },
+    {
+      "desc": "Tom Kha Gai, thailändische Suppe mit Hühnchen, Champignons, Kokosmilch, Galgant und Zitronengras, dazu Baguette (klein)",
+      "price": 3.90
+    },
+    {
+      "desc": "Tom Kha Gai, thailändische Suppe mit Hühnchen, Champignons, Kokosmilch, Galgant und Zitronengras, dazu Baguette (groß)",
+      "price": 6.90
+    },
+    {
+      "desc": "Hähnchengeschnetzeltes mit getrockneten Tomaten und gebratener Zucchini, dazu Basmatireis",
+      "price": 12.90
+    }
+  ]
+}

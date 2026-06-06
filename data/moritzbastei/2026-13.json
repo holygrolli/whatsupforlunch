@@ -1,0 +1,69 @@
+{
+  "2026-03-23": [],
+  "2026-03-24": [
+    {
+      "desc": "Schweineschnitzel \"Schweizer Art\" überbacken mit Champignons und Gouda, dazu Kartoffelecken und Kräuter-Schmand",
+      "price": 10.20
+    },
+    {
+      "desc": "Zucchini-Limetten-Tagliatelle mit gerösteten Sonnenblumenkernen und Parmesan (veget.)",
+      "price": 9.20
+    }
+  ],
+  "2026-03-25": [
+    {
+      "desc": "Schwedische Hackfleischbällchen \"Köttbullar\" mit Kartoffelpüree, crunchy Onions und Preiselbeeren",
+      "price": 9.80
+    },
+    {
+      "desc": "Sojagulasch mit geschmortem Spitzkohl, dazu Böhmische Knödel (veget.)",
+      "price": 9.20
+    }
+  ],
+  "2026-03-26": [
+    {
+      "desc": "Hähnchenbrust \"Jerk Style\" auf buntem Grillgemüse mit Tomatensalsa",
+      "price": 9.80
+    },
+    {
+      "desc": "Gebackene Risottobällchen auf pikantem Kürbisragout mit frittiertem Rucola (veget.)",
+      "price": 9.20
+    }
+  ],
+  "2026-03-27": [
+    {
+      "desc": "Gebratenes Seelachsfilet mit Zuckerschoten und Süßkartoffelstampf, dazu Limettensoße",
+      "price": 9.90
+    },
+    {
+      "desc": "Thai-Hähnchen-Curry mit buntem Gemüse in Kokossoße, Galgant und Zitronengras, dazu Basmatireis und Erdnüsse",
+      "price": 9.80
+    }
+  ],
+  "2026-W13": [
+    {
+      "desc": "Pasta mit Bärlauch-Pesto, dazu geröstete Haselnüsse, Karottenchips und Parmesan (veget.)",
+      "price": 10.90
+    },
+    {
+      "desc": "Spitzkohl-Karotten-Lasagne überbacken mit Mozzarella und Sesam (veget.)",
+      "price": 12.90
+    },
+    {
+      "desc": "Süßkartoffel-Hackfleisch-Gratin mit Tomaten und grünen Bohnen, überbacken mit Hirtenkäse",
+      "price": 12.90
+    },
+    {
+      "desc": "Linseneintopf mit Kasseler, Wurzelgemüse und Baguette",
+      "price": 3.90
+    },
+    {
+      "desc": "Linseneintopf mit Kasseler, Wurzelgemüse und Baguette",
+      "price": 6.90
+    },
+    {
+      "desc": "Thai-Hähnchen-Curry mit buntem Gemüse in Kokossoße, Galgant und Zitronengras, dazu Basmatireis und Erdnüsse (Extra ab 15 Uhr)",
+      "price": 12.90
+    }
+  ]
+}

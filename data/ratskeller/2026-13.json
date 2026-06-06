@@ -1,0 +1,92 @@
+{
+  "2026-03-23": [
+    {
+      "desc": "Käse-Lauchsuppe mit Hackfleisch und Champignons",
+      "price": 5.60
+    },
+    {
+      "desc": "Back-Käse mit Zaziki, Krautsalat und Tomatenreis",
+      "price": 6.10
+    },
+    {
+      "desc": "Geflügel-Frikadelle auf bunten Karotten und Kartoffel-Stampf",
+      "price": 6.70
+    },
+    {
+      "desc": "Vegane „Chick'n Nuggets\" auf buntem Reissalat mit Curry-Dip",
+      "price": 8.50
+    }
+  ],
+  "2026-03-24": [
+    {
+      "desc": "Germknödel mit Schokoladen-Füllung, dazu Vanillesoße",
+      "price": 5.60
+    },
+    {
+      "desc": "Pasta mit Tomatensoße und geriebenem Käse",
+      "price": 6.10
+    },
+    {
+      "desc": "Spaghetti Bolognese mit geriebenem Käse",
+      "price": 6.70
+    },
+    {
+      "desc": "Vegane „Currywurst\" mit pikanter Soße und Kartoffelecken",
+      "price": 8.50
+    }
+  ],
+  "2026-03-25": [
+    {
+      "desc": "Wirsingeintopf mit Krakauer-Würfeln",
+      "price": 5.60
+    },
+    {
+      "desc": "Pulled BBQ Jackfruit mit Bohnen, Mais und Reis",
+      "price": 6.10
+    },
+    {
+      "desc": "Kohlroulade mit Krautsoße und Petersilien-kartoffeln",
+      "price": 6.70
+    },
+    {
+      "desc": "Penne mit Trüffelrahm, Champignons und Lauch",
+      "price": 8.50
+    }
+  ],
+  "2026-03-26": [
+    {
+      "desc": "Drei Hefeklöße mit warmen Heidelbeeren",
+      "price": 5.60
+    },
+    {
+      "desc": "Vegane „Hackbällchen\" in Tomatensoße, dazu Pasta",
+      "price": 6.10
+    },
+    {
+      "desc": "Currywurst mit fruchtig-pikanter Soße, dazu Kartoffelecken",
+      "price": 6.70
+    },
+    {
+      "desc": "Frühlingsrolle mit Hähnchenbrust auf Glasnudel-Salat, Koriander und Sesam",
+      "price": 8.50
+    }
+  ],
+  "2026-03-27": [
+    {
+      "desc": "Rotkohlcreme-Suppe mit Apfel-Chutney und Sprossen",
+      "price": 5.60
+    },
+    {
+      "desc": "Spinat-Käseknödel auf Kräuter-Waldpilzrahm",
+      "price": 6.10
+    },
+    {
+      "desc": "Grützwurst mit Sauerkraut und Petersilien-kartoffeln",
+      "price": 6.70
+    },
+    {
+      "desc": "Paniertes Rotbarschfilet auf Rahmspinat und Wildreis",
+      "price": 8.50
+    }
+  ]
+}

@@ -1,0 +1,52 @@
+{
+  "2026-05-18": [],
+  "2026-05-19": [
+    {
+      "desc": "Schweineschnitzel \"Strammer Max\" mit Kochschinken und Spiegelei, dazu Bratkartoffeln",
+      "price": 10.20
+    },
+    {
+      "desc": "Gebackener Hirtenkäse auf Melonen-Traubensalat mit Zuckerschoten, Blattspinat und Parmesancroutons, dazu Limetten-Minzdressing und Baguette (veget.)",
+      "price": 9.20
+    }
+  ],
+  "2026-05-20": [
+    {
+      "desc": "Hühnerfrikassee mit Spargel, Erbsen und Champignons, dazu Basmatireis",
+      "price": 9.80
+    },
+    {
+      "desc": "Eier in Honig-Senfsoße, dazu Salzkartoffeln, frittierte Petersilie und Gurkensalat (veget.)",
+      "price": 9.20
+    }
+  ],
+  "2026-05-21": [
+    {
+      "desc": "Wurstgulasch mit Paprika auf Pasta, dazu Gouda",
+      "price": 9.60
+    },
+    {
+      "desc": "Karotten-Pfanne mit Zuckerschoten, Kartoffeln und Petersilie, dazu geröstete Sonnenblumenkerne und Hirtenkäse (veget.)",
+      "price": 9.20
+    }
+  ],
+  "2026-05-22": [],
+  "2026-W21": [
+    {
+      "desc": "Pasta mit Petersilien-Macadamia-Pesto, dazu Karottenchips und Parmesan (veget.)",
+      "price": 10.90
+    },
+    {
+      "desc": "Spitzkohl-Karottenlasagne überbacken mit Mozzarella und Sesam (veget.)",
+      "price": 12.90
+    },
+    {
+      "desc": "Süßkartoffel-Hackfleischgratin mit Tomaten und grünen Bohnen, überbacken mit Mozzarella",
+      "price": 12.90
+    },
+    {
+      "desc": "Pfeffergeschnetzeltes vom Huhn mit Kirschtomaten und frittiertem Rucola, dazu Basmatireis (Extra ab 15 Uhr)",
+      "price": 12.90
+    }
+  ]
+}

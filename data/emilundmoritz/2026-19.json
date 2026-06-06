@@ -1,0 +1,66 @@
+{
+  "2026-05-04": [
+    {
+      "desc": "Hausgemachte Boulette an Mischgemüse mit Kartoffeln",
+      "price": 6.99
+    },
+    {
+      "desc": "Spargelragout mit Kartoffeln",
+      "price": 6.99
+    }
+  ],
+  "2026-05-05": [
+    {
+      "desc": "Putensteak Toskana mit mediterranem Kartoffelsalat",
+      "price": 6.99
+    },
+    {
+      "desc": "2 Spiegeleier mit Bratkartoffeln und Gurkensalat",
+      "price": 6.99
+    }
+  ],
+  "2026-05-06": [
+    {
+      "desc": "Mutzbraten an Sauerkraut und Kartoffeln",
+      "price": 6.99
+    },
+    {
+      "desc": "Zucchini-Kartoffelpfanne mit Kräuterquark",
+      "price": 6.99
+    }
+  ],
+  "2026-05-07": [
+    {
+      "desc": "Hähnchen-Spätzlepfanne mit Tzatziki",
+      "price": 6.99
+    },
+    {
+      "desc": "Spätzle-Gemüsepfanne mit Tzatziki",
+      "price": 6.99
+    }
+  ],
+  "2026-05-08": [
+    {
+      "desc": "Hähnchenkeule an Paprika-Zucchinigemüse und Tomatenreis",
+      "price": 6.99
+    },
+    {
+      "desc": "Backfisch an lauwarmem Kartoffelsalat",
+      "price": 6.99
+    }
+  ],
+  "2026-W19": [
+    {
+      "desc": "Pasta Wurstgulasch",
+      "price": 5.50
+    },
+    {
+      "desc": "Pasta mit Spinat-Käsesoße",
+      "price": 5.50
+    },
+    {
+      "desc": "Pasta mit Bärlauchpesto und Tomaten",
+      "price": 5.50
+    }
+  ]
+}

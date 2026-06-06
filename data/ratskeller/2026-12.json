@@ -1,0 +1,92 @@
+{
+    "2026-03-16": [
+        {
+            "desc": "Sächsische Kartoffelsuppe mit Majoran und Bockwurst",
+            "price": 5.60
+        },
+        {
+            "desc": "Veganes „Gulasch\" mit Paprika, Pilzen und Reis",
+            "price": 6.10
+        },
+        {
+            "desc": "Schweine-Geschnetzeltes „Stroganoff\" mit Pilzen, Bete und Spätzle",
+            "price": 6.70
+        },
+        {
+            "desc": "Ofenbrot mit Schinkenwürfeln, Kräuterdip und Salat",
+            "price": 8.50
+        }
+    ],
+    "2026-03-17": [
+        {
+            "desc": "American Pancakes mit Apfel-Aprikosen-Kompott",
+            "price": 5.60
+        },
+        {
+            "desc": "Pasta mit Tomatensoße und geriebenem Käse",
+            "price": 6.10
+        },
+        {
+            "desc": "Pasta mit Wurstgulasch und geriebenem Käse",
+            "price": 6.70
+        },
+        {
+            "desc": "Rigatoni mit Gorgonzolasoße, Birnenwürfeln und Walnüssen",
+            "price": 8.50
+        }
+    ],
+    "2026-03-18": [
+        {
+            "desc": "Ungarische Gulaschsuppe mit Paprika und Kartoffelwürfeln",
+            "price": 5.60
+        },
+        {
+            "desc": "Brokkoli-Nuss-Ecke mit Rahmspinat und bunten Gnocchi",
+            "price": 6.10
+        },
+        {
+            "desc": "Hähnchencurry mit Blumenkohl, Kichererbsen und Reis",
+            "price": 6.70
+        },
+        {
+            "desc": "Überraschungsgericht mit BIO-Gemüse von KOLA Leipzig",
+            "price": 0.00
+        }
+    ],
+    "2026-03-19": [
+        {
+            "desc": "Sächsische Quarkkäulchen mit Apfelmus und Zimtzucker",
+            "price": 5.60
+        },
+        {
+            "desc": "Gemüserösti mit Schnittlauch-Quark und Salat",
+            "price": 6.10
+        },
+        {
+            "desc": "Thüringer Bratwurst mit Sauerkraut und Petersilien-kartoffeln",
+            "price": 6.70
+        },
+        {
+            "desc": "Linguine mit veganem „Thunfisch\" in Tomatensoße",
+            "price": 8.50
+        }
+    ],
+    "2026-03-20": [
+        {
+            "desc": "Spinatcreme-Suppe mit Eierstich",
+            "price": 5.60
+        },
+        {
+            "desc": "Asiatische Gemüsepfanne mit Soße „süß-sauer\" und Reis",
+            "price": 6.10
+        },
+        {
+            "desc": "Jumbo-Fisch-Stäbchen mit Tomatensoße + Kartoffelstampf",
+            "price": 6.70
+        },
+        {
+            "desc": "Lammhacksteak mit Auberginen-Ragout und Kroketten",
+            "price": 8.50
+        }
+    ]
+}
