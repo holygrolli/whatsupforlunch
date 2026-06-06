@@ -1,0 +1,92 @@
+{
+  "2026-06-08": [
+    {
+      "desc": "Hausgemachter Linseneintopf mit Blutwurstwürfeln",
+      "price": 5.60
+    },
+    {
+      "desc": "Sellerieschnitzel auf Blattspinat und bunten Gnocchi",
+      "price": 6.10
+    },
+    {
+      "desc": "Köttbullar mit Rahm-Champignons und Kartoffel-Stampf",
+      "price": 6.70
+    },
+    {
+      "desc": "Kartoffel-Käse-Taler auf buntem Sommersalat mit Erdbeer-Chutney",
+      "price": 8.50
+    }
+  ],
+  "2026-06-09": [
+    {
+      "desc": "Germknödel mit Kirschfüllung, dazu Vanillesoße",
+      "price": 5.60
+    },
+    {
+      "desc": "Pasta mit Tomatensoße und geriebenem Käse",
+      "price": 6.10
+    },
+    {
+      "desc": "Pasta mit Wurstgulasch und geriebenem Käse",
+      "price": 6.70
+    },
+    {
+      "desc": "Coq au Vin mit Zwiebeln, Pilzen und Trüffel-Kartoffelstampf",
+      "price": 8.50
+    }
+  ],
+  "2026-06-10": [
+    {
+      "desc": "Gräupchen Eintopf mit Kasslerwürfeln",
+      "price": 5.60
+    },
+    {
+      "desc": "2 gekochte Eier mit Senfsoße, Rotkrautsalat und Petersilienkartoffeln",
+      "price": 6.10
+    },
+    {
+      "desc": "Geflügel Cevapcici mit Krautsalat, Zaziki und Reis",
+      "price": 6.70
+    },
+    {
+      "desc": "Überraschungsgericht mit Gemüse von KOLA Leipzig",
+      "price": null
+    }
+  ],
+  "2026-06-11": [
+    {
+      "desc": "Marillenknödel mit Vanillerahm",
+      "price": 5.60
+    },
+    {
+      "desc": "Soja „Hack\" Pfanne mit Waldpilzen und Reis",
+      "price": 6.10
+    },
+    {
+      "desc": "Schweine-Roulade mit Apfelrotkohl und Klößen",
+      "price": 6.70
+    },
+    {
+      "desc": "Spaghetti aglio e olio mit Tomaten, Rucola und Hartkäse",
+      "price": 8.50
+    }
+  ],
+  "2026-06-12": [
+    {
+      "desc": "Karotten-Ingwersuppe mit Orange und Croûtons",
+      "price": 5.60
+    },
+    {
+      "desc": "Spinat-Lasagne mit Romanesco, Erbsen und Gouda",
+      "price": 6.10
+    },
+    {
+      "desc": "Grützwurst mit Sauerkraut und Petersilienkartoffeln",
+      "price": 6.70
+    },
+    {
+      "desc": "Matjesfilet mit Joghurtsoße und Kartoffel-Radieschen-Salat",
+      "price": 8.50
+    }
+  ]
+}
