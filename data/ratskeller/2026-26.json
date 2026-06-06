@@ -1,19 +1,19 @@
 {
   "2026-06-22": [
     {
-      "desc": "Grüner Bohneneintopf mit Rindfleisch und Kartoffel- würfeln",
+      "desc": "Grüner Bohneneintopf mit Rindfleisch und Kartoffel-würfeln",
       "price": 5.60
     },
     {
-      "desc": "Vegane „Frikadelle\" mit Champignon- Rahm und Reis",
+      "desc": "Vegane „Frikadelle\" mit Champignon-Rahm und Reis",
       "price": 6.10
     },
     {
-      "desc": "Hähnchen „Cordon bleu\" mit Honigmöhren und Petersilien- kartoffeln",
+      "desc": "Hähnchen „Cordon bleu\" mit Honigmöhren und Petersilien-kartoffeln",
       "price": 6.70
     },
     {
-      "desc": "Bunte Fusilli mit Auberginen- Ragout, Kapern und Hirtenkäse",
+      "desc": "Bunte Fusilli mit Auberginen-Ragout, Kapern und Hirtenkäse",
       "price": 8.50
     }
   ],
@@ -31,7 +31,7 @@
       "price": 6.70
     },
     {
-      "desc": "Toskanischer Brotsalat mit Oliven, Rucola und Mozzarella- Sticks",
+      "desc": "Toskanischer Brotsalat mit Oliven, Rucola und Mozzarella-Sticks",
       "price": 8.50
     }
   ],
@@ -45,11 +45,12 @@
       "price": 6.10
     },
     {
-      "desc": "Geflügelbällchen mit Champignon- Rahm und Kartoffelstampf",
+      "desc": "Geflügelbällchen mit Champignon-Rahm und Kartoffelstampf",
       "price": 6.70
     },
     {
-      "desc": "Überraschungs- gericht mit BIO- Gemüse von KOLA Leipzig"
+      "desc": "Überraschungsgericht mit Gemüse von KOLA Leipzig",
+      "price": null
     }
   ],
   "2026-06-25": [
@@ -58,11 +59,11 @@
       "price": 5.60
     },
     {
-      "desc": "Brokkoli-Nuss- Ecke auf Erbsen und Kräuterreis",
+      "desc": "Brokkoli-Nuss-Ecke auf Erbsen und Kräuterreis",
       "price": 6.10
     },
     {
-      "desc": "Thüringer Bratwurst mit Sauerkraut und Petersilien- kartoffeln",
+      "desc": "Thüringer Bratwurst mit Sauerkraut und Petersilien-kartoffeln",
       "price": 6.70
     },
     {
@@ -72,7 +73,7 @@
   ],
   "2026-06-26": [
     {
-      "desc": "Rote-Bete- Cremesuppe mit Hirtenkäse und Sprossen",
+      "desc": "Rote-Bete-Cremesuppe mit Hirtenkäse und Sprossen",
       "price": 5.60
     },
     {
