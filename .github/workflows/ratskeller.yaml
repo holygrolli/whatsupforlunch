@@ -109,7 +109,7 @@ jobs:
     - name: process image with chatgpt
       working-directory: tmp
       env:
-        GEMINI_API_KEY: ${{secrets.GEMINI_API_KEY}}
+        CHAT_API_KEY: ${{secrets.CHAT_API_KEY}}
       shell: bash
       run: |
         python ../locations/ratskeller/process_chatgpt.py

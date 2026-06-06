@@ -94,7 +94,7 @@ jobs:
     - name: process html with chatgpt
       working-directory: tmp
       env:
-        OPENAI_API_KEY: ${{secrets.OPENAI_API_KEY}}
+        CHAT_API_KEY: ${{secrets.CHAT_API_KEY}}
       shell: bash
       run: |
         python ../locations/lecasino/process_chatgpt.py
