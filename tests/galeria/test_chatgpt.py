@@ -9,8 +9,8 @@ from testconfig import testconfig
 class TestRatskeller(unittest.TestCase):
     def test_process_chatgpt(self):
         test_cases = [
-            {"prompt_override": {"model_provider": "openai", "visionModel": "gpt-4o-2024-08-06"}},
-            {"prompt_override": {"model_provider": "google", "visionModel": "gemini-2.0-flash"}},
+            {"prompt_override": {"model_provider": "openai", "visionModel": "azure/gpt-4.1-nano@francecentral"}},
+            {"prompt_override": {"model_provider": "google", "visionModel": "vertex/gemini-2.5-flash-lite@europe-central2"}},
         ]
 
         for case in test_cases:

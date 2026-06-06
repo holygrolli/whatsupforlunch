@@ -49,13 +49,13 @@ class DefaultMealChat:
         model_provider = self.prompt_config.get("model_provider")
         if model_provider == "google":
             return {
-                "base_url": f"https://generativelanguage.googleapis.com/v1beta/openai",
-                "api_key": os.environ.get("GEMINI_API_KEY"),
+                "base_url": f"https://router.eu.requesty.ai/v1",
+                "api_key": os.environ.get("CHAT_API_KEY"),
             }
         else:
             return {
-                "base_url": f"https://api.openai.com/v1",
-                "api_key": os.environ.get("OPENAI_API_KEY"),
+                "base_url": f"https://router.eu.requesty.ai/v1",
+                "api_key": os.environ.get("CHAT_API_KEY"),
             }
     # return a string with a list of all the days of the current week based on the provided date string
     def return_weekdays_from_date(self, date_string):
@@ -159,7 +159,7 @@ class DefaultMealChat:
         gpt_messages.append(
             {"role": "user", "content": self.userMessagePrefix + self.userMessage})
         print("gpt_messages: " + str(gpt_messages))
-        chat_completion = client.chat.completions.create(model="gpt-5-mini",
+        chat_completion = client.chat.completions.create(model="azure/gpt-5-mini@francecentral",
                                                         messages=gpt_messages,
                                                         response_format={ "type":"text" },
                                                         seed=1,

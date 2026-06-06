@@ -33,7 +33,7 @@ region = eu-central-1
 
 The OpenAI API key is provided as environment variable inside `.openai` like this:
 ```
-OPENAI_API_KEY=
+CHAT_API_KEY=
 ```
 
 To run a full GitHub workflow you can use [`act`](https://github.com/nektos/act) like this:
@@ -45,7 +45,7 @@ The file `.aws.creds` should (again) contain the required environment variables 
 AWS_ACCESS_KEY_ID=
 AWS_SECRET_ACCESS_KEY=
 AWS_DEFAULT_REGION=eu-central-1
-OPENAI_API_KEY=
+CHAT_API_KEY=
 ```
 
 ## Testing

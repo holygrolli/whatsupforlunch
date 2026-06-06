@@ -18,5 +18,5 @@ config = {
 prompt_overrides = {
     "addCurrentDate": True,
     "model_provider": "google",
-    "visionModel": "gemini-2.0-flash"
+    "visionModel": "vertex/gemini-2.5-flash-lite@europe-central2"
 }
