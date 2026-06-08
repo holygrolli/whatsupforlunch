@@ -1,0 +1,66 @@
+{
+  "2026-06-08": [
+    {
+      "desc": "Sülze, Bratkartoffeln, Hausfrauensauce",
+      "price": 6.99
+    },
+    {
+      "desc": "Matjes, Hausfrauensauce, Bratkartoffeln",
+      "price": 6.99
+    }
+  ],
+  "2026-06-09": [
+    {
+      "desc": "Putengeschnetzeltes, Spätzle",
+      "price": 6.99
+    },
+    {
+      "desc": "Spätzle Gemüse Pfanne mit Blattspinat, Kirschtomaten, Feta",
+      "price": 6.99
+    }
+  ],
+  "2026-06-10": [
+    {
+      "desc": "Schnitzel Pute, Letscho, Pommes",
+      "price": 6.99
+    },
+    {
+      "desc": "Kartoffeln, Quark, kl. Salat",
+      "price": 6.99
+    }
+  ],
+  "2026-06-11": [
+    {
+      "desc": "Putenleber, Kartoffelstampf, Schmorrzwiebeln",
+      "price": 6.99
+    },
+    {
+      "desc": "Kräuterpfannkuchen mit Tomate Mozzarella Ragout",
+      "price": 6.99
+    }
+  ],
+  "2026-06-12": [
+    {
+      "desc": "Hackbraten, Mischgemüse, Kartoffeln",
+      "price": 6.99
+    },
+    {
+      "desc": "Milchreis, heiße Kirschen, Z+Z",
+      "price": 6.99
+    }
+  ],
+  "2026-W24": [
+    {
+      "desc": "Pasta mit Avocado Basilikumpesto",
+      "price": 5.50
+    },
+    {
+      "desc": "Pasta Arrabiata",
+      "price": 5.50
+    },
+    {
+      "desc": "Pasta mit Hackbällchen in Feta",
+      "price": 5.50
+    }
+  ]
+}
