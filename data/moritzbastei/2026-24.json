@@ -1,0 +1,61 @@
+{
+  "2026-06-08": [],
+  "2026-06-09": [
+    {
+      "desc": "Schweineschnitzel in Haselnusspanade, dazu Rahmchampignons und Bratkartoffeln",
+      "price": 10.20
+    },
+    {
+      "desc": "Gebratene Minikartoffeln mit Kirschtomaten und Rucola, dazu Paprika-Gurken-Quark sowie geröstete Sonnenblumenkerne (veget.)",
+      "price": 9.20
+    }
+  ],
+  "2026-06-10": [
+    {
+      "desc": "Pasta mit Schninken-Sahne-Soße, Lauchzwiebeln und Kirschtomaten",
+      "price": 9.60
+    },
+    {
+      "desc": "Brokkoli in Kichererbsenbackteig auf rotem Linsencurry mit Paprika und Lauchzwiebeln (vegan)",
+      "price": 9.20
+    }
+  ],
+  "2026-06-11": [
+    {
+      "desc": "Gebackene Hähnchenbrust in Parmesan-Panade, dazu Ofengemüse und Zitronen-Aioli",
+      "price": 9.80
+    },
+    {
+      "desc": "Sojagyros mit Ingwer, dazu Kartoffelecken, Tzatziki und Krautsalat (veget.)",
+      "price": 9.20
+    }
+  ],
+  "2026-06-12": [
+    {
+      "desc": "Gebratenes Seelachsfilet, dazu Erbsen-Minzpüree, Zitronensoße und Süßkartoffelecken",
+      "price": 9.90
+    },
+    {
+      "desc": "Hähnchengeschnetzeltes mit gebratenem Spitzkohl, dazu Sesamreis",
+      "price": 9.80
+    }
+  ],
+  "2026-W24": [
+    {
+      "desc": "Pasta mit Spinat-Petersilien-Pesto, dazu Birnen, Walnüsse und Parmesan (veget.)",
+      "price": 10.90
+    },
+    {
+      "desc": "Fenchel-Tomaten-Lasagne mit gebratener Aubergine, überbacken mit Mozzarella und Sonnenblumenkernen (veget.)",
+      "price": 12.90
+    },
+    {
+      "desc": "Kartoffel-Brokkoli-Gratin mit gebratenen Hähnchenbruststreifen, überbacken mit Gouda und Mandeln",
+      "price": 12.90
+    },
+    {
+      "desc": "Hähnchengeschnetzeltes mit gebratenem Spitzkohl, dazu Sesamreis (Extra ab 15 Uhr)",
+      "price": 12.90
+    }
+  ]
+}
