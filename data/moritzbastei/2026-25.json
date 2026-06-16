@@ -1,0 +1,61 @@
+{
+  "2026-06-15": [],
+  "2026-06-16": [
+    {
+      "desc": "Schweineschnitzel \"Western\" mit BBQ-Zwiebeln, Bacon und gebackenen Kartoffelecken, dazu Sour Cream",
+      "price": 10.20
+    },
+    {
+      "desc": "Zucchini-Limettentagliatelle mit gerösteten Sonnenblumenkernen und Parmesan (veget.)",
+      "price": 9.20
+    }
+  ],
+  "2026-06-17": [
+    {
+      "desc": "Hackbällchen \"Mediterran\" in Tomaten-Sahnesoße, dazu Kräuterreis",
+      "price": 9.80
+    },
+    {
+      "desc": "Gnocchi in leichter Käsesoße, mit Birnenspalten, Frühlingszwiebeln und gerösteten Mandeln (veget.)",
+      "price": 9.50
+    }
+  ],
+  "2026-06-18": [
+    {
+      "desc": "Wurstgulasch mit Paprika auf Pasta, dazu Gouda",
+      "price": 9.60
+    },
+    {
+      "desc": "Gebackene Auberginentaler (veget.) ODER knusprige Hähnchenbruststreifen auf verschiedenen Blattsalaten mit gegrillter Paprika, Zucchini, Sonnenblumenkernen und Parmesancroûtons, dazu Honig-Senfdressing",
+      "price": 9.20
+    }
+  ],
+  "2026-06-19": [
+    {
+      "desc": "Gebackenes Seelachsfilet in Cornflakes-Panade mit hausgemachtem Kartoffelsalat",
+      "price": 9.90
+    },
+    {
+      "desc": "Thai-Hähnchencurry mit buntem Gemüse in Kokossoße, dazu Basmatireis und Erdnüsse",
+      "price": 9.80
+    }
+  ],
+  "2026-W25": [
+    {
+      "desc": "Pasta mit Orange-Basilikum-Pesto, dazu geröstete Mandeln und Parmesan (veget.)",
+      "price": 10.90
+    },
+    {
+      "desc": "Waldpilzlasagne überbacken mit Mozzarella und Röstzwiebeln (veget.)",
+      "price": 12.90
+    },
+    {
+      "desc": "Soja-Hackfleischgratin mit Süßkartoffel und grünen Bohnen, überbacken mit Hirtenkäse und Sonnenblumenkernen (veget.)",
+      "price": 12.90
+    },
+    {
+      "desc": "Thai-Hähnchencurry mit buntem Gemüse in Kokossoße, dazu Basmatireis und Erdnüsse",
+      "price": 12.90
+    }
+  ]
+}
