@@ -1,0 +1,66 @@
+{
+  "2026-06-22": [
+    {
+      "desc": "Pasta, Bolognese - Rind, Käse",
+      "price": 6.99
+    },
+    {
+      "desc": "2 Eier in Kräutersauce, Kartoffeln",
+      "price": 6.99
+    }
+  ],
+  "2026-06-23": [
+    {
+      "desc": "hausgemachte Boulette, Kartoffelsalat, Gurkensalat",
+      "price": 6.99
+    },
+    {
+      "desc": "Backfisch, Kartoffelsalat + Gurkensalat",
+      "price": 6.99
+    }
+  ],
+  "2026-06-24": [
+    {
+      "desc": "Schnitzel Pute, Karotten+Erbsen, Kartoffeln",
+      "price": 6.99
+    },
+    {
+      "desc": "Gemüse Risotto mit Shrimps",
+      "price": 6.99
+    }
+  ],
+  "2026-06-25": [
+    {
+      "desc": "Paprika Reis Pfanne mit Hack",
+      "price": 6.99
+    },
+    {
+      "desc": "Kartoffel Brokkoli Pfanne",
+      "price": 6.99
+    }
+  ],
+  "2026-06-26": [
+    {
+      "desc": "Leber Schwein, Kartoffelstampf, Zwiebelgemüse",
+      "price": 6.99
+    },
+    {
+      "desc": "Kartoffeln, Spinat, Rührei",
+      "price": 6.99
+    }
+  ],
+  "2026-W26": [
+    {
+      "desc": "Pasta, Wurstgulasch, Käse",
+      "price": 5.50
+    },
+    {
+      "desc": "Penne mit Hühnchen und grüner Pesto",
+      "price": 5.50
+    },
+    {
+      "desc": "Nudeln mit Spinatrahm, Käse",
+      "price": 5.50
+    }
+  ]
+}
