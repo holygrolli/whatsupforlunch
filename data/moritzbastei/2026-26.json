@@ -1,0 +1,61 @@
+{
+  "2026-06-22": [],
+  "2026-06-23": [
+    {
+      "desc": "Schweineschnitzel \"Gärtnerin\", überbacken mit Gemüse und Sc. Hollandaise, dazu Bratkartoffeln",
+      "price": 10.20
+    },
+    {
+      "desc": "Gebackener Hirtenkäse auf Melonen-Zuckerschotensalat mit Blattspinat und Parmesancroûtons, dazu Limetten-Minz-Dressing und Baguette (veget.)",
+      "price": 9.20
+    }
+  ],
+  "2026-06-24": [
+    {
+      "desc": "Schwedische Hackbällchen \"Köttbullar\" mit Kartofelpüree und crunchy Onions, dazu Preiselbeeren",
+      "price": 9.80
+    },
+    {
+      "desc": "Sojagulasch mit geschmortem Spitzkohl, dazu Böhmische Knödel (veget.)",
+      "price": 9.20
+    }
+  ],
+  "2026-06-25": [
+    {
+      "desc": "Hühnerfrikassee mit Spargel, Erbsen und Chamignons, dazu Basmatireis",
+      "price": 9.80
+    },
+    {
+      "desc": "Gnocchi mit gebratenem Spargel, Rucola und Kirschtomaten, dazu Parmesan (veget.)",
+      "price": 9.50
+    }
+  ],
+  "2026-06-26": [
+    {
+      "desc": "Matjesfilet in Apfel-Zwiebelremoulade, dazu Salzkartoffeln",
+      "price": 9.90
+    },
+    {
+      "desc": "Feuriges Hähnchen in Paprikarahm, dazu Basmatireis und geröstete Mandeln",
+      "price": 9.80
+    }
+  ],
+  "2026-W26": [
+    {
+      "desc": "Pasta mit Paprika-Chili-Pesto, dazu geröstete Sonnenblumenkerne und Parmesan (veget.)",
+      "price": 10.90
+    },
+    {
+      "desc": "Spinat-Lasagne mit getrockneten Tomaten, überbacken mit Mozzarella (veget.)",
+      "price": 12.90
+    },
+    {
+      "desc": "Kartoffelgratin \"Indisch\" mit gebratenen Hähnchenbruststreifen, Blumenkohl und Karotten",
+      "price": 12.90
+    },
+    {
+      "desc": "Feuriges Hähnchen in Paprikarahm, dazu Basmatireis und geröstete Mandeln (Extra ab 15 Uhr)",
+      "price": 12.90
+    }
+  ]
+}
