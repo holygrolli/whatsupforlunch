@@ -1,0 +1,92 @@
+{
+  "2026-08-03": [
+    {
+      "desc": "Grüner Bohneneintopf mit Rindfleisch und Kartoffelwürfeln",
+      "price": 5.60
+    },
+    {
+      "desc": "Back-Käse mit Zaziki, Krautsalat und Tomatenreis",
+      "price": 6.10
+    },
+    {
+      "desc": "Paprikaschote mit Geflügel-Hack, Tomaten-Soße und Spätzle",
+      "price": 6.70
+    },
+    {
+      "desc": "Shakshuka mit Hummus und Fladenbrot",
+      "price": 8.50
+    }
+  ],
+  "2026-08-04": [
+    {
+      "desc": "Drei Hefeklöße mit warmen Heidelbeeren",
+      "price": 5.60
+    },
+    {
+      "desc": "Pasta mit Tomatensoße und geriebenem Käse",
+      "price": 6.10
+    },
+    {
+      "desc": "Jägerschnitzel mit Tomatensoße und Pasta",
+      "price": 6.70
+    },
+    {
+      "desc": "Vegane Gyros Bowl mit Knoblauch-Dip, buntem Salat und Reis",
+      "price": 8.50
+    }
+  ],
+  "2026-08-05": [
+    {
+      "desc": "Erbseneintopf mit Bockwurst und Kartoffelwürfeln",
+      "price": 5.60
+    },
+    {
+      "desc": "Eieromelette mit Rahmspinat und Petersilienkartoffeln",
+      "price": 6.10
+    },
+    {
+      "desc": "Hühnerfrikassee Erbsen, Karotten und Butterreis",
+      "price": 6.70
+    },
+    {
+      "desc": "Überraschungsgericht mit Gemüse von KOLA Leipzig",
+      "price": null
+    }
+  ],
+  "2026-08-06": [
+    {
+      "desc": "Kokosmilchreis mit Mango-Kompott und Zimtzucker",
+      "price": 5.60
+    },
+    {
+      "desc": "Gemüseköttbullar mit Rahm-Champignons und Kartoffel-Stampf",
+      "price": 6.10
+    },
+    {
+      "desc": "Ungarisches Schweinegulasch mit Paprika, dazu Pasta",
+      "price": 6.70
+    },
+    {
+      "desc": "Brokkoli-Cheese-Nuggets mit mediterranem Linsensalat",
+      "price": 8.50
+    }
+  ],
+  "2026-08-07": [
+    {
+      "desc": "Waldpilzcreme-Suppe mit Thymian und Croûtons",
+      "price": 5.60
+    },
+    {
+      "desc": "Vegetarische Moussaka mit Aubergine, Kartoffel und Hirtenkäse",
+      "price": 6.10
+    },
+    {
+      "desc": "Backfisch mit Remoulade, Salat und Petersilienkartoffeln",
+      "price": 6.70
+    },
+    {
+      "desc": "Crispy Chicken Burger mit Tomate, Gurke und Kartoffel-Ecken",
+      "price": 8.50
+    }
+  ]
+}

@@ -1,0 +1,92 @@
+{
+  "2026-08-10": [
+    {
+      "desc": "Tomatencreme-Suppe mit Basilikum-Pesto und Croûtons",
+      "price": 5.60
+    },
+    {
+      "desc": "Veganes „Gulasch“ mit Pilzen, Paprika und Reis",
+      "price": 6.10
+    },
+    {
+      "desc": "„Cordon bleu“ vom Schwein mit Buttererbsen und Petersilien-kartoffeln",
+      "price": 6.70
+    },
+    {
+      "desc": "Salat \"Nizza\" mit Thunfisch, Kartoffeln, Bohnen und Ei",
+      "price": 8.50
+    }
+  ],
+  "2026-08-11": [
+    {
+      "desc": "Süße Schupfnudeln mit Beerensoße",
+      "price": 5.60
+    },
+    {
+      "desc": "Pasta mit Tomatensoße und geriebenem Käse",
+      "price": 6.10
+    },
+    {
+      "desc": "Pasta mit Wurstgulasch und geriebenem Käse",
+      "price": 6.70
+    },
+    {
+      "desc": "Vegane „Bratwurst“ mit Sauerkraut und Petersilien-kartoffeln",
+      "price": 8.50
+    }
+  ],
+  "2026-08-12": [
+    {
+      "desc": "Reiseintopf mit Gemüse-Julienne und Geflügelfleisch",
+      "price": 5.60
+    },
+    {
+      "desc": "Brokkoli-Nuss-Ecke mit Karotten und Kartoffelstampf",
+      "price": 6.10
+    },
+    {
+      "desc": "Thüringer Bratwurst mit Sauerkraut und Petersilien-kartoffeln",
+      "price": 6.70
+    },
+    {
+      "desc": "Überraschungsgericht mit Gemüse von KOLA Leipzig",
+      "price": null
+    }
+  ],
+  "2026-08-13": [
+    {
+      "desc": "Drei Eierkuchen mit Apfelmus und Zimtzucker",
+      "price": 5.60
+    },
+    {
+      "desc": "Kartoffeltaschen mit Frischkäse, Kräuterdip und Salat",
+      "price": 6.10
+    },
+    {
+      "desc": "Putenbrust-Paprika-Rahm-Geschnetzeltes mit Butterreis",
+      "price": 6.70
+    },
+    {
+      "desc": "Farfalle mit Miesmuscheln, Knoblauch, Tomaten und Rucola",
+      "price": 8.50
+    }
+  ],
+  "2026-08-14": [
+    {
+      "desc": "Kürbiscreme-Suppe mit Kokosmilch und Sprossen",
+      "price": 5.60
+    },
+    {
+      "desc": "Gemüse-Stäbchen mit Zucchini und Risi Bisi",
+      "price": 6.10
+    },
+    {
+      "desc": "Grillwurst mit Letscho-Gemüse und Kartoffelstampf",
+      "price": 6.70
+    },
+    {
+      "desc": "Schellfischfilet mit Tomaten, Fenchel und Limonen-Risotto",
+      "price": 8.50
+    }
+  ]
+}
