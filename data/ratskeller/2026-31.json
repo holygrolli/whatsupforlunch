@@ -1,0 +1,92 @@
+{
+  "2026-07-27": [
+    {
+      "desc": "Chili con Carne mit Hackfleisch, Mais und Bohnen",
+      "price": 5.60
+    },
+    {
+      "desc": "Gemüse- Frikassee mit Karotten, Erbsen, Spargel und Reis",
+      "price": 6.10
+    },
+    {
+      "desc": "Züricher Schweine- Geschnetzeltes mit Champignons und Spätzle",
+      "price": 6.70
+    },
+    {
+      "desc": "Vegane Chick 'n Nuggets auf buntem Nudelsalat und Curry-Dip",
+      "price": 8.50
+    }
+  ],
+  "2026-07-28": [
+    {
+      "desc": "Nougat-Topfenknödel mit Vanillesoße",
+      "price": 5.60
+    },
+    {
+      "desc": "Pasta mit Tomatensoße und geriebenem Käse",
+      "price": 6.10
+    },
+    {
+      "desc": "Spaghetti Bolognese mit geriebenem Käse",
+      "price": 6.70
+    },
+    {
+      "desc": "Mac'n Cheese-Taler auf Melonen-Gurkensalat und Senfdressing",
+      "price": 8.50
+    }
+  ],
+  "2026-07-29": [
+    {
+      "desc": "Soljanka mit Zitrone und Sauerrahm",
+      "price": 5.60
+    },
+    {
+      "desc": "2 gekochte Eier mit Senfsoße, Rotkrautsalat und Petersilienkartoffeln",
+      "price": 6.10
+    },
+    {
+      "desc": "Schweinesteak mit Letscho-Gemüse und Kroketten",
+      "price": 6.70
+    },
+    {
+      "desc": "Überraschungsgericht mit Gemüse von KOLA Leipzig",
+      "price": null
+    }
+  ],
+  "2026-07-30": [
+    {
+      "desc": "Sächsische Quarkkäulchen mi Apfelmus und Zimtzucker",
+      "price": 5.60
+    },
+    {
+      "desc": "Gemüserösti mit Kräuterdip und buntem Salat",
+      "price": 6.10
+    },
+    {
+      "desc": "Szegediner Gulasch mit Sauerkraut und Böhmischen Knödeln",
+      "price": 6.70
+    },
+    {
+      "desc": "Rote-Bete-Falafel mit Karotten-Hummus und buntem Bulgur-Salat",
+      "price": 8.50
+    }
+  ],
+  "2026-07-31": [
+    {
+      "desc": "Süßkartoffel-Ingwer-Suppe mit Sesam und Sprossen",
+      "price": 5.60
+    },
+    {
+      "desc": "Spinat-Käseknödel auf Kräuter-Waldpilzrahm",
+      "price": 6.10
+    },
+    {
+      "desc": "Currywurst mit fruchtig, pikanter Soße, dazu Kartoffelecken",
+      "price": 6.70
+    },
+    {
+      "desc": "Wildlachsfilet auf Fenchel, Kapern, Tomaten und Tortellini",
+      "price": 8.50
+    }
+  ]
+}
