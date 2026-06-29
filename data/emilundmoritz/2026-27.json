@@ -1,0 +1,66 @@
+{
+  "2026-06-29": [
+    {
+      "desc": "Spirelli, Wurstgulasch, Käse",
+      "price": 6.99
+    },
+    {
+      "desc": "Kartoffel, Gurkensalat, Rührei",
+      "price": 6.99
+    }
+  ],
+  "2026-06-30": [
+    {
+      "desc": "Krautpfanne mit Hackfleisch, Kartoffeln",
+      "price": 6.99
+    },
+    {
+      "desc": "Kartoffelrösti mit Räucherlachs, Creme Fraiche",
+      "price": 6.99
+    }
+  ],
+  "2026-07-01": [
+    {
+      "desc": "Schnitzel Schwein, Kartoffelsalat",
+      "price": 6.99
+    },
+    {
+      "desc": "panierter Käse, Kartoffelsalat",
+      "price": 6.99
+    }
+  ],
+  "2026-07-02": [
+    {
+      "desc": "Rostbrätl, Bratkartoffeln",
+      "price": 6.99
+    },
+    {
+      "desc": "Kartoffeln, Kräuterquark, Tomatensalat",
+      "price": 6.99
+    }
+  ],
+  "2026-07-03": [
+    {
+      "desc": "Königsberger Klöpse in Kapernsauce, Kartoffeln",
+      "price": 6.99
+    },
+    {
+      "desc": "Römersalat mit Honig Senf Dressing + Fischstäbchen",
+      "price": 6.99
+    }
+  ],
+  "2026-W27": [
+    {
+      "desc": "Penne Bolognese",
+      "price": 5.50
+    },
+    {
+      "desc": "Penne mit Zitronenrahm + Shrimps",
+      "price": 5.50
+    },
+    {
+      "desc": "Penne mit Basilikumpesto",
+      "price": 5.50
+    }
+  ]
+}
