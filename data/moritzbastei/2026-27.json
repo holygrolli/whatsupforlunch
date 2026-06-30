@@ -1,0 +1,61 @@
+{
+  "2026-06-29": [],
+  "2026-06-30": [
+    {
+      "desc": "Schweineschnitzel \"Mailänder Art\", in Parmesan-Semmelkruste, dazu pikante Tomatensoße und Linguine",
+      "price": 10.20
+    },
+    {
+      "desc": "Eier in Honig-Senf-Soße, dazu Salzkartoffeln, frittierte Petersilie und Gurkensalat (veget.)",
+      "price": 8.90
+    }
+  ],
+  "2026-07-01": [
+    {
+      "desc": "Bauernfrühstück, dazu Gewürzgurke und Salatbeilage",
+      "price": 9.50
+    },
+    {
+      "desc": "Gebackene Falafel auf verschiedenen Blattsalaten mit gegrillter Paprika, Zucchini und getrockneten Tomaten, dazu ein Joghurt-Minzdip (veget.)",
+      "price": 9.20
+    }
+  ],
+  "2026-07-02": [
+    {
+      "desc": "Gyros mit gebackenen Kartoffelecken, Tzatziki und Krautsalat",
+      "price": 9.80
+    },
+    {
+      "desc": "Zucchini-Kartoffelrösti mit Kräuterschmand und Tomatensalat (veget.)",
+      "price": 9.20
+    }
+  ],
+  "2026-07-03": [
+    {
+      "desc": "Gebratenes Seelachsfilet auf sommerlichem Reissalat, dazu Honig-Senf-Dip",
+      "price": 9.90
+    },
+    {
+      "desc": "Pfeffergeschnetzeltes vom Huhn, mit Kirschtomaten und frittierter Petersilie, dazu Basmatireis",
+      "price": 9.80
+    }
+  ],
+  "2026-W27": [
+    {
+      "desc": "Pasta mit Limetten-Minz-Pesto, dazu geröstete Mandeln (veget.) und Parmesan",
+      "price": 10.90
+    },
+    {
+      "desc": "Sommerlasagne u.a. mit Zuckerschoten, Aubergine und Paprika, überbacken mit Mozzarella und Sonnenblumenkernen (veget.)",
+      "price": 12.90
+    },
+    {
+      "desc": "Hähnchengratin mit Penne und gebratener Zucchini, in pikanter Tomatensoße, überbacken mit Hirtenkäse",
+      "price": 12.90
+    },
+    {
+      "desc": "Pfeffergeschnetzeltes vom Huhn, mit Kirschtomaten und frittierter Petersilie, dazu Basmatireis",
+      "price": 12.90
+    }
+  ]
+}
