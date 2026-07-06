@@ -1,0 +1,66 @@
+{
+  "2026-07-06": [
+    {
+      "desc": "Jägerschnitzel, Pasta, Tomatensauce",
+      "price": 6.99
+    },
+    {
+      "desc": "Backfisch, Kartoffelstampf, Tomatensauce",
+      "price": 6.99
+    }
+  ],
+  "2026-07-07": [
+    {
+      "desc": "Schweinebraten, Möhren, Kartoffeln",
+      "price": 6.99
+    },
+    {
+      "desc": "Kartoffel Brokkoli Auflauf",
+      "price": 6.99
+    }
+  ],
+  "2026-07-08": [
+    {
+      "desc": "Hühnerfrikasse, Reis",
+      "price": 6.99
+    },
+    {
+      "desc": "Kichererbsencurry, Reis",
+      "price": 6.99
+    }
+  ],
+  "2026-07-09": [
+    {
+      "desc": "Paprika Sahne Hähnchen, Kartoffelstampf",
+      "price": 6.99
+    },
+    {
+      "desc": "Bratnudeln mit Frühlingszwiebeln, Ingwer + Ei",
+      "price": 6.99
+    }
+  ],
+  "2026-07-10": [
+    {
+      "desc": "Chilli con Carne, Reis",
+      "price": 6.99
+    },
+    {
+      "desc": "Gnocchi mit Kirschtomaten+Spinatrahm",
+      "price": 6.99
+    }
+  ],
+  "2026-W28": [
+    {
+      "desc": "Penne Bolognese + Käse",
+      "price": 5.50
+    },
+    {
+      "desc": "Spaghetti mit Zitronenrahm + Shrimps",
+      "price": 5.50
+    },
+    {
+      "desc": "Penne mit Basilikumpesto",
+      "price": 5.50
+    }
+  ]
+}
