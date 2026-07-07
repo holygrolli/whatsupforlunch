@@ -1,0 +1,61 @@
+{
+  "2026-07-06": [],
+  "2026-07-07": [
+    {
+      "desc": "Schweineschnitzel mit Spiegelei und hausgemachtem Kartoffelsalat",
+      "price": 10.20
+    },
+    {
+      "desc": "Mediterrane Gemüsebolognese u.a. mit Zucchini, Paprika und Aubergine, dazu Pasta, Parmesan und Sellerie-Chips (veget.)",
+      "price": 9.20
+    }
+  ],
+  "2026-07-08": [
+    {
+      "desc": "Hähnchenbrust \"Jerk Style\" auf buntem Grillgemüse mit Tomatensalsa",
+      "price": 9.80
+    },
+    {
+      "desc": "Gebratene Minikartoffeln mit Kirschtomaten und Rucola, dazu Paprika-Gurken-Quark sowie geröstete Sonnenblumenkerne (veget.)",
+      "price": 9.20
+    }
+  ],
+  "2026-07-09": [
+    {
+      "desc": "Currywurst \"Nach Art des Hauses\" mit Kartoffelecken und Salatbeilage",
+      "price": 9.80
+    },
+    {
+      "desc": "Gerösteter Blumenkohl auf Tomatencouscous mit Koriander-Petersilien-Soße",
+      "price": 9.20
+    }
+  ],
+  "2026-07-10": [
+    {
+      "desc": "Tagliatelle in Lachs-Basilikum-Soße mit gebackenen Kirschtomaten und Parmesan",
+      "price": 9.90
+    },
+    {
+      "desc": "Hähnchengeschnetzeltes nach \"Züricher Art\" mit Champignons, dazu Kräuterreis",
+      "price": 9.80
+    }
+  ],
+  "2026-W28": [
+    {
+      "desc": "Pasta mit Koriander-Petersilien-Pesto, dazu geröstete Haselnüsse, Karottenchips (veget.) und Parmesan",
+      "price": 10.90
+    },
+    {
+      "desc": "Spitzkohl-Karotten-Lasagne überbacken mit Mozzarella und Sesam (veget.)",
+      "price": 12.90
+    },
+    {
+      "desc": "Gebackener Hirtenkäse auf mediterranem Gemüse mit Oliven, dazu Baguette",
+      "price": 12.90
+    },
+    {
+      "desc": "Hähnchengeschnetzeltes nach \"Züricher Art\" mit Champignons, dazu Kräuterreis",
+      "price": 12.90
+    }
+  ]
+}
