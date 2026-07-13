@@ -1,0 +1,66 @@
+{
+  "2026-07-13": [
+    {
+      "desc": "Grillwurst mit Letscho und Reis",
+      "price": 6.99
+    },
+    {
+      "desc": "Kaiserschmarrn dazu Apfelmus und Z+Z",
+      "price": 6.99
+    }
+  ],
+  "2026-07-14": [
+    {
+      "desc": "Hähnchenbrust in Cornflakes Panade mit Rahmchampignons und Pasta",
+      "price": 6.99
+    },
+    {
+      "desc": "Couscous- Gemüsepfanne mit Feta und Ruccola",
+      "price": 6.99
+    }
+  ],
+  "2026-07-15": [
+    {
+      "desc": "Putenleber an Kartoffelstampf und Zwiebeln",
+      "price": 6.99
+    },
+    {
+      "desc": "Fischstäbchen mit Rahmspinat und Kartoffelstampf",
+      "price": 6.99
+    }
+  ],
+  "2026-07-16": [
+    {
+      "desc": "Schweinegeschnetzeltes auf Pasta",
+      "price": 6.99
+    },
+    {
+      "desc": "Pasta Gratin mit Tomaten und Mozzarella",
+      "price": 6.99
+    }
+  ],
+  "2026-07-17": [
+    {
+      "desc": "Bauernfrühstück mit Gurkenfächer",
+      "price": 6.99
+    },
+    {
+      "desc": "Bauernfrühstück \"vegetarisch\" Mit Gurkenfächer",
+      "price": 6.99
+    }
+  ],
+  "2026-W29": [
+    {
+      "desc": "Pasta mit Erbsenmus und Lachs",
+      "price": 5.50
+    },
+    {
+      "desc": "Pasta Cabonara",
+      "price": 5.50
+    },
+    {
+      "desc": "Pasta Tomatensoße+ Käse",
+      "price": 5.50
+    }
+  ]
+}
