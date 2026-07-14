@@ -1,0 +1,61 @@
+{
+  "2026-07-13": [],
+  "2026-07-14": [
+    {
+      "desc": "Schweineschnitzel mit Rahmblumenkohl, Salzkartoffeln und brauner Soße",
+      "price": 10.20
+    },
+    {
+      "desc": "Gebackener Hirtenkäse auf Melonen-Zuckerschoten-Salat mit Blattspinat und Parmesancroutons, dazu Limetten-Minz-Dressing und Baguette (veget.)",
+      "price": 9.20
+    }
+  ],
+  "2026-07-15": [
+    {
+      "desc": "Orientalisches Hähnchen auf Gemüse-Couscous, dazu Minz-Dip",
+      "price": 9.80
+    },
+    {
+      "desc": "Tagliatelle mit Zitronen-Basilikum-Soße, dazu gebackene Kirschtomaten und Parmesan (veget.)",
+      "price": 9.20
+    }
+  ],
+  "2026-07-16": [
+    {
+      "desc": "Jägerschnitzel \\\"Made by Erika\\\" mit Tomatensoße, dazu Pasta und Gouda",
+      "price": 9.80
+    },
+    {
+      "desc": "Hausgemachte Spinat-Semmelknödel mit leichter Käsesoße, dazu geröstete Mandeln und rote Kresse (veget.)",
+      "price": 9.20
+    }
+  ],
+  "2026-07-17": [
+    {
+      "desc": "Seelachsfilet in Cornflakes-Panade, dazu Süßkartoffelspalten, Chili-Maiscreme und Tomatensalat",
+      "price": 9.90
+    },
+    {
+      "desc": "Hähnchengeschnetzeltes mit gebratener Zucchini, getrockneten Tomaten und Basmatireis",
+      "price": 9.80
+    }
+  ],
+  "2026-W29": [
+    {
+      "desc": "Pasta mit Tomaten-Rosmarin-Pesto, dazu Walnüsse (veget.) und Parmesan",
+      "price": 10.90
+    },
+    {
+      "desc": "Fenchel-Tomaten-Lasagne mit gebratener Aubergine, überbacken mit Mozzarella und Sonnenblumenkernen (veget.)",
+      "price": 12.90
+    },
+    {
+      "desc": "Kartoffelgratin \\\"Griechischer Art\\\" mit Hackfleisch, Tomaten und Aubergine, überbacken mit Gouda",
+      "price": 12.90
+    },
+    {
+      "desc": "Hähnchengeschnetzeltes mit gebratener Zucchini, getrockneten Tomaten und Basmatireis",
+      "price": 12.90
+    }
+  ]
+}
