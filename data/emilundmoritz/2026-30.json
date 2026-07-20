@@ -1,0 +1,66 @@
+{
+  "2026-07-20": [
+    {
+      "desc": "Frikadelle, Möhren, Kartoffeln, Sauce",
+      "price": 6.99
+    },
+    {
+      "desc": "Kartoffel Brokkoli Gratin",
+      "price": 6.99
+    }
+  ],
+  "2026-07-21": [
+    {
+      "desc": "Schnitzel - Schwein, Rosenkohl, Kartoffeln",
+      "price": 6.99
+    },
+    {
+      "desc": "Matjes, Bratkartoffeln",
+      "price": 6.99
+    }
+  ],
+  "2026-07-22": [
+    {
+      "desc": "Currywurst, Pommes, Krautsalat",
+      "price": 6.99
+    },
+    {
+      "desc": "Reispfanne mit Grillgemüse",
+      "price": 6.99
+    }
+  ],
+  "2026-07-23": [
+    {
+      "desc": "Rinderbraten, Rotkohl, Klöße",
+      "price": 6.99
+    },
+    {
+      "desc": "Nudeln, Tomatensauce, Käse",
+      "price": 6.99
+    }
+  ],
+  "2026-07-24": [
+    {
+      "desc": "Grützwurst, Sauerkraut, Kartoffeln",
+      "price": 6.99
+    },
+    {
+      "desc": "Backfisch, Kartoffelstampf, Spinat",
+      "price": 6.99
+    }
+  ],
+  "2026-W30": [
+    {
+      "desc": "Penne, Carbonara",
+      "price": 5.50
+    },
+    {
+      "desc": "Penne mit Thunfisch in Tomatenrahm",
+      "price": 5.50
+    },
+    {
+      "desc": "Spaghetti mit Tomate + Basilikum Sauce",
+      "price": 5.50
+    }
+  ]
+}
