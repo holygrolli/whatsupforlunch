@@ -1,0 +1,61 @@
+{
+  "2026-07-20": [],
+  "2026-07-21": [
+    {
+      "desc": "Schweineschnitzel in Haselnusspanade, dazu Rahmchampignons und Bratkartoffeln",
+      "price": 10.20
+    },
+    {
+      "desc": "Karotten-Pfanne mit Zuckerschoten, Kartoffeln und Petersilie, dazu geröstete Sonnenblumenkerne und Hirtenkäse (veget.)",
+      "price": 9.20
+    }
+  ],
+  "2026-07-22": [
+    {
+      "desc": "Gebackene Paprikaschote gefüllt mit Hackfleisch, dazu Kartoffeln und pikante Tomatensoße",
+      "price": 9.80
+    },
+    {
+      "desc": "Pasta mit roten Linsen, Tomaten, Lauchzwiebeln und gerösteten Kichererbsen (vegan)",
+      "price": 9.20
+    }
+  ],
+  "2026-07-23": [
+    {
+      "desc": "Gebackene Hähnchenbrust in Parmesan-Panade, dazu Ofengemüse und Zitronen-Aioli",
+      "price": 9.80
+    },
+    {
+      "desc": "Gnocchi in Basilikumsoße mit getrockenten Tomaten, dazu Parmesan und Sonnenblumenkerne (veget.)",
+      "price": 9.20
+    }
+  ],
+  "2026-07-24": [
+    {
+      "desc": "Gebackenes Seelachsfilet mit Remoulade, Salzkartoffeln und Gurkensalat",
+      "price": 9.90
+    },
+    {
+      "desc": "Thai-Hähnchencurry mit buntem Gemüse in Kokossoße, dazu Basmatireis und Erdnüsse",
+      "price": 9.80
+    }
+  ],
+  "2026-W30": [
+    {
+      "desc": "Pasta mit Petersilien-Macadamia-Pesto, dazu Karottenchips (veget.) und Parmesan",
+      "price": 10.90
+    },
+    {
+      "desc": "Zucchini-Süßkartoffel-Lasagne überbacken mit Mozzarella und Sonnenblumenkernen (veget.)",
+      "price": 12.90
+    },
+    {
+      "desc": "Kartoffel-Spinat-Gratin mit gebratenen Hähnchenbruststreifen, überbacken mit Hirtenkäse",
+      "price": 12.90
+    },
+    {
+      "desc": "Thai-Hähnchencurry mit buntem Gemüse in Kokossoße, dazu Basmatireis und Erdnüsse (Extra ab 15 Uhr)",
+      "price": 12.90
+    }
+  ]
+}
