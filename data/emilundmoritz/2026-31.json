@@ -1,0 +1,66 @@
+{
+  "2026-07-27": [
+    {
+      "desc": "Chilli con Carne, Reis",
+      "price": 6.99
+    },
+    {
+      "desc": "Kartoffeltaschen mit Frischkäse, Dip, kl. Salat",
+      "price": 6.99
+    }
+  ],
+  "2026-07-28": [
+    {
+      "desc": "Hühnerfrikassee, Reis",
+      "price": 6.99
+    },
+    {
+      "desc": "Pasta, Tomaten Basilikum Sauce, Käse",
+      "price": 6.99
+    }
+  ],
+  "2026-07-29": [
+    {
+      "desc": "Rindergulasch, Spätzle",
+      "price": 6.99
+    },
+    {
+      "desc": "Couscoussalat mit Hirtenkäse, Zucchini, Paprika",
+      "price": 6.99
+    }
+  ],
+  "2026-07-30": [
+    {
+      "desc": "Schweinebraten, Möhren, Kartoffeln",
+      "price": 6.99
+    },
+    {
+      "desc": "Eierkuchen, Apfelmus, Z+Z",
+      "price": 6.99
+    }
+  ],
+  "2026-07-31": [
+    {
+      "desc": "Kartoffelsalat, Schnitzel - Schwein-",
+      "price": 6.99
+    },
+    {
+      "desc": "Kartoffelsalat, Spiegeleier",
+      "price": 6.99
+    }
+  ],
+  "2026-W31": [
+    {
+      "desc": "Penne Chicken Alfredo, cremiger Parmesansauce, getr. Tomaten",
+      "price": 5.50
+    },
+    {
+      "desc": "Penne Lachs Sahne Sauce, Spinat",
+      "price": 5.50
+    },
+    {
+      "desc": "Spaghetti, Basilikum Pesto, Parmesan",
+      "price": 5.50
+    }
+  ]
+}
