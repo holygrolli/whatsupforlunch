@@ -1,0 +1,61 @@
+{
+  "2026-07-27": [],
+  "2026-07-28": [
+    {
+      "desc": "Schweineschnitzel \"Western\" mit BBQ-Zwiebeln, Bacon und gebackenen Kartoffelecken, dazu Sour Cream",
+      "price": 10.20
+    },
+    {
+      "desc": "Gebackene Auberginentaler auf verschiedenen Blattsalaten mit gegrillter Paprika, Zucchini, Sonnenblumenkernen und Parmesancroûtons, dazu Honig-Senfdressing (veget.)",
+      "price": 9.20
+    }
+  ],
+  "2026-07-29": [
+    {
+      "desc": "Bauernfrühstück mit Gewürzgurke und Salatbeilage",
+      "price": 9.50
+    },
+    {
+      "desc": "Zucchini-Limetten-Tagliatelle mit gerösteten Sonnenblumenkernen und Parmesan (veget.)",
+      "price": 9.20
+    }
+  ],
+  "2026-07-30": [
+    {
+      "desc": "Wurstgulasch mit Paprika auf Pasta, dazu Gouda",
+      "price": 9.60
+    },
+    {
+      "desc": "Kartoffelrösti überbacken mit Tomate und Mozzarella, dazu Basilikum-Schmand und Salatbeilage (veget.)",
+      "price": 9.20
+    }
+  ],
+  "2026-07-31": [
+    {
+      "desc": "Matjesfilet in Apfel-Zwiebel-Remoulade, dazu Salzkartoffeln",
+      "price": 9.90
+    },
+    {
+      "desc": "Feuriges Hähnchen in Paprikarahm, dazu Basmatireis und geröstete Mandeln",
+      "price": 9.80
+    }
+  ],
+  "2026-W31": [
+    {
+      "desc": "Pasta mit Rucola-Pesto, dazu geröstete Sonnenblumenkerne, Kirschtomaten (veget.) und Parmesan",
+      "price": 10.90
+    },
+    {
+      "desc": "Spinatlasagne mit getrockneten Tomaten, überbacken mit Mozzarella (veget.)",
+      "price": 12.90
+    },
+    {
+      "desc": "Kartoffelgratin \"Indisch\" mit gebratenen Hähnchenbruststreifen, Blumenkohl und Karotten",
+      "price": 12.90
+    },
+    {
+      "desc": "Feuriges Hähnchen in Paprikarahm, dazu Basmatireis und geröstete Mandeln (Extra ab 15 Uhr)",
+      "price": 12.90
+    }
+  ]
+}
