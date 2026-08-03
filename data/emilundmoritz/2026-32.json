@@ -1,0 +1,66 @@
+{
+  "2026-08-03": [
+    {
+      "desc": "Gyros Hähnchen, Tzatziki, Reis",
+      "price": 6.99
+    },
+    {
+      "desc": "Farfalle mit Kirschtomaten, Rucola",
+      "price": 6.99
+    }
+  ],
+  "2026-08-04": [
+    {
+      "desc": "Schnitzel Schwein, Gurkensalat, Bratkartoffeln",
+      "price": 6.99
+    },
+    {
+      "desc": "Süßkartoffel Spinatcurry, Reis",
+      "price": 6.99
+    }
+  ],
+  "2026-08-05": [
+    {
+      "desc": "Wurstgulasch Geflügel, Penne, Käse",
+      "price": 6.99
+    },
+    {
+      "desc": "Backfisch, Kräutersauce, Kartoffelstampf",
+      "price": 6.99
+    }
+  ],
+  "2026-08-06": [
+    {
+      "desc": "Steak Pute, Letscho, Bratkartoffeln",
+      "price": 6.99
+    },
+    {
+      "desc": "Auberginen Kichererbsengulasch, Reis",
+      "price": 6.99
+    }
+  ],
+  "2026-08-07": [
+    {
+      "desc": "Schachlik Spieß, Kartoffelsalat",
+      "price": 6.99
+    },
+    {
+      "desc": "Grillkäse, Kartoffelsalat",
+      "price": 6.99
+    }
+  ],
+  "2026-W32": [
+    {
+      "desc": "Penne Bolognese",
+      "price": 5.50
+    },
+    {
+      "desc": "Penne Lachs Sahne Sauce, Spinat",
+      "price": 5.50
+    },
+    {
+      "desc": "Spaghetti, Basilikum Pesto, Parmesan",
+      "price": 5.50
+    }
+  ]
+}
