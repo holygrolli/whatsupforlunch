@@ -1,0 +1,61 @@
+{
+  "2026-08-03": [],
+  "2026-08-04": [
+    {
+      "desc": "Schweineschnitzel mit Spiegelei und hausgemachtem Kartoffelsalat",
+      "price": 10.20
+    },
+    {
+      "desc": "Gebackene Falafel auf verschiedenen Blattsalaten mit gegrillter Paprika, Zucchini und getrockneten Tomaten, dazu ein Soja-Minzdip (vegan)",
+      "price": 9.20
+    }
+  ],
+  "2026-08-05": [
+    {
+      "desc": "Hühnerfrikassee mit Spargel, Erbsen und Champignons, dazu Basmatireis",
+      "price": 9.80
+    },
+    {
+      "desc": "Gnocchi mit gebratenem Spargel, Rucola und Kirschtomaten, dazu Parmesan (veget.)",
+      "price": 9.50
+    }
+  ],
+  "2026-08-06": [
+    {
+      "desc": "Schwedische Hackbällchen \"Köttbullar\" mit Kartoffelpüree, crunchy Onions und Preiselbeeren",
+      "price": 9.80
+    },
+    {
+      "desc": "Mediterrane Gemüsebolognese u.a. mit Zucchini, Paprika und Aubergine, dazu Pasta, Selleriechips (veget.) und Parmesan",
+      "price": 9.20
+    }
+  ],
+  "2026-08-07": [
+    {
+      "desc": "Gebratenes Seelachsfilet auf sommerlichem Reissalat, dazu Honig-Senf-Dip",
+      "price": 9.90
+    },
+    {
+      "desc": "Pfeffergeschnetzeltes vom Huhn, mit Kirschtomaten und frittierter Petersilie, dazu Basmatireis",
+      "price": 9.80
+    }
+  ],
+  "2026-W32": [
+    {
+      "desc": "Pasta mit Dattel-Oliven-Pesto, dazu geröstete Sonnenblumenkerne, Kirschtomaten (veget.) und Parmesan",
+      "price": 10.90
+    },
+    {
+      "desc": "Kohlrabi-Lasagne mit Karotten und Spitzkohl, überbacken mit Mozzarella (veget.)",
+      "price": 12.90
+    },
+    {
+      "desc": "Süßkartoffel-Hackfleisch-Gratin mit Tomaten und grünen Bohnen, überbacken mit Hirtenkäse",
+      "price": 12.90
+    },
+    {
+      "desc": "Pfeffergeschnetzeltes vom Huhn, mit Kirschtomaten und frittierter Petersilie, dazu Basmatireis",
+      "price": 12.90
+    }
+  ]
+}
