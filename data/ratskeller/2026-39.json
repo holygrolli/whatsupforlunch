@@ -1,0 +1,92 @@
+{
+  "2026-09-21": [
+    {
+      "desc": "Kürbiscreme-Suppe mit Kokosmilch und Croûtons",
+      "price": 6.00
+    },
+    {
+      "desc": "Kartoffeltaschen mit Frischkäse, Kräuterdip und Salat",
+      "price": 6.50
+    },
+    {
+      "desc": "Leberkäse mit Bayrisch Kraut und Petersilienkartoffeln",
+      "price": 7.00
+    },
+    {
+      "desc": "Cheeseburger-Wrap mit Hack, Käse, Zwiebeln, Gurke, Tomate und Salat",
+      "price": 8.50
+    }
+  ],
+  "2026-09-22": [
+    {
+      "desc": "Drei Hefeklöße mit warmen Heidelbeeren",
+      "price": 6.00
+    },
+    {
+      "desc": "Pasta mit Tomatensoße und geriebenem Käse",
+      "price": 6.50
+    },
+    {
+      "desc": "Pasta mit Wurstgulasch und geriebenem Käse",
+      "price": 7.00
+    },
+    {
+      "desc": "Schweinefilet Medaillons in Waldpilzrahm, dazu Spätzle",
+      "price": 8.50
+    }
+  ],
+  "2026-09-23": [
+    {
+      "desc": "Chili con Carne mit Hackfleisch, Mais, Kichererbsen und Bohnen",
+      "price": null
+    },
+    {
+      "desc": "Rote-Bete-Sticks auf Zucchini-Rahm und Spinatgnocchi",
+      "price": 6.50
+    },
+    {
+      "desc": "Hähnchen „Cordon bleu“ mit Honig-Möhren und Kartoffeln",
+      "price": 7.00
+    },
+    {
+      "desc": "Überraschungsgericht mit Gemüse von KOLA Leipzig",
+      "price": null
+    }
+  ],
+  "2026-09-24": [
+    {
+      "desc": "Kokosmilchreis mit Mango Kompott und Zimtzucker",
+      "price": 6.00
+    },
+    {
+      "desc": "Gefüllte Zucchini mit Buttererbsen und Spätzle",
+      "price": 6.50
+    },
+    {
+      "desc": "Schweine-Schnitzel mit Rahmpilzen und Petersilien-kartoffeln",
+      "price": 7.00
+    },
+    {
+      "desc": "Rigatoni mit Chorizo, Knoblauch, Paprika und Tomaten",
+      "price": 8.50
+    }
+  ],
+  "2026-09-25": [
+    {
+      "desc": "Schwarzwurzel-Cremesuppe mit Kresse und Croûtons",
+      "price": 6.00
+    },
+    {
+      "desc": "Kartoffel-Kürbis-Rösti mit Schnittlauch-Quark und Salat",
+      "price": 6.50
+    },
+    {
+      "desc": "Krakauer mit Grünkohl und Petersilien-kartoffeln",
+      "price": 7.00
+    },
+    {
+      "desc": "Knusper Seelachsfilet auf Fenchelrahm und Risi Bisi",
+      "price": 8.50
+    }
+  ]
+}

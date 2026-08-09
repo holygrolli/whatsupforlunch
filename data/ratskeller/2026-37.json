@@ -1,0 +1,92 @@
+{
+  "2026-09-07": [
+    {
+      "desc": "Ungarische Gulaschsuppe mit Paprika und Kartoffelwürfeln",
+      "price": 6.00
+    },
+    {
+      "desc": "Brokkoli-Nuss-Ecke mit Rote-Bete-Salat und Wildreis",
+      "price": 6.50
+    },
+    {
+      "desc": "Schweinebraten mit Apfelrotkohl und Semmelknödeln",
+      "price": 7.00
+    },
+    {
+      "desc": "Mozzarella-Sticks auf mediterr. Nudelsalat mit Oliven und Rucola",
+      "price": 8.50
+    }
+  ],
+  "2026-09-08": [
+    {
+      "desc": "Kartoffelpuffer mit Apfelmus und Zimtzucker",
+      "price": 6.00
+    },
+    {
+      "desc": "Pasta mit Tomatensoße und geriebenem Käse",
+      "price": 6.50
+    },
+    {
+      "desc": "Spaghetti Bolognese mit geriebenem Käse",
+      "price": 7.00
+    },
+    {
+      "desc": "Halloumi-Bowl mit Granatapfel, Kichererbsen, Joghurt und Bulgur",
+      "price": 8.50
+    }
+  ],
+  "2026-09-09": [
+    {
+      "desc": "Erbseneintopf mit Bockwurst und Kartoffel-würfeln",
+      "price": 6.00
+    },
+    {
+      "desc": "Tortellini, gefüllt mit Ricotta, dazu Blattspinatsoße",
+      "price": 6.50
+    },
+    {
+      "desc": "Hackbraten mit Speckbohnen und Kroketten",
+      "price": 7.00
+    },
+    {
+      "desc": "Überraschungsgericht mit Gemüse von KOLA Leipzig",
+      "price": null
+    }
+  ],
+  "2026-09-10": [
+    {
+      "desc": "Grießbrei mit Pflaumen-Kompott und Zimtzucker",
+      "price": 6.00
+    },
+    {
+      "desc": "Vegane \"Hackbällchen\" in Tomatensoße, dazu Pasta",
+      "price": 6.50
+    },
+    {
+      "desc": "Wildgulasch mit Apfelrotkohl und böhmischen Knödeln",
+      "price": 7.00
+    },
+    {
+      "desc": "Kibbelinge mit Limonen-Mayo und Kartoffel-Radieschen-Salat",
+      "price": 8.50
+    }
+  ],
+  "2026-09-11": [
+    {
+      "desc": "Minestrone - Italienischer Gemüseeintopf",
+      "price": 6.00
+    },
+    {
+      "desc": "Grillkäse mit Ofengemüse, Kräuterdip und Risi Bisi",
+      "price": 6.50
+    },
+    {
+      "desc": "Marinierter Hering mit Hausfrauensoße, Salat und Kartoffeln",
+      "price": 7.00
+    },
+    {
+      "desc": "Hähnchenbrust mit Pfifferlings-Kruste, Zucchini und Kartoffel-Rösti",
+      "price": 8.50
+    }
+  ]
+}

@@ -1,0 +1,88 @@
+{
+  "2026-08-31": [
+    {
+      "desc": "Nudeleintopf mit Geflügelfleisch und Gemüse-Julienne",
+      "price": 6.00
+    },
+    {
+      "desc": "Vegane „Frikadelle\" mit Champignons und Kartoffel-stampf",
+      "price": 6.50
+    },
+    {
+      "desc": "Seelachsfilet „Bordelaise\" mit Spinatsoße und Gemüsereis",
+      "price": 7.00
+    },
+    {
+      "desc": "Linguine mit Salsiccia, Basilikum, Knoblauch und Tomaten",
+      "price": 8.50
+    }
+  ],
+  "2026-09-01": [
+    {
+      "desc": "Germknödel mit Heidelbeer-Füllung, dazu Vanillesoße",
+      "price": 6.00
+    },
+    {
+      "desc": "Pasta mit Tomatensoße und geriebenem Käse",
+      "price": 6.50
+    },
+    {
+      "desc": "Pasta mit Wurstgulasch und geriebenem Käse",
+      "price": 7.00
+    },
+    {
+      "desc": "Bauernfrühstück mit Ei, Speck, Kartoffeln, Salat und Remoulade",
+      "price": 8.50
+    }
+  ],
+  "2026-09-02": [
+    {
+      "desc": "Hausgemachter Linseneintopf mit Blutwurstwürfeln",
+      "price": 6.00
+    },
+    {
+      "desc": "Soja-Hackpfanne mit Pilzen und Kräuterreis",
+      "price": 6.50
+    },
+    {
+      "desc": "Hähnchenkeule mit buntem Gemüse und Petersilien-kartoffeln",
+      "price": 7.00
+    }
+  ],
+  "2026-09-03": [
+    {
+      "desc": "Kaiserschmarrn mit Rosinen, Mandeln und Apfelmus",
+      "price": 6.00
+    },
+    {
+      "desc": "2 gekochte Eier mit Senfsoße, Rotkrautsalat und Petersilien-kartoffeln",
+      "price": 6.50
+    },
+    {
+      "desc": "Pasta mit Schinken-Käse-Sahnesoße",
+      "price": 7.00
+    },
+    {
+      "desc": "Gebackener Blumenkohl mit Sour Cream und Kartoffelspalten",
+      "price": 8.50
+    }
+  ],
+  "2026-09-04": [
+    {
+      "desc": "Sellerie-Birnensuppe mit Petersilien-Pesto",
+      "price": 6.00
+    },
+    {
+      "desc": "Bunter Gnocchi-Auflauf mit RomanescO, Kürbis und Paprika",
+      "price": 6.50
+    },
+    {
+      "desc": "Jumbo-Fisch-Stäbchen mit Tomatensoße und Kartoffel-stampf",
+      "price": 7.00
+    },
+    {
+      "desc": "Hähnchen-Gyros mit Krautsalat, Zaziki und Tomatenreis",
+      "price": 8.50
+    }
+  ]
+}

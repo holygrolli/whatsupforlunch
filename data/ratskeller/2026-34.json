@@ -1,0 +1,92 @@
+{
+  "2026-08-17": [
+    {
+      "desc": "Borschtsch mit Rindfleisch, rote Bete, Kohl, Paprika und Schmand",
+      "price": 6.00
+    },
+    {
+      "desc": "Süßkartoffel-Schnitte mit Rotkrautsalat und Spinat-Gnocchi",
+      "price": 6.50
+    },
+    {
+      "desc": "Köttbullar mit Rahm-Champignons und Kartoffel-stampf",
+      "price": 7.00
+    },
+    {
+      "desc": "Tagliatelle mit Lachswürfeln und Zucchini-Tomatenrahm",
+      "price": 8.50
+    }
+  ],
+  "2026-08-18": [
+    {
+      "desc": "Germknödel mit Pflaumenfüllung, dazu Vanillesoße",
+      "price": 6.00
+    },
+    {
+      "desc": "Pasta mit Tomatensoße und geriebenem Käse",
+      "price": 6.50
+    },
+    {
+      "desc": "Spaghetti Bolognese mit geriebenem Käse",
+      "price": 7.00
+    },
+    {
+      "desc": "Veganer „Backfisch\" mit Remoulade, Salat und Petersilien-kartoffeln",
+      "price": 8.50
+    }
+  ],
+  "2026-08-19": [
+    {
+      "desc": "Sächsische Kartoffelsuppe mit Majoran und Bockwurst",
+      "price": 6.00
+    },
+    {
+      "desc": "Gemüse-Schnitzel auf Ratatouille und bunten Gnocchi",
+      "price": 6.50
+    },
+    {
+      "desc": "Hirtenrolle mit Krautsalat, Zaziki und Gemüsereis",
+      "price": 7.00
+    },
+    {
+      "desc": "Überraschungsgericht mit Gemüse von KOLA Leipzig",
+      "price": null
+    }
+  ],
+  "2026-08-20": [
+    {
+      "desc": "Milchreis mit Apfelmus und Zimtzucker",
+      "price": 6.00
+    },
+    {
+      "desc": "Blumenkohl-Käse-Medaillon mit Spinatsoße und Spätzle",
+      "price": 6.50
+    },
+    {
+      "desc": "Kohlroulade mit Krautsoße und Petersilien-kartoffeln",
+      "price": 7.00
+    },
+    {
+      "desc": "Frühlingsrolle mit Hähnchenbrust und buntem Glasnudelsalat",
+      "price": 8.50
+    }
+  ],
+  "2026-08-21": [
+    {
+      "desc": "Brokkoli-Creme-suppe mit Sprossen und Kürbiskernen",
+      "price": 6.00
+    },
+    {
+      "desc": "Zucchini-Möhren-Puffer mit Radieschen Quark und Salat",
+      "price": 6.50
+    },
+    {
+      "desc": "Moussaka mit Hackfleisch, Auberginen, Hirtenkäse und Kartoffeln",
+      "price": 7.00
+    },
+    {
+      "desc": "Brathering mit Bete-Gurkensalat und Bratkartoffeln",
+      "price": 8.50
+    }
+  ]
+}
