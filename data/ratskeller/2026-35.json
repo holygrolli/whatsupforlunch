@@ -1,0 +1,92 @@
+{
+  "2026-08-24": [
+    {
+      "desc": "Gräupchen-Eintopf mit Kasslerwürfeln",
+      "price": 6.00
+    },
+    {
+      "desc": "Sellerieschnitzel auf bunten Karotten und Spinat-Gnocchi",
+      "price": 6.50
+    },
+    {
+      "desc": "Schweine-Geschnetzeltes „Stroganoff\" mit Bete, Pilzen und Spätzle",
+      "price": 7.00
+    },
+    {
+      "desc": "Paella mit Seelachs, Muscheln, Garnelen und Hähnchen",
+      "price": 8.50
+    }
+  ],
+  "2026-08-25": [
+    {
+      "desc": "American Pancakes mit Apfel-Aprikosen-Kompott",
+      "price": 6.00
+    },
+    {
+      "desc": "Pasta mit Tomatensoße und geriebenem Käse",
+      "price": 6.50
+    },
+    {
+      "desc": "Jägerschnitzel mit Tomatensoße und Pasta",
+      "price": 7.00
+    },
+    {
+      "desc": "Penne mit Trüffelrahm, Champignons, Lauch und Thymian",
+      "price": 8.50
+    }
+  ],
+  "2026-08-26": [
+    {
+      "desc": "Wirsingeintopf mit Krakauer-würfeln",
+      "price": 6.00
+    },
+    {
+      "desc": "Kräuterquark mit Zwiebeln, Butter und Petersilienkartoffeln",
+      "price": 6.50
+    },
+    {
+      "desc": "Hähnchencurry mit Blumenkohl, Brokkoli, Zuckerschoten und Reis",
+      "price": 7.00
+    },
+    {
+      "desc": "Überraschungsgericht mit Gemüse von KOLA Leipzig",
+      "price": null
+    }
+  ],
+  "2026-08-27": [
+    {
+      "desc": "Eierkuchen mit Kirschfüllung, dazu Vanillesoße",
+      "price": 6.00
+    },
+    {
+      "desc": "Asiatische Gemüsepfanne mit süß-sauer Soße und Reis",
+      "price": 6.50
+    },
+    {
+      "desc": "Schweinegulasch mit Paprika und Pilzen, dazu Pasta",
+      "price": 7.00
+    },
+    {
+      "desc": "Gebackener Camembert mit Preiselbeeren, Salat und Baguette",
+      "price": 8.50
+    }
+  ],
+  "2026-08-28": [
+    {
+      "desc": "Karotten-Ingwersuppe mit Orange und Croûtons",
+      "price": 6.00
+    },
+    {
+      "desc": "Käsespatz'n „Allgäuer Art\" mit Röstzwiebeln",
+      "price": 6.50
+    },
+    {
+      "desc": "Grützwurst mit Sauerkraut und Petersilienkartoffeln",
+      "price": 7.00
+    },
+    {
+      "desc": "Rotbarschfilet auf Ratatouille und bunten Gnocchi",
+      "price": 8.50
+    }
+  ]
+}

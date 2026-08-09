@@ -1,0 +1,92 @@
+{
+  "2026-09-14": [
+    {
+      "desc": "Soljanka mit Zitrone und Sauerrahm",
+      "price": 6.00
+    },
+    {
+      "desc": "Eieromelette mit Rahmspinat und Petersilienkartoffeln",
+      "price": 6.50
+    },
+    {
+      "desc": "Rindfleisch-Köfte mit Gurken-Joghurt, Krautsalat und Reis",
+      "price": 7.00
+    },
+    {
+      "desc": "Vegane „Currywurst\" mit pikanter Soße und Kartoffel-Ecken",
+      "price": 8.50
+    }
+  ],
+  "2026-09-15": [
+    {
+      "desc": "Germknödel mit Schokoladen-Füllung und Vanillesoße",
+      "price": 6.00
+    },
+    {
+      "desc": "Pasta mit Tomatensoße und geriebenem Käse",
+      "price": 6.50
+    },
+    {
+      "desc": "Jägerschnitzel mit Tomatensoße und Pasta",
+      "price": 7.00
+    },
+    {
+      "desc": "Shakshuka mit Hummus und Fladenbrot",
+      "price": 8.50
+    }
+  ],
+  "2026-09-16": [
+    {
+      "desc": "Grüner Bohneneintopf mit Rindfleisch und Kartoffel-würfeln",
+      "price": 6.00
+    },
+    {
+      "desc": "Chili sin Carne mit Bohnen, Mais, Kichererbsen und Reis",
+      "price": 6.50
+    },
+    {
+      "desc": "Frikadelle mit Speckbohnen und Kroketten",
+      "price": 7.00
+    },
+    {
+      "desc": "Überraschungsgericht mit Gemüse von KOLA Leipzig",
+      "price": null
+    }
+  ],
+  "2026-09-17": [
+    {
+      "desc": "Sächsische Quarkkäulchen mit Apfelmus und Zimtzucker",
+      "price": 6.00
+    },
+    {
+      "desc": "Gemüsefrikadelle auf bunten Karotten und Kräuterreis",
+      "price": 6.50
+    },
+    {
+      "desc": "Königsberger Klopse mit Kapernsoße, Bete Salat und Kartoffeln",
+      "price": 7.00
+    },
+    {
+      "desc": "Spaghetti „Puttanesca\" mit Sardellen, Kapern und Tomaten",
+      "price": 8.50
+    }
+  ],
+  "2026-09-18": [
+    {
+      "desc": "Steckrübensuppe mit Kokosmilch, Ingwer und Koriander",
+      "price": 6.00
+    },
+    {
+      "desc": "Spinat-Lasagne mit Ricotta, Lauch und Karotten",
+      "price": 6.50
+    },
+    {
+      "desc": "Paniertes Schollenfilet mit Kartoffel-Gurkensalat",
+      "price": 7.00
+    },
+    {
+      "desc": "Mini-Schweins-Haxe mit Sauerkraut und Petersilienkartoffeln",
+      "price": 8.50
+    }
+  ]
+}
