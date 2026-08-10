@@ -1,0 +1,66 @@
+{
+  "2026-08-10": [
+    {
+      "desc": "Bratwurst, Sauerkraut, Kartoffeln",
+      "price": 6.99
+    },
+    {
+      "desc": "Gnocchi, Tomatenrahm, Mozzarella",
+      "price": 6.99
+    }
+  ],
+  "2026-08-11": [
+    {
+      "desc": "Steak Pute, Käse Sahne Sauce, Reis",
+      "price": 6.99
+    },
+    {
+      "desc": "Fischstäbchen, Mais, Kartoffelstampf",
+      "price": 6.99
+    }
+  ],
+  "2026-08-12": [
+    {
+      "desc": "Hackbraten, Bohnen, Kartoffeln",
+      "price": 6.99
+    },
+    {
+      "desc": "Rührei, Kartoffeln, Gurkensalat",
+      "price": 6.99
+    }
+  ],
+  "2026-08-13": [
+    {
+      "desc": "Schnitzel Schwein, Blumenkohl, Kartoffeln",
+      "price": 6.99
+    },
+    {
+      "desc": "Blumenkohl paniert, Kartoffeln, Sc. Hollandaise",
+      "price": 6.99
+    }
+  ],
+  "2026-08-14": [
+    {
+      "desc": "Kasslerbraten, Rosenkohl, Kartoffeln",
+      "price": 6.99
+    },
+    {
+      "desc": "Backfisch, Spinat, Kartofffeln",
+      "price": 6.99
+    }
+  ],
+  "2026-W33": [
+    {
+      "desc": "Penne, Bolognese",
+      "price": 5.50
+    },
+    {
+      "desc": "Penne, Lachs Sahne Sauce, Spinat",
+      "price": 5.50
+    },
+    {
+      "desc": "Spaghetti, Basilikum Pesto, Parmesan",
+      "price": 5.50
+    }
+  ]
+}
