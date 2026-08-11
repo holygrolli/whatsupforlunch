@@ -1,0 +1,61 @@
+{
+  "2026-08-10": [],
+  "2026-08-11": [
+    {
+      "desc": "Schweineschnitzel gefüllt mit Schinken und Käse, dazu Rahmerbsen und Bratkartoffeln",
+      "price": 10.20
+    },
+    {
+      "desc": "Gebackener Hirtenkäse auf Melonen-Zuckerschotensalat mit Blattspinat und Parmesancroutons, dazu Limetten-Minzdressing und Baguette (veget.)",
+      "price": 9.20
+    }
+  ],
+  "2026-08-12": [
+    {
+      "desc": "Gyros mit gebackenen Kartoffelecken, Zaziki und Krautsalat",
+      "price": 9.80
+    },
+    {
+      "desc": "Gebratene Minikartoffeln mit Kirschtomaten und Rucola, dazu Paprika-Gurken-Quark sowie geröstete Sonnenblumenkerne (veget.)",
+      "price": 9.50
+    }
+  ],
+  "2026-08-13": [
+    {
+      "desc": "Currywurst \"Nach Art des Hauses\" mit Kartoffelecken und Salatbeilage",
+      "price": 9.80
+    },
+    {
+      "desc": "Karotten-Pfanne mit Zuckerschoten, Kartoffeln und Petersilie, dazu geröstete Sonnenblumenkerne und Hirtenkäse (veget.)",
+      "price": 9.20
+    }
+  ],
+  "2026-08-14": [
+    {
+      "desc": "Tagliatelle in Lachs-Basilikumsauce mit gebackenen Kirschtomaten und Parmesan",
+      "price": 9.90
+    },
+    {
+      "desc": "Hähnchengeschnetzeltes nach \"Züricher Art\" mit Champignons, dazu Kräuterreis",
+      "price": 9.80
+    }
+  ],
+  "2026-W33": [
+    {
+      "desc": "Pasta mit Paprika-Chili-Honigpesto, dazu geröstete Mandeln (veget.) und Parmesan",
+      "price": 10.90
+    },
+    {
+      "desc": "Sommer-Lasagne u.a. mit Zuckerschoten, Aubergine, Paprika… überbacken mit Mozzarella und Sonnenblumenkernen (veget.)",
+      "price": 12.90
+    },
+    {
+      "desc": "Gebackener Hirtenkäse auf mediterranem Gemüse mit Oliven, dazu Baguette (veget.)",
+      "price": 12.90
+    },
+    {
+      "desc": "Hähnchengeschnetzeltes nach \"Züricher Art\" mit Champignons und Kräuterreis",
+      "price": 12.90
+    }
+  ]
+}
