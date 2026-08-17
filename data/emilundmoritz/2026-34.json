@@ -1,0 +1,66 @@
+{
+  "2026-08-17": [
+    {
+      "desc": "Rostbrätl, Bratkartoffeln, Schmorrzwiebel",
+      "price": 6.99
+    },
+    {
+      "desc": "2 Spiegeleier, Bratkartoffeln, Gurkensalat",
+      "price": 6.99
+    }
+  ],
+  "2026-08-18": [
+    {
+      "desc": "Schweinegulasch, Spätzle",
+      "price": 6.99
+    },
+    {
+      "desc": "Spätzlepfanne mit gebr. Pilzen, Röstzwiebeln",
+      "price": 6.99
+    }
+  ],
+  "2026-08-19": [
+    {
+      "desc": "Königsberger Klöpse in Kapernsauce, Kartoffeln",
+      "price": 6.99
+    },
+    {
+      "desc": "Milchreis, Apfelmus, Z+Z",
+      "price": 6.99
+    }
+  ],
+  "2026-08-20": [
+    {
+      "desc": "Leberkäse mit Spiegelei, Zwiebelsauce, Kartoffelstampf",
+      "price": 6.99
+    },
+    {
+      "desc": "Pangasius auf Kartoffelstampf, Dillsauce",
+      "price": 6.99
+    }
+  ],
+  "2026-08-21": [
+    {
+      "desc": "Steak Pute Toskana, Farfalle Gemüse Salat",
+      "price": 6.99
+    },
+    {
+      "desc": "Kartoffel Zucchini Auflauf mit Rucola",
+      "price": 6.99
+    }
+  ],
+  "2026-W34": [
+    {
+      "desc": "Penne, Bolognese",
+      "price": 5.50
+    },
+    {
+      "desc": "Penne, Lachs Sahne Sauce, Spinat",
+      "price": 5.50
+    },
+    {
+      "desc": "Spaghetti mit Basilikum Pesto, Parmesan",
+      "price": 5.50
+    }
+  ]
+}
