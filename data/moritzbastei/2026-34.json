@@ -1,0 +1,61 @@
+{
+  "2026-08-17": [],
+  "2026-08-18": [
+    {
+      "desc": "Schweineschnitzel \"Strammer Max\" mit Kochschinken und Spiegelei, dazu Bratkartoffeln",
+      "price": 10.20
+    },
+    {
+      "desc": "Gebackene Polentataschen gefüllt mit Spinat, auf verschiedenen Blattsalaten mit gegrillter Paprika und Zucchini, dazu Baguette und Tomatensalsa (veget.)",
+      "price": 9.20
+    }
+  ],
+  "2026-08-19": [
+    {
+      "desc": "Pasta mit Schinken-Sahnesoße, Lauchzwiebeln und Kirschtomaten",
+      "price": 9.60
+    },
+    {
+      "desc": "Hausgemachte Spinat-Semmelknödel in leichter Käsesoße, dazu geröstete Mandeln und rote Kresse (veget.)",
+      "price": 9.20
+    }
+  ],
+  "2026-08-20": [
+    {
+      "desc": "Hähnchenbrust \"Jerk Style\" auf buntem Grillgemüse mit Tomatensalsa",
+      "price": 9.80
+    },
+    {
+      "desc": "Zucchini-Kartoffel-Rösti mit Kräuterschmand und Tomatensalat (veget.)",
+      "price": 9.20
+    }
+  ],
+  "2026-08-21": [
+    {
+      "desc": "Gebratenes Seelachsfilet, dazu Erbsen-Minz-Püree, Zitronensoße und Süßkartoffelecken",
+      "price": 9.90
+    },
+    {
+      "desc": "Thai-Hähnchencurry mit buntem Gemüse in Kokossoße, dazu Basmatireis und Erdnüsse",
+      "price": 9.80
+    }
+  ],
+  "2026-W34": [
+    {
+      "desc": "Pasta mit Koriander-Petersilien-Pesto, dazu Haselnüsse, Karottenchips (veget.) und Parmesan",
+      "price": 10.90
+    },
+    {
+      "desc": "Spitzkohl-Karotten-Lasagne überbacken mit Mozzarella und Sesam (veget.)",
+      "price": 12.90
+    },
+    {
+      "desc": "Hähnchengratin mit Penne und gebratener Zucchini, in pikanter Tomatensoße, überbacken mit Hirtenkäse",
+      "price": 12.90
+    },
+    {
+      "desc": "Thai-Hähnchencurry mit buntem Gemüse in Kokossoße, dazu Basmatireis und Erdnüsse (Extra ab 15 Uhr)",
+      "price": 12.90
+    }
+  ]
+}
