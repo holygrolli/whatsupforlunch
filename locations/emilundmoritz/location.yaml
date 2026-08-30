@@ -1,0 +1,34 @@
+schema_version: 1
+name: Emil und Moritz
+enabled: true
+website:
+  url: https://emil-und-moritz.de/
+  details:
+    - "Business-Lunch (Essen ohne Limit): 7,99 € plus Getränkepreis (9,99 € ohne Getränk)"
+scrape:
+  type: scrapy
+  spider:
+    allowed_domains: [emil-und-moritz.de]
+    link_xpath: '//table/parent::div'
+    item_key: div
+    count: 2
+    select_index: 1
+    inline: true
+    clean_html: true
+    safe_attrs: [src, alt, href, title]
+    minify: true
+download:
+  formats: [html]
+prepare:
+  - reduce_to_text: {}
+extract:
+  type: text
+  input_file: chatgpt_user.txt
+  prompt_file: prompt.txt
+  prompt_prefix: "The input is:\n"
+  model:
+    provider: openai
+publish:
+  week_key_from: first_date
+schedule:
+  cron: '10 5 * * 1'

@@ -1,125 +1,18 @@
 name: leos
+
 on:
   workflow_dispatch:
   schedule:
     - cron: '30 7 * * 1'
-permissions: 
+
+permissions:
   contents: write
   packages: write
   pull-requests: write
+
 jobs:
-  download:
-    runs-on: ubuntu-24.04
-    container:
-      image: ghcr.io/holygrolli/whatsupforlunch:sha-087f703-2026-02-09
-    outputs:
-      matrix: ${{ steps.setmatrix.outputs.matrix }}
-    steps:
-      - name: checkout
-        uses: actions/checkout@v3
-        with:
-          ref: >-
-            ${{
-              github.event_name == 'schedule' && 'main' || ''
-            }}
-      - name: get new links
-        shell: bash
-        run: |
-          WD=${PWD}
-          mkdir -p tmp
-          cd tmp
-          # run only if there is no file for this week
-          (find ../data/leos -name "$(python ../locations/.shared/getFormattedDate.py).json" | grep . && touch scraped_links.txt) || \
-            scrapy runspider ../locations/leos/scra.py --nolog | sort > scraped_links.txt
-          while IFS= read -r line; do
-            curl -sOL $line
-          done < <(comm -13 ../data/leos/scraped_done.txt scraped_links.txt)
-      - id: setmatrix
-        working-directory: tmp
-        run: |
-          find . \( -name '*.png' -o -name '*.jpg' \) -printf '%P\n'
-          matrixInput=$(find . \( -name '*.png' -o -name '*.jpg' \) -printf '%P\n') # Creates array of all png files in tmp folder
-          echo -n "$matrixInput"
-          # Start Generate Json String
-          echo "$matrixInput" | \
-            jq --slurp --raw-input -c 'split("\n")[:-1]| map(select(length>0))' > matrix
-          cat ./matrix
-          # End Generate Json String
-          matrixStringifiedObject=$(cat ./matrix) # Use this as jq @sh not working right
-          echo "::set-output name=matrix::$matrixStringifiedObject"
-      - name: Archive all pngs
-        uses: actions/upload-artifact@v4
-        with:
-          name: pngs
-          retention-days: 30
-          path: |
-            tmp
-  process:
-    needs: download
-    if: ${{ needs.download.outputs.matrix != '' && toJson(fromJson(needs.download.outputs.matrix)) != '[]' }}
-    runs-on: ubuntu-24.04
-    container:
-      image: ghcr.io/holygrolli/whatsupforlunch:sha-087f703-2026-02-09
-    strategy:
-      max-parallel: 1
-      matrix:
-        files: ${{fromJson(needs.download.outputs.matrix)}}
-    concurrency: singlethread
-    steps:
-    - name: checkout source code
-      uses: actions/checkout@v3
-      with:
-        ref: >-
-          ${{
-            github.event_name == 'schedule' && 'main' || ''
-          }}
-    - name: fetch latest git
-      if: ${{ !github.event.act }} # skip during local actions testing
-      shell: bash
-      run: |
-        git config --system --add safe.directory $PWD
-        git pull
-    - name: Download png artifacts
-      uses: actions/download-artifact@v4
-      with:
-        name: pngs
-        path: tmp
-    - name: process image with chatgpt
-      working-directory: tmp
-      env:
-        CHAT_API_KEY: ${{secrets.CHAT_API_KEY}}
-      shell: bash
-      run: |
-        set -E
-        python ../locations/leos/process_chatgpt.py ${{ matrix.files }}
-        mkdir -p ../data/leos
-        awk '/^\s*{$/,/^\s*}$/ {print}' chatgpt.json > final.json
-        jq -r 'keys[] | select(test("\\d{4}-W\\d{2}"))' final.json | sort | head -n 1 | grep "$(python ../locations/.shared/getFormattedDate.py)" || (echo "JSON does not contain expected key" && exit 1)
-        cp final.json ../data/leos/$(python ../locations/.shared/getFormattedDate.py).json
-        CURRENTFILE=${{ matrix.files }}
-        cat ../data/leos/scraped_done.txt <(echo $'\n'$(cat scraped_links.txt | grep ${CURRENTFILE%_separated*})) | sort -u | grep . > scraped_done.txt
-        cp scraped_done.txt ../data/leos/scraped_done.txt
-    - name: Archive all tmp files
-      uses: actions/upload-artifact@v4
-      with:
-        name: ${{ matrix.files }}-processed
-        retention-days: 5
-        path: |
-          tmp
-    - uses: tibdex/github-app-token@v2
-      if: ${{ !github.event.act && ( github.ref == 'refs/heads/main' || github.ref == 'refs/heads/develop' ) }}
-      id: generate-token
-      with:
-        app_id: ${{ secrets.TOKEN_APP_ID }}
-        private_key: ${{ secrets.TOKEN_APP_PRIVATE_KEY }}
-    - name: Create Pull Request
-      if: ${{ !github.event.act && ( github.ref == 'refs/heads/main' || github.ref == 'refs/heads/develop' ) }}
-      uses: peter-evans/create-pull-request@v5
-      with:
-        add-paths: |
-          data
-        branch: ${{ github.workflow }}-cron
-        commit-message: "chore(data): automated scraping"
-        labels: "auto-approve-cron"
-        title: "${{ github.workflow }} data updates"
-        token: ${{ steps.generate-token.outputs.token }}
+  pipeline:
+    uses: ./.github/workflows/location.yaml
+    with:
+      location: leos
+    secrets: inherit

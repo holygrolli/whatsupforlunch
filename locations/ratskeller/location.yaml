@@ -1,0 +1,29 @@
+schema_version: 1
+name: Ratskeller Kantine
+enabled: true
+website:
+  url: https://ratskeller.restaurant/kantine-leipzig/speiseplan/
+  details:
+    - Kartenzahlung ja
+scrape:
+  type: scrapy
+  spider:
+    allowed_domains: [ratskeller.restaurant]
+    link_xpath: '//section[.//a[contains(@href,"pdf")]][1]//a[contains(@href,"pdf")]/@href'
+download:
+  formats: [pdf]
+prepare:
+  - pdfseparate: {}
+  - pdftoppm: { resolution: 150, format: png, singlefile: true }
+extract:
+  type: vision
+  input_file: image.png
+  prompt: "Extract the JSON containing the meal offers from the following image of a week menu in table layout.\n    \n    Also keep following in mind:\n    - Each day is on a separate row\n    - If you cannot find a price for a meal in the cell, leave the price empty.\n    - This menu has no week offers\n    \n    These points are most important before you finally create the JSON and shall be revised:\n    - did you leave out the correct dates and are they actually empty. you cannot add a meal to a date which is a holiday but do not forget to add all meals to the date\n    - did you add all dates to the JSON\n    \n    Explain if you leave out a day, but not for Saturday and Sunday!\n    "
+  add_current_date: false
+  model:
+    provider: google
+    vision_model: vertex/gemini-2.5-flash-lite@europe-central2
+publish:
+  week_key_from: first_date
+schedule:
+  cron: '0 14 * * 0'

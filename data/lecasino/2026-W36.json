@@ -1,0 +1,112 @@
+{
+  "2026-08-31": [
+    {
+      "desc": "Pasta aglio olio",
+      "price": 3.5
+    },
+    {
+      "desc": "Nudeleintopf mit Huhn und Gemüse",
+      "price": 3.5
+    },
+    {
+      "desc": "Hühnerfrikassee mit buntem Gemüse",
+      "price": 3.6
+    },
+    {
+      "desc": "Kartoffeln (Sättigungsbeilage)",
+      "price": 1.1
+    },
+    {
+      "desc": "Reis (Sättigungsbeilage)",
+      "price": 1.1
+    },
+    {
+      "desc": "Rohkostsalat nach Angebot (Gemüsebeilage)",
+      "price": 1.4
+    }
+  ],
+  "2026-09-01": [
+    {
+      "desc": "Chili sin Carne mit Mandeln und Kurkumareis",
+      "price": 4.1
+    },
+    {
+      "desc": "Gemüsepfanne mit Kräuterkartoffeln",
+      "price": 3.5
+    },
+    {
+      "desc": "Szegediner Schweinegulasch",
+      "price": 3.9
+    },
+    {
+      "desc": "Semmelknödel (Sättigungsbeilage)",
+      "price": 1.3
+    },
+    {
+      "desc": "Rohkostsalat nach Angebot (Gemüsebeilage)",
+      "price": 1.4
+    }
+  ],
+  "2026-09-02": [
+    {
+      "desc": "Gemüseschnitzel (Karotten/ Sellerie/ Lauch/ Kartoffeln) mit kl. gem. Salat",
+      "price": 3.8
+    },
+    {
+      "desc": "Wirsingeintopf mit Schweinefleisch",
+      "price": 3.5
+    },
+    {
+      "desc": "Muligatawny – indische Currysuppe mit Hähnchenfleisch und Ingwer",
+      "price": 3.8
+    },
+    {
+      "desc": "Rohkostsalat nach Angebot (Gemüsebeilage)",
+      "price": 1.4
+    }
+  ],
+  "2026-09-03": [
+    {
+      "desc": "Käse-Spätzle mit Röstzwiebeln",
+      "price": 3.5
+    },
+    {
+      "desc": "Eierkuchen mit Apfelmus und Zucker",
+      "price": 3.5
+    },
+    {
+      "desc": "Sülze mit Remoulade",
+      "price": 3.2
+    },
+    {
+      "desc": "Bratkartoffeln (Sättigungsbeilage)",
+      "price": 1.3
+    },
+    {
+      "desc": "Rohkostsalat nach Angebot (Gemüsebeilage)",
+      "price": 1.4
+    }
+  ],
+  "2026-09-04": [
+    {
+      "desc": "Ofenkartoffel mit Schnittlauch-Dip und ein kl. gemischter Salat",
+      "price": 4.2
+    },
+    {
+      "desc": "Tortellini mit Spinat-Ricotta Füllung an Kräutersoße",
+      "price": 3.5
+    },
+    {
+      "desc": "Tagesangebot",
+      "price": 0.0
+    },
+    {
+      "desc": "Gouda gerieben (Sättigungsbeilage)",
+      "price": 0.45
+    },
+    {
+      "desc": "Rohkostsalat nach Angebot (Gemüsebeilage)",
+      "price": 1.4
+    }
+  ]
+}

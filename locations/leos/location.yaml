@@ -1,0 +1,25 @@
+schema_version: 1
+name: Leo's Brasserie
+enabled: true
+website:
+  url: https://www.leosbrasserie.de/mittagsangebot-11-30-14-00/
+  details:
+    - Preis inkl. Softdrink
+    - Kartenzahlung ab 15€
+scrape:
+  type: scrapy
+  spider:
+    allowed_domains: [www.leosbrasserie.de]
+    link_xpath: '//a[contains(@href,".png") or contains(@href,".jpg")]/@href'
+download:
+  formats: [png, jpg]
+prepare: []
+extract:
+  type: vision
+  prompt_file: prompt.txt
+  model:
+    provider: openai
+publish:
+  week_key_from: current_week
+schedule:
+  cron: '30 7 * * 1'

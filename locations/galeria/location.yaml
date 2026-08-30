@@ -1,0 +1,28 @@
+schema_version: 1
+name: Restaurant Galeria
+enabled: true
+website:
+  url: https://galeria-restaurant.de/standorte/
+  details:
+    - inkl. Softdrink
+    - Kartenzahlung ja
+scrape:
+  type: static
+  url: https://galeria-restaurant.de/wp-content/uploads/wochenkarte_lunchdeal.pdf
+download:
+  formats: [pdf]
+prepare:
+  - pdftoppm: { resolution: 100, format: jpeg, singlefile: true }
+extract:
+  type: vision
+  input_file: image.jpg
+  prompt: "Extract the JSON containing the meal offers from the following image of a week menu in table layout.\n    \n    Also keep following in mind:\n    - Clean up each meal name and remove all line breaks and special characters and add commas and \"und\" where necessary.\n    - All meals have the same price stated inside the image.\n    - This menu has no week offers\n    \n    These points are most important before you finally create the JSON and shall be revised:\n    - did you leave out the correct dates and are they actually empty. you cannot add a meal to a date which is a holiday but do not forget to add all meals to the date\n    - did you add all dates to the JSON\n    \n    Explain if you leave out a day, but not for Saturday and Sunday!\n    "
+  add_current_date: true
+  max_tokens: 2000
+  model:
+    provider: google
+    vision_model: vertex/gemini-2.5-flash-lite@europe-central2
+publish:
+  week_key_from: first_date
+schedule:
+  cron: '0 18 * * 0'

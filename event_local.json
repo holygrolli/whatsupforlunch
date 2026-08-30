@@ -1,0 +1,11 @@
+{
+  "ref": "refs/heads/next-gen-2",
+  "event_name": "workflow_dispatch",
+  "act": true,
+  "inputs": {
+    "location": "augustiner"
+  },
+  "repository": {
+    "full_name": "holygrolli/whatsupforlunch"
+  }
+}

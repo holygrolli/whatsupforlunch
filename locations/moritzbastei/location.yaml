@@ -1,0 +1,33 @@
+schema_version: 1
+name: Moritzbastei
+enabled: true
+website:
+  url: https://www.moritzbastei.de/gastronomie-kneipe-bistro-drinks/
+  details:
+    - Kartenzahlung möglich, Montags geschlossen
+scrape:
+  type: scrapy
+  spider:
+    allowed_domains: [www.moritzbastei.de]
+    link_xpath: '//div[contains(@class,"foodMenu--weekly")]/parent::*'
+    item_key: div
+    count: 1
+    inline: true
+    clean_html: true
+    safe_attrs: [src, alt, href, title, width, height]
+download:
+  formats: [html]
+prepare:
+  - reduce_to_text: {}
+extract:
+  type: text
+  input_file: chatgpt_user.txt
+  prompt_file: prompt.txt
+  prompt_prefix: "The input is:\n"
+  add_current_weekdays: true
+  model:
+    provider: openai
+publish:
+  week_key_from: first_date
+schedule:
+  cron: '0 9 * * 2'

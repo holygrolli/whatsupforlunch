@@ -1,0 +1,112 @@
+{
+  "2026-09-07": [
+    {
+      "desc": "Ofengemüse mit Backkartoffeln und Kräutercreme",
+      "price": 4.5
+    },
+    {
+      "desc": "Grüne Bohneneintopf",
+      "price": 3.5
+    },
+    {
+      "desc": "Ungarischer Kesselgulasch",
+      "price": 3.85
+    },
+    {
+      "desc": "Rohkostsalat nach Angebot",
+      "price": 1.4
+    }
+  ],
+  "2026-09-08": [
+    {
+      "desc": "Kartoffelrösti mit Mediterranem Gemüse",
+      "price": 4.1
+    },
+    {
+      "desc": "Blumenkohl mit Kartoffeln an Kräutersoße",
+      "price": 3.5
+    },
+    {
+      "desc": "Wurstgulasch mit fruchtiger Tomatensoße",
+      "price": 2.95
+    },
+    {
+      "desc": "Pasta (Sättigungsbeilage)",
+      "price": 1.1
+    },
+    {
+      "desc": "Gouda gerieben (Sättigungsbeilage)",
+      "price": 0.45
+    },
+    {
+      "desc": "Rohkostsalat nach Angebot",
+      "price": 1.4
+    }
+  ],
+  "2026-09-09": [
+    {
+      "desc": "Reissalat mit Tomaten, Paprika, Gurke und Kichererbsen",
+      "price": 3.8
+    },
+    {
+      "desc": "Schweine Hackfleisch-Käse-Lauchsuppe",
+      "price": 3.5
+    },
+    {
+      "desc": "Spinat-Lasagne mit Käse überbacken",
+      "price": 4.5
+    },
+    {
+      "desc": "Rohkostsalat nach Angebot",
+      "price": 1.4
+    }
+  ],
+  "2026-09-10": [
+    {
+      "desc": "Gnocchi-Feldsalat mit Tomate und Balkankäse",
+      "price": 4.7
+    },
+    {
+      "desc": "Milchreis mit Zimt, Zucker und Apfelmus",
+      "price": 3.5
+    },
+    {
+      "desc": "Kasselerbraten",
+      "price": 3.85
+    },
+    {
+      "desc": "Kartoffeln (Sättigungsbeilage)",
+      "price": 1.1
+    },
+    {
+      "desc": "Rohkostsalat nach Angebot",
+      "price": 1.4
+    },
+    {
+      "desc": "Gemüse nach Angebot (Gemüsebeilage)",
+      "price": 1.1
+    }
+  ],
+  "2026-09-11": [
+    {
+      "desc": "vegetarische Bolognese mit Kidneybohnen, Gemüsemais und Dinkel-Pasta",
+      "price": 4.0
+    },
+    {
+      "desc": "Kartoffeltopf mit Kokosmilch und gebratenen Chiliwurstscheibchen",
+      "price": 3.5
+    },
+    {
+      "desc": "Tagesangebot",
+      "price": 0.0
+    },
+    {
+      "desc": "Gouda gerieben (Sättigungsbeilage)",
+      "price": 0.45
+    },
+    {
+      "desc": "Rohkostsalat nach Angebot",
+      "price": 1.4
+    }
+  ]
+}

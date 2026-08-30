@@ -1,0 +1,27 @@
+schema_version: 1
+name: Augustiner
+enabled: true
+website:
+  url: https://augustiner-leipzig.de/speisekarte/
+  details: []
+scrape:
+  type: scrapy
+  spider:
+    allowed_domains: [augustiner-leipzig.de, www.augustiner-leipzig.de]
+    link_xpath: '//a[contains(@href,"pdf") and contains(@href,"Mittag")]/@href'
+download:
+  formats: [pdf]
+prepare:
+  - pdftotext: {}
+extract:
+  type: text
+  input_file: chatgpt_user.txt
+  prompt_file: prompt.txt
+  prompt_prefix: "The input only includes day offers and no week offers! The input is:\n"
+  add_current_date: false
+  model:
+    provider: openai
+publish:
+  week_key_from: first_date
+schedule:
+  cron: '10 10 * * 0'

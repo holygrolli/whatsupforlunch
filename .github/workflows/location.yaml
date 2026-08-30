@@ -1,0 +1,244 @@
+name: location pipeline
+
+on:
+  workflow_dispatch:
+    inputs:
+      location:
+        description: Location to process (or all locations)
+        required: true
+        type: choice
+        default: all
+        options:
+          - all
+          - augustiner
+          - emilundmoritz
+          - galeria
+          - lecasino
+          - leos
+          - moritzbastei
+          - ratskeller
+  # Cron cannot be parameterized in a reusable workflow.  The seven thin
+  # caller workflows retain the schedules and pass their fixed location here.
+  workflow_call:
+    inputs:
+      location:
+        description: Supported location id, or all
+        required: true
+        type: string
+    secrets:
+      AWS_ACCESS_KEY_ID:
+        required: false
+      AWS_SECRET_ACCESS_KEY:
+        required: false
+      OPENAI_COMPATIBLE_API_KEY:
+        required: false
+      TOKEN_APP_ID:
+        required: false
+      TOKEN_APP_PRIVATE_KEY:
+        required: false
+
+permissions:
+  contents: write
+  packages: write
+  pull-requests: write
+
+concurrency:
+  group: lunch-pipeline-${{ inputs.location }}
+  cancel-in-progress: false
+# Each stage processes its selected location list in a shell loop, so the
+# effective per-location parallelism is one (the former max-parallel: 1
+# semantics) while this group prevents overlapping runs of the same location.
+
+env:
+  LOCATION: ${{ inputs.location }}
+  AWS_DEFAULT_REGION: eu-central-1
+  OPENAI_COMPATIBLE_API_KEY: ${{ secrets.OPENAI_COMPATIBLE_API_KEY }}
+
+jobs:
+  scrape_download:
+    name: scrape and download
+    runs-on: ubuntu-24.04
+    container:
+      # Keep the existing production location image reference unchanged.
+      image: ghcr.io/holygrolli/whatsupforlunch:sha-9acaed8-2026-08-30
+    steps:
+      - name: checkout
+        uses: actions/checkout@v4
+      - name: validate location configuration
+        shell: bash
+        run: |
+          set -Eeuo pipefail
+          python - <<'PY'
+          import os
+          from pipeline.config import load_all, load_location
+
+          location = os.environ["LOCATION"]
+          if location == "all":
+              configs = load_all()
+              print(f"validated {len(configs)} locations: {', '.join(configs)}")
+          else:
+              load_location(location)
+              print(f"validated {location}")
+          PY
+      - name: scrape and download through the common runner
+        env:
+          ACT_RUN: ${{ github.event.act == true }}
+          AWS_ACCESS_KEY_ID: ${{ secrets.AWS_ACCESS_KEY_ID }}
+          AWS_SECRET_ACCESS_KEY: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
+        shell: bash
+        run: |
+          set -Eeuo pipefail
+          mkdir -p tmp
+          touch tmp/.pipeline-artifact-placeholder
+          if [[ "$LOCATION" == "all" ]]; then
+            locations=(augustiner emilundmoritz galeria lecasino leos moritzbastei ratskeller)
+          else
+            locations=("$LOCATION")
+          fi
+          status=0
+          for location in "${locations[@]}"; do
+            mkdir -p "tmp/$location"
+            state_args=(--legacy-state)
+            if [[ "$ACT_RUN" == "true" ]]; then
+              # act is an explicit local smoke-test mode.  Do not require or
+              # mutate the production state table from a local run.
+              state_args=(--no-state)
+            fi
+            if ! python -m pipeline "$location" download \
+              --run-dir "tmp/$location" "${state_args[@]}"; then
+              echo "scrape/download failed for $location" >&2
+              status=1
+            fi
+          done
+          exit "$status"
+      - name: archive scrape manifests and downloaded inputs
+        if: ${{ always() }}
+        uses: actions/upload-artifact@v4
+        with:
+          name: location-pipeline-input
+          retention-days: 30
+          if-no-files-found: warn
+          path: tmp
+
+  process:
+    name: prepare and extract
+    needs: scrape_download
+    if: ${{ always() && needs.scrape_download.result != 'cancelled' }}
+    runs-on: ubuntu-24.04
+    container:
+      image: ghcr.io/holygrolli/whatsupforlunch:sha-9acaed8-2026-08-30
+    steps:
+      - name: checkout
+        uses: actions/checkout@v4
+      - name: download scrape artifact
+        uses: actions/download-artifact@v4
+        with:
+          name: location-pipeline-input
+          path: tmp
+      - name: prepare and extract through the common runner
+        env:
+          OPENAI_COMPATIBLE_API_KEY: ${{ secrets.OPENAI_COMPATIBLE_API_KEY }}
+        shell: bash
+        run: |
+          set -Eeuo pipefail
+          if [[ "$LOCATION" == "all" ]]; then
+            locations=(augustiner emilundmoritz galeria lecasino leos moritzbastei ratskeller)
+          else
+            locations=("$LOCATION")
+          fi
+          status=0
+          for location in "${locations[@]}"; do
+            run_dir="tmp/$location"
+            if [[ ! -f "$run_dir/manifest.json" ]]; then
+              echo "no scrape manifest for $location; skipping" >&2
+              status=1
+              continue
+            fi
+            if ! python -m pipeline "$location" prepare --run-dir "$run_dir"; then
+              echo "prepare failed for $location" >&2
+              status=1
+              continue
+            fi
+            if ! python -m pipeline "$location" extract --run-dir "$run_dir"; then
+              echo "extract failed for $location" >&2
+              status=1
+            fi
+          done
+          touch tmp/.pipeline-artifact-placeholder
+          exit "$status"
+      - name: archive processed manifests and menus
+        if: ${{ always() }}
+        uses: actions/upload-artifact@v4
+        with:
+          name: location-pipeline-processed
+          retention-days: 14
+          if-no-files-found: warn
+          path: tmp
+
+  publish:
+    name: publish
+    needs:
+      - scrape_download
+      - process
+    # Failed stages can still leave validated menus in menus.json.  Let publish
+    # mark only successful entries while preserving the original failure result.
+    if: ${{ always() && needs.scrape_download.result != 'cancelled' && (needs.process.result == 'success' || needs.process.result == 'failure') }}
+    runs-on: ubuntu-24.04
+    container:
+      image: ghcr.io/holygrolli/whatsupforlunch:sha-9acaed8-2026-08-30
+    steps:
+      - name: checkout
+        uses: actions/checkout@v4
+      - name: download processed artifact
+        uses: actions/download-artifact@v4
+        with:
+          name: location-pipeline-processed
+          path: tmp
+      - name: publish validated menus and mark links
+        env:
+          ACT_RUN: ${{ github.event.act == true }}
+          AWS_ACCESS_KEY_ID: ${{ secrets.AWS_ACCESS_KEY_ID }}
+          AWS_SECRET_ACCESS_KEY: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
+        shell: bash
+        run: |
+          set -Eeuo pipefail
+          if [[ "$LOCATION" == "all" ]]; then
+            locations=(augustiner emilundmoritz galeria lecasino leos moritzbastei ratskeller)
+          else
+            locations=("$LOCATION")
+          fi
+          status=0
+          for location in "${locations[@]}"; do
+            run_dir="tmp/$location"
+            if [[ ! -f "$run_dir/manifest.json" ]]; then
+              echo "no manifest for $location; nothing to publish" >&2
+              continue
+            fi
+            state_args=(--legacy-state)
+            if [[ "$ACT_RUN" == "true" ]]; then
+              state_args=(--no-state)
+            fi
+            if ! python -m pipeline "$location" publish \
+              --run-dir "$run_dir" "${state_args[@]}"; then
+              echo "publish failed for $location" >&2
+              status=1
+            fi
+          done
+          exit "$status"
+      - uses: tibdex/github-app-token@v2
+        id: generate-token
+        if: ${{ !github.event.act }}
+        with:
+          app_id: ${{ secrets.TOKEN_APP_ID }}
+          private_key: ${{ secrets.TOKEN_APP_PRIVATE_KEY }}
+      - name: Create Pull Request
+        if: ${{ !github.event.act }}
+        uses: peter-evans/create-pull-request@v6
+        with:
+          add-paths: |
+            data
+          branch: ${{ github.workflow }}-cron
+          commit-message: "chore(data): automated scraping"
+          labels: "auto-approve-cron"
+          title: "${{ github.workflow }} data updates"
+          token: ${{ steps.generate-token.outputs.token }}
