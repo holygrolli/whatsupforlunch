@@ -1,0 +1,90 @@
+{
+  "2020-08-17": [
+    {
+      "desc": "KÜCHENCHEF-TAG Lassen Sie sich überraschen!",
+      "price": 11.95
+    },
+    {
+      "desc": "ASIA-WOK-PFANNE Hähnchen, Asia-Gemüse und Sesam Mie-Nudeln",
+      "price": 11.95
+    },
+    {
+      "desc": "NÜRNBERGER WÜRSTCHEN Bratensauce, Sauerkraut und Kartoffelstampf",
+      "price": 11.95
+    },
+    {
+      "desc": "BAUERNFRIKADELLE Champignon-Rahmsauce und Bratkartoffeln",
+      "price": 11.95
+    },
+    {
+      "desc": "SEELACHS NATUR Kräutersauce, Prinzessbohnen und Reis",
+      "price": 11.95
+    }
+  ],
+  "2020-08-24": [
+    {
+      "desc": "KÜCHENCHEF-TAG Lassen Sie sich überraschen!",
+      "price": 11.95
+    },
+    {
+      "desc": "SCHWEINEGULASCH Spätzle und Tagessalat",
+      "price": 11.95
+    },
+    {
+      "desc": "HACKFLEISCHBÄLLCHEN Pfefferrahmsauce, Karottengemüse und Petersilienkartoffeln",
+      "price": 11.95
+    },
+    {
+      "desc": "HÄHNCHENBRUST Rahmsauce, Blattspinat und Reis",
+      "price": 11.95
+    },
+    {
+      "desc": "BACKFISCH Remoulade und Pommes frites",
+      "price": 11.95
+    }
+  ],
+  "2020-08-31": [
+    {
+      "desc": "KÜCHENCHEF-TAG Lassen Sie sich überraschen!",
+      "price": 11.95
+    },
+    {
+      "desc": "MARINIERTER HÄHNCHENSCHENKEL Krautsalat und Pommes frites",
+      "price": 11.95
+    },
+    {
+      "desc": "KÄSESPÄTZLE Röstzwiebeln und Tagessalat",
+      "price": 11.95
+    },
+    {
+      "desc": "SCHWEINEBRATEN Bratensauce, Honig-Pastinaken und Salzkartoffeln",
+      "price": 11.95
+    },
+    {
+      "desc": "PAZIFISCHES BUTTFILET IN PETERSILIENPANADE Dijon-Senfsauce, Ratatouille und Reis",
+      "price": 11.95
+    }
+  ],
+  "2020-09-07": [
+    {
+      "desc": "KÜCHENCHEF-TAG Lassen Sie sich überraschen!",
+      "price": 11.95
+    },
+    {
+      "desc": "BAYERISCHER LEBERKÄSE Bratensauce, Röstzwiebeln und Bratkartoffeln",
+      "price": 11.95
+    },
+    {
+      "desc": "HÄHNCHEN \"KORMA\" gebratene Paprika und Reis",
+      "price": 11.95
+    },
+    {
+      "desc": "SCHWEINENACKENSTEAK Kräuterbutter, Krautsalat und Pommes frites",
+      "price": 11.95
+    },
+    {
+      "desc": "SEELACHS IM KRÄUTERMANTEL Zitronensauce, Brokkoli und Reis",
+      "price": 11.95
+    }
+  ]
+}
