@@ -2,7 +2,7 @@ schema_version: 1
 name: Augustiner
 enabled: true
 website:
-  url: https://augustiner-leipzig.de/
+  url: https://augustiner-leipzig.de/speisekarte/
   details: []
 scrape:
   type: scrapy

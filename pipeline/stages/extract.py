@@ -9,8 +9,8 @@ and simplified, not redesigned (plan section 3.4):
   logic, and ``add_current_date`` / ``add_current_weekdays`` behavior are
   preserved verbatim (the prompt regression tests depend on it).
 - The current provider transport is preserved: both the ``openai`` and ``google``
-  model namespaces use the Requesty.ai OpenAI-compatible endpoint and the
-  ``CHAT_API_KEY`` environment variable. The provider value selects the model
+    model namespaces use the OpenAI-compatible endpoint and the
+    ``OPENAI_COMPATIBLE_API_KEY`` environment variable. The provider value selects the model
   namespace, not a direct API endpoint; adding providers is out of scope.
 - The ``sed -n '/^\\s*{$/,$p'`` JSON-carving done in workflow shell is the
   tested :func:`extract_json_object` function below.
@@ -30,8 +30,8 @@ class ExtractError(Exception):
     pass
 
 
-REQUESTY_BASE_URL = "https://router.eu.requesty.ai/v1"
-REQUESTY_API_KEY_ENV = "CHAT_API_KEY"
+OPENAI_COMPATIBLE_BASE_URL = "https://router.eu.requesty.ai/v1"
+OPENAI_COMPATIBLE_API_KEY_ENV = "OPENAI_COMPATIBLE_API_KEY"
 
 
 def extract_json_object(text: str) -> str:
@@ -107,13 +107,13 @@ class MealChat:
     # -- provider configuration -------------------------------------------------
 
     def model_provider_config(self) -> dict:
-        """Return the Requesty.ai OpenAI-compatible client configuration.
+        """Return the OpenAI-compatible client configuration.
 
-        Develop routes both the ``openai`` and ``google`` model namespaces
-        through Requesty.ai with the shared ``CHAT_API_KEY`` secret. The
-        ``PIPELINE_MODEL_BASE_URL`` / ``PIPELINE_MODEL_API_KEY`` /
-        ``PIPELINE_MODEL`` environment variables remain available for local
-        testing against another OpenAI-compatible proxy.
+        The ``openai`` and ``google`` model namespaces share the
+        ``OPENAI_COMPATIBLE_API_KEY`` secret. The ``PIPELINE_MODEL_BASE_URL`` /
+        ``PIPELINE_MODEL_API_KEY`` / ``PIPELINE_MODEL`` environment variables
+        remain available for local testing against another OpenAI-compatible
+        proxy.
         """
         return {
             "base_url": (
@@ -132,10 +132,10 @@ class MealChat:
         return self.model_override or os.environ.get("PIPELINE_MODEL") or configured
 
     def _default_base_url(self) -> str:
-        return REQUESTY_BASE_URL
+        return OPENAI_COMPATIBLE_BASE_URL
 
     def _default_api_key(self) -> str | None:
-        return os.environ.get(REQUESTY_API_KEY_ENV)
+        return os.environ.get(OPENAI_COMPATIBLE_API_KEY_ENV)
 
     # -- templating (preserved verbatim) ---------------------------------------
 

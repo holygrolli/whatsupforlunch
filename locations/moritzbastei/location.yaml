@@ -12,6 +12,7 @@ scrape:
     link_xpath: '//div[contains(@class,"foodMenu--weekly")]/parent::*'
     item_key: div
     count: 1
+    inline: true
     clean_html: true
     safe_attrs: [src, alt, href, title, width, height]
 download:

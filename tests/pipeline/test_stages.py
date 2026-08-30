@@ -14,7 +14,7 @@ from pipeline.stages.publish import (
     validate_menu_json,
     week_key_for,
 )
-from pipeline.stages.scrape import ScrapeError, scrape
+from pipeline.stages.scrape import ScrapeError, _build_spider_class, scrape
 from pipeline.stages.download import download_items, filename_for_link
 from pipeline.stages.prepare import prepare_one, PrepareError
 
@@ -33,6 +33,21 @@ class FakeState:
         self.links[link] = ttl_weeks
         self.added.append((link, ttl_weeks))
         return True
+
+
+class TestLegacyState(unittest.TestCase):
+    def test_reads_legacy_entries_but_delegates_writes(self):
+        from pipeline.__main__ import _LegacyAwareState
+
+        backend = FakeState()
+        with TemporaryDirectory() as tmp:
+            marker = Path(tmp) / "scraped_done.txt"
+            marker.write_text("https://old.example/menu.pdf\n")
+            state = _LegacyAwareState(backend, marker)
+            self.assertTrue(state.link_exists("https://old.example/menu.pdf"))
+            self.assertFalse(state.link_exists("https://new.example/menu.pdf"))
+            state.add_link("https://new.example/menu.pdf", ttl_weeks=8)
+        self.assertEqual(backend.added, [("https://new.example/menu.pdf", 8)])
 
 
 class TestExtractJsonObject(unittest.TestCase):
@@ -99,15 +114,28 @@ class TestMealChatTemplating(unittest.TestCase):
         content = chat.prompt_addon_messages()[0]["content"]
         self.assertNotIn("Monday(2024-01-01)", content)
 
-    def test_requesty_provider_configuration_is_shared(self):
-        with mock.patch.dict(os.environ, {"CHAT_API_KEY": "requesty-key"}, clear=False):
+    def test_openai_compatible_provider_configuration_is_shared(self):
+        with mock.patch.dict(
+            os.environ,
+            {"OPENAI_COMPATIBLE_API_KEY": "openai-compatible-key"},
+            clear=False,
+        ):
             google = self._chat(model_provider="google")
             openai = self._chat(model_provider="openai")
             expected = "https://router.eu.requesty.ai/v1"
             self.assertEqual(google.model_provider_config()["base_url"], expected)
-            self.assertEqual(google.model_provider_config()["api_key"], "requesty-key")
+            self.assertEqual(google.model_provider_config()["api_key"], "openai-compatible-key")
             self.assertEqual(openai.model_provider_config()["base_url"], expected)
-            self.assertEqual(openai.model_provider_config()["api_key"], "requesty-key")
+            self.assertEqual(openai.model_provider_config()["api_key"], "openai-compatible-key")
+
+    def test_openai_compatible_api_key_environment_variable(self):
+        with mock.patch.dict(
+            os.environ,
+            {"OPENAI_COMPATIBLE_API_KEY": "openai-compatible-key"},
+            clear=False,
+        ):
+            chat = self._chat()
+            self.assertEqual(chat.model_provider_config()["api_key"], "openai-compatible-key")
 
     def test_base_url_override(self):
         chat = self._chat(base_url="http://localhost:1234/v1", api_key="k")
@@ -259,6 +287,33 @@ class TestScrapeStage(unittest.TestCase):
         with self.assertRaises(ScrapeError):
             scrape({"scrape": {"type": "nope"}}, "https://x/")
 
+    def test_generated_spider_resolves_urls_and_carries_inline_html(self):
+        try:
+            from scrapy.http import HtmlResponse
+        except ModuleNotFoundError:
+            self.skipTest("Scrapy is provided by the production image")
+
+        spider_class = _build_spider_class(
+            {
+                "allowed_domains": ["example.com"],
+                "link_xpath": "//div[@class='menu']",
+                "item_key": "div",
+                "inline": True,
+            },
+            "https://example.com/",
+        )
+        items = []
+        spider = spider_class(items=items)
+        response = HtmlResponse(
+            url="https://example.com/",
+            body=b'<div class="menu"><p>Soup</p></div>',
+            encoding="utf-8",
+        )
+        yielded = list(spider.parse(response))
+        self.assertEqual(len(yielded), 1)
+        self.assertEqual(yielded[0]["div"], "https://example.com/")
+        self.assertIn("Soup", yielded[0]["html"])
+
 
 class TestVariantSelection(unittest.TestCase):
     """Plan section 3.5: win / loss / no-new-content / exhausted cases."""
@@ -363,6 +418,30 @@ class TestPrepare(unittest.TestCase):
             self.assertIn("Speiseplan", text)
             self.assertIn("Montag", text)
             self.assertNotIn("var x=1", text)
+
+    def test_multi_page_render_outputs_unique_images(self):
+        def fake_run(command, cwd):
+            if command[0] == "pdfseparate":
+                for page in (1, 2):
+                    (cwd / f"menu_separated_{page}.pdf").write_bytes(b"page")
+            else:
+                (cwd / f"{command[-1]}.png").write_bytes(b"image")
+
+        with TemporaryDirectory() as tmp:
+            root = Path(tmp)
+            (root / "menu.pdf").write_bytes(b"pdf")
+            with mock.patch("pipeline.stages.prepare._run", side_effect=fake_run):
+                out = prepare_one(
+                    root,
+                    "menu.pdf",
+                    [{"pdfseparate": {}}, {"pdftoppm": {}}],
+                )
+            self.assertEqual(
+                out,
+                ["menu_separated_1.png", "menu_separated_2.png"],
+            )
+            self.assertEqual((root / out[0]).read_bytes(), b"image")
+            self.assertEqual((root / out[1]).read_bytes(), b"image")
 
 
 if __name__ == "__main__":

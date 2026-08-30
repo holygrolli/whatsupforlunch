@@ -277,8 +277,8 @@ simplified, not redesigned:
   and `addCurrentDate` / `addCurrentWeekdays` behavior are preserved verbatim (the
   prompt regression tests depend on it).
 - The current OpenAI-compatible transport is preserved: both the `openai` and
-  `google` model namespaces use `https://router.eu.requesty.ai/v1` with the
-  `CHAT_API_KEY` environment variable. The namespace selects the model name, not
+  `google` model namespaces use the OpenAI-compatible endpoint with the
+  `OPENAI_COMPATIBLE_API_KEY` environment variable. The namespace selects the model name, not
   a direct provider endpoint; adding providers is out of scope.
 - The `sed -n '/^\s*{$/,$p'` JSON-carving currently done in workflow shell becomes a
   tested `extract_json_object()` function in the runner.

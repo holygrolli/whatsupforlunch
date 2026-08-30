@@ -47,15 +47,16 @@ class DefaultMealChat:
     # return dict for the model provider config and always default to openai
     def return_model_provider_config(self):
         model_provider = self.prompt_config.get("model_provider")
+        api_key = os.environ.get("OPENAI_COMPATIBLE_API_KEY")
         if model_provider == "google":
             return {
                 "base_url": f"https://router.eu.requesty.ai/v1",
-                "api_key": os.environ.get("CHAT_API_KEY"),
+                "api_key": api_key,
             }
         else:
             return {
                 "base_url": f"https://router.eu.requesty.ai/v1",
-                "api_key": os.environ.get("CHAT_API_KEY"),
+                "api_key": api_key,
             }
     # return a string with a list of all the days of the current week based on the provided date string
     def return_weekdays_from_date(self, date_string):

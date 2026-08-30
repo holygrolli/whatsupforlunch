@@ -63,6 +63,7 @@ def _build_spider_class(spider_cfg: dict, start_url: str):
     expected_count = spider_cfg.get("count")
     select_index = spider_cfg.get("select_index")
     follow = spider_cfg.get("follow", False)
+    inline = spider_cfg.get("inline", False)
     clean_html = spider_cfg.get("clean_html", False)
     safe_attrs = spider_cfg.get("safe_attrs") or ["src", "alt", "href", "title"]
     minify = spider_cfg.get("minify", False)
@@ -96,16 +97,24 @@ def _build_spider_class(spider_cfg: dict, start_url: str):
                 selections = [selections[select_index]]
             for sel in selections:
                 value = sel.get()
-                if clean_html:
-                    value = self._clean(value)
+                resolved = response.urljoin(value)
                 if follow:
                     yield scrapy.Request(
-                        url=response.urljoin(value),
+                        url=resolved,
                         callback=self.parse_followed,
-                        cb_kwargs={"source_url": response.urljoin(value)},
+                        cb_kwargs={"source_url": resolved},
                     )
                 else:
-                    item = {item_key: value}
+                    if inline:
+                        # The selected value is content, not a URL.  Track the
+                        # page URL while carrying the selected HTML to the
+                        # download stage.
+                        item = {
+                            item_key: response.url,
+                            "html": self._clean(value) if clean_html else value,
+                        }
+                    else:
+                        item = {item_key: resolved}
                     self._collected.append(item)
                     yield item
 
@@ -165,6 +174,16 @@ def scrape(variant: dict, website_url: str, state=None) -> dict:
     if stype == "scrapy":
         items = run_scrapy_spider(scrape_cfg["spider"], website_url)
         item_key = scrape_cfg["spider"].get("item_key", "link")
+        # Scrapy can yield the same href more than once.  Keep first-seen
+        # records so one source is downloaded and extracted exactly once.
+        unique_items = []
+        seen = set()
+        for item in items:
+            link = item.get(item_key)
+            if link and link not in seen:
+                seen.add(link)
+                unique_items.append(item)
+        items = unique_items
         links = [item[item_key] for item in items]
     elif stype == "static":
         url = scrape_cfg.get("url", website_url)

@@ -13,6 +13,7 @@ scrape:
     item_key: div
     count: 2
     select_index: 1
+    inline: true
     clean_html: true
     safe_attrs: [src, alt, href, title]
     minify: true

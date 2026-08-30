@@ -3,3 +3,6 @@
 .aws*
 .openai
 __pycache__
+# Local pipeline and act artifacts
+artifacts/
+tmp/

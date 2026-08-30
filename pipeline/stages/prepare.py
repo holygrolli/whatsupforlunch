@@ -14,6 +14,7 @@ Available preparers (plan sections 3.2 and 3.5):
 
 from __future__ import annotations
 
+import re
 import subprocess
 from pathlib import Path
 
@@ -55,10 +56,18 @@ def pdftoppm(run_dir: Path, filename: str, resolution: int = 150,
     cmd = ["pdftoppm"]
     if singlefile:
         cmd.append("-singlefile")
-    cmd += ["-r", str(resolution), f"-{format}", source.name, "image"]
+    # A separated PDF page must not overwrite the image produced for the
+    # previous page.  Preserve the historical ``image.<ext>`` name for a
+    # normal single input, but derive a stable unique prefix for pages.
+    output_prefix = (
+        source.stem
+        if re.search(r"_separated_\d+$", source.stem)
+        else "image"
+    )
+    cmd += ["-r", str(resolution), f"-{format}", source.name, output_prefix]
     _run(cmd, cwd=run_dir)
     ext = "jpg" if format in ("jpeg", "jpg") else format
-    out = run_dir / f"image.{ext}"
+    out = run_dir / f"{output_prefix}.{ext}"
     if not out.is_file():
         raise PrepareError(f"pdftoppm produced no image for {filename}")
     return [out.name]

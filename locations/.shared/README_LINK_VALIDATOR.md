@@ -143,19 +143,27 @@ The validator is designed to fail gracefully:
 # Install dependencies
 pipenv install
 
-# Test link checking
-python -c "from locations.shared.dynamodb_link_validator import check_link; print(check_link('https://test.com'))"
+# Test link checking with the shared helper
+python -c "import sys; sys.path.insert(0, 'locations/.shared'); from dynamodb_link_validator import check_link; print(check_link('https://test.com'))"
 
-# Test marking as processed
+# The production runner is the preferred integration path
+python -m pipeline ratskeller scrape
+
+# Test marking as processed (only for an intentional manual check)
 python locations/.shared/mark_link_processed.py "https://test.com"
 ```
 
-## Integration in lecasino Workflow
+## Integration in the location pipeline
 
-The `lecasino.yaml` workflow automatically:
-1. **Download step:** Checks existing links before scraping (via scraper)
-2. **Process step:** After successful processing, marks links as processed in DynamoDB
-3. **Error handling:** If marking fails, workflow continues (non-blocking)
+The common `.github/workflows/location.yaml` workflow invokes the runner for every
+location. The runner:
+1. **Scrape stage:** checks discovered links against DynamoDB before downloading
+2. **Publish stage:** marks a link only after its menu JSON has passed validation and
+   has been written
+3. **Failure handling:** a failed extraction is not marked, so the next run retries it
+
+During the state migration release, `--legacy-state` may also read the old marker file;
+all new writes still go only to DynamoDB.
 
 ## Troubleshooting
 

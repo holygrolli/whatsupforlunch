@@ -134,6 +134,7 @@ def _validate_variant(variant: dict, context: str, full: bool) -> None:
                 )
             _check_type(spider, "allowed_domains", list, f"{context}.scrape.spider")
             _check_type(spider, "follow", bool, f"{context}.scrape.spider")
+            _check_type(spider, "inline", bool, f"{context}.scrape.spider")
             _check_type(spider, "item_key", str, f"{context}.scrape.spider")
             _check_type(spider, "count", int, f"{context}.scrape.spider")
         if stype in ("static", "meta_refresh"):

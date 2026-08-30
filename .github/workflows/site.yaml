@@ -8,6 +8,10 @@ on:
         required: false
         type: string
         default: 'snapshot'
+      comment:
+        required: false
+        type: string
+        default: ''
   workflow_call:
     inputs:
       version:
@@ -18,6 +22,10 @@ on:
         required: false
         type: boolean
         default: true
+      comment:
+        required: false
+        type: string
+        default: ''
     secrets:
       DEPLOY_KEY:
         required: true
@@ -49,17 +57,21 @@ jobs:
       locations: ${{ steps.filter.outputs.locations }}
       workflow: ${{ steps.filter.outputs.workflow }}
     steps:
-    - uses: actions/checkout@v3
+    - uses: actions/checkout@v4
       with:
         # This may save additional git fetch roundtrip if
         # merge-base is found within latest 20 commits
         fetch-depth: 20
     - name: Debug event data
+      env:
+        HEAD_REF: ${{ github.head_ref }}
+        REF_NAME: ${{ github.ref_name }}
+        EVENT_NAME: ${{ github.event_name }}
       run: |
-        echo head_ref=${{ github.head_ref }}
-        echo ref_name=${{ github.ref_name }}
-        echo event_name=${{ github.event_name }}
-    - uses: dorny/paths-filter@v2
+        printf 'head_ref=%s\n' "$HEAD_REF"
+        printf 'ref_name=%s\n' "$REF_NAME"
+        printf 'event_name=%s\n' "$EVENT_NAME"
+    - uses: dorny/paths-filter@v3
       id: filter
       with:
         base: ${{ ((github.head_ref || github.ref_name) == 'main' && 'main') || '' }}
@@ -84,7 +96,7 @@ jobs:
     steps:
       # Get the repository's code
       - name: Checkout
-        uses: actions/checkout@v3
+        uses: actions/checkout@v4
         with:
           fetch-depth: 0
       - name: Add SHORT_SHA env property with commit short sha
@@ -102,10 +114,13 @@ jobs:
       - name: Set build version
         id: set-version
         shell: bash
+        env:
+          VERSION_INPUT: ${{ github.event.inputs.version || inputs.version }}
         run: |
-          git config --global --add safe.directory $PWD
-          # Prefer workflow_dispatch event input, fall back to reusable-workflow input
-          VERSION="${{ github.event.inputs.version || inputs.version }}"
+          set -Eeuo pipefail
+          git config --global --add safe.directory "$PWD"
+          # Prefer workflow_dispatch event input, fall back to reusable-workflow input.
+          VERSION="$VERSION_INPUT"
           if [[ -n "$VERSION" && "$VERSION" != "snapshot" ]]; then
             echo "BUILD_VERSION=$VERSION" >> "$GITHUB_OUTPUT"
           else
@@ -117,24 +132,35 @@ jobs:
         env:
           REACT_APP_VERSION: ${{ steps.set-version.outputs.BUILD_VERSION }}
           REACT_APP_HASH: ${{ steps.gitvars.outputs.SHORT_SHA }}
+          BRANCH_NAME: ${{ github.head_ref || github.ref_name }}
         run: |
+          set -Eeuo pipefail
           npm install
-          if [[ "${{ github.head_ref || github.ref_name }}" != "main" ]]; then
-            export PUBLIC_URL="/${{ github.head_ref || github.ref_name }}"
+          if [[ "$BRANCH_NAME" != "main" ]]; then
+            export PUBLIC_URL="/$BRANCH_NAME"
           fi
           npm run build
       - name: deploy 🚛
         shell: bash
         if: ${{ github.actor != 'dependabot[bot]' }}
+        env:
+          BRANCH_NAME: ${{ github.head_ref || github.ref_name }}
+          DEPLOY_KEY: ${{ secrets.DEPLOY_KEY }}
+          DEPLOY_USER: ${{ secrets.DEPLOY_USER }}
+          DEPLOY_HOST: ${{ secrets.DEPLOY_HOST }}
+          DEPLOY_PATH: ${{ secrets.DEPLOY_PATH }}
         run: |
-          if [[ "${{ github.head_ref || github.ref_name }}" == "main" ]]; then
-            export TARGET_PATH="${{ secrets.DEPLOY_PATH }}"
+          set -Eeuo pipefail
+          if [[ "$BRANCH_NAME" == "main" ]]; then
+            TARGET_PATH="$DEPLOY_PATH"
           else
-            export TARGET_PATH="/dev.lunchdeal.li/httpdocs/${{ github.head_ref || github.ref_name }}"
+            TARGET_PATH="/dev.lunchdeal.li/httpdocs/$BRANCH_NAME"
           fi
-          echo -e "${{ secrets.DEPLOY_KEY }}" >__TEMP_INPUT_KEY_FILE
+          printf '%s\n' "$DEPLOY_KEY" > __TEMP_INPUT_KEY_FILE
           chmod 600 __TEMP_INPUT_KEY_FILE
-          ssh -o StrictHostKeyChecking=no -i __TEMP_INPUT_KEY_FILE "${{ secrets.DEPLOY_USER }}"@"${{ secrets.DEPLOY_HOST }}" "rm -rf /tmp/upload_tmp; mkdir /tmp/upload_tmp"
-          scp -o StrictHostKeyChecking=no -i __TEMP_INPUT_KEY_FILE -r site/build/* "${{ secrets.DEPLOY_USER }}"@"${{ secrets.DEPLOY_HOST }}":/tmp/upload_tmp
-          ssh -o StrictHostKeyChecking=no -i __TEMP_INPUT_KEY_FILE "${{ secrets.DEPLOY_USER }}"@"${{ secrets.DEPLOY_HOST }}" "rm -rf ${TARGET_PATH}/*; mkdir -p ${TARGET_PATH}; cp -R /tmp/upload_tmp/* ${TARGET_PATH}"
-          #"${{ secrets.DEPLOY_PATH }}"
+          ssh -o StrictHostKeyChecking=no -i __TEMP_INPUT_KEY_FILE "$DEPLOY_USER@$DEPLOY_HOST" \
+            'rm -rf /tmp/upload_tmp; mkdir /tmp/upload_tmp'
+          scp -o StrictHostKeyChecking=no -i __TEMP_INPUT_KEY_FILE -r site/build/. \
+            "$DEPLOY_USER@$DEPLOY_HOST:/tmp/upload_tmp"
+          ssh -o StrictHostKeyChecking=no -i __TEMP_INPUT_KEY_FILE "$DEPLOY_USER@$DEPLOY_HOST" \
+            "rm -rf -- \"$TARGET_PATH\"/*; mkdir -p -- \"$TARGET_PATH\"; cp -R /tmp/upload_tmp/. \"$TARGET_PATH\""
