@@ -60,7 +60,7 @@ jobs:
     runs-on: ubuntu-24.04
     container:
       # Keep the existing production location image reference unchanged.
-      image: ghcr.io/holygrolli/whatsupforlunch:sha-087f703-2026-02-09
+      image: ghcr.io/holygrolli/whatsupforlunch:sha-9acaed8-2026-08-30
     steps:
       - name: checkout
         uses: actions/checkout@v4
@@ -126,7 +126,7 @@ jobs:
     if: ${{ always() && needs.scrape_download.result != 'cancelled' }}
     runs-on: ubuntu-24.04
     container:
-      image: ghcr.io/holygrolli/whatsupforlunch:sha-087f703-2026-02-09
+      image: ghcr.io/holygrolli/whatsupforlunch:sha-9acaed8-2026-08-30
     steps:
       - name: checkout
         uses: actions/checkout@v4
@@ -185,7 +185,7 @@ jobs:
     if: ${{ always() && needs.scrape_download.result != 'cancelled' && (needs.process.result == 'success' || needs.process.result == 'failure') }}
     runs-on: ubuntu-24.04
     container:
-      image: ghcr.io/holygrolli/whatsupforlunch:sha-087f703-2026-02-09
+      image: ghcr.io/holygrolli/whatsupforlunch:sha-9acaed8-2026-08-30
     steps:
       - name: checkout
         uses: actions/checkout@v4

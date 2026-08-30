@@ -57,7 +57,7 @@ class WorkflowTests(unittest.TestCase):
         self.assertIn("actions/upload-artifact@v4", content)
         self.assertIn("actions/download-artifact@v4", content)
         self.assertIn(
-            "ghcr.io/holygrolli/whatsupforlunch:sha-087f703-2026-02-09",
+            "ghcr.io/holygrolli/whatsupforlunch:sha-9acaed8-2026-08-30",
             content,
         )
         for marker in OLD_WORKFLOW_MARKERS:

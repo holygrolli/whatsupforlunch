@@ -3,7 +3,7 @@
   "event_name": "workflow_dispatch",
   "act": true,
   "inputs": {
-    "location": "ratskeller"
+    "location": "augustiner"
   },
   "repository": {
     "full_name": "holygrolli/whatsupforlunch"

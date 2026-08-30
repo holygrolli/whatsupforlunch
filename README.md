@@ -60,7 +60,7 @@ docker run --rm -it \
   -v "$PWD:/data" -w /data \
   -v "$PWD/.aws.config:/root/.aws/config" \
   -e OPENAI_COMPATIBLE_API_KEY="$OPENAI_COMPATIBLE_API_KEY" \
-  ghcr.io/holygrolli/whatsupforlunch:sha-087f703-2026-02-09 bash
+  ghcr.io/holygrolli/whatsupforlunch:sha-9acaed8-2026-08-30 bash
 ```
 
 The runner needs PyYAML to load `location.yaml`; it is declared in
