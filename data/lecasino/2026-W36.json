@@ -13,15 +13,15 @@
       "price": 3.6
     },
     {
-      "desc": "Kartoffeln",
+      "desc": "Kartoffeln (Sättigungsbeilage)",
       "price": 1.1
     },
     {
-      "desc": "Reis",
+      "desc": "Reis (Sättigungsbeilage)",
       "price": 1.1
     },
     {
-      "desc": "Rohkostsalat nach Angebot",
+      "desc": "Rohkostsalat nach Angebot (Gemüsebeilage)",
       "price": 1.4
     }
   ],
@@ -39,11 +39,11 @@
       "price": 3.9
     },
     {
-      "desc": "Semmelknödel",
+      "desc": "Semmelknödel (Sättigungsbeilage)",
       "price": 1.3
     },
     {
-      "desc": "Rohkostsalat nach Angebot",
+      "desc": "Rohkostsalat nach Angebot (Gemüsebeilage)",
       "price": 1.4
     }
   ],
@@ -61,7 +61,7 @@
       "price": 3.8
     },
     {
-      "desc": "Rohkostsalat nach Angebot",
+      "desc": "Rohkostsalat nach Angebot (Gemüsebeilage)",
       "price": 1.4
     }
   ],
@@ -79,11 +79,11 @@
       "price": 3.2
     },
     {
-      "desc": "Bratkartoffeln",
+      "desc": "Bratkartoffeln (Sättigungsbeilage)",
       "price": 1.3
     },
     {
-      "desc": "Rohkostsalat nach Angebot",
+      "desc": "Rohkostsalat nach Angebot (Gemüsebeilage)",
       "price": 1.4
     }
   ],
@@ -101,11 +101,11 @@
       "price": 0.0
     },
     {
-      "desc": "Gouda gerieben",
+      "desc": "Gouda gerieben (Sättigungsbeilage)",
       "price": 0.45
     },
     {
-      "desc": "Rohkostsalat nach Angebot",
+      "desc": "Rohkostsalat nach Angebot (Gemüsebeilage)",
       "price": 1.4
     }
   ]

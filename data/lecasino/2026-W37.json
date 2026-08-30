@@ -31,11 +31,11 @@
       "price": 2.95
     },
     {
-      "desc": "Pasta",
+      "desc": "Pasta (Sättigungsbeilage)",
       "price": 1.1
     },
     {
-      "desc": "Gouda gerieben",
+      "desc": "Gouda gerieben (Sättigungsbeilage)",
       "price": 0.45
     },
     {
@@ -63,7 +63,7 @@
   ],
   "2026-09-10": [
     {
-      "desc": "Gnocchi- Feldsalat mit Tomate und Balkankäse",
+      "desc": "Gnocchi-Feldsalat mit Tomate und Balkankäse",
       "price": 4.7
     },
     {
@@ -75,7 +75,7 @@
       "price": 3.85
     },
     {
-      "desc": "Kartoffeln",
+      "desc": "Kartoffeln (Sättigungsbeilage)",
       "price": 1.1
     },
     {
@@ -83,7 +83,7 @@
       "price": 1.4
     },
     {
-      "desc": "Gemüse n. Angebot",
+      "desc": "Gemüse nach Angebot (Gemüsebeilage)",
       "price": 1.1
     }
   ],
@@ -101,7 +101,7 @@
       "price": 0.0
     },
     {
-      "desc": "Gouda gerieben",
+      "desc": "Gouda gerieben (Sättigungsbeilage)",
       "price": 0.45
     },
     {
