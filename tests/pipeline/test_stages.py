@@ -24,6 +24,13 @@ from pipeline.stages.download import download_items, filename_for_link
 from pipeline.stages.prepare import prepare_one, PrepareError
 
 
+class TestEnvironmentFlags(unittest.TestCase):
+    def test_missing_flag_is_false(self):
+        from pipeline.__main__ import _is_truthy
+
+        self.assertFalse(_is_truthy(None))
+
+
 class FakeState:
     """In-memory stand-in for the DynamoDB state backend."""
 

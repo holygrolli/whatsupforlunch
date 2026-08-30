@@ -41,6 +41,8 @@ STAGES = ("scrape", "download", "prepare", "extract", "publish", "all",
 
 def _is_truthy(value) -> bool:
     """Interpret the boolean-like environment flags used by CI."""
+    if value is None:
+        return False
     return str(value).strip().lower() not in {"", "0", "false", "no", "off"}
 
 
