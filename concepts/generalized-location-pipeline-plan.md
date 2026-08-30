@@ -205,11 +205,11 @@ extract:
   prompt_prefix: ""                 # optional; replaces userMessagePrefix
   add_current_date: false           # defaults from shared prompt config
   add_current_weekdays: true
-  max_tokens: 1000
+  max_tokens: 5000
   model:
-    provider: google                # openai | google
-    vision_model: gemini-2.0-flash
-    text_model: gpt-4o-2024-08-06
+    provider: google                # model namespace: openai | google
+    vision_model: vertex/gemini-2.5-flash-lite@europe-central2
+    text_model: azure/gpt-5-mini@francecentral
 publish:
   week_key_from: first_date         # how the output YYYY-WW.json name is derived
   ttl_weeks: 8                      # optional; omit = 8 (decision 4)
@@ -276,8 +276,10 @@ simplified, not redesigned:
 - The `{MC_TODAY}` / `{MC_WEEKSTART}` templating, weekend-rolls-to-next-week logic,
   and `addCurrentDate` / `addCurrentWeekdays` behavior are preserved verbatim (the
   prompt regression tests depend on it).
-- The OpenAI-compatible provider switch (`openai` vs `google` base URL + env var) is
-  preserved; adding providers is out of scope.
+- The current OpenAI-compatible transport is preserved: both the `openai` and
+  `google` model namespaces use `https://router.eu.requesty.ai/v1` with the
+  `CHAT_API_KEY` environment variable. The namespace selects the model name, not
+  a direct provider endpoint; adding providers is out of scope.
 - The `sed -n '/^\s*{$/,$p'` JSON-carving currently done in workflow shell becomes a
   tested `extract_json_object()` function in the runner.
 

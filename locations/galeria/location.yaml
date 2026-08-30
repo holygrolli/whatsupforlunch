@@ -21,7 +21,7 @@ extract:
   max_tokens: 2000
   model:
     provider: google
-    vision_model: gemini-2.0-flash
+    vision_model: vertex/gemini-2.5-flash-lite@europe-central2
 publish:
   week_key_from: first_date
 schedule:

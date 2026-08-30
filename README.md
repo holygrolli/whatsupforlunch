@@ -37,7 +37,7 @@ entries into DynamoDB (dry-run by default, `--apply` to write).
 
 Please raise an issue or even create a pull request with any improvements or even a new location.
 
-To develop and debug single workflow steps you should use the project's Docker image and provide you personal AWS credentials and OpenAI API key.
+To develop and debug single workflow steps you should use the project's Docker image and provide your personal AWS credentials and a Requesty.ai API key.
 
 ```
 docker run --rm -it -v $PWD:/data -w /data -v $PWD/.aws.config:/root/.aws/config --env-file .openai ghcr.io/holygrolli/whatsupforlunch:main bash
@@ -52,7 +52,7 @@ aws_secret_access_key =
 region = eu-central-1
 ```
 
-The OpenAI API key is provided as environment variable inside `.openai` like this:
+The Requesty.ai API key is provided as the `CHAT_API_KEY` environment variable inside `.openai` like this:
 ```
 CHAT_API_KEY=
 ```

@@ -1,5 +1,7 @@
 # Shared defaults for the location pipeline (schema_version: 1).
-# Rendered from locations/.shared/prompt_config.py. Location YAML overrides per key;
+# Prompt values come from locations/.shared/prompt_config.py; model and request
+# settings follow the current develop DefaultMealChat behavior. Location YAML
+# overrides per key;
 # there is no third level of overrides.
 
 schema_version: 1
@@ -15,11 +17,11 @@ extract:
   prompt_prefix: ""
   add_current_date: true
   add_current_weekdays: true
-  max_tokens: 1000
+  max_tokens: 5000
   model:
     provider: openai
     vision_model: gpt-4o-2024-08-06
-    text_model: gpt-4o-mini
+    text_model: azure/gpt-5-mini@francecentral
 
 publish:
   week_key_from: first_date

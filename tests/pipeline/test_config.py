@@ -115,7 +115,10 @@ class TestLoadLocations(unittest.TestCase):
         cfg = load_location("augustiner")
         extract = cfg.default_variant["extract"]
         self.assertTrue(extract["add_current_weekdays"])
-        self.assertEqual(extract["max_tokens"], 1000)
+        self.assertEqual(extract["max_tokens"], 5000)
+        self.assertEqual(
+            extract["model"]["text_model"], "azure/gpt-5-mini@francecentral"
+        )
         self.assertFalse(extract["add_current_date"])
 
     def test_ttl_default_eight_weeks(self):
@@ -159,7 +162,9 @@ class TestEffectiveConfigEquivalence(unittest.TestCase):
         cfg = load_location("galeria").default_variant
         model = cfg["extract"]["model"]
         self.assertEqual(model["provider"], "google")
-        self.assertEqual(model["vision_model"], "gemini-2.0-flash")
+        self.assertEqual(
+            model["vision_model"], "vertex/gemini-2.5-flash-lite@europe-central2"
+        )
         self.assertEqual(cfg["extract"]["max_tokens"], 2000)
         self.assertEqual(cfg["scrape"]["type"], "static")
         self.assertEqual(
@@ -173,6 +178,10 @@ class TestEffectiveConfigEquivalence(unittest.TestCase):
     def test_ratskeller(self):
         cfg = load_location("ratskeller").default_variant
         self.assertEqual(cfg["extract"]["model"]["provider"], "google")
+        self.assertEqual(
+            cfg["extract"]["model"]["vision_model"],
+            "vertex/gemini-2.5-flash-lite@europe-central2",
+        )
         self.assertFalse(cfg["extract"]["add_current_date"])
         self.assertEqual(
             [next(iter(s)) for s in cfg["prepare"]], ["pdfseparate", "pdftoppm"]

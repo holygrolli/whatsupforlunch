@@ -1,6 +1,7 @@
 """Unit tests for pipeline stages with mocked HTTP/model/DynamoDB."""
 
 import json
+import os
 import unittest
 from pathlib import Path
 from tempfile import TemporaryDirectory
@@ -98,13 +99,15 @@ class TestMealChatTemplating(unittest.TestCase):
         content = chat.prompt_addon_messages()[0]["content"]
         self.assertNotIn("Monday(2024-01-01)", content)
 
-    def test_provider_switch(self):
-        google = self._chat(model_provider="google")
-        self.assertIn("generativelanguage.googleapis.com",
-                      google.model_provider_config()["base_url"])
-        openai = self._chat(model_provider="openai")
-        self.assertEqual(openai.model_provider_config()["base_url"],
-                         "https://api.openai.com/v1")
+    def test_requesty_provider_configuration_is_shared(self):
+        with mock.patch.dict(os.environ, {"CHAT_API_KEY": "requesty-key"}, clear=False):
+            google = self._chat(model_provider="google")
+            openai = self._chat(model_provider="openai")
+            expected = "https://router.eu.requesty.ai/v1"
+            self.assertEqual(google.model_provider_config()["base_url"], expected)
+            self.assertEqual(google.model_provider_config()["api_key"], "requesty-key")
+            self.assertEqual(openai.model_provider_config()["base_url"], expected)
+            self.assertEqual(openai.model_provider_config()["api_key"], "requesty-key")
 
     def test_base_url_override(self):
         chat = self._chat(base_url="http://localhost:1234/v1", api_key="k")
@@ -146,6 +149,11 @@ class TestMealChatExtraction(unittest.TestCase):
             self.assertEqual(menu, payload)
             self.assertTrue((Path(tmp) / "chatgpt.json").is_file())
             self.assertTrue((Path(tmp) / "chatgpt_usage.json").is_file())
+            call = client.return_value.chat.completions.create.call_args
+            self.assertEqual(call.kwargs["model"], "azure/gpt-5-mini@francecentral")
+            self.assertEqual(call.kwargs["max_completion_tokens"], 5000)
+            self.assertNotIn("max_tokens", call.kwargs)
+            self.assertNotIn("temperature", call.kwargs)
 
     def test_process_image(self):
         payload = {"2024-W01": [{"desc": "Pasta", "price": 4.9}]}

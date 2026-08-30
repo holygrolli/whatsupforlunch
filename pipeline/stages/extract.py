@@ -8,8 +8,10 @@ and simplified, not redesigned (plan section 3.4):
 - The ``{MC_TODAY}`` / ``{MC_WEEKSTART}`` templating, weekend-rolls-to-next-week
   logic, and ``add_current_date`` / ``add_current_weekdays`` behavior are
   preserved verbatim (the prompt regression tests depend on it).
-- The OpenAI-compatible provider switch (``openai`` vs ``google`` base URL +
-  env var) is preserved; adding providers is out of scope.
+- The current provider transport is preserved: both the ``openai`` and ``google``
+  model namespaces use the Requesty.ai OpenAI-compatible endpoint and the
+  ``CHAT_API_KEY`` environment variable. The provider value selects the model
+  namespace, not a direct API endpoint; adding providers is out of scope.
 - The ``sed -n '/^\\s*{$/,$p'`` JSON-carving done in workflow shell is the
   tested :func:`extract_json_object` function below.
 """
@@ -26,6 +28,10 @@ from pathlib import Path
 
 class ExtractError(Exception):
     pass
+
+
+REQUESTY_BASE_URL = "https://router.eu.requesty.ai/v1"
+REQUESTY_API_KEY_ENV = "CHAT_API_KEY"
 
 
 def extract_json_object(text: str) -> str:
@@ -50,14 +56,14 @@ class MealChat:
                  user_image_file="image_input",
                  date_override=None,
                  output_prefix="chatgpt",
-                 max_tokens=1000,
+                 max_tokens=5000,
                  system_prompt="",
                  json_schema="",
                  add_current_date=True,
                  add_current_weekdays=True,
                  model_provider="openai",
                  vision_model="gpt-4o-2024-08-06",
-                 text_model="gpt-4o-mini",
+                 text_model="azure/gpt-5-mini@francecentral",
                  model_override=None,
                  base_url=None,
                  api_key=None,
@@ -101,11 +107,13 @@ class MealChat:
     # -- provider configuration -------------------------------------------------
 
     def model_provider_config(self) -> dict:
-        """OpenAI-compatible provider switch (openai | google), preserved.
+        """Return the Requesty.ai OpenAI-compatible client configuration.
 
+        Develop routes both the ``openai`` and ``google`` model namespaces
+        through Requesty.ai with the shared ``CHAT_API_KEY`` secret. The
         ``PIPELINE_MODEL_BASE_URL`` / ``PIPELINE_MODEL_API_KEY`` /
-        ``PIPELINE_MODEL`` environment variables override the endpoint and
-        model for local testing against OpenAI-compatible proxies.
+        ``PIPELINE_MODEL`` environment variables remain available for local
+        testing against another OpenAI-compatible proxy.
         """
         return {
             "base_url": (
@@ -124,14 +132,10 @@ class MealChat:
         return self.model_override or os.environ.get("PIPELINE_MODEL") or configured
 
     def _default_base_url(self) -> str:
-        if self.model_provider == "google":
-            return "https://generativelanguage.googleapis.com/v1beta/openai"
-        return "https://api.openai.com/v1"
+        return REQUESTY_BASE_URL
 
     def _default_api_key(self) -> str | None:
-        if self.model_provider == "google":
-            return os.environ.get("GEMINI_API_KEY")
-        return os.environ.get("CHAT_API_KEY")
+        return os.environ.get(REQUESTY_API_KEY_ENV)
 
     # -- templating (preserved verbatim) ---------------------------------------
 
@@ -251,9 +255,8 @@ class MealChat:
             model=self._effective_model(self.text_model),
             messages=messages,
             response_format={"type": "text"},
-            temperature=0.1,
             seed=1,
-            max_tokens=self.max_tokens,
+            max_completion_tokens=self.max_tokens,
         )
         return self._write_output(chat_completion)
 
@@ -283,7 +286,7 @@ def meal_chat_from_config(extract_cfg: dict, prompts: dict, location_dir: Path,
         add_current_weekdays=extract_cfg.get("add_current_weekdays", True),
         model_provider=model.get("provider", "openai"),
         vision_model=model.get("vision_model", "gpt-4o-2024-08-06"),
-        text_model=model.get("text_model", "gpt-4o-mini"),
+        text_model=model.get("text_model", "azure/gpt-5-mini@francecentral"),
         model_override=model_override,
         base_url=base_url,
         api_key=api_key,
