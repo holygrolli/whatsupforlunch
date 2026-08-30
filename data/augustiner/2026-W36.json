@@ -1,0 +1,52 @@
+{
+  "2026-08-31": [
+    {
+      "desc": "Schweineschnitzel „Wiener Art“ mit Kartoffel-Gurken-Salat",
+      "price": 8.5
+    },
+    {
+      "desc": "Allgäuer Käsespätzle mit Röstzwiebeln",
+      "price": 8.5
+    }
+  ],
+  "2026-09-01": [
+    {
+      "desc": "Hackbällchen in Jägersauce mit Kartoffelpüree",
+      "price": 8.5
+    },
+    {
+      "desc": "Mediterranes Gemüse-Risotto",
+      "price": 8.5
+    }
+  ],
+  "2026-09-02": [
+    {
+      "desc": "Kassler mit Sauerkraut und Salzkartoffeln",
+      "price": 8.5
+    },
+    {
+      "desc": "Rahmschwammerl mit Rösti-Talern",
+      "price": 8.5
+    }
+  ],
+  "2026-09-03": [
+    {
+      "desc": "Hähnchen-Gyros mit Reis und Tsatsiki",
+      "price": 8.5
+    },
+    {
+      "desc": "Spaghetti in Basilikum-Pesto mit Kirschtomaten",
+      "price": 8.5
+    }
+  ],
+  "2026-09-04": [
+    {
+      "desc": "Backfisch mit Kartoffel-Gurkensalat und Remoulade",
+      "price": 8.5
+    },
+    {
+      "desc": "Kartoffel-Frischkäse-Taschen an Blattsalat",
+      "price": 8.5
+    }
+  ]
+}
