@@ -21,7 +21,8 @@ prepare:
 extract:
   type: text
   input_file: chatgpt_user.txt
-  prompt_file: prompt.txt
+  # The text extractor reads the prepared menu from input_file.  The old
+  # image-specific prompt.txt must not replace that input.
   prompt_prefix: "The input only includes day offers and no week offers! Each day contains additional side dishes \"Sättigungsbeilage\" and \"Gemüsebeilage\" which you should not ignore and add each single of to the particular day. The input is:\n"
   add_current_date: true
   model:

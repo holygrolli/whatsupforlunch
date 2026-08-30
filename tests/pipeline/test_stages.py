@@ -7,7 +7,12 @@ from pathlib import Path
 from tempfile import TemporaryDirectory
 from unittest import mock
 
-from pipeline.stages.extract import MealChat, extract_json_object, ExtractError
+from pipeline.stages.extract import (
+    MealChat,
+    ExtractError,
+    extract_json_object,
+    meal_chat_from_config,
+)
 from pipeline.stages.publish import (
     PublishError,
     publish,
@@ -207,6 +212,26 @@ class TestMealChatExtraction(unittest.TestCase):
             self.assertTrue(
                 content[1]["image_url"]["url"].startswith("data:image/png;base64,")
             )
+
+
+class TestMealChatConfig(unittest.TestCase):
+    def test_text_prompt_file_does_not_replace_prepared_input(self):
+        with TemporaryDirectory() as tmp:
+            root = Path(tmp)
+            (root / "menu.txt").write_text("Speiseplan vom 31. August")
+            (root / "instructions.txt").write_text("Parse the German menu.")
+            chat = meal_chat_from_config(
+                {
+                    "type": "text",
+                    "input_file": "menu.txt",
+                    "prompt_file": "instructions.txt",
+                },
+                {},
+                root,
+                run_dir=root,
+            )
+            self.assertIn("Speiseplan vom 31. August", chat.user_message)
+            self.assertIn("Parse the German menu.", chat.user_message)
 
 
 class TestPublish(unittest.TestCase):

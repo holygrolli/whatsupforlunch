@@ -265,13 +265,32 @@ def meal_chat_from_config(extract_cfg: dict, prompts: dict, location_dir: Path,
                           run_dir: str | Path = ".", date_override=None,
                           output_prefix="chatgpt", user_image_file=None,
                           base_url=None, api_key=None, model_override=None) -> MealChat:
-    """Build a MealChat from a validated extract config block."""
+    """Build a :class:`MealChat` from a validated extract config block.
+
+    A text extraction always needs the prepared ``input_file``.  A configured
+    ``prompt``/``prompt_file`` is an additional location-specific instruction,
+    not a replacement for that input.  The old implementation passed the
+    prompt file as ``user_message`` and consequently sent no menu text to the
+    model (which made every Le Casino page fall back to the current week).
+    Vision extractions have no text input, so their prompt remains the message
+    accompanying the image.
+    """
     model = extract_cfg.get("model") or {}
     user_message = extract_cfg.get("prompt")
     prompt_file = extract_cfg.get("prompt_file")
     if user_message is None and prompt_file:
         with open(location_dir / prompt_file, "r", encoding="utf-8") as fh:
             user_message = fh.read()
+
+    if extract_cfg.get("type") != "vision" and user_message is not None:
+        input_path = Path(run_dir) / extract_cfg.get("input_file", "chatgpt_user.txt")
+        with open(input_path, "r", encoding="utf-8") as fh:
+            input_text = fh.read()
+        # Put the actual prepared input first so prompt_prefix (for example
+        # "The input is:") still describes the text the model sees.  The
+        # source-specific instructions follow it and cannot hide the input.
+        user_message = f"{input_text}\n\n{user_message}"
+
     return MealChat(
         user_message=user_message,
         user_message_file=extract_cfg.get("input_file", "chatgpt_user.txt"),

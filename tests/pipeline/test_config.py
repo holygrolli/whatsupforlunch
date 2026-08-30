@@ -211,6 +211,11 @@ class TestEffectiveConfigEquivalence(unittest.TestCase):
     def test_lecasino_default_is_html_follow(self):
         cfg = load_location("lecasino").default_variant
         self.assertTrue(cfg["scrape"]["spider"]["follow"])
+        self.assertEqual(cfg["extract"]["input_file"], "chatgpt_user.txt")
+        # This is a text variant: the prepared menu must be read as the model
+        # input.  lecasino/prompt.txt is an old image prompt and must not
+        # replace that file.
+        self.assertNotIn("prompt_file", cfg["extract"])
         self.assertEqual(
             cfg["extract"]["prompt_prefix"],
             'The input only includes day offers and no week offers! Each day '
