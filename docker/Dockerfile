@@ -2,7 +2,8 @@ FROM python:3.10-slim
 
 RUN apt-get update && \
     apt-get install -y poppler-utils curl jq git
-RUN pip install amazon-textract-textractor[pdf,pandas] openai scrapy htmlmin lxml lxml_html_clean boto3
+# PyYAML is required by pipeline/config.py to load the checked-in location YAML.
+RUN pip install openai scrapy htmlmin lxml lxml_html_clean boto3 pyyaml
 ENV NVM_DIR /usr/local/nvm
 ENV NODE_VERSION lts/iron
 RUN mkdir -p /usr/local/nvm && apt-get update && echo "y" | apt-get install curl
