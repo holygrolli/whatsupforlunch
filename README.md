@@ -10,7 +10,28 @@ This is a monorepo containing:
 
 ## How it works
 
-Each restaurant has a config inside `locations` directory. All restaurants have a `scra.py` file defining how to scrape the website. This mostly results in some text, a PDF or an image containing the menu schedule for a week. Depending on the source format, e.g. an image, is then processed by [AWS Textract](https://aws.amazon.com/textract/). This textual meal schedule is then sent to ChatGPT with a `prompt.txt` to transform the data finally into a JSON.
+Each supported restaurant is described by a single `locations/<name>/location.yaml`
+covering the website target, the scrape job, the extraction pipeline, the prompt,
+the model, output naming, and the TTL override. A small Python runner package
+(`pipeline/`) executes the stages `scrape -> download -> prepare -> extract ->
+publish` driven entirely by that YAML plus shared defaults (`pipeline/defaults.yaml`).
+
+Scraping produces some text, a PDF, or an image containing the menu schedule for a
+week. Text and PDF pages are sent to an OpenAI-compatible model (text extraction);
+images are sent to a vision model. The model transforms the data into the menu JSON
+consumed by the website. Processed-content state lives in the DynamoDB `lunchdeal`
+table (a URL plus a TTL), so re-running a location only processes new content.
+
+Run the whole pipeline for one location locally:
+
+```
+python -m pipeline <location> all
+```
+
+or a single stage (`scrape`, `download`, `prepare`, `extract`, `publish`). Use
+`--no-state` to disable the DynamoDB check for local testing. A one-time
+`python -m pipeline <location> migrate-state` backfills the old `scraped_done.txt`
+entries into DynamoDB (dry-run by default, `--apply` to write).
 
 ## How to contribute
 

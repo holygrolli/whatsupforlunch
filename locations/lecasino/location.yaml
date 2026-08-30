@@ -1,0 +1,53 @@
+schema_version: 1
+name: LVB - Le Casino
+enabled: true
+website:
+  url: https://www.l.de/gruppe/das-sind-wir/leipziger-gruppe/leipziger-servicebetriebe-lsb-gmbh/le-casino/
+  details:
+    - Keine Kartenzahlung
+    - Hauptgerichte plus 1,50 € für Externe
+# Default variant = the currently active format (HTML Speiseplan pages, followed
+# and reduced to text) matching today's scra.py behavior.
+scrape:
+  type: scrapy
+  spider:
+    allowed_domains: [www.l.de]
+    link_xpath: '//a[contains(text(),"Speiseplan")]/@href'
+    follow: true
+download:
+  formats: [html]
+prepare:
+  - html_to_text: {}
+extract:
+  type: text
+  input_file: chatgpt_user.txt
+  prompt_file: prompt.txt
+  prompt_prefix: "The input only includes day offers and no week offers! Each day contains additional side dishes \"Sättigungsbeilage\" and \"Gemüsebeilage\" which you should not ignore and add each single of to the particular day. The input is:\n"
+  add_current_date: true
+  model:
+    provider: openai
+publish:
+  week_key_from: first_date
+schedule:
+  cron: '45 7 * * 1'
+# Known format fallback (Le Casino switched PDF -> HTML -> PDF -> HTML over time).
+# Tried only when the default variant's discovery finds no links at all.
+formats:
+  - name: pdf
+    scrape:
+      type: scrapy
+      spider:
+        allowed_domains: [www.l.de, files.l.de]
+        link_xpath: '//a[contains(@href,".pdf")]/@href'
+    download:
+      formats: [pdf]
+    prepare:
+      - pdfseparate: {}
+      - pdftoppm: { resolution: 150, format: png, singlefile: true }
+    extract:
+      type: vision
+      input_file: image.png
+      add_current_date: true
+      model:
+        provider: openai
+        vision_model: gpt-4o-2024-08-06
