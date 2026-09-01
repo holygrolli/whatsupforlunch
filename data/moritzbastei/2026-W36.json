@@ -1,0 +1,52 @@
+{
+  "2026-08-31": [],
+  "2026-09-01": [
+    {
+      "desc": "Schweineschnitzel \"Mailänder Art\" in Parmesan-Semmel-Kruste, dazu pikante Tomatensoße und Linguine",
+      "price": 10.5
+    },
+    {
+      "desc": "Gebackene Falafel auf verschiedenen Blattsalaten mit Minze, Kichererbsen, Apfel und Granatapfelkernen, dazu Fladenbrot und Zitronen-Chilidip (veget.)",
+      "price": 9.2
+    }
+  ],
+  "2026-09-02": [
+    {
+      "desc": "Königsberger Klopse mit Kräuterkartoffelstampf und Krautsalat",
+      "price": 9.8
+    },
+    {
+      "desc": "Tortellini in Spinat-Gorgonzola-Soße mit getrockneten Tomaten, überbacken mit Mozzarella und gerösteten Sonnenblumenkernen (veget.)",
+      "price": 9.2
+    }
+  ],
+  "2026-09-03": [
+    {
+      "desc": "Hähnchenschnitzel mit Rahmblumenkohl, Salzkartoffeln und brauner Soße",
+      "price": 9.8
+    },
+    {
+      "desc": "Tagliatelle mit Zitronen-Basilikum-Soße, dazu gebackene Kirschtomaten (veget.) und Parmesan",
+      "price": 9.2
+    }
+  ],
+  "2026-09-04": [],
+  "2026-W36": [
+    {
+      "desc": "Pasta mit Karotten-Ingwer-Pesto, dazu geröstete Haselnüsse (veget.) und Parmesan",
+      "price": 10.9
+    },
+    {
+      "desc": "Fenchellasagne mit gebratener Aubergine, überbacken mit Mozzarella und Sonnenblumenkernen (veget.)",
+      "price": 12.9
+    },
+    {
+      "desc": "Süßkartoffel-Spinat-Gratin mit gebratenen Hähnchenbruststreifen, überbacken mit Mozzarella und Mandeln",
+      "price": 12.9
+    },
+    {
+      "desc": "Hähnchengeschnetzeltes mit getrockneten Tomaten und gebratener Zucchini, dazu Basmatireis",
+      "price": 12.9
+    }
+  ]
+}
