@@ -1,0 +1,52 @@
+{
+  "2026-09-07": [
+    {
+      "desc": "Schweineschnitzel „Wiener Art“ mit Kartoffel-Gurken-Salat",
+      "price": 8.5
+    },
+    {
+      "desc": "Allgäuer Käsespätzle mit Röstzwiebeln",
+      "price": 8.5
+    }
+  ],
+  "2026-09-08": [
+    {
+      "desc": "Wurstgulasch mit Nudeln und geriebenem Käse",
+      "price": 8.5
+    },
+    {
+      "desc": "Gnocchi in Tomaten-Gemüsesauce",
+      "price": 8.5
+    }
+  ],
+  "2026-09-09": [
+    {
+      "desc": "Gezupftes Haxenfleisch in Meerrettichsauce mit Kartoffeln",
+      "price": 8.5
+    },
+    {
+      "desc": "Rahmspinat mit Rührei und Kartoffeln",
+      "price": 8.5
+    }
+  ],
+  "2026-09-10": [
+    {
+      "desc": "Putenrollbraten mit Leipziger Allerlei und Kloß",
+      "price": 8.5
+    },
+    {
+      "desc": "Tomaten-Risotto mit frischem Basilikum",
+      "price": 8.5
+    }
+  ],
+  "2026-09-11": [
+    {
+      "desc": "Backfisch mit Kartoffel-Gurkensalat und Remoulade",
+      "price": 8.5
+    },
+    {
+      "desc": "Vegetarisches Bauernfrühstück mit Fassgurke",
+      "price": 8.5
+    }
+  ]
+}
