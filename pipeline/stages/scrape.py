@@ -72,6 +72,10 @@ def _build_spider_class(spider_cfg: dict, start_url: str):
         name = "pipeline_generated"
         custom_settings = {
             "LOG_ENABLED": False,
+            # Let parse inspect error pages too, so a 403/404 response is
+            # printed when it contains no links instead of being discarded by
+            # Scrapy's HttpErrorMiddleware.
+            "HTTPERROR_ALLOW_ALL": True,
             # some sites rate-limit/reject the default Scrapy user agent
             "USER_AGENT": (
                 "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 "
@@ -79,11 +83,12 @@ def _build_spider_class(spider_cfg: dict, start_url: str):
             ),
         }
 
-        def __init__(self, *args, items=None, **kwargs):
+        def __init__(self, *args, items=None, diagnostics=None, **kwargs):
             super().__init__(*args, **kwargs)
             self.allowed_domains = list(allowed_domains)
             self.start_urls = [start_url]
             self._collected = items if items is not None else []
+            self._diagnostics = diagnostics if diagnostics is not None else []
 
         def parse(self, response):
             selections = response.xpath(link_xpath)
@@ -92,6 +97,13 @@ def _build_spider_class(spider_cfg: dict, start_url: str):
                     f"expected {expected_count} selections, got {len(selections)}"
                 )
             if len(selections) == 0:
+                # Keep the response available to the caller. This makes bot
+                # checks, error pages, and changed markup visible in CI logs.
+                self._diagnostics.append({
+                    "url": response.url,
+                    "status": response.status,
+                    "body": response.text,
+                })
                 raise CloseSpider("no_links_found")
             if select_index is not None:
                 selections = [selections[select_index]]
@@ -143,21 +155,43 @@ def _build_spider_class(spider_cfg: dict, start_url: str):
 
 
 def run_scrapy_spider(spider_cfg: dict, start_url: str) -> list[dict]:
-    """Execute the generated spider in-process; return yielded items."""
+    """Execute the generated spider in-process; return yielded items.
+
+    When the configured selector matches nothing, print the response body to
+    stderr before raising. The scrape/download job uploads no manifest when
+    discovery fails, so the log is the only useful diagnostic available in CI.
+    """
     from scrapy.crawler import CrawlerProcess
 
     spider_cls = _build_spider_class(spider_cfg, start_url)
     items: list[dict] = []
+    diagnostics: list[dict] = []
     stdout = io.StringIO()
     try:
         with redirect_stdout(stdout):
             process = CrawlerProcess(settings={"LOG_ENABLED": False})
             crawler = process.create_crawler(spider_cls)
-            process.crawl(crawler, items=items)
+            process.crawl(crawler, items=items, diagnostics=diagnostics)
             process.start()
     except Exception as exc:
         raise ScrapeError(f"scrapy crawl failed: {exc}") from exc
     if not items:
+        for response in diagnostics:
+            print(
+                "scrapy response when no links were found "
+                f"(status={response['status']}, url={response['url']})",
+                file=sys.stderr,
+            )
+            print(
+                f"scrapy selector: {spider_cfg['link_xpath']}",
+                file=sys.stderr,
+            )
+            print("----- BEGIN SCRAPY RESPONSE BODY -----", file=sys.stderr)
+            # Prefix each line so arbitrary HTML cannot be interpreted as a
+            # GitHub Actions workflow command in the job log.
+            body = response["body"]
+            print("\n".join(f"| {line}" for line in body.splitlines()), file=sys.stderr)
+            print("----- END SCRAPY RESPONSE BODY -----", file=sys.stderr)
         raise ScrapeError("scrapy spider discovered no links")
     return items
 
