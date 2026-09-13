@@ -44,7 +44,8 @@ _SCHEMA = {
         "prepare", "extract", "publish", "schedule", "formats",
     },
     "website": {"url", "details"},
-    "scrape": {"type", "spider", "url"},
+    "scrape": {"type", "spider", "url", "challenge"},
+    "scrape.challenge": {"provider", "gate", "sitekey", "api_key_env", "max_attempts"},
     "scrape.spider": None,
     "download": {"formats"},
     "extract": {
@@ -120,6 +121,30 @@ def _validate_variant(variant: dict, context: str, full: bool) -> None:
         raise ConfigError(f"missing required key 'scrape' in '{context}'")
     if scrape is not None:
         _check_keys(scrape, _SCHEMA["scrape"], f"{context}.scrape")
+        challenge = scrape.get("challenge")
+        if challenge is not None:
+            if not isinstance(challenge, dict):
+                raise ConfigError(
+                    f"scrape.challenge in '{context}' must be a mapping"
+                )
+            _check_keys(challenge, _SCHEMA["scrape.challenge"], f"{context}.scrape.challenge")
+            provider = challenge.get("provider", "solvegate")
+            if provider != "solvegate":
+                raise ConfigError(
+                    f"scrape.challenge.provider in '{context}' must be 'solvegate', got {provider!r}"
+                )
+            gate = challenge.get("gate", "waf")
+            if gate != "waf":
+                raise ConfigError(
+                    f"scrape.challenge.gate in '{context}' must be 'waf', got {gate!r}"
+                )
+            _check_type(challenge, "sitekey", str, f"{context}.scrape.challenge")
+            _check_type(challenge, "api_key_env", str, f"{context}.scrape.challenge")
+            _check_type(challenge, "max_attempts", int, f"{context}.scrape.challenge")
+            if challenge.get("max_attempts", 1) <= 0:
+                raise ConfigError(
+                    f"scrape.challenge.max_attempts in '{context}' must be positive"
+                )
         _require(scrape, "type", f"{context}.scrape")
         stype = scrape["type"]
         if stype not in SCRAPE_TYPES:

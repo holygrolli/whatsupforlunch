@@ -21,6 +21,8 @@ import urllib.request
 from contextlib import redirect_stdout
 from html.parser import HTMLParser
 
+from ..solvegate import SolveGateError, solve_waf
+
 
 class ScrapeError(Exception):
     """Raised when discovery fails (a variant 'loses', plan section 3.5)."""
@@ -67,6 +69,8 @@ def _build_spider_class(spider_cfg: dict, start_url: str):
     clean_html = spider_cfg.get("clean_html", False)
     safe_attrs = spider_cfg.get("safe_attrs") or ["src", "alt", "href", "title"]
     minify = spider_cfg.get("minify", False)
+    challenge_cfg = spider_cfg.get("challenge") or {}
+    challenge_attempts = challenge_cfg.get("max_attempts", 1)
 
     class GeneratedSpider(scrapy.Spider):
         name = "pipeline_generated"
@@ -91,6 +95,35 @@ def _build_spider_class(spider_cfg: dict, start_url: str):
             self._diagnostics = diagnostics if diagnostics is not None else []
 
         def parse(self, response):
+            if self._is_waf_challenge(response):
+                attempt = response.meta.get("_solvegate_attempts", 0)
+                self._diagnostics.append({
+                    "url": response.url,
+                    "status": response.status,
+                    "body": response.text,
+                })
+                if not challenge_cfg:
+                    raise CloseSpider("cloudflare_challenge")
+                if attempt >= challenge_attempts:
+                    raise CloseSpider("cloudflare_challenge_after_retry")
+                try:
+                    clearance = solve_waf(
+                        response.url,
+                        api_key_env=challenge_cfg.get("api_key_env", "SOLVEGATE_API_KEY"),
+                        sitekey=challenge_cfg.get("sitekey", "waf"),
+                    )
+                except SolveGateError as exc:
+                    raise CloseSpider(f"solvegate_failed: {exc}") from exc
+                yield scrapy.Request(
+                    response.url,
+                    callback=self.parse,
+                    cookies=clearance.cookies,
+                    headers=clearance.headers,
+                    dont_filter=True,
+                    meta={"_solvegate_attempts": attempt + 1},
+                )
+                return
+
             selections = response.xpath(link_xpath)
             if expected_count is not None and len(selections) != expected_count:
                 raise CloseSpider(
@@ -136,7 +169,28 @@ def _build_spider_class(spider_cfg: dict, start_url: str):
             yield item
 
         @staticmethod
-        def _clean(html: str) -> str:
+        def _is_waf_challenge(response) -> bool:
+            mitigated = response.headers.get(b"cf-mitigated")
+            if mitigated is None:
+                mitigated = response.headers.get("cf-mitigated")
+            if isinstance(mitigated, bytes):
+                mitigated = mitigated.decode("ascii", errors="ignore")
+            if str(mitigated).lower() == "challenge":
+                return True
+            # Some Cloudflare responses omit cf-mitigated; only use the
+            # status fallback when the body has recognizable challenge-page
+            # markers, rather than spending a solve on an ordinary 403.
+            if response.status not in (403, 503):
+                return False
+            body = response.text.lower()
+            return (
+                "just a moment" in body
+                or "/cdn-cgi/challenge-platform" in body
+                or "cf-chl-" in body
+            )
+
+        @staticmethod
+        def _clean(html: str):
             from lxml_html_clean import Cleaner
 
             cleaner = Cleaner(
@@ -206,8 +260,11 @@ def scrape(variant: dict, website_url: str, state=None) -> dict:
     stype = scrape_cfg.get("type")
 
     if stype == "scrapy":
-        items = run_scrapy_spider(scrape_cfg["spider"], website_url)
-        item_key = scrape_cfg["spider"].get("item_key", "link")
+        spider_cfg = dict(scrape_cfg["spider"])
+        if scrape_cfg.get("challenge") is not None:
+            spider_cfg["challenge"] = scrape_cfg["challenge"]
+        items = run_scrapy_spider(spider_cfg, website_url)
+        item_key = spider_cfg.get("item_key", "link")
         # Scrapy can yield the same href more than once.  Keep first-seen
         # records so one source is downloaded and extracted exactly once.
         unique_items = []

@@ -77,10 +77,13 @@ aws_secret_access_key =
 region = eu-central-1
 ```
 
-`OPENAI_COMPATIBLE_API_KEY` is the secret for the OpenAI-compatible model endpoint:
+`OPENAI_COMPATIBLE_API_KEY` is the secret for the OpenAI-compatible model endpoint.
+For the optional Augustiner Cloudflare WAF retry, provide `SOLVEGATE_API_KEY`
+(the SolveGate key must be stored as a GitHub secret or supplied in the process environment; never commit it):
 
 ```bash
 export OPENAI_COMPATIBLE_API_KEY=...
+export SOLVEGATE_API_KEY=...  # optional; used only if the configured page is challenged
 # or put OPENAI_COMPATIBLE_API_KEY=... in an ignored .openai file and use --env-file .openai
 ```
 

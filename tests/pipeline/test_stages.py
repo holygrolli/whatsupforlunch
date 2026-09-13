@@ -22,6 +22,66 @@ from pipeline.stages.publish import (
 from pipeline.stages.scrape import ScrapeError, _build_spider_class, scrape
 from pipeline.stages.download import download_items, filename_for_link
 from pipeline.stages.prepare import prepare_one, PrepareError
+from pipeline.solvegate import SolveGateError, solve_waf
+
+
+class _FakeHttpResponse:
+    def __init__(self, payload, status=200):
+        self.body = json.dumps(payload).encode("utf-8")
+        self.status = status
+
+    def __enter__(self):
+        return self
+
+    def __exit__(self, *args):
+        return False
+
+    def read(self):
+        return self.body
+
+
+class TestSolveGateClient(unittest.TestCase):
+    def test_waf_payload_is_decoded_without_network(self):
+        token = json.dumps({
+            "cookies": {"cf_clearance": "clear", "__cf_bm": "bot"},
+            "set_cookies": ["session=abc; Path=/; Secure"],
+            "headers": {"User-Agent": "solver-agent", "Set-Cookie": "ignored"},
+        })
+        captured = {}
+
+        def opener(request, timeout):
+            captured["request"] = request
+            captured["timeout"] = timeout
+            return _FakeHttpResponse({
+                "status": "solved", "mode": "live", "meter": "credits",
+                "token": token,
+            })
+
+        with mock.patch.dict(os.environ, {"SOLVEGATE_API_KEY": "test-key"}):
+            clearance = solve_waf("https://example.com/", opener=opener)
+        self.assertEqual(clearance.cookies["cf_clearance"], "clear")
+        self.assertEqual(clearance.cookies["session"], "abc")
+        self.assertEqual(clearance.headers, {"User-Agent": "solver-agent"})
+        self.assertEqual(captured["timeout"], 90)
+        self.assertEqual(captured["request"].get_header("Authorization"), "Bearer test-key")
+        self.assertIn("\"gate\": \"waf\"", captured["request"].data.decode())
+        self.assertTrue(captured["request"].get_header("Idempotency-key"))
+
+    def test_sandbox_result_is_not_used_as_clearance(self):
+        def opener(request, timeout):
+            return _FakeHttpResponse({
+                "status": "solved", "mode": "sandbox", "meter": "sandbox",
+                "token": "SANDBOX.test",
+            })
+
+        with mock.patch.dict(os.environ, {"SOLVEGATE_API_KEY": "test-key"}):
+            with self.assertRaisesRegex(SolveGateError, "sandbox"):
+                solve_waf("https://example.com/", opener=opener)
+
+    def test_missing_key_is_actionable(self):
+        with mock.patch.dict(os.environ, {}, clear=True):
+            with self.assertRaisesRegex(SolveGateError, "SOLVEGATE_API_KEY"):
+                solve_waf("https://example.com/")
 
 
 class TestEnvironmentFlags(unittest.TestCase):
@@ -345,6 +405,49 @@ class TestScrapeStage(unittest.TestCase):
         self.assertEqual(len(yielded), 1)
         self.assertEqual(yielded[0]["div"], "https://example.com/")
         self.assertIn("Soup", yielded[0]["html"])
+
+    def test_generated_spider_retries_one_waf_challenge(self):
+        try:
+            from scrapy.http import HtmlResponse
+        except ModuleNotFoundError:
+            self.skipTest("Scrapy is provided by the production image")
+
+        spider_class = _build_spider_class(
+            {
+                "link_xpath": "//a/@href",
+                "challenge": {"provider": "solvegate", "gate": "waf", "max_attempts": 1},
+            },
+            "https://example.com/",
+        )
+        clearance = mock.Mock(cookies={"cf_clearance": "clear"}, headers={"User-Agent": "ua"})
+        items = []
+        spider = spider_class(items=items)
+        challenge = HtmlResponse(
+            url="https://example.com/", status=403,
+            body=b"<html>Just a moment...</html>", encoding="utf-8",
+        )
+        with mock.patch("pipeline.stages.scrape.solve_waf", return_value=clearance) as solve:
+            retried = list(spider.parse(challenge))
+        self.assertEqual(len(retried), 1)
+        request = retried[0]
+        self.assertEqual(request.url, "https://example.com/")
+        self.assertEqual(request.cookies, {"cf_clearance": "clear"})
+        self.assertEqual(request.headers.get("User-Agent"), b"ua")
+        self.assertTrue(request.dont_filter)
+        self.assertEqual(request.meta["_solvegate_attempts"], 1)
+        solve.assert_called_once()
+
+    def test_plain_forbidden_response_is_not_mistaken_for_waf(self):
+        try:
+            from scrapy.http import HtmlResponse
+        except ModuleNotFoundError:
+            self.skipTest("Scrapy is provided by the production image")
+        response = HtmlResponse(
+            url="https://example.com/", status=403,
+            body=b"<html><body>Application forbidden</body></html>", encoding="utf-8",
+        )
+        spider_class = _build_spider_class({"link_xpath": "//a/@href"}, response.url)
+        self.assertFalse(spider_class._is_waf_challenge(response))
 
     def test_generated_spider_keeps_response_when_no_links_match(self):
         try:

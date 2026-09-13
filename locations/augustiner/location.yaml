@@ -6,6 +6,12 @@ website:
   details: []
 scrape:
   type: scrapy
+  challenge:
+    provider: solvegate
+    gate: waf
+    sitekey: waf
+    api_key_env: SOLVEGATE_API_KEY
+    max_attempts: 1
   spider:
     allowed_domains: [augustiner-leipzig.de, www.augustiner-leipzig.de]
     link_xpath: '//a[contains(@href,"pdf") and contains(@href,"Mittag")]/@href'

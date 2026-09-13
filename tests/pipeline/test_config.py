@@ -54,6 +54,12 @@ class TestSchemaValidation(unittest.TestCase):
         with self.assertRaisesRegex(ConfigError, "schema_version"):
             validate(minimal_raw(schema_version=99), "test")
 
+    def test_challenge_must_be_mapping(self):
+        raw = minimal_raw()
+        raw["scrape"]["challenge"] = "solvegate"
+        with self.assertRaisesRegex(ConfigError, "challenge.*mapping"):
+            validate(raw, "test")
+
     def test_bad_scrape_type(self):
         raw = minimal_raw()
         raw["scrape"]["type"] = "selenium"
@@ -147,6 +153,9 @@ class TestEffectiveConfigEquivalence(unittest.TestCase):
 
     def test_augustiner(self):
         cfg = load_location("augustiner").default_variant
+        self.assertEqual(cfg["scrape"]["challenge"]["provider"], "solvegate")
+        self.assertEqual(cfg["scrape"]["challenge"]["gate"], "waf")
+        self.assertEqual(cfg["scrape"]["challenge"]["api_key_env"], "SOLVEGATE_API_KEY")
         self.assertEqual(
             cfg["extract"]["prompt_prefix"],
             "The input only includes day offers and no week offers! The input is:\n",
