@@ -346,6 +346,30 @@ class TestScrapeStage(unittest.TestCase):
         self.assertEqual(yielded[0]["div"], "https://example.com/")
         self.assertIn("Soup", yielded[0]["html"])
 
+    def test_generated_spider_keeps_response_when_no_links_match(self):
+        try:
+            from scrapy.exceptions import CloseSpider
+            from scrapy.http import HtmlResponse
+        except ModuleNotFoundError:
+            self.skipTest("Scrapy is provided by the production image")
+
+        diagnostics = []
+        spider_class = _build_spider_class(
+            {"link_xpath": "//a[contains(@href, 'menu.pdf')]/@href"},
+            "https://example.com/",
+        )
+        spider = spider_class(diagnostics=diagnostics)
+        response = HtmlResponse(
+            url="https://example.com/",
+            status=403,
+            body=b"<html><body>Access denied</body></html>",
+            encoding="utf-8",
+        )
+        with self.assertRaises(CloseSpider):
+            list(spider.parse(response))
+        self.assertEqual(diagnostics[0]["status"], 403)
+        self.assertIn("Access denied", diagnostics[0]["body"])
+
 
 class TestVariantSelection(unittest.TestCase):
     """Plan section 3.5: win / loss / no-new-content / exhausted cases."""
