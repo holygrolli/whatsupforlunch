@@ -424,7 +424,7 @@ class TestScrapeStage(unittest.TestCase):
         spider = spider_class(items=items)
         challenge = HtmlResponse(
             url="https://example.com/", status=403,
-            body=b"<html>Just a moment...</html>", encoding="utf-8",
+            body=b"<html><title>Just a moment...</title></html>", encoding="utf-8",
         )
         with mock.patch("pipeline.stages.scrape.solve_waf", return_value=clearance) as solve:
             retried = list(spider.parse(challenge))
@@ -448,6 +448,21 @@ class TestScrapeStage(unittest.TestCase):
         )
         spider_class = _build_spider_class({"link_xpath": "//a/@href"}, response.url)
         self.assertFalse(spider_class._is_waf_challenge(response))
+
+    def test_success_status_with_cloudflare_challenge_markers_is_detected(self):
+        try:
+            from scrapy.http import HtmlResponse
+        except ModuleNotFoundError:
+            self.skipTest("Scrapy is provided by the production image")
+        response = HtmlResponse(
+            url="https://example.com/", status=200,
+            body=(
+                b"<html><title>Just a Moment...</title>"
+                b"<script>window._cf_chl_opt = {};</script>"
+            ), encoding="utf-8",
+        )
+        spider_class = _build_spider_class({"link_xpath": "//a/@href"}, response.url)
+        self.assertTrue(spider_class._is_waf_challenge(response))
 
     def test_generated_spider_keeps_response_when_no_links_match(self):
         try:

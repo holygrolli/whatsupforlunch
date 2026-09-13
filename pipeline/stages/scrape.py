@@ -95,16 +95,27 @@ def _build_spider_class(spider_cfg: dict, start_url: str):
             self._diagnostics = diagnostics if diagnostics is not None else []
 
         def parse(self, response):
-            if self._is_waf_challenge(response):
-                attempt = response.meta.get("_solvegate_attempts", 0)
-                self._diagnostics.append({
+            is_challenge, detection = self._waf_detection(response)
+            if is_challenge:
+                try:
+                    attempt = response.meta.get("_solvegate_attempts", 0)
+                except AttributeError:
+                    # Direct unit-test responses are not tied to a Request.
+                    attempt = 0
+                diagnostic = {
+                    "kind": "waf_challenge",
                     "url": response.url,
                     "status": response.status,
+                    "detection": detection,
+                    "attempt": attempt,
                     "body": response.text,
-                })
+                }
+                self._diagnostics.append(diagnostic)
                 if not challenge_cfg:
+                    diagnostic["outcome"] = "not configured"
                     raise CloseSpider("cloudflare_challenge")
                 if attempt >= challenge_attempts:
+                    diagnostic["outcome"] = "attempt limit reached"
                     raise CloseSpider("cloudflare_challenge_after_retry")
                 try:
                     clearance = solve_waf(
@@ -113,7 +124,13 @@ def _build_spider_class(spider_cfg: dict, start_url: str):
                         sitekey=challenge_cfg.get("sitekey", "waf"),
                     )
                 except SolveGateError as exc:
+                    # CloseSpider's reason is not consistently visible when
+                    # Scrapy is embedded in CrawlerProcess. Keep the safe
+                    # error in diagnostics so CI explains the failed solve.
+                    diagnostic["outcome"] = "solve failed"
+                    diagnostic["solvegate_error"] = str(exc)
                     raise CloseSpider(f"solvegate_failed: {exc}") from exc
+                diagnostic["outcome"] = "retry scheduled"
                 yield scrapy.Request(
                     response.url,
                     callback=self.parse,
@@ -123,7 +140,6 @@ def _build_spider_class(spider_cfg: dict, start_url: str):
                     meta={"_solvegate_attempts": attempt + 1},
                 )
                 return
-
             selections = response.xpath(link_xpath)
             if expected_count is not None and len(selections) != expected_count:
                 raise CloseSpider(
@@ -133,8 +149,11 @@ def _build_spider_class(spider_cfg: dict, start_url: str):
                 # Keep the response available to the caller. This makes bot
                 # checks, error pages, and changed markup visible in CI logs.
                 self._diagnostics.append({
+                    "kind": "no_links",
                     "url": response.url,
                     "status": response.status,
+                    "detection": self._waf_detection(response)[1],
+                    "challenge_configured": bool(challenge_cfg),
                     "body": response.text,
                 })
                 raise CloseSpider("no_links_found")
@@ -169,25 +188,44 @@ def _build_spider_class(spider_cfg: dict, start_url: str):
             yield item
 
         @staticmethod
-        def _is_waf_challenge(response) -> bool:
+        def _waf_detection(response) -> tuple[bool, str]:
             mitigated = response.headers.get(b"cf-mitigated")
             if mitigated is None:
                 mitigated = response.headers.get("cf-mitigated")
             if isinstance(mitigated, bytes):
                 mitigated = mitigated.decode("ascii", errors="ignore")
             if str(mitigated).lower() == "challenge":
-                return True
-            # Some Cloudflare responses omit cf-mitigated; only use the
-            # status fallback when the body has recognizable challenge-page
-            # markers, rather than spending a solve on an ordinary 403.
-            if response.status not in (403, 503):
-                return False
+                return True, "cf-mitigated: challenge"
+
+            # Some Cloudflare responses omit cf-mitigated and return a 200
+            # challenge page. Check strong challenge markers independently of
+            # status. The generic ``/cdn-cgi/challenge-platform`` path is not
+            # sufficient: ordinary pages can include Cloudflare's telemetry
+            # script at ``.../scripts/jsd/main.js``.
             body = response.text.lower()
-            return (
-                "just a moment" in body
-                or "/cdn-cgi/challenge-platform" in body
-                or "cf-chl-" in body
+            markers = (
+                "<title>just a moment",
+                "enable javascript and cookies to continue",
+                "window._cf_chl_opt",
+                "__cf_chl_tk",
+                "cf-chl-widget",
+                "/cdn-cgi/challenge-platform/h/g/orchestrate/chl_page",
             )
+            found = [marker for marker in markers if marker in body]
+            if found:
+                return True, "body markers: " + ", ".join(found)
+
+            header_value = str(mitigated) if mitigated is not None else "missing"
+            return (
+                False,
+                f"status={response.status}, cf-mitigated={header_value}, "
+                "recognized body markers=none",
+            )
+
+        @staticmethod
+        def _is_waf_challenge(response) -> bool:
+            """Return whether a response looks like a Cloudflare challenge."""
+            return GeneratedSpider._waf_detection(response)[0]
 
         @staticmethod
         def _clean(html: str):
@@ -230,12 +268,44 @@ def run_scrapy_spider(spider_cfg: dict, start_url: str) -> list[dict]:
     except Exception as exc:
         raise ScrapeError(f"scrapy crawl failed: {exc}") from exc
     if not items:
-        for response in diagnostics:
+        if not diagnostics:
             print(
-                "scrapy response when no links were found "
-                f"(status={response['status']}, url={response['url']})",
+                "scrapy produced no items and no response diagnostics; "
+                "the callback may not have run",
                 file=sys.stderr,
             )
+        for response in diagnostics:
+            kind = response.get("kind", "no_links")
+            print(
+                "scrapy response produced no links "
+                f"(kind={kind}, status={response['status']}, url={response['url']})",
+                file=sys.stderr,
+            )
+            if response.get("detection"):
+                print(
+                    f"cloudflare detection: {response['detection']}",
+                    file=sys.stderr,
+                )
+            if "challenge_configured" in response:
+                print(
+                    f"solvegate configured: {response['challenge_configured']}",
+                    file=sys.stderr,
+                )
+            if "attempt" in response:
+                print(
+                    f"solvegate attempt: {response['attempt']}",
+                    file=sys.stderr,
+                )
+            if response.get("outcome"):
+                print(
+                    f"solvegate outcome: {response['outcome']}",
+                    file=sys.stderr,
+                )
+            if response.get("solvegate_error"):
+                print(
+                    f"solvegate error: {response['solvegate_error']}",
+                    file=sys.stderr,
+                )
             print(
                 f"scrapy selector: {spider_cfg['link_xpath']}",
                 file=sys.stderr,
