@@ -30,7 +30,7 @@ SUPPORTED_LOCATIONS = (
     "ratskeller",
 )
 
-SCRAPE_TYPES = ("scrapy", "static", "meta_refresh")
+SCRAPE_TYPES = ("scrapy", "scrapy-patchright", "static", "meta_refresh")
 EXTRACT_TYPES = ("vision", "text")
 MODEL_PROVIDERS = ("openai", "google")
 PREPARER_TYPES = ("pdfseparate", "pdftoppm", "pdftotext", "html_to_text", "reduce_to_text")
@@ -44,7 +44,12 @@ _SCHEMA = {
         "prepare", "extract", "publish", "schedule", "formats",
     },
     "website": {"url", "details"},
-    "scrape": {"type", "spider", "url", "middleware"},
+    "scrape": {"type", "spider", "url", "middleware", "patchright"},
+    "scrape.patchright": {
+        "enabled", "wait_until", "wait_for_selector", "navigation_timeout_ms",
+        "wait_for_timeout_ms", "launch_options",
+    },
+    "scrape.patchright.launch_options": {"headless"},
     "scrape.middleware": {"cloudflare"},
     "scrape.middleware.cloudflare": {
         "enabled", "wait_until", "wait_for_timeout", "action_timeout",
@@ -160,7 +165,66 @@ def _validate_variant(variant: dict, context: str, full: bool) -> None:
                     cloudflare, "action_timeout", int,
                     f"{context}.scrape.middleware.cloudflare",
                 )
-        if stype == "scrapy":
+        patchright = scrape.get("patchright")
+        if patchright is not None:
+            _check_keys(
+                patchright, _SCHEMA["scrape.patchright"],
+                f"{context}.scrape.patchright",
+            )
+            _check_type(patchright, "enabled", bool, f"{context}.scrape.patchright")
+            _check_type(patchright, "wait_until", str, f"{context}.scrape.patchright")
+            if patchright.get("wait_until", "domcontentloaded") not in {
+                "commit", "domcontentloaded", "load", "networkidle"
+            }:
+                raise ConfigError(
+                    f"scrape.patchright.wait_until in '{context}' has an unsupported value"
+                )
+            _check_type(
+                patchright, "wait_for_selector", str,
+                f"{context}.scrape.patchright",
+            )
+            _check_type(
+                patchright, "navigation_timeout_ms", int,
+                f"{context}.scrape.patchright",
+            )
+            if patchright.get("navigation_timeout_ms", 60000) <= 0:
+                raise ConfigError(
+                    f"scrape.patchright.navigation_timeout_ms in '{context}' must be positive"
+                )
+            _check_type(
+                patchright, "wait_for_timeout_ms", int,
+                f"{context}.scrape.patchright",
+            )
+            if patchright.get("wait_for_timeout_ms", 0) < 0:
+                raise ConfigError(
+                    f"scrape.patchright.wait_for_timeout_ms in '{context}' must not be negative"
+                )
+            launch_options = patchright.get("launch_options")
+            if launch_options is not None:
+                if not isinstance(launch_options, dict):
+                    raise ConfigError(
+                        f"scrape.patchright.launch_options in '{context}' must be a mapping"
+                    )
+                _check_keys(
+                    launch_options, _SCHEMA["scrape.patchright.launch_options"],
+                    f"{context}.scrape.patchright.launch_options",
+                )
+                _check_type(
+                    launch_options, "headless", bool,
+                    f"{context}.scrape.patchright.launch_options",
+                )
+
+        browser_scrape = stype in ("scrapy", "scrapy-patchright")
+        if stype == "scrapy-patchright":
+            if patchright is None:
+                raise ConfigError(
+                    f"scrape.patchright is required for scrapy-patchright in '{context}'"
+                )
+            if patchright.get("enabled", True) is False:
+                raise ConfigError(
+                    f"scrape.patchright.enabled in '{context}' cannot be false for scrapy-patchright"
+                )
+        if browser_scrape:
             spider = scrape.get("spider")
             if not isinstance(spider, dict) or not spider.get("link_xpath"):
                 raise ConfigError(

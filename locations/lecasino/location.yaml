@@ -9,7 +9,17 @@ website:
 # Default variant = the currently active format (HTML Speiseplan pages, followed
 # and reduced to text) matching today's scra.py behavior.
 scrape:
-  type: scrapy
+  # Le Casino is protected by browser fingerprint checks; use Patchright for
+  # the initial page and the linked HTML menu pages.
+  type: scrapy-patchright
+  patchright:
+    enabled: true
+    wait_until: networkidle
+    wait_for_selector: 'a:has-text("Speiseplan")'
+    navigation_timeout_ms: 60000
+    wait_for_timeout_ms: 1000
+    launch_options:
+      headless: true
   spider:
     allowed_domains: [www.l.de]
     link_xpath: '//a[contains(text(),"Speiseplan")]/@href'

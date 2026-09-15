@@ -60,13 +60,16 @@ docker run --rm -it \
   -v "$PWD:/data" -w /data \
   -v "$PWD/.aws.config:/root/.aws/config" \
   -e OPENAI_COMPATIBLE_API_KEY="$OPENAI_COMPATIBLE_API_KEY" \
-  ghcr.io/holygrolli/whatsupforlunch:sha-9acaed8-2026-08-30 bash
+  ghcr.io/holygrolli/whatsupforlunch:main bash
 ```
 
 The runner needs PyYAML to load `location.yaml`; it is declared in
-`docker/Dockerfile`. If your local copy of the pinned image predates this
-dependency, rebuild/publish the image with the Docker workflow before enabling a
-scheduled run.
+`docker/Dockerfile`. The image also installs Patchright, Chromium, and the
+Debian runtime dependencies required for headless browser scraping. Le Casino
+uses the `scrapy-patchright` mode because its page is protected by Cloudflare;
+the browser-rendered HTML is converted to the existing Scrapy item contract.
+Rebuild/publish the image with the Docker workflow before enabling the scheduled
+run.
 
 ### Cloudflare Browser Run scraping
 

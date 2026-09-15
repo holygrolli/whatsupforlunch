@@ -22,6 +22,7 @@ import sys
 import urllib.request
 from contextlib import redirect_stdout
 from html.parser import HTMLParser
+from urllib.parse import urlparse
 
 
 class ScrapeError(Exception):
@@ -256,6 +257,145 @@ def _build_spider_class(spider_cfg: dict, start_url: str):
     return GeneratedSpider
 
 
+def _patchright_response(page, url: str, status: int | None):
+    """Convert the rendered Patchright page to the existing Scrapy response."""
+    from scrapy.http import HtmlResponse
+
+    return HtmlResponse(
+        url=url,
+        status=status or 200,
+        body=page.content().encode("utf-8"),
+        encoding="utf-8",
+    )
+
+
+def run_patchright_spider(
+    spider_cfg: dict, start_url: str, patchright_cfg: dict
+) -> list[dict]:
+    """Discover links with Patchright while preserving the Scrapy item shape.
+
+    Patchright has no Scrapy download handler. Driving a browser page directly
+    avoids coupling this mode to Twisted's reactor; rendered HTML is converted
+    to ``HtmlResponse`` so the configured XPath and downstream stages remain
+    unchanged.
+    """
+    try:
+        from patchright.sync_api import sync_playwright
+    except ImportError as exc:
+        raise ScrapeError(
+            "Patchright scraping requires the 'patchright' package in the image"
+        ) from exc
+
+    link_xpath = spider_cfg["link_xpath"]
+    allowed_domains = spider_cfg.get("allowed_domains") or []
+    item_key = spider_cfg.get("item_key", "link")
+    follow = spider_cfg.get("follow", False)
+    expected_count = spider_cfg.get("count")
+    select_index = spider_cfg.get("select_index")
+    navigation_timeout = patchright_cfg.get("navigation_timeout_ms", 60000)
+    wait_until = patchright_cfg.get("wait_until", "domcontentloaded")
+    wait_for_selector = patchright_cfg.get("wait_for_selector")
+    wait_for_timeout = patchright_cfg.get("wait_for_timeout_ms", 0)
+    launch_options = {
+        "headless": True,
+        **(patchright_cfg.get("launch_options") or {}),
+    }
+    browser = None
+    context = None
+    page = None
+    items: list[dict] = []
+    diagnostics: list[dict] = []
+
+    def is_allowed(url: str) -> bool:
+        hostname = (urlparse(url).hostname or "").lower()
+        return not allowed_domains or any(
+            hostname == domain or hostname.endswith("." + domain)
+            for domain in allowed_domains
+        )
+
+    def load(page, url: str):
+        try:
+            result = page.goto(
+                url, wait_until=wait_until, timeout=navigation_timeout
+            )
+            if wait_for_selector:
+                page.wait_for_selector(wait_for_selector, timeout=navigation_timeout)
+            if wait_for_timeout:
+                page.wait_for_timeout(wait_for_timeout)
+            return _patchright_response(
+                page, page.url or url, result.status if result else None
+            )
+        except Exception as exc:
+            raise ScrapeError(
+                f"Patchright navigation failed for {url}: {exc}"
+            ) from exc
+
+    try:
+        with sync_playwright() as playwright:
+            browser = playwright.chromium.launch(**launch_options)
+            context = browser.new_context()
+            page = context.new_page()
+            response = load(page, start_url)
+            selections = response.xpath(link_xpath)
+            if expected_count is not None and len(selections) != expected_count:
+                raise ScrapeError(
+                    "Patchright selector expected "
+                    f"{expected_count} selections, got {len(selections)}"
+                )
+            if len(selections) == 0:
+                diagnostics.append({
+                    "url": response.url,
+                    "status": response.status,
+                    "body": response.text,
+                })
+            else:
+                if select_index is not None:
+                    selections = [selections[select_index]]
+                for selection in selections:
+                    resolved = response.urljoin(selection.get())
+                    if not is_allowed(resolved):
+                        continue
+                    if follow:
+                        followed = load(page, resolved)
+                        items.append({item_key: resolved, "html": followed.text})
+                    else:
+                        items.append({item_key: resolved})
+    except ScrapeError:
+        raise
+    except Exception as exc:
+        raise ScrapeError(f"Patchright crawl failed: {exc}") from exc
+    finally:
+        # Close browser resources even when selector navigation fails; this is
+        # important for a long-running pipeline process and for clear CI logs.
+        if context is not None:
+            try:
+                context.close()
+            except Exception:
+                pass
+        if browser is not None:
+            try:
+                browser.close()
+            except Exception:
+                pass
+
+    if not items:
+        for diagnostic in diagnostics:
+            print(
+                "Patchright response when no links were found "
+                f"(status={diagnostic['status']}, url={diagnostic['url']})",
+                file=sys.stderr,
+            )
+            print(f"scrapy selector: {link_xpath}", file=sys.stderr)
+            print("----- BEGIN PATCHRIGHT RESPONSE BODY -----", file=sys.stderr)
+            print(
+                "\n".join(f"| {line}" for line in diagnostic["body"].splitlines()),
+                file=sys.stderr,
+            )
+            print("----- END PATCHRIGHT RESPONSE BODY -----", file=sys.stderr)
+        raise ScrapeError("Patchright spider discovered no links")
+    return items
+
+
 def run_scrapy_spider(
     spider_cfg: dict, start_url: str, middleware_cfg: dict | None = None
 ) -> list[dict]:
@@ -312,7 +452,21 @@ def scrape(variant: dict, website_url: str, state=None) -> dict:
     scrape_cfg = variant.get("scrape") or {}
     stype = scrape_cfg.get("type")
 
-    if stype == "scrapy":
+    if stype == "scrapy-patchright":
+        items = run_patchright_spider(
+            scrape_cfg["spider"], website_url, scrape_cfg.get("patchright") or {}
+        )
+        item_key = scrape_cfg["spider"].get("item_key", "link")
+        unique_items = []
+        seen = set()
+        for item in items:
+            link = item.get(item_key)
+            if link and link not in seen:
+                seen.add(link)
+                unique_items.append(item)
+        items = unique_items
+        links = [item[item_key] for item in items]
+    elif stype == "scrapy":
         items = run_scrapy_spider(
             scrape_cfg["spider"], website_url, scrape_cfg.get("middleware")
         )

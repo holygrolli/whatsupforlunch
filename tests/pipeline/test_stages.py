@@ -289,6 +289,16 @@ class TestPublish(unittest.TestCase):
 
 
 class TestScrapeStage(unittest.TestCase):
+    def test_patchright_import_error_is_actionable(self):
+        with mock.patch.dict("sys.modules", {"patchright": None}):
+            with self.assertRaisesRegex(ScrapeError, "patchright.*package"):
+                from pipeline.stages.scrape import run_patchright_spider
+                run_patchright_spider(
+                    {"link_xpath": "//a/@href"},
+                    "https://example.com/",
+                    {},
+                )
+
     def test_static(self):
         variant = {"scrape": {"type": "static", "url": "https://x/menu.pdf"}}
         result = scrape(variant, "https://x/", state=FakeState())

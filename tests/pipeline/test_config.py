@@ -60,6 +60,29 @@ class TestSchemaValidation(unittest.TestCase):
         with self.assertRaisesRegex(ConfigError, "scrape.type"):
             validate(raw, "test")
 
+    def test_valid_patchright_scrape_feature(self):
+        raw = minimal_raw(
+            scrape={
+                "type": "scrapy-patchright",
+                "patchright": {
+                    "enabled": True,
+                    "wait_until": "networkidle",
+                    "wait_for_selector": "a.menu",
+                    "navigation_timeout_ms": 45000,
+                    "wait_for_timeout_ms": 1000,
+                    "launch_options": {"headless": True},
+                },
+                "spider": {"link_xpath": "//a/@href"},
+            }
+        )
+        validate(raw, "test")
+
+    def test_patchright_requires_configuration(self):
+        raw = minimal_raw()
+        raw["scrape"]["type"] = "scrapy-patchright"
+        with self.assertRaisesRegex(ConfigError, "patchright is required"):
+            validate(raw, "test")
+
     def test_cloudflare_middleware_configuration(self):
         raw = minimal_raw(
             scrape={
@@ -239,8 +262,10 @@ class TestEffectiveConfigEquivalence(unittest.TestCase):
         self.assertEqual(spider["select_index"], 1)
         self.assertTrue(spider["minify"])
 
-    def test_lecasino_default_is_html_follow(self):
+    def test_lecasino_default_is_patchright_html_follow(self):
         cfg = load_location("lecasino").default_variant
+        self.assertEqual(cfg["scrape"]["type"], "scrapy-patchright")
+        self.assertTrue(cfg["scrape"]["patchright"]["enabled"])
         self.assertTrue(cfg["scrape"]["spider"]["follow"])
         self.assertEqual(cfg["extract"]["input_file"], "chatgpt_user.txt")
         # This is a text variant: the prepared menu must be read as the model
