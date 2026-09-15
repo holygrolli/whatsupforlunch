@@ -45,6 +45,13 @@ class CloudflareContentMiddleware:
                 "Cloudflare middleware requires CLOUDFLARE_ACCOUNT_ID and "
                 "CLOUDFLARE_API_TOKEN"
             )
+        # Keep this diagnostic secret-free so a production run proves that
+        # Scrapy instantiated the middleware before any page is fetched.
+        print(
+            "Cloudflare Browser Run middleware initialized "
+            "(credentials present)",
+            file=sys.stderr,
+        )
 
     @classmethod
     def from_crawler(cls, crawler):
@@ -112,6 +119,12 @@ class CloudflareContentMiddleware:
     def process_request(self, request, spider):
         # Keep the reactor responsive while waiting on Cloudflare's remote
         # browser. Scrapy waits for this Deferred before downloading normally.
+        # This marker is intentionally secret-free and makes middleware usage
+        # independently verifiable in the Actions log.
+        print(
+            f"Cloudflare Browser Run middleware active for {request.url}",
+            file=sys.stderr,
+        )
         from twisted.internet.threads import deferToThread
 
         return deferToThread(self._render, request)
@@ -269,7 +282,14 @@ def run_scrapy_spider(
 
     spider_cfg = dict(spider_cfg)
     if middleware_cfg is not None:
-        spider_cfg["_cloudflare"] = middleware_cfg.get("cloudflare")
+        cloudflare_cfg = middleware_cfg.get("cloudflare")
+        spider_cfg["_cloudflare"] = cloudflare_cfg
+        if cloudflare_cfg and cloudflare_cfg.get("enabled", True):
+            print(
+                "Cloudflare Browser Run middleware configured for "
+                f"{start_url}",
+                file=sys.stderr,
+            )
     spider_cls = _build_spider_class(spider_cfg, start_url)
     items: list[dict] = []
     diagnostics: list[dict] = []

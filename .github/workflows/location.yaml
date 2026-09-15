@@ -91,11 +91,25 @@ jobs:
           ACT_RUN: ${{ github.event.act == true }}
           AWS_ACCESS_KEY_ID: ${{ secrets.AWS_ACCESS_KEY_ID }}
           AWS_SECRET_ACCESS_KEY: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
+          # Keep these explicit on the stage that constructs the Scrapy
+          # middleware.  This avoids relying on workflow-level secret env
+          # propagation in reusable workflows.
+          CLOUDFLARE_ACCOUNT_ID: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
+          CLOUDFLARE_API_TOKEN: ${{ secrets.CLOUDFLARE_API_TOKEN }}
         shell: bash
         run: |
           set -Eeuo pipefail
           mkdir -p tmp
           touch tmp/.pipeline-artifact-placeholder
+          if [[ "$LOCATION" == "lecasino" || "$LOCATION" == "augustiner" || "$LOCATION" == "all" ]]; then
+            if [[ -n "$CLOUDFLARE_ACCOUNT_ID" && -n "$CLOUDFLARE_API_TOKEN" ]]; then
+              echo "Cloudflare Browser Run credentials available to scrape stage"
+            else
+              echo "Cloudflare Browser Run credentials missing in scrape stage" >&2
+              echo "Configure CLOUDFLARE_ACCOUNT_ID and CLOUDFLARE_API_TOKEN repository secrets." >&2
+              exit 1
+            fi
+          fi
           if [[ "$LOCATION" == "all" ]]; then
             locations=(augustiner emilundmoritz galeria lecasino leos moritzbastei ratskeller)
           else
