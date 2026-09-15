@@ -1,0 +1,52 @@
+{
+  "2026-09-14": [
+    {
+      "desc": "Schweineschnitzel (Wiener Art) mit Kartoffel-Gurken-Salat",
+      "price": 8.5
+    },
+    {
+      "desc": "Allgäuer Käsespätzle mit Röstzwiebeln",
+      "price": 8.5
+    }
+  ],
+  "2026-09-15": [
+    {
+      "desc": "Kohlroulade in Specksauce mit Salzkartoffeln",
+      "price": 8.5
+    },
+    {
+      "desc": "Krautschupfnudeln mit Röstzwiebeln",
+      "price": 8.5
+    }
+  ],
+  "2026-09-16": [
+    {
+      "desc": "Hühnerfrikassee mit Reis",
+      "price": 8.5
+    },
+    {
+      "desc": "Spätzle-Gemüsepfanne mit Pilzen",
+      "price": 8.5
+    }
+  ],
+  "2026-09-17": [
+    {
+      "desc": "Jägerschnitzel - panierte Jagdwurst mit Spirelli in Tomatensauce",
+      "price": 8.5
+    },
+    {
+      "desc": "Penne Rigate mit Blattspinat in Käsesauce",
+      "price": 8.5
+    }
+  ],
+  "2026-09-18": [
+    {
+      "desc": "Backfisch mit Kartoffel-Gurken-Salat und Remoulade",
+      "price": 8.5
+    },
+    {
+      "desc": "Ofenkartoffel mit Kräuterquark an Blattsalaten",
+      "price": 8.5
+    }
+  ]
+}

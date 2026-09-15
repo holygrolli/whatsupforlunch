@@ -1,0 +1,52 @@
+{
+  "2026-09-21": [
+    {
+      "desc": "Schweineschnitzel „Wiener Art“ mit Kartoffel-Gurken-Salat",
+      "price": 8.5
+    },
+    {
+      "desc": "Allgäuer Käsespätzle mit Röstzwiebeln",
+      "price": 8.5
+    }
+  ],
+  "2026-09-22": [
+    {
+      "desc": "Fleischpflanzerl mit Letscho und Kartoffelpüree",
+      "price": 8.5
+    },
+    {
+      "desc": "Eier in Senfsauce mit Kartoffelpüree",
+      "price": 8.5
+    }
+  ],
+  "2026-09-23": [
+    {
+      "desc": "Pulled Pork in BBQ-Sauce mit Kartoffel-Ecken und Krautsalat",
+      "price": 8.5
+    },
+    {
+      "desc": "Asia-Gemüsepfanne mit Reis",
+      "price": 8.5
+    }
+  ],
+  "2026-09-24": [
+    {
+      "desc": "Hähnchen-Geschnetzeltes „Zürcher Art“ mit Butterspätzle",
+      "price": 8.5
+    },
+    {
+      "desc": "Mediterrane Gemüse-Lasagne",
+      "price": 8.5
+    }
+  ],
+  "2026-09-25": [
+    {
+      "desc": "Backfisch mit Kartoffel-Gurken-Salat und Remoulade",
+      "price": 8.5
+    },
+    {
+      "desc": "Kartoffelpuffer mit Apfelmus",
+      "price": 8.5
+    }
+  ]
+}
