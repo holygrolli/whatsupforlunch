@@ -60,6 +60,32 @@ class TestSchemaValidation(unittest.TestCase):
         with self.assertRaisesRegex(ConfigError, "scrape.type"):
             validate(raw, "test")
 
+    def test_cloudflare_middleware_configuration(self):
+        raw = minimal_raw(
+            scrape={
+                "type": "scrapy",
+                "middleware": {
+                    "cloudflare": {
+                        "enabled": True,
+                        "wait_until": "networkidle2",
+                    }
+                },
+                "spider": {"link_xpath": "//a/@href"},
+            }
+        )
+        validate(raw, "test")
+
+    def test_cloudflare_middleware_rejects_unknown_wait_condition(self):
+        raw = minimal_raw(
+            scrape={
+                "type": "scrapy",
+                "middleware": {"cloudflare": {"wait_until": "never"}},
+                "spider": {"link_xpath": "//a/@href"},
+            }
+        )
+        with self.assertRaisesRegex(ConfigError, "wait_until"):
+            validate(raw, "test")
+
     def test_scrapy_requires_link_xpath(self):
         raw = minimal_raw()
         raw["scrape"]["spider"] = {}
@@ -155,6 +181,11 @@ class TestEffectiveConfigEquivalence(unittest.TestCase):
         self.assertEqual(
             cfg["scrape"]["spider"]["link_xpath"],
             '//a[contains(@href,"pdf") and contains(@href,"Mittag")]/@href',
+        )
+        self.assertTrue(cfg["scrape"]["middleware"]["cloudflare"]["enabled"])
+        self.assertEqual(
+            cfg["scrape"]["middleware"]["cloudflare"]["wait_until"],
+            "networkidle2",
         )
         self.assertEqual([next(iter(s)) for s in cfg["prepare"]], ["pdftotext"])
 

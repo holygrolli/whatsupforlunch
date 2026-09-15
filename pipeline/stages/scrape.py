@@ -15,6 +15,8 @@ links are emitted as "new".
 from __future__ import annotations
 
 import io
+import json
+import os
 import re
 import sys
 import urllib.request
@@ -24,6 +26,95 @@ from html.parser import HTMLParser
 
 class ScrapeError(Exception):
     """Raised when discovery fails (a variant 'loses', plan section 3.5)."""
+
+
+class CloudflareContentMiddleware:
+    """Render Scrapy requests through Cloudflare Browser Run's content API.
+
+    The middleware is installed only when a location explicitly enables it in
+    its scrape configuration. Credentials are read from the environment so
+    they never need to be stored in a location YAML file.
+    """
+
+    def __init__(self, config: dict):
+        self.config = config
+        self.account_id = os.environ.get("CLOUDFLARE_ACCOUNT_ID")
+        self.api_token = os.environ.get("CLOUDFLARE_API_TOKEN")
+        if not self.account_id or not self.api_token:
+            raise ScrapeError(
+                "Cloudflare middleware requires CLOUDFLARE_ACCOUNT_ID and "
+                "CLOUDFLARE_API_TOKEN"
+            )
+
+    @classmethod
+    def from_crawler(cls, crawler):
+        config = crawler.settings.getdict("PIPELINE_CLOUDFLARE_CONFIG")
+        return cls(config)
+
+    def _render(self, request):
+        payload = {"url": request.url}
+        wait_until = self.config.get("wait_until")
+        if wait_until:
+            payload["gotoOptions"] = {"waitUntil": wait_until}
+        for key, api_key in (
+            ("wait_for_timeout", "waitForTimeout"),
+            ("action_timeout", "actionTimeout"),
+        ):
+            if self.config.get(key) is not None:
+                payload[api_key] = self.config[key]
+
+        endpoint = (
+            "https://api.cloudflare.com/client/v4/accounts/"
+            f"{self.account_id}/browser-rendering/content"
+        )
+        api_request = urllib.request.Request(
+            endpoint,
+            data=json.dumps(payload).encode("utf-8"),
+            headers={
+                "Authorization": f"Bearer {self.api_token}",
+                "Content-Type": "application/json",
+            },
+            method="POST",
+        )
+        try:
+            with urllib.request.urlopen(api_request, timeout=180) as response:
+                raw = response.read()
+                status = response.status
+        except Exception as exc:
+            raise ScrapeError(
+                f"Cloudflare Browser Run request failed for {request.url}: {exc}"
+            ) from exc
+        try:
+            result = json.loads(raw.decode("utf-8"))
+        except (UnicodeDecodeError, json.JSONDecodeError) as exc:
+            raise ScrapeError("Cloudflare Browser Run returned invalid JSON") from exc
+        if not result.get("success") or not isinstance(result.get("result"), str):
+            errors = result.get("errors") or result.get("messages") or result
+            raise ScrapeError(f"Cloudflare Browser Run returned an error: {errors}")
+        # The content endpoint returns HTML in result. The final URL is in meta
+        # on current API responses, but request.url remains the safe fallback.
+        html = result["result"]
+        final_url = (result.get("meta") or {}).get("finalUrl", request.url)
+        from scrapy.http import HtmlResponse
+
+        return HtmlResponse(
+            url=final_url,
+            status=(result.get("meta") or {}).get("status", status),
+            headers={
+                k.encode(): str(v).encode()
+                for k, v in ((result.get("meta") or {}).get("headers") or {}).items()
+            },
+            body=html.encode("utf-8"),
+            encoding="utf-8",
+            request=request,
+        )
+
+    def process_request(self, request, spider):
+        # Keep the reactor responsive while waiting on Cloudflare's remote
+        # browser. Scrapy waits for this Deferred before downloading normally.
+        from twisted.internet.threads import deferToThread
+
+        return deferToThread(self._render, request)
 
 
 class _ModifiedTimeParser(HTMLParser):
@@ -67,6 +158,7 @@ def _build_spider_class(spider_cfg: dict, start_url: str):
     clean_html = spider_cfg.get("clean_html", False)
     safe_attrs = spider_cfg.get("safe_attrs") or ["src", "alt", "href", "title"]
     minify = spider_cfg.get("minify", False)
+    cloudflare_cfg = spider_cfg.get("_cloudflare")
 
     class GeneratedSpider(scrapy.Spider):
         name = "pipeline_generated"
@@ -80,6 +172,16 @@ def _build_spider_class(spider_cfg: dict, start_url: str):
             "USER_AGENT": (
                 "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 "
                 "(KHTML, like Gecko) Chrome/120.0 Safari/537.36"
+            ),
+            **(
+                {
+                    "DOWNLOADER_MIDDLEWARES": {
+                        "pipeline.stages.scrape.CloudflareContentMiddleware": 543,
+                    },
+                    "PIPELINE_CLOUDFLARE_CONFIG": cloudflare_cfg,
+                }
+                if cloudflare_cfg and cloudflare_cfg.get("enabled", True)
+                else {}
             ),
         }
 
@@ -154,7 +256,9 @@ def _build_spider_class(spider_cfg: dict, start_url: str):
     return GeneratedSpider
 
 
-def run_scrapy_spider(spider_cfg: dict, start_url: str) -> list[dict]:
+def run_scrapy_spider(
+    spider_cfg: dict, start_url: str, middleware_cfg: dict | None = None
+) -> list[dict]:
     """Execute the generated spider in-process; return yielded items.
 
     When the configured selector matches nothing, print the response body to
@@ -163,6 +267,9 @@ def run_scrapy_spider(spider_cfg: dict, start_url: str) -> list[dict]:
     """
     from scrapy.crawler import CrawlerProcess
 
+    spider_cfg = dict(spider_cfg)
+    if middleware_cfg is not None:
+        spider_cfg["_cloudflare"] = middleware_cfg.get("cloudflare")
     spider_cls = _build_spider_class(spider_cfg, start_url)
     items: list[dict] = []
     diagnostics: list[dict] = []
@@ -206,7 +313,9 @@ def scrape(variant: dict, website_url: str, state=None) -> dict:
     stype = scrape_cfg.get("type")
 
     if stype == "scrapy":
-        items = run_scrapy_spider(scrape_cfg["spider"], website_url)
+        items = run_scrapy_spider(
+            scrape_cfg["spider"], website_url, scrape_cfg.get("middleware")
+        )
         item_key = scrape_cfg["spider"].get("item_key", "link")
         # Scrapy can yield the same href more than once.  Keep first-seen
         # records so one source is downloaded and extracted exactly once.

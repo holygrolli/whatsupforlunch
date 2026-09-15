@@ -68,6 +68,20 @@ The runner needs PyYAML to load `location.yaml`; it is declared in
 dependency, rebuild/publish the image with the Docker workflow before enabling a
 scheduled run.
 
+### Cloudflare Browser Run scraping
+
+Scrape middleware is optional and configured per location. Augustiner enables the
+Cloudflare Browser Run `/browser-rendering/content` endpoint because its menu page
+blocks GitHub Actions runners; other locations continue to use their normal scraper.
+The middleware sends the configured page URL to Cloudflare, parses the returned
+rendered HTML with the same XPath, and keeps the downstream menu contract unchanged.
+
+Production runs need the `CLOUDFLARE_ACCOUNT_ID` and `CLOUDFLARE_API_TOKEN` GitHub
+secrets. The token needs Cloudflare **Browser Rendering Write** permission. For local
+`act` runs, provide non-empty values in a private secrets file (the checked-in example
+contains placeholders only). The middleware is not enabled merely because credentials
+exist; set `scrape.middleware.cloudflare.enabled: true` in a location YAML to opt in.
+
 For a normal local Docker shell, `.aws.config` can contain a typical AWS profile:
 
 ```ini

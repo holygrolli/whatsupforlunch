@@ -54,6 +54,8 @@ class WorkflowTests(unittest.TestCase):
         self.assertIn("--legacy-state", content)
         self.assertIn("--no-state", content)
         self.assertIn("OPENAI_COMPATIBLE_API_KEY", content)
+        self.assertIn("CLOUDFLARE_ACCOUNT_ID", content)
+        self.assertIn("CLOUDFLARE_API_TOKEN", content)
         self.assertIn("actions/upload-artifact@v4", content)
         self.assertIn("actions/download-artifact@v4", content)
         self.assertIn(
@@ -83,6 +85,8 @@ class WorkflowTests(unittest.TestCase):
         self.assertIn(".github/workflows/location.yaml", readme)
         self.assertIn("OPENAI_COMPATIBLE_API_KEY", readme)
         self.assertIn("event_local.json", readme)
+        self.assertIn("CLOUDFLARE_ACCOUNT_ID", readme)
+        self.assertIn("Browser Run", readme)
 
 
 if __name__ == "__main__":

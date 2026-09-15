@@ -6,6 +6,10 @@ website:
   details: []
 scrape:
   type: scrapy
+  middleware:
+    cloudflare:
+      enabled: true
+      wait_until: networkidle2
   spider:
     allowed_domains: [augustiner-leipzig.de, www.augustiner-leipzig.de]
     link_xpath: '//a[contains(@href,"pdf") and contains(@href,"Mittag")]/@href'
