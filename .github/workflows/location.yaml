@@ -36,6 +36,8 @@ on:
         required: false
       CLOUDFLARE_API_TOKEN:
         required: false
+      ZENROWS_API_KEY:
+        required: false
       TOKEN_APP_ID:
         required: false
       TOKEN_APP_PRIVATE_KEY:
@@ -59,6 +61,7 @@ env:
   OPENAI_COMPATIBLE_API_KEY: ${{ secrets.OPENAI_COMPATIBLE_API_KEY }}
   CLOUDFLARE_ACCOUNT_ID: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
   CLOUDFLARE_API_TOKEN: ${{ secrets.CLOUDFLARE_API_TOKEN }}
+  ZENROWS_API_KEY: ${{ secrets.ZENROWS_API_KEY }}
 
 jobs:
   scrape_download:
@@ -146,6 +149,7 @@ jobs:
           OPENAI_COMPATIBLE_API_KEY: ${{ secrets.OPENAI_COMPATIBLE_API_KEY }}
           CLOUDFLARE_ACCOUNT_ID: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
           CLOUDFLARE_API_TOKEN: ${{ secrets.CLOUDFLARE_API_TOKEN }}
+          ZENROWS_API_KEY: ${{ secrets.ZENROWS_API_KEY }}
         shell: bash
         run: |
           set -Eeuo pipefail

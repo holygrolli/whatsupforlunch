@@ -19,6 +19,8 @@ import json
 import os
 import re
 import sys
+import urllib.error
+import urllib.parse
 import urllib.request
 from contextlib import redirect_stdout
 from html.parser import HTMLParser
@@ -117,6 +119,107 @@ class CloudflareContentMiddleware:
         return deferToThread(self._render, request)
 
 
+class ZenRowsContentMiddleware:
+    """Fetch Scrapy requests through the ZenRows Fetch API.
+
+    ZenRows Fetch accepts the target URL and API options as query parameters
+    and returns the fetched page body directly.  Keeping this as a downloader
+    middleware means the generated spider, selectors, and followed-link
+    contract are identical to the direct and Cloudflare implementations.
+    """
+
+    # These options are documented by the ZenRows Fetch API.  Only configured
+    # values are sent, so ZenRows' own defaults remain in effect otherwise.
+    _PARAMETERS = (
+        "mode",
+        "js_render",
+        "js_instructions",
+        "custom_headers",
+        "premium_proxy",
+        "proxy_country",
+        "session_id",
+        "original_status",
+        "allowed_status_codes",
+        "wait_for",
+        "wait",
+        "block_resources",
+        "json_response",
+        "css_extractor",
+        "extract",
+        "response_type",
+        "screenshot",
+        "screenshot_fullpage",
+        "screenshot_selector",
+        "screenshot_format",
+        "screenshot_quality",
+        "outputs",
+    )
+
+    def __init__(self, config: dict):
+        self.config = config
+        self.api_key = os.environ.get("ZENROWS_API_KEY")
+        if not self.api_key:
+            raise ScrapeError("ZenRows middleware requires ZENROWS_API_KEY")
+
+    @classmethod
+    def from_crawler(cls, crawler):
+        config = crawler.settings.getdict("PIPELINE_ZENROWS_CONFIG")
+        return cls(config)
+
+    @staticmethod
+    def _query_value(value):
+        if isinstance(value, bool):
+            return "true" if value else "false"
+        return str(value)
+
+    def _fetch(self, request):
+        params = {"apikey": self.api_key, "url": request.url}
+        for name in self._PARAMETERS:
+            if self.config.get(name) is not None:
+                params[name] = self._query_value(self.config[name])
+        endpoint = "https://api.zenrows.com/v1/?" + urllib.parse.urlencode(params)
+        api_request = urllib.request.Request(
+            endpoint,
+            headers={"Accept": "text/html"},
+            method="GET",
+        )
+        try:
+            with urllib.request.urlopen(api_request, timeout=180) as response:
+                body = response.read()
+                status = response.status
+                headers = dict(response.headers.items())
+        except urllib.error.HTTPError as exc:
+            # Include ZenRows' response body; it normally contains the useful
+            # reason for authentication, quota, or target-fetch failures.
+            details = exc.read().decode("utf-8", errors="replace")
+            raise ScrapeError(
+                f"ZenRows request failed for {request.url} "
+                f"(HTTP {exc.code}): {details[:1000]}"
+            ) from exc
+        except Exception as exc:
+            raise ScrapeError(
+                f"ZenRows request failed for {request.url}: {exc}"
+            ) from exc
+
+        from scrapy.http import HtmlResponse
+
+        final_url = headers.get("Zr-Final-Url", request.url)
+        return HtmlResponse(
+            url=final_url,
+            status=status,
+            headers={k.encode(): str(v).encode() for k, v in headers.items()},
+            body=body,
+            encoding="utf-8",
+            request=request,
+        )
+
+    def process_request(self, request, spider):
+        # Keep the reactor responsive while waiting on ZenRows' remote fetch.
+        from twisted.internet.threads import deferToThread
+
+        return deferToThread(self._fetch, request)
+
+
 class _ModifiedTimeParser(HTMLParser):
     def __init__(self):
         super().__init__()
@@ -159,6 +262,19 @@ def _build_spider_class(spider_cfg: dict, start_url: str):
     safe_attrs = spider_cfg.get("safe_attrs") or ["src", "alt", "href", "title"]
     minify = spider_cfg.get("minify", False)
     cloudflare_cfg = spider_cfg.get("_cloudflare")
+    zenrows_cfg = spider_cfg.get("_zenrows")
+    downloader_middlewares = {}
+    middleware_settings = {}
+    if cloudflare_cfg and cloudflare_cfg.get("enabled", True):
+        downloader_middlewares[
+            "pipeline.stages.scrape.CloudflareContentMiddleware"
+        ] = 543
+        middleware_settings["PIPELINE_CLOUDFLARE_CONFIG"] = cloudflare_cfg
+    if zenrows_cfg and zenrows_cfg.get("enabled", True):
+        downloader_middlewares[
+            "pipeline.stages.scrape.ZenRowsContentMiddleware"
+        ] = 544
+        middleware_settings["PIPELINE_ZENROWS_CONFIG"] = zenrows_cfg
 
     class GeneratedSpider(scrapy.Spider):
         name = "pipeline_generated"
@@ -175,12 +291,10 @@ def _build_spider_class(spider_cfg: dict, start_url: str):
             ),
             **(
                 {
-                    "DOWNLOADER_MIDDLEWARES": {
-                        "pipeline.stages.scrape.CloudflareContentMiddleware": 543,
-                    },
-                    "PIPELINE_CLOUDFLARE_CONFIG": cloudflare_cfg,
+                    "DOWNLOADER_MIDDLEWARES": downloader_middlewares,
+                    **middleware_settings,
                 }
-                if cloudflare_cfg and cloudflare_cfg.get("enabled", True)
+                if downloader_middlewares
                 else {}
             ),
         }
@@ -270,6 +384,7 @@ def run_scrapy_spider(
     spider_cfg = dict(spider_cfg)
     if middleware_cfg is not None:
         spider_cfg["_cloudflare"] = middleware_cfg.get("cloudflare")
+        spider_cfg["_zenrows"] = middleware_cfg.get("zenrows")
     spider_cls = _build_spider_class(spider_cfg, start_url)
     items: list[dict] = []
     diagnostics: list[dict] = []

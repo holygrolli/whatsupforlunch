@@ -10,6 +10,12 @@ website:
 # and reduced to text) matching today's scra.py behavior.
 scrape:
   type: scrapy
+  # ZenRows Fetch is an alternative to Cloudflare Browser Run for this
+  # location. It renders the page through the Fetch API before XPath runs.
+  middleware:
+    zenrows:
+      enabled: true
+      mode: auto
   spider:
     allowed_domains: [www.l.de]
     link_xpath: '//a[contains(text(),"Speiseplan")]/@href'

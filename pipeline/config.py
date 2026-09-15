@@ -45,9 +45,17 @@ _SCHEMA = {
     },
     "website": {"url", "details"},
     "scrape": {"type", "spider", "url", "middleware"},
-    "scrape.middleware": {"cloudflare"},
+    "scrape.middleware": {"cloudflare", "zenrows"},
     "scrape.middleware.cloudflare": {
         "enabled", "wait_until", "wait_for_timeout", "action_timeout",
+    },
+    "scrape.middleware.zenrows": {
+        "enabled", "mode", "js_render", "js_instructions", "custom_headers",
+        "premium_proxy", "proxy_country", "session_id", "original_status",
+        "allowed_status_codes", "wait_for", "wait", "block_resources",
+        "json_response", "css_extractor", "extract", "response_type",
+        "screenshot", "screenshot_fullpage", "screenshot_selector",
+        "screenshot_format", "screenshot_quality", "outputs",
     },
     "scrape.spider": None,
     "download": {"formats"},
@@ -134,6 +142,7 @@ def _validate_variant(variant: dict, context: str, full: bool) -> None:
         if middleware is not None:
             _check_keys(middleware, _SCHEMA["scrape.middleware"], f"{context}.scrape.middleware")
             cloudflare = middleware.get("cloudflare")
+            zenrows = middleware.get("zenrows")
             if cloudflare is not None:
                 _check_keys(
                     cloudflare,
@@ -160,6 +169,28 @@ def _validate_variant(variant: dict, context: str, full: bool) -> None:
                     cloudflare, "action_timeout", int,
                     f"{context}.scrape.middleware.cloudflare",
                 )
+            if zenrows is not None:
+                zenrows_context = f"{context}.scrape.middleware.zenrows"
+                _check_keys(zenrows, _SCHEMA["scrape.middleware.zenrows"], zenrows_context)
+                _check_type(zenrows, "enabled", bool, zenrows_context)
+                for key in (
+                    "js_render", "custom_headers", "premium_proxy", "original_status",
+                    "screenshot", "screenshot_fullpage",
+                ):
+                    _check_type(zenrows, key, bool, zenrows_context)
+                for key in ("session_id", "wait", "screenshot_quality"):
+                    _check_type(zenrows, key, int, zenrows_context)
+                if zenrows.get("mode") is not None and zenrows["mode"] != "auto":
+                    raise ConfigError(
+                        f"mode in '{zenrows_context}' must be 'auto', got {zenrows['mode']!r}"
+                    )
+                if zenrows.get("response_type") is not None and zenrows["response_type"] not in (
+                    "html", "markdown", "plaintext", "plain_text", "pdf",
+                ):
+                    raise ConfigError(
+                        f"response_type in '{zenrows_context}' is unsupported: "
+                        f"{zenrows['response_type']!r}"
+                    )
         if stype == "scrapy":
             spider = scrape.get("spider")
             if not isinstance(spider, dict) or not spider.get("link_xpath"):
