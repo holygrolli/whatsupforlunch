@@ -32,6 +32,10 @@ on:
         required: false
       OPENAI_COMPATIBLE_API_KEY:
         required: false
+      CLOUDFLARE_ACCOUNT_ID:
+        required: false
+      CLOUDFLARE_API_TOKEN:
+        required: false
       TOKEN_APP_ID:
         required: false
       TOKEN_APP_PRIVATE_KEY:
@@ -53,6 +57,8 @@ env:
   LOCATION: ${{ inputs.location }}
   AWS_DEFAULT_REGION: eu-central-1
   OPENAI_COMPATIBLE_API_KEY: ${{ secrets.OPENAI_COMPATIBLE_API_KEY }}
+  CLOUDFLARE_ACCOUNT_ID: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
+  CLOUDFLARE_API_TOKEN: ${{ secrets.CLOUDFLARE_API_TOKEN }}
 
 jobs:
   scrape_download:
@@ -138,6 +144,8 @@ jobs:
       - name: prepare and extract through the common runner
         env:
           OPENAI_COMPATIBLE_API_KEY: ${{ secrets.OPENAI_COMPATIBLE_API_KEY }}
+          CLOUDFLARE_ACCOUNT_ID: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
+          CLOUDFLARE_API_TOKEN: ${{ secrets.CLOUDFLARE_API_TOKEN }}
         shell: bash
         run: |
           set -Eeuo pipefail

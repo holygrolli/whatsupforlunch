@@ -44,7 +44,11 @@ _SCHEMA = {
         "prepare", "extract", "publish", "schedule", "formats",
     },
     "website": {"url", "details"},
-    "scrape": {"type", "spider", "url"},
+    "scrape": {"type", "spider", "url", "middleware"},
+    "scrape.middleware": {"cloudflare"},
+    "scrape.middleware.cloudflare": {
+        "enabled", "wait_until", "wait_for_timeout", "action_timeout",
+    },
     "scrape.spider": None,
     "download": {"formats"},
     "extract": {
@@ -126,6 +130,36 @@ def _validate_variant(variant: dict, context: str, full: bool) -> None:
             raise ConfigError(
                 f"scrape.type in '{context}' must be one of {SCRAPE_TYPES}, got {stype!r}"
             )
+        middleware = scrape.get("middleware")
+        if middleware is not None:
+            _check_keys(middleware, _SCHEMA["scrape.middleware"], f"{context}.scrape.middleware")
+            cloudflare = middleware.get("cloudflare")
+            if cloudflare is not None:
+                _check_keys(
+                    cloudflare,
+                    _SCHEMA["scrape.middleware.cloudflare"],
+                    f"{context}.scrape.middleware.cloudflare",
+                )
+                _check_type(
+                    cloudflare, "enabled", bool,
+                    f"{context}.scrape.middleware.cloudflare",
+                )
+                wait_until = cloudflare.get("wait_until")
+                if wait_until is not None and wait_until not in (
+                    "load", "domcontentloaded", "networkidle0", "networkidle2",
+                ):
+                    raise ConfigError(
+                        f"wait_until in '{context}.scrape.middleware.cloudflare' "
+                        f"must be a supported Cloudflare wait condition, got {wait_until!r}"
+                    )
+                _check_type(
+                    cloudflare, "wait_for_timeout", int,
+                    f"{context}.scrape.middleware.cloudflare",
+                )
+                _check_type(
+                    cloudflare, "action_timeout", int,
+                    f"{context}.scrape.middleware.cloudflare",
+                )
         if stype == "scrapy":
             spider = scrape.get("spider")
             if not isinstance(spider, dict) or not spider.get("link_xpath"):
