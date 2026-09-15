@@ -10,6 +10,10 @@ website:
 # and reduced to text) matching today's scra.py behavior.
 scrape:
   type: scrapy
+  middleware:
+    cloudflare:
+      enabled: true
+      wait_until: networkidle2
   spider:
     allowed_domains: [www.l.de]
     link_xpath: '//a[contains(text(),"Speiseplan")]/@href'
