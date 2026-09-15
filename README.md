@@ -82,6 +82,18 @@ secrets. The token needs Cloudflare **Browser Rendering Write** permission. For 
 contains placeholders only). The middleware is not enabled merely because credentials
 exist; set `scrape.middleware.cloudflare.enabled: true` in a location YAML to opt in.
 
+### ZenRows Fetch scraping
+
+Le Casino uses the optional ZenRows Fetch middleware as its primary discovery
+transport. It sends the configured page URL to `https://api.zenrows.com/v1/`
+with `apikey` and `url` query parameters, then feeds the returned HTML through
+the same XPath and followed-link logic as the direct scraper. Its configuration
+supports the documented Fetch options, including `mode: auto`, JavaScript
+rendering, premium proxies, waits, and response formats. The API key is never
+stored in YAML; production runs provide the `ZENROWS_API_KEY` GitHub secret
+(and local runs should export the same variable). To use the direct scraper or another transport, remove or disable the
+`zenrows` middleware block in `locations/lecasino/location.yaml`.
+
 For a normal local Docker shell, `.aws.config` can contain a typical AWS profile:
 
 ```ini

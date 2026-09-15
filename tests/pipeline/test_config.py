@@ -75,6 +75,29 @@ class TestSchemaValidation(unittest.TestCase):
         )
         validate(raw, "test")
 
+    def test_zenrows_middleware_configuration(self):
+        raw = minimal_raw(
+            scrape={
+                "type": "scrapy",
+                "middleware": {
+                    "zenrows": {"enabled": True, "mode": "auto", "js_render": True}
+                },
+                "spider": {"link_xpath": "//a/@href"},
+            }
+        )
+        validate(raw, "test")
+
+    def test_zenrows_middleware_rejects_unknown_mode(self):
+        raw = minimal_raw(
+            scrape={
+                "type": "scrapy",
+                "middleware": {"zenrows": {"mode": "manual"}},
+                "spider": {"link_xpath": "//a/@href"},
+            }
+        )
+        with self.assertRaisesRegex(ConfigError, "mode"):
+            validate(raw, "test")
+
     def test_cloudflare_middleware_rejects_unknown_wait_condition(self):
         raw = minimal_raw(
             scrape={
@@ -150,6 +173,13 @@ class TestLoadLocations(unittest.TestCase):
     def test_ttl_default_eight_weeks(self):
         for loc in SUPPORTED_LOCATIONS:
             self.assertEqual(load_location(loc).ttl_weeks(), 8, loc)
+
+    def test_lecasino_uses_zenrows_fetch(self):
+        cfg = load_location("lecasino")
+        self.assertEqual(
+            cfg.default_variant["scrape"]["middleware"]["zenrows"]["mode"],
+            "auto",
+        )
 
     def test_lecasino_has_pdf_fallback_variant(self):
         cfg = load_location("lecasino")

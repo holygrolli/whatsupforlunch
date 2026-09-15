@@ -2,6 +2,7 @@
 
 import json
 import os
+import urllib.parse
 import unittest
 from pathlib import Path
 from tempfile import TemporaryDirectory
@@ -333,6 +334,57 @@ class TestScrapeStage(unittest.TestCase):
             {"link_xpath": "//a/@href"}, "https://example.com/"
         )
         self.assertNotIn("DOWNLOADER_MIDDLEWARES", plain_spider_class.custom_settings)
+
+    def test_zenrows_middleware_is_wired_only_when_configured(self):
+        spider_class = _build_spider_class(
+            {"link_xpath": "//a/@href", "_zenrows": {"enabled": True}},
+            "https://example.com/",
+        )
+        self.assertIn(
+            "pipeline.stages.scrape.ZenRowsContentMiddleware",
+            spider_class.custom_settings["DOWNLOADER_MIDDLEWARES"],
+        )
+        self.assertEqual(
+            spider_class.custom_settings["PIPELINE_ZENROWS_CONFIG"]["enabled"],
+            True,
+        )
+
+    def test_zenrows_middleware_requires_credentials(self):
+        middleware = __import__(
+            "pipeline.stages.scrape", fromlist=["ZenRowsContentMiddleware"]
+        ).ZenRowsContentMiddleware
+        with mock.patch.dict(os.environ, {"ZENROWS_API_KEY": ""}, clear=False):
+            with self.assertRaisesRegex(ScrapeError, "ZENROWS_API_KEY"):
+                middleware({})
+
+    def test_zenrows_middleware_fetches_html(self):
+        try:
+            from scrapy.http import HtmlResponse
+        except ModuleNotFoundError:
+            self.skipTest("Scrapy is provided by the production image")
+
+        middleware = __import__(
+            "pipeline.stages.scrape", fromlist=["ZenRowsContentMiddleware"]
+        ).ZenRowsContentMiddleware
+        request = mock.Mock(url="https://example.com/")
+        response = mock.Mock()
+        response.status = 200
+        response.headers.items.return_value = [("Zr-Final-Url", "https://example.com/final")]
+        response.read.return_value = b'<a href="menu.html">Menu</a>'
+        response.__enter__ = lambda s: s
+        response.__exit__ = mock.Mock(return_value=False)
+        with mock.patch.dict(os.environ, {"ZENROWS_API_KEY": "key"}, clear=False), \
+             mock.patch("urllib.request.urlopen", return_value=response) as urlopen:
+            rendered = middleware({"mode": "auto", "js_render": True})._fetch(request)
+        self.assertIsInstance(rendered, HtmlResponse)
+        self.assertEqual(rendered.url, "https://example.com/final")
+        self.assertIn("menu.html", rendered.text)
+        api_request = urlopen.call_args.args[0]
+        params = dict(urllib.parse.parse_qsl(urllib.parse.urlsplit(api_request.full_url).query))
+        self.assertEqual(params["apikey"], "key")
+        self.assertEqual(params["url"], "https://example.com/")
+        self.assertEqual(params["mode"], "auto")
+        self.assertEqual(params["js_render"], "true")
 
     def test_cloudflare_middleware_requires_credentials(self):
         middleware = __import__(
