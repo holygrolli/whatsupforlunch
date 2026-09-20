@@ -1,0 +1,66 @@
+{
+  "2026-09-21": [
+    {
+      "desc": "Königsberger Klöpse Kapernsoße und Kartoffeln",
+      "price": 6.99
+    },
+    {
+      "desc": "veg. Bauernfrühstück mit frischem Gemüse",
+      "price": 6.99
+    }
+  ],
+  "2026-09-22": [
+    {
+      "desc": "Steak Schwein, Letscho, Bratkartoffeln",
+      "price": 6.99
+    },
+    {
+      "desc": "Pasta mit tomatisierten Grillgemüse, Feta Käse",
+      "price": 6.99
+    }
+  ],
+  "2026-09-23": [
+    {
+      "desc": "Sülze, Bratkartoffeln, Hausfrauensauce",
+      "price": 6.99
+    },
+    {
+      "desc": "Backfisch,Kartoffelstampf, Dillsauce",
+      "price": 6.99
+    }
+  ],
+  "2026-09-24": [
+    {
+      "desc": "Schweinebraten, Rotkohl, Klöße",
+      "price": 6.99
+    },
+    {
+      "desc": "Milchreis, Apfelmus, Z+Z",
+      "price": 6.99
+    }
+  ],
+  "2026-09-25": [
+    {
+      "desc": "Schnitzel Schein, Rosenkohl, Kartoffeln",
+      "price": 6.99
+    },
+    {
+      "desc": "Blumenkohl gebacken, Sc. Hollandaise, Kartoffeln",
+      "price": 6.99
+    }
+  ],
+  "2026-W39": [
+    {
+      "desc": "Pasta, Carbonara",
+      "price": 5.5
+    },
+    {
+      "desc": "Penne mit Brokkolirahm, geröstete Mandeln",
+      "price": 5.5
+    },
+    {
+      "desc": "Penne mit Scheinegulasch",
+      "price": 5.5
+    }
+  ]
+}
