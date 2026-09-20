@@ -87,6 +87,32 @@ class TestSchemaValidation(unittest.TestCase):
         )
         validate(raw, "test")
 
+    def test_link_fingerprint_xpath_configuration(self):
+        raw = minimal_raw(
+            scrape={
+                "type": "scrapy",
+                "spider": {
+                    "link_xpath": "//div[@class='menu']",
+                    "inline": True,
+                    "link_fingerprint_xpath": ".//span/text()",
+                },
+            }
+        )
+        validate(raw, "test")
+
+    def test_link_fingerprint_xpath_requires_inline(self):
+        raw = minimal_raw(
+            scrape={
+                "type": "scrapy",
+                "spider": {
+                    "link_xpath": "//a/@href",
+                    "link_fingerprint_xpath": ".//span/text()",
+                },
+            }
+        )
+        with self.assertRaisesRegex(ConfigError, "link_fingerprint_xpath"):
+            validate(raw, "test")
+
     def test_zenrows_middleware_rejects_unknown_mode(self):
         raw = minimal_raw(
             scrape={
@@ -268,6 +294,10 @@ class TestEffectiveConfigEquivalence(unittest.TestCase):
         self.assertEqual(spider["count"], 2)
         self.assertEqual(spider["select_index"], 1)
         self.assertTrue(spider["minify"])
+        # The menu is re-published weekly on the constant homepage URL; the
+        # fingerprint keeps discovery working after the first cycle.
+        self.assertEqual(spider["inline"], True)
+        self.assertEqual(spider["link_fingerprint_xpath"], ".//span/text()")
 
     def test_lecasino_default_is_html_follow(self):
         cfg = load_location("lecasino").default_variant

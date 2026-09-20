@@ -68,6 +68,17 @@ The runner needs PyYAML to load `location.yaml`; it is declared in
 dependency, rebuild/publish the image with the Docker workflow before enabling a
 scheduled run.
 
+### Inline scraping with content fingerprints
+
+A spider with `inline: true` selects content (HTML) instead of a link. Without a
+content identity the state backend would track the page URL itself, so a menu
+re-published weekly on the same page would be processed exactly once and then
+filtered out forever. Set `scrape.spider.link_fingerprint_xpath` to an XPath
+relative to the selected element whose value identifies the content period
+(Emil und Moritz uses the week label `Woche 14.09.2026 - 18.09.2026`). Each new
+period becomes a new state link and is discovered; unchanged periods stay
+filtered. Empty or missing fingerprint results fall back to the page URL.
+
 ### Cloudflare Browser Run scraping
 
 Scrape middleware is optional and configured per location. Augustiner enables the
