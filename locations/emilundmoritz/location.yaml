@@ -14,6 +14,12 @@ scrape:
     count: 2
     select_index: 1
     inline: true
+    # The menu is re-published weekly on the constant homepage URL. Without a
+    # fingerprint the state backend would track the page URL itself, so only
+    # the very first cycle ever produced "new" links. The week label inside
+    # the selected div ("Woche 14.09.2026 - 18.09.2026") is the per-menu
+    # identity; every new week becomes a new link, older ones stay filtered.
+    link_fingerprint_xpath: './/span/text()'
     clean_html: true
     safe_attrs: [src, alt, href, title]
     minify: true

@@ -201,6 +201,12 @@ def _validate_variant(variant: dict, context: str, full: bool) -> None:
             _check_type(spider, "follow", bool, f"{context}.scrape.spider")
             _check_type(spider, "inline", bool, f"{context}.scrape.spider")
             _check_type(spider, "item_key", str, f"{context}.scrape.spider")
+            _check_type(spider, "link_fingerprint_xpath", str, f"{context}.scrape.spider")
+            if spider.get("link_fingerprint_xpath") and not spider.get("inline"):
+                raise ConfigError(
+                    f"scrape.spider.link_fingerprint_xpath in '{context}' is only "
+                    "meaningful with inline: true"
+                )
             _check_type(spider, "count", int, f"{context}.scrape.spider")
         if stype in ("static", "meta_refresh"):
             _check_type(scrape, "url", str, f"{context}.scrape")

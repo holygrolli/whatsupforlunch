@@ -462,6 +462,87 @@ class TestScrapeStage(unittest.TestCase):
         self.assertEqual(yielded[0]["div"], "https://example.com/")
         self.assertIn("Soup", yielded[0]["html"])
 
+    def test_generated_spider_inline_fingerprint_tracks_content_not_url(self):
+        """Inline selections must not track the constant page URL as the state
+        link: a weekly re-published menu would be filtered out after the very
+        first run. The configured fingerprint XPath becomes the link instead."""
+        try:
+            from scrapy.http import HtmlResponse
+        except ModuleNotFoundError:
+            self.skipTest("Scrapy is provided by the production image")
+
+        spider_class = _build_spider_class(
+            {
+                "link_xpath": "//div[@class='menu']",
+                "item_key": "div",
+                "inline": True,
+                "link_fingerprint_xpath": ".//span/text()",
+            },
+            "https://example.com/",
+        )
+        items = []
+        spider = spider_class(items=items)
+        response = HtmlResponse(
+            url="https://example.com/",
+            body=b"<div class='menu'><span>Woche 1.1. - 5.1.</span><p>Soup</p></div>",
+            encoding="utf-8",
+        )
+        yielded = list(spider.parse(response))
+        self.assertEqual(yielded[0]["div"], "Woche 1.1. - 5.1.")
+        self.assertIn("Soup", yielded[0]["html"])
+
+    def test_generated_spider_inline_fingerprint_falls_back_to_page_url(self):
+        """A missing/empty fingerprint result must not produce an empty link;
+        the page URL remains the fallback identity."""
+        try:
+            from scrapy.http import HtmlResponse
+        except ModuleNotFoundError:
+            self.skipTest("Scrapy is provided by the production image")
+
+        spider_class = _build_spider_class(
+            {
+                "link_xpath": "//div[@class='menu']",
+                "item_key": "div",
+                "inline": True,
+                "link_fingerprint_xpath": ".//span/text()",
+            },
+            "https://example.com/",
+        )
+        items = []
+        spider = spider_class(items=items)
+        response = HtmlResponse(
+            url="https://example.com/",
+            body=b"<div class='menu'><p>Soup</p></div>",
+            encoding="utf-8",
+        )
+        yielded = list(spider.parse(response))
+        self.assertEqual(yielded[0]["div"], "https://example.com/")
+
+    def test_scrape_filters_processed_fingerprint_links(self):
+        """The state check applies to fingerprint links like any other link."""
+        variant = {
+            "scrape": {
+                "type": "scrapy",
+                "spider": {
+                    "allowed_domains": ["example.com"],
+                    "link_xpath": "//div[@class='menu']",
+                    "item_key": "div",
+                    "inline": True,
+                    "link_fingerprint_xpath": ".//span/text()",
+                },
+            },
+        }
+        with mock.patch(
+            "pipeline.stages.scrape.run_scrapy_spider"
+        ) as run_spider:
+            run_spider.return_value = [
+                {"div": "Woche 1.1. - 5.1.", "html": "<div>menu</div>"},
+            ]
+            state = FakeState(existing=["Woche 1.1. - 5.1."])
+            result = scrape(variant, "https://example.com/", state=state)
+        self.assertEqual(result["links"], ["Woche 1.1. - 5.1."])
+        self.assertEqual(result["new_links"], [])
+
     def test_generated_spider_keeps_response_when_no_links_match(self):
         try:
             from scrapy.exceptions import CloseSpider

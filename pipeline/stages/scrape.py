@@ -8,6 +8,13 @@ Supports three scrape types (plan section 3.2):
 - ``meta_refresh``: the website URL itself, used when change detection happens
   via the page's ``article:modified_time`` meta tag (moritzbastei).
 
+Inline selections that carry content instead of a URL (``inline: true``) would
+otherwise track the page URL as the state link — a constant, so a weekly
+re-published menu on the same page would be filtered out after the first run.
+Configure ``link_fingerprint_xpath`` to make the tracked link a per-content
+identity (e.g. the menu's week label), so each new menu period is discovered
+anew while unchanged periods stay filtered.
+
 Discovered links are filtered against the state backend; only unprocessed
 links are emitted as "new".
 """
@@ -254,6 +261,7 @@ def _build_spider_class(spider_cfg: dict, start_url: str):
     link_xpath = spider_cfg["link_xpath"]
     allowed_domains = spider_cfg.get("allowed_domains") or []
     item_key = spider_cfg.get("item_key", "link")
+    fingerprint_xpath = spider_cfg.get("link_fingerprint_xpath")
     expected_count = spider_cfg.get("count")
     select_index = spider_cfg.get("select_index")
     follow = spider_cfg.get("follow", False)
@@ -335,16 +343,35 @@ def _build_spider_class(spider_cfg: dict, start_url: str):
                 else:
                     if inline:
                         # The selected value is content, not a URL.  Track the
-                        # page URL while carrying the selected HTML to the
+                        # configured fingerprint (or the page URL when none is
+                        # configured) while carrying the selected HTML to the
                         # download stage.
                         item = {
-                            item_key: response.url,
+                            item_key: self._fingerprint_link(sel, response, fingerprint_xpath),
                             "html": self._clean(value) if clean_html else value,
                         }
                     else:
                         item = {item_key: resolved}
                     self._collected.append(item)
                     yield item
+
+        @staticmethod
+        def _fingerprint_link(sel, response, fingerprint_xpath):
+            """Tracked state link for an inline selection.
+
+            With ``link_fingerprint_xpath`` the selection's content identity
+            (for example a menu week label) becomes the state link, so a
+            re-published menu on a constant page is discovered again. Empty or
+            missing fingerprint results fall back to the page URL to keep the
+            download/publish stages keyed by a real value.
+            """
+            if not fingerprint_xpath:
+                return response.url
+            raw = sel.xpath(fingerprint_xpath).get()
+            normalized = " ".join((raw or "").split())
+            if not normalized:
+                return response.url
+            return normalized
 
         def parse_followed(self, response, source_url=None):
             item = {item_key: source_url, "html": response.text}
