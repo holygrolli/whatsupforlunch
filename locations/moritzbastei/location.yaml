@@ -13,6 +13,13 @@ scrape:
     item_key: div
     count: 1
     inline: true
+    # The menu is re-published weekly on the constant gastronomie page. Without
+    # a fingerprint the state backend would track the page URL itself, so only
+    # the very first cycle ever produced "new" links (same issue as
+    # emilundmoritz). The first heading inside the selected container carries
+    # the offer period ("MITTAGSANGEBOT (14.-20.09.)"); every new week becomes
+    # a new link, older ones stay filtered.
+    link_fingerprint_xpath: './/h3/text()'
     clean_html: true
     safe_attrs: [src, alt, href, title, width, height]
 download:
