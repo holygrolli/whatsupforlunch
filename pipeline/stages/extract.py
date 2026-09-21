@@ -62,7 +62,7 @@ class MealChat:
                  add_current_date=True,
                  add_current_weekdays=True,
                  model_provider="openai",
-                 vision_model="gpt-4o-2024-08-06",
+                 vision_model="lyceum/glm-5.3-flash",
                  text_model="azure/gpt-5-mini@francecentral",
                  model_override=None,
                  base_url=None,

@@ -18,7 +18,8 @@ extract:
   type: vision
   prompt_file: prompt.txt
   model:
-    provider: openai
+    provider: google
+    vision_model: vertex/gemini-2.5-flash-lite@europe-central2
 publish:
   week_key_from: current_week
 schedule:
