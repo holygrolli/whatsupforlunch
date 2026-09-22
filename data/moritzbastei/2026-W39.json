@@ -1,0 +1,61 @@
+{
+  "2026-09-21": [],
+  "2026-09-22": [
+    {
+      "desc": "Schweineschnitzel mit Rahmblumenkohl, Salzkartoffeln und brauner Soße",
+      "price": 10.5
+    },
+    {
+      "desc": "Gebackenes Duett von Hirtenkäse und Aubergine, auf verschiedenen Blattsalaten mit gegrillter Paprika, Zucchini, getrockneten Tomaten, dazu Baguette und Basilikum-Dip (veget.)",
+      "price": 9.2
+    }
+  ],
+  "2026-09-23": [
+    {
+      "desc": "Schwedische Hackbällchen \"Köttbullar\" mit Kartoffelpüree, crunchy Onions und Preiselbeeren",
+      "price": 9.8
+    },
+    {
+      "desc": "Karotten-Pfanne mit Zuckerschoten, Kartoffeln und Petersilie, dazu geröstete Sonnenblumenkerne und Hirtenkäse (veget.)",
+      "price": 9.2
+    }
+  ],
+  "2026-09-24": [
+    {
+      "desc": "Wurstgulasch mit Paprika auf Pasta, dazu Gouda",
+      "price": 9.6
+    },
+    {
+      "desc": "Zucchini-Kartoffelrösti mit Kräuterschmand und Tomatensalat (veget.)",
+      "price": 9.2
+    }
+  ],
+  "2026-09-25": [
+    {
+      "desc": "Tagliatelle in Lachs-Basilikumsauce mit gebackenen Kirschtomaten und Parmesan",
+      "price": 9.9
+    },
+    {
+      "desc": "Thai-Hähnchencurry mit buntem Gemüse in Kokossoße, dazu Basmatireis und Erdnüsse",
+      "price": 9.8
+    }
+  ],
+  "2026-W39": [
+    {
+      "desc": "Pasta mit Kürbis-Pesto dazu Cranberrys, geröstete Mandeln (veget.) und Parmesan",
+      "price": 10.9
+    },
+    {
+      "desc": "Spitzkohl-Karottenlasagne überbacken mit Mozzarella und Sesam (veget.)",
+      "price": 12.9
+    },
+    {
+      "desc": "Süßkartoffel-Hackfleischgratin mit Tomaten und grünen Bohnen, überbacken mit Hirtenkäse",
+      "price": 12.9
+    },
+    {
+      "desc": "Thai-Hähnchencurry mit buntem Gemüse in Kokossoße, dazu Basmatireis und Erdnüsse (Extra ab 15 Uhr)",
+      "price": 12.9
+    }
+  ]
+}
