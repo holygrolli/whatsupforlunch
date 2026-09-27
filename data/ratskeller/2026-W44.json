@@ -1,0 +1,88 @@
+{
+  "2026-10-26": [
+    {
+      "desc": "Grüner Bohneneintopf mit Rindfleisch und Kartoffelwürfeln",
+      "price": 6.0
+    },
+    {
+      "desc": "Brokkoli-Nuss-Ecke mit bunten Karotten und Kartoffelstampf",
+      "price": 6.5
+    },
+    {
+      "desc": "Geflügel-Ćevapčići auf Ratatouille, Zaziki und Reis",
+      "price": 7.0
+    },
+    {
+      "desc": "Gebackener Camembert mit Preiselbeeren, Baguette und Salat",
+      "price": 8.5
+    }
+  ],
+  "2026-10-27": [
+    {
+      "desc": "Drei Hefeklöße mit warmen Heidelbeeren",
+      "price": 6.0
+    },
+    {
+      "desc": "Pasta mit Tomatensoße und geriebenem Käse",
+      "price": 6.5
+    },
+    {
+      "desc": "Jägerschnitzel mit Tomatensoße und Pasta",
+      "price": 7.0
+    },
+    {
+      "desc": "Gebackene Mozzarellasticks auf mediterranem Nudelsalat mit Oliven",
+      "price": 8.5
+    }
+  ],
+  "2026-10-28": [
+    {
+      "desc": "Möhren-Kartoffeleintopf mit Fleischklößchen",
+      "price": 6.0
+    },
+    {
+      "desc": "2 gekochte Eier mit Senfsoße, Rotkrautsalat und Petersilienkartoffeln",
+      "price": 6.5
+    },
+    {
+      "desc": "Hähnchenragout mit Paprikrahm und Butterreis",
+      "price": 7.0
+    }
+  ],
+  "2026-10-29": [
+    {
+      "desc": "Sächsische Quarkkäulchen mit Apfelmus und Zimtzucker",
+      "price": 6.0
+    },
+    {
+      "desc": "Chili sin Carne mit Bohnen, Mais, Kichererbsen und Reis",
+      "price": 6.5
+    },
+    {
+      "desc": "Kohlroulade mit Krautsoße und Petersilienkartoffeln",
+      "price": 7.0
+    },
+    {
+      "desc": "Hirtentasche mit Spinat auf griechischem Reisnudelsalat",
+      "price": 8.5
+    }
+  ],
+  "2026-10-30": [
+    {
+      "desc": "Waldpilzcremesuppe mit Thymian und Croûtons",
+      "price": 6.0
+    },
+    {
+      "desc": "Gemüselasagne mit Zucchini, Karotten, Aubergine und Tomate",
+      "price": 6.5
+    },
+    {
+      "desc": "Backfisch mit Remoulade, Salat und Petersilienkartoffeln",
+      "price": 7.0
+    },
+    {
+      "desc": "Schweinebäckchen mit Waldpilzen und Kartoffelrösti",
+      "price": 8.5
+    }
+  ]
+}

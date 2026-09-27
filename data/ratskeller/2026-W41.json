@@ -1,0 +1,92 @@
+{
+  "2026-10-05": [
+    {
+      "desc": "Hausgemachter Linseneintopf mit Blutwurstwürfeln",
+      "price": 6.0
+    },
+    {
+      "desc": "Gemüseschnitzel auf Blattspinat und bunten Gnocchi",
+      "price": 6.5
+    },
+    {
+      "desc": "Gyrospfanne mit Zaziki, Krautsalat und Tomatenreis",
+      "price": 7.0
+    },
+    {
+      "desc": "Blätterteigtasche, gefüllt mit Ratatouille auf mediterranem Nudelsalat",
+      "price": 8.5
+    }
+  ],
+  "2026-10-06": [
+    {
+      "desc": "Marillenknödel mit Vanillesoße",
+      "price": 6.0
+    },
+    {
+      "desc": "Pasta mit Tomatensoße und geriebenem Käse",
+      "price": 6.5
+    },
+    {
+      "desc": "Jägerschnitzel mit Tomatensoße und Pasta",
+      "price": 7.0
+    },
+    {
+      "desc": "Mac`n Cheese-Taler auf buntem Herbstsalat mit Bete, Kürbis und Nüssen",
+      "price": 8.5
+    }
+  ],
+  "2026-10-07": [
+    {
+      "desc": "Französischer Fischeintopf mit Miesmuscheln, Fenchel und Zucchini",
+      "price": 6.0
+    },
+    {
+      "desc": "Rotkohl-Frikadelle mit Spinatsoße und Schupfnudeln",
+      "price": 6.5
+    },
+    {
+      "desc": "Kasslernackenbraten mit Sauerkraut und Petersilien-kartoffeln",
+      "price": 7.0
+    },
+    {
+      "desc": "Überraschungsgericht mit Gemüse von KOLA Leipzig",
+      "price": null
+    }
+  ],
+  "2026-10-08": [
+    {
+      "desc": "Grießbrei mit Pflaumen-kompott und Zimtzucker",
+      "price": 6.0
+    },
+    {
+      "desc": "Blumenkohl-Käse-Medaillon mit bunten Karotten und Kräuterreis",
+      "price": 6.5
+    },
+    {
+      "desc": "Ungarisches Schweinegulasch mit Paprika, dazu Pasta",
+      "price": 7.0
+    },
+    {
+      "desc": "Coq au vin mit Perlzwiebeln, Champignons und Kartoffel-stampf",
+      "price": 8.5
+    }
+  ],
+  "2026-10-09": [
+    {
+      "desc": "Süßkartoffel-Ingwersuppe mit Koriander und Sesam",
+      "price": 6.0
+    },
+    {
+      "desc": "Käsespatz'n „Allgäuer Art\" mit Röstzwiebeln",
+      "price": 6.5
+    },
+    {
+      "desc": "Köttbullar mit Champignons und Kartoffel-stampf",
+      "price": 7.0
+    },
+    {
+      "desc": "Kabeljaufilet in Safransoße, dazu Brokkoli und Rote-Bete-Gnocchi",
+      "price": 8.5
+    }
+  ]
+}

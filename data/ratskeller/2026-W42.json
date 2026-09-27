@@ -1,0 +1,92 @@
+{
+  "2026-10-12": [
+    {
+      "desc": "Nudeleintopf mit Geflügelfleisch und Gemüse-Julienne",
+      "price": 6.0
+    },
+    {
+      "desc": "Gemüsecurry mit Kürbis, Blumenkohl, Zucchini und Reis",
+      "price": 6.5
+    },
+    {
+      "desc": "Züricher Schweine-Geschnetzeltes mit Pilzen und Spätzle",
+      "price": 7.0
+    },
+    {
+      "desc": "Nacho-Cheese-Taler auf bunten Reissalat mit Bohnen und Mais",
+      "price": 8.5
+    }
+  ],
+  "2026-10-13": [
+    {
+      "desc": "American Pancakes mit Apfel-Aprikosen-Kompott",
+      "price": 6.0
+    },
+    {
+      "desc": "Pasta mit Tomatensoße und geriebenem Käse",
+      "price": 6.5
+    },
+    {
+      "desc": "Pasta mit Wurstgulasch und geriebenem Käse",
+      "price": 7.0
+    },
+    {
+      "desc": "Shakshuka mit Hummus und Fladenbrot",
+      "price": 8.5
+    }
+  ],
+  "2026-10-14": [
+    {
+      "desc": "Soljanka mit Zitrone und Sauerrahm",
+      "price": 6.0
+    },
+    {
+      "desc": "Kräuterquark mit Zwiebeln, Butter und Petersilien-kartoffeln",
+      "price": 6.5
+    },
+    {
+      "desc": "Hacksteak mit Rahm-Champignons und Kartoffel-stampf",
+      "price": 7.0
+    },
+    {
+      "desc": "Überraschungsgericht mit Gemüse von KOLA Leipzig",
+      "price": null
+    }
+  ],
+  "2026-10-15": [
+    {
+      "desc": "Germknödel gefüllt mit Pflaumen, dazu Vanillesoße",
+      "price": 6.0
+    },
+    {
+      "desc": "Sellerieschnitzel mit Erbsen und Kürbis-Kartoffelstampf",
+      "price": 6.5
+    },
+    {
+      "desc": "Paprikaschote mit Geflügelhack, Tomatensoße + Spätzle",
+      "price": 7.0
+    },
+    {
+      "desc": "Rigatoni mit Trüffelrahm, Champignons und Frühlings-Lauch",
+      "price": 8.5
+    }
+  ],
+  "2026-10-16": [
+    {
+      "desc": "Brokkoli-Creme-Suppe mit Sprossen und Kürbis-kernen",
+      "price": 6.0
+    },
+    {
+      "desc": "Bergkäse-Nocken auf Waldpilzrahm und Salat",
+      "price": 6.5
+    },
+    {
+      "desc": "Grillwurst mit Letscho-Gemüse und Kartoffelstampf",
+      "price": 7.0
+    },
+    {
+      "desc": "Schollenfilet auf Grillgemüse und Limonen-Risotto",
+      "price": 8.5
+    }
+  ]
+}
