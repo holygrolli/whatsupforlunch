@@ -1,0 +1,92 @@
+{
+  "2026-11-02": [
+    {
+      "desc": "Chili con Carne mit Hackfleisch, Mais, Bohnen und Kichererbsen",
+      "price": 6.0
+    },
+    {
+      "desc": "Kartoffeltaschen mit Frischkäse, Kräuterdip und Salat",
+      "price": 6.5
+    },
+    {
+      "desc": "Königsberger Klopse mit Kapernsoße, Bete-Salat und Kartoffeln",
+      "price": 7.0
+    },
+    {
+      "desc": "Linguine mit Soja-Linsen-Bolognese, Tomaten und Rucola",
+      "price": 8.5
+    }
+  ],
+  "2026-11-03": [
+    {
+      "desc": "Kartoffelpuffer mit Apfelmus und Zimtzucker",
+      "price": 6.0
+    },
+    {
+      "desc": "Pasta mit Tomatensoße und geriebenem Käse",
+      "price": 6.5
+    },
+    {
+      "desc": "Pasta mit Wurstgulasch und geriebenem Käse",
+      "price": 7.0
+    },
+    {
+      "desc": "Bauernfrühstück mit Ei, Kartoffeln, Speck, Salat und Remoulade",
+      "price": 8.5
+    }
+  ],
+  "2026-11-04": [
+    {
+      "desc": "Pichelsteiner Eintopf mit Schweinefleisch und Gemüse",
+      "price": 6.0
+    },
+    {
+      "desc": "Tortellini, gefüllt mit Ricotta, dazu Blattspinatsoße",
+      "price": 6.5
+    },
+    {
+      "desc": "Schweine-schnitzel mit Waldpilzrahm und Petersilien-kartoffeln",
+      "price": 7.0
+    },
+    {
+      "desc": "Überraschungsgericht mit Gemüse von KOLA Leipzig",
+      "price": null
+    }
+  ],
+  "2026-11-05": [
+    {
+      "desc": "Eierkuchen, gefüllt mit Heidelbeeren und Vanillesoße",
+      "price": 6.0
+    },
+    {
+      "desc": "Veganes „Gulasch“ mit Pilzen, Paprika und Reis",
+      "price": 6.5
+    },
+    {
+      "desc": "Currywurst mit fruchtig-pikanter Soße und Kartoffel-ecken",
+      "price": 7.0
+    },
+    {
+      "desc": "Linguine mit Salsiccia, Basilikum, Tomaten und Knoblauch",
+      "price": 8.5
+    }
+  ],
+  "2026-11-06": [
+    {
+      "desc": "Karotten-Ingwersuppe mit Orangen und Kresse",
+      "price": 6.0
+    },
+    {
+      "desc": "Spinat-Käse-Knödel auf Kräuter-Waldpilzrahm",
+      "price": 6.5
+    },
+    {
+      "desc": "Fischstäbchen mit Tomaten-Soße und Kartoffelstampf",
+      "price": 7.0
+    },
+    {
+      "desc": "Hähnchen-Gyros-Bowl mit Zaziki, Krautsalat und Reis",
+      "price": 8.5
+    }
+  ]
+}

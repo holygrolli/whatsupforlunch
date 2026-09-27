@@ -1,0 +1,92 @@
+{
+  "2026-09-28": [
+    {
+      "desc": "Käse-Lauch-Suppe mit Hackfleisch und Champignons",
+      "price": 6.0
+    },
+    {
+      "desc": "Schupfnudel-Pfanne mit Romanesco, Kürbis und Porree",
+      "price": 6.5
+    },
+    {
+      "desc": "Hühnerfrikassee mit Erbsen, Karotten und Butterreis",
+      "price": 7.0
+    },
+    {
+      "desc": "Blumenkohl-Käsesticks auf Karottenpüree und Linsensalat",
+      "price": 8.5
+    }
+  ],
+  "2026-09-29": [
+    {
+      "desc": "Kaiserschmarr`n mit Rosinen, Mandeln und Apfelmus",
+      "price": 6.0
+    },
+    {
+      "desc": "Pasta mit Tomatensoße und geriebenem Käse",
+      "price": 6.5
+    },
+    {
+      "desc": "Spaghetti Bolognese mit geriebenem Käse",
+      "price": 7.0
+    },
+    {
+      "desc": "Gezupfte vegane „Ente“, bunter Glasnudelsalat, Koriander und Sesam",
+      "price": 8.5
+    }
+  ],
+  "2026-09-30": [
+    {
+      "desc": "Sächsische Kartoffelsuppe mit Majoran und Bockwurst",
+      "price": 6.0
+    },
+    {
+      "desc": "Gemüse-Linsen-Dal mit Kokosmilch und Reis",
+      "price": 6.5
+    },
+    {
+      "desc": "Bauernroulade mit Speckbohnen und Petersilien-kartoffeln",
+      "price": 7.0
+    },
+    {
+      "desc": "Überraschungsgericht mit Gemüse von KOLA Leipzig",
+      "price": null
+    }
+  ],
+  "2026-10-01": [
+    {
+      "desc": "Milchreis mit Apfelmus und Zimtzucker",
+      "price": 6.0
+    },
+    {
+      "desc": "Backkäse mit Zaziki, Krautsalat und Tomatenreis",
+      "price": 6.5
+    },
+    {
+      "desc": "Thüringer Bratwurst mit Sauerkraut und Petersilien-kartoffeln",
+      "price": 7.0
+    },
+    {
+      "desc": "Penne mit Gorgonzolasoße, Birnen und Walnüssen",
+      "price": 8.5
+    }
+  ],
+  "2026-10-02": [
+    {
+      "desc": "Vegetarische Maultaschen in Gemüsebrühe",
+      "price": 6.0
+    },
+    {
+      "desc": "Pilzragout mit Bohnen und bunten Gnocchi",
+      "price": 6.5
+    },
+    {
+      "desc": "Sülze mit Remoulade, Salat und Bratkartoffeln",
+      "price": 7.0
+    },
+    {
+      "desc": "Gebackenes Flunderfilet mit Gurkensalat und Petersilien-kartoffeln",
+      "price": 8.5
+    }
+  ]
+}
