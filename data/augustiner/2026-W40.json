@@ -1,0 +1,52 @@
+{
+  "2026-09-28": [
+    {
+      "desc": "Schweineschnitzel „Wiener Art“ mit Kartoffel-Gurken-Salat",
+      "price": 8.5
+    },
+    {
+      "desc": "Allgäuer Käsespätzle mit Röstzwiebeln",
+      "price": 8.5
+    }
+  ],
+  "2026-09-29": [
+    {
+      "desc": "Wurstgulasch mit Spirelli und geriebenem Käse",
+      "price": 8.5
+    },
+    {
+      "desc": "Kartoffel-Frischkäsetaschen an buntem Blattsalat",
+      "price": 8.5
+    }
+  ],
+  "2026-09-30": [
+    {
+      "desc": "Hackbraten mit Mischgemüse und Kartoffelpüree",
+      "price": 8.5
+    },
+    {
+      "desc": "Rahmschwammerl mit Rösti-Taler",
+      "price": 8.5
+    }
+  ],
+  "2026-10-01": [
+    {
+      "desc": "Gezupftes Haxenfleisch in Meerrettichsauce an Salzkartoffeln",
+      "price": 8.5
+    },
+    {
+      "desc": "Rahmspinat mit Rührei und Salzkartoffeln",
+      "price": 8.5
+    }
+  ],
+  "2026-10-02": [
+    {
+      "desc": "Backfisch mit Kartoffel-Gurken-Salat und Remoulade",
+      "price": 8.5
+    },
+    {
+      "desc": "Penne Rigate in mediterraner Tomaten-Gemüsesauce",
+      "price": 8.5
+    }
+  ]
+}
