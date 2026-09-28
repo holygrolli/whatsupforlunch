@@ -1,0 +1,124 @@
+{
+  "2026-10-12": [
+    {
+      "desc": "Schupfnudel-Pfanne mit Brechbohnen, Erbsen, Karottengemüse",
+      "price": 4.5
+    },
+    {
+      "desc": "Graupeneintopf mit Kasslerwürfel",
+      "price": 3.5
+    },
+    {
+      "desc": "Wurstgulasch mit Tomatensoße",
+      "price": 2.95
+    },
+    {
+      "desc": "Pasta",
+      "price": 1.1
+    },
+    {
+      "desc": "Geriebener Gouda",
+      "price": 0.45
+    },
+    {
+      "desc": "Rohkostsalat nach Angebot",
+      "price": 1.4
+    }
+  ],
+  "2026-10-13": [
+    {
+      "desc": "Mit Gemüse-Bulgur, gefüllte Paprikaschote an einer Tomatensoße",
+      "price": 3.75
+    },
+    {
+      "desc": "Nudeln mit Bärlauchpesto",
+      "price": 3.5
+    },
+    {
+      "desc": "Rindergulasch",
+      "price": 4.2
+    },
+    {
+      "desc": "Kartoffeln",
+      "price": 1.1
+    },
+    {
+      "desc": "Rohkostsalat nach Angebot",
+      "price": 1.4
+    },
+    {
+      "desc": "Gemüse n. Angebot",
+      "price": 1.1
+    }
+  ],
+  "2026-10-14": [
+    {
+      "desc": "Gnocchi-Feldsalat mit Tomaten und Balkankäse",
+      "price": 4.7
+    },
+    {
+      "desc": "Möhren-Kartoffeleintopf mit Schweinefleisch",
+      "price": 3.5
+    },
+    {
+      "desc": "Geschwenkte Pasta mit Porree und Hackfleisch",
+      "price": 3.7
+    },
+    {
+      "desc": "Geriebener Gouda",
+      "price": 0.45
+    },
+    {
+      "desc": "Rohkostsalat nach Angebot",
+      "price": 1.4
+    }
+  ],
+  "2026-10-15": [
+    {
+      "desc": "Bunter Gartensalat mit Mozzarella und Mehrkornbaguette",
+      "price": 4.9
+    },
+    {
+      "desc": "Kartoffelpuffer mit Apfelmus und Zucker",
+      "price": 3.5
+    },
+    {
+      "desc": "Schnitzel „Münchner Art“ mit Meerrettich-Senf-Panade",
+      "price": 3.75
+    },
+    {
+      "desc": "Bratkartoffeln",
+      "price": 1.3
+    },
+    {
+      "desc": "Kartoffeln",
+      "price": 1.1
+    },
+    {
+      "desc": "Rohkostsalat nach Angebot",
+      "price": 1.4
+    },
+    {
+      "desc": "Gemüse n. Angebot",
+      "price": 1.1
+    }
+  ],
+  "2026-10-16": [
+    {
+      "desc": "Maultaschen-Spinat-Gratin mit Tomatensoße und Käse überbacken",
+      "price": 4.5
+    },
+    {
+      "desc": "Bauerntopf",
+      "price": 3.5
+    },
+    {
+      "desc": "Tagesangebot",
+      "price": 0.0
+    },
+    {
+      "desc": "Rohkostsalat nach Angebot",
+      "price": 1.4
+    }
+  ]
+}
