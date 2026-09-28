@@ -1,0 +1,66 @@
+{
+  "2026-09-28": [
+    {
+      "desc": "Steak, Letscho, Bratkartoffeln",
+      "price": 6.99
+    },
+    {
+      "desc": "Bauernfrühstück vegetarisch",
+      "price": 6.99
+    }
+  ],
+  "2026-09-29": [
+    {
+      "desc": "Kohlroulade, Kartoffeln, Kümmelsauce",
+      "price": 6.99
+    },
+    {
+      "desc": "Spätzle mit Champignonrahmsauce",
+      "price": 6.99
+    }
+  ],
+  "2026-09-30": [
+    {
+      "desc": "Schweinegulasch, Spätzle",
+      "price": 6.99
+    },
+    {
+      "desc": "Spinat, Kartoffeln, Rührei",
+      "price": 6.99
+    }
+  ],
+  "2026-10-01": [
+    {
+      "desc": "Putenrollbraten, Rotkohl, Klöße",
+      "price": 6.99
+    },
+    {
+      "desc": "2 Wirsingrouladen gefüllt mit Couscous, Tomaten Rahm Sauce",
+      "price": 6.99
+    }
+  ],
+  "2026-10-02": [
+    {
+      "desc": "Grützwurst, Sauerkraut, Kartoffeln",
+      "price": 6.99
+    },
+    {
+      "desc": "Matjes, Bratkartoffeln, Remoulade",
+      "price": 6.99
+    }
+  ],
+  "2026-W40": [
+    {
+      "desc": "Pasta Carbonara",
+      "price": 5.5
+    },
+    {
+      "desc": "Pasta mit getr. Tomaten, Basilikum in Rahm",
+      "price": 5.5
+    },
+    {
+      "desc": "Penne mit Kötbullar in Pilzrahm",
+      "price": 5.5
+    }
+  ]
+}
