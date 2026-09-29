@@ -1,0 +1,61 @@
+{
+  "2026-09-28": [],
+  "2026-09-29": [
+    {
+      "desc": "Schweineschnitzel \"Strammer Max\" mit Kochschinken und Spiegelei, dazu Bratkartoffeln",
+      "price": 10.5
+    },
+    {
+      "desc": "Gebackene Zucchini-Parmesan-Sticks auf verschiedenen Blattsalaten mit Cherrytomaten, Gurke und Hirtenkäse, optional mit Oliven, dazu Baguette und Zitronen-Chili-Dip (veget.)",
+      "price": 9.2
+    }
+  ],
+  "2026-09-30": [
+    {
+      "desc": "Hähnchenbrust \"Jerk Style\" auf buntem Grillgemüse mit Tomatensalsa",
+      "price": 9.8
+    },
+    {
+      "desc": "Salbei-Gnocchi, dazu pikantes Kürbisragout, Cranberrys und geröstete Mandeln (veget.)",
+      "price": 9.5
+    }
+  ],
+  "2026-10-01": [
+    {
+      "desc": "Frikadelle mit Rosenkohl, Salzkartoffeln und brauner Soße",
+      "price": 9.8
+    },
+    {
+      "desc": "Vegane Currywurst \"Nach Art des Hauses\" mit Kartoffelecken und Krautsalat (vegan)",
+      "price": 9.5
+    }
+  ],
+  "2026-10-02": [
+    {
+      "desc": "Gebackenes Seelachsfilet unter Kartoffelkruste, dazu Senfsoße und Gurkensalat",
+      "price": 9.9
+    },
+    {
+      "desc": "Hähnchengeschnetzeltes mit gebratenem Spitzkohl, dazu Basmatireis",
+      "price": 9.8
+    }
+  ],
+  "2026-W40": [
+    {
+      "desc": "Pasta mit Spinat-Petersilien-Pesto, dazu Birnen, Walnüsse (veget.) und Parmesan",
+      "price": 10.9
+    },
+    {
+      "desc": "Wirsinglasagne mit Tomaten, überbacken mit Hirtenkäse (veget.)",
+      "price": 12.9
+    },
+    {
+      "desc": "Hähnchengratin mit Penne und gebratener Zucchini, in pikanter Tomatensoße, überbacken mit Mozzarella und Sonnenblumenkerne",
+      "price": 12.9
+    },
+    {
+      "desc": "Hähnchengeschnetzeltes mit gebratenem Spitzkohl, dazu Basmatireis",
+      "price": 12.9
+    }
+  ]
+}
