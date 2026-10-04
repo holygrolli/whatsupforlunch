@@ -1,0 +1,52 @@
+{
+  "2026-10-05": [
+    {
+      "desc": "Schweineschnitzel „Wiener Art“ mit Kartoffel-Gurken-Salat",
+      "price": 8.5
+    },
+    {
+      "desc": "Allgäuer Käsespätzle mit Röstzwiebeln",
+      "price": 8.5
+    }
+  ],
+  "2026-10-06": [
+    {
+      "desc": "Spaghetti Bolognese mit Käse",
+      "price": 8.5
+    },
+    {
+      "desc": "Spaghetti all‘ Arrabbiata mit Parmesan",
+      "price": 8.5
+    }
+  ],
+  "2026-10-07": [
+    {
+      "desc": "Augustiner Bratwurst mit Sauerkraut und Kartoffelpüree",
+      "price": 8.5
+    },
+    {
+      "desc": "Spätzlepfanne mit buntem Gemüse und Röstzwiebeln",
+      "price": 8.5
+    }
+  ],
+  "2026-10-08": [
+    {
+      "desc": "Mediterranes Hänchen-Ragout mit Reis",
+      "price": 8.5
+    },
+    {
+      "desc": "Gebackener Blumenkohl mit Sc. Hollandaise und Salzkartoffeln",
+      "price": 8.5
+    }
+  ],
+  "2026-10-09": [
+    {
+      "desc": "Backfisch mit Kartoffel-Gurken-Salat und Remouladensauce",
+      "price": 8.5
+    },
+    {
+      "desc": "Gemüseschnitzel mit Kartoffel-Gurken-Salat",
+      "price": 8.5
+    }
+  ]
+}
