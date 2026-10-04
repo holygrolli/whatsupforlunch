@@ -1,0 +1,92 @@
+{
+  "2026-10-19": [
+    {
+      "desc": "Erbseneintopf mit Bockwurst und Kartoffel-würfeln",
+      "price": 6.0
+    },
+    {
+      "desc": "Eieromelette mit Rahmspinat und Petersilien-kartoffeln",
+      "price": 6.5
+    },
+    {
+      "desc": "Hackbraten mit Speckbohnen und Kroketten",
+      "price": 7.0
+    },
+    {
+      "desc": "Chicken-Fajita-Wrap mit Mais, Bohnen, Reis, Tomaten und Koriander",
+      "price": 8.5
+    }
+  ],
+  "2026-10-20": [
+    {
+      "desc": "Drei Eierkuchen mit Apfelmus und Zimtzucker",
+      "price": 6.0
+    },
+    {
+      "desc": "Pasta mit Tomatensoße und geriebenem Käse",
+      "price": 6.5
+    },
+    {
+      "desc": "Spaghetti Bolognese mit geriebenem Käse",
+      "price": 7.0
+    },
+    {
+      "desc": "Veganes „Pulled Pork\" mit BBQ-SC., Krautsalat und Kartoffelecken",
+      "price": 8.5
+    }
+  ],
+  "2026-10-21": [
+    {
+      "desc": "Ungarische Gulaschsuppe mit Paprika und Kartoffelwürfeln",
+      "price": 6.0
+    },
+    {
+      "desc": "Kürbis-Medaillon mit Bete-Salat und bunten Gnocchi",
+      "price": 6.5
+    },
+    {
+      "desc": "Hähnchencurry mit Blumenkohl, Kokosmilch und Reis",
+      "price": 7.0
+    },
+    {
+      "desc": "Überraschungsgericht mit Gemüse von KOLA Leipzig",
+      "price": null
+    }
+  ],
+  "2026-10-22": [
+    {
+      "desc": "Birnen-Zimt-Lasagne mit Schokoladen-Soße",
+      "price": 6.0
+    },
+    {
+      "desc": "Vegane „Hackbällchen\" in Tomatensoße, dazu Pasta",
+      "price": 6.5
+    },
+    {
+      "desc": "Szegediner Gulasch mit Sauerkraut und böhmischen Knödeln",
+      "price": 7.0
+    },
+    {
+      "desc": "Gebackene Tintenfischringe auf buntem Nudelsalat und Knobidip",
+      "price": 8.5
+    }
+  ],
+  "2026-10-23": [
+    {
+      "desc": "Indische rote Linsensuppe mit Kokosmilch, Koriander und Naan Brot",
+      "price": 6.0
+    },
+    {
+      "desc": "Gemüseköttbullar auf Kräuter-Waldpilzrahm und Kartoffelstampf",
+      "price": 6.5
+    },
+    {
+      "desc": "Rotbarschfilet auf Blattspinat und Risi Bisi",
+      "price": 7.0
+    },
+    {
+      "desc": "Lammhacksteak auf Ratatouille und Kartoffelrösti",
+      "price": 8.5
+    }
+  ]
+}
