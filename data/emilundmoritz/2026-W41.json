@@ -1,0 +1,66 @@
+{
+  "2026-10-05": [
+    {
+      "desc": "Gyros Kräuterreis dazu Gurkensalat",
+      "price": 6.99
+    },
+    {
+      "desc": "Kräuterquark und Kartoffeln dazu Gurkensalat",
+      "price": 6.99
+    }
+  ],
+  "2026-10-06": [
+    {
+      "desc": "Geschnetzeltes Art Stroganoff dazu Spätzle",
+      "price": 6.99
+    },
+    {
+      "desc": "Backfisch Möhren dazu Kartoffelstampf",
+      "price": 6.99
+    }
+  ],
+  "2026-10-07": [
+    {
+      "desc": "Schmöllner Mutzbraten Sauerkraut Kartoffeln",
+      "price": 6.99
+    },
+    {
+      "desc": "Eier in Senfsoße Kartoffeln dazu Gurkensalat",
+      "price": 6.99
+    }
+  ],
+  "2026-10-08": [
+    {
+      "desc": "Schweineschnitzel Rahmwirsing dazu Kartoffeln",
+      "price": 6.99
+    },
+    {
+      "desc": "Wirsing-Kartoffelpfanne",
+      "price": 6.99
+    }
+  ],
+  "2026-10-09": [
+    {
+      "desc": "Kaßlerbraten Rosenkohl dazu Kartoffeln",
+      "price": 6.99
+    },
+    {
+      "desc": "Matjes Bratkartoffeln und Remoulade",
+      "price": 6.99
+    }
+  ],
+  "2026-W41": [
+    {
+      "desc": "Cremige Pasta mit Hähnchenfleisch",
+      "price": 5.5
+    },
+    {
+      "desc": "Pasta Cabonara",
+      "price": 5.5
+    },
+    {
+      "desc": "Farfalle mit Tomaten-Basilikumsoße und Parmesan",
+      "price": 5.5
+    }
+  ]
+}
