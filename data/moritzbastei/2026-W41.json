@@ -1,0 +1,61 @@
+{
+  "2026-10-05": [],
+  "2026-10-06": [
+    {
+      "desc": "Schweineschnitzel in Haselnusspanade, dazu Rahmchampignons und Bratkartoffeln",
+      "price": 10.5
+    },
+    {
+      "desc": "Brokkoli in Kichererbsenbackteig auf rotem Linsencurry mit Paprika und Lauchzwiebeln (vegan)",
+      "price": 9.2
+    }
+  ],
+  "2026-10-07": [
+    {
+      "desc": "Gebackene Hähnchenbrust in Cornflakes-Panade, dazu Tomaten-Paprika-Gemüse und Kartoffelecken",
+      "price": 9.8
+    },
+    {
+      "desc": "Cannelloni gefüllt mit Hirtenkäse in pikanter Tomatensoße, überbacken mit Gouda und Sonnenblumenkernen (veget.)",
+      "price": 9.5
+    }
+  ],
+  "2026-10-08": [
+    {
+      "desc": "Currywurst \"Nach Art des Hauses\" mit Kartoffelecken und Salatbeilage",
+      "price": 9.8
+    },
+    {
+      "desc": "Sojagulasch mit geschmortem Spitzkohl, dazu Böhmische Knödel (veget.)",
+      "price": 9.5
+    }
+  ],
+  "2026-10-09": [
+    {
+      "desc": "Gebratenes Seelachsfilet, dazu Erbsen-Minzpürree, Zitronensoße und Süßkartoffelecken",
+      "price": 9.9
+    },
+    {
+      "desc": "Feuriges Hähnchen in Paprikarahm, dazu Basmatireis und geröstete Mandeln",
+      "price": 9.8
+    }
+  ],
+  "2026-W41": [
+    {
+      "desc": "Pasta mit Karotten-Ingwer-Pesto, dazu geröstete Haselnüsse (veget.) und Parmesan",
+      "price": 10.9
+    },
+    {
+      "desc": "Spinatlasagne mit getrockneten Tomaten, überbacken mit Mozzarella (veget.)",
+      "price": 12.9
+    },
+    {
+      "desc": "Kartoffelgratin \"Griechischer Art\" mit Hackfleisch, Tomaten und Aubergine, überbacken mit Gouda",
+      "price": 12.9
+    },
+    {
+      "desc": "Feuriges Hähnchen in Paprikarahm, dazu Basmatireis und geröstete Mandeln",
+      "price": 12.9
+    }
+  ]
+}
