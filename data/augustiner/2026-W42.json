@@ -1,0 +1,52 @@
+{
+  "2026-10-12": [
+    {
+      "desc": "Schweineschnitzel „Wiener Art“ mit Kartoffel-Gurken-Salat",
+      "price": 8.5
+    },
+    {
+      "desc": "Allgäuer Käsespätzle mit Röstzwiebeln",
+      "price": 8.5
+    }
+  ],
+  "2026-10-13": [
+    {
+      "desc": "Pulled Pork in BBQ-Sauce mit Kartoffel-Ecken und Krautsalat",
+      "price": 8.5
+    },
+    {
+      "desc": "Penne Rigate in Käsesahnesauce mit Kirschtomaten",
+      "price": 8.5
+    }
+  ],
+  "2026-10-14": [
+    {
+      "desc": "„Jäger Schnitzel“ - panierte Jagdwurst mit Spirelli in Tomatensauce",
+      "price": 8.5
+    },
+    {
+      "desc": "Pilz-Maultaschen auf Rahmsauerkraut mit Röstzwiebeln",
+      "price": 8.5
+    }
+  ],
+  "2026-10-15": [
+    {
+      "desc": "Königsberger Klopse in Kapernsauce mit Salzkartoffeln",
+      "price": 8.5
+    },
+    {
+      "desc": "Asia-Gemüsepfanne mit Reis",
+      "price": 8.5
+    }
+  ],
+  "2026-10-16": [
+    {
+      "desc": "Backfisch mit Kartoffel-Gurken-Salat und Remouladensauce",
+      "price": 8.5
+    },
+    {
+      "desc": "Gefüllte Ofenkartoffel mit Kräuterquark an buntem Blattsalat",
+      "price": 8.5
+    }
+  ]
+}
