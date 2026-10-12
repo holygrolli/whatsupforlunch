@@ -1,0 +1,130 @@
+{
+  "2026-10-12": [
+    {
+      "desc": "2 Jägerschnitzel, Pasta, Tomatensauce",
+      "price": 6.99
+    },
+    {
+      "desc": "3 Fischstäbchen, Kartoffelstampf,Tomatensoße",
+      "price": 6.99
+    }
+  ],
+  "2026-10-13": [
+    {
+      "desc": "2 hausgemachte Frikadellen, Kartoffeln, Speckbohnen, Soße",
+      "price": 6.99
+    },
+    {
+      "desc": "Gemüsefrikadelle auf Karottengemüse und Kräuterreis dazu Kräutersoße",
+      "price": 6.99
+    }
+  ],
+  "2026-10-14": [
+    {
+      "desc": "Schweineschnitzel, Blumenkohl, Sauce Hollandaise und Salzkartoffeln",
+      "price": 6.99
+    },
+    {
+      "desc": "Spinatlasagne mit Lauch und Karotten",
+      "price": 6.99
+    }
+  ],
+  "2026-10-15": [
+    {
+      "desc": "Currywurst mit Pommes",
+      "price": 6.99
+    },
+    {
+      "desc": "Chilli sin Carne (Mais, Kidneybohnen,Kichererbsen und Bohnen),Kräuterreis",
+      "price": 6.99
+    }
+  ],
+  "2026-10-16": [
+    {
+      "desc": "Schweinebraten mit Rotkohl und Klößen",
+      "price": 6.99
+    },
+    {
+      "desc": "Milchreis mit heißen Kirschen und Zucker-Zimt",
+      "price": 6.99
+    }
+  ],
+  "2026-10-19": [
+    {
+      "desc": "Rostbrä'l mit Bratkartoffeln und Schmorzwiebeln",
+      "price": 6.99
+    },
+    {
+      "desc": "3 Kartoffelrösti mit Quark und kleinem Salat",
+      "price": 6.99
+    }
+  ],
+  "2026-10-20": [
+    {
+      "desc": "Leberkäse gebr., Kartoffelstampf, Sauerkraut, Sauce",
+      "price": 6.99
+    },
+    {
+      "desc": "Zucchini-Erbsen-Rahmgemüse an Butterspätzle mit Röstzwiebeln",
+      "price": 6.99
+    }
+  ],
+  "2026-10-21": [
+    {
+      "desc": "Putenschnitzel mit Kartoffeln, Möhrengemüse, Kräutersoße",
+      "price": 6.99
+    },
+    {
+      "desc": "Kartoffeltaschen mit Frischkäse, Kräuterdip, Salat",
+      "price": 6.99
+    }
+  ],
+  "2026-10-22": [
+    {
+      "desc": "Pasta mit Wurstgulasch, Käse",
+      "price": 6.99
+    },
+    {
+      "desc": "Backfisch Kartoffelstampf, Tomatensauce",
+      "price": 6.99
+    }
+  ],
+  "2026-10-23": [
+    {
+      "desc": "Königsberger Klopse an Kapernsoße mit Kartoffeln",
+      "price": 6.99
+    },
+    {
+      "desc": "Knuspriges Fischfilet an Rahmwirsing und Kräuterreis",
+      "price": 6.99
+    }
+  ],
+  "2026-W42": [
+    {
+      "desc": "Cremige Pasta mit Hähnchenfleisch",
+      "price": 5.5
+    },
+    {
+      "desc": "Avocado- Basilikum Pasta mit Kirschtomaten",
+      "price": 5.5
+    },
+    {
+      "desc": "Spinelli mit Gulasch",
+      "price": 5.5
+    }
+  ],
+  "2026-W43": [
+    {
+      "desc": "Pasta mit Waldpilzrahm",
+      "price": 5.5
+    },
+    {
+      "desc": "Farfalle mit Basilikum Parmesan Pesto",
+      "price": 5.5
+    },
+    {
+      "desc": "Spirelli mit Hähnchengeschnetzeltes",
+      "price": 5.5
+    }
+  ]
+}
