@@ -1,0 +1,61 @@
+{
+  "2026-10-12": [],
+  "2026-10-13": [
+    {
+      "desc": "Schweineschnitzel gefüllt mit Schinken und Käse, dazu Rahmerbsen und Bratkartoffeln",
+      "price": 10.5
+    },
+    {
+      "desc": "Eier in Honig-Senf-Soße, dazu Salzkartoffeln, frittierte Petersilie und Gurkensalat (veget.)",
+      "price": 8.9
+    }
+  ],
+  "2026-10-14": [
+    {
+      "desc": "Orientalisches Hähnchen auf Gemüse-Couscous, dazu Minz-Dip",
+      "price": 9.8
+    },
+    {
+      "desc": "Hausgemachte Spinat-Semmelknödel mit leichter Käsesoße, dazu geröstete Mandeln und rote Kresse (veget.)",
+      "price": 9.2
+    }
+  ],
+  "2026-10-15": [
+    {
+      "desc": "Pasta mit Schinken-Sahne-Soße, Lauchzwiebeln und Kirschtomaten",
+      "price": 9.6
+    },
+    {
+      "desc": "Gebackene Aubergine in Parmesanhülle, dazu Tomatenreis und Basilikum-Dip",
+      "price": 9.2
+    }
+  ],
+  "2026-10-16": [
+    {
+      "desc": "Gebratenes Seelachsfilet mit Kartoffel-Pastinakenstampf, Mandelbrokkoli und Tomaten-Sahne-Soße",
+      "price": 9.9
+    },
+    {
+      "desc": "Pfeffer-Geschnetzeltes vom Huhn mit Kirschtomaten und frittiertem Rucola, dazu Basmatireis",
+      "price": 9.8
+    }
+  ],
+  "2026-W42": [
+    {
+      "desc": "Pasta mit Paprika-Chili-Honigpesto, dazu geröstete Sonnenblumenkerne (veget.) und Parmesan",
+      "price": 10.9
+    },
+    {
+      "desc": "Kürbis-Lasagne überbacken mit Mozzarella und Mandeln (veget.)",
+      "price": 12.9
+    },
+    {
+      "desc": "Brokkoli-Kartoffelgratin mit gebratenen Hähnchenbruststreifen überbacken mit Mozzarella",
+      "price": 12.9
+    },
+    {
+      "desc": "Pfeffer-Geschnetzeltes vom Huhn mit Kirschtomaten und frittiertem Rucola, dazu Basmatireis (Extra ab 15 Uhr)",
+      "price": 12.9
+    }
+  ]
+}
