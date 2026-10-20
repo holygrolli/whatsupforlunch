@@ -1,0 +1,61 @@
+{
+  "2026-10-19": [],
+  "2026-10-20": [
+    {
+      "desc": "Schweineschnitzel \"Western\" mit BBQ-Zwiebeln, Bacon und gebackenen Kartoffelecken, dazu Sour-Creme",
+      "price": 10.5
+    },
+    {
+      "desc": "Gratinierter Hirtenkäse mit Honig, auf verschiedenen Blattsalaten mit gebratenem Kürbis, roter Bete, Äpfeln und Walnüssen, dazu Hausdressing und Baguette (veget.)",
+      "price": 9.2
+    }
+  ],
+  "2026-10-21": [
+    {
+      "desc": "Geschmorter Schweinerücken mit Rahmchampignons, Kräuterkartoffelstampf und Röstzwiebeln",
+      "price": 9.8
+    },
+    {
+      "desc": "Zucchini-Kartoffelrösti mit Kräuterschmand und Tomatensalat (veget.)",
+      "price": 9.2
+    }
+  ],
+  "2026-10-22": [
+    {
+      "desc": "Frikadelle mit Rahmwirsing, Salzkartoffeln und brauner Soße",
+      "price": 9.8
+    },
+    {
+      "desc": "Gebackene Risottobällchen auf pikantem Kürbisragout mit frittiertem Rucola (veget.)",
+      "price": 9.2
+    }
+  ],
+  "2026-10-23": [
+    {
+      "desc": "Gedünstetes Seelachsfilet auf Kartoffel-Lauchgratin, überbacken mit Gouda",
+      "price": 9.9
+    },
+    {
+      "desc": "Thai-Hähnchencurry mit buntem Gemüse in Kokossoße, dazu Basmatireis und Erdnüsse",
+      "price": 9.8
+    }
+  ],
+  "2026-W43": [
+    {
+      "desc": "Pasta mit Koriander-Petersilienpesto, dazu geröstete Haselnüsse, Karottenchips (veget.) und Parmesan",
+      "price": 10.9
+    },
+    {
+      "desc": "Lasagne \"Al Pesto\" mit Brokkoli, Waldpilzen und Kräuterpesto, überbacken mit Gouda",
+      "price": 12.9
+    },
+    {
+      "desc": "Süßkartoffel-Spinatgratin mit gebratenen Hähnchenbruststreifen, überbacken mit Mozzarella und Mandeln",
+      "price": 12.9
+    },
+    {
+      "desc": "Thai-Hähnchencurry mit buntem Gemüse in Kokossoße, dazu Basmatireis und Erdnüsse (Extra ab 15 Uhr)",
+      "price": 12.9
+    }
+  ]
+}
