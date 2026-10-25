@@ -19,11 +19,12 @@ REPO_ROOT = Path(__file__).resolve().parent.parent
 LOCATIONS_DIR = REPO_ROOT / "locations"
 DEFAULTS_FILE = Path(__file__).resolve().parent / "defaults.yaml"
 
-# The seven supported locations (plan section 1, decision 1).
+# Supported restaurant locations.
 SUPPORTED_LOCATIONS = (
     "augustiner",
     "emilundmoritz",
     "galeria",
+    "lapiazza",
     "lecasino",
     "leos",
     "moritzbastei",

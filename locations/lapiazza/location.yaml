@@ -1,0 +1,38 @@
+schema_version: 1
+name: La Piazza Leipzig
+enabled: true
+website:
+  url: https://www.lapiazza-leipzig.de/
+scrape:
+  type: scrapy
+  spider:
+    allowed_domains: [lapiazza-leipzig.de]
+    link_xpath: '//section[@id="lunch_content"]//a[contains(@href, "mittagskarte.pdf")][contains(normalize-space(.), "ÖFFNEN")]/@href'
+    count: 1
+download:
+  formats: [pdf]
+# pdftoppm with singlefile renders only page 1.  The PDF's first page is the
+# weekly lunch menu; later pages are not needed for extraction.
+prepare:
+  - pdftoppm: { resolution: 150, format: png, singlefile: true }
+extract:
+  type: vision
+  input_file: image.png
+  prompt: >-
+    Read this image of La Piazza's weekly lunch menu (Mittagskarte). Use the
+    printed date range as the valid period. Extract every listed dish and the
+    price shown for it. These dishes are weekly options for the full printed
+    period, not day-specific offers. Return a JSON object with one ISO 8601
+    week key for the week containing the first printed date (for example
+    "2026-W44") and a list of meal objects with "desc" and numeric "price"
+    fields. If a price is shared by a group of dishes, apply it to each dish in
+    that group. Do not invent meals or prices, and do not omit listed dishes.
+  add_current_date: false
+  model:
+    provider: google
+    vision_model: vertex/gemini-2.5-flash-lite@europe-central2
+publish:
+  week_key_from: week_key
+schedule:
+  # GitHub Actions cron is UTC: 15:00 UTC is 16:00/17:00 Leipzig time.
+  cron: '0 15 * * 0'

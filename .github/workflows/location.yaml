@@ -13,12 +13,13 @@ on:
           - augustiner
           - emilundmoritz
           - galeria
+          - lapiazza
           - lecasino
           - leos
           - moritzbastei
           - ratskeller
-  # Cron cannot be parameterized in a reusable workflow.  The seven thin
-  # caller workflows retain the schedules and pass their fixed location here.
+  # Cron cannot be parameterized in a reusable workflow.  Each thin caller
+  # workflow retains its schedule and passes its fixed location here.
   workflow_call:
     inputs:
       location:
@@ -100,7 +101,7 @@ jobs:
           mkdir -p tmp
           touch tmp/.pipeline-artifact-placeholder
           if [[ "$LOCATION" == "all" ]]; then
-            locations=(augustiner emilundmoritz galeria lecasino leos moritzbastei ratskeller)
+            locations=(augustiner emilundmoritz galeria lapiazza lecasino leos moritzbastei ratskeller)
           else
             locations=("$LOCATION")
           fi
@@ -154,7 +155,7 @@ jobs:
         run: |
           set -Eeuo pipefail
           if [[ "$LOCATION" == "all" ]]; then
-            locations=(augustiner emilundmoritz galeria lecasino leos moritzbastei ratskeller)
+            locations=(augustiner emilundmoritz galeria lapiazza lecasino leos moritzbastei ratskeller)
           else
             locations=("$LOCATION")
           fi
@@ -215,7 +216,7 @@ jobs:
         run: |
           set -Eeuo pipefail
           if [[ "$LOCATION" == "all" ]]; then
-            locations=(augustiner emilundmoritz galeria lecasino leos moritzbastei ratskeller)
+            locations=(augustiner emilundmoritz galeria lapiazza lecasino leos moritzbastei ratskeller)
           else
             locations=("$LOCATION")
           fi

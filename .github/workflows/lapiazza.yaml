@@ -1,0 +1,19 @@
+name: lapiazza
+
+on:
+  workflow_dispatch:
+  schedule:
+    # Sunday 19:00 UTC = 20:00/21:00 in Leipzig (CET/CEST).
+    - cron: '0 19 * * 0'
+
+permissions:
+  contents: write
+  packages: write
+  pull-requests: write
+
+jobs:
+  pipeline:
+    uses: ./.github/workflows/location.yaml
+    with:
+      location: lapiazza
+    secrets: inherit

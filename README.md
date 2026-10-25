@@ -38,10 +38,11 @@ python -m pipeline ratskeller migrate-state
 python -m pipeline ratskeller migrate-state --apply
 ```
 
-The seven scheduled locations are orchestrated by the single
+The eight scheduled locations are orchestrated by the single
 `.github/workflows/location.yaml` workflow. A manual dispatch accepts `all` or one
-of `augustiner`, `emilundmoritz`, `galeria`, `lecasino`, `leos`, `moritzbastei`, and
-`ratskeller`. The workflow keeps a temporary dual-read of legacy marker files during
+of `augustiner`, `emilundmoritz`, `galeria`, `lapiazza`, `lecasino`, `leos`,
+`moritzbastei`, and `ratskeller`. The workflow keeps a temporary dual-read of legacy
+marker files during
 the state cutover (`--legacy-state`) but writes processed state only to DynamoDB.
 After the migration has been applied and one successful cycle has been observed per
 location, remove the legacy marker files and the `--legacy-state` arguments together.
@@ -67,6 +68,14 @@ The runner needs PyYAML to load `location.yaml`; it is declared in
 `docker/Dockerfile`. If your local copy of the pinned image predates this
 dependency, rebuild/publish the image with the Docker workflow before enabling a
 scheduled run.
+
+### La Piazza
+
+La Piazza publishes its weekly Mittagskarte at a number-suffixed PDF link on its
+homepage. The `lapiazza` location follows the `mittagskarte.pdf` link, downloads
+the PDF, renders only its first page to an image, and extracts the weekly dishes
+with the same Gemini vision model used by the other image-based locations. Its
+caller workflow runs Sundays at 15:00 UTC (16:00/17:00 Leipzig time).
 
 ### Inline scraping with content fingerprints
 
@@ -154,7 +163,7 @@ act --pull=false \
 
 Change `event_local.json`'s `inputs.location` to another supported location for a
 second run. Use one location at a time when testing with a real model; `all` can
-make seven live discovery/model runs. The run artifacts include the pipeline manifest
+make eight live discovery/model runs. The run artifacts include the pipeline manifest
 and are written below `artifacts/`. The `act` event intentionally bypasses AWS and
 PR creation; a GitHub scheduled/manual run without that marker uses DynamoDB and the
 normal app-token/create-pull-request publication path.
