@@ -177,10 +177,10 @@ class TestSchemaValidation(unittest.TestCase):
 
 
 class TestLoadLocations(unittest.TestCase):
-    def test_all_seven_locations_validate(self):
+    def test_all_eight_locations_validate(self):
         cfgs = load_all()
         self.assertEqual(set(cfgs), set(SUPPORTED_LOCATIONS))
-        self.assertEqual(len(cfgs), 7)
+        self.assertEqual(len(cfgs), 8)
 
     def test_unknown_location(self):
         with self.assertRaisesRegex(ConfigError, "unknown location"):
@@ -274,6 +274,28 @@ class TestEffectiveConfigEquivalence(unittest.TestCase):
             [next(iter(s)) for s in cfg["prepare"]], ["pdfseparate", "pdftoppm"]
         )
         self.assertEqual(cfg["extract"]["input_file"], "image.png")
+
+    def test_lapiazza(self):
+        cfg = load_location("lapiazza")
+        variant = cfg.default_variant
+        self.assertEqual(variant["scrape"]["type"], "scrapy")
+        spider = variant["scrape"]["spider"]
+        self.assertIn('section[@id="lunch_content"]', spider["link_xpath"])
+        self.assertIn("mittagskarte.pdf", spider["link_xpath"])
+        self.assertEqual(spider["count"], 1)
+        self.assertEqual(variant["download"]["formats"], ["pdf"])
+        self.assertEqual(variant["prepare"], [
+            {"pdftoppm": {"resolution": 150, "format": "png", "singlefile": True}}
+        ])
+        self.assertEqual(variant["extract"]["type"], "vision")
+        self.assertEqual(variant["extract"]["input_file"], "image.png")
+        self.assertEqual(
+            variant["extract"]["model"]["vision_model"],
+            "vertex/gemini-2.5-flash-lite@europe-central2",
+        )
+        self.assertFalse(variant["extract"]["add_current_date"])
+        self.assertEqual(variant["publish"]["week_key_from"], "week_key")
+        self.assertEqual(cfg.schedule["cron"], "0 15 * * 0")
 
     def test_leos(self):
         cfg = load_location("leos").default_variant

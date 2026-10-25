@@ -15,6 +15,7 @@ LOCATION_CRONS = {
     "augustiner": ("augustiner.yaml", "10 10 * * 0"),
     "emilundmoritz": ("emilundmoritz.yaml", "10 5 * * 1"),
     "galeria": ("galeria.yaml", "0 18 * * 0"),
+    "lapiazza": ("lapiazza.yaml", "0 19 * * 0"),
     "lecasino": ("lecasino.yaml", "45 7 * * 1"),
     "leos": ("leos.yaml", "30 7 * * 1"),
     "moritzbastei": ("moritzbastai.yaml", "0 9 * * 2"),
