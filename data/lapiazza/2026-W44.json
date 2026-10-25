@@ -1,0 +1,52 @@
+{
+  "2026-W44": [
+    {
+      "desc": "Penne in Gorgonzolasauce und Walnüssen",
+      "price": 7.5
+    },
+    {
+      "desc": "Hähnchen-Pilzragout mit Polenta",
+      "price": 7.5
+    },
+    {
+      "desc": "Spaghetti alla Norma mit Auberginen und Ricotta Käse in Tomatensauce",
+      "price": 7.5
+    },
+    {
+      "desc": "Pizza mit Thunfisch und milden, eingelegten Peperoni Lombardi",
+      "price": 7.5
+    },
+    {
+      "desc": "Kürbissuppe mit gebratenen Garnelen",
+      "price": 8.0
+    },
+    {
+      "desc": "Maccheroni mit Rindfleischragout in Tomatensauce",
+      "price": 8.0
+    },
+    {
+      "desc": "Pizza Abruzzese mit Porchetta (traditioneller italienischer Schweinerollbraten) und geräuchertem Scamorza Käse",
+      "price": 8.0
+    },
+    {
+      "desc": "Hähnchenbrustfilet nach Caprese- Art mit Mozzarella, Tomaten und Basilikum, dazu Parmesanrisotto",
+      "price": 8.0
+    },
+    {
+      "desc": "Tagliolini mit Garnelen in Basilikumpestosauce",
+      "price": 12.5
+    },
+    {
+      "desc": "Weiße Pizza mit Trüffelcreme und Pfifferlingen",
+      "price": 12.5
+    },
+    {
+      "desc": "Gebratenes Doradenfilet auf italienischem Linseneintopf",
+      "price": 12.5
+    },
+    {
+      "desc": "Gegrilltes Rumpsteak mit Champignon-Rahmsauce und Tagesbeilage",
+      "price": 12.5
+    }
+  ]
+}
