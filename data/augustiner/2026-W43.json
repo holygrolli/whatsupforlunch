@@ -1,0 +1,52 @@
+{
+  "2026-10-19": [
+    {
+      "desc": "Schweineschnitzel „Wiener Art“ mit Kartoffel-Gurken-Salat",
+      "price": 8.5
+    },
+    {
+      "desc": "Allgäuer Käsespätzle mit Röstzwiebeln",
+      "price": 8.5
+    }
+  ],
+  "2026-10-20": [
+    {
+      "desc": "Gezupftes Haxenfleisch in Meerrettichsauce mit Kartoffeln",
+      "price": 8.5
+    },
+    {
+      "desc": "Rührei mit Gurkensalat und Kartoffeln",
+      "price": 8.5
+    }
+  ],
+  "2026-10-21": [
+    {
+      "desc": "Kasslerbraten mit Sauerkraut und Kartoffeln",
+      "price": 8.5
+    },
+    {
+      "desc": "Gnocchi in Kräuter-Käsesauce",
+      "price": 8.5
+    }
+  ],
+  "2026-10-22": [
+    {
+      "desc": "Hähnchen-Geschnetzeltes in Champignonrahm mit Rösti",
+      "price": 8.5
+    },
+    {
+      "desc": "Rahmschwammerl mit Rösti",
+      "price": 8.5
+    }
+  ],
+  "2026-10-23": [
+    {
+      "desc": "Backfisch mit Kartoffel-Gurken-Salat und Remouladensauce",
+      "price": 8.5
+    },
+    {
+      "desc": "Kartoffel-Frischkäsetaschen an bunten Blattsalaten",
+      "price": 8.5
+    }
+  ]
+}
