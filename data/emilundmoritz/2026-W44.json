@@ -1,0 +1,66 @@
+{
+  "2026-10-26": [
+    {
+      "desc": "Bratwurst an Sauerkraut und Kartoffelstampf",
+      "price": 6.99
+    },
+    {
+      "desc": "Backfisch in Senfsauce,Kartoffelstampf",
+      "price": 6.99
+    }
+  ],
+  "2026-10-27": [
+    {
+      "desc": "Geflügelleber an Apfel- Zwiebelgemüse und Erbsenkartoffelstampf",
+      "price": 6.99
+    },
+    {
+      "desc": "Kaiserschmarrn mit heißen Kirschen",
+      "price": 6.99
+    }
+  ],
+  "2026-10-28": [
+    {
+      "desc": "Schweineschnitzel an Rahmkarotten mit Petersilienkartoffeln",
+      "price": 6.99
+    },
+    {
+      "desc": "Pasta mit Waldpilzrahm und frischer Petersilie",
+      "price": 6.99
+    }
+  ],
+  "2026-10-29": [
+    {
+      "desc": "Hacksteak, Waldpilzsauce, Kartoffelstampf",
+      "price": 6.99
+    },
+    {
+      "desc": "2 Spiegeleier Spinat Salzkartoffeln",
+      "price": 6.99
+    }
+  ],
+  "2026-10-30": [
+    {
+      "desc": "Hühnerfrikassee mit Kräuterreis",
+      "price": 6.99
+    },
+    {
+      "desc": "Kartoffel-Kürbisgratin",
+      "price": 6.99
+    }
+  ],
+  "2026-W44": [
+    {
+      "desc": "Pasta Carbonara",
+      "price": 5.5
+    },
+    {
+      "desc": "Farfalle mit Avocado- Limettensoße",
+      "price": 5.5
+    },
+    {
+      "desc": "Pasta Bolognese,Käse",
+      "price": 5.5
+    }
+  ]
+}
