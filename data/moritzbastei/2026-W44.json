@@ -1,0 +1,69 @@
+{
+  "2026-10-26": [],
+  "2026-10-27": [
+    {
+      "desc": "Schweineschnitzel \"Mailänder Art\" in Parmesan-Semmelkruste, dazu pikante Tomatensoße und Linguine",
+      "price": 10.5
+    },
+    {
+      "desc": "Gebackene Falafel auf verschiedenen Blattsalaten mit gegrillter Paprika, Zucchini und getrockneten Tomaten, dazu Minzdip (veget.)",
+      "price": 9.2
+    }
+  ],
+  "2026-10-28": [
+    {
+      "desc": "Königsberger Klopse mit Kräuterkartoffelstampf und Krautsalat",
+      "price": 9.8
+    },
+    {
+      "desc": "Gebratene Minikartoffeln mit Kirschtomaten und Rucola, dazu Paprika-Gurken-Quark sowie geröstete Sonnenblumenkerne (veget.)",
+      "price": 9.2
+    }
+  ],
+  "2026-10-29": [
+    {
+      "desc": "Wurstgulasch mit Paprika auf Pasta, dazu Gouda",
+      "price": 9.8
+    },
+    {
+      "desc": "Süßkartoffel-Sojacurry mit gebratenen Sojastreifen, Zuckerschoten und Kirschtomaten, dazu Baguette (vegan)",
+      "price": 9.2
+    }
+  ],
+  "2026-10-30": [
+    {
+      "desc": "Tagliatelle in Lachs-Basilikumsauce mit gebackenen Kirschtomaten und Parmesan",
+      "price": 9.9
+    },
+    {
+      "desc": "Hähnchengeschnetzeltes nach \"Züricher Art\" mit Champignons, dazu Kräuterreis",
+      "price": 9.8
+    }
+  ],
+  "2026-W44": [
+    {
+      "desc": "Pasta mit Tomaten-Rosmarin-Pesto dazu Walnüsse (veget.) und Parmesan",
+      "price": 10.9
+    },
+    {
+      "desc": "Spitzkohl-Karottenlasagne überbacken mit Mozzarella und Sesam (veget.)",
+      "price": 12.9
+    },
+    {
+      "desc": "Kartoffelgratin \"Indisch\" mit gebratenen Hähnchenbruststreifen, Blumenkohl und Karotten",
+      "price": 12.9
+    },
+    {
+      "desc": "Hühnernudelsuppe mit Wurzelgemüse und Baguette (klein)",
+      "price": 3.9
+    },
+    {
+      "desc": "Hühnernudelsuppe mit Wurzelgemüse und Baguette (groß)",
+      "price": 6.9
+    },
+    {
+      "desc": "Hähnchengeschnetzeltes nach \"Züricher Art\" mit Champignons, dazu Kräuterreis (Extra ab 15 Uhr)",
+      "price": 12.9
+    }
+  ]
+}
