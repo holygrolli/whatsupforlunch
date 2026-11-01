@@ -1,0 +1,52 @@
+{
+  "2026-W45": [
+    {
+      "desc": "Penne alla Boscaiola mit Schinken, Erbsen und frischen Champignons in Tomatensauce",
+      "price": 7.5
+    },
+    {
+      "desc": "Rindfleischragout mit Polenta langsam geschmort",
+      "price": 7.5
+    },
+    {
+      "desc": "Maccheroni al Tonno mit Thunfisch und Zwiebeln in fruchtiger Tomatensauce",
+      "price": 7.5
+    },
+    {
+      "desc": "Pizza Caprese mit Mozzarella, Tomaten und frischem Basilikum",
+      "price": 7.5
+    },
+    {
+      "desc": "Spaghetti alla Puttanesca mit Sardellen, Oliven und Kapern in würziger Tomatensauce",
+      "price": 8.0
+    },
+    {
+      "desc": "Tortelloni Panna e Prosciutto mit Schinken in cremiger Sahnesauce",
+      "price": 8.0
+    },
+    {
+      "desc": "Weiße Pizza mit Sauce Hollandaise und knuspriger Pancetta",
+      "price": 8.0
+    },
+    {
+      "desc": "Hähnchenbrustfilet auf feiner Linsencreme, dazu cremiges Parmesanrisotto",
+      "price": 8.0
+    },
+    {
+      "desc": "Tagliatelle con Porchetta mit italienischem Schweinerollbraten und Pecorino",
+      "price": 12.5
+    },
+    {
+      "desc": "Pizza con Gamberi mit Garnelen, Spinat und Knoblauch",
+      "price": 12.5
+    },
+    {
+      "desc": "Gegrilltes Doradenfilet mit Tagesbeilage",
+      "price": 12.5
+    },
+    {
+      "desc": "Rumpsteak alla Pizzaiola mit würziger Tomatensauce und Tagesbeilage",
+      "price": 12.5
+    }
+  ]
+}
