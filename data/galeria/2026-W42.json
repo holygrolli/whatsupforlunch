@@ -1,0 +1,90 @@
+{
+  "2026-10-12": [
+    {
+      "desc": "KÜCHENCHEF-TAG",
+      "price": 11.95
+    },
+    {
+      "desc": "MARINIERTER HÄHNCHENSCHENKEL, Krautsalat und Pommes frites",
+      "price": 11.95
+    },
+    {
+      "desc": "KÄSESPÄTZLE, Röstzwiebeln und Tagessalat",
+      "price": 11.95
+    },
+    {
+      "desc": "SCHWEINEBRATEN, Bratensauce, Honig-Pastinaken und Salzkartoffeln",
+      "price": 11.95
+    },
+    {
+      "desc": "PAZIFISCHES BUTTFILET IN PETERSILIENPANADE, Dijon-Senfsauce, Ratatouille und Reis",
+      "price": 11.95
+    }
+  ],
+  "2026-10-19": [
+    {
+      "desc": "KÜCHENCHEF-TAG",
+      "price": 11.95
+    },
+    {
+      "desc": "BAYERISCHER LEBERKÄSE, Bratensauce, Röstzwiebeln und Bratkartoffeln",
+      "price": 11.95
+    },
+    {
+      "desc": "HÄHNCHEN \"KORMA\", gebratene Paprika und Reis",
+      "price": 11.95
+    },
+    {
+      "desc": "SCHWEINENACKENSTEAK, Kräuterbutter, Krautsalat und Pommes frites",
+      "price": 11.95
+    },
+    {
+      "desc": "SEELACHS IM KRÄUTERMANTEL, Zitronensauce, Brokkoli und Reis",
+      "price": 11.95
+    }
+  ],
+  "2026-10-26": [
+    {
+      "desc": "KÜCHENCHEF-TAG",
+      "price": 11.95
+    },
+    {
+      "desc": "ZWEI MARINIERTE HÄHNCHENSTEAKS, Tagesgemüse und Rosmarinkartoffeln",
+      "price": 11.95
+    },
+    {
+      "desc": "RIESENRÖSTI, Champignon-Rahmsauce und Brokkoli",
+      "price": 11.95
+    },
+    {
+      "desc": "KASSLERNACKEN, Rosmarinjus, Sauerkraut und Kartoffelstampf",
+      "price": 11.95
+    },
+    {
+      "desc": "SEELACHSFILET \"BORDELAISE\", Weißweinsauce, Blattspinat und Reis",
+      "price": 11.95
+    }
+  ],
+  "2026-11-02": [
+    {
+      "desc": "KÜCHENCHEF-TAG",
+      "price": 11.95
+    },
+    {
+      "desc": "RINDER-KÖTTBULLAR, Champignon-Rahmsauce, Kartoffelstampf und Preiselbeeren",
+      "price": 11.95
+    },
+    {
+      "desc": "HÄHNCHEN-SPÄTZLE-PFANNE, Champignon-Rahmsauce",
+      "price": 11.95
+    },
+    {
+      "desc": "PANIERTES SCHWEINE-KOTELETT, Bratensauce, Prinzessbohnen und Kartoffelstampf",
+      "price": 11.95
+    },
+    {
+      "desc": "PANIERTES SCHOLLENFILET, Remoulade, Blattspinat und Kartoffeln",
+      "price": 11.95
+    }
+  ]
+}
