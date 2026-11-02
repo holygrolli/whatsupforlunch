@@ -261,6 +261,14 @@ class TestEffectiveConfigEquivalence(unittest.TestCase):
         pdftoppm = cfg["prepare"][0]["pdftoppm"]
         self.assertEqual(pdftoppm["resolution"], 100)
         self.assertEqual(pdftoppm["format"], "jpeg")
+        # Regression guard: the galeria menu image is a table with one column
+        # per week and one meal per weekday row.  The vision prompt must tell
+        # the model to expand each column into one date key per weekday;
+        # otherwise the whole week's meals collapse onto the week's Monday
+        # (seen in data/galeria/2026-W42.json).
+        prompt = cfg["extract"]["prompt"]
+        self.assertIn("one meal per weekday row", prompt)
+        self.assertIn("Never put a whole week", prompt)
 
     def test_ratskeller(self):
         cfg = load_location("ratskeller").default_variant
