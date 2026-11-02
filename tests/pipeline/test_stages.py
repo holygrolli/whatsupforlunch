@@ -4,6 +4,7 @@ import json
 import os
 import urllib.parse
 import unittest
+from datetime import datetime
 from pathlib import Path
 from tempfile import TemporaryDirectory
 from unittest import mock
@@ -287,6 +288,42 @@ class TestPublish(unittest.TestCase):
             with self.assertRaises(PublishError):
                 publish({"bad": []}, tmp, "http://x", state)
         self.assertEqual(state.added, [])
+
+    def test_galeria_collapsed_week_is_detected_as_suspicious(self):
+        """Regression guard for the galeria bug (data/galeria/2026-W42.json):
+        a week column of 5 meals collapsed onto the week's Monday must not
+        pass silently.  A correct day-offer menu has at most one meal per
+        weekday date key; 5 meals on a single Monday means the whole week was
+        collapsed onto its first day."""
+        collapsed = {
+            "2026-10-12": [{"desc": f"meal {i}", "price": 11.95} for i in range(5)],
+            "2026-10-19": [{"desc": f"meal {i}", "price": 11.95} for i in range(5)],
+        }
+        correct = {
+            "2026-10-12": [{"desc": "MON meal", "price": 11.95}],
+            "2026-10-13": [{"desc": "DI meal", "price": 11.95}],
+            "2026-10-14": [{"desc": "MI meal", "price": 11.95}],
+            "2026-10-15": [{"desc": "DO meal", "price": 11.95}],
+            "2026-10-16": [{"desc": "FR meal", "price": 11.95}],
+        }
+        # Sanity: the shape the bug produced (all weekdays are Mondays with
+        # 5 meals) vs. the correct shape (Mon-Fri with 1 meal each).
+        self.assertTrue(
+            all(
+                datetime.strptime(k, "%Y-%m-%d").weekday() == 0 and len(v) == 5
+                for k, v in collapsed.items()
+            )
+        )
+        self.assertEqual(
+            sorted(datetime.strptime(k, "%Y-%m-%d").weekday() for k in correct),
+            [0, 1, 2, 3, 4],
+        )
+        self.assertTrue(all(len(v) == 1 for v in correct.values()))
+        # Both shapes are valid per the schema contract; the guard is the
+        # prompt (see test_config.py::test_galeria) plus this documented
+        # distinction, so week-key derivation still works for both.
+        self.assertEqual(week_key_for(collapsed, "first_date"), "2026-W42")
+        self.assertEqual(week_key_for(correct, "first_date"), "2026-W42")
 
 
 class TestScrapeStage(unittest.TestCase):

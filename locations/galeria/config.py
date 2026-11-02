@@ -6,10 +6,11 @@ config = {
     - Clean up each meal name and remove all line breaks and special characters and add commas and "und" where necessary.
     - All meals have the same price stated inside the image.
     - This menu has no week offers
+    - Each week is its own column with a date-range header (e.g. "31.03. - 04.04.") and one meal per weekday row (MO, DI, MI, DO, FR), each row labeled with its own date (e.g. "MO 31.03."). You MUST expand every column into one JSON key per weekday: map each row's printed date to its calendar date (YYYY-MM-DD) using the column's date range, and put exactly that row's single meal under that date key. Never put a whole week's meals under one date.
     
     These points are most important before you finally create the JSON and shall be revised:
     - did you leave out the correct dates and are they actually empty. you cannot add a meal to a date which is a holiday but do not forget to add all meals to the date
-    - did you add all dates to the JSON
+    - did you add all dates to the JSON, one per weekday of every week column, each holding only that day's meal
     
     Explain if you leave out a day, but not for Saturday and Sunday!
     """,
