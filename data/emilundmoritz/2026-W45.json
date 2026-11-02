@@ -1,0 +1,66 @@
+{
+  "2026-11-02": [
+    {
+      "desc": "Hackbraten mit Speckbohnen und Kartoffeln",
+      "price": 6.99
+    },
+    {
+      "desc": "Kräuterquarkmit Zwiebeln,Butter dazu Petersilienkartoffeln",
+      "price": 6.99
+    }
+  ],
+  "2026-11-03": [
+    {
+      "desc": "Schweineschnitzel mit Kürbis-Zucchinigemüse und Kartoffeln",
+      "price": 6.99
+    },
+    {
+      "desc": "gebratenes Pangasiusfilet auf Grillgemüse und Limonenreis",
+      "price": 6.99
+    }
+  ],
+  "2026-11-04": [
+    {
+      "desc": "Hähnchenkeule, Mischgemüse dazu Kartoffeln, Soße",
+      "price": 6.99
+    },
+    {
+      "desc": "Gemüsecurry mit Kürbis,Blumenkohl,Zuchini und Kräuterreis",
+      "price": 6.99
+    }
+  ],
+  "2026-11-05": [
+    {
+      "desc": "Grillwurst, Letscho und Kartoffelstampf",
+      "price": 6.99
+    },
+    {
+      "desc": "Gnocchi mit Waldpilzrahm",
+      "price": 6.99
+    }
+  ],
+  "2026-11-06": [
+    {
+      "desc": "Putenschnitzel mit Kürbisgemüse und gebutterten Kartoffeln",
+      "price": 6.99
+    },
+    {
+      "desc": "Kartoffel -Kürbis-Gratin mit Röstzwiebeln",
+      "price": 6.99
+    }
+  ],
+  "2026-W45": [
+    {
+      "desc": "Farfalle mit Kürbisrahm und gerösteten Mandeln",
+      "price": 5.5
+    },
+    {
+      "desc": "Farfalle mit Tomaten-Basilicumsoße und Parmesan",
+      "price": 5.5
+    },
+    {
+      "desc": "Spirelli mit Wurstgulasch",
+      "price": 5.5
+    }
+  ]
+}
