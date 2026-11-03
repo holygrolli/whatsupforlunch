@@ -1,0 +1,65 @@
+{
+  "2026-11-02": [],
+  "2026-11-03": [
+    {
+      "desc": "Schweineschnitzel \"Gärtnerin\" überbacken mit Gemüse und Sc. Hollandaise, dazu Bratkartoffeln",
+      "price": 10.5
+    },
+    {
+      "desc": "Gnocchi mit gebratenem Spargel, Rucola und Kirschtomaten (veget.), dazu Parmesan",
+      "price": 9.2
+    }
+  ],
+  "2026-11-04": [
+    {
+      "desc": "Hühnerfrikassee mit Spargel, Erbsen und Champignons, dazu Basmatireis",
+      "price": 9.8
+    },
+    {
+      "desc": "Cannelloni gefüllt mit Spinat in Gorgonzolasoße, überbacken mit Gouda und Mandeln (veget.)",
+      "price": 9.2
+    }
+  ],
+  "2026-11-05": [
+    {
+      "desc": "Gebackene Paprikaschote gefüllt mit Hackfleisch, dazu Kartoffeln und pikante Tomatensoße",
+      "price": 9.8
+    },
+    {
+      "desc": "Mediterrane Gemüsebolognese u.a. mit Zucchini, Paprika, Aubergine, dazu Pasta, Sellerie-Chips (veget.) und Parmesan",
+      "price": 9.2
+    }
+  ],
+  "2026-11-06": [
+    {
+      "desc": "Gebratenes Seelachsfilet mit gebratenen Zucchiniwürfeln, rote Bete-Püree und Zitronensoße",
+      "price": 9.9
+    },
+    {
+      "desc": "Feuriges Hähnchen in Paprikarahm, dazu Basmatireis und geröstete Mandeln nach \"Züricher Art\" mit Champignons, dazu Kräuterreis",
+      "price": 9.8
+    }
+  ],
+  "2026-W45": [
+    {
+      "desc": "Pasta mit Spinat-Petersilienpesto, dazu Birnen, Haselnüsse (veget.) und Parmesan",
+      "price": 10.9
+    },
+    {
+      "desc": "Waldpilz-Lasagne überbacken mit Mozzarella und Röstzwiebeln (veget.)",
+      "price": 12.9
+    },
+    {
+      "desc": "Kürbis-Kartoffelgratin mit gebratenen Hähnchenbruststreifen und Zucchini, überbacken mit Mozzarella und Mandeln",
+      "price": 12.9
+    },
+    {
+      "desc": "Kohlrabi-Karotteneintopf mit Kasseler und Baguette",
+      "price": 6.9
+    },
+    {
+      "desc": "Feuriges Hähnchen in Paprikarahm (Extra ab 15 Uhr), dazu Basmatireis und geröstete Mandeln nach \"Züricher Art\" mit Champignons, dazu Kräuterreis",
+      "price": 12.9
+    }
+  ]
+}
