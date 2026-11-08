@@ -1,51 +1,51 @@
 {
   "2026-W45": [
     {
-      "desc": "Penne alla Boscaiola mit Schinken, Erbsen und frischen Champignons in Tomatensauce",
+      "desc": "Penne al Forno mit Erbsen, Schinken und Champignons in Aurora-Sauce, mit Mozzarella überbacken",
       "price": 7.5
     },
     {
-      "desc": "Rindfleischragout mit Polenta langsam geschmort",
+      "desc": "Hähnchenragout mit Champignons und cremiger Polenta",
       "price": 7.5
     },
     {
-      "desc": "Maccheroni al Tonno mit Thunfisch und Zwiebeln in fruchtiger Tomatensauce",
+      "desc": "Maccheroni mit Gemüse in fruchtiger Tomatensauce",
       "price": 7.5
     },
     {
-      "desc": "Pizza Caprese mit Mozzarella, Tomaten und frischem Basilikum",
+      "desc": "Pizza Gorgonzola mit Tomatensauce, cremigem Gorgonzola und Mozzarella",
       "price": 7.5
     },
     {
-      "desc": "Spaghetti alla Puttanesca mit Sardellen, Oliven und Kapern in würziger Tomatensauce",
+      "desc": "Spaghetti al Limone e Burrata mit frischer Zitronensauce und cremiger Burrata",
       "price": 8.0
     },
     {
-      "desc": "Tortelloni Panna e Prosciutto mit Schinken in cremiger Sahnesauce",
+      "desc": "Gnocchi burro e salvia in aromatischer Salbeibutter",
       "price": 8.0
     },
     {
-      "desc": "Weiße Pizza mit Sauce Hollandaise und knuspriger Pancetta",
+      "desc": "Pizza Prosciutto e Peperoni mit Schinken, Paprika und Mozzarella",
       "price": 8.0
     },
     {
-      "desc": "Hähnchenbrustfilet auf feiner Linsencreme, dazu cremiges Parmesanrisotto",
+      "desc": "Gegrilltes Hähnchenbrustfilet mit cremigem Parmesanrisotto",
       "price": 8.0
     },
     {
-      "desc": "Tagliatelle con Porchetta mit italienischem Schweinerollbraten und Pecorino",
+      "desc": "Tagliatelle con Gamberi e Zucchine mit Garnelen und Zucchini in fruchtiger Tomatensauce",
       "price": 12.5
     },
     {
-      "desc": "Pizza con Gamberi mit Garnelen, Spinat und Knoblauch",
+      "desc": "Porchetta-Carpaccio hauchdünn geschnittene Porchetta (italienischer Schweinerollbraten) mit Rucola und Parmesan, dazu Pizza Pane",
       "price": 12.5
     },
     {
-      "desc": "Gegrilltes Doradenfilet mit Tagesbeilage",
+      "desc": "Gegrilltes Doradenfilet auf feiner Kürbissauce, dazu Tagesbeilage",
       "price": 12.5
     },
     {
-      "desc": "Rumpsteak alla Pizzaiola mit würziger Tomatensauce und Tagesbeilage",
+      "desc": "Gegrilltes Rumpsteak mit Penne all'Arrabbiata in pikanter Tomatensauce",
       "price": 12.5
     }
   ]
