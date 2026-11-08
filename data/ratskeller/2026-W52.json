@@ -1,0 +1,58 @@
+{
+  "2026-12-21": [
+    {
+      "desc": "Gräupchen-Eintopf mit Kasslerwürfeln",
+      "price": 6.0
+    },
+    {
+      "desc": "Sellerieschnitzel mit Spinatsoße und Risi Bisi",
+      "price": 6.5
+    },
+    {
+      "desc": "Schweineroulade mit Apfelrotkohl und Kartoffelklößen",
+      "price": 7.0
+    },
+    {
+      "desc": "Penne mit Gorgonzolasoße, Birnen und Walnüssen",
+      "price": 8.5
+    }
+  ],
+  "2026-12-22": [
+    {
+      "desc": "Kartoffelpuffer mit Apfelmus und Zimtzucker",
+      "price": 6.0
+    },
+    {
+      "desc": "Pasta mit Tomatensoße und geriebenem Käse",
+      "price": 6.5
+    },
+    {
+      "desc": "Spaghetti Bolognese mit geriebenem Käse",
+      "price": 7.0
+    },
+    {
+      "desc": "Schnitzelröllchen Obazda mit Krautsalat und Kartoffelecken",
+      "price": 8.5
+    }
+  ],
+  "2026-12-23": [
+    {
+      "desc": "Usedomer Fisch-Soljanka mit Gewürzgurken und Paprika",
+      "price": 6.0
+    },
+    {
+      "desc": "Vegane Paprikaschote mit Tomatensoße und Reis",
+      "price": 6.5
+    },
+    {
+      "desc": "Leberkäse mit Bayrisch Kraut und Petersilienkartoffeln",
+      "price": 7.0
+    },
+    {
+      "desc": "Überraschungsgericht mit Gemüse von KOLA Leipzig",
+      "price": null
+    }
+  ],
+  "2026-12-24": [],
+  "2026-12-25": []
+}

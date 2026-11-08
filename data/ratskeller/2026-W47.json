@@ -1,0 +1,75 @@
+{
+  "2026-11-16": [
+    {
+      "desc": "Sächsische Kartoffelsuppe mit Majoran und Bockwurst",
+      "price": 6.0
+    },
+    {
+      "desc": "Gemüseschnitzel auf Rahmwirsing und Rote-Bete-Gnocchi",
+      "price": 6.5
+    },
+    {
+      "desc": "Köfte mit Zaziki, Krautsalat und Tomatenreis",
+      "price": 7.0
+    },
+    {
+      "desc": "Gebackene Champignons mit Sour Cream und Herbstsalat",
+      "price": 8.5
+    }
+  ],
+  "2026-11-17": [
+    {
+      "desc": "Drei Hefeklöße mit warmen Heidelbeeren",
+      "price": 6.0
+    },
+    {
+      "desc": "Pasta mit Tomatensoße und geriebenem Käse",
+      "price": 6.5
+    },
+    {
+      "desc": "Jägerschnitzel mit Tomatensoße und Pasta",
+      "price": 7.0
+    },
+    {
+      "desc": "Vegane \"Bratwurst\" mit Sauerkraut und Petersilienkartoffeln",
+      "price": 8.5
+    }
+  ],
+  "2026-11-18": [],
+  "2026-11-19": [
+    {
+      "desc": "Marillenknödel mit Vanillesoße",
+      "price": 6.0
+    },
+    {
+      "desc": "Zucchini-Möhren-Puffer mit Radieschen-Quark und Salat",
+      "price": 6.5
+    },
+    {
+      "desc": "Schweine-Schnitzel mit Letscho und Petersilienkartoffeln",
+      "price": 7.0
+    },
+    {
+      "desc": "Spaghetti \"Puttanesca\" mit Sardellen, Kapern und Oliven",
+      "price": 8.5
+    }
+  ],
+  "2026-11-20": [
+    {
+      "desc": "Maronencreme-suppe mit Preiselbeercreme",
+      "price": 6.0
+    },
+    {
+      "desc": "Gemüse-Maultaschen mit Kürbis, Rosenkohl und Schwarz-wurzel",
+      "price": 6.5
+    },
+    {
+      "desc": "Fischstäbchen mit Tomatensoße und Kartoffelstampf",
+      "price": 7.0
+    },
+    {
+      "desc": "Sülze mit Remoulade, Salat und Bratkartoffeln",
+      "price": 8.5
+    }
+  ]
+}

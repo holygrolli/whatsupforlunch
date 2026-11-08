@@ -1,0 +1,92 @@
+{
+  "2026-12-07": [
+    {
+      "desc": "Chili con Carne mit Hackfleisch, Mais, Bohnen und Kichererbsen",
+      "price": 6.0
+    },
+    {
+      "desc": "Pilzragout „Stroganoff\" mit Bete, Gurke und Spätzle",
+      "price": 6.5
+    },
+    {
+      "desc": "Thüringer Bratwurst mit Sauerkraut und Petersilienkartoffeln",
+      "price": 7.0
+    },
+    {
+      "desc": "Glutenfreie Fusilli mit Linsen-bolognese und Rucola",
+      "price": 8.5
+    }
+  ],
+  "2026-12-08": [
+    {
+      "desc": "Drei Eierkuchen mit Apfelmus und Zimtzucker",
+      "price": 6.0
+    },
+    {
+      "desc": "Pasta mit Tomatensoße und geriebenem Käse",
+      "price": 6.5
+    },
+    {
+      "desc": "Jägerschnitzel mit Tomatensoße und Pasta",
+      "price": 7.0
+    },
+    {
+      "desc": "Coq au Vin mit Champignons, Perlzwiebeln und Kartoffelstampf",
+      "price": 8.5
+    }
+  ],
+  "2026-12-09": [
+    {
+      "desc": "Erbseneintopf mit Bockwurst und Kartoffelwürfeln",
+      "price": 6.0
+    },
+    {
+      "desc": "Blumenkohl-Medaillon mit Erbsen und Kräuterreis",
+      "price": 6.5
+    },
+    {
+      "desc": "Bauernroulade mit Speckbohnen und Petersilienkartoffeln",
+      "price": 7.0
+    },
+    {
+      "desc": "Überraschungsgericht mit Gemüse von KOLA Leipzig",
+      "price": null
+    }
+  ],
+  "2026-12-10": [
+    {
+      "desc": "Grießbrei mit Pflaumenkompott und Zimtzucker",
+      "price": 6.0
+    },
+    {
+      "desc": "Kürbis-Frikadelle mit Spinatsoße und bunten Gnocchi",
+      "price": 6.5
+    },
+    {
+      "desc": "Hackbällchen in Tomatensoße, dazu Pasta",
+      "price": 7.0
+    },
+    {
+      "desc": "Entenkeule mit Apfelrotkohl und Kartoffelklößen",
+      "price": 8.5
+    }
+  ],
+  "2026-12-11": [
+    {
+      "desc": "Rote-Bete-Meerrettich-Cremesuppe mit Kresse",
+      "price": 6.0
+    },
+    {
+      "desc": "Bergkäse-Nocken auf Kräuter-Waldpilzrahm und Salat",
+      "price": 6.5
+    },
+    {
+      "desc": "Schweinesteak mit Letscho-gemüse und Kroketten",
+      "price": 7.0
+    },
+    {
+      "desc": "Schollenfilet mit Auberginen-Melanzane und Spinat-Gnocchi",
+      "price": 8.5
+    }
+  ]
+}

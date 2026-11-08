@@ -1,0 +1,92 @@
+{
+  "2026-12-14": [
+    {
+      "desc": "Nudeleintopf mit Geflügelfleisch und Gemüse-Julienne",
+      "price": 6.0
+    },
+    {
+      "desc": "Chili sin Carne mit Bohnen, Mais, Kichererbsen und Reis",
+      "price": 6.5
+    },
+    {
+      "desc": "Königsberger Klopse mit Kapernsoße, Bete-Salat und Kartoffeln",
+      "price": 7.0
+    },
+    {
+      "desc": "Farfalle mit Thunfisch, roten Zwiebeln, Oliven und Tomaten",
+      "price": 8.5
+    }
+  ],
+  "2026-12-15": [
+    {
+      "desc": "American Pancakes mit Apfel-Aprikosen-Kompott",
+      "price": 6.0
+    },
+    {
+      "desc": "Pasta mit Tomatensoße und geriebenem Käse",
+      "price": 6.5
+    },
+    {
+      "desc": "Pasta mit Wurstgulasch und geriebenem Käse",
+      "price": 7.0
+    },
+    {
+      "desc": "Falafel-Bowl mit Rote-Bete-Hummus und Bulgur-Salat",
+      "price": 8.5
+    }
+  ],
+  "2026-12-16": [
+    {
+      "desc": "Grüner Bohneneintopf mit Rindfleisch und Kartoffel-würfeln",
+      "price": 6.0
+    },
+    {
+      "desc": "Brokkoli-Nuss-Ecke, dazu Rosenkohl und Schupfnudeln",
+      "price": 6.5
+    },
+    {
+      "desc": "Paprikaschote mit Geflügel-Hack, Tomaten-Soße und Spätzle",
+      "price": 7.0
+    },
+    {
+      "desc": "Überraschungsgericht mit Gemüse von KOLA Leipzig",
+      "price": null
+    }
+  ],
+  "2026-12-17": [
+    {
+      "desc": "Milchreis mit Kirschragout und Zimtzucker",
+      "price": 6.0
+    },
+    {
+      "desc": "Schweizer Kartoffelrösti mit Kräuterdip und Salat",
+      "price": 6.5
+    },
+    {
+      "desc": "Schweine-Gulasch mit Paprika und Pilzen, dazu Pasta",
+      "price": 7.0
+    },
+    {
+      "desc": "Würzfleisch vom Huhn mit Champignons, Zitrone und Baguette",
+      "price": 8.5
+    }
+  ],
+  "2026-12-18": [
+    {
+      "desc": "Süßkartoffel-Ingwersuppe mit Sesam und Koriander",
+      "price": 6.0
+    },
+    {
+      "desc": "Grünkohl-Lasagne mit Karotten und Hirtenkäse",
+      "price": 6.5
+    },
+    {
+      "desc": "Backfisch mit Remoulade, Salat und Petersilien-kartoffeln",
+      "price": 7.0
+    },
+    {
+      "desc": "Hähnchenbrust „Piccata“ mit Ratatouille und Linguine",
+      "price": 8.5
+    }
+  ]
+}
