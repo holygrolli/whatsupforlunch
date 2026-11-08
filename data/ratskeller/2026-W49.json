@@ -1,0 +1,92 @@
+{
+  "2026-11-30": [
+    {
+      "desc": "Soljanka mit Zitrone und Sauerrahm",
+      "price": 6.0
+    },
+    {
+      "desc": "Grünkohl-Frikadelle mit Bete-Salat und Süßkartoffel-Gnocchi",
+      "price": 6.5
+    },
+    {
+      "desc": "Hackbraten mit Speckbohnen und Kroketten",
+      "price": 7.0
+    },
+    {
+      "desc": "Rigatoni mit Trüffelrahm, Champignons und Frühlings-Lauch",
+      "price": 8.5
+    }
+  ],
+  "2026-12-01": [
+    {
+      "desc": "Sächsische Quarkkäulchen mit Apfelmus und Zimtzucker",
+      "price": 6.0
+    },
+    {
+      "desc": "Pasta mit Tomatensoße und geriebenem Käse",
+      "price": 6.5
+    },
+    {
+      "desc": "Spaghetti Bolognese mit geriebenem Käse",
+      "price": 7.0
+    },
+    {
+      "desc": "Shakshuka mit Hummus und Fladenbrot",
+      "price": 8.5
+    }
+  ],
+  "2026-12-02": [
+    {
+      "desc": "Ungarische Gulaschsuppe mit Paprika und Kartoffelwürfeln",
+      "price": 6.0
+    },
+    {
+      "desc": "2 gekochte Eier mit Senfsoße, Rotkrautsalat und Petersilien-kartoffeln",
+      "price": 6.5
+    },
+    {
+      "desc": "Hühnerfrikassee mit Erbsen, Karotten und Butterreis",
+      "price": 7.0
+    },
+    {
+      "desc": "Überraschungsgericht mit Gemüse von KOLA Leipzig",
+      "price": null
+    }
+  ],
+  "2026-12-03": [
+    {
+      "desc": "Kokosmilchreis mit Mango-Kompott",
+      "price": 6.0
+    },
+    {
+      "desc": "Kartoffeltaschen mit Frischkäse, Kräuterdip und Salat",
+      "price": 6.5
+    },
+    {
+      "desc": "Wildgulasch mit Apfelrotkohl und Semmelknödeln",
+      "price": 7.0
+    },
+    {
+      "desc": "Rigatoni mit Cacio e pepe",
+      "price": 8.5
+    }
+  ],
+  "2026-12-04": [
+    {
+      "desc": "Indische rote Linsensuppe mit Kokosmilch, Koriander und Naan Brot",
+      "price": 6.0
+    },
+    {
+      "desc": "Vegetarische Moussaka mit Hirtenkäse, Aubergine und Kartoffeln",
+      "price": 6.5
+    },
+    {
+      "desc": "Seelachsfilet „Bordelaise“ mit Spinatsoße und Risi Bisi",
+      "price": 7.0
+    },
+    {
+      "desc": "Hähnchenbrust mit Pilzkruste, bunten Bohnen und Kroketten",
+      "price": 8.5
+    }
+  ]
+}

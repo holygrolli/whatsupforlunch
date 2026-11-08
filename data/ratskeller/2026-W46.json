@@ -1,0 +1,92 @@
+{
+  "2026-11-09": [
+    {
+      "desc": "Weißer Bohneneintopf mit Wiener Würstchen",
+      "price": 6.0
+    },
+    {
+      "desc": "Eieromelette mit Rahmspinat und Petersilienkartoffeln",
+      "price": 6.5
+    },
+    {
+      "desc": "Schweinerahm-Geschnetzeltes mit Paprika und Spätzle",
+      "price": 7.0
+    },
+    {
+      "desc": "Blumenkohl-Käsesticks auf Kürbispüree und Linsensalat",
+      "price": 8.5
+    }
+  ],
+  "2026-11-10": [
+    {
+      "desc": "Germknödel mit Schokoladen-Füllung und Vanillesoße",
+      "price": 6.0
+    },
+    {
+      "desc": "Pasta mit Tomatensoße und geriebenem Käse",
+      "price": 6.5
+    },
+    {
+      "desc": "Spaghetti Bolognese mit geriebenem Käse",
+      "price": 7.0
+    },
+    {
+      "desc": "Vegane Curry-\"Wurst\" mit pikanter Soße und Kartoffelecken",
+      "price": 8.5
+    }
+  ],
+  "2026-11-11": [
+    {
+      "desc": "Bauerneintopf mit Hackfleisch, Paprika und Kartoffeln",
+      "price": 6.0
+    },
+    {
+      "desc": "Gelbes Gemüse-Curry mit Brokkoli, Möhren, Zucchini und Reis",
+      "price": 6.5
+    },
+    {
+      "desc": "Hähnchen ,,Cordon bleu\" mit Buttererbsen und Petersilienkartoffeln",
+      "price": 7.0
+    },
+    {
+      "desc": "Überraschungsgericht mit Gemüse von KOLA Leipzig",
+      "price": null
+    }
+  ],
+  "2026-11-12": [
+    {
+      "desc": "Kaiserschmarr'n mit Rosinen, Mandeln und Apfelmus",
+      "price": 6.0
+    },
+    {
+      "desc": "Gemüse Frikadelle auf Bohnen-Pilzragout und Reis",
+      "price": 6.5
+    },
+    {
+      "desc": "Pasta mit Schinken-Käse-Sahnesoße",
+      "price": 7.0
+    },
+    {
+      "desc": "Rinderroulade mit Apfelrotkohl und Kartoffelklößen",
+      "price": 12.0
+    }
+  ],
+  "2026-11-13": [
+    {
+      "desc": "Rotkohlcremesuppe mit Apfel-Chutney",
+      "price": 6.0
+    },
+    {
+      "desc": "Gemüsestäbchen mit bunten Karotten und Süßkartoffelgratin",
+      "price": 6.5
+    },
+    {
+      "desc": "Matjesfilet mit Gurken-Kartoffelsalat",
+      "price": 7.0
+    },
+    {
+      "desc": "Hähnchenbrust, gefüllt mit Brokkoli und Käse, dazu Blattspinat und Spätzle",
+      "price": 8.5
+    }
+  ]
+}

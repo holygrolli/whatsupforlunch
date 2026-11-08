@@ -1,0 +1,92 @@
+{
+  "2026-11-23": [
+    {
+      "desc": "Käse-Lauch-Suppe mit Hackfleisch und Champignons",
+      "price": 6.0
+    },
+    {
+      "desc": "Backkäse mit Zaziki, Krautsalat und Tomatenreis",
+      "price": 6.5
+    },
+    {
+      "desc": "Frikadelle mit Speckbohnen und Kroketten",
+      "price": 7.0
+    },
+    {
+      "desc": "Frühlingsrolle mit asiatischem Glasnudelsalat, Koriander und Sesam",
+      "price": 8.5
+    }
+  ],
+  "2026-11-24": [
+    {
+      "desc": "Eierkuchen mit Kirschfüllung, dazu Vanillesoße",
+      "price": 6.0
+    },
+    {
+      "desc": "Pasta mit Tomatensoße und geriebenem Käse",
+      "price": 6.5
+    },
+    {
+      "desc": "Pasta mit Wurstgulasch und geriebenem Käse",
+      "price": 7.0
+    },
+    {
+      "desc": "Grünkernrisotto mit Kürbis, Rosenkohl und Romanesco",
+      "price": 8.5
+    }
+  ],
+  "2026-11-25": [
+    {
+      "desc": "Hausgemachter Linseneintopf mit Blutwurstwürfeln",
+      "price": 6.0
+    },
+    {
+      "desc": "Kräuterquark mit Zwiebeln, Butter und Petersilienkartoffeln",
+      "price": 6.5
+    },
+    {
+      "desc": "Hähnchenkeule mit Rotkraut und Semmelknödeln",
+      "price": 7.0
+    },
+    {
+      "desc": "Überraschungsgericht mit Gemüse von KOLA Leipzig",
+      "price": null
+    }
+  ],
+  "2026-11-26": [
+    {
+      "desc": "Milchreis mit Apfelmus und Zimtzucker",
+      "price": 6.0
+    },
+    {
+      "desc": "Vegane „Köttbullar“ mit Pilzrahm und Kartoffelstampf",
+      "price": 6.5
+    },
+    {
+      "desc": "Szegediner Gulasch mit Sauerkraut und Böhmischen Knödeln",
+      "price": 7.0
+    },
+    {
+      "desc": "Tagliatelle mit Lachswürfeln, Zucchini und Tomatenrahm",
+      "price": 8.5
+    }
+  ],
+  "2026-11-27": [
+    {
+      "desc": "Schwarzwurzelcremesuppe mit Kresse und Croûtons",
+      "price": 6.0
+    },
+    {
+      "desc": "Käsespatz'n „Allgäuer Art“ mit Röstzwiebeln",
+      "price": 6.5
+    },
+    {
+      "desc": "Krakauer mit Grünkohl und Petersilienkartoffeln",
+      "price": 7.0
+    },
+    {
+      "desc": "Kap-Seehecht mit Fenchelrahm und Rosmarinkartoffeln",
+      "price": 8.5
+    }
+  ]
+}
