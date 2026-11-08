@@ -1,0 +1,52 @@
+{
+  "2026-11-09": [
+    {
+      "desc": "Schweineschnitzel „Wiener Art“ mit Kartoffel-Gurken-Salat",
+      "price": 8.5
+    },
+    {
+      "desc": "Allgäuer Käsespätzle mit Röstzwiebeln",
+      "price": 8.5
+    }
+  ],
+  "2026-11-10": [
+    {
+      "desc": "Chili con Carne mit Schmand",
+      "price": 8.5
+    },
+    {
+      "desc": "Spaghetti all' Arrabbiata mit Parmesan",
+      "price": 8.5
+    }
+  ],
+  "2026-11-11": [
+    {
+      "desc": "Hähnchen-Ragout in Paprikarahm mit Reis",
+      "price": 8.5
+    },
+    {
+      "desc": "Pilz-Maultaschen auf Rahmsauerkraut",
+      "price": 8.5
+    }
+  ],
+  "2026-11-12": [
+    {
+      "desc": "Mutzbraten mit Mischgemüse und Kartoffelpüree",
+      "price": 8.5
+    },
+    {
+      "desc": "Kraut-Schupfnudeln mit Röstzwiebeln",
+      "price": 8.5
+    }
+  ],
+  "2026-11-13": [
+    {
+      "desc": "Backfisch mit Kartoffel-Gurken-Salat und Remoulade",
+      "price": 8.5
+    },
+    {
+      "desc": "Falafel-Bällchen mit Cous Cous Salat",
+      "price": 8.5
+    }
+  ]
+}
