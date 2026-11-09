@@ -1,0 +1,130 @@
+{
+  "2026-11-09": [
+    {
+      "desc": "Putensteak Toskana mit mediterranen Gemüse und Kräuterreis",
+      "price": 6.99
+    },
+    {
+      "desc": "2 gekochte Eier mit Senfsoße,Rotkrautsalat und Kartoffeln",
+      "price": 6.99
+    }
+  ],
+  "2026-11-10": [
+    {
+      "desc": "Hähnchenragout mit Paprikarahm und Butterkartoffeln",
+      "price": 6.99
+    },
+    {
+      "desc": "Fischstäbchen mit Tomatensoße und Kartoffelstampf",
+      "price": 6.99
+    }
+  ],
+  "2026-11-11": [
+    {
+      "desc": "Schweineschnitzel,Rosenkohl,Salzkartoffeln und Bratensoße",
+      "price": 6.99
+    },
+    {
+      "desc": "2 Eierkuchen mit heißen Heidelbeeren und Vanillesoße",
+      "price": 6.99
+    }
+  ],
+  "2026-11-12": [
+    {
+      "desc": "Hähnchengyros mit Reis,Zaziki und Krautsalat",
+      "price": 6.99
+    },
+    {
+      "desc": "gebratenes Fischfilet Senfsoße und Kartoffelstampf",
+      "price": 6.99
+    }
+  ],
+  "2026-11-13": [
+    {
+      "desc": "Schweinegulasch\" Braumeisterart\",Sauerkraut und Kartoffeln",
+      "price": 6.99
+    },
+    {
+      "desc": "3 Hefeklöße mit heißen Himbeeren",
+      "price": 6.99
+    }
+  ],
+  "2026-11-16": [
+    {
+      "desc": "Pasta mit Schweinegeschnetzeltes mit Champignons und Spätzle",
+      "price": 6.99
+    },
+    {
+      "desc": "Mediterrane Gemüsepfanne mit Süßkartoffel und geriebenen Schafskäse",
+      "price": 6.99
+    }
+  ],
+  "2026-11-17": [
+    {
+      "desc": "Sächsischer Sauerbraten,Rotkohl und Klöße",
+      "price": 6.99
+    },
+    {
+      "desc": "Gebackenes Seelachsfilet auf Rahmspitzkohl dazu gebutterte Kartoffeln",
+      "price": 6.99
+    }
+  ],
+  "2026-11-18": [
+    {
+      "desc": "Feiertag",
+      "price": 0.01
+    },
+    {
+      "desc": "Feiertag",
+      "price": 0.01
+    }
+  ],
+  "2026-11-19": [
+    {
+      "desc": "Königsberger Klöpse in Kapernsauce, Kartoffeln",
+      "price": 6.99
+    },
+    {
+      "desc": "Gnocchi Champignon Pfanne mit Kirschtomaten",
+      "price": 6.99
+    }
+  ],
+  "2026-11-20": [
+    {
+      "desc": "Schweineschnitzel,Bratensoße dazu Satzkartoffeln und Rahmwirsing",
+      "price": 6.99
+    },
+    {
+      "desc": "Spaghetti mit Kürbisrahm,geriebenen Hirtenkäse & Rucola",
+      "price": 6.99
+    }
+  ],
+  "2026-W46": [
+    {
+      "desc": "Pasta mit kleinem Köt Büllar und Rahmsoße",
+      "price": 5.5
+    },
+    {
+      "desc": "Farfalle mit Kräuterpesto und Kirschtomaten",
+      "price": 5.5
+    },
+    {
+      "desc": "Penne mit TomatenBasilikumsoße und Käse",
+      "price": 5.5
+    }
+  ],
+  "2026-W47": [
+    {
+      "desc": "Spaghetti mit Waldpilzcarbonara",
+      "price": 5.5
+    },
+    {
+      "desc": "Penne all´arrabbiata",
+      "price": 5.5
+    },
+    {
+      "desc": "Spinelli mit Gulasch",
+      "price": 5.5
+    }
+  ]
+}
