@@ -1,0 +1,69 @@
+{
+  "2026-11-09": [],
+  "2026-11-10": [
+    {
+      "desc": "Schweineschnitzel mit Rahmblumenkohl, Salzkartoffeln und brauner Soße",
+      "price": 10.5
+    },
+    {
+      "desc": "Vegane Currywurst \"Nach Art des Hauses\" mit Kartoffelecken und Krautsalat (vegan)",
+      "price": 9.2
+    }
+  ],
+  "2026-11-11": [
+    {
+      "desc": "Tafelspitz mit Spargel, Erbsen und Champignons, dazu Basmatireis",
+      "price": 9.8
+    },
+    {
+      "desc": "Waldpilzgulasch mit Kräuterspätzle und Röstzwiebeln (veget.)",
+      "price": 9.2
+    }
+  ],
+  "2026-11-12": [
+    {
+      "desc": "Gebackene Hähnchenbrust in Cornflakes-Panade, dazu gebratene Mie-Nudeln mit buntem Gemüse, Sweet Chilisoße und Röstzwiebeln",
+      "price": 9.8
+    },
+    {
+      "desc": "Sojagulasch mit geschmortem Spitzkohl, dazu Böhmische Knödel (veget.)",
+      "price": 9.2
+    }
+  ],
+  "2026-11-13": [
+    {
+      "desc": "Gebackenes Seelachsfilet mit Remoulade, Salzkartoffeln, dazu Gurkensalat",
+      "price": 9.9
+    },
+    {
+      "desc": "Thai-Hähnchencurry mit buntem Gemüse in Kokossoße, dazu Basmatireis und Erdnüsse",
+      "price": 9.8
+    }
+  ],
+  "2026-W46": [
+    {
+      "desc": "Pasta mit Kürbis-Pesto, dazu Cranberrys, geröstete Mandeln (veget.) und Parmesan",
+      "price": 10.9
+    },
+    {
+      "desc": "Wirsinglasagne mit Tomaten, überbacken mit Hirtenkäse (veget.)",
+      "price": 12.9
+    },
+    {
+      "desc": "Süßkartoffel-Hackfleisch-Gratin mit grünen Bohnen und Tomaten, überbacken mit Mozzarella",
+      "price": 12.9
+    },
+    {
+      "desc": "Linseneintopf mit Kasseler und Wurzelgemüse, dazu Baguette (klein)",
+      "price": 3.9
+    },
+    {
+      "desc": "Linseneintopf mit Kasseler und Wurzelgemüse, dazu Baguette (groß)",
+      "price": 6.9
+    },
+    {
+      "desc": "Thai-Hähnchencurry mit buntem Gemüse in Kokossoße, dazu Basmatireis und Erdnüsse (Extra ab 15 Uhr)",
+      "price": 12.9
+    }
+  ]
+}
