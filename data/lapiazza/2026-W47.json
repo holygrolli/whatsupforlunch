@@ -1,0 +1,52 @@
+{
+  "2026-W47": [
+    {
+      "desc": "***Penne ai Quattro Formaggi*** Penne in cremiger Vier-Käse-Sauce (2,6,12,16)",
+      "price": 7.5
+    },
+    {
+      "desc": "***Insalata Caprese*** Tomaten und Mozzarella mit frischem Basilikum (2,16)",
+      "price": 7.5
+    },
+    {
+      "desc": "***Maccheroni mit Brokkoli*** in cremiger Sahnesauce (2,12,16)",
+      "price": 7.5
+    },
+    {
+      "desc": "***Pizza Salame e Funghi*** mit Tomatensauce, Mozzarella, Salami und Champignons (2,6,12,16)",
+      "price": 7.5
+    },
+    {
+      "desc": "***Spaghetti all'Amatriciana*** mit Guanciale, Pecorino Käse und Tomatensauce (2,6,12,16)",
+      "price": 8.0
+    },
+    {
+      "desc": "***Gnocchi alla Sorrentina*** mit Tomatensauce, Mozzarella und Basilikum (2,6,12,16)",
+      "price": 8.0
+    },
+    {
+      "desc": "***Pizza Parmigiana*** mit Tomatensauce, Mozzarella, Auberginen und Parmesan (2,12,16)",
+      "price": 8.0
+    },
+    {
+      "desc": "***Gegrilltes Hähnchenbrustfilet*** mit würziger Tomatensauce alla Pizzaiola und cremigem Parmesanrisotto (2,6,12,16)",
+      "price": 8.0
+    },
+    {
+      "desc": "***Tagliatelle con Gamberi e Zucchine*** mit Garnelen und Zucchini in fruchtiger Tomatensauce (2,6,12,19)",
+      "price": 12.5
+    },
+    {
+      "desc": "***Weiße Pizza mit Porchetta und Scamorza*** mit italienischem Schweinerollbraten und geräuchertem Scamorza Käse (2,6,12,16)",
+      "price": 12.5
+    },
+    {
+      "desc": "***Gegrilltes Lachsfilet*** mit Tagesbeilage (12,21)",
+      "price": 12.5
+    },
+    {
+      "desc": "***Gegrilltes Rumpsteak*** mit Champignonsauce und Tagesbeilage (2,12,16)",
+      "price": 12.5
+    }
+  ]
+}
