@@ -1,0 +1,121 @@
+{
+  "2026-11-16": [
+    {
+      "desc": "Pasta mit Schweinegeschnetzeltes mit Champignons und Spätzle",
+      "price": 6.99
+    },
+    {
+      "desc": "Mediterrane Gemüsepfanne mit Süßkartoffel und geriebenen Schafskäse",
+      "price": 6.99
+    }
+  ],
+  "2026-11-17": [
+    {
+      "desc": "Sächsischer Sauerbraten,Rotkohl und Klöße",
+      "price": 6.99
+    },
+    {
+      "desc": "Gebackenes Seelachsfilet auf Rahmspitzkohl dazu gebutterte Kartoffeln",
+      "price": 6.99
+    }
+  ],
+  "2026-11-18": [],
+  "2026-11-19": [
+    {
+      "desc": "Königsberger Klöpse in Kapernsauce, Kartoffeln",
+      "price": 6.99
+    },
+    {
+      "desc": "Gnocchi Champignon Pfanne mit Kirschtomaten",
+      "price": 6.99
+    }
+  ],
+  "2026-11-20": [
+    {
+      "desc": "Schweineschnitzel,Bratensoße dazu Satzkartoffeln und Rahmwirsing",
+      "price": 6.99
+    },
+    {
+      "desc": "Spaghetti mit Kürbisrahm,geriebenen Hirtenkäse & Rucola",
+      "price": 6.99
+    }
+  ],
+  "2026-11-23": [
+    {
+      "desc": "Chilli con Carne mit Linsen, Reis",
+      "price": 6.99
+    },
+    {
+      "desc": "Basmati Reispfanne mit Paprika, Champignons, Feta",
+      "price": 6.99
+    }
+  ],
+  "2026-11-24": [
+    {
+      "desc": "Schweinerippchen,Sauerkraut,kartoffeln",
+      "price": 6.99
+    },
+    {
+      "desc": "Matjes Bratkartoffeln und Remoulade",
+      "price": 6.99
+    }
+  ],
+  "2026-11-25": [
+    {
+      "desc": "Schweineschnitzel an Rahmkarotten mit Petersilienkartoffeln",
+      "price": 6.99
+    },
+    {
+      "desc": "Farfalle mit Tomaten-Basilicumsoße und Parmesan",
+      "price": 6.99
+    }
+  ],
+  "2026-11-26": [
+    {
+      "desc": "Jägerschnitzel an Tomaten-Basilikumsoße mit Pasta",
+      "price": 6.99
+    },
+    {
+      "desc": "Pangasiusfilet, Möhren, Reis, Kräutersauce",
+      "price": 6.99
+    }
+  ],
+  "2026-11-27": [
+    {
+      "desc": "Schweinesteak mit Rahmchampignon und Kartoffeln",
+      "price": 6.99
+    },
+    {
+      "desc": "Rosmarinkartoffeln mit Kräuterquark, Salat",
+      "price": 6.99
+    }
+  ],
+  "2026-W47": [
+    {
+      "desc": "Spaghetti mit Waldpilzcarbonara",
+      "price": 5.5
+    },
+    {
+      "desc": "Penne all´arrabbiata",
+      "price": 5.5
+    },
+    {
+      "desc": "Spinelli mit Gulasch",
+      "price": 5.5
+    }
+  ],
+  "2026-W48": [
+    {
+      "desc": "Farfalle mit Kürbisrahm und gerösteten Mandeln",
+      "price": 5.5
+    },
+    {
+      "desc": "Pasta mit Wurstgulasch",
+      "price": 5.5
+    },
+    {
+      "desc": "Spaghetti mit getrockneten Tomaten, Hirtenkäse & Rucola",
+      "price": 5.5
+    }
+  ]
+}
