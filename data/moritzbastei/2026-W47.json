@@ -1,0 +1,60 @@
+{
+  "2026-11-16": [],
+  "2026-11-17": [
+    {
+      "desc": "Schweineschnitzel mit Spiegelei und Bratkartoffeln, dazu Tomatensalat",
+      "price": 10.2
+    },
+    {
+      "desc": "Karotten-Pfanne mit Zuckerschoten, Kartoffeln und Petersilie, dazu geröstete Sonnenblumenkerne und Hirtenkäse (veget.)",
+      "price": 9.2
+    }
+  ],
+  "2026-11-18": [],
+  "2026-11-19": [
+    {
+      "desc": "Currywurst \"Nach Art des Hauses\" mit Kartoffelecken und Salatbeilage",
+      "price": 9.8
+    },
+    {
+      "desc": "Gerösteter Blumenkohl mit rote Bete Hummus, Fladenbrot und Salatbeilage (vegan)",
+      "price": 9.2
+    }
+  ],
+  "2026-11-20": [
+    {
+      "desc": "Seelachsfilet in Cornflakes-Panade, dazu Süßkartoffelspalten, Chili-Maiscreme und Tomatensalat",
+      "price": 9.9
+    },
+    {
+      "desc": "Pfeffergeschnetzeltes vom Huhn, mit Kirschtomaten und frittiertem Rucola, dazu Basmatireis",
+      "price": 9.8
+    }
+  ],
+  "2026-W47": [
+    {
+      "desc": "Pasta mit Paprika-Chili-Honigpesto, dazu geröstete Sonnenblumenkerne (veget.) und Parmesan",
+      "price": 10.9
+    },
+    {
+      "desc": "Kürbislasagne überbacken mit Mozzarella und Mandeln (veget.)",
+      "price": 12.9
+    },
+    {
+      "desc": "Hähnchengratin mit Penne und gebratener Zucchini, in pikanter Tomatensoße, überbacken mit Mozzarella und Sonnenblumenkernen",
+      "price": 12.9
+    },
+    {
+      "desc": "Soja-Kesselgulasch mit Baguette (vegan) — klein",
+      "price": 3.9
+    },
+    {
+      "desc": "Soja-Kesselgulasch mit Baguette (vegan) — groß",
+      "price": 6.9
+    },
+    {
+      "desc": "Pfeffergeschnetzeltes vom Huhn, mit Kirschtomaten und frittiertem Rucola, dazu Basmatireis (Extra ab 15 Uhr)",
+      "price": 12.9
+    }
+  ]
+}
