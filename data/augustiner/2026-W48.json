@@ -1,0 +1,52 @@
+{
+  "2026-11-23": [
+    {
+      "desc": "Schweineschnitzel „Wiener Art“ mit Kartoffel-Gurken-Salat",
+      "price": 8.5
+    },
+    {
+      "desc": "Allgäuer Käsespätzle mit Röstzwiebeln",
+      "price": 8.5
+    }
+  ],
+  "2026-11-24": [
+    {
+      "desc": "Hackbraten mit Senfmöhrchen und Salzkartoffeln",
+      "price": 8.5
+    },
+    {
+      "desc": "Gekochte Eier in Senfsauce mit Salzkartoffeln",
+      "price": 8.5
+    }
+  ],
+  "2026-11-25": [
+    {
+      "desc": "Schweinegeschnetzeltes „Zürcher Art“ mit Rösti Talern",
+      "price": 8.5
+    },
+    {
+      "desc": "Spaghetti mit Basilikum-Pesto und Kirschtomaten",
+      "price": 8.5
+    }
+  ],
+  "2026-11-26": [
+    {
+      "desc": "Hähnchenkeule mit Rotkohl und Kloß",
+      "price": 8.5
+    },
+    {
+      "desc": "Gnocchi in Käsesauce mit Rucola",
+      "price": 8.5
+    }
+  ],
+  "2026-11-27": [
+    {
+      "desc": "Backfisch mit Kartoffel-Gurken-Salat und Remoulade",
+      "price": 8.5
+    },
+    {
+      "desc": "Kartoffel-Frischkäse-Taschen an buntem Blattsalat",
+      "price": 8.5
+    }
+  ]
+}
