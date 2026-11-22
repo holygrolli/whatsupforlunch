@@ -45,8 +45,12 @@
       "price": 6.5
     },
     {
-      "desc": "Hähnchenragout mit Paprikrahm und Butterreis",
+      "desc": "Hähnchenragout mit Paprikarahm und Butterreis",
       "price": 7.0
+    },
+    {
+      "desc": "Überraschungsgericht mit Gemüse von KOLA Leipzig",
+      "price": null
     }
   ],
   "2026-10-29": [
