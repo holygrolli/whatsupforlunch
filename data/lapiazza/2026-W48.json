@@ -1,0 +1,52 @@
+{
+  "2026-W48": [
+    {
+      "desc": "Penne mit Büffelmozzarella in fruchtiger Tomatensauce",
+      "price": 7.5
+    },
+    {
+      "desc": "Hähnchen-Pilzragout mit Parmesan-Polenta",
+      "price": 7.5
+    },
+    {
+      "desc": "Spaghetti al Tonno mit Thunfisch und Zwiebeln",
+      "price": 7.5
+    },
+    {
+      "desc": "Pizza mit Schinken mit Tomatensauce, Mozzarella und Schinken",
+      "price": 7.5
+    },
+    {
+      "desc": "Maccheroni con Porchetta mit italienischen Schweinerollbraten in cremiger Sahne-Parmesan-Sauce",
+      "price": 8.0
+    },
+    {
+      "desc": "Gnocchi ai Quattro Formaggi Gnocchi in cremiger Vier-Käse-Sauce",
+      "price": 8.0
+    },
+    {
+      "desc": "Pizza Bufalina mit Tomatensauce und Büffelmozzarella",
+      "price": 8.0
+    },
+    {
+      "desc": "Gegrilltes Hähnchenbrustfilet mit cremigem Parmesanrisotto",
+      "price": 8.0
+    },
+    {
+      "desc": "Rosé Reis mit Muscheln in fruchtiger Tomatensauce und Knoblauch",
+      "price": 12.5
+    },
+    {
+      "desc": "Pizza mit Garnelen, Zucchini und Knoblauchöl mit Tomatensauce und Mozzarella",
+      "price": 12.5
+    },
+    {
+      "desc": "Gegrilltes Doradenfilet mit Spaghetti Aglio, Olio e Peperoncino",
+      "price": 12.5
+    },
+    {
+      "desc": "Gegrilltes Rumpsteak mit Tagesbeilage",
+      "price": 12.5
+    }
+  ]
+}
