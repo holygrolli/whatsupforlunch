@@ -1,0 +1,112 @@
+{
+  "2026-11-30": [
+    {
+      "desc": "Champignontopf mit Schwarzen Vollkornreis und Kräutersoße (DGE-Gericht)",
+      "price": 4.3
+    },
+    {
+      "desc": "Nudeln mit Tomatensoße und Käse (Menü 1)",
+      "price": 3.5
+    },
+    {
+      "desc": "Marinierter Hering in Sahnesoße mit Salzkartoffeln (Menü 2)",
+      "price": 4.95
+    },
+    {
+      "desc": "Geriebener Gouda (Sättigungsbeilage)",
+      "price": 0.45
+    },
+    {
+      "desc": "Kartoffeln (Sättigungsbeilage)",
+      "price": 1.1
+    },
+    {
+      "desc": "Rohkostsalat nach Angebot (Gemüsebeilage)",
+      "price": 1.4
+    }
+  ],
+  "2026-12-01": [
+    {
+      "desc": "Gebackene Kartoffeltaschen mit Frischkäse gefüllt & gem. Salat (DGE-Gericht)",
+      "price": 4.2
+    },
+    {
+      "desc": "Kohlrabi-Möhreneintopf (Menü 1)",
+      "price": 3.5
+    },
+    {
+      "desc": "Currywurst mit fruchtiger Currysoße (Menü 2)",
+      "price": 3.85
+    },
+    {
+      "desc": "Pommes (Sättigungsbeilage)",
+      "price": 1.3
+    },
+    {
+      "desc": "Rohkostsalat nach Angebot (Gemüsebeilage)",
+      "price": 1.4
+    }
+  ],
+  "2026-12-02": [
+    {
+      "desc": "Reisnudelsalat mit Kidneybohnen, Paprika, Tomaten und Hirtenkäse (DGE-Gericht)",
+      "price": 4.4
+    },
+    {
+      "desc": "Zwei Eier in Senfsoße mit Kartoffeln (Menü 1)",
+      "price": 3.5
+    },
+    {
+      "desc": "Lasagne al forno (Menü 2)",
+      "price": 4.25
+    },
+    {
+      "desc": "Rohkostsalat nach Angebot (Gemüsebeilage)",
+      "price": 1.4
+    }
+  ],
+  "2026-12-03": [
+    {
+      "desc": "Kartoffelgulasch mit Paprika und Kräuterhaube (DGE-Gericht)",
+      "price": 3.8
+    },
+    {
+      "desc": "Kaiserschmarrn mit Rosinen und Apfelmus (Menü 1)",
+      "price": 3.5
+    },
+    {
+      "desc": "Mariniertes Schweinesteak (Menü 2)",
+      "price": 3.85
+    },
+    {
+      "desc": "Bratkartoffeln (Sättigungsbeilage)",
+      "price": 1.3
+    },
+    {
+      "desc": "Rohkostsalat nach Angebot (Gemüsebeilage)",
+      "price": 1.4
+    },
+    {
+      "desc": "Erbsen (Gemüsebeilage)",
+      "price": 1.1
+    }
+  ],
+  "2026-12-04": [
+    {
+      "desc": "Ofenkartoffel mit Quark-dip und ein kl. gemischter Salat (DGE-Gericht)",
+      "price": 4.2
+    },
+    {
+      "desc": "Gemüse-Kartoffelauflauf mit Gouda überbacken (Menü 1)",
+      "price": 3.5
+    },
+    {
+      "desc": "Tagesangebot (Menü 2)",
+      "price": 0.0
+    },
+    {
+      "desc": "Rohkostsalat nach Angebot (Gemüsebeilage)",
+      "price": 1.4
+    }
+  ]
+}
