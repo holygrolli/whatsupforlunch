@@ -1,0 +1,69 @@
+{
+  "2026-11-23": [],
+  "2026-11-24": [
+    {
+      "desc": "Schweineschnitzel \"Westerm\" mit BBQ-Zwiebeln, Bacon und gebackenen Kartoffelecken, dazu Sour-Creme",
+      "price": 10.2
+    },
+    {
+      "desc": "Salbei-Gnocchi, dazu pikantes Kürbisragout, Cranberrys und geröstete Mandeln (veget.)",
+      "price": 9.5
+    }
+  ],
+  "2026-11-25": [
+    {
+      "desc": "Schwedische Hackbällchen \"Köttbullar\" mit Kartoffelpüree, crunchy Onions und Preiselbeeren",
+      "price": 9.8
+    },
+    {
+      "desc": "Cannelloni gefüllt mit Hirtenkäse in pikanter Tomatensoße, überbacken mit Gouda und Sonnenblumenkernen (veget.)",
+      "price": 9.2
+    }
+  ],
+  "2026-11-26": [
+    {
+      "desc": "Jägerschnitzel \"Made By Erika\" mit Tomatensoße, dazu Pasta und Gouda",
+      "price": 9.8
+    },
+    {
+      "desc": "Gebackene Risottobällchen auf Ratatouille-Gemüse (veget.) mit Parmesan",
+      "price": 9.2
+    }
+  ],
+  "2026-11-27": [
+    {
+      "desc": "Gebratenes Seelachsfilet mit Kartoffel-Pastinakenstampf, Mandelbrokkoli und Tomaten-Sahnesoße",
+      "price": 9.9
+    },
+    {
+      "desc": "Hähnchengeschnetzeltes mit gebratenem Spitzkohl, dazu Basmatireis",
+      "price": 9.8
+    }
+  ],
+  "2026-W48": [
+    {
+      "desc": "Pasta mit Karotten-Ingwergpesto, dazu geröstete Haselnüsse (veget.) und Parmesan",
+      "price": 10.9
+    },
+    {
+      "desc": "Spinat-Lasagne mit getrockneten Tomaten, überbacken mit Mozzarella (veget.)",
+      "price": 12.9
+    },
+    {
+      "desc": "Kartoffelgratin \"Griechischer Art\" mit Hackfleisch, Tomaten und Aubergine, überbacken mit Gouda",
+      "price": 12.9
+    },
+    {
+      "desc": "Lauch-Hackfleischsuppe mit Baguette (klein)",
+      "price": 3.9
+    },
+    {
+      "desc": "Lauch-Hackfleischsuppe mit Baguette (groß)",
+      "price": 6.9
+    },
+    {
+      "desc": "Hähnchengeschnetzeltes mit gebratenem Spitzkohl, dazu Basmatireis (Extra ab 15 Uhr)",
+      "price": 12.9
+    }
+  ]
+}
